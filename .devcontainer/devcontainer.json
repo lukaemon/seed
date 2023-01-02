@@ -1,0 +1,36 @@
+{
+	"name": "project-demo",
+	"context": "..",
+	"dockerFile": "Dockerfile",
+	"runArgs": [
+		"--gpus",
+		"all",
+		"--ipc",
+		"host",
+		"--shm-size",
+		"16G",
+		"--ulimit=memlock=-1",
+		"--ulimit=stack=67108864"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"GitHub.copilot",
+				"VisualStudioExptTeam.vscodeintellicode"
+			]
+		}
+	},
+	"mounts": [
+		"source=/home/lucas/nas,target=/workspaces/project-demo/nas,type=bind,consistency=cached",
+		"source=/home/lucas/dev/cache/hf_dataset,target=/workspaces/project-demo/cache/hf_dataset,type=bind,consistency=cached",
+		"source=/home/lucas/dev/cache/hf_model,target=/workspaces/project-demo/cache/hf_model,type=bind,consistency=cached"
+	],
+	"containerEnv": {
+		"HF_DATASETS_CACHE": "/workspaces/project-demo/cache/hf_dataset",
+		"TRANSFORMERS_CACHE": "/workspaces/project-demo/cache/hf_model",
+		"OPENAI_API_KEY": "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",
+		"HUGGINGFACEHUB_API_TOKEN": "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"
+	}
+}

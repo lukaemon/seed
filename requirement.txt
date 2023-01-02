@@ -1,0 +1,16 @@
+openai
+glances[all]
+ipykernel
+ipywidgets
+black
+transformers
+accelerate
+datasets
+evaluate
+bitsandbytes
+sentencepiece
+matplotlib
+requests
+beautifulsoup4
+langchain[all]
+gpt-index
