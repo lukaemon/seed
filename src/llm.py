@@ -1,12 +1,13 @@
 import os
 import openai
-
+from dotenv import load_dotenv
 
 davinci = "text-davinci-003"
 curie = "text-curie-001"
 babbage = "text-babbage-001"
 ada = "text-ada-001"
 
+load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 

@@ -1,5 +1,5 @@
 {
-	"name": "project-demo",
+	"name": "seedAgent",
 	"context": "..",
 	"dockerFile": "Dockerfile",
 	"runArgs": [
@@ -23,14 +23,12 @@
 		}
 	},
 	"mounts": [
-		"source=/home/lucas/nas,target=/workspaces/project-demo/nas,type=bind,consistency=cached",
-		"source=/home/lucas/dev/cache/hf_dataset,target=/workspaces/project-demo/cache/hf_dataset,type=bind,consistency=cached",
-		"source=/home/lucas/dev/cache/hf_model,target=/workspaces/project-demo/cache/hf_model,type=bind,consistency=cached"
+		"source=/home/lucas/nas,target=/workspaces/seedAgent/nas,type=bind,consistency=cached",
+		"source=/home/lucas/dev/cache/hf_dataset,target=/workspaces/seedAgent/cache/hf_dataset,type=bind,consistency=cached",
+		"source=/home/lucas/dev/cache/hf_model,target=/workspaces/seedAgent/cache/hf_model,type=bind,consistency=cached"
 	],
 	"containerEnv": {
-		"HF_DATASETS_CACHE": "/workspaces/project-demo/cache/hf_dataset",
-		"TRANSFORMERS_CACHE": "/workspaces/project-demo/cache/hf_model",
-		"OPENAI_API_KEY": "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",
-		"HUGGINGFACEHUB_API_TOKEN": "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"
+		"HF_DATASETS_CACHE": "/workspaces/seedAgent/cache/hf_dataset",
+		"TRANSFORMERS_CACHE": "/workspaces/seedAgent/cache/hf_model",
 	}
 }

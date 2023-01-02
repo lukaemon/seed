@@ -1,8 +1,8 @@
 from typing import List
 import textwrap
 
-from agent.llm import gpt
-from agent.backstory import build_dialogue_agent_backstory
+from llm import gpt
+from backstory import build_dialogue_agent_backstory
 
 
 class DialogueAgent:
