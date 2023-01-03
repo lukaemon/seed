@@ -1,12 +1,11 @@
-from config.constant import AGENT_NAME
 from base import Conversation, Message
 from gpt import gpt
 from prompt import ConversationPrompt, instruction, examples
 
 
 class ConversationAgent:
-    def __init__(self):
-        self.name: str = AGENT_NAME
+    def __init__(self, agent_name: str):
+        self.name = agent_name
         self.session_history = Conversation()
 
     def __call__(self, user_input: str) -> str:
@@ -29,3 +28,10 @@ class ConversationAgent:
 
     def render_session_history(self):
         return self.session_history.render()
+
+
+async def complete(agent_name: str, history: Conversation, new_user_input: str):
+    agent = ConversationAgent(agent_name)
+    agent.session_history = history
+
+    return agent(new_user_input)

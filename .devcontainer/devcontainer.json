@@ -23,7 +23,7 @@
 		}
 	},
 	"mounts": [
-		"source=/home/lucas/nas,target=/workspaces/seedAgent/nas,type=bind,consistency=cached",
+		// "source=/home/lucas/nas,target=/workspaces/seedAgent/nas,type=bind,consistency=cached",
 		"source=/home/lucas/dev/cache/hf_dataset,target=/workspaces/seedAgent/cache/hf_dataset,type=bind,consistency=cached",
 		"source=/home/lucas/dev/cache/hf_model,target=/workspaces/seedAgent/cache/hf_model,type=bind,consistency=cached"
 	],
