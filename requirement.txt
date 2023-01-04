@@ -3,10 +3,12 @@ ipykernel
 ipywidgets
 black
 
+git+https://github.com/huggingface/accelerate 
 transformers
-accelerate
 datasets
-evaluate
+evaluate[evaluator]
+bitsandbytes 
+sentencepiece 
 
 openai==0.25.*
 discord.py==2.1.*

@@ -10,7 +10,9 @@
 		"--shm-size",
 		"16G",
 		"--ulimit=memlock=-1",
-		"--ulimit=stack=67108864"
+		"--ulimit=stack=67108864",
+		"--env-file",
+		".devcontainer/devcontainer.env"
 	],
 	"customizations": {
 		"vscode": {

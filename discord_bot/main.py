@@ -16,7 +16,9 @@ from discord_bot.constant import (
     AGENT_NAME,
 )
 
-logger = logging.getLogger(__name__)
+from seed.llm.mt0 import MT0
+
+logger = logging.getLogger("main.py")
 
 logging.basicConfig(
     format="[%(asctime)s] [%(filename)s:%(lineno)d] %(message)s", level=logging.INFO
@@ -27,6 +29,12 @@ intents.message_content = True
 
 client = discord.Client(intents=intents)
 tree = discord.app_commands.CommandTree(client)
+
+logger.info("Initiating LLM backend...")
+conv_agent = ConversationAgent(AGENT_NAME)
+# conv_agent = ConversationAgent(
+#     AGENT_NAME, llm=MT0()
+# )  # uncomment to use MT0 or drop in other LLM
 
 
 @client.event
@@ -69,7 +77,7 @@ async def chat_command(int: discord.Interaction, message: str):
 
     async with thread.typing():
         # init messsage, no worry about history
-        response_text = ConversationAgent(AGENT_NAME)(message)
+        response_text = conv_agent(message)
         # send the result
         await thread.send(response_text)
 
@@ -120,7 +128,7 @@ async def on_message(message: DiscordMessage):
 
     # take the thread history as the conversation history
     async with thread.typing():
-        response_text = ConversationAgent(AGENT_NAME)(
+        response_text = conv_agent(
             user_input=message.content,
             session_history=Conversation(messages=channel_messages),
         )

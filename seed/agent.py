@@ -1,16 +1,26 @@
 from seed.memory import Conversation, Message
-from seed.llm.gpt import gpt
+from seed.llm.gpt import GPT
+
 from seed.prompt import ConversationPrompt, instruction, examples
+from seed.util import logger
+
+gpt = GPT()  # default llm
 
 
 class ConversationAgent:
-    def __init__(self, agent_name: str):
+    def __init__(self, agent_name: str, llm=gpt):
+        """default to gpt as baseline
+        :param agent_name: Name of the agent
+        :param llm: text2text interface, generic to funciton and instance
+        """
         self.name = agent_name
         self.session_history = Conversation()
-        self.llm = gpt
+        self.llm = llm
+
+        logger.info(f"Initialized {self.name} agent with llm {self.llm.model_name}")
 
     def __call__(self, user_input: str, session_history=None) -> str:
-        if session_history:  # if we have a drop in session history, use it
+        if session_history:  # optional drop in session history
             self.session_history = session_history
 
         response = self.llm(self._build_prompt(user_input))

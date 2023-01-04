@@ -1,28 +1,36 @@
 import os
 import openai
-from dotenv import load_dotenv
+from seed.util import logger
 
-load_dotenv()
-
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-HUGGINFACEHUB_API_TOKEN = os.getenv("HUGGINFACEHUB_API_TOKEN")
-
-openai.api_key = OPENAI_API_KEY
 davinci = "text-davinci-003"
 curie = "text-curie-001"
 babbage = "text-babbage-001"
 ada = "text-ada-001"
 
 
-# Temp and top_p from Sparrow paper
-def gpt(prompt, temperature=1, top_p=0.8, max_tokens=512):
-    res = openai.Completion.create(
-        prompt=prompt,
-        model=curie,
-        top_p=top_p,
-        temperature=temperature,
-        max_tokens=max_tokens,
-    )
+class GPT:
+    def __init__(self, model=curie):
+        openai.api_key = os.getenv("OPENAI_API_KEY")
+        self.model = model
 
-    message = res.choices[0].text.strip()
-    return message
+    def __call__(self, prompt, temperature=1, top_p=0.8, max_tokens=512):
+        """Temp and top_p from Sparrow paper"""
+        res = openai.Completion.create(
+            prompt=prompt,
+            model=self.model,
+            top_p=top_p,
+            temperature=temperature,
+            max_tokens=max_tokens,
+        )
+
+        message = res.choices[0].text.strip()
+
+        # logging
+        finish_reason = res.choices[0].finish_reason
+        logger.debug(f"\n{res.model=}\n{res.usage=}\n{finish_reason=}")
+
+        return message
+
+    @property
+    def model_name(self):
+        return self.model
