@@ -1,6 +1,6 @@
 from dataclasses import dataclass
-from base import Message, Conversation
 import textwrap
+from seed.memory import Message, Conversation
 
 
 @dataclass(frozen=True)

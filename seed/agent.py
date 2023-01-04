@@ -1,15 +1,19 @@
-from base import Conversation, Message
-from gpt import gpt
-from prompt import ConversationPrompt, instruction, examples
+from seed.memory import Conversation, Message
+from seed.llm.gpt import gpt
+from seed.prompt import ConversationPrompt, instruction, examples
 
 
 class ConversationAgent:
     def __init__(self, agent_name: str):
         self.name = agent_name
         self.session_history = Conversation()
+        self.llm = gpt
 
-    def __call__(self, user_input: str) -> str:
-        response = gpt(self._build_prompt(user_input))
+    def __call__(self, user_input: str, session_history=None) -> str:
+        if session_history:  # if we have a drop in session history, use it
+            self.session_history = session_history
+
+        response = self.llm(self._build_prompt(user_input))
         self._update_session_history(user_input, response)
         return response
 
@@ -28,10 +32,3 @@ class ConversationAgent:
 
     def render_session_history(self):
         return self.session_history.render()
-
-
-async def complete(agent_name: str, history: Conversation, new_user_input: str):
-    agent = ConversationAgent(agent_name)
-    agent.session_history = history
-
-    return agent(new_user_input)

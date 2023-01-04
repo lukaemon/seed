@@ -1,6 +1,11 @@
-import logging
+import os
 import openai
-from config.constant import OPENAI_API_KEY
+from dotenv import load_dotenv
+
+load_dotenv()
+
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+HUGGINFACEHUB_API_TOKEN = os.getenv("HUGGINFACEHUB_API_TOKEN")
 
 openai.api_key = OPENAI_API_KEY
 davinci = "text-davinci-003"
@@ -20,9 +25,4 @@ def gpt(prompt, temperature=1, top_p=0.8, max_tokens=512):
     )
 
     message = res.choices[0].text.strip()
-
-    # logging
-    finish_reason = res.choices[0].finish_reason
-    logging.debug(f"{res.model=}\n{res.usage=}\n{finish_reason=}")
-
     return message

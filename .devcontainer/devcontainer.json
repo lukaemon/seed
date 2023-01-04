@@ -30,5 +30,6 @@
 	"containerEnv": {
 		"HF_DATASETS_CACHE": "/workspaces/seedAgent/cache/hf_dataset",
 		"TRANSFORMERS_CACHE": "/workspaces/seedAgent/cache/hf_model",
+		"PYTHONPATH": "/workspaces/seedAgent"
 	}
 }

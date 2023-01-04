@@ -1,20 +1,20 @@
+from typing import Optional
 import logging
 
 import discord
 from discord import Message as DiscordMessage
 
-from base import Message, Conversation
-from agent import complete
-from config.constant import (
+
+from seed.memory import Message, Conversation
+from seed.agent import ConversationAgent
+from discord_bot.constant import (
     DISCORD_BOT_TOKEN,
-    DISCORD_CLIENT_ID,
-    ALLOWED_SERVER_IDS,
     BOT_INVITE_URL,
     ACTIVATE_THREAD_PREFX,
+    INACTIVATE_THREAD_PREFIX,
     MAX_THREAD_MESSAGES,
     AGENT_NAME,
 )
-from utils import close_thread, discord_message_to_message
 
 logger = logging.getLogger(__name__)
 
@@ -68,8 +68,8 @@ async def chat_command(int: discord.Interaction, message: str):
     )
 
     async with thread.typing():
-        # fetch completion
-        response_text = await complete(AGENT_NAME, Conversation(), message)
+        # init messsage, no worry about history
+        response_text = ConversationAgent(AGENT_NAME)(message)
         # send the result
         await thread.send(response_text)
 
@@ -116,16 +116,43 @@ async def on_message(message: DiscordMessage):
     channel_messages = [x for x in channel_messages if x is not None]
     channel_messages.reverse()
 
-    # generate the response
-    async with thread.typing():
-        response_text = await complete(
-            AGENT_NAME,
-            history=Conversation(messages=channel_messages),
-            new_user_input=message.content,
-        )
+    logging.info(channel_messages)
 
-    # send response
-    await thread.send(response_text)
+    # take the thread history as the conversation history
+    async with thread.typing():
+        response_text = ConversationAgent(AGENT_NAME)(
+            user_input=message.content,
+            session_history=Conversation(messages=channel_messages),
+        )
+        # send response
+        await thread.send(response_text)
+
+
+async def close_thread(thread: discord.Thread):
+    await thread.edit(name=INACTIVATE_THREAD_PREFIX)
+    await thread.send(
+        embed=discord.Embed(
+            description="**Thread closed** - Context limit reached, closing...",
+            color=discord.Color.blue(),
+        )
+    )
+    await thread.edit(archived=True, locked=True)
+
+
+def discord_message_to_message(message: DiscordMessage) -> Optional[Message]:
+    if (
+        message.type == discord.MessageType.thread_starter_message
+        and message.reference.cached_message
+        and len(message.reference.cached_message.embeds) > 0
+        and len(message.reference.cached_message.embeds[0].fields) > 0
+    ):
+        field = message.reference.cached_message.embeds[0].fields[0]
+        if field.value:
+            return Message(author=field.name, text=field.value)
+    else:
+        if message.content:
+            return Message(author=message.author.name, text=message.content)
+    return None
 
 
 client.run(DISCORD_BOT_TOKEN)
