@@ -3,8 +3,8 @@ ipykernel
 ipywidgets
 black
 
-git+https://github.com/huggingface/accelerate 
 transformers
+accelerate
 datasets
 evaluate[evaluator]
 bitsandbytes 

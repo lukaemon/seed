@@ -1,6 +1,5 @@
-> Road to helful, harmless and helpful agent.
-
-# Feature
+# Why?
+Discord chatbots can serve as effective platforms for testing multimodal agents, with the ultimate goal of creating a helpful, honest, and harmless agent that can be distributed to a wide audience in a self-sustaining manner. By using Discord chatbots as a testbed, we can explore ways to build and disseminate useful and trustworthy artificial intelligence that can benefit people around the world.
 
 # Setup
 - Build your `.devcontainer/devcontainer.env` from the template `.env.example`. 

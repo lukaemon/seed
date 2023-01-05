@@ -1,7 +1,7 @@
 from seed.memory import Conversation, Message
 from seed.llm.gpt import GPT
 
-from seed.prompt import ConversationPrompt, instruction, examples
+from seed.prompt import ConversationPrompt
 from seed.util import logger
 
 gpt = GPT()  # default llm
@@ -31,14 +31,14 @@ class ConversationAgent:
         self.session_history.add_message(Message("User", user_input))
         self.session_history.add_message(Message(self.name, response))
 
-    def _build_prompt(self, new_user_input: str):
-        return ConversationPrompt(
-            agent_name=self.name,
-            instruction=instruction(self.name),
-            examples=examples(self.name),
-            session_history=self.session_history,
-            new_user_input=new_user_input,
-        ).render()
+    def _build_prompt(self, user_input: str):
+        return str(
+            ConversationPrompt(
+                agent_name=self.name,
+                session_history=self.session_history,
+                user_input=user_input,
+            )
+        )
 
     def render_session_history(self):
         return self.session_history.render()

@@ -1,18 +1,16 @@
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-import torch
+from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-mt0_large = "bigscience/mt0-large"  # 1.2b
-mt0_xl = "bigscience/mt0-xl"  # 3.7b
-mt0_xxl = "bigscience/mt0-xxl"  # 13b
+flan_t5_xl = "google/flan-t5-xl"
+flan_t5_xxl = "google/flan-t5-xxl"
 
 
-class MT0:
-    def __init__(self, checkpoint=mt0_xxl):
+class FlanT5:
+    def __init__(self, checkpoint=flan_t5_xxl):
         self.checkpoint = checkpoint
 
-        self.tokenizer = AutoTokenizer.from_pretrained(checkpoint)
-        self.model = AutoModelForSeq2SeqLM.from_pretrained(
-            checkpoint, device_map="auto", torch_dtype=torch.float16
+        self.tokenizer = T5Tokenizer.from_pretrained(checkpoint)
+        self.model = T5ForConditionalGeneration.from_pretrained(
+            checkpoint, device_map="auto"
         )
 
     def __call__(self, prompt, temperature=1, top_p=0.8, max_tokens=512):
