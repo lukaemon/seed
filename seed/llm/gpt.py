@@ -2,6 +2,7 @@ import os
 import openai
 from seed.util import logger
 
+
 davinci = "text-davinci-003"
 curie = "text-curie-001"
 babbage = "text-babbage-001"

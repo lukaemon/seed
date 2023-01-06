@@ -3,11 +3,11 @@ Discord chatbots can serve as effective platforms for testing multimodal agents,
 By using Discord chatbots as a testbed, we can explore ways to build and disseminate useful and trustworthy artificial intelligence.
 
 ## `seed` library
-The goal is building a modularized AI as starting point. Fairly advanced AI may not need human designed modularization. This setup better for fast iteration and learning. No worry about human intervention getting in way of AGI. We won't get there in one-shot. Maybe after 1m shot we would be in a position to think about taking off human limitation.
+The goal is building a modularized AI as starting point. Fairly advanced AI may not need human designed modularization. This setup is better for fast iteration and learning. No worry about human intervention getting in way of AGI. We won't get there in one-shot. Maybe after 1m shot we would be in a position to think about taking off human limitation.
 
 ## Discord bot
 ### Setup
-- Build your `.devcontainer/devcontainer.env` from the template `.env.example`. 
+- Build your `.env` from the template `.env.example`. Fill in your tokens. `vscode` would load those env var automatically.
   - [ref: container env](https://code.visualstudio.com/remote/advancedcontainers/environment-variables#_option-2-use-an-env-file)
   - [ref: discord bot token?](https://github.com/openai/gpt-discord-bot#setup)
 - Modify the `mounts` and `containerEnv` in `.devcontainer/devcontainer.json`. 

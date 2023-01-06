@@ -12,7 +12,7 @@
 		"--ulimit=memlock=-1",
 		"--ulimit=stack=67108864",
 		"--env-file",
-		".devcontainer/devcontainer.env"
+		".env"
 	],
 	"customizations": {
 		"vscode": {

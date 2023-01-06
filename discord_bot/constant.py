@@ -1,7 +1,4 @@
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 AGENT_NAME = "CoCo"
 ALLOWED_SERVER_IDS = os.getenv("ALLOWED_SERVER_IDS")
