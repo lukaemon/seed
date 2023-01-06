@@ -1,5 +1,5 @@
 {
-	"name": "seedAgent",
+	"name": "seed",
 	"context": "..",
 	"dockerFile": "Dockerfile",
 	"runArgs": [
@@ -25,13 +25,13 @@
 		}
 	},
 	"mounts": [
-		// "source=/home/lucas/nas,target=/workspaces/seedAgent/nas,type=bind,consistency=cached",
-		"source=/home/lucas/dev/cache/hf_dataset,target=/workspaces/seedAgent/cache/hf_dataset,type=bind,consistency=cached",
-		"source=/home/lucas/dev/cache/hf_model,target=/workspaces/seedAgent/cache/hf_model,type=bind,consistency=cached"
+		// "source=/home/lucas/nas,target=/workspaces/seed/nas,type=bind,consistency=cached",
+		"source=/home/lucas/dev/cache/hf_dataset,target=/workspaces/seed/cache/hf_dataset,type=bind,consistency=cached",
+		"source=/home/lucas/dev/cache/hf_model,target=/workspaces/seed/cache/hf_model,type=bind,consistency=cached"
 	],
 	"containerEnv": {
-		"HF_DATASETS_CACHE": "/workspaces/seedAgent/cache/hf_dataset",
-		"TRANSFORMERS_CACHE": "/workspaces/seedAgent/cache/hf_model",
-		"PYTHONPATH": "/workspaces/seedAgent"
+		"HF_DATASETS_CACHE": "/workspaces/seed/cache/hf_dataset",
+		"TRANSFORMERS_CACHE": "/workspaces/seed/cache/hf_model",
+		"PYTHONPATH": "/workspaces/seed"
 	}
 }
