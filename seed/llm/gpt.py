@@ -14,7 +14,7 @@ class GPT:
         openai.api_key = os.getenv("OPENAI_API_KEY")
         self.checkpoint = checkpoint
 
-    def __call__(self, prompt, temperature=1, top_p=0.8, max_tokens=512):
+    def __call__(self, prompt, temperature=1, top_p=0.8, max_tokens=512) -> str:
         """Temp and top_p from Sparrow paper"""
         res = openai.Completion.create(
             prompt=prompt,

@@ -1,3 +1,6 @@
+# https://github.com/huggingface/transformers/issues/20287#issuecomment-1342219429
+# https://github.com/huggingface/transformers/pull/20683
+
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
 flan_t5_xl = "google/flan-t5-xl"

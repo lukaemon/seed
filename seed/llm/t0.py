@@ -1,18 +1,17 @@
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 import torch
 
-mt0_large = "bigscience/mt0-large"  # 1.2b
-mt0_xl = "bigscience/mt0-xl"  # 3.7b
-mt0_xxl = "bigscience/mt0-xxl"  # 13b
+t03b = "bigscience/T0_3B"
+t0pp = "bigscience/T0pp"
 
 
-class MT0:
-    def __init__(self, checkpoint=mt0_xxl):
+class T0:
+    def __init__(self, checkpoint=t03b):
         self.checkpoint = checkpoint
 
         self.tokenizer = AutoTokenizer.from_pretrained(checkpoint)
         self.model = AutoModelForSeq2SeqLM.from_pretrained(
-            checkpoint, device_map="auto", torch_dtype=torch.float16
+            checkpoint, device_map="sequential", torch_dtype=torch.bfloat16
         )
 
     def __call__(self, prompt, temperature=1, top_p=0.8, max_tokens=512):
