@@ -1,8 +1,8 @@
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 import torch
 
-t03b = "bigscience/T0_3B"
-t0pp = "bigscience/T0pp"
+t03b = "bigscience/T0_3B"  # 3b
+t0pp = "bigscience/T0pp"  # 11b
 
 
 class T0:

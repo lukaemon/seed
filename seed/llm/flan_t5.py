@@ -3,8 +3,8 @@
 
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
-flan_t5_xl = "google/flan-t5-xl"
-flan_t5_xxl = "google/flan-t5-xxl"
+flan_t5_xl = "google/flan-t5-xl"  # 3b
+flan_t5_xxl = "google/flan-t5-xxl"  # 11b
 
 
 class FlanT5:

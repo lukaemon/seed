@@ -19,3 +19,17 @@ The goal is building a modularized AI as starting point. Fairly advanced AI may 
 ```shell
 python -m discord_bot.main
 ```
+
+## Paper reproduction.
+### Model selection
+- OpenAI `davinci` is the only publicly accessible decorder model that's worth studying. Wait for `anthropic`'s LM. 
+- `flan-t5-xxl` is the most versatile and best performant encoder decoder model for now. 
+  - You need `A6000` to do inference with `flan-t5-xxl`. 11b model requies 44g GPU ram to run in `float32`.
+  - Setup `JarvisLabs` [A6000 insance](https://cloud.jarvislabs.ai/): 
+- `t0pp` is weaker, older, open source version of `flan-t5`. Still worth playing with and I could run it locally with
+```python
+model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, device_map='sequential', torch_dtype=torch.bfloat16)
+```
+
+### Paper of intereste
+- [Chain of Thought Prompting Elicits Reasoning in Large Language Models](/paper/weiChainThoughtPrompting2022/)
