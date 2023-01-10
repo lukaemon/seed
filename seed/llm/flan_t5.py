@@ -1,6 +1,3 @@
-# https://github.com/huggingface/transformers/issues/20287#issuecomment-1342219429
-# https://github.com/huggingface/transformers/pull/20683
-
 from transformers import T5Tokenizer, T5ForConditionalGeneration
 
 flan_t5_xl = "google/flan-t5-xl"  # 3b
@@ -12,9 +9,8 @@ class FlanT5:
         self.checkpoint = checkpoint
 
         self.tokenizer = T5Tokenizer.from_pretrained(checkpoint)
-        self.model = T5ForConditionalGeneration.from_pretrained(
-            checkpoint, device_map="auto"
-        )
+        self.model = T5ForConditionalGeneration.from_pretrained(checkpoint)
+        self.model.parallelize()
 
     def __call__(self, prompt, temperature=1, top_p=0.8, max_tokens=512):
         inputs = self.tokenizer.encode(prompt, return_tensors="pt").to("cuda")

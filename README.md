@@ -13,7 +13,7 @@ The goal is building a modularized AI as starting point. Fairly advanced AI may 
 - Modify the `mounts` and `containerEnv` in `.devcontainer/devcontainer.json`. 
   - You definitely won't need to mount `nas`. 
   - If you have no preference on huggingface cache, just delete them. 
-- You need 2x and more GPUs to run `huggingface` models. Stick to OpenAI api with limited compute budget. 
+- You need 2x 3090 to run `huggingface` models such as `flan-t5`. Stick to OpenAI api with limited compute budget. 
 
 ### Run
 ```shell
@@ -24,9 +24,9 @@ python -m discord_bot.main
 ### Model selection
 - OpenAI `davinci` is the only publicly accessible decorder model that's worth studying. Wait for `anthropic`'s LM. 
 - `flan-t5-xxl` is the most versatile and best performant encoder decoder model for now. 
-  - You need `A6000` to do inference with `flan-t5-xxl`. 11b model requies 44g GPU ram to run in `float32`.
-  - Setup `JarvisLabs` [A6000 insance](https://cloud.jarvislabs.ai/): 
-- `t0pp` is weaker, older, open source version of `flan-t5`. Still worth playing with and I could run it locally with
+- `t0pp` is weaker, older, open source version of `flan-t5`. Still worth playing with and I could run it locally with. 
+  - It has [opensource repo](https://github.com/bigscience-workshop/t-zero) to emulate. Easier to get started. 
+  - _instruction finetuning without CoT actually degrades reasoning ability, including just nine CoT datasets improves performance on all evaluations_ from `flan-t5` paper. So reasoning related benchmark on `t0pp` is not worth it. 
 ```python
 model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint, device_map='sequential', torch_dtype=torch.bfloat16)
 ```
