@@ -13,7 +13,7 @@ The goal is building a modularized AI as starting point. Fairly advanced AI may 
 - Modify the `mounts` and `containerEnv` in `.devcontainer/devcontainer.json`. 
   - You definitely won't need to mount `nas`. 
   - If you have no preference on huggingface cache, just delete them. 
-- You need 2x 3090 to run `huggingface` models such as `flan-t5`. Stick to OpenAI api with limited compute budget. 
+- You need 128gb CPU ram and 2x 3090 to run `huggingface` model locally, ex: `t0pp`. Stick to OpenAI api with limited compute budget. 
 
 ### Run
 ```shell
