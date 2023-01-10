@@ -1,5 +1,5 @@
-# Natively, both are useless as convo agent backend.
-# That's understandable. You need serious finetuning to get 11b model to work for the task.
+# Natively, T5 series are useless as convo agent backend.
+# You need serious finetuning to get 11b model to work for the task.
 
 import torch
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
@@ -11,8 +11,13 @@ flan_t5_xxl = "google/flan-t5-xxl"  # 11b
 
 t03b = "bigscience/T0_3B"  # 3b
 
-# bf16 works, GPU ram settled around 21g total. CPU ram peaked around 65.8g
+# bf16 works, GPU ram settled around 21g total. CPU ram peaked around 66 g
 t0pp = "bigscience/T0pp"  # 11b
+
+t5_lm = "google/t5-xxl-lm-adapt"  # 11b
+
+# bf16 works, GPU ram settled around 40g total. CPU ram peaked around 80g
+ul2 = "google/ul2"  # 20b
 
 
 class T5:
