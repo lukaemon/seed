@@ -1,0 +1,8 @@
+{
+    "dataset_name": "super_glue",
+    "dataset_config_name": "rte",
+    "template_name": "must be true",
+    "evaluation": {
+        "accuracy": 0.7003610108303249
+    }
+}

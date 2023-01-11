@@ -81,7 +81,7 @@ def parse_args():
         "--target_max_length",
         type=int,
         default=256,
-        help="Target max length. Sequences longer than this will be truncated."
+        help="Target max length. Sequences longer than this will be truncated.",
     )
     parser.add_argument(
         "--pad_to_max_length",
@@ -118,10 +118,7 @@ def parse_args():
         help="Batch size (per device) for the evaluation dataloader.",
     )
     parser.add_argument(
-        "--output_dir",
-        type=str,
-        default=None,
-        help="Where to store the final model."
+        "--output_dir", type=str, default=None, help="Where to store the final model."
     )
     parser.add_argument(
         "--debug",
@@ -156,14 +153,15 @@ def main():
 
     # Setup logging, we only want one process per machine to log things on the screen.
     # accelerator.is_local_main_process is only True for one process per machine.
-    logger.setLevel(logging.INFO if accelerator.is_local_main_process else logging.ERROR)
+    logger.setLevel(
+        logging.INFO if accelerator.is_local_main_process else logging.ERROR
+    )
     if accelerator.is_local_main_process:
         datasets.utils.logging.set_verbosity_warning()
         transformers.utils.logging.set_verbosity_info()
     else:
         datasets.utils.logging.set_verbosity_error()
         transformers.utils.logging.set_verbosity_error()
-
 
     # Handle the output directory creation
     if accelerator.is_main_process:
@@ -177,18 +175,25 @@ def main():
         if args.dataset_name == "anli":
             error_message = "For ANLI, `dataset_config_name` should be either `dev_r1`, `dev_r2` or `dev_r3`."
             assert args.dataset_config_name is not None, error_message
-            assert args.dataset_config_name in ["dev_r1", "dev_r2", "dev_r3"], error_message
-            raw_datasets = load_dataset(args.dataset_name, split=args.dataset_config_name)
+            assert args.dataset_config_name in [
+                "dev_r1",
+                "dev_r2",
+                "dev_r3",
+            ], error_message
+            raw_datasets = load_dataset(
+                args.dataset_name, split=args.dataset_config_name
+            )
         else:
-            raw_datasets = load_dataset(args.dataset_name, args.dataset_config_name, split="validation")
-    #TODO(Victor): enable loading pre-processed dataset from https://huggingface.co/datasets/bigscience/P3
+            raw_datasets = load_dataset(
+                args.dataset_name, args.dataset_config_name, split="validation"
+            )
+    # TODO(Victor): enable loading pre-processed dataset from https://huggingface.co/datasets/bigscience/P3
 
     # Trim a number of evaluation examples
     if args.debug:
-        raw_datasets = raw_datasets.select(range(min(len(raw_datasets),100)))
+        raw_datasets = raw_datasets.select(range(min(len(raw_datasets), 100)))
 
     column_names = raw_datasets.column_names
-
 
     # Load pretrained model and tokenizer
     #
@@ -204,9 +209,17 @@ def main():
         )
 
     if args.tokenizer_name:
-        tokenizer = AutoTokenizer.from_pretrained(args.tokenizer_name, use_fast=not args.use_slow_tokenizer, padding_side="left")
+        tokenizer = AutoTokenizer.from_pretrained(
+            args.tokenizer_name,
+            use_fast=not args.use_slow_tokenizer,
+            padding_side="left",
+        )
     elif args.model_name_or_path:
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, use_fast=not args.use_slow_tokenizer, padding_side="left")
+        tokenizer = AutoTokenizer.from_pretrained(
+            args.model_name_or_path,
+            use_fast=not args.use_slow_tokenizer,
+            padding_side="left",
+        )
     else:
         raise ValueError(
             "You are instantiating a new tokenizer from scratch. This is not supported by this script."
@@ -220,11 +233,10 @@ def main():
         if tokenizer.pad_token is None:
             raise ValueError("Please define a pad token id.")
 
-
     model = ModelBase.from_config(
         config=config,
         model_name_or_path=args.model_name_or_path,
-        parallelize=args.parallelize
+        parallelize=args.parallelize,
     )
 
     # Preprocessing the datasets.
@@ -247,10 +259,7 @@ def main():
         target_texts = []
         answer_choices_texts = []
         for i in range(bs):
-            ex = {
-                k: examples[k][i]
-                for k in column_names
-            }
+            ex = {k: examples[k][i] for k in column_names}
             input, target = template.apply(ex)
             ex_answer_choices = template.get_answer_choices_list(ex)
             assert target in ex_answer_choices
@@ -284,17 +293,12 @@ def main():
             for k, v in tokenized_inputs.items()
         }
 
-        features["labels"] = [
-            tokenized_targets[idx]["input_ids"]
-            for idx in range(bs)
-        ]
+        features["labels"] = [tokenized_targets[idx]["input_ids"] for idx in range(bs)]
         features["labels_attention_mask"] = [
-            tokenized_targets[idx]["attention_mask"]
-            for idx in range(bs)
+            tokenized_targets[idx]["attention_mask"] for idx in range(bs)
         ]
         features["targets"] = [
-            answer_choices_texts[idx].index(t)
-            for idx, t in enumerate(target_texts)
+            answer_choices_texts[idx].index(t) for idx, t in enumerate(target_texts)
         ]
 
         return features
@@ -321,8 +325,11 @@ def main():
             tokenizer, pad_to_multiple_of=(8 if accelerator.use_fp16 else None)
         )
 
-    eval_dataloader = DataLoader(eval_dataset, collate_fn=data_collator, batch_size=args.per_device_eval_batch_size)
-
+    eval_dataloader = DataLoader(
+        eval_dataset,
+        collate_fn=data_collator,
+        batch_size=args.per_device_eval_batch_size,
+    )
 
     # Use the device given by the `accelerator` object.
     if not args.parallelize:
@@ -330,7 +337,6 @@ def main():
 
     # Prepare everything with our `accelerator`.
     eval_dataloader = accelerator.prepare(eval_dataloader)
-
 
     # Metrics
     metric = load_metric("accuracy")
@@ -340,10 +346,16 @@ def main():
 
     logger.info("***** Running evaluation *****")
     logger.info(f"  Num examples = {len(eval_dataset)}")
-    logger.info(f"  Instantaneous batch size per device = {args.per_device_eval_batch_size}")
-    logger.info(f"  Total eval batch size (w. parallel, distributed) = {total_batch_size}")
+    logger.info(
+        f"  Instantaneous batch size per device = {args.per_device_eval_batch_size}"
+    )
+    logger.info(
+        f"  Total eval batch size (w. parallel, distributed) = {total_batch_size}"
+    )
     # Only show the progress bar once on each machine.
-    progress_bar = tqdm(range(len(eval_dataloader)), disable=not accelerator.is_local_main_process)
+    progress_bar = tqdm(
+        range(len(eval_dataloader)), disable=not accelerator.is_local_main_process
+    )
 
     model.eval()
     for batch in eval_dataloader:
@@ -364,7 +376,7 @@ def main():
         "dataset_name": args.dataset_name,
         "dataset_config_name": args.dataset_config_name,
         "template_name": args.template_name,
-        "evaluation": eval_metric
+        "evaluation": eval_metric,
     }
     if accelerator.is_main_process:
         if args.output_dir is not None:
