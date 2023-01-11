@@ -32,6 +32,6 @@
 	"containerEnv": {
 		"HF_DATASETS_CACHE": "/workspaces/seed/cache/hf_dataset",
 		"TRANSFORMERS_CACHE": "/workspaces/seed/cache/hf_model",
-		"PYTHONPATH": "/workspaces/seed"
+		"PYTHONPATH": "/workspaces/seed:/workspaces/seed/paper/sanhMultitaskPromptedTraining2022a/t-zero"
 	}
 }

@@ -2,21 +2,24 @@
 # You need serious finetuning to get 11b model to work for the task.
 
 import torch
-from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+from transformers import T5ForConditionalGeneration, AutoTokenizer
 
 flan_t5_xl = "google/flan-t5-xl"  # 3b
 
-# bf16 works, GPU ram settled around 21g total. CPU ram peaked around 35g
+# bf16, GPU ram 21g. CPU ram 35g
 flan_t5_xxl = "google/flan-t5-xxl"  # 11b
 
 t03b = "bigscience/T0_3B"  # 3b
 
-# bf16 works, GPU ram settled around 21g total. CPU ram peaked around 66 g
+# bf16, GPU ram 21g. CPU ram 40g
+# with low_cpu_mem_usage=True, CPU ram 66g -> 40g, loading time 1m40s -> 48s
 t0pp = "bigscience/T0pp"  # 11b
+t0 = "bigscience/T0"  # 11b
 
 t5_lm = "google/t5-xxl-lm-adapt"  # 11b
 
-# bf16 works, GPU ram settled around 40g total. CPU ram peaked around 80g
+# bf16, GPU ram 40g. CPU ram 40g
+# with low_cpu_mem_usage=True, CPU ram 80g -> 40g, loading time 2m32s -> 19s
 ul2 = "google/ul2"  # 20b
 
 
@@ -25,8 +28,9 @@ class T5:
         self.checkpoint = checkpoint
 
         self.tokenizer = AutoTokenizer.from_pretrained(checkpoint)
-        self.model = AutoModelForSeq2SeqLM.from_pretrained(
+        self.model = T5ForConditionalGeneration.from_pretrained(
             checkpoint,
+            low_cpu_mem_usage=True,
             torch_dtype=torch.bfloat16,
         )
         self.model.parallelize()
