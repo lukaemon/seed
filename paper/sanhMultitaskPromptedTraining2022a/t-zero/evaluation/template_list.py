@@ -64,13 +64,6 @@ template_list = {
         "fill in the blank",
         "Replace",
     ],
-    ("story_cloze", "2016"): [
-        "Answer Given options",
-        "Choose Story Ending",
-        "Movie What Happens Next",
-        "Story Continuation and Options",
-        "Novel Correct Ending",
-    ],
     ("super_glue", "wic"): [
         "question-context-meaning-with-label",
         "question-context-meaning",
@@ -102,5 +95,14 @@ template_list = {
         "cause_effect",
         "…why? C1 or C2",
         "choose",
-    ]
+    ],
 }
+
+
+# ("story_cloze", "2016"): [
+#     "Answer Given options",
+#     "Choose Story Ending",
+#     "Movie What Happens Next",
+#     "Story Continuation and Options",
+#     "Novel Correct Ending",
+# ],

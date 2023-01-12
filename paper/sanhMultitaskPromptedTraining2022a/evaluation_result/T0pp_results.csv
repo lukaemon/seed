@@ -1,0 +1,26 @@
+model_name,dataset_name,dataset_subset_name,dataset_size,prompt_name,accuracy
+bigscience/T0pp,super_glue,rte,100,MNLI crowdsource,0.9
+bigscience/T0pp,super_glue,rte,100,guaranteed true,0.88
+bigscience/T0pp,super_glue,rte,100,can we infer,0.88
+bigscience/T0pp,super_glue,rte,100,GPT-3 style,0.84
+bigscience/T0pp,super_glue,rte,100,does this imply,0.89
+bigscience/T0pp,super_glue,rte,100,should assume,0.87
+bigscience/T0pp,super_glue,rte,100,does it follow that,0.83
+bigscience/T0pp,super_glue,rte,100,based on the previous passage,0.91
+bigscience/T0pp,super_glue,rte,100,justified in saying,0.88
+bigscience/T0pp,super_glue,rte,100,must be true,0.86
+bigscience/T0pp,super_glue,cb,56,can we infer,0.8571428571428571
+bigscience/T0pp,super_glue,cb,56,based on the previous passage,0.8214285714285714
+bigscience/T0pp,super_glue,cb,56,claim true/false/inconclusive,0.32142857142857145
+bigscience/T0pp,super_glue,cb,56,does it follow that,0.6964285714285714
+bigscience/T0pp,super_glue,cb,56,justified in saying,0.8214285714285714
+bigscience/T0pp,super_glue,cb,56,always/sometimes/never,0.0
+bigscience/T0pp,super_glue,cb,56,GPT-3 style,0.8571428571428571
+bigscience/T0pp,super_glue,cb,56,consider always/sometimes/never,0.0
+bigscience/T0pp,super_glue,cb,56,guaranteed true,0.7678571428571429
+bigscience/T0pp,super_glue,cb,56,must be true,0.8035714285714286
+bigscience/T0pp,super_glue,cb,56,guaranteed/possible/impossible,0.0
+bigscience/T0pp,super_glue,cb,56,does this imply,0.8214285714285714
+bigscience/T0pp,super_glue,cb,56,MNLI crowdsource,0.0
+bigscience/T0pp,super_glue,cb,56,should assume,0.8392857142857143
+bigscience/T0pp,super_glue,cb,56,take the following as truth,0.125
