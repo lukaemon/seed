@@ -20,7 +20,7 @@ The goal is building a modularized AI as starting point. Fairly advanced AI may 
 python -m discord_bot.main
 ```
 
-## Paper reproduction.
+## Paper reproduction
 ### Model selection
 - OpenAI `davinci` is the only publicly accessible decorder model that's worth studying. Wait for `anthropic`'s LM. 
 - `flan-t5-xxl` is the most versatile and best performant encoder decoder model for now. 
@@ -28,5 +28,6 @@ python -m discord_bot.main
   - [open source repo](https://github.com/bigscience-workshop/t-zero). Great starting point. 
   - _instruction finetuning without CoT actually degrades reasoning ability, including just nine CoT datasets improves performance on all evaluations_ from `flan-t5` paper. So reasoning related benchmark on `t0pp` is detrimental. 
 
-### Paper of interest
-- [Chain of Thought Prompting Elicits Reasoning in Large Language Models](/paper/weiChainThoughtPrompting2022/)
+### List
+- [Multitask Prompted Training Enables Zero-Shot Task Generalization (202203)](/paper/sanhMultitaskPromptedTraining2022a/)
+- [Chain of Thought Prompting Elicits Reasoning in Large Language Models (202210)](/paper/weiChainThoughtPrompting2022/)

@@ -1,0 +1,82 @@
+model_name,dataset_name,dataset_subset_name,dataset_size,prompt_name,accuracy
+google/flan-t5-xl,super_glue,rte,100,MNLI crowdsource,0.85
+google/flan-t5-xl,super_glue,rte,100,guaranteed true,0.56
+google/flan-t5-xl,super_glue,rte,100,can we infer,0.75
+google/flan-t5-xl,super_glue,rte,100,GPT-3 style,0.45
+google/flan-t5-xl,super_glue,rte,100,does this imply,0.8
+google/flan-t5-xl,super_glue,rte,100,should assume,0.67
+google/flan-t5-xl,super_glue,rte,100,does it follow that,0.55
+google/flan-t5-xl,super_glue,rte,100,based on the previous passage,0.74
+google/flan-t5-xl,super_glue,rte,100,justified in saying,0.64
+google/flan-t5-xl,super_glue,rte,100,must be true,0.7
+google/flan-t5-xl,super_glue,cb,56,can we infer,0.7857142857142857
+google/flan-t5-xl,super_glue,cb,56,based on the previous passage,0.8035714285714286
+google/flan-t5-xl,super_glue,cb,56,claim true/false/inconclusive,0.0
+google/flan-t5-xl,super_glue,cb,56,does it follow that,0.75
+google/flan-t5-xl,super_glue,cb,56,justified in saying,0.75
+google/flan-t5-xl,super_glue,cb,56,always/sometimes/never,0.0
+google/flan-t5-xl,super_glue,cb,56,GPT-3 style,0.875
+google/flan-t5-xl,super_glue,cb,56,consider always/sometimes/never,0.0
+google/flan-t5-xl,super_glue,cb,56,guaranteed true,0.6428571428571429
+google/flan-t5-xl,super_glue,cb,56,must be true,0.5535714285714286
+google/flan-t5-xl,super_glue,cb,56,guaranteed/possible/impossible,0.0
+google/flan-t5-xl,super_glue,cb,56,does this imply,0.7857142857142857
+google/flan-t5-xl,super_glue,cb,56,MNLI crowdsource,0.0
+google/flan-t5-xl,super_glue,cb,56,should assume,0.8035714285714286
+google/flan-t5-xl,super_glue,cb,56,take the following as truth,0.14285714285714285
+google/flan-t5-xl,anli,,100,MNLI crowdsource,0.0
+google/flan-t5-xl,anli,,100,should assume,0.49
+google/flan-t5-xl,anli,,100,does it follow that,0.43
+google/flan-t5-xl,anli,,100,GPT-3 style,0.55
+google/flan-t5-xl,anli,,100,based on the previous passage,0.54
+google/flan-t5-xl,anli,,100,justified in saying,0.55
+google/flan-t5-xl,anli,,100,take the following as truth,0.15
+google/flan-t5-xl,anli,,100,must be true,0.48
+google/flan-t5-xl,anli,,100,can we infer,0.44
+google/flan-t5-xl,anli,,100,guaranteed/possible/impossible,0.0
+google/flan-t5-xl,anli,,100,always/sometimes/never,0.0
+google/flan-t5-xl,anli,,100,does this imply,0.55
+google/flan-t5-xl,anli,,100,consider always/sometimes/never,0.0
+google/flan-t5-xl,anli,,100,claim true/false/inconclusive,0.02
+google/flan-t5-xl,anli,,100,guaranteed true,0.49
+google/flan-t5-xl,super_glue,wsc.fixed,100,does the pronoun refer to,0.63
+google/flan-t5-xl,super_glue,wsc.fixed,100,by p they mean,0.55
+google/flan-t5-xl,super_glue,wsc.fixed,100,in other words,0.38
+google/flan-t5-xl,super_glue,wsc.fixed,100,I think they mean,0.57
+google/flan-t5-xl,super_glue,wsc.fixed,100,does p stand for,0.61
+google/flan-t5-xl,super_glue,wsc.fixed,100,GPT-3 Style,0.61
+google/flan-t5-xl,super_glue,wsc.fixed,100,replaced with,0.58
+google/flan-t5-xl,super_glue,wsc.fixed,100,p is/are r,0.48
+google/flan-t5-xl,super_glue,wsc.fixed,100,the pronoun refers to,0.33
+google/flan-t5-xl,super_glue,wsc.fixed,100,Who or what is/are,0.15
+google/flan-t5-xl,winogrande,winogrande_xl,100,does underscore refer to,0.63
+google/flan-t5-xl,winogrande,winogrande_xl,100,stand for,0.52
+google/flan-t5-xl,winogrande,winogrande_xl,100,underscore refer to,0.75
+google/flan-t5-xl,winogrande,winogrande_xl,100,fill in the blank,0.71
+google/flan-t5-xl,winogrande,winogrande_xl,100,Replace,0.8
+google/flan-t5-xl,super_glue,wic,100,question-context-meaning-with-label,0.37
+google/flan-t5-xl,super_glue,wic,100,question-context-meaning,0.0
+google/flan-t5-xl,super_glue,wic,100,grammar_homework,0.0
+google/flan-t5-xl,super_glue,wic,100,affirmation_true_or_false,0.44
+google/flan-t5-xl,super_glue,wic,100,GPT-3-prompt,0.0
+google/flan-t5-xl,super_glue,wic,100,same_sense,0.3
+google/flan-t5-xl,super_glue,wic,100,question-context,0.03
+google/flan-t5-xl,super_glue,wic,100,GPT-3-prompt-with-label,0.33
+google/flan-t5-xl,super_glue,wic,100,polysemous,0.35
+google/flan-t5-xl,super_glue,wic,100,similar-sense,0.0
+google/flan-t5-xl,hellaswag,,100,Predict ending with hint,0.0
+google/flan-t5-xl,hellaswag,,100,Randomized prompts template,0.0
+google/flan-t5-xl,hellaswag,,100,complete_first_then,0.02
+google/flan-t5-xl,hellaswag,,100,if_begins_how_continues,0.05
+google/flan-t5-xl,super_glue,copa,100,exercise,0.72
+google/flan-t5-xl,super_glue,copa,48,"…What could happen next, C1 or C2?",0.4375
+google/flan-t5-xl,super_glue,copa,100,i_am_hesitating,0.8
+google/flan-t5-xl,super_glue,copa,100,plausible_alternatives,0.77
+google/flan-t5-xl,super_glue,copa,100,"C1 or C2? premise, so/because…",0.09
+google/flan-t5-xl,super_glue,copa,48,"…As a result, C1 or C2?",0.08333333333333333
+google/flan-t5-xl,super_glue,copa,100,best_option,0.73
+google/flan-t5-xl,super_glue,copa,52,…which may be caused by,0.1346153846153846
+google/flan-t5-xl,super_glue,copa,100,more likely,0.74
+google/flan-t5-xl,super_glue,copa,100,cause_effect,0.82
+google/flan-t5-xl,super_glue,copa,52,…why? C1 or C2,0.21153846153846154
+google/flan-t5-xl,super_glue,copa,100,choose,0.71
