@@ -1,9 +1,9 @@
 ## Why?
-Discord chatbots can serve as effective platforms for testing multimodal agents, with the ultimate goal of creating a helpful, honest, and harmless agent that can be distributed to a wide audience in a self-sustaining manner.  
-By using Discord chatbots as a testbed, we can explore ways to build and disseminate useful and trustworthy artificial intelligence.
+Discord chatbot is an effective platform for testing multimodal agents, with the ultimate goal of creating a helpful, honest, and harmless AI that can be distributed to wide audience in a self-sustaining manner.  
+By using Discord chatbot as testbed, we can explore ways to build and disseminate useful and trustworthy AI.
 
 ## `seed` library
-The goal is building a modularized AI as starting point. Fairly advanced AI may not need human designed modularization. This setup is better for fast iteration and learning. No worry about human intervention getting in way of AGI. We won't get there in one-shot. Maybe after 1m shot we would be in a position to think about taking off human limitation.
+The goal is building a modularized AI as starting point. Fairly advanced AI may not need human designed modularization. The setup is for fast and cheap failures to facilitate fast learning. 
 
 ## Discord bot
 ### Setup

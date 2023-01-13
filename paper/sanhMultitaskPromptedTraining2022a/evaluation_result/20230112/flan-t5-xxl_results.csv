@@ -1,0 +1,82 @@
+model_name,dataset_name,subset_name,test_size,prompt_name,accuracy
+google/flan-t5-xxl,super_glue,rte,200,MNLI crowdsource,0.295
+google/flan-t5-xxl,super_glue,rte,200,guaranteed true,0.33
+google/flan-t5-xxl,super_glue,rte,200,can we infer,0.325
+google/flan-t5-xxl,super_glue,rte,200,GPT-3 style,0.475
+google/flan-t5-xxl,super_glue,rte,200,does this imply,0.42
+google/flan-t5-xxl,super_glue,rte,200,should assume,0.64
+google/flan-t5-xxl,super_glue,rte,200,does it follow that,0.43
+google/flan-t5-xxl,super_glue,rte,200,based on the previous passage,0.715
+google/flan-t5-xxl,super_glue,rte,200,justified in saying,0.485
+google/flan-t5-xxl,super_glue,rte,200,must be true,0.69
+google/flan-t5-xxl,super_glue,cb,56,can we infer,0.4107142857142857
+google/flan-t5-xxl,super_glue,cb,56,based on the previous passage,0.6428571428571429
+google/flan-t5-xxl,super_glue,cb,56,claim true/false/inconclusive,0.08928571428571429
+google/flan-t5-xxl,super_glue,cb,56,does it follow that,0.44642857142857145
+google/flan-t5-xxl,super_glue,cb,56,justified in saying,0.39285714285714285
+google/flan-t5-xxl,super_glue,cb,56,always/sometimes/never,0.017857142857142856
+google/flan-t5-xxl,super_glue,cb,56,GPT-3 style,0.44642857142857145
+google/flan-t5-xxl,super_glue,cb,56,consider always/sometimes/never,0.017857142857142856
+google/flan-t5-xxl,super_glue,cb,56,guaranteed true,0.42857142857142855
+google/flan-t5-xxl,super_glue,cb,56,must be true,0.32142857142857145
+google/flan-t5-xxl,super_glue,cb,56,guaranteed/possible/impossible,0.0
+google/flan-t5-xxl,super_glue,cb,56,does this imply,0.42857142857142855
+google/flan-t5-xxl,super_glue,cb,56,MNLI crowdsource,0.17857142857142858
+google/flan-t5-xxl,super_glue,cb,56,should assume,0.6428571428571429
+google/flan-t5-xxl,super_glue,cb,56,take the following as truth,0.48214285714285715
+google/flan-t5-xxl,anli,,200,MNLI crowdsource,0.13
+google/flan-t5-xxl,anli,,200,should assume,0.39
+google/flan-t5-xxl,anli,,200,does it follow that,0.3
+google/flan-t5-xxl,anli,,200,GPT-3 style,0.295
+google/flan-t5-xxl,anli,,200,based on the previous passage,0.38
+google/flan-t5-xxl,anli,,200,justified in saying,0.375
+google/flan-t5-xxl,anli,,200,take the following as truth,0.275
+google/flan-t5-xxl,anli,,200,must be true,0.175
+google/flan-t5-xxl,anli,,200,can we infer,0.325
+google/flan-t5-xxl,anli,,200,guaranteed/possible/impossible,0.0
+google/flan-t5-xxl,anli,,200,always/sometimes/never,0.0
+google/flan-t5-xxl,anli,,200,does this imply,0.39
+google/flan-t5-xxl,anli,,200,consider always/sometimes/never,0.06
+google/flan-t5-xxl,anli,,200,claim true/false/inconclusive,0.065
+google/flan-t5-xxl,anli,,200,guaranteed true,0.33
+google/flan-t5-xxl,super_glue,wsc.fixed,104,does the pronoun refer to,0.6346153846153846
+google/flan-t5-xxl,super_glue,wsc.fixed,104,by p they mean,0.5865384615384616
+google/flan-t5-xxl,super_glue,wsc.fixed,104,in other words,0.2403846153846154
+google/flan-t5-xxl,super_glue,wsc.fixed,104,I think they mean,0.47115384615384615
+google/flan-t5-xxl,super_glue,wsc.fixed,104,does p stand for,0.6057692307692307
+google/flan-t5-xxl,super_glue,wsc.fixed,104,GPT-3 Style,0.028846153846153848
+google/flan-t5-xxl,super_glue,wsc.fixed,104,replaced with,0.5769230769230769
+google/flan-t5-xxl,super_glue,wsc.fixed,104,p is/are r,0.5480769230769231
+google/flan-t5-xxl,super_glue,wsc.fixed,104,the pronoun refers to,0.2980769230769231
+google/flan-t5-xxl,super_glue,wsc.fixed,104,Who or what is/are,0.0
+google/flan-t5-xxl,winogrande,winogrande_xl,200,does underscore refer to,0.33
+google/flan-t5-xxl,winogrande,winogrande_xl,200,stand for,0.36
+google/flan-t5-xxl,winogrande,winogrande_xl,200,underscore refer to,0.45
+google/flan-t5-xxl,winogrande,winogrande_xl,200,fill in the blank,0.75
+google/flan-t5-xxl,winogrande,winogrande_xl,200,Replace,0.535
+google/flan-t5-xxl,super_glue,wic,200,question-context-meaning-with-label,0.165
+google/flan-t5-xxl,super_glue,wic,200,question-context-meaning,0.0
+google/flan-t5-xxl,super_glue,wic,200,grammar_homework,0.02
+google/flan-t5-xxl,super_glue,wic,200,affirmation_true_or_false,0.355
+google/flan-t5-xxl,super_glue,wic,200,GPT-3-prompt,0.0
+google/flan-t5-xxl,super_glue,wic,200,same_sense,0.38
+google/flan-t5-xxl,super_glue,wic,200,question-context,0.01
+google/flan-t5-xxl,super_glue,wic,200,GPT-3-prompt-with-label,0.0
+google/flan-t5-xxl,super_glue,wic,200,polysemous,0.43
+google/flan-t5-xxl,super_glue,wic,200,similar-sense,0.0
+google/flan-t5-xxl,hellaswag,,200,Predict ending with hint,0.01
+google/flan-t5-xxl,hellaswag,,200,Randomized prompts template,0.01
+google/flan-t5-xxl,hellaswag,,200,complete_first_then,0.005
+google/flan-t5-xxl,hellaswag,,200,if_begins_how_continues,0.035
+google/flan-t5-xxl,super_glue,copa,100,exercise,0.92
+google/flan-t5-xxl,super_glue,copa,48,"…What could happen next, C1 or C2?",0.25
+google/flan-t5-xxl,super_glue,copa,100,i_am_hesitating,0.84
+google/flan-t5-xxl,super_glue,copa,100,plausible_alternatives,0.9
+google/flan-t5-xxl,super_glue,copa,100,"C1 or C2? premise, so/because…",0.03
+google/flan-t5-xxl,super_glue,copa,48,"…As a result, C1 or C2?",0.10416666666666667
+google/flan-t5-xxl,super_glue,copa,100,best_option,0.86
+google/flan-t5-xxl,super_glue,copa,52,…which may be caused by,0.15384615384615385
+google/flan-t5-xxl,super_glue,copa,100,more likely,0.92
+google/flan-t5-xxl,super_glue,copa,100,cause_effect,0.87
+google/flan-t5-xxl,super_glue,copa,52,…why? C1 or C2,0.09615384615384616
+google/flan-t5-xxl,super_glue,copa,100,choose,0.86

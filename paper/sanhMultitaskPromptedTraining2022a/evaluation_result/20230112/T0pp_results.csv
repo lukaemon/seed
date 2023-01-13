@@ -1,0 +1,82 @@
+model_name,dataset_name,subset_name,test_size,prompt_name,accuracy
+bigscience/T0pp,super_glue,rte,200,MNLI crowdsource,0.86
+bigscience/T0pp,super_glue,rte,200,guaranteed true,0.875
+bigscience/T0pp,super_glue,rte,200,can we infer,0.885
+bigscience/T0pp,super_glue,rte,200,GPT-3 style,0.84
+bigscience/T0pp,super_glue,rte,200,does this imply,0.91
+bigscience/T0pp,super_glue,rte,200,should assume,0.85
+bigscience/T0pp,super_glue,rte,200,does it follow that,0.82
+bigscience/T0pp,super_glue,rte,200,based on the previous passage,0.885
+bigscience/T0pp,super_glue,rte,200,justified in saying,0.855
+bigscience/T0pp,super_glue,rte,200,must be true,0.835
+bigscience/T0pp,super_glue,cb,56,can we infer,0.8571428571428571
+bigscience/T0pp,super_glue,cb,56,based on the previous passage,0.8392857142857143
+bigscience/T0pp,super_glue,cb,56,claim true/false/inconclusive,0.32142857142857145
+bigscience/T0pp,super_glue,cb,56,does it follow that,0.6964285714285714
+bigscience/T0pp,super_glue,cb,56,justified in saying,0.8392857142857143
+bigscience/T0pp,super_glue,cb,56,always/sometimes/never,0.0
+bigscience/T0pp,super_glue,cb,56,GPT-3 style,0.8571428571428571
+bigscience/T0pp,super_glue,cb,56,consider always/sometimes/never,0.0
+bigscience/T0pp,super_glue,cb,56,guaranteed true,0.7678571428571429
+bigscience/T0pp,super_glue,cb,56,must be true,0.8035714285714286
+bigscience/T0pp,super_glue,cb,56,guaranteed/possible/impossible,0.0
+bigscience/T0pp,super_glue,cb,56,does this imply,0.8214285714285714
+bigscience/T0pp,super_glue,cb,56,MNLI crowdsource,0.0
+bigscience/T0pp,super_glue,cb,56,should assume,0.8392857142857143
+bigscience/T0pp,super_glue,cb,56,take the following as truth,0.14285714285714285
+bigscience/T0pp,anli,,200,MNLI crowdsource,0.0
+bigscience/T0pp,anli,,200,should assume,0.515
+bigscience/T0pp,anli,,200,does it follow that,0.525
+bigscience/T0pp,anli,,200,GPT-3 style,0.51
+bigscience/T0pp,anli,,200,based on the previous passage,0.51
+bigscience/T0pp,anli,,200,justified in saying,0.485
+bigscience/T0pp,anli,,200,take the following as truth,0.19
+bigscience/T0pp,anli,,200,must be true,0.51
+bigscience/T0pp,anli,,200,can we infer,0.515
+bigscience/T0pp,anli,,200,guaranteed/possible/impossible,0.0
+bigscience/T0pp,anli,,200,always/sometimes/never,0.0
+bigscience/T0pp,anli,,200,does this imply,0.5
+bigscience/T0pp,anli,,200,consider always/sometimes/never,0.0
+bigscience/T0pp,anli,,200,claim true/false/inconclusive,0.1
+bigscience/T0pp,anli,,200,guaranteed true,0.495
+bigscience/T0pp,super_glue,wsc.fixed,104,does the pronoun refer to,0.7403846153846154
+bigscience/T0pp,super_glue,wsc.fixed,104,by p they mean,0.7307692307692307
+bigscience/T0pp,super_glue,wsc.fixed,104,in other words,0.7403846153846154
+bigscience/T0pp,super_glue,wsc.fixed,104,I think they mean,0.7115384615384616
+bigscience/T0pp,super_glue,wsc.fixed,104,does p stand for,0.6826923076923077
+bigscience/T0pp,super_glue,wsc.fixed,104,GPT-3 Style,0.6923076923076923
+bigscience/T0pp,super_glue,wsc.fixed,104,replaced with,0.6730769230769231
+bigscience/T0pp,super_glue,wsc.fixed,104,p is/are r,0.6634615384615384
+bigscience/T0pp,super_glue,wsc.fixed,104,the pronoun refers to,0.6730769230769231
+bigscience/T0pp,super_glue,wsc.fixed,104,Who or what is/are,0.5865384615384616
+bigscience/T0pp,winogrande,winogrande_xl,200,does underscore refer to,0.725
+bigscience/T0pp,winogrande,winogrande_xl,200,stand for,0.7
+bigscience/T0pp,winogrande,winogrande_xl,200,underscore refer to,0.73
+bigscience/T0pp,winogrande,winogrande_xl,200,fill in the blank,0.65
+bigscience/T0pp,winogrande,winogrande_xl,200,Replace,0.625
+bigscience/T0pp,super_glue,wic,200,question-context-meaning-with-label,0.7
+bigscience/T0pp,super_glue,wic,200,question-context-meaning,0.705
+bigscience/T0pp,super_glue,wic,200,grammar_homework,0.68
+bigscience/T0pp,super_glue,wic,200,affirmation_true_or_false,0.65
+bigscience/T0pp,super_glue,wic,200,GPT-3-prompt,0.68
+bigscience/T0pp,super_glue,wic,200,same_sense,0.67
+bigscience/T0pp,super_glue,wic,200,question-context,0.66
+bigscience/T0pp,super_glue,wic,200,GPT-3-prompt-with-label,0.67
+bigscience/T0pp,super_glue,wic,200,polysemous,0.68
+bigscience/T0pp,super_glue,wic,200,similar-sense,0.68
+bigscience/T0pp,hellaswag,,200,Predict ending with hint,0.845
+bigscience/T0pp,hellaswag,,200,Randomized prompts template,0.805
+bigscience/T0pp,hellaswag,,200,complete_first_then,0.81
+bigscience/T0pp,hellaswag,,200,if_begins_how_continues,0.85
+bigscience/T0pp,super_glue,copa,100,exercise,0.97
+bigscience/T0pp,super_glue,copa,48,"…What could happen next, C1 or C2?",0.9375
+bigscience/T0pp,super_glue,copa,100,i_am_hesitating,0.96
+bigscience/T0pp,super_glue,copa,100,plausible_alternatives,0.93
+bigscience/T0pp,super_glue,copa,100,"C1 or C2? premise, so/because…",0.9
+bigscience/T0pp,super_glue,copa,48,"…As a result, C1 or C2?",0.8958333333333334
+bigscience/T0pp,super_glue,copa,100,best_option,0.9
+bigscience/T0pp,super_glue,copa,52,…which may be caused by,0.8846153846153846
+bigscience/T0pp,super_glue,copa,100,more likely,0.94
+bigscience/T0pp,super_glue,copa,100,cause_effect,0.95
+bigscience/T0pp,super_glue,copa,52,…why? C1 or C2,0.9038461538461539
+bigscience/T0pp,super_glue,copa,100,choose,0.96
