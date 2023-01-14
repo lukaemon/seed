@@ -1,0 +1,32 @@
+[
+    {
+        "input": "Homework\n\nDecide whether the word \"expect\" is used with the same meaning in the two following sentences. Answer by yes or no.\nI expect to receive wages.\nWe were expecting a visit from our relatives.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"log\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThey kept a log of all transmission by the radio station.\nAn email log.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"professionalization\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe professionalization of warfare.\nThe professionalization of American sports.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"tradecraft\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nInstructional designers are trained in something that might be called tradecraft.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"dimple\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe accident created a dimple in the hood of the car.\nThere are approximately 336 dimples on a golf ball.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"bridge\" is used with the same meaning in the two following sentences. Answer by yes or no.\nHer glasses left marks on the bridge of her nose.\nRugby players often break the bridge of their noses.",
+        "target": "yes",
+        "pred": "no"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "input": "Assume it is true that B: You never see them on nationally basketball. A: You know, that's true. I don't think I've ever seen them nationally on basketball. \n\nTherefore, \"he has seen them nationally on basketball\" is guaranteed, possible, or impossible?",
+        "target": "impossible",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that B: and, you know, they just love kittens. A: Yeah. B: They just are fascinated. A: Oh, yeah. B: So she doesn't know that this is a cat yet. \n\nTherefore, \"this is a cat\" is guaranteed, possible, or impossible?",
+        "target": "guaranteed",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that Who knows how many quarrels, false accusations, unnecessary dismissals, how many promising careers cut short can be attributed to a butler's slovenliness at the stage of drawing up the staff plan? Indeed, I can say I am in agreement with those who say that the ability to draw up a good staff plan is the cornerstone of any decent butler's skills. I have myself devised many staff plans over the years and I do not believe I am being unduly boastful if I say that very few ever needed amendment. \n\nTherefore, \"very few plans ever needed amendment\" is guaranteed, possible, or impossible?",
+        "target": "guaranteed",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? \n\nTherefore, \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\" is guaranteed, possible, or impossible?",
+        "target": "impossible",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that It grew bigger with incredible speed, she was whizzing towards it. She must slow down or she 'd miss it. She took her foot off the accelerator and put it on the brake and as the car slowed she could see now that it was a child a toddler with a red woolly hat on. \n\nTherefore, \"it was a child\" is guaranteed, possible, or impossible?",
+        "target": "guaranteed",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that A: No, I don't either. B: Uh, I mean it's, you know it, A: I don't think it's going to change very much \n\nTherefore, \"it's going to change very much\" is guaranteed, possible, or impossible?",
+        "target": "impossible",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that The lunch trade had mostly disappeared so he wasn't hard to spot. He was at a window table but he was ignoring the river, being deep in conversation with a middle-aged man wearing a suit and a short sheepskin car coat with matching brown suede shoes. Even from this distance you could guess the guy's tailor was based in Dublin. \n\nTherefore, \"the guy's tailor was based in Dublin\" is guaranteed, possible, or impossible?",
+        "target": "guaranteed",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that A: Well, actually, uh, A: I don't think I'm in the, uh, majority in Texas \n\nTherefore, \"she is in the majority in Texas\" is guaranteed, possible, or impossible?",
+        "target": "impossible",
+        "pred": "possible"
+    }
+]

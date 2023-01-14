@@ -1,0 +1,17 @@
+[
+    {
+        "input": "B: and, you know, they just love kittens. A: Yeah. B: They just are fascinated. A: Oh, yeah. B: So she doesn't know that this is a cat yet. \n\nKeeping in mind the above text, consider: this is a cat Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "never"
+    },
+    {
+        "input": "It grew bigger with incredible speed, she was whizzing towards it. She must slow down or she 'd miss it. She took her foot off the accelerator and put it on the brake and as the car slowed she could see now that it was a child a toddler with a red woolly hat on. \n\nKeeping in mind the above text, consider: it was a child Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "The lunch trade had mostly disappeared so he wasn't hard to spot. He was at a window table but he was ignoring the river, being deep in conversation with a middle-aged man wearing a suit and a short sheepskin car coat with matching brown suede shoes. Even from this distance you could guess the guy's tailor was based in Dublin. \n\nKeeping in mind the above text, consider: the guy's tailor was based in Dublin Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    }
+]

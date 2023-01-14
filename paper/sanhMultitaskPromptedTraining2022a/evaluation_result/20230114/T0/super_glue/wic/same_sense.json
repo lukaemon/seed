@@ -1,0 +1,27 @@
+[
+    {
+        "input": "Sentence 1: They kept a log of all transmission by the radio station.\nSentence 2: An email log.\n\nDetermine whether the word \"log\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nSentence 2: Instructional designers are trained in something that might be called tradecraft.\n\nDetermine whether the word \"tradecraft\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The accident created a dimple in the hood of the car.\nSentence 2: There are approximately 336 dimples on a golf ball.\n\nDetermine whether the word \"dimple\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Her glasses left marks on the bridge of her nose.\nSentence 2: Rugby players often break the bridge of their noses.\n\nDetermine whether the word \"bridge\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: He got his wish.\nSentence 2: My best wishes.\n\nDetermine whether the word \"wish\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    }
+]

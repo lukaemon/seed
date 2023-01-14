@@ -1,0 +1,47 @@
+[
+    {
+        "input": "Passage: Bernard , who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him . \n\nQuestion: In the passage above, does the pronoun \"him\" refer to anyone?\n\nAnswer:",
+        "target": "no",
+        "pred": "bernard"
+    },
+    {
+        "input": "Passage: Every day after dinner Mr. Schmidt took a long nap. Mark would let him sleep for an hour, then wake him up, scold him, and get him to work. He needed to get him to finish his work, because his work was beautiful \n\nQuestion: In the passage above, does the pronoun \"his\" refer to Mark?\n\nAnswer:",
+        "target": "no",
+        "pred": "mr. schmidt"
+    },
+    {
+        "input": "Passage: I tried to paint a picture of an orchard, with lemons in the lemon trees , but they came out looking more like light bulbs. \n\nQuestion: In the passage above, does the pronoun \"they\" refer to lemons?\n\nAnswer:",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Passage: Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are fifteen. \n\nQuestion: In the passage above, does the pronoun \"they\" refer to Amy's parents?\n\nAnswer:",
+        "target": "no",
+        "pred": "amy's parents"
+    },
+    {
+        "input": "Passage: Fred watched TV while George went out to buy groceries. After an hour he got back. \n\nQuestion: In the passage above, does the pronoun \"he\" refer to Fred?\n\nAnswer:",
+        "target": "no",
+        "pred": "george"
+    },
+    {
+        "input": "Passage: Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. \n\nQuestion: In the passage above, does the pronoun \"their\" refer to their mothers?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Passage: Mr. Moncrieff visited Chester 's luxurious New York apartment, thinking that it belonged to his son Edward . The result was that Mr. Moncrieff has decided to cancel Edward 's allowance on the ground that he no longer requires his financial support. \n\nQuestion: In the passage above, does the pronoun \"his\" refer to Edward?\n\nAnswer:",
+        "target": "no",
+        "pred": "edward"
+    },
+    {
+        "input": "Passage: Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it . \n\nQuestion: In the passage above, does the pronoun \"it\" refer to button?\n\nAnswer:",
+        "target": "no",
+        "pred": "it refers to the photo album."
+    },
+    {
+        "input": "Passage: The path to the lake was blocked, so we couldn't use it . \n\nQuestion: In the passage above, does the pronoun \"it\" refer to the lake?\n\nAnswer:",
+        "target": "no",
+        "pred": "path"
+    }
+]

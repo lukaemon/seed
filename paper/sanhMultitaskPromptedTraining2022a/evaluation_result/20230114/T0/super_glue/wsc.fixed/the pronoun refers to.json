@@ -1,0 +1,27 @@
+[
+    {
+        "input": "Bernard , who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him . \nIn the passage above, the pronoun \"him\" refers to anyone. True or false?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "I tried to paint a picture of an orchard, with lemons in the lemon trees , but they came out looking more like light bulbs. \nIn the passage above, the pronoun \"they\" refers to lemons. True or false?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are fifteen. \nIn the passage above, the pronoun \"they\" refers to Amy's parents. True or false?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Fred watched TV while George went out to buy groceries. After an hour he got back. \nIn the passage above, the pronoun \"he\" refers to Fred. True or false?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it . \nIn the passage above, the pronoun \"it\" refers to button. True or false?",
+        "target": "false",
+        "pred": "true"
+    }
+]

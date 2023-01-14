@@ -1,0 +1,27 @@
+[
+    {
+        "input": "\"The competition was sabotaged.\" or \"He intimidated his competitors.\"? The man lost the competition.  because",
+        "target": "the competition was sabotaged.",
+        "pred": "\"the competition was sabotaged.\""
+    },
+    {
+        "input": "\"She wanted to ask her friend for a favor.\" or \"She was irritated with her friend's whining.\"? The woman lavished her friend with flattery.  because",
+        "target": "she wanted to ask her friend for a favor.",
+        "pred": "\"she wanted to ask her friend for a favor.\""
+    },
+    {
+        "input": "\"It was the top of the hour.\" or \"The hour seemed to drag on.\"? The clock chimed.  because",
+        "target": "it was the top of the hour.",
+        "pred": "the clock chimed because it was the top of the hour."
+    },
+    {
+        "input": "\"The students both received excellent grades.\" or \"Their responses on the assignment were identical.\"? The pair of students came under scrutiny by the teacher.  because",
+        "target": "their responses on the assignment were identical.",
+        "pred": "no"
+    },
+    {
+        "input": "\"He parallel parked on the street.\" or \"The parking meter expired.\"? The man received a parking ticket.  because",
+        "target": "the parking meter expired.",
+        "pred": "\"he parallel parked on the street.\""
+    }
+]

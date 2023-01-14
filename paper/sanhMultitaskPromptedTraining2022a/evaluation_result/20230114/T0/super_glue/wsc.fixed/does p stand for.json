@@ -1,0 +1,12 @@
+[
+    {
+        "input": "I tried to paint a picture of an orchard, with lemons in the lemon trees , but they came out looking more like light bulbs. Here, does \"they\" stand for lemons? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. Here, does \"their\" stand for their mothers? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    }
+]

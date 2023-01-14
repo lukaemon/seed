@@ -1,0 +1,12 @@
+[
+    {
+        "input": "B: and, you know, they just love kittens. A: Yeah. B: They just are fascinated. A: Oh, yeah. B: So she doesn't know that this is a cat yet. \n\nQuestion: Does this imply that \"this is a cat\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? \n\nQuestion: Does this imply that \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    }
+]

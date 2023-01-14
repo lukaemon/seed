@@ -1,0 +1,37 @@
+[
+    {
+        "input": "Context: Bernard , who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him . \n\n\nQuestion: \"him\" is anyone. True or false?\n\n\nAnswer:",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Context: Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are fifteen. \n\n\nQuestion: \"they\" are Amy's parents. True or false?\n\n\nAnswer:",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Context: Mr. Taylor was a man of uncertain temper and his general tendency was to think that David was a poor chump and that whatever step he took in any direction on his own account was just another proof of his innate idiocy, \n\n\nQuestion: \"his\" is Mr. Taylor. True or false?\n\n\nAnswer:",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Context: Fred watched TV while George went out to buy groceries. After an hour he got back. \n\n\nQuestion: \"he\" is Fred. True or false?\n\n\nAnswer:",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Context: Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. \n\n\nQuestion: \"their\" is their mothers. True or false?\n\n\nAnswer:",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Context: Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it . \n\n\nQuestion: \"it\" is button. True or false?\n\n\nAnswer:",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Context: The path to the lake was blocked, so we couldn't use it . \n\n\nQuestion: \"it\" is the lake. True or false?\n\n\nAnswer:",
+        "target": "false",
+        "pred": "true"
+    }
+]

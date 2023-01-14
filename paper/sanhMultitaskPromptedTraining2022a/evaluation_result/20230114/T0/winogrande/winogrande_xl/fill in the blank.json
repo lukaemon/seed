@@ -1,0 +1,32 @@
+[
+    {
+        "input": "Fill in the _ in the below sentence:\nPatricia decided to buy Felicia dinner because they had been through a lot and _ just inherited some money.\n\nChoices:\n- Patricia\n- Felicia\n\nAnswer:",
+        "target": "patricia",
+        "pred": "felicia"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nTimmy bought a transporter for his cat so he could take him on the plane but the _ was too small.\n\nChoices:\n- transporter\n- plane\n\nAnswer:",
+        "target": "transporter",
+        "pred": "plane"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nIt was easier for the diner to follow their budget than the food truck because the _ had more money to spend.\n\nChoices:\n- diner\n- food truck\n\nAnswer:",
+        "target": "diner",
+        "pred": "food truck"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nJohn could not hear his alarm clock when he was sleeping with a headphone on his head because the _ is closer.\n\nChoices:\n- headphone\n- clock\n\nAnswer:",
+        "target": "headphone",
+        "pred": "clock"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nHappiness was most important to Nick but money was most important to William. _ valued a good life.\n\nChoices:\n- Nick\n- William\n\nAnswer:",
+        "target": "nick",
+        "pred": "william"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nTanya was the most powerful person in the world, and Sarah admired them, because _ was something to aspire to.\n\nChoices:\n- Tanya\n- Sarah\n\nAnswer:",
+        "target": "tanya",
+        "pred": "sarah"
+    }
+]

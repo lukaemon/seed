@@ -1,0 +1,32 @@
+[
+    {
+        "input": "Determine if the word 'expect' is used in the same way in the two sentences below. \nI expect to receive wages.\nWe were expecting a visit from our relatives.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Determine if the word 'log' is used in the same way in the two sentences below. \nThey kept a log of all transmission by the radio station.\nAn email log.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Determine if the word 'professionalization' is used in the same way in the two sentences below. \nThe professionalization of warfare.\nThe professionalization of American sports.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Determine if the word 'tradecraft' is used in the same way in the two sentences below. \nThe CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nInstructional designers are trained in something that might be called tradecraft.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Determine if the word 'dimple' is used in the same way in the two sentences below. \nThe accident created a dimple in the hood of the car.\nThere are approximately 336 dimples on a golf ball.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Determine if the word 'bridge' is used in the same way in the two sentences below. \nHer glasses left marks on the bridge of her nose.\nRugby players often break the bridge of their noses.",
+        "target": "yes",
+        "pred": "no"
+    }
+]

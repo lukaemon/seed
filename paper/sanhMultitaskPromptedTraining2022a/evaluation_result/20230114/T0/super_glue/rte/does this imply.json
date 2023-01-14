@@ -1,0 +1,17 @@
+[
+    {
+        "input": "Ssangyong Motor was taken over by creditors after it collapsed under heavy debts during the 1997-98 Asian financial crisis. \n\nQuestion: Does this imply that \"Asian financial crisis takes over Ssangyong Motor\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "In support of the Earth Island Institute rebuttal, Greenpeace founder Don White made the following - unfortunately prophetic - public statement on 8/18/93. \n\nQuestion: Does this imply that \"Don White is the founder of Greenpeace.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The Massachusetts Supreme Judicial Court has cleared the way for lesbian and gay couples in the state to marry, ruling that government attorneys \"failed to identify any constitutionally adequate reason\" to deny them the right. \n\nQuestion: Does this imply that \"U.S. Supreme Court in favor of same-sex marriage\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "input": "I expect to receive wages.\nWe were expecting a visit from our relatives.\nSimilar sense of expect?",
+        "target": "yes",
+        "pred": "noun"
+    },
+    {
+        "input": "To pick rags.\nDon't always pick on your little brother.\nSimilar sense of pick?",
+        "target": "no",
+        "pred": "he picks up his little brother and puts him down."
+    },
+    {
+        "input": "They kept a log of all transmission by the radio station.\nAn email log.\nSimilar sense of log?",
+        "target": "yes",
+        "pred": "similar sense of log"
+    },
+    {
+        "input": "The professionalization of warfare.\nThe professionalization of American sports.\nSimilar sense of professionalization?",
+        "target": "yes",
+        "pred": "noun"
+    },
+    {
+        "input": "He drank a mixture of beer and lemonade.\nThe mixture of sulphuric acid and water produces heat.\nSimilar sense of mixture?",
+        "target": "no",
+        "pred": "noun"
+    },
+    {
+        "input": "The CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nInstructional designers are trained in something that might be called tradecraft.\nSimilar sense of tradecraft?",
+        "target": "yes",
+        "pred": "similar"
+    },
+    {
+        "input": "The accident created a dimple in the hood of the car.\nThere are approximately 336 dimples on a golf ball.\nSimilar sense of dimple?",
+        "target": "yes",
+        "pred": "noun"
+    },
+    {
+        "input": "A strand of pearls.\nHe tried to pick up the strands of his former life.\nSimilar sense of strand?",
+        "target": "no",
+        "pred": "similar sense of string"
+    },
+    {
+        "input": "Her glasses left marks on the bridge of her nose.\nRugby players often break the bridge of their noses.\nSimilar sense of bridge?",
+        "target": "yes",
+        "pred": "nose, bridge"
+    },
+    {
+        "input": "He got his wish.\nMy best wishes.\nSimilar sense of wish?",
+        "target": "no",
+        "pred": "noun"
+    }
+]

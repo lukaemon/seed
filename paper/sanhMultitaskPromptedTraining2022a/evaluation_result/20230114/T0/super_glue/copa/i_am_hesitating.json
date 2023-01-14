@@ -1,0 +1,7 @@
+[
+    {
+        "input": "The man received a parking ticket. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- He parallel parked on the street.\n- The parking meter expired.",
+        "target": "the parking meter expired.",
+        "pred": "he parallel parked on the street."
+    }
+]

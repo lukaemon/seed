@@ -1,0 +1,27 @@
+[
+    {
+        "input": "The man lost the competition. \n\nWhat's the best option?\n- The competition was sabotaged.\n- He intimidated his competitors.\n\nWe are looking for  a cause",
+        "target": "the competition was sabotaged.",
+        "pred": "he intimidated his competitors."
+    },
+    {
+        "input": "I regained composure from my fit of anger. \n\nWhat's the best option?\n- My heart pounded.\n- I took deep breaths.\n\nWe are looking for  a cause",
+        "target": "i took deep breaths.",
+        "pred": "my heart pounded."
+    },
+    {
+        "input": "The clock chimed. \n\nWhat's the best option?\n- It was the top of the hour.\n- The hour seemed to drag on.\n\nWe are looking for  a cause",
+        "target": "it was the top of the hour.",
+        "pred": "the clock chimed."
+    },
+    {
+        "input": "The driver turned on the car's headlights. \n\nWhat's the best option?\n- He heard thunder.\n- The sun went down.\n\nWe are looking for  a cause",
+        "target": "the sun went down.",
+        "pred": "he heard thunder."
+    },
+    {
+        "input": "The man received a parking ticket. \n\nWhat's the best option?\n- He parallel parked on the street.\n- The parking meter expired.\n\nWe are looking for  a cause",
+        "target": "the parking meter expired.",
+        "pred": "he parallel parked on the street."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "input": "Nicktoons is a British/Irish digital television channel, launched on 22 July 2002. It is a cartoon based sister channel to Nickelodeon. The channel airs Nicktoons, as well as acquired programming from outside providers. Unlike the United States version, it has been ad-supported since launch. \n\nKeeping in mind the above text, consider: Nicktoons exlcusively airs Nicktoons and programming from Nickelodeon Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Felix Anthony \"Milwaukee Phil\" Alderisio (April 26, 1912 \u2013 September 25, 1971) was a prominent enforcer, bagman, hitman and burglar for the Chicago Outfit, serving as an underboss to Salvatore Giancana (\"Sam\", \"Momo\", \"Mooney\") during the 1960s and as boss for a short time from 1967 before being sent to prison in 1969 and dying there. \n\nKeeping in mind the above text, consider: Felix Anthony \"Milwaukee Phil\" Alderisio was born in April Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "yes"
+    },
+    {
+        "input": "Club Atl\u00e9tico Uni\u00f3n de Mar del Plata is an Argentine sports club from Mar del Plata, Buenos Aires Province. The club was founded on December 1, 1926, and its main sports are football and basketball. In football, Uni\u00f3n currently plays in the Torneo Argentino A, which is the regionalised third division of the Argentine football league system. \n\nKeeping in mind the above text, consider: Club Atl\u00e9tico Uni\u00f3n de Mar del Plata has been around for 100 years Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Bantiger TV Tower is a 196 metre tall tower used for FM- and TV-transmission at on the Bantiger mountain, a mountain east of Berne situated in the municipality of Bolligen. The Bantiger TV Tower was built between 1991 and 1996 as replacement of a 100 metres tall radio tower, built in 1954. \n\nKeeping in mind the above text, consider: Bantiger TV Tower is used for AM-, FM-, and TV-transmissions.   Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "yes"
+    },
+    {
+        "input": "The Deserve the Future Tour was a worldwide concert tour by American rock supergroup Them Crooked Vultures. The tour began on August 9, 2009, and ran until July 30, 2010, after a run of shows in Japan, and visited North America, Europe and Oceania. The tour was in support of the band's debut album. \n\nKeeping in mind the above text, consider: The Deserve the Future Tour ran for 4 years. Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "George Avakian (Armenian: \u0533\u0587\u0578\u0580\u0563 \u0531\u057e\u0561\u0563\u0575\u0561\u0576 ; Russian: \u0413\u0435\u0432\u043e\u0440\u043a \u0410\u0432\u0430\u043a\u044f\u043d ; born March 15, 1919) is an American record producer and executive known particularly for his work with Columbia Records, and his production of albums by Louis Armstrong, Miles Davis and other notable jazz musicians. \n\nKeeping in mind the above text, consider: George Avakian is no longer living. Is this always, sometimes, or never correct?",
+        "target": "sometimes",
+        "pred": "always"
+    },
+    {
+        "input": "The Queen, often referred to as the Evil Queen or the Wicked Queen, is a fictional character and the main antagonist in \"Snow White\", a German fairy tale recorded by the Brothers Grimm; similar stories are also known to exist in other countries. Other versions of the Queen appear in \"Snow White\" derivative works, and the character has also become an archetype for unrelated works of fiction. \n\nKeeping in mind the above text, consider: \"Snow White\" is a fairy tale recorded by the Brothers Grimm. It originated in countries other than Germany. Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "not enough information"
+    },
+    {
+        "input": "Southern Nevada (often abbreviated as SNV) is the region of Nevada which includes the Las Vegas Valley. Southern Nevada also includes the areas in and around Tonopah, Hawthorne, Pahrump, and Pioche, though some organizations based in the Las Vegas area (e.g., the Southern Nevada Health District) effectively use the term to refer to Clark County only. \n\nKeeping in mind the above text, consider: Southern Nevada is part of South America. Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "not correct"
+    }
+]

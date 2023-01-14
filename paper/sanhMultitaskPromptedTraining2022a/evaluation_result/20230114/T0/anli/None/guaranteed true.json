@@ -1,0 +1,17 @@
+[
+    {
+        "input": "Given Club Atl\u00e9tico Uni\u00f3n de Mar del Plata is an Argentine sports club from Mar del Plata, Buenos Aires Province. The club was founded on December 1, 1926, and its main sports are football and basketball. In football, Uni\u00f3n currently plays in the Torneo Argentino A, which is the regionalised third division of the Argentine football league system. Is it guaranteed true that \"Club Atl\u00e9tico Uni\u00f3n de Mar del Plata has been around for 100 years\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given Bantiger TV Tower is a 196 metre tall tower used for FM- and TV-transmission at on the Bantiger mountain, a mountain east of Berne situated in the municipality of Bolligen. The Bantiger TV Tower was built between 1991 and 1996 as replacement of a 100 metres tall radio tower, built in 1954. Is it guaranteed true that \"Bantiger TV Tower is used for AM-, FM-, and TV-transmissions.  \"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given George Avakian (Armenian: \u0533\u0587\u0578\u0580\u0563 \u0531\u057e\u0561\u0563\u0575\u0561\u0576 ; Russian: \u0413\u0435\u0432\u043e\u0440\u043a \u0410\u0432\u0430\u043a\u044f\u043d ; born March 15, 1919) is an American record producer and executive known particularly for his work with Columbia Records, and his production of albums by Louis Armstrong, Miles Davis and other notable jazz musicians. Is it guaranteed true that \"George Avakian is no longer living.\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    }
+]

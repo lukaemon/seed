@@ -1,0 +1,17 @@
+[
+    {
+        "input": "Bernard , who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him . I think they mean \"anyone .\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. I think they mean \"their mothers mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it . I think they mean \"button .\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    }
+]

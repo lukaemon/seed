@@ -1,0 +1,27 @@
+[
+    {
+        "input": "Timmy bought a transporter for his cat so he could take him on the plane but the _ was too small.\nReplace the _ in the above sentence with the correct option: \n- transporter\n- plane",
+        "target": "transporter",
+        "pred": "plane"
+    },
+    {
+        "input": "It was easier for the diner to follow their budget than the food truck because the _ had more money to spend.\nReplace the _ in the above sentence with the correct option: \n- diner\n- food truck",
+        "target": "diner",
+        "pred": "food truck"
+    },
+    {
+        "input": "John could not hear his alarm clock when he was sleeping with a headphone on his head because the _ is closer.\nReplace the _ in the above sentence with the correct option: \n- headphone\n- clock",
+        "target": "headphone",
+        "pred": "clock"
+    },
+    {
+        "input": "Happiness was most important to Nick but money was most important to William. _ valued a good life.\nReplace the _ in the above sentence with the correct option: \n- Nick\n- William",
+        "target": "nick",
+        "pred": "william"
+    },
+    {
+        "input": "Carrie posted their sofa for sale on Craigslist, and had received an offer they had to decline because the _ is valuable.\nReplace the _ in the above sentence with the correct option: \n- offer\n- sofa",
+        "target": "sofa",
+        "pred": "offer"
+    }
+]

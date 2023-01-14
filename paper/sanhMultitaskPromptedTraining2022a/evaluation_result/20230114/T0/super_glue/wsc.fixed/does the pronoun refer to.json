@@ -1,0 +1,17 @@
+[
+    {
+        "input": "Bernard , who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him . In the previous sentence, does the pronoun \"him\" refer to anyone? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "I tried to paint a picture of an orchard, with lemons in the lemon trees , but they came out looking more like light bulbs. In the previous sentence, does the pronoun \"they\" refer to lemons? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. In the previous sentence, does the pronoun \"their\" refer to their mothers? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    }
+]

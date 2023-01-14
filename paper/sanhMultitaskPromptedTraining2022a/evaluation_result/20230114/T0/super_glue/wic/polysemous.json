@@ -1,0 +1,32 @@
+[
+    {
+        "input": "The word \"log\" has multiple meanings. Does it have the same meaning in sentences 1 and 2? Yes or no?\n\nSentence 1: They kept a log of all transmission by the radio station.\nSentence 2: An email log.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The word \"professionalization\" has multiple meanings. Does it have the same meaning in sentences 1 and 2? Yes or no?\n\nSentence 1: The professionalization of warfare.\nSentence 2: The professionalization of American sports.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The word \"tradecraft\" has multiple meanings. Does it have the same meaning in sentences 1 and 2? Yes or no?\n\nSentence 1: The CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nSentence 2: Instructional designers are trained in something that might be called tradecraft.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The word \"dimple\" has multiple meanings. Does it have the same meaning in sentences 1 and 2? Yes or no?\n\nSentence 1: The accident created a dimple in the hood of the car.\nSentence 2: There are approximately 336 dimples on a golf ball.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The word \"bridge\" has multiple meanings. Does it have the same meaning in sentences 1 and 2? Yes or no?\n\nSentence 1: Her glasses left marks on the bridge of her nose.\nSentence 2: Rugby players often break the bridge of their noses.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The word \"wish\" has multiple meanings. Does it have the same meaning in sentences 1 and 2? Yes or no?\n\nSentence 1: He got his wish.\nSentence 2: My best wishes.",
+        "target": "no",
+        "pred": "yes"
+    }
+]

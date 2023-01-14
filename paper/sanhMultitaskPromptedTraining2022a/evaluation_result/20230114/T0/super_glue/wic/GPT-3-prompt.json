@@ -1,0 +1,32 @@
+[
+    {
+        "input": "I expect to receive wages.\nWe were expecting a visit from our relatives.\nQuestion: Is the word 'expect' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "They kept a log of all transmission by the radio station.\nAn email log.\nQuestion: Is the word 'log' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The professionalization of warfare.\nThe professionalization of American sports.\nQuestion: Is the word 'professionalization' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nInstructional designers are trained in something that might be called tradecraft.\nQuestion: Is the word 'tradecraft' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The accident created a dimple in the hood of the car.\nThere are approximately 336 dimples on a golf ball.\nQuestion: Is the word 'dimple' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Her glasses left marks on the bridge of her nose.\nRugby players often break the bridge of their noses.\nQuestion: Is the word 'bridge' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    }
+]

@@ -1,0 +1,7 @@
+[
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe man lost the competition.  as a result of: \n- The competition was sabotaged.\n- He intimidated his competitors.",
+        "target": "the competition was sabotaged.",
+        "pred": "he intimidated his competitors."
+    }
+]

@@ -1,0 +1,82 @@
+checkpoint,dataset_name,subset_name,test_size,time,prompt_name,accuracy
+bigscience/T0,super_glue,rte,10,0.44641995429992676,MNLI crowdsource,0.8
+bigscience/T0,super_glue,rte,10,0.2538743019104004,guaranteed true,0.6
+bigscience/T0,super_glue,rte,10,0.25223731994628906,can we infer,0.8
+bigscience/T0,super_glue,rte,10,0.2882111072540283,GPT-3 style,0.8
+bigscience/T0,super_glue,rte,10,0.2521817684173584,does this imply,0.7
+bigscience/T0,super_glue,rte,10,0.2526051998138428,should assume,0.7
+bigscience/T0,super_glue,rte,10,0.2506434917449951,does it follow that,0.7
+bigscience/T0,super_glue,rte,10,0.2591512203216553,based on the previous passage,0.8
+bigscience/T0,super_glue,rte,10,0.2526133060455322,justified in saying,0.6
+bigscience/T0,super_glue,rte,10,0.25810885429382324,must be true,0.6
+bigscience/T0,super_glue,cb,10,0.3342244625091553,can we infer,0.7
+bigscience/T0,super_glue,cb,10,0.3227543830871582,based on the previous passage,0.8
+bigscience/T0,super_glue,cb,10,0.320789098739624,claim true/false/inconclusive,0.8
+bigscience/T0,super_glue,cb,10,0.32479333877563477,does it follow that,0.7
+bigscience/T0,super_glue,cb,10,0.3261830806732178,justified in saying,0.7
+bigscience/T0,super_glue,cb,10,0.32051682472229004,always/sometimes/never,0.8
+bigscience/T0,super_glue,cb,10,0.3657510280609131,GPT-3 style,0.7
+bigscience/T0,super_glue,cb,10,0.32054662704467773,consider always/sometimes/never,0.7
+bigscience/T0,super_glue,cb,10,0.3187713623046875,guaranteed true,0.7
+bigscience/T0,super_glue,cb,10,0.319580078125,must be true,0.8
+bigscience/T0,super_glue,cb,10,0.32018327713012695,guaranteed/possible/impossible,0.2
+bigscience/T0,super_glue,cb,10,0.31848931312561035,does this imply,0.8
+bigscience/T0,super_glue,cb,10,0.44437575340270996,MNLI crowdsource,0.8
+bigscience/T0,super_glue,cb,10,0.3187599182128906,should assume,0.7
+bigscience/T0,super_glue,cb,10,0.4412708282470703,take the following as truth,0.7
+bigscience/T0,anli,,10,0.3376591205596924,MNLI crowdsource,0.6
+bigscience/T0,anli,,10,0.32939600944519043,should assume,0.6
+bigscience/T0,anli,,10,0.3183884620666504,does it follow that,0.6
+bigscience/T0,anli,,10,0.360090970993042,GPT-3 style,0.8
+bigscience/T0,anli,,10,0.32483601570129395,based on the previous passage,0.7
+bigscience/T0,anli,,10,0.32179808616638184,justified in saying,0.7
+bigscience/T0,anli,,10,0.3629486560821533,take the following as truth,0.6
+bigscience/T0,anli,,10,0.32555675506591797,must be true,0.8
+bigscience/T0,anli,,10,0.3239021301269531,can we infer,0.7
+bigscience/T0,anli,,10,0.3261415958404541,guaranteed/possible/impossible,0.3
+bigscience/T0,anli,,10,0.345930814743042,always/sometimes/never,0.4
+bigscience/T0,anli,,10,0.3235785961151123,does this imply,0.7
+bigscience/T0,anli,,10,0.36673736572265625,consider always/sometimes/never,0.2
+bigscience/T0,anli,,10,0.32636046409606934,claim true/false/inconclusive,0.5
+bigscience/T0,anli,,10,0.32363128662109375,guaranteed true,0.7
+bigscience/T0,super_glue,wsc.fixed,10,0.2208852767944336,does the pronoun refer to,0.7
+bigscience/T0,super_glue,wsc.fixed,10,0.21080589294433594,by p they mean,0.7
+bigscience/T0,super_glue,wsc.fixed,10,0.2798950672149658,in other words,0.8
+bigscience/T0,super_glue,wsc.fixed,10,0.22965240478515625,I think they mean,0.7
+bigscience/T0,super_glue,wsc.fixed,10,0.17963266372680664,does p stand for,0.8
+bigscience/T0,super_glue,wsc.fixed,10,0.3625626564025879,GPT-3 Style,0.1
+bigscience/T0,super_glue,wsc.fixed,10,0.20914363861083984,replaced with,0.4
+bigscience/T0,super_glue,wsc.fixed,10,0.24268245697021484,p is/are r,0.3
+bigscience/T0,super_glue,wsc.fixed,10,0.24473285675048828,the pronoun refers to,0.5
+bigscience/T0,super_glue,wsc.fixed,10,0.31847405433654785,Who or what is/are,0.0
+bigscience/T0,winogrande,winogrande_xl,10,0.16113662719726562,does underscore refer to,0.5
+bigscience/T0,winogrande,winogrande_xl,10,0.16053175926208496,stand for,0.3
+bigscience/T0,winogrande,winogrande_xl,10,0.17877483367919922,underscore refer to,0.7
+bigscience/T0,winogrande,winogrande_xl,10,0.16823244094848633,fill in the blank,0.4
+bigscience/T0,winogrande,winogrande_xl,10,0.17218422889709473,Replace,0.5
+bigscience/T0,super_glue,wic,10,0.15390348434448242,question-context-meaning-with-label,0.4
+bigscience/T0,super_glue,wic,10,0.1430976390838623,question-context-meaning,0.4
+bigscience/T0,super_glue,wic,10,0.15270018577575684,grammar_homework,0.4
+bigscience/T0,super_glue,wic,10,0.18831896781921387,affirmation_true_or_false,0.5
+bigscience/T0,super_glue,wic,10,0.14599108695983887,GPT-3-prompt,0.4
+bigscience/T0,super_glue,wic,10,0.15126705169677734,same_sense,0.5
+bigscience/T0,super_glue,wic,10,0.14461421966552734,question-context,0.4
+bigscience/T0,super_glue,wic,10,0.14557099342346191,GPT-3-prompt-with-label,0.3
+bigscience/T0,super_glue,wic,10,0.17766451835632324,polysemous,0.4
+bigscience/T0,super_glue,wic,10,0.33231449127197266,similar-sense,0.0
+bigscience/T0,hellaswag,,10,0.9489221572875977,Predict ending with hint,0.0
+bigscience/T0,hellaswag,,10,1.3670310974121094,Randomized prompts template,0.0
+bigscience/T0,hellaswag,,10,1.4523804187774658,complete_first_then,0.0
+bigscience/T0,hellaswag,,10,1.7243034839630127,if_begins_how_continues,0.0
+bigscience/T0,super_glue,copa,10,0.3679192066192627,exercise,0.9
+bigscience/T0,super_glue,copa,1,0.12282729148864746,"…What could happen next, C1 or C2?",1.0
+bigscience/T0,super_glue,copa,10,0.37229251861572266,i_am_hesitating,0.9
+bigscience/T0,super_glue,copa,10,0.36594247817993164,plausible_alternatives,1.0
+bigscience/T0,super_glue,copa,10,0.36785292625427246,"C1 or C2? premise, so/because…",0.5
+bigscience/T0,super_glue,copa,1,0.12134695053100586,"…As a result, C1 or C2?",1.0
+bigscience/T0,super_glue,copa,10,0.36766886711120605,best_option,0.5
+bigscience/T0,super_glue,copa,9,0.34847426414489746,…which may be caused by,0.5555555555555556
+bigscience/T0,super_glue,copa,10,0.3690972328186035,more likely,0.9
+bigscience/T0,super_glue,copa,10,0.3522207736968994,cause_effect,0.8
+bigscience/T0,super_glue,copa,9,0.34767699241638184,…why? C1 or C2,0.5555555555555556
+bigscience/T0,super_glue,copa,10,0.3526756763458252,choose,1.0

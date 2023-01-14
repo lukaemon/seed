@@ -1,0 +1,22 @@
+[
+    {
+        "input": "The man lost the competition. Which may be caused by \"The competition was sabotaged.\" or \"He intimidated his competitors.\"?",
+        "target": "the competition was sabotaged.",
+        "pred": "intimidated his competitors"
+    },
+    {
+        "input": "The clock chimed. Which may be caused by \"It was the top of the hour.\" or \"The hour seemed to drag on.\"?",
+        "target": "it was the top of the hour.",
+        "pred": "the top of the hour."
+    },
+    {
+        "input": "The pair of students came under scrutiny by the teacher. Which may be caused by \"The students both received excellent grades.\" or \"Their responses on the assignment were identical.\"?",
+        "target": "their responses on the assignment were identical.",
+        "pred": "identical responses on the assignment"
+    },
+    {
+        "input": "The man received a parking ticket. Which may be caused by \"He parallel parked on the street.\" or \"The parking meter expired.\"?",
+        "target": "the parking meter expired.",
+        "pred": "parallel parking on the street"
+    }
+]

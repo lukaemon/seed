@@ -1,0 +1,27 @@
+[
+    {
+        "input": "Sentence A: To pick rags.\nSentence B: Don't always pick on your little brother.\n\n\"pick\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: He drank a mixture of beer and lemonade.\nSentence B: The mixture of sulphuric acid and water produces heat.\n\n\"mixture\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: A strand of pearls.\nSentence B: He tried to pick up the strands of his former life.\n\n\"strand\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Her glasses left marks on the bridge of her nose.\nSentence B: Rugby players often break the bridge of their noses.\n\n\"bridge\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: He got his wish.\nSentence B: My best wishes.\n\n\"wish\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    }
+]

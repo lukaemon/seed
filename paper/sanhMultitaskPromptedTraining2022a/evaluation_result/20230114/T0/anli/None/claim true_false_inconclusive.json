@@ -1,0 +1,27 @@
+[
+    {
+        "input": "Nicktoons is a British/Irish digital television channel, launched on 22 July 2002. It is a cartoon based sister channel to Nickelodeon. The channel airs Nicktoons, as well as acquired programming from outside providers. Unlike the United States version, it has been ad-supported since launch. Based on that information, is the claim: \"Nicktoons exlcusively airs Nicktoons and programming from Nickelodeon\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Club Atl\u00e9tico Uni\u00f3n de Mar del Plata is an Argentine sports club from Mar del Plata, Buenos Aires Province. The club was founded on December 1, 1926, and its main sports are football and basketball. In football, Uni\u00f3n currently plays in the Torneo Argentino A, which is the regionalised third division of the Argentine football league system. Based on that information, is the claim: \"Club Atl\u00e9tico Uni\u00f3n de Mar del Plata has been around for 100 years\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Bantiger TV Tower is a 196 metre tall tower used for FM- and TV-transmission at on the Bantiger mountain, a mountain east of Berne situated in the municipality of Bolligen. The Bantiger TV Tower was built between 1991 and 1996 as replacement of a 100 metres tall radio tower, built in 1954. Based on that information, is the claim: \"Bantiger TV Tower is used for AM-, FM-, and TV-transmissions.  \" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "The Deserve the Future Tour was a worldwide concert tour by American rock supergroup Them Crooked Vultures. The tour began on August 9, 2009, and ran until July 30, 2010, after a run of shows in Japan, and visited North America, Europe and Oceania. The tour was in support of the band's debut album. Based on that information, is the claim: \"The Deserve the Future Tour ran for 4 years.\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "George Avakian (Armenian: \u0533\u0587\u0578\u0580\u0563 \u0531\u057e\u0561\u0563\u0575\u0561\u0576 ; Russian: \u0413\u0435\u0432\u043e\u0440\u043a \u0410\u0432\u0430\u043a\u044f\u043d ; born March 15, 1919) is an American record producer and executive known particularly for his work with Columbia Records, and his production of albums by Louis Armstrong, Miles Davis and other notable jazz musicians. Based on that information, is the claim: \"George Avakian is no longer living.\" true, false, or inconclusive?",
+        "target": "inconclusive",
+        "pred": "true"
+    }
+]

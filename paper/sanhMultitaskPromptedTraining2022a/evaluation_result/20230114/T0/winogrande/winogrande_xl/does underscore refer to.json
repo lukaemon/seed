@@ -1,0 +1,27 @@
+[
+    {
+        "input": "Patricia decided to buy Felicia dinner because they had been through a lot and _ just inherited some money. In the previous sentence, does _ refer to Patricia or  Felicia?",
+        "target": "patricia",
+        "pred": "felicia"
+    },
+    {
+        "input": "Timmy bought a transporter for his cat so he could take him on the plane but the _ was too small. In the previous sentence, does _ refer to transporter or  plane?",
+        "target": "transporter",
+        "pred": "plane"
+    },
+    {
+        "input": "It was easier for the diner to follow their budget than the food truck because the _ had more money to spend. In the previous sentence, does _ refer to diner or  food truck?",
+        "target": "diner",
+        "pred": "food truck"
+    },
+    {
+        "input": "John could not hear his alarm clock when he was sleeping with a headphone on his head because the _ is closer. In the previous sentence, does _ refer to headphone or  clock?",
+        "target": "headphone",
+        "pred": "alarm clock"
+    },
+    {
+        "input": "Tanya was the most powerful person in the world, and Sarah admired them, because _ was something to aspire to. In the previous sentence, does _ refer to Tanya or  Sarah?",
+        "target": "tanya",
+        "pred": "sarah"
+    }
+]

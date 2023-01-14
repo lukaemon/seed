@@ -1,0 +1,37 @@
+[
+    {
+        "input": "Assume it is true that Nicktoons is a British/Irish digital television channel, launched on 22 July 2002. It is a cartoon based sister channel to Nickelodeon. The channel airs Nicktoons, as well as acquired programming from outside providers. Unlike the United States version, it has been ad-supported since launch. \n\nTherefore, \"Nicktoons exlcusively airs Nicktoons and programming from Nickelodeon\" is guaranteed, possible, or impossible?",
+        "target": "impossible",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that \"Be Right Back\" is the first episode of the second series of British science fiction anthology series \"Black Mirror\". It was written by series creator and showrunner Charlie Brooker, directed by Owen Harris and first aired on Channel 4 on 11 February 2013. \n\nTherefore, \"\"Be Right Back\" has existed for over 6 years\" is guaranteed, possible, or impossible?",
+        "target": "guaranteed",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that Club Atl\u00e9tico Uni\u00f3n de Mar del Plata is an Argentine sports club from Mar del Plata, Buenos Aires Province. The club was founded on December 1, 1926, and its main sports are football and basketball. In football, Uni\u00f3n currently plays in the Torneo Argentino A, which is the regionalised third division of the Argentine football league system. \n\nTherefore, \"Club Atl\u00e9tico Uni\u00f3n de Mar del Plata has been around for 100 years\" is guaranteed, possible, or impossible?",
+        "target": "impossible",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that Bantiger TV Tower is a 196 metre tall tower used for FM- and TV-transmission at on the Bantiger mountain, a mountain east of Berne situated in the municipality of Bolligen. The Bantiger TV Tower was built between 1991 and 1996 as replacement of a 100 metres tall radio tower, built in 1954. \n\nTherefore, \"Bantiger TV Tower is used for AM-, FM-, and TV-transmissions.  \" is guaranteed, possible, or impossible?",
+        "target": "impossible",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that The Deserve the Future Tour was a worldwide concert tour by American rock supergroup Them Crooked Vultures. The tour began on August 9, 2009, and ran until July 30, 2010, after a run of shows in Japan, and visited North America, Europe and Oceania. The tour was in support of the band's debut album. \n\nTherefore, \"The Deserve the Future Tour ran for 4 years.\" is guaranteed, possible, or impossible?",
+        "target": "impossible",
+        "pred": "possible"
+    },
+    {
+        "input": "Assume it is true that George Avakian (Armenian: \u0533\u0587\u0578\u0580\u0563 \u0531\u057e\u0561\u0563\u0575\u0561\u0576 ; Russian: \u0413\u0435\u0432\u043e\u0440\u043a \u0410\u0432\u0430\u043a\u044f\u043d ; born March 15, 1919) is an American record producer and executive known particularly for his work with Columbia Records, and his production of albums by Louis Armstrong, Miles Davis and other notable jazz musicians. \n\nTherefore, \"George Avakian is no longer living.\" is guaranteed, possible, or impossible?",
+        "target": "possible",
+        "pred": "impossible"
+    },
+    {
+        "input": "Assume it is true that The Queen, often referred to as the Evil Queen or the Wicked Queen, is a fictional character and the main antagonist in \"Snow White\", a German fairy tale recorded by the Brothers Grimm; similar stories are also known to exist in other countries. Other versions of the Queen appear in \"Snow White\" derivative works, and the character has also become an archetype for unrelated works of fiction. \n\nTherefore, \"\"Snow White\" is a fairy tale recorded by the Brothers Grimm. It originated in countries other than Germany.\" is guaranteed, possible, or impossible?",
+        "target": "impossible",
+        "pred": "possible"
+    }
+]

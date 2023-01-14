@@ -1,6 +1,7 @@
 import logging
 import time
 import os
+import json
 from dataclasses import dataclass, asdict
 from typing import List
 
@@ -21,6 +22,8 @@ logger.setLevel(logging.INFO)
 
 
 def build_t2t(checkpoint: str) -> callable:
+    logger.info(f"loading model from {checkpoint}...")
+
     model = T5ForConditionalGeneration.from_pretrained(
         checkpoint, low_cpu_mem_usage=True, torch_dtype=torch.bfloat16
     )
@@ -121,28 +124,66 @@ def eval(t2t, input_text, target_text, batch_size=32):
     data_size = len(input_text)
 
     correct = 0
+    failed_cases = []
 
     for i in range(0, data_size, batch_size):
         batch = input_text[i : i + batch_size]
-        batch_output = t2t(batch)
-        target = target_text[i : i + batch_size]
 
-        batch_correct = (np.array(batch_output) == np.array(target)).sum()
-        correct += batch_correct
+        pred = np.array(t2t(batch))
+        target = np.array(target_text[i : i + batch_size])
+
+        batch_correct = np.array(pred) == np.array(target)
+        correct += batch_correct.sum()
+
+        idx = np.where(batch_correct == False)[0]
+        batch_failed_input = np.take(batch, idx)
+        batch_failed_target = np.take(target, idx)
+        batch_failed_pred = np.take(pred, idx)
+
+        for i, t, pred in zip(
+            batch_failed_input, batch_failed_target, batch_failed_pred
+        ):
+            failed_cases.append({"input": i, "target": t, "pred": pred})
 
     accuracy = correct / len(input_text)
 
     t_end = time.time()
     t_lapse = t_end - t_start
 
-    return accuracy, t_lapse
+    return accuracy, t_lapse, failed_cases
 
 
 def dump_result_as_csv(results: List[Result], checkpoint: str, output_dir: str):
     result_df = pd.DataFrame([asdict(r) for r in results])
 
     model_name = checkpoint.split("/")[-1]
+    output_dir = os.path.join(output_dir, model_name)
+    os.makedirs(output_dir, exist_ok=True)
+
     file_path = os.path.join(output_dir, f"{model_name}.csv")
 
     logger.info(f"dumping results to {file_path}...")
     result_df.to_csv(file_path, index=False)
+
+
+def dump_failed_cases_as_json(
+    failed_cases: List[dict],
+    checkpoint,
+    dataset_name,
+    subset_name,
+    prompt_name,
+    output_dir,
+):
+    model_name = checkpoint.split("/")[-1]
+    prompt_name = prompt_name.replace("/", "_")
+
+    file_parent_path = os.path.join(
+        output_dir, model_name, f"{dataset_name}/{subset_name}"
+    )
+    os.makedirs(file_parent_path, exist_ok=True)
+
+    file_path = os.path.join(file_parent_path, f"{prompt_name}.json")
+
+    logger.info(f"dumping failed cases to {file_path}...")
+    with open(file_path, "w") as f:
+        json.dump(failed_cases, f, indent=4)

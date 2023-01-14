@@ -1,0 +1,12 @@
+[
+    {
+        "input": "But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? Based on that information, is the claim: \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "A: Really. If they were to take half of what they spend on that and put it on some economic, you know, intergovernmental or inter United States like programs that one really might. B: Yeah. A: I believe in paying my share, and I don't mind, uh, paying for some of these fringe benefits that people are entitled to. But I just sometimes feel like I'm being used. But, uh, again I don't think we'll be able to do anything about it, Based on that information, is the claim: \"they'll be able to do anything about it\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    }
+]

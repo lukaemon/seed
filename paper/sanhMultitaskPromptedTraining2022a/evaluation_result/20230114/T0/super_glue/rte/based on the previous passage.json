@@ -1,0 +1,12 @@
+[
+    {
+        "input": "Ssangyong Motor was taken over by creditors after it collapsed under heavy debts during the 1997-98 Asian financial crisis. Based on the previous passage, is it true that \"Asian financial crisis takes over Ssangyong Motor\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The Massachusetts Supreme Judicial Court has cleared the way for lesbian and gay couples in the state to marry, ruling that government attorneys \"failed to identify any constitutionally adequate reason\" to deny them the right. Based on the previous passage, is it true that \"U.S. Supreme Court in favor of same-sex marriage\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    }
+]

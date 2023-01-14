@@ -1,0 +1,17 @@
+[
+    {
+        "input": "Timmy bought a transporter for his cat so he could take him on the plane but the _ was too small.\nWhat does the _ in the above sentence refer to? transporter or plane?",
+        "target": "transporter",
+        "pred": "plane"
+    },
+    {
+        "input": "John could not hear his alarm clock when he was sleeping with a headphone on his head because the _ is closer.\nWhat does the _ in the above sentence refer to? headphone or clock?",
+        "target": "headphone",
+        "pred": "alarm clock"
+    },
+    {
+        "input": "Sarah was quickly promoted to manager over Kayla, because _ excelled at angering other people.\nWhat does the _ in the above sentence refer to? Sarah or Kayla?",
+        "target": "kayla",
+        "pred": "sarah"
+    }
+]

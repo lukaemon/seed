@@ -1,0 +1,17 @@
+[
+    {
+        "input": "B: and, you know, they just love kittens. A: Yeah. B: They just are fascinated. A: Oh, yeah. B: So she doesn't know that this is a cat yet. Are we justified in saying that \"this is a cat\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? Are we justified in saying that \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Modify the arachnids, said the researchers. Change their bodies and conditions, and you could get fibres like glass, still monofilament, but with logarithmic progressions of possibilities of strength and flexibility, and the ability to resonate light-particles or sound-waves undistorted, scarcely weakened over thousands of miles. Who said the arachnids had to be totally organic? Are we justified in saying that \"arachnids had to be totally organic\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    }
+]

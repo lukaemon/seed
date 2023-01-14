@@ -1,0 +1,37 @@
+[
+    {
+        "input": "In the sentence below, does the _ stand for Patricia or Felicia?\nPatricia decided to buy Felicia dinner because they had been through a lot and _ just inherited some money.",
+        "target": "patricia",
+        "pred": "felicia"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for transporter or plane?\nTimmy bought a transporter for his cat so he could take him on the plane but the _ was too small.",
+        "target": "transporter",
+        "pred": "plane"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for diner or food truck?\nIt was easier for the diner to follow their budget than the food truck because the _ had more money to spend.",
+        "target": "diner",
+        "pred": "food truck"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for headphone or clock?\nJohn could not hear his alarm clock when he was sleeping with a headphone on his head because the _ is closer.",
+        "target": "headphone",
+        "pred": "clock"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Nick or William?\nHappiness was most important to Nick but money was most important to William. _ valued a good life.",
+        "target": "nick",
+        "pred": "william"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for brake or wheel?\nWhen the car was brought up into the shop, the brake was replaced when the wheel wasn't, since the _ was fixed.",
+        "target": "wheel",
+        "pred": "brake"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Tanya or Sarah?\nTanya was the most powerful person in the world, and Sarah admired them, because _ was something to aspire to.",
+        "target": "tanya",
+        "pred": "sarah"
+    }
+]

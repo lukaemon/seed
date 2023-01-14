@@ -1,0 +1,12 @@
+[
+    {
+        "input": "B: and, you know, they just love kittens. A: Yeah. B: They just are fascinated. A: Oh, yeah. B: So she doesn't know that this is a cat yet. Using only the above description and what you know about the world, \"this is a cat\" is definitely correct, incorrect, or inconclusive?",
+        "target": "correct",
+        "pred": "inconclusive"
+    },
+    {
+        "input": "It grew bigger with incredible speed, she was whizzing towards it. She must slow down or she 'd miss it. She took her foot off the accelerator and put it on the brake and as the car slowed she could see now that it was a child a toddler with a red woolly hat on. Using only the above description and what you know about the world, \"it was a child\" is definitely correct, incorrect, or inconclusive?",
+        "target": "correct",
+        "pred": "definitely correct"
+    }
+]

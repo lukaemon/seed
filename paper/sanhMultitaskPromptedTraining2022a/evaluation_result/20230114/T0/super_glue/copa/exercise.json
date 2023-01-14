@@ -1,0 +1,7 @@
+[
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe pair of students came under scrutiny by the teacher.  because... \n- The students both received excellent grades.\n- Their responses on the assignment were identical.",
+        "target": "their responses on the assignment were identical.",
+        "pred": "the students both received excellent grades."
+    }
+]

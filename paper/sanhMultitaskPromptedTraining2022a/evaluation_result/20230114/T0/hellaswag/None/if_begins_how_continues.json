@@ -1,0 +1,52 @@
+[
+    {
+        "input": "If a description of a situation begins like this: [header] How to recover from an emotional affair [title] Forgive yourself. [step] While forgiving others can be challenging, it's often even harder to forgive yourself. Remember that if you had known the path of your actions and their consequences, you probably would not have done what you did.... Then how\ndoes it continue? \n\nEnding 1: Take some time to live in the past and let go of those emotions. For example, if you had experienced a miscarriage, forgiveness would be easy.\n\nEnding 2: Forgiveness in someone else can only serve to make it harder. [substeps] Cheating can be very emotional, and can even be worse.\n\nEnding 3: To begin forgiving yourself, admit that you messed up or made a mistake. Making mistakes is part of being human and no one is exempt from it.\n\nEnding 4: In the moment, forgive yourself for all the things you could have done differently. [substeps] Though you may have felt wronged, forgiving yourself for your actions will take time and effort to live.",
+        "target": "ending 3",
+        "pred": "forgiving yourself is often the most difficult part of recovering from an emotional affair."
+    },
+    {
+        "input": "If a description of a situation begins like this: A doctor in a lab coat talks about the lenses too, while people are showing how to use them. another news anchor... Then how\ndoes it continue? \n\nEnding 1: talks about contacts lenses and how robotic they can be.\n\nEnding 2: also talks about the same lenses and how it has become a dangerous trend among teenagers.\n\nEnding 3: is interviewed about the incident.\n\nEnding 4: talks about the lens and drink is an advertisement that the lens is called printed in a foreign language.",
+        "target": "ending 2",
+        "pred": "ending 4"
+    },
+    {
+        "input": "If a description of a situation begins like this: A man is seen bending down before a set of weights with others watching him on the side. The man lifts up the weights over his head. in the end... Then how\ndoes it continue? \n\nEnding 1: he drops down onto a mat with a pain f hurt.\n\nEnding 2: he drops the weights off.\n\nEnding 3: he walks away with the weights.\n\nEnding 4: he throws the weights down.",
+        "target": "ending 4",
+        "pred": "ending 1"
+    },
+    {
+        "input": "If a description of a situation begins like this: [header] How to deadhead petunias [title] Check what type of petunias you are growing. [step] Find the seeds or the plant markers. If they are new types of petunias, like wave or tidal wave, they don't need to be deadheaded.... Then how\ndoes it continue? \n\nEnding 1: However, if they are in pairs, they may not be deadheaded until they produce more than one flower. Look for shriveled, wilted stems, or other signs of mold.\n\nEnding 2: Opt for a variety where the flowers center stem outward. [substeps] How old the flowers are does not matter, as these plants grow year round, and do not require deadheading.\n\nEnding 3: [substeps] Many new petunias have been engineered to be low-maintenance. They will fill out without being deadheaded.\n\nEnding 4: Try the following plants if you want to eliminate the ones that are still blooming in mid-spring. [substeps] Semi-flowering petunias are in one of three categories: non-flowering species, which are small purple flowers with leaf marks and leaves arranged together.",
+        "target": "ending 3",
+        "pred": "if they are new types of petunias, like wave or tidal wave, they don't need to be deadheaded"
+    },
+    {
+        "input": "If a description of a situation begins like this: [header] How to write a marketing report [title] Consider why you should perform market research and write a report. [step] What information is important to you? What will you do with the marketing report after it is created? This process requires an investment of time and expense. Make sure that you have a clear plan for using the information that you collect.... Then how\ndoes it continue? \n\nEnding 1: [substeps] Talk to other consumers to find out what they think and they may get an idea of what your report is likely to end up doing. For example, many marketing writers are tech savvy and planning for the next year's sales are only 75 minutes.\n\nEnding 2: [substeps] Market research is the process of evaluating how well your marketing efforts are working. Specifically, does your marketing get the attention and interest of prospects? Are you converting enough of those prospects into clients? [title] Identify your customer.\n\nEnding 3: Take this low-key approach to analyzing your report. [substeps] \" idea analysis \" is a good way to find information and introduce it into your analysis.\n\nEnding 4: [substeps] Maybe you are 100% sure that the company has an effective, unionized environment. Help identify how this could affect you and your business.",
+        "target": "ending 2",
+        "pred": "consider why you should perform market research and write a report."
+    },
+    {
+        "input": "If a description of a situation begins like this: This elderly man is blowing the leaves out of the way using a leaf blower. first the camera... Then how\ndoes it continue? \n\nEnding 1: zooms out slightly and we see he has a child wearing gloves.\n\nEnding 2: is giving viewers a close up view only showing the man's face.\n\nEnding 3: runs like a compass and then it cuts to a car and then the man blowing the leaves.\n\nEnding 4: pans to a man sitting in the dirt close to the wind blowing the leaves in a breeze.",
+        "target": "ending 2",
+        "pred": "4"
+    },
+    {
+        "input": "If a description of a situation begins like this: [header] How to teach a child to use scissors [title] Take a pair of scissors and hand the child the handle side first. [step] Naturally the child will pick the pair of scissors with their dominate hand. [title] Start with the grip.... Then how\ndoes it continue? \n\nEnding 1: [step] Show the child in your hand how to hold the scissors, and then have them try to copy it. If they aren't able to alone, help move their fingers and thumb into the right position.\n\nEnding 2: [step] Hold the handle side in one of your dominant hand, use thumb and pointer fingers to grip the grip side of the scissors, then use the second pair of scissors to cut away any excess skin. If you want to do this instep the toe with your palm.\n\nEnding 3: [step] Holding the handle side of the scissors firmly between your thumb and forefinger, swiftly bend the handle and snip off a small piece off the short end. [title] Grip the blade using your dominant hand and hold it at a 45-degree angle from the child's fingers.\n\nEnding 4: [step] This is the grip you can get to hold the child's scissors so as to position them correctly. [substeps] Hold the teacher's scissors straight up.",
+        "target": "ending 1",
+        "pred": "[step] hold the handle side in one of your dominant hand, use thumb and pointer fingers to grip the grip side of the scissors, then use the second pair of scissors to cut away any excess skin."
+    },
+    {
+        "input": "If a description of a situation begins like this: A man is seen stepping on a tool and spinning a blade. he... Then how\ndoes it continue? \n\nEnding 1: ties it around his body while looking back to the camera.\n\nEnding 2: holds up a knife and continues to sharpen the blade.\n\nEnding 3: then holds a person up and shows off his tool.\n\nEnding 4: then scrapes the blade over a rock and shows how to properly wrap it around his leg.",
+        "target": "ending 2",
+        "pred": "ending 4"
+    },
+    {
+        "input": "If a description of a situation begins like this: [header] How to help your overweight girlfriend or boyfriend be healthy [title] Talk about daily routines. [step] There can be many reasons for a person to be overweight, from inactivity to health concerns. Before you assume that your partner is just inactive, talk to him about his daily routine.... Then how\ndoes it continue? \n\nEnding 1: Even if you weren't expecting it, you can be surprised by how your partner has quickly started to lose weight. [substeps] Find out what his daily routine is like.\n\nEnding 2: Ask a question as a way to get a conversation started. Be sure to listen and respond rather than asking a series of questions because this may come across as interrogating.\n\nEnding 3: For example, talk about what his work week is like. Understanding that a person's daily routine can affect where he eats and drink, why he doesn't sweat, and so on are important tricks you can use to help him stay healthy.\n\nEnding 4: Provide a detailed picture of the schedule and any changes that he is going to make. [substeps] Talk about regular meals and toiletries.",
+        "target": "ending 2",
+        "pred": "if you want to help your overweight boyfriend or girlfriend lose weight, you need to find out what his daily routine is like."
+    },
+    {
+        "input": "If a description of a situation begins like this: A man is standing on ice holding a fishing pole in his right hand and there's a very small hole in the ice in front of him and he drops his hook into the hole and tugs on his pole. the man... Then how\ndoes it continue? \n\nEnding 1: fishes intensely and retrieves the hook melt while still pulling on his stick, till his fish kiss from the hole in the ice.\n\nEnding 2: pulls a fish out of the holes on a string from his behind and an ice fishing pole goes into the hole.\n\nEnding 3: pulls a fish from his hook that was stuck in the ice and a fish resembling a shark rush out to reach it and grab the bug and quickly turn its from view.\n\nEnding 4: then pulls on the fishing wire a few times and stands there holding his fishing pole, moving it, and winding it from time to time.",
+        "target": "ending 4",
+        "pred": "1"
+    }
+]

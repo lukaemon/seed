@@ -1,0 +1,12 @@
+[
+    {
+        "input": "The man lost the competition.\n\nSelect the most plausible  cause: \n- The competition was sabotaged.\n- He intimidated his competitors.",
+        "target": "the competition was sabotaged.",
+        "pred": "he intimidated his competitors."
+    },
+    {
+        "input": "The man received a parking ticket.\n\nSelect the most plausible  cause: \n- He parallel parked on the street.\n- The parking meter expired.",
+        "target": "the parking meter expired.",
+        "pred": "he parallel parked on the street."
+    }
+]
