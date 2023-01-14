@@ -1,0 +1,272 @@
+[
+    {
+        "input": "Given that Ssangyong Motor was taken over by creditors after it collapsed under heavy debts during the 1997-98 Asian financial crisis. Therefore, it must be true that \"Asian financial crisis takes over Ssangyong Motor\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that A senior coalition official in Iraq said the body, which was found by U.S. military police west of Baghdad, appeared to have been thrown from a vehicle. Therefore, it must be true that \"A body has been found by U. S. military police.\"? Yes or no?",
+        "target": "yes",
+        "pred": "yes or no? yes, a body has been found by u.s. military police.\"? yes or no? yes, a body has been found by u. s. military police.\"?"
+    },
+    {
+        "input": "Given that The Massachusetts Supreme Judicial Court has cleared the way for lesbian and gay couples in the state to marry, ruling that government attorneys \"failed to identify any constitutionally adequate reason\" to deny them the right. Therefore, it must be true that \"U.S. Supreme Court in favor of same-sex marriage\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that A top aide to Ms. Bhutto, Senator Latif Khosa, says that on the day of her assassination, Ms. Bhutto planned to give two visiting U.S. lawmakers a thick dossier outlining numerous instances of government pre-poll rigging involving voter registration as well as intimidation of PPP supporters. \"Everything was recorded in that, with all proofs that we have had, and with the independent reports of the foreign monitors who were also operating. Their reports also supported our allegations as to being substantial and as being true. So they were all recorded, but unfortunately she could not present the report because she was assassinated before she could do that,\" said Khosa. Therefore, it must be true that \"Latif Khosa was in a relationship with Ms. Bhutto.\"? Yes or no?",
+        "target": "no",
+        "pred": "no, it must be true that \"latif khosa was in a relationship with ms. bhutto.\"? no it must be true that \"latif khosa was in a relationship with ms. bhutto.\"? no it must be true that \"latif khosa was in a relationship with ms. bhutto.\"? no it must be true that \"latif khosa was in a relationship with ms. bhutto.\"? no it must be true that \"latif khosa was in a relationship with ms. bhutto.\"? no it must be true that \"latif khosa was in a relationship with ms. bhutto.\"? no it must be true that \"latif khosa was in a relationship with ms. bhutto.\"? no it must be true that \"latif khosa was in a relationship with ms. bhutto.\"? no it must be true that \"latif khosa was in a relationship with ms. bhutto.\"? no it must be true that \"latif k"
+    },
+    {
+        "input": "Given that Amazon shares fell nearly 4 percent following the results as the company said operating income would drop as much as 42 percent in the second quarter. Therefore, it must be true that \"Shares of Amazon fell 4 percent.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Evans Paul, the pro-Aristide mayor of Port-au-Prince, said he had been told that the money will go to American lobbyists, politicians and journalists to campaign against the return of Aristide, Haiti's first democratically elected president Therefore, it must be true that \"Evans Paul is the mayor of Port-au-Prince.\"? Yes or no?",
+        "target": "yes",
+        "pred": "evans paul, the pro-aristide mayor of port-au-prince, said he had been told that evans paul, the pro-aristide mayor of port-au-prince, said he had been told that evans paul, the pro-aristide mayor of port-au-prince.\"? no, evans paul, the mayor of port-au-prince, said he is evans paul, the mayor of port-au-prince, said he is the mayor of port-au-paul.\"? no, evans paul is the mayor of port-au-paul.\""
+    },
+    {
+        "input": "Given that Napkins, invitations and plain old paper cost more than they did a month ago. Therefore, it must be true that \"The cost of paper is rising.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that According to reports, a man protesting the G20 Summit in London, England has died after collapsing at a protester camp. Sky News says the man collapsed on the street inside a camp close to the Bank of England and when found he was still breathing, but efforts by paramedics to rescue him failed and he was pronounced dead at an area hospital. The name of the person and cause of death are not yet known, but several people were injured earlier in the day. It is also reported by Sky News that people threw bottles at him and authorities when they were taking him to a waiting ambulance. Therefore, it must be true that \"Sky News offices are close to the Bank of England.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Another factor in the rising cost of paper is the increased cost of wood pulp, from which paper is made Therefore, it must be true that \"The cost of paper is rising.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Schroder Investment Management has indicated its intention to accept Revival's offer to buy retailer Marks & Spencer. Therefore, it must be true that \"Revival tries to take over Marks & Spencer Group.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that For US pharmaceutical companies, the impending healthcare reforms promise an era of increased cost-containment and pricing controls. Therefore, it must be true that \"The US government wants to keep drug prices down.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that About 33.5 million people live in this massive conurbation. I would guess that 95% of the 5,000 officially foreign-capital firms in Japan are based in Tokyo. Therefore, it must be true that \"About 33.5 miilion people live in Tokyo.\"? Yes or no?",
+        "target": "yes",
+        "pred": "tokyo."
+    },
+    {
+        "input": "Given that He also referred to the \"illegal\" arrest on 31 May of Mexican Professor Maria Eugenia Ochoa Garcia, whom the Salvadoran government accused of having connections with the Salvadoran guerrillas. Therefore, it must be true that \"Professor Ochoa Garcia is a member of the Salvadoran government.\"? Yes or no?",
+        "target": "no",
+        "pred": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+    },
+    {
+        "input": "Given that Texas Data Recovery is also successful at retrieving lost data from notebooks and laptops, regardless of age, make or model. Therefore, it must be true that \"In the event of a disaster you could use Texas Data Recovery and you will have the capability to restore lost data.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Tropical storm Koni dumped significant rains on the Philippines before becoming a minimal typhoon and eventually making landfall on the northern coast of Vietnam. Therefore, it must be true that \"A tropical storm has caused significant property damage.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes or no?"
+    },
+    {
+        "input": "Given that Prince Charles, Britain's heir to the throne, has announced that he is to wed his lover of 34 years, Camilla Parker Bowles. In a press statement, the Prince of Wales said \"Mrs Parker Bowles and I are absolutely delighted. It will be a very special day for us and our families.\" Mrs Parker Bowles will use the title \"HRH The Duchess of Cornwall\" after their marriage, and it is intended that following the Prince's accession to the throne, Mrs Parker Bowles will use the title \"HRH The Princess Consort\". The pair are to marry on 8th April 2005 at a private civil ceremony in Windsor Castle, which will be an occasion primarily for friends and family. There will then be a service of prayer and dedication in St. George's Chapel, to be conducted by the Archbishop of Canterbury, Dr. Rowan Williams. Therefore, it must be true that \"Camilla Parker Bowles is engaged to Britain's heir.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that JERUSALEM (AP) -- In a spiritual climax to his 22-year papacy, Pope John Paul II on Tuesday began the first official visit by a Roman Catholic pontiff to Israel, fulfilling his dream of visiting the land where Christ was born and died. Therefore, it must be true that \"Pope John Paul II was born in Poland.\"? Yes or no?",
+        "target": "no",
+        "pred": "it cannot be inferred that pope john paul ii was born in poland."
+    },
+    {
+        "input": "Given that Yachtsman Melvyn Percy became so fed up with the standard of service when preparing his boat for the 3000-mile Atlantic crossing that he decided to set up his own company on the Clyde to provide Scots sailors with professional advice and practical assistance. Minerva Rigging, based at Kip Marina just south of Gourock, now employs five full-time staff and is the Scottish agent for Kemp, one of Europe's leading yacht spar and mast manufacturers. Therefore, it must be true that \"Melvyn Percy set up Minerva Rigging at Kip Marina.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that NEW YORK \u2014  Somali pirates attacked and damaged an American ship carrying humanitarian aid Tuesday, but the ship and crew were safe under Navy escort, the military and shipping company said. The pirates fired rocket-propelled grenades and automatic weapons at the Liberty Sun as it carried food for famine-wracked African nations, said the vessel's owner, Liberty Maritime Corp. The ship was en route from Houston to Mombasa, Kenya, with a roughly 20-member crew, officials said. . Therefore, it must be true that \"Pirates damaged the ship Liberty Maritime.\"? Yes or no?",
+        "target": "no",
+        "pred": "liberty sun as it carried food for famine-wracked african nations, said the vessel's owner, liberty maritime corp..\" no"
+    },
+    {
+        "input": "Given that Danny Kennedy, Greenpeace campaigns director, said: \"The burden of proof in the Scott Parkin expulsion case lies morally with the Commonwealth, to prove that he is a danger. When the Government brought in anti-terror legislation, they promised the public that these laws would only be used to confront a real and present risk of a terrorist attack, not a sweep-all approach against citizens. Peace is not terrorism. Peace is not a threat to national security. No democratic government should expel a foreign citizen because [it] opposes his political opinions.\" Therefore, it must be true that \"Greenpeace director said that peace is terrorism.\"? Yes or no?",
+        "target": "no",
+        "pred": "no one who is greenpeace director said that peace is terrorism.\" no one who is greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that greenpeace director said that peace is terrorism.\". no one who is greenpeace director said that greenpeace director said that peace is terrorism.\"."
+    },
+    {
+        "input": "Given that VCU School of the Arts In Qatar is located in Doha, the capital city of Qatar. Therefore, it must be true that \"Qatar is located in Doha.\"? Yes or no?",
+        "target": "no",
+        "pred": "qatar is located in doha.\"? no, doha is located in doha, the capital city of qatar. is located in doha, the capital city of qatar..\"? yes"
+    },
+    {
+        "input": "Given that Adela Lupse was born in 1988 to a miner's family in the village of Poiana, Bihor in Transylvania, Romania. A member of Romania's first post-Ceausescu generation, she grasped the power of television at a young age: \"I think television is the most interesting phenomenon that the modern day has given us....for my type of personality, I find it impressive, the power that television has worldwide....We dress like the people that television promotes. We want to look like the celebrities that television launches.\" Therefore, it must be true that \"Bihor is situated in Romania.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Blair has sympathy for anyone who has lost their lives in Iraq. Therefore, it must be true that \"Blair is sympathetic to anyone who has lost their lives in Iraq.\"? Yes or no?",
+        "target": "yes",
+        "pred": "given that blair has sympathy for anyone who has lost their lives in iraq.\"?"
+    },
+    {
+        "input": "Given that For women earning 22,000 a year, the total pay accumulated after six months maternity leave would be just 5,300 in the UK and 5,850 in Ireland. Entitlements in Germany would also be relatively low, at 5,900, along with those in France, Spain and the Netherlands, all at 6,750. At the other end of the scale, pay received after six months leave in Italy would be 9,150 while in Denmark and Norway it would be as much as 11,000. Therefore, it must be true that \"Maternity leave varies in Europe.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Compuware claims that Allan Tortorice and Jim Hildner were among several former employees who revealed trade secrets after they moved to IBM. Therefore, it must be true that \"Trade secrets were stolen.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,"
+    },
+    {
+        "input": "Given that The IOC meeting will also review reports submitted by the organizing committees of the 1998 Winter Olympic Games in Nagano, Japan; the 2000 Summer Olympic Games in Sydney, Australia and the 2002 Winter Olympic Games in the Salt Lake City, the United States, respectively. Therefore, it must be true that \"Before Salt Lake City, Winter Olympic Games took place in Nagano.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Though the exact date is debated, dogs are thought to have been domesticated by humans approximately 12,000 years ago. Therefore, it must be true that \"Humans existed 10,000 years ago.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just $20,000, but sold for $120,000, six times its estimated price. Therefore, it must be true that \"Hepburn's diamond and sapphire brooch fetched $120,000.\"? Yes or no?",
+        "target": "yes",
+        "pred": "hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just hepburn's diamond and sapphire brooch had been estimated to fetch just hepburn's diamond and sapphire brooch had been estimated to fetch just hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just hepburn's diamond and sapphire brooch had been estimated to fetch just hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just hepburn's diamond and sapphire brooch had been estimated to fetch just hepburn's diamond and sapphire brooch had been estimated to fetch just hepburn's"
+    },
+    {
+        "input": "Given that General Miguel Maza Marquez, chief of the Colombian Administrative Department Of Security (DAS), today confirmed foreign participation in the assassination of Luis Carlos Galan, senator and Liberal party presidential candidate, on 18 August in Bogota. Therefore, it must be true that \"General Miguel Maza Marquez took part in the assassination of Luis Carlos Galan.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that New security steps taken by the Customs Service may not be enough to stop a terrorist from smuggling in nuclear weapons. Therefore, it must be true that \"Steps are being taken to stop the smuggling of aliens.\"? Yes or no?",
+        "target": "no",
+        "pred": "no? no, no it must be true that \"steps are being taken to stop the smuggling of aliens.\"? no, no it must be true that \"steps are being taken to stop the smuggling of aliens.\"? no, no it must be true that \"steps are being taken to stop the smuggling of aliens.\"? no, no it must be true that \"steps are being taken to stop the smuggling of aliens.\"? no, no it must be true that \"steps are being taken to stop the smuggling of aliens.\"? no, no it must be true that \"steps are being taken to stop the smuggling of aliens.\"? no, no it must be true that \"steps are being taken to stop the smuggling of aliens.\"? no, no it must be true that \"steps are being taken to stop the smuggling of aliens.\"? no, no it must be true that \"steps are being taken to stop the smuggling of aliens.\"? no"
+    },
+    {
+        "input": "Given that While Bush was in the air, the White House was evacuated, with many employees running away from the premises on orders from Secret Service agents. Therefore, it must be true that \"The U.S. military evacuated U.S. citizens.\"? Yes or no?",
+        "target": "no",
+        "pred": "u.s. citizens.\"? no, it must be that while bush was in the air, the white house was evacuated, with many employees running away from the premises on orders from secret service agents. therefore, it must be true that \"the u.s. military evacuated u.s. citizens.\"? yes or no? no, it must be true that \"the u.s. military evacuated u.s. citizens.\"? no, it must be true that \"the u.s. military evacuated u.s. citizens.\"? yes or no? the u.s. military evacuated u.s. citizens.\"? no, it must be true that \"the u.s. military evacuated u.s. citizens.\"? yes or no? the u.s. military evacuated u.s. citizens.\"? no, no, it must be true that \"the u.s. military evacuated u.s. citizens.\"? yes or no? the u.s. military evacuated u.s. citizens.\"? no, no, it must be true that \"the u.s. military evacuated u.s. citizens.\"? yes or no? the u.s. military"
+    },
+    {
+        "input": "Given that The chaotic situation unleashed in Bogota last night, with the assasination of Justice Carlos Valencia, began on 28 July in Medellin, when motorized paid assasins murdered third public order Judge Maria Elena Diaz. Therefore, it must be true that \"Justice Carlos Valencia was killed in Medellin.\"? Yes or no?",
+        "target": "no",
+        "pred": "no, justice carlos valencia was killed in bogota, with the assasination of justice carlos valencia, began on 28 july in medellin, when motorized paid assasins murdered third public order judge maria elena diaz. no, justice carlos valencia was killed in medellin.\"? no, justice carlos valencia was killed in medellin.\""
+    },
+    {
+        "input": "Given that Rolling Stone, one of the music industry's foremost publications, has found itself reporting false news gleaned from a Wikipedia article. The online edition of the magazine's Rock & Roll Daily released an article entitled \"Halle Berry Set to Ruin Reputation...\" on December 11, reporting on the news that the actor had announced her intentions to release a musical album. The story was quickly picked up by the Washington Post, All Headline News and other news agencies eager to report on the Academy Award-winning actress' foray into the musical world. The only trouble is, according to one of the album's alleged producers, Scott Storch, there is no such album...and he definitely hasn't produced three songs for it. Therefore, it must be true that \"Halle Berry works with Scott Storch.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Without a natural greenhouse effect, the temperature of the Earth would be about zero degrees F (-18C) instead of its present 57F (14C). Therefore, it must be true that \"Greenhouse effect changes global climate.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Easter is over but that doesn't mean you can't enjoy \"Ben-Hur,\" the granddaddy of biblical epics and winner of a record 11 Oscars, including best picture and best actor (Charlton Heston in the title role). Therefore, it must be true that \"Charlton Heston played the title role in the movie \"Ben-Hur\".\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that He said that \"there is evidence that Cristiani was involved in the murder of the six Jesuit priests\" which occurred on 16 November in San Salvador. Therefore, it must be true that \"Cristiani is accused of the assassination of six Jesuits.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Security forces were on high alert after an election campaign in which more than 1,000 people, including seven election candidates, have been killed. Therefore, it must be true that \"Security forces were on high alert after a campaign marred by violence.\"? Yes or no?",
+        "target": "yes",
+        "pred": "marred by violence.\"? yes"
+    },
+    {
+        "input": "Given that He became a boxing referee in 1964 and became most well-known for his decision against Mike Tyson, during the Holyfield fight, when Tyson bit Holyfield's ear. Therefore, it must be true that \"Mike Tyson bit Holyfield's ear in 1964.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Kozlowski and the company's former chief financial officer, Mark Swartz, were sentenced, on Monday, to up to 25 years in prison. Therefore, it must be true that \"Kozlowski was sentenced, Monday, to serve up to 25 years in prison.\"? Yes or no?",
+        "target": "yes",
+        "pred": "kozlowski was sentenced, monday, to serve up to 25 years in prison.\"? no or no"
+    },
+    {
+        "input": "Given that Wal-Mart Stores has asked a US federal appeals court to review a judge's order approving class-action status for a sex-discrimination lawsuit. Therefore, it must be true that \"The judge approves of sex-discrimination.\"? Yes or no?",
+        "target": "no",
+        "pred": "the judge approves of sex-discrimination.\"? no, the judge approves of sex-discrimination.\""
+    },
+    {
+        "input": "Given that U.S. forces have been engaged in intense fighting after insurgents launched simultaneous attacks in several Iraqi cities, including Fallujah and Baqubah. Therefore, it must be true that \"Fallujah and Baqubah are Iraqi cities.\"? Yes or no?",
+        "target": "yes",
+        "pred": "yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\", yes.\","
+    },
+    {
+        "input": "Given that Two British soldiers have been arrested in the southern Iraq city of Basra, sparking clashes outside a police station where they are being held. Therefore, it must be true that \"Two British tanks, sent to the police station where the soldiers are being held, were set alight in clashes.\"? Yes or no?",
+        "target": "no",
+        "pred": "no it cannot be inferred that \"two british tanks, sent to the police station where the soldiers were being held, were set alight in clashes.\"?"
+    },
+    {
+        "input": "Given that Jerry Reinsdorf (born February 25 1936 in Brooklyn, New York) is the owner of Chicago White Sox and the Chicago Bulls. Recently, he helped the White Sox win the 2005 World Series and, in the process, collected his seventh championship ring overall (the first six were all with the Bulls in the 1990s), becoming the third owner in the history of North American sports to win a championship in two different sports. Therefore, it must be true that \"Jerry Reinsdorf has won 7 championships.\"? Yes or no?",
+        "target": "yes",
+        "pred": "yes, yes it must be true that jerry reinsdorf has won 7 championships. yes, it is true that jerry reinsdorf has won 7 championships."
+    },
+    {
+        "input": "Given that On Jan. 27, 1756, composer Wolfgang Amadeus Mozart was born in Salzburg, Austria. Therefore, it must be true that \"Wolfgang Amadeus Mozart was born in Salzburg.\"? Yes or no?",
+        "target": "yes",
+        "pred": "wolfgang amadeus mozart was born in salzburg, austria."
+    },
+    {
+        "input": "Given that But Huawei says that expansion has not been easy - obtaining visas for its Chinese engineers to work on long-term projects in India being a particular challenge. Therefore, it must be true that \"Chinese engineers working on long-term projects in India can easily obtain visas.\"? Yes or no?",
+        "target": "no",
+        "pred": "no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Given that Foreign Carmakers Gain in Russia. The likes of Daewoo, Ford, Renault, and more can't produce fast enough. Therefore, it must be true that \"European cars sell in Russia.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that The humane organization, Caritas, quoting its branch in Iraq, announced today, in Germany, that several Iraqi hospitals, especially Saddam Hospital, which is considered the biggest hospital in Iraq, were hit in the American-British bombing of the Iraqi capital. Therefore, it must be true that \"Caritas announced that several Iraqi hospitals, (excluding Saddam Hospital,) were hit in the shelling of Baghdad.\"? Yes or no?",
+        "target": "no",
+        "pred": "caritas announced today, in germany, that several iraqi hospitals, especially saddam hospital, which is considered the biggest hospital in baghdad, were hit in the american-british bombing of the iraqi capital. therefore, it must be false that \"caritas announced that several iraqi hospitals, (excluding saddam hospital,) were hit in the shelling of baghdad.\"? no"
+    },
+    {
+        "input": "Given that The publishing companies Bloomsbury (U.K.) and Scholastic (U.S.) released cover art for the seventh Harry Potter book, Harry Potter and the Deathly Hallows. \"The structures around Harry show evident destruction and in the shadows behind him, we see outlines of other people,\" David Saylor, Scholastic's art director, said in a statement describing the U.S. version. \"For the first time, the cover is a wraparound. On the back cover spidery hands are outstretched toward Harry. Only when the book is opened does one see a powerful image of \"He-Who-Must-Not-Be-Named\", his glowing red eyes peering out from his hood.\" Therefore, it must be true that \"Rowling is the author of \"Harry Potter\".\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that The official visit of the Argentine minister marks a further step in the normalisation of UK-Argentine relations. Therefore, it must be true that \"Relations between Argentina and Great Britain are growing more cooperative.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that South America - The President of Colombia Alvaro Uribe is scheduled to meet the President of Venezuela Hugo Ch\u00e1vez Thursday. Apparently the crisis between Venezuela and Colombia is almost solved. The crisis began with the imprisonment of the alleged FARC member Rodrigo Granda by Colombian forces on December 13, 2004. Venezuela accused Colombian of invading Venezuelan territory. Colombia accused Venezuela of harboring FARC terrorists. The President of Cuba, Fidel Castro, intervened in the crisis and talked to Chavez and Uribe. Therefore, it must be true that \"Alvaro Uribe is the current President of Colombia.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that We learn that Claretta Petacci, Mussolini's last mistress, had a tendency to whine and to lie all day in bed, eating chocolate. Therefore, it must be true that \"Claretta Petacci was Mussolini's last mistress.\"? Yes or no?",
+        "target": "yes",
+        "pred": "claretta petacci, mussolini's last mistress.\"? yes"
+    },
+    {
+        "input": "Given that The abode of the Greek gods was on the summit of Mount Olympus, in Thessaly. Therefore, it must be true that \"Mount Olympus is in Thessaly.\"? Yes or no?",
+        "target": "yes",
+        "pred": "thessaly.\". yes or no?.\"is in thessaly.\".\"yes.\"? yes or no?.\"yes.\".\"yes.\".\""
+    },
+    {
+        "input": "Given that Former WBA heavyweight champ Greg Page, who suffered a severe brain injury in a 2001 fight, has died at his Louisville home at the age of 50. According to Page's wife, the ex-champ died from complications due to boxing injuries and paralysis. Following a successful amateur career, Page went 58-17-1 during a professional career that began in 1979 and included wins over Jimmy Young, James Tillis, Renaldo Snipes, Gerrie Coetzee (for the WBA title), James 'Bonecrusher' Smith and Tim Witherspoon. Page's losses read like a who's who of heavyweights of the 1980s: Trevor Berbick, Witherspoon, Tony Tubbs, Buster Douglas, Joe Bugner, Orlin Norris, Donovan 'Razor' Ruddock, Bruce Seldon, Monte Barrett and Jorge Luis Gonzalez. Therefore, it must be true that \"Greg Page was a boxer.\"? Yes or no?",
+        "target": "yes",
+        "pred": "yes."
+    },
+    {
+        "input": "Given that The capital of Slovenia is Ljubljana, with 270,000 inhabitants. Therefore, it must be true that \"Slovenia has 270,000 inhabitants.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    }
+]

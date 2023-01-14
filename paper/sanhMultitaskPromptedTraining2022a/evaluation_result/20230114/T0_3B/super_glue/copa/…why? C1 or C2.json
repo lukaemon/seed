@@ -1,0 +1,87 @@
+[
+    {
+        "input": "The man lost the competition. Why? \"The competition was sabotaged.\" or \"He intimidated his competitors.\"?",
+        "target": "the competition was sabotaged.",
+        "pred": "he intimidated his competitors."
+    },
+    {
+        "input": "The clock chimed. Why? \"It was the top of the hour.\" or \"The hour seemed to drag on.\"?",
+        "target": "it was the top of the hour.",
+        "pred": "the hour seemed to drag on."
+    },
+    {
+        "input": "The pair of students came under scrutiny by the teacher. Why? \"The students both received excellent grades.\" or \"Their responses on the assignment were identical.\"?",
+        "target": "their responses on the assignment were identical.",
+        "pred": "\"their responses on the assignment were identical.\""
+    },
+    {
+        "input": "The driver turned on the car's headlights. Why? \"He heard thunder.\" or \"The sun went down.\"?",
+        "target": "the sun went down.",
+        "pred": "\"the sun went down.\""
+    },
+    {
+        "input": "My eyes became red and puffy. Why? \"I was sobbing.\" or \"I was laughing.\"?",
+        "target": "i was sobbing.",
+        "pred": "\"i was laughing.\""
+    },
+    {
+        "input": "The key was missing from my pants pocket. Why? \"The pocket had a hole.\" or \"The pants were new.\"?",
+        "target": "the pocket had a hole.",
+        "pred": "the pants were new."
+    },
+    {
+        "input": "The man's pocket jingled as he walked. Why? \"His pocket was filled with coins.\" or \"He sewed the hole in his pocket.\"?",
+        "target": "his pocket was filled with coins.",
+        "pred": "he sewed the hole in his pocket."
+    },
+    {
+        "input": "The bowling ball knocked over the bowling pins. Why? \"The man rolled the bowling ball down the alley.\" or \"The man dropped the bowling ball on his foot.\"?",
+        "target": "the man rolled the bowling ball down the alley.",
+        "pred": "the man dropped the bowling ball on his foot."
+    },
+    {
+        "input": "The kidnappers released the hostage. Why? \"They accepted ransom money.\" or \"They escaped from jail.\"?",
+        "target": "they accepted ransom money.",
+        "pred": "they escaped from jail."
+    },
+    {
+        "input": "I put rubber gloves on. Why? \"I was preparing to wash my hands.\" or \"I was preparing to clean the bathroom.\"?",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to wash my hands."
+    },
+    {
+        "input": "I coughed. Why? \"I inhaled smoke.\" or \"I lowered my voice.\"?",
+        "target": "i inhaled smoke.",
+        "pred": "i lowered my voice."
+    },
+    {
+        "input": "The judge pounded the gavel. Why? \"The courtroom broke into uproar.\" or \"The jury announced its verdict.\"?",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "The woman banished the children from her property. Why? \"The children hit a ball into her yard.\" or \"The children trampled through her garden.\"?",
+        "target": "the children trampled through her garden.",
+        "pred": "the children hit a ball into her yard."
+    },
+    {
+        "input": "The police searched the offender's car. Why? \"They were trying to elicit a confession.\" or \"They were looking for illegal drugs.\"?",
+        "target": "they were looking for illegal drugs.",
+        "pred": "\"they were looking for illegal drugs.\""
+    },
+    {
+        "input": "The ring on my finger got stuck. Why? \"My finger swelled.\" or \"I chipped my fingernail.\"?",
+        "target": "my finger swelled.",
+        "pred": "i chipped my fingernail."
+    },
+    {
+        "input": "The boy threw a temper tantrum. Why? \"His brother took his toys from him.\" or \"He shared his toys with his brother.\"?",
+        "target": "his brother took his toys from him.",
+        "pred": "he shared his toys with his brother."
+    },
+    {
+        "input": "The couple travelled south for the winter. Why? \"They were retired.\" or \"They were separated.\"?",
+        "target": "they were retired.",
+        "pred": "they were separated."
+    }
+]

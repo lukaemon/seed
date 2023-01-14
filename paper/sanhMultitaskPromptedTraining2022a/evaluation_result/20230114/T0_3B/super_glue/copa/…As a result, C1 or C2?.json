@@ -1,0 +1,112 @@
+[
+    {
+        "input": "My subscription to the magazine expired. As a result, \"I discarded the new issue.\" or \"I stopped receiving new issues.\"?",
+        "target": "i stopped receiving new issues.",
+        "pred": "stopped receiving new issues."
+    },
+    {
+        "input": "The airline mishandled my luggage. As a result, \"They offered me compensation.\" or \"They cancelled my flight.\"?",
+        "target": "they offered me compensation.",
+        "pred": "\"they cancelled my flight.\""
+    },
+    {
+        "input": "The girl wanted to wear earrings. As a result, \"She got her ears pierced.\" or \"She got a tattoo.\"?",
+        "target": "she got her ears pierced.",
+        "pred": "she got a tattoo."
+    },
+    {
+        "input": "I stayed up late. As a result, \"I had vivid dreams that night.\" or \"I was tired in the morning.\"?",
+        "target": "i was tired in the morning.",
+        "pred": "tired in the morning"
+    },
+    {
+        "input": "The sick child coughed on his friend. As a result, \"His friend got sick.\" or \"His friend sneezed.\"?",
+        "target": "his friend got sick.",
+        "pred": "his friend sneezed."
+    },
+    {
+        "input": "The woman's hair fell in her face. As a result, \"She pulled her hair back with a clip.\" or \"She lathered shampoo into her hair.\"?",
+        "target": "she pulled her hair back with a clip.",
+        "pred": "she lathered shampoo into her hair."
+    },
+    {
+        "input": "The man grew old. As a result, \"His hair turned gray.\" or \"He sold his belongings.\"?",
+        "target": "his hair turned gray.",
+        "pred": "he sold his belongings."
+    },
+    {
+        "input": "The friends decided to share the hamburger. As a result, \"They cut the hamburger in half.\" or \"They ordered fries with the hamburger.\"?",
+        "target": "they cut the hamburger in half.",
+        "pred": "cut the hamburger in half"
+    },
+    {
+        "input": "I doubted the salesman's pitch. As a result, \"I turned his offer down.\" or \"He persuaded me to buy the product.\"?",
+        "target": "i turned his offer down.",
+        "pred": "he persuaded me to buy the product."
+    },
+    {
+        "input": "Plans were announced to replace a local park with a shopping mall. As a result, \"Environmentalists started a petition.\" or \"Environmentalists produced a documentary.\"?",
+        "target": "environmentalists started a petition.",
+        "pred": "environmentalists produced a documentary."
+    },
+    {
+        "input": "Political violence broke out in the nation. As a result, \"Many citizens relocated to the capitol.\" or \"Many citizens took refuge in other territories.\"?",
+        "target": "many citizens took refuge in other territories.",
+        "pred": "\"many citizens took refuge in other territories.\""
+    },
+    {
+        "input": "The woman became famous. As a result, \"Photographers followed her.\" or \"Her family avoided her.\"?",
+        "target": "photographers followed her.",
+        "pred": "her family avoided her."
+    },
+    {
+        "input": "The couple got engaged. As a result, \"They planned a wedding.\" or \"They took some time apart.\"?",
+        "target": "they planned a wedding.",
+        "pred": "they took some time apart."
+    },
+    {
+        "input": "The couple was happy to see each other. As a result, \"They kissed.\" or \"They rested.\"?",
+        "target": "they kissed.",
+        "pred": "they rested."
+    },
+    {
+        "input": "The jewelry thieves were caught. As a result, \"The stolen jewelry was returned to its owners.\" or \"The cost of the stolen jewelry was calculated.\"?",
+        "target": "the stolen jewelry was returned to its owners.",
+        "pred": "the cost of the stolen jewelry was calculated."
+    },
+    {
+        "input": "I pressed my hand into the wet cement. As a result, \"My handprint dried in the cement.\" or \"Cracks emerged in the cement.\"?",
+        "target": "my handprint dried in the cement.",
+        "pred": "cracks emerged in the cement."
+    },
+    {
+        "input": "I lit the candle. As a result, \"Wax dripped off the candle.\" or \"The wax on the candle hardened.\"?",
+        "target": "wax dripped off the candle.",
+        "pred": "the wax on the candle hardened."
+    },
+    {
+        "input": "The woman read the newspaper. As a result, \"She discovered the outcome of the election.\" or \"She casted a vote in the election.\"?",
+        "target": "she discovered the outcome of the election.",
+        "pred": "she casted a vote in the election."
+    },
+    {
+        "input": "I twisted the cap off the soda bottle. As a result, \"The soda fizzed.\" or \"The soda leaked out.\"?",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    },
+    {
+        "input": "I put my hands under the running faucet. As a result, \"The soap rinsed off my hands.\" or \"The water splashed in my face.\"?",
+        "target": "the soap rinsed off my hands.",
+        "pred": "the water splashed in my face."
+    },
+    {
+        "input": "My computer crashed. As a result, \"I installed new speakers.\" or \"I lost all my data.\"?",
+        "target": "i lost all my data.",
+        "pred": "\"i lost all my data.\""
+    },
+    {
+        "input": "The student forgot to do her assignment. As a result, \"She made up an excuse to tell the teacher.\" or \"The teacher promoted her to the next grade.\"?",
+        "target": "she made up an excuse to tell the teacher.",
+        "pred": "the teacher promoted her to the next grade."
+    }
+]

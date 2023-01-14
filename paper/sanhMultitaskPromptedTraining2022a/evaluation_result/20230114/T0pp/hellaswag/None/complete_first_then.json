@@ -1,0 +1,192 @@
+[
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a man is seen bending down before a set of weights with others watching him on the side. the man lifts up the weights over his head. Then, in the end ...\n\n(a) he drops down onto a mat with a pain f hurt.\n\n(b) he drops the weights off.\n\n(c) he walks away with the weights.\n\n(d) he throws the weights down.",
+        "target": "he throws the weights down.",
+        "pred": "he drops down onto a mat with a pain f hurt."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, this elderly man is blowing the leaves out of the way using a leaf blower. Then, first the camera ...\n\n(a) zooms out slightly and we see he has a child wearing gloves.\n\n(b) is giving viewers a close up view only showing the man's face.\n\n(c) runs like a compass and then it cuts to a car and then the man blowing the leaves.\n\n(d) pans to a man sitting in the dirt close to the wind blowing the leaves in a breeze.",
+        "target": "is giving viewers a close up view only showing the man's face.",
+        "pred": "zooms out slightly and we see he has a child wearing gloves."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a man is seen stepping on a tool and spinning a blade. Then, he ...\n\n(a) ties it around his body while looking back to the camera.\n\n(b) holds up a knife and continues to sharpen the blade.\n\n(c) then holds a person up and shows off his tool.\n\n(d) then scrapes the blade over a rock and shows how to properly wrap it around his leg.",
+        "target": "holds up a knife and continues to sharpen the blade.",
+        "pred": "then holds up a knife and continues to sharpen the blade."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a kid takes a drink and swishes it around in their mouth. they spit it out into a sink. they take another drink out of a cup. Then, they ...\n\n(a) bend down and clean large puddles from the floor.\n\n(b) put their mouth on a towel.\n\n(c) sleep together in their bedroom.\n\n(d) start to talk on the table.",
+        "target": "put their mouth on a towel.",
+        "pred": "bend down and clean large puddles from the floor."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a man is preparing to run and jump. Then, he ...\n\n(a) runs very quickly down the track.\n\n(b) is doing a stunt, then dismounts to the ground.\n\n(c) releases the bar, and lands a few feet away.\n\n(d) is blindfolded and jumps full speed into the sand.",
+        "target": "runs very quickly down the track.",
+        "pred": "releases the bar, and lands a few feet away."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a man and a woman are in a ring wrestling while a referee is standing in the corner of the ring along with a woman holding a wrestling belt. Then, man and woman ...\n\n(a) are doing wrestling movements in a ring in a dark room and a referee is waching and screaming at them.\n\n(b) are wrestling in punches and kicking in a ring of mats in front of judges.\n\n(c) are holding a wrestling pole as the referee is standing on the other side of the ring.\n\n(d) are standing on opposite ends of the ring holding each other's belts in their hands while lifting each other up in the air upside down.",
+        "target": "are doing wrestling movements in a ring in a dark room and a referee is waching and screaming at them.",
+        "pred": "are wrestling in punches and kicking in a ring of mats in front of judges."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to take care of military boots [title] use the on and off brush to remove muck from your boots, and to get the sides shiny. [step] first of all, get your on brush and put a bit of polish on it, although not too much. don't wet the polish or anything yet. Then,  ...\n\n(a) Let it dry before proceeding with the next step. [title] Use the toe brush to insert up and down the inside of the boot, then (preferably on the longest side) up to and around the top edge, trying to get the cuff down smooth.\n\n(b) [title] Apply the polish on the boot, around the sides, heel and toe until the boot is dull [title] Take your off brush and brush really really hard for ages until the boot is shiny. [step] You won't be taking the polish off, but rather making it shiny.\n\n(c) When getting a fresh pair of boots, put on a little bit, to start. [title] Once you've gotten the dirty boots to your liking, you might want to do a side brush on them (you'll never know it how dirty they usually get).\n\n(d) Also, you will want to put newspaper underneath to dry before putting polish on the boots. After a good soaking, wipe off the excess with a microfiber cloth to get the coat looking shiny again.",
+        "target": "[title] apply the polish on the boot, around the sides, heel and toe until the boot is dull [title] take your off brush and brush really really hard for ages until the boot is shiny. [step] you won't be taking the polish off, but rather making it shiny.",
+        "pred": "let it dry before proceeding with the next step. [title] use the toe brush to insert up and down the inside of the boot, then (preferably on the longest side) up to and around the top edge, trying to get the cuff down smooth."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to clean a stone fireplace [title] clean the fireplace regularly. [step] the outside of the fireplace should be cleaned at least once a month. the inside of the fireplace should be cleaned anytime \u00bc\"or more of soot buildup occurs. Then,  ...\n\n(a) Also, the bottom of the fireplace should be cleaned frequently to prevent disease or fungus from growing into the stone. [substeps] Scrape the top of the fireplace regularly with a metal object.\n\n(b) [substeps] Clean the fireplace every week, after washing the entire area with water and paper towels. For the fireplace carpet, vacuum it once a week.\n\n(c) Keep a bucket of water on hand and an instant mop handy with cleaning supplies. [substeps] If you're not cleaning your fireplace often you may not be able to clean its inner workings.\n\n(d) For some, this could mean cleaning once a year. The fireplace may need to be cleaned a few times a year if it is used often.",
+        "target": "for some, this could mean cleaning once a year. the fireplace may need to be cleaned a few times a year if it is used often.",
+        "pred": "also, the bottom of the fireplace should be cleaned frequently to prevent disease or fungus from growing into the stone. [substeps] scrape the top of the fireplace regularly with a metal object."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, people are standing on a field talking. Then, the men ...\n\n(a) begin namin to put paintball guns on their shoulders.\n\n(b) take pictures to the camera and make swansaws over the field.\n\n(c) begin running and jousting.\n\n(d) start playing a game of cricket on the grass.",
+        "target": "start playing a game of cricket on the grass.",
+        "pred": "begin running and jousting."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a shirtless man talks in a gym. a lady runs past both ways then jumps rope behind the man. Then, we ...\n\n(a) zoom in on the man under the floor.\n\n(b) see a man in a beard as he ref naels.\n\n(c) see the closing screen.\n\n(d) see title screens with instructions.",
+        "target": "see title screens with instructions.",
+        "pred": "zoom in on the man under the floor."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a woman is standing inside a bathroom. she is using the rollers on the bottom of a machine. Then, she ...\n\n(a) uses a curling iron to scrub the side of her face.\n\n(b) sticks her boots in the machine and they get polished.\n\n(c) uses them to blow dry her hair.\n\n(d) begins to groom dogs using the product.",
+        "target": "sticks her boots in the machine and they get polished.",
+        "pred": "uses them to blow dry her hair."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to track your gas mileage with fuelfrog [title] go to fuelfrog to sign up for a free account. [title] go to the next page. [step] it will take you to your fuelfrog dashboard. Then,  ...\n\n(a) [title] Near your dashboard is a button that says \" change fuel. \" click this button and enter your current fuel mileage.\n\n(b) This is where you can enter in the information on the website. It works best if you can enter two or three fill-ups.\n\n(c) [title] Go ahead and pay the upfront fee. [step] Don't worry, it's slightly higher than the online fees.\n\n(d) [title] Click on \" new step \" at the top right side of the dashboard. [title] Look where the steps on the dashboard have appeared.",
+        "target": "this is where you can enter in the information on the website. it works best if you can enter two or three fill-ups.",
+        "pred": "[title] near your dashboard is a button that says \" change fuel. \" click this button and enter your current fuel mileage."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to care for a sick frog with red leg disease [title] look for signs of lethargy. [step] you may notice your frog acting tired or being inactive if they are suffering from red leg disease. always monitor your frog's level of activity to learn what is normal for them, allowing you to detect any signs of illness. Then,  ...\n\n(a) [substeps] If you notice your frog looking agitated or lethargic, may go up to the frog and prevent it from lying down if you fear illness. Do not attempt to pick up the frog or pet it.\n\n(b) If you think your frog isn't as active as it normally is, you may want to take it to your veterinarian to check for any medical problems. [substeps] Frogs with red leg diseases will move very little throughout the day.\n\n(c) [substeps] If your frog's activity is decreasing or you notice them acting lethargic, it could mean that they have red leg disease. Runny droppings may also be a sign of illness.\n\n(d) If you suspect your frog has red leg disease, look out for any changes in behavior that might indicate the disease. These changes include : [substeps] Loss of appetite diarrhea loss of appetite redness or irritation [title] Examine your frog's eyes for redness.",
+        "target": "if you think your frog isn't as active as it normally is, you may want to take it to your veterinarian to check for any medical problems. [substeps] frogs with red leg diseases will move very little throughout the day.",
+        "pred": "if you suspect your frog has red leg disease, look out for any changes in behavior that might indicate the disease. these changes include : [substeps] loss of appetite diarrhea loss of appetite redness or irritation [title] examine your frog's eyes for redness."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, several adults and teenagers are standing and sitting around the high jump mat while a boy in black does the high jump. Then, the boy in black ...\n\n(a) grabs the rope and starts trying to pull himself up but fails miserably.\n\n(b) lifts the mat into position and then a few more people begin stretching up and down.\n\n(c) does another high jump while another teenage boy watches in the background.\n\n(d) jumps down and lands perfectly in the air.",
+        "target": "does another high jump while another teenage boy watches in the background.",
+        "pred": "jumps down and lands perfectly in the air."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, the man bends over and grabs the barbell. he lifts it, then lifts it over his head. the man drops the barbell and yells. Then, the man ...\n\n(a) bends, then lifts it over his head.\n\n(b) lifts the barbell up to his chest.\n\n(c) staggers, takes a drink of water, and stands in front of the barbell.\n\n(d) walks off the stage.",
+        "target": "walks off the stage.",
+        "pred": "staggers, takes a drink of water, and stands in front of the barbell."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, the sun peeks from behind the clouds and lights the scene up. the man stops and empties grass in the garbage. a man enters carrying a baby and leaves. Then, the man ...\n\n(a) throws a frisbee for the baby to catch.\n\n(b) mows along side of the bushes.\n\n(c) demonstrates cutting the grass around the crib.\n\n(d) grabs the baby who then gets up on his shoulders and twirls him around on the grass.",
+        "target": "mows along side of the bushes.",
+        "pred": "grabs the baby who then gets up on his shoulders and twirls him around on the grass."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, video footage is then shown of her running alongside a large group of people while many watch on the sides. Then, more pictures ...\n\n(a) are shown of her running and others interviewing her.\n\n(b) are shown of her running while smiling and talking when performing aerobic stretches.\n\n(c) are shown of her finishing the race as well as others.\n\n(d) are shown of her running with others at various speeds.",
+        "target": "are shown of her finishing the race as well as others.",
+        "pred": "are shown of her running and others interviewing her."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, the man in green picks up the ball. the man with red shorts serves the ball. the man serves the ball again. Then, the ball ...\n\n(a) goes into the opposing goal.\n\n(b) goes out of bounds again.\n\n(c) returns and the man in green serves the ball.\n\n(d) hits the rope and floats across the field.",
+        "target": "goes out of bounds again.",
+        "pred": "goes into the opposing goal."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to make your own \" mia and me \" bracelet [title] put the popsicle stick in a tall glass filled with water. [step] leave it for up to twelve hours until it is easy to bend. [title] gently bend the popsicle stick until it fits around the inside of the cup. Then,  ...\n\n(a) [step] Alternatively, put a tiny (but sturdy) stick into the remaining glass (these can be of a higher quality. ) [title] Hook the popsicle stick into the hole at the top of a plastic cup with a needle-nose pliers.\n\n(b) [step] Get out a stencil that bears a picture of mia in different colors and scrolling designs. Cut out this image for another cup and stick it onto a glass.\n\n(c) [step] Be careful not to bend this any further. [title] To make your own water-based jewelry, fill each glass about half full with clear water.\n\n(d) [title] Leave the popsicle stick inside the cup for up to twelve hours. [step] Allow it dry out and take the shape of the bracelet which should be size of your hand.",
+        "target": "[title] leave the popsicle stick inside the cup for up to twelve hours. [step] allow it dry out and take the shape of the bracelet which should be size of your hand.",
+        "pred": "[step] get out a stencil that bears a picture of mia in different colors and scrolling designs. cut out this image for another cup and stick it onto a glass."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a man is seen bending down before a set of weights with others watching him on the side. Then, the man ...\n\n(a) then lifts the weights up around his head and drops them down while others stand on side of the chair and watch.\n\n(b) then takes the weights and lifts himself up while others do the same on the sides.\n\n(c) lifts up the weights over his head.\n\n(d) then lifts up the weight over his head and throws it down towards others.",
+        "target": "lifts up the weights over his head.",
+        "pred": "then lifts up the weights over his head."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to get motivated to write fan fiction [title] read other fan fiction. [step] whatever website you use for reading and posting fan fiction stories, most likely, it's good to read other people's work before submitting your own. it's a good source of inspiration and gets ideas flowing. Then,  ...\n\n(a) [substeps] Go online and look over the characters and details of your favorite series or celebrities. It can help to begin a collection of fan fiction you can't find online, as there's a vast number of sites on the internet dedicated to this \" learn now \" approach to reading and writing fan fiction.\n\n(b) [substeps] Read what other fans are reading or talking about. Watch fan fiction on social media, review youtube videos, just to name a few.\n\n(c) If you're planning on writing a harry potter fan fic, it's probably a good idea to read over a short story or series of one shots of harry potter before you begin your story. [title] Read other material like part of a novel or a magazine article.\n\n(d) [substeps] Consider talking to writers you know and looking them up online. They're more likely to tip you off to ideas you've never thought of, and they'll get to know you better.",
+        "target": "if you're planning on writing a harry potter fan fic, it's probably a good idea to read over a short story or series of one shots of harry potter before you begin your story. [title] read other material like part of a novel or a magazine article.",
+        "pred": "[substeps] consider talking to writers you know and looking them up online. they're more likely to tip you off to ideas you've never thought of, and they'll get to know you better."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to make a bracelet out of safety pins [title] open up a safety pin and slide seed beads onto the pin. [step] leave enough space on the top of the pin so that you can close it. you can use any color of seed bead you want, but avoid using ones that are too small, or you won't fit them onto the pin. Then,  ...\n\n(a) [substeps] Be sure that the beads are small enough to comfortably fit to the pendant without rubbing against the pins. [title] Take a strand of ribbon and tie it around the top of the safety pin.\n\n(b) [title] Consider the size of your bead. [step] Use any size pin, but avoid sizes that are too small for your bead.\n\n(c) [title] Pick up beads that are the same length as the pin, so that the sides match up. [step] Use a squeegee or a knife to carefully slide beads onto the pins.\n\n(d) A size \" 10/0 \" would be ideal. [substeps] This design will create a thick cuff-like bracelet that is covered with seed beads.",
+        "target": "a size \" 10/0 \" would be ideal. [substeps] this design will create a thick cuff-like bracelet that is covered with seed beads.",
+        "pred": "[title] consider the size of your bead. [step] use any size pin, but avoid sizes that are too small for your bead."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to present yourself as well off when you are poor [title] bargain-hunt for nice clothes. [step] thrift stores often carry name brands or high-quality clothes for an affordable price. [title] be clean. Then,  ...\n\n(a) [step] Shower or bathe regularly, if possible. You can ask your school social worker, principal, or gym teacher if you can use your school's school shower for this purpose.\n\n(b) [step] People often will not take well to dirty clothes because they don't really care at all. Always follow top of the line hygiene techniques and take showers daily.\n\n(c) [step] Shower everyday, comb your hair, and wash your face daily. [substeps] It's always nice to wash your clothes after a shower.\n\n(d) [step] Don't try to upstage those already poor. Clean yourself prior to going out in public or do some shopping.",
+        "target": "[step] shower or bathe regularly, if possible. you can ask your school social worker, principal, or gym teacher if you can use your school's school shower for this purpose.",
+        "pred": "[step] shower everyday, comb your hair, and wash your face daily. [substeps] it's always nice to wash your clothes after a shower."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to wear bell sleeves [title] wear jeans. [step] tuck a bell-sleeved blouse or collared shirt into jeans and wear pumps or wedges that match your clutch. or wear a bell-sleeved sweater or cardigan with jeans. Then,  ...\n\n(a) [title] Wear a button-down shirt or cardigan. [step] Bell sleeves are a staple of both casual and trendy.\n\n(b) [title] Wear ripped jeans or one with a skinny top. [step] If you see one on the street, pick it up and throw it in the trash when you go out.\n\n(c) Casual skirts and corsets can also be worn with bell sleeves. [substeps] If you don't have bell sleeves, a pair of wide-brimmed overalls will work well.\n\n(d) Wear a belt with high-rise or mid-rise jeans if your top is cropped. [substeps] Try ripped or distressed denim with a bell-sleeved sweater and ankle booties.",
+        "target": "wear a belt with high-rise or mid-rise jeans if your top is cropped. [substeps] try ripped or distressed denim with a bell-sleeved sweater and ankle booties.",
+        "pred": "casual skirts and corsets can also be worn with bell sleeves. [substeps] if you don't have bell sleeves, a pair of wide-brimmed overalls will work well."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a boy with dark hair and no shirt is mowing a dirt patch with small patches of grass using a large, orange, push lawn mower. Then, as the boy ...\n\n(a) continues, he starts to try and mow the grass with the yellow, wind powered, when he is done, he tosses the mower and walks onto the right side of the yard to break the grass apart.\n\n(b) finishes his task, he takes the mower off of the camera frame but instead of disappearing behind the screen, he appears to be zooming in on the grass on the left.\n\n(c) mows, he pauses and flashes to the camera and two ends are shown before suddenly zipping back to the beginning.\n\n(d) mows the dirt patch, large amounts of dirt come up from the ground in a smog like blizzard.",
+        "target": "mows the dirt patch, large amounts of dirt come up from the ground in a smog like blizzard.",
+        "pred": "finishes his task, he takes the mower off of the camera frame but instead of disappearing behind the screen, he appears to be zooming in on the grass on the left."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, five people are jump roping on a blue mat. they do flips and tricks while jump roping. Then, they ...\n\n(a) stop hop roping and relax.\n\n(b) spin around in the air and throw their hands up.\n\n(c) finish and hug each other before walking off.\n\n(d) finish jumping and walk towards the judges.",
+        "target": "finish and hug each other before walking off.",
+        "pred": "spin around in the air and throw their hands up."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to thwart a robbery attempt [title] instruct all children and others to stay down low and hide. [step] don't let your 10-year-old son try to be a hero, chances are they will just get in the way or they could possibly be hurt or injured. [title] before doing anything, be sure to call 9-1-1 or your local emergency number. Then,  ...\n\n(a) [step] Police should be dispatched to the location asap if the suspect does not appear, whoever is chasing them should call 911. [substeps] Don't let anyone get injured if they get injured while being followed.\n\n(b) [step] When police come and investigate, tell them every fraction of what happened and have them inform the police. [title] Call your local hero hotline or the police department as soon as possible to report suspected theft.\n\n(c) [title] Direct the firearm pointing directly at someone. [step] It works especially well if they are in a sleeping position because if they aren't in a standing position you could miss them.\n\n(d) [step] This step is important even if you do manage to put down the burglar (s) it's a wasted effort if you're stuck. [title] Bring a firearm or weapon and prepare yourself to use it if necessary.",
+        "target": "[step] this step is important even if you do manage to put down the burglar (s) it's a wasted effort if you're stuck. [title] bring a firearm or weapon and prepare yourself to use it if necessary.",
+        "pred": "[title] direct the firearm pointing directly at someone. [step] it works especially well if they are in a sleeping position because if they aren't in a standing position you could miss them."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, then we switch to more letters and roof has been sprayed with a solution. we are informed the roof has been cleaned and shown shots of the clean roof. Then, we ...\n\n(a) then see the front of the house.\n\n(b) are shown a more detailed and detailed car wash story.\n\n(c) are informed that the roof is a shiny gray color and the car is gently driven away.\n\n(d) then see a timer over the roof and it numbers 5 and we see four rafters in the studio interviewing.",
+        "target": "then see the front of the house.",
+        "pred": "are informed that the roof is a shiny gray color and the car is gently driven away."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, the man adjust some screws and moves an arm. we see the item comes with a 7 year warranty. Then, the man ...\n\n(a) puts the item in the glove box area and leans on the car.\n\n(b) adds an oil to the item, and we see the packaging.\n\n(c) uses the machine for a fully loaded dishwasher.\n\n(d) pretends to scour the windows.",
+        "target": "adds an oil to the item, and we see the packaging.",
+        "pred": "pretends to scour the windows."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to straighten hair naturally [title] wash and condition your hair. [step] use a gentle shampoo and heavy-duty conditioner to lock moisture into your hair. avoid shampoos with surfactants or sulfates, as these can damage your hair. Then,  ...\n\n(a) Avoid products that touch your hair or leave marks. The key to hair straightening is getting the water right from your hair--you want to get rid of as much water as possible, so use plenty of conditioner in your hair.\n\n(b) [substeps] Always apply a generous amount of product to the ends of your hair. Set your timer and use a round-headed brush to gently massage the product into your hair, focusing on the ends.\n\n(c) [title] Squeeze excess moisture from hair using a towel. [step] Do not rub the hair too hard as this can cause breakage and frizz.\n\n(d) Instead, rinse out the conditioner and then use your fingertips to gently detangle your hair, working in sections at a time. Make sure that you are working each section in the same direction so that some of the conditioner is removed before straightening.",
+        "target": "[title] squeeze excess moisture from hair using a towel. [step] do not rub the hair too hard as this can cause breakage and frizz.",
+        "pred": "instead, rinse out the conditioner and then use your fingertips to gently detangle your hair, working in sections at a time. make sure that you are working each section in the same direction so that some of the conditioner is removed before straightening."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to light a road flare [title] have a location in mind to place the flare before you light it. [step] it will generally have a rough striking surface on the outside edge. remove the plastic lid or cap to expose this surface, if necessary. Then,  ...\n\n(a) [substeps] Light the strip at the opposite end of the road. [title] Direct power from the tube to the sputter wand (striker) for diameter.\n\n(b) [title] Locate the cap at one end of the flare. [step] Often, the caps are designed with a fold-out tabs or a flat side that will help prevent the lit flare from rolling around.\n\n(c) [substeps] If the ground is hard, the place you will place your flare should be sheltered from wind. Small sparks are never allowed to enter a flare's ignition area, and you should never light flares in large open areas.\n\n(d) [substeps] A wooden container with a lid that is aluminized will do. [title] Search online for uv flares here.",
+        "target": "[title] locate the cap at one end of the flare. [step] often, the caps are designed with a fold-out tabs or a flat side that will help prevent the lit flare from rolling around.",
+        "pred": "[substeps] if the ground is hard, the place you will place your flare should be sheltered from wind. small sparks are never allowed to enter a flare's ignition area, and you should never light flares in large open areas."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a snowmobile speeds over icy terrain. a woman is interviewing a man inside a tent. Then, they ...\n\n(a) get caught in a trap and start fighting.\n\n(b) drill a hole in the ice, and use their gear to fish.\n\n(c) are riding their mounts down an empty road.\n\n(d) camp outdoors, enjoying a snowy day.",
+        "target": "drill a hole in the ice, and use their gear to fish.",
+        "pred": "camp outdoors, enjoying a snowy day."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to look and feel stylish (for men ) [title] have a reference point. [step] think about your personal style icons: people you consider to be the height of style. whether it's kanye west, ralph lauren, james dean, or walt whitman, try and wonder what they're trying to accomplish with their style. Then,  ...\n\n(a) Don't just judge people based on age, gender, or how they stand out to others. Focus on physical features that you can relate to, such as their eyes, hair, beard, etc.\n\n(b) Think carefully about what they're trying to achieve. [substeps] For example, who would go for a low-contrast look with wearing jeans and a large t-shirt just to camouflage their skin? Think about it more.\n\n(c) If it is truly \" the perfection of a point of view, \" think what your icon's point of view might've been, and think about what your point of view might be. Whatever it is, let it guide you when you shop and dress.\n\n(d) Some people are more dramatic in appearance and fashion, and others have a more laid back image or appearance. [substeps] Consider using your-mark measurements from the chart below for your plus groups.",
+        "target": "if it is truly \" the perfection of a point of view, \" think what your icon's point of view might've been, and think about what your point of view might be. whatever it is, let it guide you when you shop and dress.",
+        "pred": "think carefully about what they're trying to achieve. [substeps] for example, who would go for a low-contrast look with wearing jeans and a large t-shirt just to camouflage their skin? think about it more."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a small boy is seen punching and kicking a man on his knees wearing gloves. Then, another boy ...\n\n(a) steps up and hits the man holding him down while twisting and making several kicks with the man's help.\n\n(b) approaches while the mat is being rolled and jumps on the man to continue hitting.\n\n(c) punches and kicks the same man.\n\n(d) is seen punching and kicking a man standing up.",
+        "target": "punches and kicks the same man.",
+        "pred": "is seen punching and kicking a man standing up."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, we see a man in an orchestra making faces. Then, the man ...\n\n(a) blows a whistle then we see  he bag the harmonica.\n\n(b) in the flute pauses for a moment.\n\n(c) begins playing and pulls out a harp.\n\n(d) then stands and plays the violin.",
+        "target": "then stands and plays the violin.",
+        "pred": "blows a whistle then we see he bag the harmonica."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a man is standing on a stage playing a violin. Then, a man ...\n\n(a) is standing behind him in a tuxedo.\n\n(b) comes and stands on the stage next to him.\n\n(c) in a position of power is walking on stage with the violin.\n\n(d) is performing a song on a flute.",
+        "target": "is standing behind him in a tuxedo.",
+        "pred": "comes and stands on the stage next to him."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, [header] how to do a makeover with no makeup [title] start with a clean surface. [step] wash your face with a face wash or soap and warm water. some soap can be drying on the more delicate skin of your face. Then,  ...\n\n(a) Choose a glass jar or sink with a bucket of warm water. Fill it with about a gallon of warm water and begin to swirl it around your face.\n\n(b) Only use ordinary hand soap to wash your face if you have no choice. Use a face cloth or flannel in small circular motions on your forehead and cheeks to help remove the dead skin cells of the day.\n\n(c) You could also use toner, instead. Let your face air dry as you normally would.\n\n(d) [substeps] Cleanse your face with a gentle cleanser that comes in a bottle. Apply a cleanser of your favorite products to your face.",
+        "target": "only use ordinary hand soap to wash your face if you have no choice. use a face cloth or flannel in small circular motions on your forehead and cheeks to help remove the dead skin cells of the day.",
+        "pred": "you could also use toner, instead. let your face air dry as you normally would."
+    },
+    {
+        "input": "Complete the description with an appropriate ending:\nFirst, a chef is shown in a kitchen. he is using a very sharp knife. Then, he ...\n\n(a) cuts some eggs, and puts them into a pan.\n\n(b) cuts loaves of bread and watermelons.\n\n(c) sliced up some wasabi in it.\n\n(d) wraps a sandwich in cellophane and wraps it with plastic.",
+        "target": "cuts loaves of bread and watermelons.",
+        "pred": "cuts some eggs, and puts them into a pan."
+    }
+]

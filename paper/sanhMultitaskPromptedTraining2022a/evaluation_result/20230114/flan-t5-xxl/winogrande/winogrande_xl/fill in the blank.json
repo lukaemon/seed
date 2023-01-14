@@ -1,0 +1,247 @@
+[
+    {
+        "input": "Fill in the _ in the below sentence:\nPolice arrested Maria but let Cynthia go as _ had some paint on their hand from the spray paint used for graffiti.\n\nChoices:\n- Maria\n- Cynthia\n\nAnswer:",
+        "target": "maria",
+        "pred": "cynthia"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nTanya was unrecognizable after Sarah was done beating them, so _ ended up going to jail.\n\nChoices:\n- Tanya\n- Sarah\n\nAnswer:",
+        "target": "sarah",
+        "pred": "tanya"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nSince Craig wears clear contacts and William wears colored ones, it is safe to assume that _ loves the color of their eyes.\n\nChoices:\n- Craig\n- William\n\nAnswer:",
+        "target": "craig",
+        "pred": "william"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nSamantha had to get car insurance and Jessica did not because _ just got a new car.\n\nChoices:\n- Samantha\n- Jessica\n\nAnswer:",
+        "target": "samantha",
+        "pred": "jessica"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nRobert usually didn't like fish as much as Kyle however _ had a disliking for sardines on pizza.\n\nChoices:\n- Robert\n- Kyle\n\nAnswer:",
+        "target": "kyle",
+        "pred": "robert"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nRandy showed Samuel the abused horse that he rescued from the shelter.  _ was proud of his friend.\n\nChoices:\n- Randy\n- Samuel\n\nAnswer:",
+        "target": "samuel",
+        "pred": "randy"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nShe watered the rose but not the cactus, because the soil of the _ was already dry.\n\nChoices:\n- rose\n- cactus\n\nAnswer:",
+        "target": "rose",
+        "pred": "cactus"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nShe suspected that her old makeup had expired after she put it on her skin because her _ was harder.\n\nChoices:\n- makeup\n- skin\n\nAnswer:",
+        "target": "makeup",
+        "pred": "skin"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nAngela wanted to find a partner, but Victoria wanted to stay single, because _ was lonely.\n\nChoices:\n- Angela\n- Victoria\n\nAnswer:",
+        "target": "angela",
+        "pred": "victoria"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nJoel plans to go to Latin America next year where Dennis is currently living, _ has never been to Latin America.\n\nChoices:\n- Joel\n- Dennis\n\nAnswer:",
+        "target": "joel",
+        "pred": "dennis"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nSamantha gifted her new bathrobe to Betty because it felt very comfortable for _ when she tried it on.\n\nChoices:\n- Samantha\n- Betty\n\nAnswer:",
+        "target": "betty",
+        "pred": "samantha"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nKayla was the subject of a secret crush from Rebecca. _ was aware they were a secret admirer.\n\nChoices:\n- Kayla\n- Rebecca\n\nAnswer:",
+        "target": "rebecca",
+        "pred": "kayla"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nSamuel tried unsuccessfully to get Brett to skip school because _ was a truant that didn't follow the rules.\n\nChoices:\n- Samuel\n- Brett\n\nAnswer:",
+        "target": "samuel",
+        "pred": "brett"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nAngela beat Mary in the weightlifting competition, but it wasn't fair. _ had been taking steroids.\n\nChoices:\n- Angela\n- Mary\n\nAnswer:",
+        "target": "angela",
+        "pred": "mary"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe boot was removed from the car tire and put on the truck tire, since the _ was now illegally parked.\n\nChoices:\n- car\n- truck\n\nAnswer:",
+        "target": "truck",
+        "pred": "car"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nJill was on a budget so she only bought a new dress for the ceremony and wore an old hat. She figured the _ would be more noticeable.\n\nChoices:\n- dress\n- hat\n\nAnswer:",
+        "target": "dress",
+        "pred": "hat"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe bartender cut Carrie off but continued to serve Emily because _ was too drunk.\n\nChoices:\n- Carrie\n- Emily\n\nAnswer:",
+        "target": "carrie",
+        "pred": "emily"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe Windows software attempted to install the upgrades onto the computer, but the _ exceeded data capacity.\n\nChoices:\n- software\n- computer\n\nAnswer:",
+        "target": "software",
+        "pred": "upgrades"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nWhen Leslie told Aaron he only wanted to eat food that was healthy, he was laughed at. The teacher scolded _ immediately.\n\nChoices:\n- Leslie\n- Aaron\n\nAnswer:",
+        "target": "aaron",
+        "pred": "leslie"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nMegan took Monica to a wood shack in the mountains, because _ was a kidnapper trying to hide.\n\nChoices:\n- Megan\n- Monica\n\nAnswer:",
+        "target": "megan",
+        "pred": "monica"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe dog ran into the bedroom during the rainstorm while we stayed in the kitchen because the rain was louder in the _ .\n\nChoices:\n- kitchen\n- bedroom\n\nAnswer:",
+        "target": "kitchen",
+        "pred": "bedroom"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nPatricia had to pay less tax than Cynthia because _ made less money in the year.\n\nChoices:\n- Patricia\n- Cynthia\n\nAnswer:",
+        "target": "patricia",
+        "pred": "patricia had to pay less tax than cynthia because _ made less money in the year."
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nJoel got advice on buying stocks from his cousin Bob while Eric used a broker. _ had a virtually worthless portfolio of companies.\n\nChoices:\n- Joel\n- Eric\n\nAnswer:",
+        "target": "joel",
+        "pred": "joel got advice on buying stocks from his cousin bob while eric used a broker. _ had a virtually worthless portfolio of companies."
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nIn the hotel laundry room, Felicia burned Mary's shirt while ironing it, so the manager wrote _ up.\n\nChoices:\n- Felicia\n- Mary\n\nAnswer:",
+        "target": "felicia",
+        "pred": "mary"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nJoel researched laws and helped to open a preschool for Eric. Because _ is very good with kids.\n\nChoices:\n- Joel\n- Eric\n\nAnswer:",
+        "target": "eric",
+        "pred": "joel"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nBrett wanted to get a massage but Kenneth did not. This is because _ was feeling relaxed.\n\nChoices:\n- Brett\n- Kenneth\n\nAnswer:",
+        "target": "kenneth",
+        "pred": "brett"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe doctor couldn't treat the arm infection, but was able to handle the ear ache. The _ was more petty.\n\nChoices:\n- arm infection\n- ear ache\n\nAnswer:",
+        "target": "ear ache",
+        "pred": "ear ache was more petty."
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nJoe immediately went to bakery before the bank because the _ had a substantial supply of what he wanted.\n\nChoices:\n- bakery\n- bank\n\nAnswer:",
+        "target": "bank",
+        "pred": "bakery"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nBrian asked  Nick to feed their rabbit,because  _ was planning on going on vacation to Disney for a week.\n\nChoices:\n- Brian\n- Nick\n\nAnswer:",
+        "target": "brian",
+        "pred": "nick"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nLaura held the steel for their project while Carrie used the blowtorch, because _ was more skilled.\n\nChoices:\n- Laura\n- Carrie\n\nAnswer:",
+        "target": "carrie",
+        "pred": "laura"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nWarts appeared on Jerry's limbs after he went through the jungle because the _ were infectious.\n\nChoices:\n- warts\n- limbs\n\nAnswer:",
+        "target": "warts",
+        "pred": "warts appeared on jerry's limbs after he went through the jungle because the _ were infectious."
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nIn order to grow his plants naturally, he bought fertilizer and water. The _ was filled with nutrients.\n\nChoices:\n- fertilizer\n- water\n\nAnswer:",
+        "target": "fertilizer",
+        "pred": "water"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nKevin drew the blood from Ian's arm, because _ was giving it to do some tests.\n\nChoices:\n- Kevin\n- Ian\n\nAnswer:",
+        "target": "ian",
+        "pred": "kevin"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe battery of the the phone died faster than the laptop battery, because the _ was always off.\n\nChoices:\n- phone\n- laptop\n\nAnswer:",
+        "target": "laptop",
+        "pred": "phone"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nSamantha failed on the test but Mary got very good marks because _ had been very lazy.\n\nChoices:\n- Samantha\n- Mary\n\nAnswer:",
+        "target": "samantha",
+        "pred": "samantha failed on the test but mary got very good marks because _ had been very lazy."
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe girl broke Leslie's heart but not Kenneth's because _ used to be in love with her.\n\nChoices:\n- Leslie\n- Kenneth\n\nAnswer:",
+        "target": "leslie",
+        "pred": "kenneth"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nSarah was a much better surgeon than Maria so _ always got the easier cases.\n\nChoices:\n- Sarah\n- Maria\n\nAnswer:",
+        "target": "maria",
+        "pred": "sarah"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe doctor suggested alternating between ice and a heating pad when I strained a muscle, but he warned me to not let the _ get too cold.\n\nChoices:\n- ice\n- pad\n\nAnswer:",
+        "target": "ice",
+        "pred": "pad"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nJohn cannot listen to his music with the volume of the television his cousin is watching. The _ is quiet.\n\nChoices:\n- television\n- music\n\nAnswer:",
+        "target": "music",
+        "pred": "television"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nWanting to impress his boss, the man put the brandy away and served scotch instead because the _ was expensive.\n\nChoices:\n- Brandy\n- Scotch\n\nAnswer:",
+        "target": "scotch",
+        "pred": "brandy"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe student liked writing their signature with a pen instead of a pencil, because the _ showed up lighter.\n\nChoices:\n- pen\n- pencil\n\nAnswer:",
+        "target": "pencil",
+        "pred": "pen"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nI started playing drums young.  Sometimes I played in the garage and sometimes my room, but my parents preferred knowing I was in the  _  .\n\nChoices:\n- garage\n- room\n\nAnswer:",
+        "target": "garage",
+        "pred": "room"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nDuring the charity drive, they decided to donate the couch but not the bed because the _ was broken.\n\nChoices:\n- couch\n- bed\n\nAnswer:",
+        "target": "bed",
+        "pred": "bed was sturdy."
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe juice from the mango fruit could not fill up the cup because the _ is small.\n\nChoices:\n- mango\n- cup\n\nAnswer:",
+        "target": "mango",
+        "pred": "cup"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe woman didn't need an apprasial for the desk, but wondered how much the table was worth, because the _ appeared to be common.\n\nChoices:\n- desk\n- table\n\nAnswer:",
+        "target": "desk",
+        "pred": "table"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nLawrence volunteered to donate blood to help others, but Steven was unable to, since _ was healthy.\n\nChoices:\n- Lawrence\n- Steven\n\nAnswer:",
+        "target": "lawrence",
+        "pred": "steven"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nJessica wants to protect herself from infectious diseases so she goes to doctor Samantha, because _ is careful.\n\nChoices:\n- Jessica\n- Samantha\n\nAnswer:",
+        "target": "jessica",
+        "pred": "samantha"
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nThe room at the hotel cost more to stay in than the room at the inn because the _ was nastier.\n\nChoices:\n- hotel\n- inn\n\nAnswer:",
+        "target": "inn",
+        "pred": "hotel was a more expensive place to stay."
+    },
+    {
+        "input": "Fill in the _ in the below sentence:\nGetting a divorce as soon as possible suited Victoria but not Lindsey because _ was no longer in love.\n\nChoices:\n- Victoria\n- Lindsey\n\nAnswer:",
+        "target": "victoria",
+        "pred": "lindsey"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "input": "But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner?\nQuestion: the number is just for verification and is simply a formality on the road to being a grand-prize winner True, False, or Neither?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Modify the arachnids, said the researchers. Change their bodies and conditions, and you could get fibres like glass, still monofilament, but with logarithmic progressions of possibilities of strength and flexibility, and the ability to resonate light-particles or sound-waves undistorted, scarcely weakened over thousands of miles. Who said the arachnids had to be totally organic?\nQuestion: arachnids had to be totally organic True, False, or Neither?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles\nQuestion: most of the smog or air pollution comes from vehicles True, False, or Neither?",
+        "target": "neither",
+        "pred": "true"
+    },
+    {
+        "input": "A: for the moment, and that's what really is getting me about what George Bush's stand on the budget is right now is that he is saying, I am going to give you this ludicrous little tax cut so that you'll be happy come November, and you'll elect me again B: Uh-huh.  Uh-huh. A: and then I'm going to go on and just forget everything that I said B: Uh-huh. A: or you know, it doesn't seem that it's going to make much of a difference.\nQuestion: it's going to make much of a difference True, False, or Neither?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "B: And yet, uh, I we-, I hope to see employer based, you know, helping out. You know, child, uh, care centers at the place of employment and things like that, that will help out. A: Uh-huh. B: What do you think, do you think we are, setting a trend?\nQuestion: they are setting a trend True, False, or Neither?",
+        "target": "neither",
+        "pred": "true"
+    },
+    {
+        "input": "B: uh, but it's worked out for my family, to have my cake and eat it too, kind of thing. A: Yeah.  Yeah, that's a good deal. Where do you think this is going in the future, I mean, do you think things are going to change,\nQuestion: things are going to change True, False, or Neither?",
+        "target": "neither",
+        "pred": "true"
+    },
+    {
+        "input": "'Very well, I'll go. But I pick my own men, and if we ever have to fight, you obey my word.'' Jehan did not think that Sidacai was in any position to impose conditions but he sat back in his chair considering.\nQuestion: Sidacai was in a position to impose conditions True, False, or Neither?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment?\nQuestion: there is a shipment True, False, or Neither?",
+        "target": "neither",
+        "pred": "true"
+    },
+    {
+        "input": "A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing. They say, hey, we got to do something now. And then start playing the game the way the game should be played toward the last few minutes. B: Yeah. A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year\nQuestion: they're going to do anything in the playoffs to make it to the Super Bowl this year True, False, or Neither?",
+        "target": "neither",
+        "pred": "true"
+    }
+]

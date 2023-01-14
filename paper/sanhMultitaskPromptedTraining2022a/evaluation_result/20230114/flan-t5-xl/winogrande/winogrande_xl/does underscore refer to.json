@@ -1,0 +1,392 @@
+[
+    {
+        "input": "Patricia decided to buy Felicia dinner because they had been through a lot and _ just inherited some money. In the previous sentence, does _ refer to Patricia or  Felicia?",
+        "target": "patricia",
+        "pred": "felicia"
+    },
+    {
+        "input": "Timmy bought a transporter for his cat so he could take him on the plane but the _ was too small. In the previous sentence, does _ refer to transporter or  plane?",
+        "target": "transporter",
+        "pred": "plane"
+    },
+    {
+        "input": "It was easier for the diner to follow their budget than the food truck because the _ had more money to spend. In the previous sentence, does _ refer to diner or  food truck?",
+        "target": "diner",
+        "pred": "food truck"
+    },
+    {
+        "input": "Tanya was the most powerful person in the world, and Sarah admired them, because _ was something to aspire to. In the previous sentence, does _ refer to Tanya or  Sarah?",
+        "target": "tanya",
+        "pred": "yes"
+    },
+    {
+        "input": "Jen made charcoal to use as a mask and as toothpaste, but using the _ made her skin very black. In the previous sentence, does _ refer to mask or  toothpaste?",
+        "target": "mask",
+        "pred": "toothpaste"
+    },
+    {
+        "input": "The students were at their desks taking tests with pencils, they used the _ to hold the papers. In the previous sentence, does _ refer to desks or  pencils?",
+        "target": "desks",
+        "pred": "no"
+    },
+    {
+        "input": "Benjamin thought Android was the superior phone system but Ian thought IOS was better. _ bought a new Note 9 from Verizon. In the previous sentence, does _ refer to Benjamin or  Ian?",
+        "target": "benjamin",
+        "pred": "ian"
+    },
+    {
+        "input": "Megan liked to read a book good more than Samantha because _ liked the peace and quiet. In the previous sentence, does _ refer to Megan or  Samantha?",
+        "target": "megan",
+        "pred": "yes"
+    },
+    {
+        "input": "Donna needed dentures or implants for her bad teeth. She chose the _ because they are permanent. In the previous sentence, does _ refer to dentures or  implants?",
+        "target": "implants",
+        "pred": "no"
+    },
+    {
+        "input": "The battle was less fierce than the great war, because the _ lasted one year. In the previous sentence, does _ refer to battle or  war?",
+        "target": "war",
+        "pred": "battle"
+    },
+    {
+        "input": "Samantha strictly followed their diet while Sarah ate what they felt like, and _ ate chicken and broccoli all week. In the previous sentence, does _ refer to Samantha or  Sarah?",
+        "target": "samantha",
+        "pred": "sarah"
+    },
+    {
+        "input": "Since Craig wears clear contacts and William wears colored ones, it is safe to assume that _ loves the color of their eyes. In the previous sentence, does _ refer to Craig or  William?",
+        "target": "craig",
+        "pred": "no"
+    },
+    {
+        "input": "The house of Aaron took some damage from the storm but not Michael's house, because _ lived farther away. In the previous sentence, does _ refer to Aaron or  Michael?",
+        "target": "michael",
+        "pred": "aaron"
+    },
+    {
+        "input": "Samantha had to get car insurance and Jessica did not because _ just got a new car. In the previous sentence, does _ refer to Samantha or  Jessica?",
+        "target": "samantha",
+        "pred": "jessica"
+    },
+    {
+        "input": "The woman used a gentle technique when painting the urn but applied more pressure when painting the vase, because the _ was more fragile. In the previous sentence, does _ refer to Urn or  Vase?",
+        "target": "urn",
+        "pred": "vase"
+    },
+    {
+        "input": "Joe did a lot worse on the quiz last week than he did on the test today, because the _ was a surprise. In the previous sentence, does _ refer to quiz or  test?",
+        "target": "quiz",
+        "pred": "test"
+    },
+    {
+        "input": "Randy showed Samuel the abused horse that he rescued from the shelter.  _ was proud of his friend. In the previous sentence, does _ refer to Randy or  Samuel?",
+        "target": "samuel",
+        "pred": "randy"
+    },
+    {
+        "input": "She watered the rose but not the cactus, because the soil of the _ was already dry. In the previous sentence, does _ refer to rose or  cactus?",
+        "target": "rose",
+        "pred": "cactus"
+    },
+    {
+        "input": "She suspected that her old makeup had expired after she put it on her skin because her _ was harder. In the previous sentence, does _ refer to makeup or  skin?",
+        "target": "makeup",
+        "pred": "skin"
+    },
+    {
+        "input": "Joe drank his milk and tried to dunk his cookie in the glass but the _ was too small. In the previous sentence, does _ refer to cookie or  glass?",
+        "target": "glass",
+        "pred": "yes"
+    },
+    {
+        "input": "Adam was a crook and not a law-abiding citizen like Joseph, so it was surprising that _ was the one with a restraining order against him. In the previous sentence, does _ refer to Adam or  Joseph?",
+        "target": "joseph",
+        "pred": "adam"
+    },
+    {
+        "input": "Angela wanted to find a partner, but Victoria wanted to stay single, because _ was lonely. In the previous sentence, does _ refer to Angela or  Victoria?",
+        "target": "angela",
+        "pred": "victoria"
+    },
+    {
+        "input": "The quill was used by the writer much more than the pen for the job since the _ is heavy. In the previous sentence, does _ refer to quill or  pen?",
+        "target": "pen",
+        "pred": "yes"
+    },
+    {
+        "input": "The wages at the factory were lower than the wages at the plant since it was more safe to work at the _ . In the previous sentence, does _ refer to plant or  factory?",
+        "target": "factory",
+        "pred": "plant"
+    },
+    {
+        "input": "The wind during the last hurricane tried to knock over their new house, but the _ was too strong. In the previous sentence, does _ refer to house or  wind?",
+        "target": "house",
+        "pred": "wind"
+    },
+    {
+        "input": "I don't want to use that iron on my new shirt, and, yes, it's because the _ is too expensive. In the previous sentence, does _ refer to iron or  shirt?",
+        "target": "shirt",
+        "pred": "iron"
+    },
+    {
+        "input": "Kayla was the subject of a secret crush from Rebecca. _ was aware they were a secret admirer. In the previous sentence, does _ refer to Kayla or  Rebecca?",
+        "target": "rebecca",
+        "pred": "kayla"
+    },
+    {
+        "input": "In order to increase her estrogen, Jenny started eating carrots instead of donuts because the _ were not junky. In the previous sentence, does _ refer to donuts or  carrots?",
+        "target": "carrots",
+        "pred": "yes"
+    },
+    {
+        "input": "Maria gave birth to Katrina, so after the process was over, _ was a brand new mother. In the previous sentence, does _ refer to Maria or  Katrina?",
+        "target": "maria",
+        "pred": "katrina"
+    },
+    {
+        "input": "Samuel tried unsuccessfully to get Brett to skip school because _ was a truant that didn't follow the rules. In the previous sentence, does _ refer to Samuel or  Brett?",
+        "target": "samuel",
+        "pred": "brett"
+    },
+    {
+        "input": "The boot was removed from the car tire and put on the truck tire, since the _ was now illegally parked. In the previous sentence, does _ refer to car or  truck?",
+        "target": "truck",
+        "pred": "car"
+    },
+    {
+        "input": "Carla start doing sit-ups and pushups for her weak spots. The _ are for her abs. In the previous sentence, does _ refer to sit-ups or  pushups?",
+        "target": "sit-ups",
+        "pred": "no"
+    },
+    {
+        "input": "Rachel decided on adopting a young puppy but Megan didn't because _ didn't want to train a pupply. In the previous sentence, does _ refer to Rachel or  Megan?",
+        "target": "megan",
+        "pred": "rachel"
+    },
+    {
+        "input": "The Windows software attempted to install the upgrades onto the computer, but the _ exceeded data capacity. In the previous sentence, does _ refer to software or  computer?",
+        "target": "software",
+        "pred": "computer"
+    },
+    {
+        "input": "When Leslie told Aaron he only wanted to eat food that was healthy, he was laughed at. The teacher scolded _ immediately. In the previous sentence, does _ refer to Leslie or  Aaron?",
+        "target": "aaron",
+        "pred": "leslie"
+    },
+    {
+        "input": "Megan took Monica to a wood shack in the mountains, because _ was a kidnapper trying to hide. In the previous sentence, does _ refer to Megan or  Monica?",
+        "target": "megan",
+        "pred": "monica"
+    },
+    {
+        "input": "Playing basketball came easier for Cynthia than Jennifer but _ had more control of their body movements. In the previous sentence, does _ refer to Cynthia or  Jennifer?",
+        "target": "jennifer",
+        "pred": "cynthia"
+    },
+    {
+        "input": "Kenneth is accused of destroying drywall in Jeffrey's house, _ is renting the house. In the previous sentence, does _ refer to Kenneth or  Jeffrey?",
+        "target": "kenneth",
+        "pred": "jeffrey"
+    },
+    {
+        "input": "Tanya looked for an escape route while Elena did not because _ liked to be aware of all the surroundings. In the previous sentence, does _ refer to Tanya or  Elena?",
+        "target": "tanya",
+        "pred": "elena"
+    },
+    {
+        "input": "Steven believes they can buy happiness but Craig thinks otherwise as _ is very realistic. In the previous sentence, does _ refer to Steven or  Craig?",
+        "target": "craig",
+        "pred": "yes"
+    },
+    {
+        "input": "Carrie kept written records of their expenses but not Laura because _ had a sharp memory. In the previous sentence, does _ refer to Carrie or  Laura?",
+        "target": "laura",
+        "pred": "carrie"
+    },
+    {
+        "input": "Michael was on a diet, but cheated by eating junk food with Christopher. _ felt bad for ruining his plan. In the previous sentence, does _ refer to Michael or  Christopher?",
+        "target": "christopher",
+        "pred": "michael"
+    },
+    {
+        "input": "Joel researched laws and helped to open a preschool for Eric. Because _ is very good with kids. In the previous sentence, does _ refer to Joel or  Eric?",
+        "target": "eric",
+        "pred": "joel"
+    },
+    {
+        "input": "Brett wanted to get a massage but Kenneth did not. This is because _ was feeling relaxed. In the previous sentence, does _ refer to Brett or  Kenneth?",
+        "target": "kenneth",
+        "pred": "brett"
+    },
+    {
+        "input": "Kelly was embarrassed when his toga fell off at the party and people saw his underwear because the _ was too loose. In the previous sentence, does _ refer to toga or  underwear?",
+        "target": "toga",
+        "pred": "yes"
+    },
+    {
+        "input": "The doctor couldn't treat the arm infection, but was able to handle the ear ache. The _ was more petty. In the previous sentence, does _ refer to arm infection or  ear ache?",
+        "target": "ear ache",
+        "pred": "arm infection"
+    },
+    {
+        "input": "The skateboard got broken under the weight of the fat boy and his luggage. The _ is light. In the previous sentence, does _ refer to skateboard or  weight?",
+        "target": "skateboard",
+        "pred": "no"
+    },
+    {
+        "input": "Joe immediately went to bakery before the bank because the _ had a substantial supply of what he wanted. In the previous sentence, does _ refer to bakery or  bank?",
+        "target": "bank",
+        "pred": "bakery"
+    },
+    {
+        "input": "Gem needed both therapy and medicines to cope with her broken leg. She preferred the _ because it was painless. In the previous sentence, does _ refer to medicine or  therapy?",
+        "target": "medicine",
+        "pred": "yes"
+    },
+    {
+        "input": "At dinner time, Tanya ate Erin's serving of peas even though _ really likes green vegetables. In the previous sentence, does _ refer to Tanya or  Erin?",
+        "target": "erin",
+        "pred": "tanya"
+    },
+    {
+        "input": "Kelly was embarrassed when his toga fell off at the party and people saw his underwear because the _ was too tight. In the previous sentence, does _ refer to toga or  underwear?",
+        "target": "underwear",
+        "pred": "yes"
+    },
+    {
+        "input": "Laura held the steel for their project while Carrie used the blowtorch, because _ was more skilled. In the previous sentence, does _ refer to Laura or  Carrie?",
+        "target": "carrie",
+        "pred": "laura is a girl."
+    },
+    {
+        "input": "Craig grew frustrated trying to coach Nick in soccer, as _ lacked the patience needed for the task. In the previous sentence, does _ refer to Craig or  Nick?",
+        "target": "craig",
+        "pred": "nick"
+    },
+    {
+        "input": "Warts appeared on Jerry's limbs after he went through the jungle because the _ were infectious. In the previous sentence, does _ refer to warts or  limbs?",
+        "target": "warts",
+        "pred": "yes"
+    },
+    {
+        "input": "The kitty ran away from Kayla and not Felicia because the kitty had known _ for many years. In the previous sentence, does _ refer to Kayla or  Felicia?",
+        "target": "felicia",
+        "pred": "kayla"
+    },
+    {
+        "input": "In order to grow his plants naturally, he bought fertilizer and water. The _ was filled with nutrients. In the previous sentence, does _ refer to fertilizer or  water?",
+        "target": "fertilizer",
+        "pred": "yes"
+    },
+    {
+        "input": "Rachel touches the cool looking bulletproof vest of Kayla due to _ being on a ride along. In the previous sentence, does _ refer to Rachel or  Kayla?",
+        "target": "rachel",
+        "pred": "kayla"
+    },
+    {
+        "input": "Kevin drew the blood from Ian's arm, because _ was giving it to do some tests. In the previous sentence, does _ refer to Kevin or  Ian?",
+        "target": "ian",
+        "pred": "kevin"
+    },
+    {
+        "input": "I did not buy the color pink rose flowers  for my wedding because the _ is too bright. In the previous sentence, does _ refer to color or  wedding?",
+        "target": "color",
+        "pred": "no"
+    },
+    {
+        "input": "The installation process was simpler for the cable over the internet because the man had never installed the _ previously. In the previous sentence, does _ refer to cable or  internet?",
+        "target": "internet",
+        "pred": "cable"
+    },
+    {
+        "input": "Judy bought new brushes to paint the etched glasses crack but it didn't fit. The _ was too narrow. In the previous sentence, does _ refer to brush or  crack?",
+        "target": "crack",
+        "pred": "no"
+    },
+    {
+        "input": "Carrie was helping Patricia diet and exercise at the gym to lose weight because _ used to be overweight. In the previous sentence, does _ refer to Carrie or  Patricia?",
+        "target": "carrie",
+        "pred": "patricia"
+    },
+    {
+        "input": "Mark preferred his drinks in paper cups over styrofoam cups because the _ are strong. In the previous sentence, does _ refer to styrofoam cups or  paper cups?",
+        "target": "paper cups",
+        "pred": "paper"
+    },
+    {
+        "input": "We didn't get the biscuits this morning before school, so I ordered an omelet instead of a hash brown as the _ would make me hungry. In the previous sentence, does _ refer to omelet or  hash brown?",
+        "target": "hash brown",
+        "pred": "no"
+    },
+    {
+        "input": "The doctor suggested alternating between ice and a heating pad when I strained a muscle, but he warned me to not let the _ get too cold. In the previous sentence, does _ refer to ice or  pad?",
+        "target": "ice",
+        "pred": "pad"
+    },
+    {
+        "input": "The class was going on a bus on a field trip to a local museum. The _ had to close at 4. In the previous sentence, does _ refer to bus or  museum?",
+        "target": "museum",
+        "pred": "bus"
+    },
+    {
+        "input": "He had enough time between classes to go to a cafe or to the library. He went to the _ because his paper was due soon. In the previous sentence, does _ refer to cafe or  library?",
+        "target": "library",
+        "pred": "cafe"
+    },
+    {
+        "input": "Wanting to impress his boss, the man put the brandy away and served scotch instead because the _ was expensive. In the previous sentence, does _ refer to Brandy or  Scotch?",
+        "target": "scotch",
+        "pred": "brandy"
+    },
+    {
+        "input": "My mom didn't fit the shape into the painting, because the _ was too complete. In the previous sentence, does _ refer to shape or  painting?",
+        "target": "painting",
+        "pred": "shape"
+    },
+    {
+        "input": "Jeffrey thought Craig probably had gum and asked for a piece, because _ had bad breath. In the previous sentence, does _ refer to Jeffrey or  Craig?",
+        "target": "jeffrey",
+        "pred": "craig"
+    },
+    {
+        "input": "The architect tried to build the room inside the house but the _ was too large. In the previous sentence, does _ refer to house or  room?",
+        "target": "room",
+        "pred": "house"
+    },
+    {
+        "input": "The library always had more books than computers, most likely because the _ are bigger. In the previous sentence, does _ refer to books or  computers?",
+        "target": "computers",
+        "pred": "books"
+    },
+    {
+        "input": "During the charity drive, they decided to donate the couch but not the bed because the _ was broken. In the previous sentence, does _ refer to couch or  bed?",
+        "target": "bed",
+        "pred": "couch"
+    },
+    {
+        "input": "The juice from the mango fruit could not fill up the cup because the _ is small. In the previous sentence, does _ refer to mango or  cup?",
+        "target": "mango",
+        "pred": "mango fruit"
+    },
+    {
+        "input": "Jessica wants to protect herself from infectious diseases so she goes to doctor Samantha, because _ is careful. In the previous sentence, does _ refer to Jessica or  Samantha?",
+        "target": "jessica",
+        "pred": "samantha"
+    },
+    {
+        "input": "Caroline works in the catering and food wholesale industries, but enjoys food preparation more, so she prefers her work in the _ industry. In the previous sentence, does _ refer to catering or  food wholesale?",
+        "target": "catering",
+        "pred": "yes"
+    },
+    {
+        "input": "The room at the hotel cost more to stay in than the room at the inn because the _ was nastier. In the previous sentence, does _ refer to hotel or  inn?",
+        "target": "inn",
+        "pred": "hotel"
+    },
+    {
+        "input": "Pho needs cilantro and beef to be tasty. However, the _ can be too bitter. In the previous sentence, does _ refer to cilantro or  beef?",
+        "target": "cilantro",
+        "pred": "yes"
+    }
+]

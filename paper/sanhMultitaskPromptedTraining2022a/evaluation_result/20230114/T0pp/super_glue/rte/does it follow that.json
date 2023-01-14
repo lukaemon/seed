@@ -1,0 +1,182 @@
+[
+    {
+        "input": "Given that Thus began the journey that led Hannam, a 29-year-old free-lance journalist, on an international quest to solve one of the greatest mysteries of Asia: What happened to Lin Piao, the Chinese Communist Party leader accused of a 1971 plot to overthrow Chairman Mao. Does it follow that Lin Piao was the Chinese Communist Party leader. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that A farmer who was in contact with cows suffering from BSE -- the so-called mad cow disease -- has died from what is regarded as the human form of the disease. Does it follow that Bovine spongiform encephalopathy is another name for the \"mad cow disease\". Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that The Kota ( \"Fort\" ), or Old City, for example, sometimes called the downtown section, is the central business district and Indonesia's financial capital. Does it follow that The Kota is the country's business center. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Amazon shares fell nearly 4 percent following the results as the company said operating income would drop as much as 42 percent in the second quarter. Does it follow that Shares of Amazon fell 4 percent. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Evans Paul, the pro-Aristide mayor of Port-au-Prince, said he had been told that the money will go to American lobbyists, politicians and journalists to campaign against the return of Aristide, Haiti's first democratically elected president Does it follow that Evans Paul is the mayor of Port-au-Prince. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Schroder Investment Management has indicated its intention to accept Revival's offer to buy retailer Marks & Spencer. Does it follow that Revival tries to take over Marks & Spencer Group. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that About 33.5 million people live in this massive conurbation. I would guess that 95% of the 5,000 officially foreign-capital firms in Japan are based in Tokyo. Does it follow that About 33.5 miilion people live in Tokyo. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Nokia, Texas Instruments and other leading makers of mobile phones have formally complained to Brussels that Qualcomm, the US mobile chipmaker, has unfairly used its patents on 3G technologies. Does it follow that Texas Instruments produces mobile phones. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Mount Olympus towers up from the center of the earth. Does it follow that Mount Olympus is in the center of the earth. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Zahi Hawass, Egypt's pre-eminent archaeologist, revealed the first ancient artifacts which may lead to the discovery of Cleopatra and Marc Antony's resting place.  The expedition has found amulets, 22 bronze coins cast with Cleopatra's image and her name, a royal statue, an alabaster mask resembling Marc Antony, and a statue bust of Cleopatra. \"If you look at the face of Mark Antony, many believed he had this cleft on his chin and that's why I thought this could be Mark Antony,\" said Hawass.  \"In my opinion, if this tomb is found, it will be one of the most important discoveries of the 21st century because of the love between Cleopatra and Mark Antony, and because of the sad story of their death. This is the perfect place for them to be hidden,\" said Hawass. Does it follow that Cleopatra and Marc Antony lived in Egypt. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that In New York, Nymex light crude oil for July delivery hit $42.38 per barrel on Tuesday Does it follow that Crude oil futures surged to an all-time high in New York Tuesday, at 42 dollars a barrel. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Primary prevention of Alzheimer's disease is not possible at present. Does it follow that Alzheimer's disease is treated using drugs. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Compuware claims that Allan Tortorice and Jim Hildner were among several former employees who revealed trade secrets after they moved to IBM. Does it follow that Trade secrets were stolen. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Though the exact date is debated, dogs are thought to have been domesticated by humans approximately 12,000 years ago. Does it follow that Humans existed 10,000 years ago. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just $20,000, but sold for $120,000, six times its estimated price. Does it follow that Hepburn's diamond and sapphire brooch fetched $120,000. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Steve Jobs was attacked by Sculley and other Apple executives for not delivering enough hot new products and resigned from the company a few weeks later. Does it follow that Steve Jobs worked for Apple. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Swansea striker Lee Trundle has negotiated a lucrative image-rights deal with the League One club. Does it follow that Lee Trundle is in business with the League One club. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Note that SBB, CFF and FFS stand out for the main railway company, in German, French and Italian. Does it follow that The French railway company is called SNCF. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that He became a boxing referee in 1964 and became most well-known for his decision against Mike Tyson, during the Holyfield fight, when Tyson bit Holyfield's ear. Does it follow that Mike Tyson bit Holyfield's ear in 1964. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Kozlowski and the company's former chief financial officer, Mark Swartz, were sentenced, on Monday, to up to 25 years in prison. Does it follow that Kozlowski was sentenced, Monday, to serve up to 25 years in prison. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that NASA's two Great Observatories, the Hubble Space Telescope and the Chandra X-ray Observatory, have independently provided what could be the best direct evidence yet for the existence of an event horizon, the defining feature of a black hole. Does it follow that Hubble discovers black holes. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that La Paz, 30 May 89 - La Paz Department Police authorities have disclosed that investigations into the murder of two young U.S. citizens are being conducted by a specialized group summoned specially to clarify this crime. Does it follow that Two young U.S. citizens were killed on 30 May 89. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Monica Meadows, a 22-year-old model from Atlanta, was shot in the shoulder on a subway car in New York City. Does it follow that Monica Meadows, 23, was shot in shoulder while riding a subway car in New York City Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that In the history of art, prehistoric art is all art produced in preliterate cultures (prehistory), beginning somewhere in very late geological history. Does it follow that Prehistoric art discovered in South Africa. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that P. Prayong, who like Kevala belongs to the Theravada sect of Buddhism, chose India over other Buddhist majority nations as it is the birthplace of Gautama Buddha. Does it follow that P. Prayong is a member of Theravada. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Foreign Carmakers Gain in Russia. The likes of Daewoo, Ford, Renault, and more can't produce fast enough. Does it follow that European cars sell in Russia. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that A U.S. Court of Appeals on Friday has declared unconstitutional California Assembly Bills 1792 & 1793, the California \"ultraviolent video games law\" that sought to ban the sale or rental of violent video games to minors. Federal judge Consuelo M. Callahan has ruled that the 2005 statewide ban, which has yet to be enforced, violates minors' rights under the US Constitution's First and 14th amendment because even the most graphic on-screen mayhem, video game content represents free speech that cannot be censored without proper justification. Does it follow that California Assembly Bills 1792 & 1793 are laws against ultraviolent video games. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that When Albright was the US ambassador to the United Nations, Lesley Stahl of \"60 Minutes\" asked her about the sanctions and the deaths of Iraqi children. Albright said it was America's responsibility to make sure the Gulf War did not have to be fought again. Does it follow that Albright said that to punish Saddam Hussein, the deaths of those children were \"worth it.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that The publishing companies Bloomsbury (U.K.) and Scholastic (U.S.) released cover art for the seventh Harry Potter book, Harry Potter and the Deathly Hallows. \"The structures around Harry show evident destruction and in the shadows behind him, we see outlines of other people,\" David Saylor, Scholastic's art director, said in a statement describing the U.S. version. \"For the first time, the cover is a wraparound. On the back cover spidery hands are outstretched toward Harry. Only when the book is opened does one see a powerful image of \"He-Who-Must-Not-Be-Named\", his glowing red eyes peering out from his hood.\" Does it follow that Rowling is the author of \"Harry Potter\". Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that The official visit of the Argentine minister marks a further step in the normalisation of UK-Argentine relations. Does it follow that Relations between Argentina and Great Britain are growing more cooperative. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that A plane crashed in North Carolina last year and most of the Blink-182 group was in there. The only survivors of the crash were DJ AM and musical partner Travis Barker. Less lucky, \"Lil\" Chris Baker, Barker's close friend and assistant, the Blink-182 drummer's bodyguard, Charles \"Che\" Still, the pilot and co-pilot died. Both AM and Barker suffered many injures, bad burns and they needed to stay in hospital for several weeks. Now AM asks $20 million in compensation for injuries he suffered. He lawsuits against plane maker Learjet and wants to gain $10 million for medical damages, lost earnings and profit and the same amount for mental and physical suffering. Does it follow that Travis Barker belongs to a band. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that Teenage sensation Wayne Rooney powered England into the quarter-finals of Euro 2004 with two goals in Monday's 4-2 defeat of Croatia and they were joined in the last eight by champions France who beat Switzerland 3-1. Does it follow that France participates in Euro 2004. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that The Daily Telegraph, most prized asset in Lord Conrad Black's crumbling media empire, has been sold to Britain's Barclay twins. Does it follow that Daily telegraph is sold. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that We learn that Claretta Petacci, Mussolini's last mistress, had a tendency to whine and to lie all day in bed, eating chocolate. Does it follow that Claretta Petacci was Mussolini's last mistress. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given that As a result of these weaknesses, computer systems and the operations that rely on the systems were highly vulnerable to tampering, disruption, and misuse from both internal and external sources. Does it follow that Non-authorized personnel illegally entered into computer networks. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given that Merrill Lynch & Co. and Smith Barney, now a unit of Citigroup, in 1998 settled discrimination cases involving hundreds of female employees. Does it follow that Merrill Lynch & Co. and Smith Barney are now a unit of Citigroup. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "input": "Ssangyong Motor was taken over by creditors after it collapsed under heavy debts during the 1997-98 Asian financial crisis. Using only the above description and what you know about the world, is \"Asian financial crisis takes over Ssangyong Motor\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The Massachusetts Supreme Judicial Court has cleared the way for lesbian and gay couples in the state to marry, ruling that government attorneys \"failed to identify any constitutionally adequate reason\" to deny them the right. Using only the above description and what you know about the world, is \"U.S. Supreme Court in favor of same-sex marriage\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The Amish community in Pennsylvania, which numbers about 55,000, lives an agrarian lifestyle, shunning technological advances like electricity and automobiles. And many say their insular lifestyle gives them a sense that they are protected from the violence of American society. But as residents gathered near the school, some wearing traditional garb and arriving in horse-drawn buggies, they said that sense of safety had been shattered. \"If someone snaps and wants to do something stupid, there's no distance that's going to stop them,\" said Jake King, 56, an Amish lantern maker who knew several families whose children had been shot. Using only the above description and what you know about the world, is \"Pennsylvania has the biggest Amish community in the U.S.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Amazon shares fell nearly 4 percent following the results as the company said operating income would drop as much as 42 percent in the second quarter. Using only the above description and what you know about the world, is \"Shares of Amazon fell 4 percent.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Tropical storm Koni dumped significant rains on the Philippines before becoming a minimal typhoon and eventually making landfall on the northern coast of Vietnam. Using only the above description and what you know about the world, is \"A tropical storm has caused significant property damage.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Zahi Hawass, Egypt's pre-eminent archaeologist, revealed the first ancient artifacts which may lead to the discovery of Cleopatra and Marc Antony's resting place.  The expedition has found amulets, 22 bronze coins cast with Cleopatra's image and her name, a royal statue, an alabaster mask resembling Marc Antony, and a statue bust of Cleopatra. \"If you look at the face of Mark Antony, many believed he had this cleft on his chin and that's why I thought this could be Mark Antony,\" said Hawass.  \"In my opinion, if this tomb is found, it will be one of the most important discoveries of the 21st century because of the love between Cleopatra and Mark Antony, and because of the sad story of their death. This is the perfect place for them to be hidden,\" said Hawass. Using only the above description and what you know about the world, is \"Cleopatra and Marc Antony lived in Egypt.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "JERUSALEM (AP) -- In a spiritual climax to his 22-year papacy, Pope John Paul II on Tuesday began the first official visit by a Roman Catholic pontiff to Israel, fulfilling his dream of visiting the land where Christ was born and died. Using only the above description and what you know about the world, is \"Pope John Paul II was born in Poland.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "In New York, Nymex light crude oil for July delivery hit $42.38 per barrel on Tuesday Using only the above description and what you know about the world, is \"Crude oil futures surged to an all-time high in New York Tuesday, at 42 dollars a barrel.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Compuware claims that Allan Tortorice and Jim Hildner were among several former employees who revealed trade secrets after they moved to IBM. Using only the above description and what you know about the world, is \"Trade secrets were stolen.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Though the exact date is debated, dogs are thought to have been domesticated by humans approximately 12,000 years ago. Using only the above description and what you know about the world, is \"Humans existed 10,000 years ago.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Note that SBB, CFF and FFS stand out for the main railway company, in German, French and Italian. Using only the above description and what you know about the world, is \"The French railway company is called SNCF.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "He became a boxing referee in 1964 and became most well-known for his decision against Mike Tyson, during the Holyfield fight, when Tyson bit Holyfield's ear. Using only the above description and what you know about the world, is \"Mike Tyson bit Holyfield's ear in 1964.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "NASA's two Great Observatories, the Hubble Space Telescope and the Chandra X-ray Observatory, have independently provided what could be the best direct evidence yet for the existence of an event horizon, the defining feature of a black hole. Using only the above description and what you know about the world, is \"Hubble discovers black holes.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "La Paz, 30 May 89 - La Paz Department Police authorities have disclosed that investigations into the murder of two young U.S. citizens are being conducted by a specialized group summoned specially to clarify this crime. Using only the above description and what you know about the world, is \"Two young U.S. citizens were killed on 30 May 89.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The investigation came about following the collapse of Barings Bank, when one of its traders based in Singapore, Nick Leeson, amassed losses of the order of 600-700 million without the bank being aware of it. Using only the above description and what you know about the world, is \"Nick Leeson was arrested for collapse of Barings Bank PLC.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Monica Meadows, a 22-year-old model from Atlanta, was shot in the shoulder on a subway car in New York City. Using only the above description and what you know about the world, is \"Monica Meadows, 23, was shot in shoulder while riding a subway car in New York City\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "In the history of art, prehistoric art is all art produced in preliterate cultures (prehistory), beginning somewhere in very late geological history. Using only the above description and what you know about the world, is \"Prehistoric art discovered in South Africa.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Hours earlier, Yasser Arafat called for an end to attacks against Israeli civilians in the two weeks before Israeli elections. Using only the above description and what you know about the world, is \"Arafat condemned suicide bomb attacks inside Israel.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina. Using only the above description and what you know about the world, is \"An international oil agency will make 60 million barrels of oil and gasoline available to the marketplace.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Foreign Carmakers Gain in Russia. The likes of Daewoo, Ford, Renault, and more can't produce fast enough. Using only the above description and what you know about the world, is \"European cars sell in Russia.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Hodler claimed there were also irregularities in the campaigns organized by Atlanta for the 1996 Summer Games, Sydney for the Summer Olympics in 2000 and Salt Lake City for the 2002 Winter Games. Using only the above description and what you know about the world, is \"Before Salt Lake City, Winter Olympic Games took place in Nagano.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A U.S. Court of Appeals on Friday has declared unconstitutional California Assembly Bills 1792 & 1793, the California \"ultraviolent video games law\" that sought to ban the sale or rental of violent video games to minors. Federal judge Consuelo M. Callahan has ruled that the 2005 statewide ban, which has yet to be enforced, violates minors' rights under the US Constitution's First and 14th amendment because even the most graphic on-screen mayhem, video game content represents free speech that cannot be censored without proper justification. Using only the above description and what you know about the world, is \"California Assembly Bills 1792 & 1793 are laws against ultraviolent video games.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Wilson has, after all, produced all three Offspring albums, including \"Smash,\" the one that has astonished everybody by selling 1 million copies in four months, establishing the heretofore unknown group as the leader, with Green Day, of an unprecedented wave of commercial success for punk. Using only the above description and what you know about the world, is \"Smash is the title of the third album of the Offspring.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Two brothers who operated a North Hollywood plating company that dumped thousands of gallons of cyanide-laced waste water into the Los Angeles sewer system pleaded guilty Thursday and must serve jail time for recklessly handling and storing hazardous materials. Using only the above description and what you know about the world, is \"A California company was charged with reckless storage of chemicals.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The publishing companies Bloomsbury (U.K.) and Scholastic (U.S.) released cover art for the seventh Harry Potter book, Harry Potter and the Deathly Hallows. \"The structures around Harry show evident destruction and in the shadows behind him, we see outlines of other people,\" David Saylor, Scholastic's art director, said in a statement describing the U.S. version. \"For the first time, the cover is a wraparound. On the back cover spidery hands are outstretched toward Harry. Only when the book is opened does one see a powerful image of \"He-Who-Must-Not-Be-Named\", his glowing red eyes peering out from his hood.\" Using only the above description and what you know about the world, is \"Rowling is the author of \"Harry Potter\".\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The official visit of the Argentine minister marks a further step in the normalisation of UK-Argentine relations. Using only the above description and what you know about the world, is \"Relations between Argentina and Great Britain are growing more cooperative.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "As a result of these weaknesses, computer systems and the operations that rely on the systems were highly vulnerable to tampering, disruption, and misuse from both internal and external sources. Using only the above description and what you know about the world, is \"Non-authorized personnel illegally entered into computer networks.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A condition called \"social anxiety disorder\" this week joined the long list of downers in life - including obesity, impotence, depression and phobia - that Americans once commonly saw as challenges of willpower and character but can now have treated by popping a pill. Using only the above description and what you know about the world, is \"Phobia is a an extreme fear of a particular thing or situation.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    }
+]

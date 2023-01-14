@@ -1,0 +1,512 @@
+[
+    {
+        "input": "I expect to receive wages.\nWe were expecting a visit from our relatives.\nQuestion: Is the word 'expect' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "They kept a log of all transmission by the radio station.\nAn email log.\nQuestion: Is the word 'log' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The professionalization of warfare.\nThe professionalization of American sports.\nQuestion: Is the word 'professionalization' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nInstructional designers are trained in something that might be called tradecraft.\nQuestion: Is the word 'tradecraft' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The accident created a dimple in the hood of the car.\nThere are approximately 336 dimples on a golf ball.\nQuestion: Is the word 'dimple' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Her glasses left marks on the bridge of her nose.\nRugby players often break the bridge of their noses.\nQuestion: Is the word 'bridge' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The intolerable license with which the newspapers break ... the rules of decorum -- Edmund Burke.\nWhen liberty becomes license dictatorship is near -- Will Durant.\nQuestion: Is the word 'license' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "His studio was cramped when he began as an artist.\nYou don't need a studio to make a passport photograph.\nQuestion: Is the word 'studio' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A recrudescence of racism.\nA recrudescence of the symptoms.\nQuestion: Is the word 'recrudescence' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Return her love.\nReturn a compliment.\nQuestion: Is the word 'return' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sign an intersection.\nThis road has been signed.\nQuestion: Is the word 'sign' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "An invasion of locusts.\nAn invasion of tourists.\nQuestion: Is the word 'invasion' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "I would like to thank the brother who just spoke.\nNone of his brothers would betray him.\nQuestion: Is the word 'brother' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "We went there by foot because we could not afford a taxi.\nThere is a lot of foot traffic on this street.\nQuestion: Is the word 'foot' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Carve one's name into the bark.\nThat chisel carved the statue.\nQuestion: Is the word 'carve' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Segment a compound word.\nSegment an orange.\nQuestion: Is the word 'segment' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Some of the members may donate privately.\nShe donates to her favorite charity every month.\nQuestion: Is the word 'donate' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A plume of smoke.\nGrass with large plumes.\nQuestion: Is the word 'plume' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "He allowed a month to elapse before beginning the work.\nSeveral days elapsed before they met again.\nQuestion: Is the word 'elapse' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A girl's education was less important than a boy's.\nEducation is a preparation for life.\nQuestion: Is the word 'education' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The forwarding of resumes to the personnel department.\nThe forwarding of mail to a new address is done automatically.\nQuestion: Is the word 'forwarding' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "I woke up in the middle of the night.\nA whole is that which has beginning, middle, and end -- Aristotle.\nQuestion: Is the word 'middle' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Configure a plane for a combat mission.\nConfigure my new computer.\nQuestion: Is the word 'configure' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "They organized a rescue operation.\nConsolidate the companies various operations.\nQuestion: Is the word 'operation' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The minister said a prayer on behalf of the entire congregation.\nClergymen are usually called ministers in Protestant churches.\nQuestion: Is the word 'minister' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The average cost of a new house is twice as much as t was 20 years ago.\nThe total cost of the new complex was an estimated $1.5 million.\nQuestion: Is the word 'cost' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The force required to compress a spring varies linearly with the displacement.\nShe compressed her lips.\nQuestion: Is the word 'compress' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The French treat food with gentle reverence.\nThe Chinese reverence for the dead.\nQuestion: Is the word 'reverence' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The policeman waited for a heartbeat in vain.\nHe alone gives me such heartbeats.\nQuestion: Is the word 'heartbeat' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "I need him to be nice.\nI needed him to go.\nQuestion: Is the word 'need' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "We decided to forge ahead with our plans even though our biggest underwriter backed out.\nHe forged ahead.\nQuestion: Is the word 'forge' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A keen musical sense.\nA good sense of timing.\nQuestion: Is the word 'sense' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The drug capital of Columbia.\nThe crime capital of Italy.\nQuestion: Is the word 'capital' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Truman upset Dewey in the 1948 US presidential election.\nThe foreign team upset the local team.\nQuestion: Is the word 'upset' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The relations between town and gown are always sensitive.\nIn the perennial town versus gown battles, townies win some violent battles, but the collegians are winning the war.\nQuestion: Is the word 'gown' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "I applaud your efforts.\nAlthough we don't like your methods, we applaud your motives.\nQuestion: Is the word 'applaud' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "She only wore that dress to upstage everyone.\nWhen the dog entered the stage, he upstaged the actress.\nQuestion: Is the word 'upstage' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The preponderance of good over evil.\nThe preponderance of wealth and power.\nQuestion: Is the word 'preponderance' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The bus was late so he missed his connection at Penn Station and had to wait six hours for the next train.\nThe plane was late and he missed his connection in Atlanta.\nQuestion: Is the word 'connection' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "He signed the deed.\nI inherited the deed to the house.\nQuestion: Is the word 'deed' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "To shock rye.\nShock grain.\nQuestion: Is the word 'shock' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The politician wore a bright yellow button with the slogan \"Vote Smart\" emblazoned on it.\nThey passed out campaign buttons for their candidate.\nQuestion: Is the word 'button' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The collapse of the old star under its own gravity.\nThe roof is in danger of collapse.\nQuestion: Is the word 'collapse' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Plants from a cold clime travel best in winter.\nAfter working hard all of his life, Max retired to warmer climes in Florida.\nQuestion: Is the word 'clime' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The new law might abridge our freedom of expression.\nHe had his rights abridged by the crooked sheriff.\nQuestion: Is the word 'abridge' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Always a step behind.\nKeep in step with the fashions.\nQuestion: Is the word 'step' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "To liberate the mind from prejudice.\nTo liberate gases.\nQuestion: Is the word 'liberate' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The path of virtue.\nOur paths in life led us apart.\nQuestion: Is the word 'path' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Analyze your real motives.\nThe inspector analyzed the building's soundness.\nQuestion: Is the word 'analyze' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A branch of Congress.\nWe have branches in all major suburbs.\nQuestion: Is the word 'branch' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Here's a good potluck of beans and stew.\nHaving arrived unannounced we had to take potluck.\nQuestion: Is the word 'potluck' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Force socialization rarely creates strong friendships, but there are exceptions.\nThere was too much socialization with the enlisted men.\nQuestion: Is the word 'socialization' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Banish bad thoughts.\nBanish gloom.\nQuestion: Is the word 'banish' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Glaze the bread with eggwhite.\nThe potter glazed the dishes.\nQuestion: Is the word 'glaze' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Let's finalize the proposal.\nAs soon as we get the plane tickets, we'll finalize our reservations with the hotel.\nQuestion: Is the word 'finalize' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A barrage of questions.\nThey laid down a barrage in front of the advancing troops.\nQuestion: Is the word 'barrage' used in the same sense in the two sentences above?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A mechanism of social control.\nMechanisms of communication.\nQuestion: Is the word 'mechanism' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Some languages sexualize all nouns and do not have a neuter gender.\nThe god was sexualized and married to another god.\nQuestion: Is the word 'sexualize' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Did you ever lecture at Harvard?\nShe lectured to the class about her travels.\nQuestion: Is the word 'lecture' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A pedestrian was able to trip the burglar as he was running away.\nThe questions on the test tripped him up.\nQuestion: Is the word 'trip' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The chemistry of indigo.\nThe chemistry of iron.\nQuestion: Is the word 'chemistry' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A fight broke out at the hockey game.\nThere were fights in the streets.\nQuestion: Is the word 'fight' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A good lead for a job.\nJoe is a great addition to our sales team, he has numerous leads in the paper industry.\nQuestion: Is the word 'lead' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The rug had a wide blue border.\nThe borders of the garden.\nQuestion: Is the word 'border' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "He came out of nowhere.\nThey went on a cruise to nowhere.\nQuestion: Is the word 'nowhere' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Did I fail the test?\nShe studied hard but failed nevertheless.\nQuestion: Is the word 'fail' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Even the pitcher doesn't know where his knuckleball is going.\nBoston Red Sox pitcher Tim Wakefield is best known for his use of the knuckleball.\nQuestion: Is the word 'knuckleball' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "You can characterize his behavior as that of an egotist.\nThis poem can be characterized as a lament for a dead lover.\nQuestion: Is the word 'characterize' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Wait a minute, I'm not ready yet!\nIt only takes a minute.\nQuestion: Is the word 'minute' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The restaurant is noted for its excellent cuisine.\nFrench cuisine is considered to be one of the world's most refined and elegant styles of cooking.\nQuestion: Is the word 'cuisine' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "His work established a new department of literature.\nBaking is not my department.\nQuestion: Is the word 'department' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "She wants to act Lady Macbeth, but she is too young for the role.\nI started acting at the age of eleven in my local theatre.\nQuestion: Is the word 'act' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A mince of mushrooms.\nMince tastes really good fried in a pan with some chopped onion and tomato.\nQuestion: Is the word 'mince' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Stop a car.\nStop the thief.\nQuestion: Is the word 'stop' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "There was a blockage in the sewer, so we called out the plumber.\nWe had to call a plumber to clear out the blockage in the drainpipe.\nQuestion: Is the word 'blockage' used in the same sense in the two sentences above?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "That is the correct pronunciation.\nThe pronunciation of Chinese is difficult for foreigners.\nQuestion: Is the word 'pronunciation' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Our children share a love of music.\nThe two countries share a long border.\nQuestion: Is the word 'share' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Gunny invariably tried to bite her.\nAs soon as you bite that sandwich, you'll know how good it is.\nQuestion: Is the word 'bite' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The last bastion of communism.\nA bastion against corruption.\nQuestion: Is the word 'bastion' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "It was his last wish.\nThey should respect the wishes of the people.\nQuestion: Is the word 'wish' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Let loose mines.\nLoose terrible plagues upon humanity.\nQuestion: Is the word 'loose' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Elections figure prominently in every government program.\nHow do the elections figure in the current pattern of internal politics?\nQuestion: Is the word 'figure' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "To moderate a synod.\nJohn moderated the discussion.\nQuestion: Is the word 'moderate' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The plane made a smooth landing.\nHis landing on his feet was catlike.\nQuestion: Is the word 'landing' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The tyrant's oppression of the people.\nThe oppression of the poor by the aristocracy was one cause of the French Revolution.\nQuestion: Is the word 'oppression' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Admit someone to the profession.\nShe was admitted to the New Jersey Bar.\nQuestion: Is the word 'admit' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "I love French food.\nI loved to write.\nQuestion: Is the word 'love' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "At liberty to choose whatever occupation one wishes.\nLiberty to think or feel or do just as one pleases.\nQuestion: Is the word 'liberty' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "How did your interview go?\nShe was going that way anyway, so she offered to show him where it was.\nQuestion: Is the word 'go' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "More fuel is needed during the winter months.\nThey developed alternative fuels for aircraft.\nQuestion: Is the word 'fuel' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The belief that the world is flat is a falsity.\nArgument could not determine its truth or falsity.\nQuestion: Is the word 'falsity' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Economic cooperation.\nThey agreed on a policy of cooperation.\nQuestion: Is the word 'cooperation' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "For recreation he wrote poetry and solved crossword puzzles.\nDrug abuse is often regarded as a form of recreation.\nQuestion: Is the word 'recreation' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "'Smog' is a blend of 'smoke' and 'fog'.\nTheir music has been described as a blend of jazz and heavy metal.\nQuestion: Is the word 'blend' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "There was an art exhibition on in the town hall.\nA boat exhibition.\nQuestion: Is the word 'exhibition' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "I am trying to contact my sister.\nHe never contacted his children after he emigrated to Australia.\nQuestion: Is the word 'contact' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The senator rose to register his protest.\nThey finished the game under protest to the league president.\nQuestion: Is the word 'protest' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The need for informational flexibility can lead to adhocracy.\nThe choice between bureaucracy and adhocracy represents a common dilemma.\nQuestion: Is the word 'adhocracy' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "She loves to stay at home and cocoon.\nFamilies cocoon around the T.V. set most evenings.\nQuestion: Is the word 'cocoon' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "On entering a host cell, a virus will start to replicate.\nReplicate the cell.\nQuestion: Is the word 'replicate' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "He felt a stream of air.\nThe hose ejected a stream of water.\nQuestion: Is the word 'stream' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Can I keep my old stuffed animals?\nShe kept her maiden name after she married.\nQuestion: Is the word 'keep' used in the same sense in the two sentences above?",
+        "target": "yes",
+        "pred": "no"
+    }
+]

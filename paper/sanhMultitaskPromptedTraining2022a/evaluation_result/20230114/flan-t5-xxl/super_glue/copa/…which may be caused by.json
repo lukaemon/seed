@@ -1,0 +1,217 @@
+[
+    {
+        "input": "The man lost the competition. Which may be caused by \"The competition was sabotaged.\" or \"He intimidated his competitors.\"?",
+        "target": "the competition was sabotaged.",
+        "pred": "he intimidated his competitors.\"?"
+    },
+    {
+        "input": "I regained composure from my fit of anger. Which may be caused by \"My heart pounded.\" or \"I took deep breaths.\"?",
+        "target": "i took deep breaths.",
+        "pred": "either \"my heart pounded.\" or \"i took deep breaths.\"?\""
+    },
+    {
+        "input": "The cook's eyes watered. Which may be caused by \"He ran out of onions.\" or \"He cut an onion.\"?",
+        "target": "he cut an onion.",
+        "pred": "he cut an onion.\""
+    },
+    {
+        "input": "The clock chimed. Which may be caused by \"It was the top of the hour.\" or \"The hour seemed to drag on.\"?",
+        "target": "it was the top of the hour.",
+        "pred": "the hour seemed to drag on.\"?"
+    },
+    {
+        "input": "The pair of students came under scrutiny by the teacher. Which may be caused by \"The students both received excellent grades.\" or \"Their responses on the assignment were identical.\"?",
+        "target": "their responses on the assignment were identical.",
+        "pred": "the pair of students came under scrutiny by the teacher. which may be caused by \"the students both received excellent grades.\" or \"their responses on the assignment were identical.\"?"
+    },
+    {
+        "input": "My skin broke out into a rash. Which may be caused by \"I brushed against poison ivy in my yard.\" or \"I eradicated the poison ivy from my yard.\"?",
+        "target": "i brushed against poison ivy in my yard.",
+        "pred": "i brushed against poison ivy in my yard.\""
+    },
+    {
+        "input": "The driver turned on the car's headlights. Which may be caused by \"He heard thunder.\" or \"The sun went down.\"?",
+        "target": "the sun went down.",
+        "pred": "the sun went down.\""
+    },
+    {
+        "input": "The man received a parking ticket. Which may be caused by \"He parallel parked on the street.\" or \"The parking meter expired.\"?",
+        "target": "the parking meter expired.",
+        "pred": "the man received a parking ticket. which may be caused by \"he parallel parked on the street.\" or \"the parking meter expired.\"?"
+    },
+    {
+        "input": "The driver got a flat tire. Which may be caused by \"He went over the speed limit.\" or \"He ran over a nail.\"?",
+        "target": "he ran over a nail.",
+        "pred": "either \"he ran over a nail.\""
+    },
+    {
+        "input": "The horse bucked. Which may be caused by \"A fly bit the horse.\" or \"The rider stroked the horse.\"?",
+        "target": "a fly bit the horse.",
+        "pred": "the horse bucked. which may be caused by \"a fly bit the horse.\" or \"the rider stroked the horse.\"?"
+    },
+    {
+        "input": "The driver slammed on his brakes. Which may be caused by \"A deer appeared on the road.\" or \"The car radio shut off.\"?",
+        "target": "a deer appeared on the road.",
+        "pred": "suddenly\""
+    },
+    {
+        "input": "The hamburger meat browned. Which may be caused by \"The cook froze it.\" or \"The cook grilled it.\"?",
+        "target": "the cook grilled it.",
+        "pred": "it is grilled it.\""
+    },
+    {
+        "input": "The man felt obligated to attend the event. Which may be caused by \"He turned down his friend's invitation to go.\" or \"He promised his friend that he would go.\"?",
+        "target": "he promised his friend that he would go.",
+        "pred": "the man felt obligated to attend the event."
+    },
+    {
+        "input": "My eyes became red and puffy. Which may be caused by \"I was sobbing.\" or \"I was laughing.\"?",
+        "target": "i was sobbing.",
+        "pred": "i was laughing.\""
+    },
+    {
+        "input": "The key was missing from my pants pocket. Which may be caused by \"The pocket had a hole.\" or \"The pants were new.\"?",
+        "target": "the pocket had a hole.",
+        "pred": "pocket had a hole.\""
+    },
+    {
+        "input": "The man's pocket jingled as he walked. Which may be caused by \"His pocket was filled with coins.\" or \"He sewed the hole in his pocket.\"?",
+        "target": "his pocket was filled with coins.",
+        "pred": "pocket was filled with holes.\""
+    },
+    {
+        "input": "My view of the movie screen was blocked. Which may be caused by \"The couple behind me was whispering.\" or \"A tall person was sitting in front of me.\"?",
+        "target": "a tall person was sitting in front of me.",
+        "pred": "a tall person was sitting in front of me.\"?"
+    },
+    {
+        "input": "The bowling ball knocked over the bowling pins. Which may be caused by \"The man rolled the bowling ball down the alley.\" or \"The man dropped the bowling ball on his foot.\"?",
+        "target": "the man rolled the bowling ball down the alley.",
+        "pred": "the man rolled the bowling ball down the alley.\""
+    },
+    {
+        "input": "The woman asked the man to leave. Which may be caused by \"He insulted her.\" or \"He thanked her.\"?",
+        "target": "he insulted her.",
+        "pred": "the woman asked the man to leave. which may be caused by \"he insulted her.\" or \"he thanked her.\"?"
+    },
+    {
+        "input": "My ears were ringing. Which may be caused by \"I went to a museum.\" or \"I went to a concert.\"?",
+        "target": "i went to a concert.",
+        "pred": "my ears were ringing."
+    },
+    {
+        "input": "The woman was arrested. Which may be caused by \"She checked into rehab.\" or \"She committed assault.\"?",
+        "target": "she committed assault.",
+        "pred": "she checked into rehab.\""
+    },
+    {
+        "input": "I put rubber gloves on. Which may be caused by \"I was preparing to wash my hands.\" or \"I was preparing to clean the bathroom.\"?",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to wash my hands."
+    },
+    {
+        "input": "The man dressed in his best suit. Which may be caused by \"He scheduled a meeting with an important client.\" or \"His wife bought him a new tie.\"?",
+        "target": "he scheduled a meeting with an important client.",
+        "pred": "he scheduled a meeting with an important client.\" or \"he scheduled a meeting with an important client.\"?"
+    },
+    {
+        "input": "I tidied up my house. Which may be caused by \"I was swamped with work.\" or \"I was expecting company.\"?",
+        "target": "i was expecting company.",
+        "pred": "i was expecting company.\"?"
+    },
+    {
+        "input": "The judge pounded the gavel. Which may be caused by \"The courtroom broke into uproar.\" or \"The jury announced its verdict.\"?",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the courtroom broke into uproar.\""
+    },
+    {
+        "input": "The boy skipped dinner. Which may be caused by \"His mother cooked his favorite meal.\" or \"He ate a big lunch.\"?",
+        "target": "he ate a big lunch.",
+        "pred": "his mother cooked his favorite meal."
+    },
+    {
+        "input": "The mother called an ambulance. Which may be caused by \"Her son lost his cat.\" or \"Her son fell out of his bed.\"?",
+        "target": "her son fell out of his bed.",
+        "pred": "her son fell out of his bed.\""
+    },
+    {
+        "input": "The lock opened. Which may be caused by \"I turned the key in the lock.\" or \"I made a duplicate of the key.\"?",
+        "target": "i turned the key in the lock.",
+        "pred": "i made a duplicate of the key.\"?"
+    },
+    {
+        "input": "The woman walked with crutches. Which may be caused by \"She shaved her legs.\" or \"She broke her leg.\"?",
+        "target": "she broke her leg.",
+        "pred": "she broke her leg.\""
+    },
+    {
+        "input": "The woman banished the children from her property. Which may be caused by \"The children hit a ball into her yard.\" or \"The children trampled through her garden.\"?",
+        "target": "the children trampled through her garden.",
+        "pred": "the woman banished the children from her property. which may be caused by \"the children hit a ball into her yard.\" or \"the children trampled through her garden.\"?\""
+    },
+    {
+        "input": "The journalist wrote a biography about the humanitarian's life. Which may be caused by \"The humanitarian was difficult for the journalist to interview.\" or \"The journalist was intrigued by the humanitarian's work.\"?",
+        "target": "the journalist was intrigued by the humanitarian's work.",
+        "pred": "the journalist was intrigued by the humanitarian's work.\""
+    },
+    {
+        "input": "The dog barked. Which may be caused by \"The cat lounged on the couch.\" or \"A knock sounded at the door.\"?",
+        "target": "a knock sounded at the door.",
+        "pred": "either \"a cat sounded at the door.\" or \"a knock sounded at the door.\"?"
+    },
+    {
+        "input": "The man fainted. Which may be caused by \"He took a nap.\" or \"He ran a marathon.\"?",
+        "target": "he ran a marathon.",
+        "pred": "either \"he took a nap.\" or \"he ran a marathon.\"."
+    },
+    {
+        "input": "The woman contacted the real estate agent. Which may be caused by \"The woman planned to buy a condo.\" or \"The woman needed to clean her house.\"?",
+        "target": "the woman planned to buy a condo.",
+        "pred": "\"the woman needed to sell her house.\""
+    },
+    {
+        "input": "I decided to stay home for the night. Which may be caused by \"The forecast called for storms.\" or \"My friends urged me to go out.\"?",
+        "target": "the forecast called for storms.",
+        "pred": "forecast called for storms.\""
+    },
+    {
+        "input": "The community learned of the man's death. Which may be caused by \"His family buried him in the cemetery.\" or \"His obituary appeared in the newspaper.\"?",
+        "target": "his obituary appeared in the newspaper.",
+        "pred": "his obituary appeared in the newspaper.\"?"
+    },
+    {
+        "input": "The woman ran her finger under cold water. Which may be caused by \"She burned her finger on the toaster.\" or \"She put a diamond ring on her finger.\"?",
+        "target": "she burned her finger on the toaster.",
+        "pred": "she put a diamond ring on her finger.\""
+    },
+    {
+        "input": "The police searched the offender's car. Which may be caused by \"They were trying to elicit a confession.\" or \"They were looking for illegal drugs.\"?",
+        "target": "they were looking for illegal drugs.",
+        "pred": "they were looking for illegal drugs.\""
+    },
+    {
+        "input": "The animal species became endangered. Which may be caused by \"Their habitat was destroyed.\" or \"Their predators went extinct.\"?",
+        "target": "their habitat was destroyed.",
+        "pred": "either \"their habitat was destroyed.\" or \"their food supply was gone extinct.\""
+    },
+    {
+        "input": "The ring on my finger got stuck. Which may be caused by \"My finger swelled.\" or \"I chipped my fingernail.\"?",
+        "target": "my finger swelled.",
+        "pred": "the ring on my finger got stuck. which may be caused by \"my finger swelled.\" or \"i chipped my fingernail.\"?"
+    },
+    {
+        "input": "The boy threw a temper tantrum. Which may be caused by \"His brother took his toys from him.\" or \"He shared his toys with his brother.\"?",
+        "target": "his brother took his toys from him.",
+        "pred": "the boy threw a temper tantrum. which may be caused by \"his brother took his toys from him.\" or \"he shared his toys with his brother.\"?"
+    },
+    {
+        "input": "The woman resigned from her job. Which may be caused by \"She aspired to hold an executive position in the firm.\" or \"She believed her superiors were acting unethically.\"?",
+        "target": "she believed her superiors were acting unethically.",
+        "pred": "she believed her superiors were acting unethically.\""
+    },
+    {
+        "input": "The couple travelled south for the winter. Which may be caused by \"They were retired.\" or \"They were separated.\"?",
+        "target": "they were retired.",
+        "pred": "they were separated.\""
+    }
+]

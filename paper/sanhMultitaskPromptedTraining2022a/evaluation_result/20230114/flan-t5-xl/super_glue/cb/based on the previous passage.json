@@ -1,0 +1,57 @@
+[
+    {
+        "input": "B: You never see them on nationally basketball. A: You know, that's true. I don't think I've ever seen them nationally on basketball. Based on the previous passage, is it true that \"he has seen them nationally on basketball\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no"
+    },
+    {
+        "input": "But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? Based on the previous passage, is it true that \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: No, I don't either. B: Uh, I mean it's, you know it, A: I don't think it's going to change very much Based on the previous passage, is it true that \"it's going to change very much\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+    },
+    {
+        "input": "B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles Based on the previous passage, is it true that \"most of the smog or air pollution comes from vehicles\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "B: And yet, uh, I we-, I hope to see employer based, you know, helping out. You know, child, uh, care centers at the place of employment and things like that, that will help out. A: Uh-huh. B: What do you think, do you think we are, setting a trend? Based on the previous passage, is it true that \"they are setting a trend\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "B: Yeah. I understood that. you know, I work full time and I have two kids so my spare time usually involves something with the kids. A: Yeah. B: You know, hobbies, I can't really say that we have hobbies. Based on the previous passage, is it true that \"they have hobbies\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or no, no, or no, no, or no, no, no, or no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+    },
+    {
+        "input": "B: uh, but it's worked out for my family, to have my cake and eat it too, kind of thing. A: Yeah.  Yeah, that's a good deal. Where do you think this is going in the future, I mean, do you think things are going to change, Based on the previous passage, is it true that \"things are going to change\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "A: Yes, um, I think that Plano has really done a fantastic job. I mean, at least their plans are good. Um, however, I was, maybe you saw in the paper this morning that, um, they've had some problems with, the recycling on plastic, Based on the previous passage, is it true that \"they've had some problem with the recycling on plastic\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "a: yes"
+    },
+    {
+        "input": "A: Your turn. B: Okay. Uh, I don't think they should abolish it. Based on the previous passage, is it true that \"they should abolish it\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes, no, or maybe. b: okay."
+    },
+    {
+        "input": "``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment? Based on the previous passage, is it true that \"there is a shipment\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes, there is a shipment."
+    },
+    {
+        "input": "A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing. They say, hey, we got to do something now. And then start playing the game the way the game should be played toward the last few minutes. B: Yeah. A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year Based on the previous passage, is it true that \"they're going to do anything in the playoffs to make it to the Super Bowl this year\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "no"
+    }
+]

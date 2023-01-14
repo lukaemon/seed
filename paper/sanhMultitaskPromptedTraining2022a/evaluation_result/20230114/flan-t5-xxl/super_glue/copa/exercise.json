@@ -1,0 +1,47 @@
+[
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe driver turned on the car's headlights.  because... \n- He heard thunder.\n- The sun went down.",
+        "target": "the sun went down.",
+        "pred": "he heard thunder."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe detective revealed an anomaly in the case.  so... \n- He finalized his theory.\n- He scrapped his theory.",
+        "target": "he scrapped his theory.",
+        "pred": "he finalized his theory."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe horse bucked.  because... \n- A fly bit the horse.\n- The rider stroked the horse.",
+        "target": "a fly bit the horse.",
+        "pred": "the rider stroked the horse."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nPolitical violence broke out in the nation.  so... \n- Many citizens relocated to the capitol.\n- Many citizens took refuge in other territories.",
+        "target": "many citizens took refuge in other territories.",
+        "pred": "many citizens relocated to the capitol."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe judge pounded the gavel.  because... \n- The courtroom broke into uproar.\n- The jury announced its verdict.",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nI pulled the rubber band.  so... \n- It flung across the room.\n- It stretched.",
+        "target": "it stretched.",
+        "pred": "it flung across the room."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe boy skipped dinner.  because... \n- His mother cooked his favorite meal.\n- He ate a big lunch.",
+        "target": "he ate a big lunch.",
+        "pred": "he ate a big lunch. because he ate a big lunch."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe child learned how to read.  because... \n- He began attending school.\n- He skipped a grade in school.",
+        "target": "he began attending school.",
+        "pred": "he skipped a grade in school."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nI twisted the cap off the soda bottle.  so... \n- The soda fizzed.\n- The soda leaked out.",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    }
+]

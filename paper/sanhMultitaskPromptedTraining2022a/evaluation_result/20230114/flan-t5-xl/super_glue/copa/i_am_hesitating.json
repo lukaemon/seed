@@ -1,0 +1,102 @@
+[
+    {
+        "input": "I regained composure from my fit of anger. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- My heart pounded.\n- I took deep breaths.",
+        "target": "i took deep breaths.",
+        "pred": "my heart pounded."
+    },
+    {
+        "input": "The driver turned on the car's headlights. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- He heard thunder.\n- The sun went down.",
+        "target": "the sun went down.",
+        "pred": "he heard thunder."
+    },
+    {
+        "input": "The man received a parking ticket. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- He parallel parked on the street.\n- The parking meter expired.",
+        "target": "the parking meter expired.",
+        "pred": "he parallel parked on the street."
+    },
+    {
+        "input": "The detective revealed an anomaly in the case. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- He finalized his theory.\n- He scrapped his theory.",
+        "target": "he scrapped his theory.",
+        "pred": "he finalized his theory."
+    },
+    {
+        "input": "My subscription to the magazine expired. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- I discarded the new issue.\n- I stopped receiving new issues.",
+        "target": "i stopped receiving new issues.",
+        "pred": "i discarded the new issue."
+    },
+    {
+        "input": "The girl refused to eat her vegetables. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- Her father told her to drink her milk.\n- Her father took away her dessert.",
+        "target": "her father took away her dessert.",
+        "pred": "her father told her to drink her milk."
+    },
+    {
+        "input": "My view of the movie screen was blocked. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- The couple behind me was whispering.\n- A tall person was sitting in front of me.",
+        "target": "a tall person was sitting in front of me.",
+        "pred": "the tall person was sitting in front of me."
+    },
+    {
+        "input": "The lobbyist persuaded the legislature to support the bill. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- The president vetoed the bill.\n- The legislature passed the bill.",
+        "target": "the legislature passed the bill.",
+        "pred": "the president vetoed the bill."
+    },
+    {
+        "input": "The girl found a bug in her cereal. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- She poured milk in the bowl.\n- She lost her appetite.",
+        "target": "she lost her appetite.",
+        "pred": "she poured milk in the bowl."
+    },
+    {
+        "input": "The woman was arrested. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- She checked into rehab.\n- She committed assault.",
+        "target": "she committed assault.",
+        "pred": "she checked into rehab."
+    },
+    {
+        "input": "I put rubber gloves on. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- I was preparing to wash my hands.\n- I was preparing to clean the bathroom.",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to wash my hands."
+    },
+    {
+        "input": "Political violence broke out in the nation. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- Many citizens relocated to the capitol.\n- Many citizens took refuge in other territories.",
+        "target": "many citizens took refuge in other territories.",
+        "pred": "many citizens relocated to the capitol."
+    },
+    {
+        "input": "I pushed the wagon. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- The objects in the wagon fell out.\n- The wagon wheels spun forward.",
+        "target": "the wagon wheels spun forward.",
+        "pred": "the objects in the wagon fell out."
+    },
+    {
+        "input": "I tidied up my house. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- I was swamped with work.\n- I was expecting company.",
+        "target": "i was expecting company.",
+        "pred": "i was swamped with work."
+    },
+    {
+        "input": "The judge pounded the gavel. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- The courtroom broke into uproar.\n- The jury announced its verdict.",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "I pulled the rubber band. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- It flung across the room.\n- It stretched.",
+        "target": "it stretched.",
+        "pred": "it flung across the room."
+    },
+    {
+        "input": "The teacher assigned homework to the students. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- The students passed notes.\n- The students groaned.",
+        "target": "the students groaned.",
+        "pred": "the students passed notes."
+    },
+    {
+        "input": "The secretary put the caller on hold. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- The caller's phone lost reception.\n- The caller waited on the line.",
+        "target": "the caller waited on the line.",
+        "pred": "the caller's phone lost reception."
+    },
+    {
+        "input": "The man fainted. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- He took a nap.\n- He ran a marathon.",
+        "target": "he ran a marathon.",
+        "pred": "he took a nap."
+    },
+    {
+        "input": "The police searched the offender's car. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- They were trying to elicit a confession.\n- They were looking for illegal drugs.",
+        "target": "they were looking for illegal drugs.",
+        "pred": "they were trying to elicit a confession."
+    }
+]

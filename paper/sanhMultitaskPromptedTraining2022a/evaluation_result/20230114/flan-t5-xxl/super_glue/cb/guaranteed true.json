@@ -1,0 +1,147 @@
+[
+    {
+        "input": "Given B: You never see them on nationally basketball. A: You know, that's true. I don't think I've ever seen them nationally on basketball. Is it guaranteed true that \"he has seen them nationally on basketball\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no never seen them on nationally basketball."
+    },
+    {
+        "input": "Given B: and, you know, they just love kittens. A: Yeah. B: They just are fascinated. A: Oh, yeah. B: So she doesn't know that this is a cat yet. Is it guaranteed true that \"this is a cat\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "she doesn't know that this is a cat yet.\"? no, so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so she doesn't know that this is a cat yet. so"
+    },
+    {
+        "input": "Given But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? Is it guaranteed true that \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given It grew bigger with incredible speed, she was whizzing towards it. She must slow down or she 'd miss it. She took her foot off the accelerator and put it on the brake and as the car slowed she could see now that it was a child a toddler with a red woolly hat on. Is it guaranteed true that \"it was a child\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "yes, given it grew bigger with incredible speed, she was a child a toddler with a red woolly hat on. yes, it was a child a toddler with a red woolly hat on. yes, it was a child a toddler with a red woolly hat on. yes, it was a child a toddler with a red woolly hat on. yes, it was a child a toddler with a red woolly hat on. yes, it was a child a toddler with a red woolly hat on. yes, yes, or maybe? yes"
+    },
+    {
+        "input": "Given A: Really. If they were to take half of what they spend on that and put it on some economic, you know, intergovernmental or inter United States like programs that one really might. B: Yeah. A: I believe in paying my share, and I don't mind, uh, paying for some of these fringe benefits that people are entitled to. But I just sometimes feel like I'm being used. But, uh, again I don't think we'll be able to do anything about it, Is it guaranteed true that \"they'll be able to do anything about it\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, no, or maybe? no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,"
+    },
+    {
+        "input": "Given Modify the arachnids, said the researchers. Change their bodies and conditions, and you could get fibres like glass, still monofilament, but with logarithmic progressions of possibilities of strength and flexibility, and the ability to resonate light-particles or sound-waves undistorted, scarcely weakened over thousands of miles. Who said the arachnids had to be totally organic? Is it guaranteed true that \"arachnids had to be totally organic\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given A: Well, actually, uh, A: I don't think I'm in the, uh, majority in Texas Is it guaranteed true that \"she is in the majority in Texas\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, she is in the majority in texas\""
+    },
+    {
+        "input": "Given A: uh I picked up a bunch of Craftsman tools from the forties that my wife's father owned when he was alive B: Uh-huh. A: and so I do have a band saw and a router and, uh, things like that out in the garage. But I can't say I use them very often. Is it guaranteed true that \"he uses them very often\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, he is a liar."
+    },
+    {
+        "input": "Given B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles Is it guaranteed true that \"most of the smog or air pollution comes from vehicles\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Given He left his own number, calling himself Alain - the name of her Malaysian-French ``business manager''. The next day Gina rang. She had obviously not noticed that it was her own number. Is it guaranteed true that \"it was Gina's own number\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "gina rang. she had obviously not noticed that it was her own number."
+    },
+    {
+        "input": "Given Biddy was right. In London, I did some serious thinking. I could see that my character had not improved since I had heard about my expectations. Is it guaranteed true that \"his character had not improved since he had heard about his expectations\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "his character had not improved since he had heard about my expectations\""
+    },
+    {
+        "input": "Given B: And she got kind of fearful of being on her own. She never really ate very well. It was one thing. She hardly ever took care of herself A: Yeah. B: and she didn't eat. She ate very poor so I think she was, you know, bad, uh, nutrition on top of it. And, uh, she got to the point she didn't want to alone anymore. So, A: So often I think though, elderly people don't realize that their diet is that bad. Is it guaranteed true that \"elderly people's diet is that bad\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "yes, yes, or maybe"
+    },
+    {
+        "input": "Given B: And yet, uh, I we-, I hope to see employer based, you know, helping out. You know, child, uh, care centers at the place of employment and things like that, that will help out. A: Uh-huh. B: What do you think, do you think we are, setting a trend? Is it guaranteed true that \"they are setting a trend\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "setting a trend? yes, no, or maybe?"
+    },
+    {
+        "input": "Given A: I suppose so. Let me push the button. B: All right. A: Okay, uh, I guess I'm supposed to be all for switching to the metric system, but, uh, I sense that it's not going to happen anytime soon. B: Yeah, I don't think it's going to happen either, Is it guaranteed true that \"it's going to happen\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or maybe? no"
+    },
+    {
+        "input": "Given B: Yeah. I understood that. you know, I work full time and I have two kids so my spare time usually involves something with the kids. A: Yeah. B: You know, hobbies, I can't really say that we have hobbies. Is it guaranteed true that \"they have hobbies\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, i can't really say that they have hobbies\" no, it is not guaranteed true that \"they have hobbies\" no, no, no, or maybe no, no, no, or maybe no, no, no, it is guaranteed true that \"they have hobbies\" no, no, no, or maybe no, no, no, no, it is guaranteed true that \"they have hobbies\" no, no, no, no, or maybe no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+    },
+    {
+        "input": "Given B: uh, but it's worked out for my family, to have my cake and eat it too, kind of thing. A: Yeah.  Yeah, that's a good deal. Where do you think this is going in the future, I mean, do you think things are going to change, Is it guaranteed true that \"things are going to change\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "maybe i'm going to be able to have things go in the future, i mean, do you think things are going to change, i mean, do you think things are going to change, no, i mean, do you think things are going to change, is it guaranteed true that \"things are going to change\"? no, no, or maybe?"
+    },
+    {
+        "input": "Given B: And other than that I do not think it should be allowable. I think it should be illegal for them to want to do that. it's kind of the big brother syndrome, I mean, I just, anything like that just kind of scares me. A: I tend to view it, even though I don't think I'd work for a company that did that, I sort of want to defend an employer's rights uh, in addition to an individual's rights, Is it guaranteed true that \"she would work for a company that did that\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+    },
+    {
+        "input": "Given Firstly, I didn't know about the SAS soldiers in the British Embassy, and I am very surprised about it. Very surprised indeed, Ambassador. Secondly I do not think it is a good idea to attack a plane with a hundred and seven passengers in it and ``take it apart'' as you say. Is it guaranteed true that \"it is a good idea to attack a plane with a hundred and seven passengers in it and 'take it apart'\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or maybe?"
+    },
+    {
+        "input": "Given A: Yes, um, I think that Plano has really done a fantastic job. I mean, at least their plans are good. Um, however, I was, maybe you saw in the paper this morning that, um, they've had some problems with, the recycling on plastic, Is it guaranteed true that \"they've had some problem with the recycling on plastic\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "they've had some problems with, the recycling on plastic,"
+    },
+    {
+        "input": "Given A: and that rolling kind of, uh, B: Terrain. A: Yeah. is fairly famili-,. The thing that I thought was interesting was that the critics, apparently it's going to win everything. B: Really? A: Uh, and I had been told, you know, you wouldn't notice that it was three hours long, and all this, kind of, Is it guaranteed true that \"it was three hours long\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "yes, no, or maybe?"
+    },
+    {
+        "input": "Given Valence the void-brain, Valence the virtuous valet. Why couldn't the figger choose his own portion of titanic anatomy to shaft? Did he think he was helping? Is it guaranteed true that \"Valence was helping\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given A: Your turn. B: Okay. Uh, I don't think they should abolish it. Is it guaranteed true that \"they should abolish it\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, they should abolish it\"?"
+    },
+    {
+        "input": "Given 'Very well, I'll go. But I pick my own men, and if we ever have to fight, you obey my word.'' Jehan did not think that Sidacai was in any position to impose conditions but he sat back in his chair considering. Is it guaranteed true that \"Sidacai was in a position to impose conditions\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or maybe?"
+    },
+    {
+        "input": "Given ``But my father always taught me never to be afraid of pointing out the obvious. I'm sure you have noticed the implication of the letter, that the writer has in fact observed Jenny undressing for bed?'' I just wondered if you also knew as I'm sure you do that her bedroom's at the rear of the house? Is it guaranteed true that \"Jenny's bedroom's at the rear of the house\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "jenny undressing for bed?'' i just wondered if you also knew as i'm sure you do that her bedroom's at the rear of the house?"
+    },
+    {
+        "input": "Given A: Well, got any problems on Mockingbird with crime or is that a crime free zone there? B: No, I don't think there is any such thing, as a crime free zone any longer. Is it guaranteed true that \"there is some such thing as a crime free zone\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, i don't think there is any such thing, as a crime free zone any longer."
+    },
+    {
+        "input": "Given B: Because too often, there can be extremism that hurts from any direction, regardless of whatever you're arguing or concerned about. A: Yeah.  Right. Yeah, I know, you're right, they would lobby that and I see that, and that's why, you know, I'm like, okay, what's my role in this thing,, you know, what's my part, B: Yeah. A: because I don't think the system is going to get fixed. Is it guaranteed true that \"the system is going to get fixed\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+    },
+    {
+        "input": "Given ``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment? Is it guaranteed true that \"there is a shipment\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "shipment???who knows? the point is, do we go with it or not?'''''"
+    },
+    {
+        "input": "Given And I don't want to have to lie to them. The kidnappers have given us until October the eleventh to deliver the document and I haven't despaired of finding it before then. But if the police learn I 've been to America they 'll ask why. Is it guaranteed true that \"he's been to America\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "yes, and maybe"
+    },
+    {
+        "input": "Given A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing. They say, hey, we got to do something now. And then start playing the game the way the game should be played toward the last few minutes. B: Yeah. A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year Is it guaranteed true that \"they're going to do anything in the playoffs to make it to the Super Bowl this year\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    }
+]

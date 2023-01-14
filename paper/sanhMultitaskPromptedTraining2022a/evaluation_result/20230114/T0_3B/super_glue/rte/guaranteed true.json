@@ -1,0 +1,297 @@
+[
+    {
+        "input": "Given As a result, peptic ulcer disease has been transformed from a chronic, frequently disabling condition to one that can be cured by a short regimen of antibiotics and other medicines. Is it guaranteed true that \"Antibiotics are used against peptic ulcer.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given In support of the Earth Island Institute rebuttal, Greenpeace founder Don White made the following - unfortunately prophetic - public statement on 8/18/93. Is it guaranteed true that \"Don White is the founder of Greenpeace.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given A senior coalition official in Iraq said the body, which was found by U.S. military police west of Baghdad, appeared to have been thrown from a vehicle. Is it guaranteed true that \"A body has been found by U. S. military police.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given The Massachusetts Supreme Judicial Court has cleared the way for lesbian and gay couples in the state to marry, ruling that government attorneys \"failed to identify any constitutionally adequate reason\" to deny them the right. Is it guaranteed true that \"U.S. Supreme Court in favor of same-sex marriage\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Ahern, who was travelling to Tokyo for an EU-Japan summit yesterday, will consult with other EU leaders by telephone later this week in an effort to find an agreed candidate. Is it guaranteed true that \"A summit between Europe and Japan is taking place in the Japanise capital.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Four days of talks got underway with the US announcing the first significant overture to North Korea since George W Bush took office three years ago. Is it guaranteed true that \"George W. Bush entered the US presidency 3 years ago.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Quebec woman and her mother accused of plotting to kill a four-year-old girl. Is it guaranteed true that \"Quebec woman murdered a four-year-old girl.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given Sheriff's officials said a robot could be put to use in Ventura County, where the bomb squad has responded to more than 40 calls this year. Is it guaranteed true that \"Police use robots for bomb-handling.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Thus began the journey that led Hannam, a 29-year-old free-lance journalist, on an international quest to solve one of the greatest mysteries of Asia: What happened to Lin Piao, the Chinese Communist Party leader accused of a 1971 plot to overthrow Chairman Mao. Is it guaranteed true that \"Lin Piao was the Chinese Communist Party leader.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given A farmer who was in contact with cows suffering from BSE -- the so-called mad cow disease -- has died from what is regarded as the human form of the disease. Is it guaranteed true that \"Bovine spongiform encephalopathy is another name for the \"mad cow disease\".\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given The Kota ( \"Fort\" ), or Old City, for example, sometimes called the downtown section, is the central business district and Indonesia's financial capital. Is it guaranteed true that \"The Kota is the country's business center.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Evans Paul, the pro-Aristide mayor of Port-au-Prince, said he had been told that the money will go to American lobbyists, politicians and journalists to campaign against the return of Aristide, Haiti's first democratically elected president Is it guaranteed true that \"Evans Paul is the mayor of Port-au-Prince.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Napkins, invitations and plain old paper cost more than they did a month ago. Is it guaranteed true that \"The cost of paper is rising.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Mount Redoubt, a volcano in Alaska, erupted on Saturday, sending out clouds of ash thousands of feet high. According to the Federal Aviation Administration, the Ted Stevens Anchorage International Airport was shut down after ash reached the airport. Jeremy Lindseth, a spokesman for the airport, said that only small amount of ash reached the airport, but was significant enough to disrupt operations, as ash can cause engine problems for aircraft. He said that he was uncertain of how many flights were affected due to the eruption. Is it guaranteed true that \"The Ted Stevens Anchorage International Airport is the employer of Jeremy Lindseth.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given The west has preferred to focus on endangered animals, rather than endangered humans. African elephants are hunted down and stripped of tusks and hidden by poachers. Their numbers in Africa slumped from 1.2m to 600,000 in a decade until CITES - the Convention on International Trade in Endangered Species - banned the trade in ivory. Is it guaranteed true that \"An international convention banned trade in ivory.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given For US pharmaceutical companies, the impending healthcare reforms promise an era of increased cost-containment and pricing controls. Is it guaranteed true that \"The US government wants to keep drug prices down.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given About 33.5 million people live in this massive conurbation. I would guess that 95% of the 5,000 officially foreign-capital firms in Japan are based in Tokyo. Is it guaranteed true that \"About 33.5 miilion people live in Tokyo.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Nokia, Texas Instruments and other leading makers of mobile phones have formally complained to Brussels that Qualcomm, the US mobile chipmaker, has unfairly used its patents on 3G technologies. Is it guaranteed true that \"Texas Instruments produces mobile phones.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Texas Data Recovery is also successful at retrieving lost data from notebooks and laptops, regardless of age, make or model. Is it guaranteed true that \"In the event of a disaster you could use Texas Data Recovery and you will have the capability to restore lost data.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Yachtsman Melvyn Percy became so fed up with the standard of service when preparing his boat for the 3000-mile Atlantic crossing that he decided to set up his own company on the Clyde to provide Scots sailors with professional advice and practical assistance. Minerva Rigging, based at Kip Marina just south of Gourock, now employs five full-time staff and is the Scottish agent for Kemp, one of Europe's leading yacht spar and mast manufacturers. Is it guaranteed true that \"Melvyn Percy set up Minerva Rigging at Kip Marina.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Moscow believes that the waters of the Sea of Azov should remain in common use, but Kiev insists on a clear division. Is it guaranteed true that \"There is a territorial waters dispute.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Some of the buildings around the city square in the Kota also date from colonial times, including the old city hall ( 1710 ), which has been restored and now serves as the municipal museum. Is it guaranteed true that \"The city hall is a museum now.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given It has been observed that in those countries of the world where capital punishment is still in operation, the crime rate, especially murder, is distinctively low in comparison to countries where capital punishment has been discarded. Is it guaranteed true that \"Capital punishment is a deterrent to crime.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Adela Lupse was born in 1988 to a miner's family in the village of Poiana, Bihor in Transylvania, Romania. A member of Romania's first post-Ceausescu generation, she grasped the power of television at a young age: \"I think television is the most interesting phenomenon that the modern day has given us....for my type of personality, I find it impressive, the power that television has worldwide....We dress like the people that television promotes. We want to look like the celebrities that television launches.\" Is it guaranteed true that \"Bihor is situated in Romania.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given A powerful typhoon battered the northern and central Philippines with rains and winds Thursday, killing at least three people and cutting off roads. Authorities canceled flights and ferry service and shut down schools. Typhoon Xangsane, packing winds of 81 mph made landfall overnight in the Bicol central region and was forecast to pass through the capital Manila, the Philippine weather bureau said. Is it guaranteed true that \"A typhoon batters the Philippines.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given For women earning 22,000 a year, the total pay accumulated after six months maternity leave would be just 5,300 in the UK and 5,850 in Ireland. Entitlements in Germany would also be relatively low, at 5,900, along with those in France, Spain and the Netherlands, all at 6,750. At the other end of the scale, pay received after six months leave in Italy would be 9,150 while in Denmark and Norway it would be as much as 11,000. Is it guaranteed true that \"Maternity leave varies in Europe.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given The IOC meeting will also review reports submitted by the organizing committees of the 1998 Winter Olympic Games in Nagano, Japan; the 2000 Summer Olympic Games in Sydney, Australia and the 2002 Winter Olympic Games in the Salt Lake City, the United States, respectively. Is it guaranteed true that \"Before Salt Lake City, Winter Olympic Games took place in Nagano.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Russian Public Television head Vladislav Listyev is shot in the heart by an unknown gunman outside his Moscow home. The attack is linked to opponents of an advertising ban he had proposed for the television channel. Is it guaranteed true that \"Vladislav Listyev was murdered in Moscow.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Bangladesh, one of the world's poorest countries, suffered a devastating drought and famine in 1974, which killed 1.5 million people. While trying to help starving villagers, he met a 21-year-old woman named Sufia Begum, who was burdened by a tiny yet crushing debt, Yunus recalled in his autobiography, \"Banker to the Poor.\" Is it guaranteed true that \"1.5 million people were killed during the drought and famine devastation in 1974 in Bangladesh.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Though the exact date is debated, dogs are thought to have been domesticated by humans approximately 12,000 years ago. Is it guaranteed true that \"Humans existed 10,000 years ago.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given General Miguel Maza Marquez, chief of the Colombian Administrative Department Of Security (DAS), today confirmed foreign participation in the assassination of Luis Carlos Galan, senator and Liberal party presidential candidate, on 18 August in Bogota. Is it guaranteed true that \"General Miguel Maza Marquez took part in the assassination of Luis Carlos Galan.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given Steve Jobs was attacked by Sculley and other Apple executives for not delivering enough hot new products and resigned from the company a few weeks later. Is it guaranteed true that \"Steve Jobs worked for Apple.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Swansea striker Lee Trundle has negotiated a lucrative image-rights deal with the League One club. Is it guaranteed true that \"Lee Trundle is in business with the League One club.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given The chaotic situation unleashed in Bogota last night, with the assasination of Justice Carlos Valencia, began on 28 July in Medellin, when motorized paid assasins murdered third public order Judge Maria Elena Diaz. Is it guaranteed true that \"Justice Carlos Valencia was killed in Medellin.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given The west has preferred to focus on endangered animals, rather than endangered humans. African elephants are hunted down and stripped of tusks and hidden by poachers. Their numbers in Africa slumped from 1.2m to 600,000 in a decade until CITES - the Convention on International Trade in Endangered Species - banned the trade in ivory. Is it guaranteed true that \"African elephants are endangered by ivory poachers.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Without a natural greenhouse effect, the temperature of the Earth would be about zero degrees F (-18C) instead of its present 57F (14C). Is it guaranteed true that \"Greenhouse effect changes global climate.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given An auto analyst for Bombay's Angel Broking, Vaishali Jajoo, predicted that the Nano will add only three percent to Tata's revenues even if it can sell a quarter of a million such cars per annum. \"That doesn't make a significant difference to the top line,\" Jajoo said. \"And for the bottom line, it will take five to six years to break even.\" Environmentalists say that the car will exacerbate traffic problems already rife in India, and help increase pollution levels. Tata, however, stated that its vehicle is the least polluting car in the country. Is it guaranteed true that \"Angel Broking is based in Bombay.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given NASA's two Great Observatories, the Hubble Space Telescope and the Chandra X-ray Observatory, have independently provided what could be the best direct evidence yet for the existence of an event horizon, the defining feature of a black hole. Is it guaranteed true that \"Hubble discovers black holes.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Monica Meadows, a 22-year-old model from Atlanta, was shot in the shoulder on a subway car in New York City. Is it guaranteed true that \"Monica Meadows, 23, was shot in shoulder while riding a subway car in New York City\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given Police in the Lower Austrian town of Amstetten have arrested a 73 year old man who is alleged to have kept his daughter, now aged 42, locked in the cellar of his house in Amstetten since 29th August 1984. The man, identified by police as Josef Fritzl, is alleged to have started sexually abusing his daughter, named as Elisabeth Fritzl, when she was eleven years old, and to have subsequently fathered seven children by her. One of the children, one of a set of twins born in 1996, died of neglect shortly after birth and the body was burned by the father. Is it guaranteed true that \"Amstetten is located in Austria.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given The drugs that slow down or halt Alzheimer's disease work best the earlier you administer them. Is it guaranteed true that \"Alzheimer's disease is treated using drugs.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given MIDWEST CITY, Okla. -- Fire crews in Oklahoma and Texas raced Thursday to control wind-whipped wildfires that destroyed dozens of homes, seriously injured two people, forced evacuations and shut down parts of a major highway. Howling wind that had gusted to more than 60 mph grounded firefighting efforts by air in both states and drove blazes that scorched neighborhoods like \"a war zone,\" Midwest City police Chief Brandon Clabes said. \"The wind is the biggest issue, because we can't get ahead of the fires,\" Midwest City Fire Marshal Jerry Lojka said. By nightfall, wind gusts dropped to about 30 mph in many areas. Is it guaranteed true that \"Homes were destroyed by wildfires in Oklahoma and Texas.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Foreign Carmakers Gain in Russia. The likes of Daewoo, Ford, Renault, and more can't produce fast enough. Is it guaranteed true that \"European cars sell in Russia.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Cote d'Ivoire's President, Laurent Gbagbo, promulgated new election laws on July 14. Is it guaranteed true that \"President Laurent Gbagbo lives in Cote d'Ivoire.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given A new study conducted by researchers from University of Otago's Christchurch School of Medicine has found that certain chemical compounds naturally found in cruciferous vegetables help kill cancer cells that are particularly resistant to chemotherapy. The study has been published in Cancer Research. The research team found that chemicals called isothiocyanates cause cancer cells to commit suicide. This includes cells with high levels of the protein Bcl-2, which makes them resistant to chemotherapy. Isothiocyanates are naturally found in cruciferous vegetables. These include kale, cabbage, broccoli, cauliflower, bok choy, radish, and watercress, among others. Is it guaranteed true that \"Broccoli contains isothiocyanates.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given A U.S. Court of Appeals on Friday has declared unconstitutional California Assembly Bills 1792 & 1793, the California \"ultraviolent video games law\" that sought to ban the sale or rental of violent video games to minors. Federal judge Consuelo M. Callahan has ruled that the 2005 statewide ban, which has yet to be enforced, violates minors' rights under the US Constitution's First and 14th amendment because even the most graphic on-screen mayhem, video game content represents free speech that cannot be censored without proper justification. Is it guaranteed true that \"California Assembly Bills 1792 & 1793 are laws against ultraviolent video games.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given A jury is slated to decide for the first time whether Jack Kevorkian, famed as \"Dr. Death,\" has violated Michigan's assisted-suicide ban, while the state continues to grapple with the issue of what to allow when the ill want to end their pain by ending their lives. Is it guaranteed true that \"Jack Kevorkian is the real name of \"Dr. Death\".\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given The beleaguered Euro-Disney theme park outside Paris is doing so poorly it might have to close unless it gets help soon from its lenders, the chairman of Walt Disney Co. said in an interview published Friday. Is it guaranteed true that \"Euro-Disney is a theme park outside Paris.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given In 1979, the leaders signed the Egypt-Israel peace treaty on the White House lawn. Both President Begin and Sadat received the Nobel Peace Prize for their work. The two nations have enjoyed peaceful relations to this day. Is it guaranteed true that \"The Israel-Egypt Peace Agreement was signed in 1979.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Two brothers who operated a North Hollywood plating company that dumped thousands of gallons of cyanide-laced waste water into the Los Angeles sewer system pleaded guilty Thursday and must serve jail time for recklessly handling and storing hazardous materials. Is it guaranteed true that \"A California company was charged with reckless storage of chemicals.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given A plane crashed in North Carolina last year and most of the Blink-182 group was in there. The only survivors of the crash were DJ AM and musical partner Travis Barker. Less lucky, \"Lil\" Chris Baker, Barker's close friend and assistant, the Blink-182 drummer's bodyguard, Charles \"Che\" Still, the pilot and co-pilot died. Both AM and Barker suffered many injures, bad burns and they needed to stay in hospital for several weeks. Now AM asks $20 million in compensation for injuries he suffered. He lawsuits against plane maker Learjet and wants to gain $10 million for medical damages, lost earnings and profit and the same amount for mental and physical suffering. Is it guaranteed true that \"Travis Barker belongs to a band.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Recent satellite pictures of Yellowstone National Park in Wyoming from 2004 through 2006 are showing that an ancient volcano is starting to rise once again. Molten rock is currently pushing up the remains of the volcano's caldera, which sits over the top of Yellowstone lake, but scientists are stressing that there is no immediate threat of an eruption or explosion. The molten rock field is estimated to be the size of the city of Los Angeles, California. Is it guaranteed true that \"There is a volcano in Yellowstone.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given South America - The President of Colombia Alvaro Uribe is scheduled to meet the President of Venezuela Hugo Ch\u00e1vez Thursday. Apparently the crisis between Venezuela and Colombia is almost solved. The crisis began with the imprisonment of the alleged FARC member Rodrigo Granda by Colombian forces on December 13, 2004. Venezuela accused Colombian of invading Venezuelan territory. Colombia accused Venezuela of harboring FARC terrorists. The President of Cuba, Fidel Castro, intervened in the crisis and talked to Chavez and Uribe. Is it guaranteed true that \"Alvaro Uribe is the current President of Colombia.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Teenage sensation Wayne Rooney powered England into the quarter-finals of Euro 2004 with two goals in Monday's 4-2 defeat of Croatia and they were joined in the last eight by champions France who beat Switzerland 3-1. Is it guaranteed true that \"France participates in Euro 2004.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given The Daily Telegraph, most prized asset in Lord Conrad Black's crumbling media empire, has been sold to Britain's Barclay twins. Is it guaranteed true that \"Daily telegraph is sold.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Brown brushed off a threat made Monday by his counterpart, Foreign Trade Minister Wu Yi, that if China's effort to join the General Agreement on Tariffs and Trade (GATT) by the year's end is unsuccessful, Beijing will no longer be bound by previous trade and economic commitments. Is it guaranteed true that \"Wu Yi is the Foreign Trade Minister of China.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given A light blue 1975 Ford Escort GL once owned by Pope John Paul II sold for $690,000 Saturday to a Houston multimillionaire who said he plans to put it in a museum he wants to build in his hometown. Is it guaranteed true that \"A Houston multimillionaire buys the Pope's Ford Escort.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Huckaby voluntarily submitted herself to questioning Friday night at the Tracy police station, and was arrested less than six hours later. She now resides in the San Joaquin County Jail without bond, awaiting an arraignment hearing on Tuesday. On April 6, the body of Sandra Cantu was discovered stuffed inside the 28-year-old's suitcase at the bottom of a pond a few miles away from her home. The two were neighbors in the Orchard Estates Mobile Home Park and Huckaby's own 5-year-old daughter often played with Cantu. Autopsy results are still pending. Is it guaranteed true that \"Huckaby is accused of killing Sandra Cantu.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Given Former WBA heavyweight champ Greg Page, who suffered a severe brain injury in a 2001 fight, has died at his Louisville home at the age of 50. According to Page's wife, the ex-champ died from complications due to boxing injuries and paralysis. Following a successful amateur career, Page went 58-17-1 during a professional career that began in 1979 and included wins over Jimmy Young, James Tillis, Renaldo Snipes, Gerrie Coetzee (for the WBA title), James 'Bonecrusher' Smith and Tim Witherspoon. Page's losses read like a who's who of heavyweights of the 1980s: Trevor Berbick, Witherspoon, Tony Tubbs, Buster Douglas, Joe Bugner, Orlin Norris, Donovan 'Razor' Ruddock, Bruce Seldon, Monte Barrett and Jorge Luis Gonzalez. Is it guaranteed true that \"Greg Page was a boxer.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "input": "B: and, you know, they just love kittens. A: Yeah. B: They just are fascinated. A: Oh, yeah. B: So she doesn't know that this is a cat yet. Based on that information, is the claim: \"this is a cat\" true, false, or inconclusive?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "It grew bigger with incredible speed, she was whizzing towards it. She must slow down or she 'd miss it. She took her foot off the accelerator and put it on the brake and as the car slowed she could see now that it was a child a toddler with a red woolly hat on. Based on that information, is the claim: \"it was a child\" true, false, or inconclusive?",
+        "target": "true",
+        "pred": "yes"
+    },
+    {
+        "input": "B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles Based on that information, is the claim: \"most of the smog or air pollution comes from vehicles\" true, false, or inconclusive?",
+        "target": "inconclusive",
+        "pred": "false"
+    },
+    {
+        "input": "B: And she got kind of fearful of being on her own. She never really ate very well. It was one thing. She hardly ever took care of herself A: Yeah. B: and she didn't eat. She ate very poor so I think she was, you know, bad, uh, nutrition on top of it. And, uh, she got to the point she didn't want to alone anymore. So, A: So often I think though, elderly people don't realize that their diet is that bad. Based on that information, is the claim: \"elderly people's diet is that bad\" true, false, or inconclusive?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "B: And yet, uh, I we-, I hope to see employer based, you know, helping out. You know, child, uh, care centers at the place of employment and things like that, that will help out. A: Uh-huh. B: What do you think, do you think we are, setting a trend? Based on that information, is the claim: \"they are setting a trend\" true, false, or inconclusive?",
+        "target": "inconclusive",
+        "pred": "setting a trend"
+    },
+    {
+        "input": "A: I suppose so. Let me push the button. B: All right. A: Okay, uh, I guess I'm supposed to be all for switching to the metric system, but, uh, I sense that it's not going to happen anytime soon. B: Yeah, I don't think it's going to happen either, Based on that information, is the claim: \"it's going to happen\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "false false false false"
+    },
+    {
+        "input": "``There's still room for boutique properties,'' says James Barrett, president of MarCor Resorts Inc. Off the Strip, MarCor is building the Rio, a hotel-casino with a Brazilian theme and only 430 rooms -- all of them suites. Despite the proliferation of tourist distractions, Las Vegans haven't forgot that gambling is still what the town is all about. Based on that information, is the claim: \"gambling is still what the town is all about\" true, false, or inconclusive?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment? Based on that information, is the claim: \"there is a shipment\" true, false, or inconclusive?",
+        "target": "inconclusive",
+        "pred": "yes"
+    },
+    {
+        "input": "A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing. They say, hey, we got to do something now. And then start playing the game the way the game should be played toward the last few minutes. B: Yeah. A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year Based on that information, is the claim: \"they're going to do anything in the playoffs to make it to the Super Bowl this year\" true, false, or inconclusive?",
+        "target": "inconclusive",
+        "pred": "false"
+    }
+]

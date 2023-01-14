@@ -1,0 +1,352 @@
+[
+    {
+        "input": "Sentence A: He drank a mixture of beer and lemonade.\nSentence B: The mixture of sulphuric acid and water produces heat.\n\n\"mixture\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: He got his wish.\nSentence B: My best wishes.\n\n\"wish\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: His studio was cramped when he began as an artist.\nSentence B: You don't need a studio to make a passport photograph.\n\n\"studio\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: Engrave a letter.\nSentence B: Engrave a pen.\n\n\"engrave\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The might have repercussions of unimaginable largeness.\nSentence B: A man distinguished by the largeness and scope of his views.\n\n\"largeness\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The runners emerged from the trees into his clear vision.\nSentence B: He had a vision of the Virgin Mary.\n\n\"vision\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: This will renovate my spirits.\nSentence B: They renovated the ceiling of the Sistine Chapel.\n\n\"renovate\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: When England defeated Pakistan it ended a ten-year drought.\nSentence B: Farmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.\n\n\"drought\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: From the window he could catch a glimpse of the lake.\nSentence B: He caught only a glimpse of the professor's meaning.\n\n\"glimpse\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: A surprising experience.\nSentence B: Experience is the best teacher.\n\n\"experience\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: He's a shtik crazy.\nSentence B: How did you ever fall for a shtik like that?\n\n\"shtik\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Don't fuss too much over the grandchildren -- they are quite big now.\nSentence B: She fusses over her husband.\n\n\"fuss\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: A girl's education was less important than a boy's.\nSentence B: Education is a preparation for life.\n\n\"education\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: The force required to compress a spring varies linearly with the displacement.\nSentence B: She compressed her lips.\n\n\"compress\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: A valuable financial affiliation.\nSentence B: Welcomed the affiliation of the research center with the university.\n\n\"affiliation\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The policeman waited for a heartbeat in vain.\nSentence B: He alone gives me such heartbeats.\n\n\"heartbeat\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: He ran to safety.\nSentence B: The reciprocal of safety is risk.\n\n\"safety\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: It's a pity he couldn't do it.\nSentence B: The blind are too often objects of pity.\n\n\"pity\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The embodiment of hope.\nSentence B: A circle was the embodiment of his concept of life.\n\n\"embodiment\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Rise to the occasion.\nSentence B: Her spirits rose when she heard the good news.\n\n\"rise\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: She felt a tremor in her stomach before going on stage.\nSentence B: Did you feel the tremor this morning?\n\n\"tremor\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: An executive or judical office.\nSentence B: During his first year in office.\n\n\"office\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: His success in the marathon was unexpected.\nSentence B: The election was a remarkable success for the Whigs.\n\n\"success\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: A growth of hair.\nSentence B: The growth of culture.\n\n\"growth\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: What does the law say?\nSentence B: The clock says noon.\n\n\"say\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Violate the sanctity of the church.\nSentence B: This sentence violates the rules of syntax.\n\n\"violate\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The engineer marvelled at his construction.\nSentence B: Construction is underway on the new bridge.\n\n\"construction\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: He had the gem set in a ring for his wife.\nSentence B: She's an absolute gem.\n\n\"gem\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The collapse of the old star under its own gravity.\nSentence B: The roof is in danger of collapse.\n\n\"collapse\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: An eyebrow pencil.\nSentence B: This artist's favorite medium is pencil.\n\n\"pencil\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Instant replay caused too long a delay.\nSentence B: The delay before the echo of a sound.\n\n\"delay\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: We did not understand his motivation.\nSentence B: His motivation was at a high level.\n\n\"motivation\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: A branch of Congress.\nSentence B: We have branches in all major suburbs.\n\n\"branch\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: Cloister the garden.\nSentence B: She cloistered herself in the office.\n\n\"cloister\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: A barrage of questions.\nSentence B: They laid down a barrage in front of the advancing troops.\n\n\"barrage\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: If you average 10, 20 and 24, you get 18.\nSentence B: The number of hours I work per work averages out to 40.\n\n\"average\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Some languages sexualize all nouns and do not have a neuter gender.\nSentence B: The god was sexualized and married to another god.\n\n\"sexualize\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: Belabor the obvious.\nSentence B: She was belabored by her fellow students.\n\n\"belabor\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: A pedestrian was able to trip the burglar as he was running away.\nSentence B: The questions on the test tripped him up.\n\n\"trip\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: The rug had a wide blue border.\nSentence B: The borders of the garden.\n\n\"border\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: His treatment of the race question is badly biased.\nSentence B: His treatment of space borrows from Italian architecture.\n\n\"treatment\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The impregnation of wood with preservative.\nSentence B: The impregnation, whatever it was, had turned the rock blue.\n\n\"impregnation\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The carpenter who built this room must have lost his square.\nSentence B: 64 is the square of 8.\n\n\"square\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: After so much stress, he suffered a breakdown and simply gave up.\nSentence B: His warning came after the breakdown of talks in London.\n\n\"breakdown\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The superintendence and agency of Providence in the natural world. -- Woodward.\nSentence B: The Central Intelligence Agency.\n\n\"agency\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: His work established a new department of literature.\nSentence B: Baking is not my department.\n\n\"department\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: The annual crop of students brings many new ideas.\nSentence B: The latest crop of fashions is about to hit the stores.\n\n\"crop\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: He gave a speech as part of his installation into the hall of fame.\nSentence B: The telephone installation took only a few minutes.\n\n\"installation\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The house was a mess.\nSentence B: My boss dumped a whole mess of projects on my desk today.\n\n\"mess\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: There's too much shadiness to take good photographs.\nSentence B: The shadiness of their transactions.\n\n\"shadiness\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: There was a blockage in the sewer, so we called out the plumber.\nSentence B: We had to call a plumber to clear out the blockage in the drainpipe.\n\n\"blockage\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The catch was only 10 fish.\nSentence B: He shared his catch with the others.\n\n\"catch\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The invaders spread their language all over the country.\nSentence B: A big oil spot spread across the water.\n\n\"spread\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Let's not whitewash the crimes of Stalin.\nSentence B: In his sermon, the minister didn't try to whitewash over the sins of his church.\n\n\"whitewash\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Gunny invariably tried to bite her.\nSentence B: As soon as you bite that sandwich, you'll know how good it is.\n\n\"bite\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: Be careful crossing the street.\nSentence B: The whole street protested the absence of lights.\n\n\"street\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: The assembly plant is an enormous facility.\nSentence B: Educational facilities.\n\n\"facility\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Let loose mines.\nSentence B: Loose terrible plagues upon humanity.\n\n\"loose\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: The diet of the Giant Panda consists mainly of bamboo.\nSentence B: He's been reading a steady diet of nonfiction for the last several years.\n\n\"diet\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Put a little baking soda in some vinegar and watch what happens.\nSentence B: The world is watching Sarajevo.\n\n\"watch\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: How did your interview go?\nSentence B: She was going that way anyway, so she offered to show him where it was.\n\n\"go\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: The belief that the world is flat is a falsity.\nSentence B: Argument could not determine its truth or falsity.\n\n\"falsity\" has a similar meaning in sentences A and B. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Sentence A: He was driving his car like a nut.\nSentence B: I kicked him in the nuts.\n\n\"nut\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Afflict with the plague.\nSentence B: She was afflicted by the death of her parents.\n\n\"afflict\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Remove a wrapper.\nSentence B: The President removed many postmasters.\n\n\"remove\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Can I invite you for dinner on Sunday night?\nSentence B: The organizers invite submissions of papers for the conference.\n\n\"invite\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: He has a keen intellect.\nSentence B: Some of the world's leading intellects were meeting there.\n\n\"intellect\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Wrangle horses.\nSentence B: The bar keeper threw them out, but they continued to wrangle on down the street.\n\n\"wrangle\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Recruit new soldiers.\nSentence B: The lab director recruited an able crew of assistants.\n\n\"recruit\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Sentence A: Submerge your head completely.\nSentence B: The submarine submerged in the water.\n\n\"submerge\" has a similar meaning in sentences A and B. True or False?",
+        "target": "false",
+        "pred": "true"
+    }
+]

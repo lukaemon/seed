@@ -1,0 +1,332 @@
+[
+    {
+        "input": "Sentence 1: He drank a mixture of beer and lemonade.\nSentence 2: The mixture of sulphuric acid and water produces heat.\n\nDetermine whether the word \"mixture\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Her glasses left marks on the bridge of her nose.\nSentence 2: Rugby players often break the bridge of their noses.\n\nDetermine whether the word \"bridge\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: He got his wish.\nSentence 2: My best wishes.\n\nDetermine whether the word \"wish\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The intolerable license with which the newspapers break ... the rules of decorum -- Edmund Burke.\nSentence 2: When liberty becomes license dictatorship is near -- Will Durant.\n\nDetermine whether the word \"license\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: His studio was cramped when he began as an artist.\nSentence 2: You don't need a studio to make a passport photograph.\n\nDetermine whether the word \"studio\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Engrave a letter.\nSentence 2: Engrave a pen.\n\nDetermine whether the word \"engrave\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The might have repercussions of unimaginable largeness.\nSentence 2: A man distinguished by the largeness and scope of his views.\n\nDetermine whether the word \"largeness\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The runners emerged from the trees into his clear vision.\nSentence 2: He had a vision of the Virgin Mary.\n\nDetermine whether the word \"vision\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: I would like to thank the brother who just spoke.\nSentence 2: None of his brothers would betray him.\n\nDetermine whether the word \"brother\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: When England defeated Pakistan it ended a ten-year drought.\nSentence 2: Farmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.\n\nDetermine whether the word \"drought\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: From the window he could catch a glimpse of the lake.\nSentence 2: He caught only a glimpse of the professor's meaning.\n\nDetermine whether the word \"glimpse\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Carve one's name into the bark.\nSentence 2: That chisel carved the statue.\n\nDetermine whether the word \"carve\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: A surprising experience.\nSentence 2: Experience is the best teacher.\n\nDetermine whether the word \"experience\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Don't fuss too much over the grandchildren -- they are quite big now.\nSentence 2: She fusses over her husband.\n\nDetermine whether the word \"fuss\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: A girl's education was less important than a boy's.\nSentence 2: Education is a preparation for life.\n\nDetermine whether the word \"education\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: They organized a rescue operation.\nSentence 2: Consolidate the companies various operations.\n\nDetermine whether the word \"operation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The minister said a prayer on behalf of the entire congregation.\nSentence 2: Clergymen are usually called ministers in Protestant churches.\n\nDetermine whether the word \"minister\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The force required to compress a spring varies linearly with the displacement.\nSentence 2: She compressed her lips.\n\nDetermine whether the word \"compress\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: A valuable financial affiliation.\nSentence 2: Welcomed the affiliation of the research center with the university.\n\nDetermine whether the word \"affiliation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The policeman waited for a heartbeat in vain.\nSentence 2: He alone gives me such heartbeats.\n\nDetermine whether the word \"heartbeat\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: He ran to safety.\nSentence 2: The reciprocal of safety is risk.\n\nDetermine whether the word \"safety\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: It's a pity he couldn't do it.\nSentence 2: The blind are too often objects of pity.\n\nDetermine whether the word \"pity\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The embodiment of hope.\nSentence 2: A circle was the embodiment of his concept of life.\n\nDetermine whether the word \"embodiment\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Rise to the occasion.\nSentence 2: Her spirits rose when she heard the good news.\n\nDetermine whether the word \"rise\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: She felt a tremor in her stomach before going on stage.\nSentence 2: Did you feel the tremor this morning?\n\nDetermine whether the word \"tremor\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: An executive or judical office.\nSentence 2: During his first year in office.\n\nDetermine whether the word \"office\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: His success in the marathon was unexpected.\nSentence 2: The election was a remarkable success for the Whigs.\n\nDetermine whether the word \"success\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: A growth of hair.\nSentence 2: The growth of culture.\n\nDetermine whether the word \"growth\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The engineer marvelled at his construction.\nSentence 2: Construction is underway on the new bridge.\n\nDetermine whether the word \"construction\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The collapse of the old star under its own gravity.\nSentence 2: The roof is in danger of collapse.\n\nDetermine whether the word \"collapse\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Always a step behind.\nSentence 2: Keep in step with the fashions.\n\nDetermine whether the word \"step\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Instant replay caused too long a delay.\nSentence 2: The delay before the echo of a sound.\n\nDetermine whether the word \"delay\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The path of virtue.\nSentence 2: Our paths in life led us apart.\n\nDetermine whether the word \"path\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: We did not understand his motivation.\nSentence 2: His motivation was at a high level.\n\nDetermine whether the word \"motivation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: A branch of Congress.\nSentence 2: We have branches in all major suburbs.\n\nDetermine whether the word \"branch\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Cloister the garden.\nSentence 2: She cloistered herself in the office.\n\nDetermine whether the word \"cloister\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Force socialization rarely creates strong friendships, but there are exceptions.\nSentence 2: There was too much socialization with the enlisted men.\n\nDetermine whether the word \"socialization\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: If you average 10, 20 and 24, you get 18.\nSentence 2: The number of hours I work per work averages out to 40.\n\nDetermine whether the word \"average\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Some languages sexualize all nouns and do not have a neuter gender.\nSentence 2: The god was sexualized and married to another god.\n\nDetermine whether the word \"sexualize\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Belabor the obvious.\nSentence 2: She was belabored by her fellow students.\n\nDetermine whether the word \"belabor\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: A pedestrian was able to trip the burglar as he was running away.\nSentence 2: The questions on the test tripped him up.\n\nDetermine whether the word \"trip\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: A good lead for a job.\nSentence 2: Joe is a great addition to our sales team, he has numerous leads in the paper industry.\n\nDetermine whether the word \"lead\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The rug had a wide blue border.\nSentence 2: The borders of the garden.\n\nDetermine whether the word \"border\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The impregnation of wood with preservative.\nSentence 2: The impregnation, whatever it was, had turned the rock blue.\n\nDetermine whether the word \"impregnation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The superintendence and agency of Providence in the natural world. -- Woodward.\nSentence 2: The Central Intelligence Agency.\n\nDetermine whether the word \"agency\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: His work established a new department of literature.\nSentence 2: Baking is not my department.\n\nDetermine whether the word \"department\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The annual crop of students brings many new ideas.\nSentence 2: The latest crop of fashions is about to hit the stores.\n\nDetermine whether the word \"crop\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: A mince of mushrooms.\nSentence 2: Mince tastes really good fried in a pan with some chopped onion and tomato.\n\nDetermine whether the word \"mince\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: There's too much shadiness to take good photographs.\nSentence 2: The shadiness of their transactions.\n\nDetermine whether the word \"shadiness\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: There was a blockage in the sewer, so we called out the plumber.\nSentence 2: We had to call a plumber to clear out the blockage in the drainpipe.\n\nDetermine whether the word \"blockage\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Let's not whitewash the crimes of Stalin.\nSentence 2: In his sermon, the minister didn't try to whitewash over the sins of his church.\n\nDetermine whether the word \"whitewash\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Gunny invariably tried to bite her.\nSentence 2: As soon as you bite that sandwich, you'll know how good it is.\n\nDetermine whether the word \"bite\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The assembly plant is an enormous facility.\nSentence 2: Educational facilities.\n\nDetermine whether the word \"facility\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Let loose mines.\nSentence 2: Loose terrible plagues upon humanity.\n\nDetermine whether the word \"loose\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: How did your interview go?\nSentence 2: She was going that way anyway, so she offered to show him where it was.\n\nDetermine whether the word \"go\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Economic cooperation.\nSentence 2: They agreed on a policy of cooperation.\n\nDetermine whether the word \"cooperation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: For recreation he wrote poetry and solved crossword puzzles.\nSentence 2: Drug abuse is often regarded as a form of recreation.\n\nDetermine whether the word \"recreation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: He was driving his car like a nut.\nSentence 2: I kicked him in the nuts.\n\nDetermine whether the word \"nut\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Afflict with the plague.\nSentence 2: She was afflicted by the death of her parents.\n\nDetermine whether the word \"afflict\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: There was plenty of food for everyone.\nSentence 2: It must have cost plenty.\n\nDetermine whether the word \"plenty\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The senator rose to register his protest.\nSentence 2: They finished the game under protest to the league president.\n\nDetermine whether the word \"protest\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: He has a keen intellect.\nSentence 2: Some of the world's leading intellects were meeting there.\n\nDetermine whether the word \"intellect\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: On entering a host cell, a virus will start to replicate.\nSentence 2: Replicate the cell.\n\nDetermine whether the word \"replicate\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Can I keep my old stuffed animals?\nSentence 2: She kept her maiden name after she married.\n\nDetermine whether the word \"keep\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Recruit new soldiers.\nSentence 2: The lab director recruited an able crew of assistants.\n\nDetermine whether the word \"recruit\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: Submerge your head completely.\nSentence 2: The submarine submerged in the water.\n\nDetermine whether the word \"submerge\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    }
+]

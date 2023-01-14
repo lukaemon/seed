@@ -1,0 +1,82 @@
+[
+    {
+        "input": "The man lost the competition. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- The competition was sabotaged.\n- He intimidated his competitors.",
+        "target": "the competition was sabotaged.",
+        "pred": "he intimidated his competitors."
+    },
+    {
+        "input": "The clock chimed. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- It was the top of the hour.\n- The hour seemed to drag on.",
+        "target": "it was the top of the hour.",
+        "pred": "the hour seemed to drag on."
+    },
+    {
+        "input": "The pair of students came under scrutiny by the teacher. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- The students both received excellent grades.\n- Their responses on the assignment were identical.",
+        "target": "their responses on the assignment were identical.",
+        "pred": "the students both received excellent grades."
+    },
+    {
+        "input": "The detective revealed an anomaly in the case. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- He finalized his theory.\n- He scrapped his theory.",
+        "target": "he scrapped his theory.",
+        "pred": "he finalized his theory."
+    },
+    {
+        "input": "The horse bucked. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- A fly bit the horse.\n- The rider stroked the horse.",
+        "target": "a fly bit the horse.",
+        "pred": "the horse bucked"
+    },
+    {
+        "input": "The hamburger meat browned. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- The cook froze it.\n- The cook grilled it.",
+        "target": "the cook grilled it.",
+        "pred": "the hamburger meat browned"
+    },
+    {
+        "input": "Everyone in the class turned to stare at the student. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- The student's phone rang.\n- The student took notes.",
+        "target": "the student's phone rang.",
+        "pred": "the student took notes."
+    },
+    {
+        "input": "My eyes became red and puffy. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- I was sobbing.\n- I was laughing.",
+        "target": "i was sobbing.",
+        "pred": "i was sobbing"
+    },
+    {
+        "input": "The woman's hair fell in her face. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- She pulled her hair back with a clip.\n- She lathered shampoo into her hair.",
+        "target": "she pulled her hair back with a clip.",
+        "pred": "she lathered shampoo into her hair."
+    },
+    {
+        "input": "I doubted the salesman's pitch. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- I turned his offer down.\n- He persuaded me to buy the product.",
+        "target": "i turned his offer down.",
+        "pred": "he persuaded me to buy the product."
+    },
+    {
+        "input": "Political violence broke out in the nation. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- Many citizens relocated to the capitol.\n- Many citizens took refuge in other territories.",
+        "target": "many citizens took refuge in other territories.",
+        "pred": "many citizens relocated to the capitol."
+    },
+    {
+        "input": "The judge pounded the gavel. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- The courtroom broke into uproar.\n- The jury announced its verdict.",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "The dog barked. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- The cat lounged on the couch.\n- A knock sounded at the door.",
+        "target": "a knock sounded at the door.",
+        "pred": "a knock sounded at the door. the dog barked"
+    },
+    {
+        "input": "The woman read the newspaper. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- She discovered the outcome of the election.\n- She casted a vote in the election.",
+        "target": "she discovered the outcome of the election.",
+        "pred": "she casted a vote in the election."
+    },
+    {
+        "input": "I twisted the cap off the soda bottle. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- The soda fizzed.\n- The soda leaked out.",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    },
+    {
+        "input": "The ring on my finger got stuck. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- My finger swelled.\n- I chipped my fingernail.",
+        "target": "my finger swelled.",
+        "pred": "i chipped my fingernail."
+    }
+]

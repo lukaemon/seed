@@ -1,0 +1,322 @@
+[
+    {
+        "input": "Homework\n\nDecide whether the word \"mixture\" is used with the same meaning in the two following sentences. Answer by yes or no.\nHe drank a mixture of beer and lemonade.\nThe mixture of sulphuric acid and water produces heat.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"wish\" is used with the same meaning in the two following sentences. Answer by yes or no.\nHe got his wish.\nMy best wishes.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"license\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe intolerable license with which the newspapers break ... the rules of decorum -- Edmund Burke.\nWhen liberty becomes license dictatorship is near -- Will Durant.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"studio\" is used with the same meaning in the two following sentences. Answer by yes or no.\nHis studio was cramped when he began as an artist.\nYou don't need a studio to make a passport photograph.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"engrave\" is used with the same meaning in the two following sentences. Answer by yes or no.\nEngrave a letter.\nEngrave a pen.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"return\" is used with the same meaning in the two following sentences. Answer by yes or no.\nReturn her love.\nReturn a compliment.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"largeness\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe might have repercussions of unimaginable largeness.\nA man distinguished by the largeness and scope of his views.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"vision\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe runners emerged from the trees into his clear vision.\nHe had a vision of the Virgin Mary.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"brother\" is used with the same meaning in the two following sentences. Answer by yes or no.\nI would like to thank the brother who just spoke.\nNone of his brothers would betray him.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"drought\" is used with the same meaning in the two following sentences. Answer by yes or no.\nWhen England defeated Pakistan it ended a ten-year drought.\nFarmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"glimpse\" is used with the same meaning in the two following sentences. Answer by yes or no.\nFrom the window he could catch a glimpse of the lake.\nHe caught only a glimpse of the professor's meaning.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"experience\" is used with the same meaning in the two following sentences. Answer by yes or no.\nA surprising experience.\nExperience is the best teacher.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"fuss\" is used with the same meaning in the two following sentences. Answer by yes or no.\nDon't fuss too much over the grandchildren -- they are quite big now.\nShe fusses over her husband.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"education\" is used with the same meaning in the two following sentences. Answer by yes or no.\nA girl's education was less important than a boy's.\nEducation is a preparation for life.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"operation\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThey organized a rescue operation.\nConsolidate the companies various operations.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"compress\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe force required to compress a spring varies linearly with the displacement.\nShe compressed her lips.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"affiliation\" is used with the same meaning in the two following sentences. Answer by yes or no.\nA valuable financial affiliation.\nWelcomed the affiliation of the research center with the university.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"safety\" is used with the same meaning in the two following sentences. Answer by yes or no.\nHe ran to safety.\nThe reciprocal of safety is risk.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"pity\" is used with the same meaning in the two following sentences. Answer by yes or no.\nIt's a pity he couldn't do it.\nThe blind are too often objects of pity.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"embodiment\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe embodiment of hope.\nA circle was the embodiment of his concept of life.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"rise\" is used with the same meaning in the two following sentences. Answer by yes or no.\nRise to the occasion.\nHer spirits rose when she heard the good news.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"tremor\" is used with the same meaning in the two following sentences. Answer by yes or no.\nShe felt a tremor in her stomach before going on stage.\nDid you feel the tremor this morning?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"office\" is used with the same meaning in the two following sentences. Answer by yes or no.\nAn executive or judical office.\nDuring his first year in office.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"upset\" is used with the same meaning in the two following sentences. Answer by yes or no.\nTruman upset Dewey in the 1948 US presidential election.\nThe foreign team upset the local team.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"success\" is used with the same meaning in the two following sentences. Answer by yes or no.\nHis success in the marathon was unexpected.\nThe election was a remarkable success for the Whigs.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"growth\" is used with the same meaning in the two following sentences. Answer by yes or no.\nA growth of hair.\nThe growth of culture.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"construction\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe engineer marvelled at his construction.\nConstruction is underway on the new bridge.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"collapse\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe collapse of the old star under its own gravity.\nThe roof is in danger of collapse.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"pencil\" is used with the same meaning in the two following sentences. Answer by yes or no.\nAn eyebrow pencil.\nThis artist's favorite medium is pencil.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"step\" is used with the same meaning in the two following sentences. Answer by yes or no.\nAlways a step behind.\nKeep in step with the fashions.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"delay\" is used with the same meaning in the two following sentences. Answer by yes or no.\nInstant replay caused too long a delay.\nThe delay before the echo of a sound.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"liberate\" is used with the same meaning in the two following sentences. Answer by yes or no.\nTo liberate the mind from prejudice.\nTo liberate gases.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"path\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe path of virtue.\nOur paths in life led us apart.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"motivation\" is used with the same meaning in the two following sentences. Answer by yes or no.\nWe did not understand his motivation.\nHis motivation was at a high level.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"branch\" is used with the same meaning in the two following sentences. Answer by yes or no.\nA branch of Congress.\nWe have branches in all major suburbs.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"writing\" is used with the same meaning in the two following sentences. Answer by yes or no.\nWriting was a form of therapy for him.\nThe idea occurs with increasing frequency in Hemingway's writings.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"socialization\" is used with the same meaning in the two following sentences. Answer by yes or no.\nForce socialization rarely creates strong friendships, but there are exceptions.\nThere was too much socialization with the enlisted men.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"average\" is used with the same meaning in the two following sentences. Answer by yes or no.\nIf you average 10, 20 and 24, you get 18.\nThe number of hours I work per work averages out to 40.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"sexualize\" is used with the same meaning in the two following sentences. Answer by yes or no.\nSome languages sexualize all nouns and do not have a neuter gender.\nThe god was sexualized and married to another god.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"belabor\" is used with the same meaning in the two following sentences. Answer by yes or no.\nBelabor the obvious.\nShe was belabored by her fellow students.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"trip\" is used with the same meaning in the two following sentences. Answer by yes or no.\nA pedestrian was able to trip the burglar as he was running away.\nThe questions on the test tripped him up.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"border\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe rug had a wide blue border.\nThe borders of the garden.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"treatment\" is used with the same meaning in the two following sentences. Answer by yes or no.\nHis treatment of the race question is badly biased.\nHis treatment of space borrows from Italian architecture.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"impregnation\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe impregnation of wood with preservative.\nThe impregnation, whatever it was, had turned the rock blue.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"agency\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe superintendence and agency of Providence in the natural world. -- Woodward.\nThe Central Intelligence Agency.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"department\" is used with the same meaning in the two following sentences. Answer by yes or no.\nHis work established a new department of literature.\nBaking is not my department.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"crop\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe annual crop of students brings many new ideas.\nThe latest crop of fashions is about to hit the stores.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"shadiness\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThere's too much shadiness to take good photographs.\nThe shadiness of their transactions.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"blockage\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThere was a blockage in the sewer, so we called out the plumber.\nWe had to call a plumber to clear out the blockage in the drainpipe.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"catch\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe catch was only 10 fish.\nHe shared his catch with the others.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"spread\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe invaders spread their language all over the country.\nA big oil spot spread across the water.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"whitewash\" is used with the same meaning in the two following sentences. Answer by yes or no.\nLet's not whitewash the crimes of Stalin.\nIn his sermon, the minister didn't try to whitewash over the sins of his church.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"bite\" is used with the same meaning in the two following sentences. Answer by yes or no.\nGunny invariably tried to bite her.\nAs soon as you bite that sandwich, you'll know how good it is.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"facility\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe assembly plant is an enormous facility.\nEducational facilities.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"loose\" is used with the same meaning in the two following sentences. Answer by yes or no.\nLet loose mines.\nLoose terrible plagues upon humanity.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"go\" is used with the same meaning in the two following sentences. Answer by yes or no.\nHow did your interview go?\nShe was going that way anyway, so she offered to show him where it was.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"cooperation\" is used with the same meaning in the two following sentences. Answer by yes or no.\nEconomic cooperation.\nThey agreed on a policy of cooperation.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"afflict\" is used with the same meaning in the two following sentences. Answer by yes or no.\nAfflict with the plague.\nShe was afflicted by the death of her parents.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"plenty\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThere was plenty of food for everyone.\nIt must have cost plenty.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"protest\" is used with the same meaning in the two following sentences. Answer by yes or no.\nThe senator rose to register his protest.\nThey finished the game under protest to the league president.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"invite\" is used with the same meaning in the two following sentences. Answer by yes or no.\nCan I invite you for dinner on Sunday night?\nThe organizers invite submissions of papers for the conference.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"intellect\" is used with the same meaning in the two following sentences. Answer by yes or no.\nHe has a keen intellect.\nSome of the world's leading intellects were meeting there.",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"replicate\" is used with the same meaning in the two following sentences. Answer by yes or no.\nOn entering a host cell, a virus will start to replicate.\nReplicate the cell.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Homework\n\nDecide whether the word \"recruit\" is used with the same meaning in the two following sentences. Answer by yes or no.\nRecruit new soldiers.\nThe lab director recruited an able crew of assistants.",
+        "target": "no",
+        "pred": "yes"
+    }
+]

@@ -1,0 +1,132 @@
+[
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe cook's eyes watered.  as a result of: \n- He ran out of onions.\n- He cut an onion.",
+        "target": "he cut an onion.",
+        "pred": "he ran out of onions."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe pair of students came under scrutiny by the teacher.  as a result of: \n- The students both received excellent grades.\n- Their responses on the assignment were identical.",
+        "target": "their responses on the assignment were identical.",
+        "pred": "the students both received excellent grades."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe driver turned on the car's headlights.  as a result of: \n- He heard thunder.\n- The sun went down.",
+        "target": "the sun went down.",
+        "pred": "he heard thunder."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe man received a parking ticket.  as a result of: \n- He parallel parked on the street.\n- The parking meter expired.",
+        "target": "the parking meter expired.",
+        "pred": "he parallel parked on the street."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nMy subscription to the magazine expired.  as a consequence: \n- I discarded the new issue.\n- I stopped receiving new issues.",
+        "target": "i stopped receiving new issues.",
+        "pred": "i discarded the new issue."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe girl refused to eat her vegetables.  as a consequence: \n- Her father told her to drink her milk.\n- Her father took away her dessert.",
+        "target": "her father took away her dessert.",
+        "pred": "her father told her to drink her milk."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nMy view of the movie screen was blocked.  as a result of: \n- The couple behind me was whispering.\n- A tall person was sitting in front of me.",
+        "target": "a tall person was sitting in front of me.",
+        "pred": "the couple behind me was whispering."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe lobbyist persuaded the legislature to support the bill.  as a consequence: \n- The president vetoed the bill.\n- The legislature passed the bill.",
+        "target": "the legislature passed the bill.",
+        "pred": "the president vetoed the bill."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nI stayed up late.  as a consequence: \n- I had vivid dreams that night.\n- I was tired in the morning.",
+        "target": "i was tired in the morning.",
+        "pred": "i had vivid dreams that night."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe woman covered her mouth with her hand.  as a result of: \n- She exhaled.\n- She sneezed.",
+        "target": "she sneezed.",
+        "pred": "she exhaled."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nI spent the day at the pool.  as a consequence: \n- I sprained my ankle.\n- My face got sunburned.",
+        "target": "my face got sunburned.",
+        "pred": "i sprained my ankle."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe girl found a bug in her cereal.  as a consequence: \n- She poured milk in the bowl.\n- She lost her appetite.",
+        "target": "she lost her appetite.",
+        "pred": "she poured milk in the bowl."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nMy ears were ringing.  as a result of: \n- I went to a museum.\n- I went to a concert.",
+        "target": "i went to a concert.",
+        "pred": "i went to a museum."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nI put rubber gloves on.  as a result of: \n- I was preparing to wash my hands.\n- I was preparing to clean the bathroom.",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to wash my hands."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nPolitical violence broke out in the nation.  as a consequence: \n- Many citizens relocated to the capitol.\n- Many citizens took refuge in other territories.",
+        "target": "many citizens took refuge in other territories.",
+        "pred": "many citizens relocated to the capitol."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe seasons changed from summer to autumn.  as a consequence: \n- People evacuated their homes.\n- Leaves fell from the trees.",
+        "target": "leaves fell from the trees.",
+        "pred": "people evacuated their homes."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nI pushed the wagon.  as a consequence: \n- The objects in the wagon fell out.\n- The wagon wheels spun forward.",
+        "target": "the wagon wheels spun forward.",
+        "pred": "the objects in the wagon fell out."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nI tidied up my house.  as a result of: \n- I was swamped with work.\n- I was expecting company.",
+        "target": "i was expecting company.",
+        "pred": "i was swamped with work."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nI pulled the rubber band.  as a consequence: \n- It flung across the room.\n- It stretched.",
+        "target": "it stretched.",
+        "pred": "it flung across the room."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe mother called an ambulance.  as a result of: \n- Her son lost his cat.\n- Her son fell out of his bed.",
+        "target": "her son fell out of his bed.",
+        "pred": "her son lost his cat."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe woman walked with crutches.  as a result of: \n- She shaved her legs.\n- She broke her leg.",
+        "target": "she broke her leg.",
+        "pred": "she shaved her legs."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe teacher assigned homework to the students.  as a consequence: \n- The students passed notes.\n- The students groaned.",
+        "target": "the students groaned.",
+        "pred": "the students passed notes."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe man fainted.  as a result of: \n- He took a nap.\n- He ran a marathon.",
+        "target": "he ran a marathon.",
+        "pred": "he took a nap."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe politician was convicted of fraud.  as a consequence: \n- He campaigned for re-election.\n- He was removed from office.",
+        "target": "he was removed from office.",
+        "pred": "he campaigned for re-election."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe woman ran her finger under cold water.  as a result of: \n- She burned her finger on the toaster.\n- She put a diamond ring on her finger.",
+        "target": "she burned her finger on the toaster.",
+        "pred": "she put a diamond ring on her finger."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe police searched the offender's car.  as a result of: \n- They were trying to elicit a confession.\n- They were looking for illegal drugs.",
+        "target": "they were looking for illegal drugs.",
+        "pred": "they were trying to elicit a confession."
+    }
+]

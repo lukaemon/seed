@@ -1,0 +1,337 @@
+[
+    {
+        "input": "Every day after dinner Mr. Schmidt took a long nap. Mark would let him sleep for an hour, then wake him up, scold him, and get him to work. He needed to get him to finish his work, because his work was beautiful \n\nQuestion: Who or what is \"his\"? Is it Mark?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "I tried to paint a picture of an orchard, with lemons in the lemon trees , but they came out looking more like light bulbs. \n\nQuestion: Who or what are \"they\"? lemons?\n\nAnswer:",
+        "target": "yes",
+        "pred": "(iii)."
+    },
+    {
+        "input": "Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are fifteen. \n\nQuestion: Who or what are \"they\"? Amy's parents?\n\nAnswer:",
+        "target": "no",
+        "pred": "they\" they"
+    },
+    {
+        "input": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. \n\nQuestion: Who or what is \"their\"? Is it their mothers?\n\nAnswer:",
+        "target": "no",
+        "pred": "their mothers"
+    },
+    {
+        "input": "Mr. Moncrieff visited Chester 's luxurious New York apartment, thinking that it belonged to his son Edward . The result was that Mr. Moncrieff has decided to cancel Edward 's allowance on the ground that he no longer requires his financial support. \n\nQuestion: Who or what is \"his\"? Is it Edward?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it . \n\nQuestion: Who or what is \"it\"? Is it button?\n\nAnswer:",
+        "target": "no",
+        "pred": "alice"
+    },
+    {
+        "input": "The path to the lake was blocked, so we couldn't use it . \n\nQuestion: Who or what is \"it\"? Is it the lake?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "I tried to paint a picture of an orchard, with lemons in the lemon trees , but they came out looking more like light bulbs. \n\nQuestion: Who or what are \"they\"? lemon trees?\n\nAnswer:",
+        "target": "no",
+        "pred": "(iv)."
+    },
+    {
+        "input": "Larry , a timid teen-ager, lives with his widowed mother in a Brooklyn housing project. Larry Larry's father , a gang leader, was shot to death; his father's disciple, Antonio , takes Larry under his wing, and quickly molds him into a drug runner. \n\nQuestion: Who or what is \"his\"? Is it Larry's father?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Well satisfied with his purchases and feeling very elegant indeed, Babar goes to the photographer to have his picture taken. \n\nQuestion: Who or what is \"his\"? Is it the photographer?\n\nAnswer:",
+        "target": "no",
+        "pred": "babar"
+    },
+    {
+        "input": "Jane gave Joan candy because she wasn't hungry. \n\nQuestion: Who or what is \"she\"? Is it Joan?\n\nAnswer:",
+        "target": "no",
+        "pred": "joan is joan? joan is joan or is joan \"she\"? joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan joan is joan joan"
+    },
+    {
+        "input": "The storekeepers stayed in town to run their stores and lived in the rooms behind them . \n\nQuestion: Who or what are \"them\"? rooms?\n\nAnswer:",
+        "target": "no",
+        "pred": "rooms"
+    },
+    {
+        "input": "Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are fifteen. \n\nQuestion: Who or what are \"they\"? Sam and Amy?\n\nAnswer:",
+        "target": "yes",
+        "pred": "amy"
+    },
+    {
+        "input": "Since Chester was dependent on Uncle Vernon , he couldn't very well marry without his approval \n\nQuestion: Who or what is \"his\"? Is it Chester?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The stable was very roomy, with four good stalls; a large swinging window opened into the yard , which made it pleasant and airy. \n\nQuestion: Who or what is \"it\"? Is it yard?\n\nAnswer:",
+        "target": "no",
+        "pred": "the yard"
+    },
+    {
+        "input": "Bill passed the half-empty plate to John because he was hungry. \n\nQuestion: Who or what is \"he\"? Is it Bill?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Men had the right to keep their sons working for them until they were 21 years of age. \n\nQuestion: Who or what are \"they\"? Men?\n\nAnswer:",
+        "target": "no",
+        "pred": "answer: their sons"
+    },
+    {
+        "input": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time, we should make fewer of them . \n\nQuestion: Who or what are \"them\"? the oatmeal cookies?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Fred watched TV while George went out to buy groceries. After an hour he got up. \n\nQuestion: Who or what is \"he\"? Is it George?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "While Nancy and Ellen counted the silverware, Mrs. Smith hastened upstairs. In a few minutes she returned and one look at her stricken face told the girls that the precious map was gone. \n\nQuestion: Who or what is \"her\"? Is it Ellen?\n\nAnswer:",
+        "target": "no",
+        "pred": "(ii)."
+    },
+    {
+        "input": "Then Dad figured out how much the man owed the store; to that he added the man 's board-bill at the cook-shanty. He subtracted that amount from the man 's wages, and made out his check \n\nQuestion: Who or what is \"he\"? Is it the man?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Jane gave Joan candy because she was hungry. \n\nQuestion: Who or what is \"she\"? Is it Joan?\n\nAnswer:",
+        "target": "yes",
+        "pred": "joan is he hungry? joan is a yes joan is hungry. joan is joan or is she hungry? joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan is joan joan"
+    },
+    {
+        "input": "The stable was very roomy, with four good stalls; a large swinging window opened into the yard , which made it pleasant and airy. \n\nQuestion: Who or what is \"it\"? Is it window?\n\nAnswer:",
+        "target": "no",
+        "pred": "the yard"
+    },
+    {
+        "input": "The large ball crashed right through the table because it was made of styrofoam. \n\nQuestion: Who or what is \"it\"? Is it The large ball?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time, we should make more of them . \n\nQuestion: Who or what are \"them\"? the chocolate chip cookies?\n\nAnswer:",
+        "target": "no",
+        "pred": "none of the above choices."
+    },
+    {
+        "input": "Since Chester was dependent on Uncle Vernon , he couldn't very well marry without his approval \n\nQuestion: Who or what is \"he\"? Is it Uncle Vernon?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Jane gave Joan candy because she was hungry. \n\nQuestion: Who or what is \"she\"? Is it Jane?\n\nAnswer:",
+        "target": "no",
+        "pred": "joan is \"she\" is \"she\" is hungry. joan is \"she\" is hungry."
+    },
+    {
+        "input": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time, we should make more of them . \n\nQuestion: Who or what are \"them\"? the oatmeal cookies?\n\nAnswer:",
+        "target": "yes",
+        "pred": "everyone really loved the oatmeal cookies"
+    },
+    {
+        "input": "One day Dick was teasing the colts, and did not know that the master was in the next field; but he was there, watching what was going on; over the hedge he jumped in a snap, and catching Dick by the arm, he hit him so hard that he roared with the pain and surprise. \n\nQuestion: Who or what is \"him\"? Is it the master?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The storekeepers stayed in town to run their stores and lived in the rooms behind them . \n\nQuestion: Who or what are \"them\"? storekeepers?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The path to the lake was blocked, so we couldn't reach it . \n\nQuestion: Who or what is \"it\"? Is it The path?\n\nAnswer:",
+        "target": "no",
+        "pred": "the path to the lake"
+    },
+    {
+        "input": "Bill passed the half-empty plate to John because he was full. \n\nQuestion: Who or what is \"he\"? Is it John?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Every day after dinner Mr. Schmidt took a long nap. Mark would let him sleep for an hour, then wake him up, scold him, and get him to work. He needed to get him to finish his work, because his work was beautiful \n\nQuestion: Who or what is \"he\"? Is it Mr. Schmidt?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Mr. Moncrieff visited Chester 's luxurious New York apartment, thinking that it belonged to his son Edward . The result was that Mr. Moncrieff has decided to cancel Edward 's allowance on the ground that he no longer requires his financial support. \n\nQuestion: Who or what is \"he\"? Is it Mr. Moncrieff?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "When they had eventually calmed down a bit , and had gotten home, Mr. Farley put the magic pebble in an iron safe . Some day they might want to use it , but really for now, what more could they wish for? \n\nQuestion: Who or what is \"it\"? Is it safe?\n\nAnswer:",
+        "target": "no",
+        "pred": "the magic pebble"
+    },
+    {
+        "input": "The large ball crashed right through the table because it was made of styrofoam. \n\nQuestion: Who or what is \"it\"? Is it the table?\n\nAnswer:",
+        "target": "yes",
+        "pred": "the large ball"
+    },
+    {
+        "input": "Joe Joe's uncle can still beat him at tennis, even though he is 30 years younger. \n\nQuestion: Who or what is \"he\"? Is it Joe's uncle?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Patting her back, the woman smiled at the girl . \n\nQuestion: Who or what is \"her\"? Is it the woman?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it . \n\nQuestion: Who or what is \"it\"? Is it album?\n\nAnswer:",
+        "target": "yes",
+        "pred": "alice"
+    },
+    {
+        "input": "Joe Joe's uncle can still beat him at tennis, even though he is 30 years older. \n\nQuestion: Who or what is \"he\"? Is it Joe?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The storekeepers stayed in town to run their stores and lived in the rooms behind them . \n\nQuestion: Who or what are \"them\"? stores?\n\nAnswer:",
+        "target": "yes",
+        "pred": "the storekeepers"
+    },
+    {
+        "input": "The large ball crashed right through the table because it was made of steel. \n\nQuestion: Who or what is \"it\"? Is it the table?\n\nAnswer:",
+        "target": "no",
+        "pred": "\"it\""
+    },
+    {
+        "input": "The large ball crashed right through the table because it was made of steel. \n\nQuestion: Who or what is \"it\"? Is it The large ball?\n\nAnswer:",
+        "target": "yes",
+        "pred": "the large ball"
+    },
+    {
+        "input": "Larry , a timid teen-ager, lives with his widowed mother in a Brooklyn housing project. Larry Larry's father , a gang leader, was shot to death; his father's disciple, Antonio , takes Larry under his wing, and quickly molds him into a drug runner. \n\nQuestion: Who or what is \"his\"? Is it Larry?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are snobs. \n\nQuestion: Who or what are \"they\"? Sam and Amy?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the hospital. \n\nQuestion: Who or what is \"he\"? Is it The customer?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Papa looked down at the children 's faces , so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn't afford them. \n\nQuestion: Who or what are \"they\"? faces?\n\nAnswer:",
+        "target": "no",
+        "pred": "(iv)."
+    },
+    {
+        "input": "Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it . \n\nQuestion: Who or what is \"it\"? Is it living room?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Papa looked down at the children 's faces , so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn't afford them . \n\nQuestion: Who or what are \"them\"? faces?\n\nAnswer:",
+        "target": "no",
+        "pred": "(iv)."
+    },
+    {
+        "input": "The stable was very roomy, with four good stalls; a large swinging window opened into the yard , which made it pleasant and airy. \n\nQuestion: Who or what is \"it\"? Is it stable?\n\nAnswer:",
+        "target": "yes",
+        "pred": "the stable"
+    },
+    {
+        "input": "Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album. Today she had to hunt for a button, so she put the album on a chair without even opening it. \n\nQuestion: Who or what is \"she\"? Is it Mama?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Well satisfied with his purchases and feeling very elegant indeed, Babar goes to the photographer to have his picture taken. \n\nQuestion: Who or what is \"his\"? Is it the photographer?\n\nAnswer:",
+        "target": "no",
+        "pred": "babar"
+    },
+    {
+        "input": "Jane gave Joan candy because she wasn't hungry. \n\nQuestion: Who or what is \"she\"? Is it Jane?\n\nAnswer:",
+        "target": "yes",
+        "pred": "joan is \"she\" is \"they\"?"
+    },
+    {
+        "input": "Papa looked down at the children 's faces , so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn't afford them . \n\nQuestion: Who or what are \"them\"? children?\n\nAnswer:",
+        "target": "no",
+        "pred": "children"
+    },
+    {
+        "input": "I tried to paint a picture of an orchard, with lemons in the lemon trees , but they came out looking more like light bulbs. \n\nQuestion: Who or what are \"they\"? lemons?\n\nAnswer:",
+        "target": "yes",
+        "pred": "(iii)."
+    },
+    {
+        "input": "Bernard , who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him . \n\nQuestion: Who or what is \"him\"? Is it the government official?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Always before, Larry had helped Dad with his work. But he could not help him now, for Dad said that his boss at the railroad company would not want anyone but him to work in the office. \n\nQuestion: Who or what is \"he\"? Is it Dad?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. \n\nQuestion: Who or what are \"them\"? Arthur and Celeste?\n\nAnswer:",
+        "target": "yes",
+        "pred": "(i)"
+    },
+    {
+        "input": "Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album. Today she had to hunt for a button, so she put the album on a chair without even opening it. \n\nQuestion: Who or what is \"her\"? Is it Mama?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it . \n\nQuestion: Who or what is \"it\"? Is it chair?\n\nAnswer:",
+        "target": "no",
+        "pred": "is it chair?"
+    },
+    {
+        "input": "Larry , a timid teen-ager, lives with his widowed mother in a Brooklyn housing project. Larry Larry's father , a gang leader, was shot to death; his father's disciple, Antonio , takes Larry under his wing, and quickly molds him into a drug runner. \n\nQuestion: Who or what is \"his\"? Is it Antonio?\n\nAnswer:",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "One day Dick was teasing the colts, and did not know that the master was in the next field; but he was there, watching what was going on; over the hedge he jumped in a snap, and catching Dick by the arm, he hit him so hard that he roared with the pain and surprise. \n\nQuestion: Who or what is \"he\"? Is it the master?\n\nAnswer:",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Papa looked down at the children 's faces , so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn't afford them . \n\nQuestion: Who or what are \"them\"? things?\n\nAnswer:",
+        "target": "yes",
+        "pred": "the children"
+    },
+    {
+        "input": "I tried to paint a picture of an orchard, with lemons in the lemon trees , but they came out looking more like light bulbs. \n\nQuestion: Who or what are \"they\"? lemon trees?\n\nAnswer:",
+        "target": "no",
+        "pred": "(iv)."
+    },
+    {
+        "input": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. \n\nQuestion: Who or what are \"them\"? the elephants?\n\nAnswer:",
+        "target": "no",
+        "pred": "a)."
+    },
+    {
+        "input": "Papa looked down at the children 's faces , so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn't afford them. \n\nQuestion: Who or what are \"they\"? children?\n\nAnswer:",
+        "target": "yes",
+        "pred": "children"
+    },
+    {
+        "input": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. \n\nQuestion: Who or what are \"them\"? their mothers?\n\nAnswer:",
+        "target": "no",
+        "pred": "(iv)."
+    }
+]

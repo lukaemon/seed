@@ -1,0 +1,322 @@
+[
+    {
+        "input": "Ssangyong Motor was taken over by creditors after it collapsed under heavy debts during the 1997-98 Asian financial crisis. Using only the above description and what you know about the world, is \"Asian financial crisis takes over Ssangyong Motor\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Hadley said Jordan was chosen as the site of the meeting between Bush and al-Maliki because of its support for the unity government in Iraq and the fact that Bush would be in the region. Using only the above description and what you know about the world, is \"Bush will meet al-Maliki in Hadley.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "jordan"
+    },
+    {
+        "input": "The Massachusetts Supreme Judicial Court has cleared the way for lesbian and gay couples in the state to marry, ruling that government attorneys \"failed to identify any constitutionally adequate reason\" to deny them the right. Using only the above description and what you know about the world, is \"U.S. Supreme Court in favor of same-sex marriage\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Fujimori charged that on January 26, 1995, Ecuador fired the first shot, an allegation denied by Ecuador's leader, Sixto Duran-Ballen. Predictably, each side blamed the other for starting the 1995 conflict, just as each pointed the finger of guilt to the other for provoking the border war of 1941, when Peru took most of the 120,000 square miles in contention between the two countries. Using only the above description and what you know about the world, is \"President Fujimori was re-elected in 1995.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Quebec woman and her mother accused of plotting to kill a four-year-old girl. Using only the above description and what you know about the world, is \"Quebec woman murdered a four-year-old girl.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "quebec woman and her mother accused of plotting to kill a four-year-old girl."
+    },
+    {
+        "input": "A top aide to Ms. Bhutto, Senator Latif Khosa, says that on the day of her assassination, Ms. Bhutto planned to give two visiting U.S. lawmakers a thick dossier outlining numerous instances of government pre-poll rigging involving voter registration as well as intimidation of PPP supporters. \"Everything was recorded in that, with all proofs that we have had, and with the independent reports of the foreign monitors who were also operating. Their reports also supported our allegations as to being substantial and as being true. So they were all recorded, but unfortunately she could not present the report because she was assassinated before she could do that,\" said Khosa. Using only the above description and what you know about the world, is \"Latif Khosa was in a relationship with Ms. Bhutto.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Grieving father Christopher Yavelow hopes to deliver one million letters to the queen of Holland to bring his children home. Using only the above description and what you know about the world, is \"Christopher Yavelow is the queen of Holland.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "christopher yavelow hopes to deliver one million letters to the queen of holland to bring his children home."
+    },
+    {
+        "input": "In Nigeria, by far the most populous country in sub-Saharan Africa, over 2.7 million people are infected with HIV. Using only the above description and what you know about the world, is \"2.7 percent of the people infected with HIV live in Africa.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "in nigeria, by far the most populous country in sub-saharan africa, over 2.7 million people are infected with hiv."
+    },
+    {
+        "input": "Research workers of the German archaeological institute have discovered a mummy in permafrost at excavation work in Mongolia of approximately 2,500 years old. Using only the above description and what you know about the world, is \"Altai ice maiden triggers major dispute.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The Kota ( \"Fort\" ), or Old City, for example, sometimes called the downtown section, is the central business district and Indonesia's financial capital. Using only the above description and what you know about the world, is \"The Kota is the country's business center.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "the kota ( \"fort\" ), or old city, for example, sometimes called the downtown section, is the central business district and indonesia's financial capital."
+    },
+    {
+        "input": "Amazon shares fell nearly 4 percent following the results as the company said operating income would drop as much as 42 percent in the second quarter. Using only the above description and what you know about the world, is \"Shares of Amazon fell 4 percent.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "UN Secretary General Kofi Annan has noted that the Iraqi people turned out in large numbers to vote in the January 30 ballot. Using only the above description and what you know about the world, is \"Kofi Annan was elected in the January 30 ballot.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Confident that those grading papers would understand answers written in text-speak, Haque stressed that in some exams, including English, text abbreviations would be penalized. Using only the above description and what you know about the world, is \"Haque wants to include English in some exams.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Another factor in the rising cost of paper is the increased cost of wood pulp, from which paper is made Using only the above description and what you know about the world, is \"The cost of paper is rising.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "increased cost of wood pulp, from which paper is made"
+    },
+    {
+        "input": "Mount Olympus towers up from the center of the earth. Using only the above description and what you know about the world, is \"Mount Olympus is in the center of the earth.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "mount olympus towers up from the center of the earth."
+    },
+    {
+        "input": "Tropical storm Koni dumped significant rains on the Philippines before becoming a minimal typhoon and eventually making landfall on the northern coast of Vietnam. Using only the above description and what you know about the world, is \"A tropical storm has caused significant property damage.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Zahi Hawass, Egypt's pre-eminent archaeologist, revealed the first ancient artifacts which may lead to the discovery of Cleopatra and Marc Antony's resting place.  The expedition has found amulets, 22 bronze coins cast with Cleopatra's image and her name, a royal statue, an alabaster mask resembling Marc Antony, and a statue bust of Cleopatra. \"If you look at the face of Mark Antony, many believed he had this cleft on his chin and that's why I thought this could be Mark Antony,\" said Hawass.  \"In my opinion, if this tomb is found, it will be one of the most important discoveries of the 21st century because of the love between Cleopatra and Mark Antony, and because of the sad story of their death. This is the perfect place for them to be hidden,\" said Hawass. Using only the above description and what you know about the world, is \"Cleopatra and Marc Antony lived in Egypt.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Nearly five months later on January 24, 1935, the passenger vessel MOHAWK sank after colliding with the Norwegian motorship TALISMAN, and 45 people lost their lives. Using only the above description and what you know about the world, is \"100 or more people lost their lives in a ferry sinking.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Researchers at the Harvard School of Public Health say that people who drink coffee may be doing a lot more than keeping themselves awake - this kind of consumption apparently also can help reduce the risk of diseases. Using only the above description and what you know about the world, is \"Coffee drinking has health benefits.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "harvard school of public health say that people who drink coffee may be doing a lot more than keeping themselves awake - this kind of consumption apparently also can help reduce the risk of diseases."
+    },
+    {
+        "input": "The extension of the effective period of marketing exclusivity for drugs is designed to give pharmaceutical companies a fair return. Using only the above description and what you know about the world, is \"Prospective drugs must have long market life after regulatory approval in order to be developed.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The U.S. Army acceded to a request from the local governor to keep U.S. troops away from the Imam Ali Shrine in Najaf. Using only the above description and what you know about the world, is \"The U.S. Army agreed to a request from the local governor to keep US troops away from the Imam Ali Shrine in Najaf.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "the u.s. army acceded to a request from the local governor to keep u.s. troops away from the imam ali shrine in najaf."
+    },
+    {
+        "input": "NEW YORK \u2014  Somali pirates attacked and damaged an American ship carrying humanitarian aid Tuesday, but the ship and crew were safe under Navy escort, the military and shipping company said. The pirates fired rocket-propelled grenades and automatic weapons at the Liberty Sun as it carried food for famine-wracked African nations, said the vessel's owner, Liberty Maritime Corp. The ship was en route from Houston to Mombasa, Kenya, with a roughly 20-member crew, officials said. . Using only the above description and what you know about the world, is \"Pirates damaged the ship Liberty Maritime.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "It has been observed that in those countries of the world where capital punishment is still in operation, the crime rate, especially murder, is distinctively low in comparison to countries where capital punishment has been discarded. Using only the above description and what you know about the world, is \"Capital punishment is a deterrent to crime.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "capital punishment is a deterrent to crime."
+    },
+    {
+        "input": "VCU School of the Arts In Qatar is located in Doha, the capital city of Qatar. Using only the above description and what you know about the world, is \"Qatar is located in Doha.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "In New York, Nymex light crude oil for July delivery hit $42.38 per barrel on Tuesday Using only the above description and what you know about the world, is \"Crude oil futures surged to an all-time high in New York Tuesday, at 42 dollars a barrel.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "crude oil futures surged to an all-time high in new york tuesday, at 42 dollars a barrel"
+    },
+    {
+        "input": "A smaller proportion of Yugoslavia's Italians were settled in Slovenia (at the 1991 national census, some 3000 inhabitants of Slovenia declared themselves as ethnic Italians). Using only the above description and what you know about the world, is \"Slovenia has 3,000 inhabitants.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "slovenia has 3,000 inhabitants."
+    },
+    {
+        "input": "Hurricane Katrina petroleum-supply outlook improved somewhat, yesterday, as U.S. and European governments agreed to release 2 million barrels a day, of oil and refined products, from their reserves. Using only the above description and what you know about the world, is \"60 million barrels of oil and gasoline will be available to the marketplace.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Blair has sympathy for anyone who has lost their lives in Iraq. Using only the above description and what you know about the world, is \"Blair is sympathetic to anyone who has lost their lives in Iraq.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "blair has sympathy for anyone who has lost their lives in iraq."
+    },
+    {
+        "input": "Compuware claims that Allan Tortorice and Jim Hildner were among several former employees who revealed trade secrets after they moved to IBM. Using only the above description and what you know about the world, is \"Trade secrets were stolen.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Though the exact date is debated, dogs are thought to have been domesticated by humans approximately 12,000 years ago. Using only the above description and what you know about the world, is \"Humans existed 10,000 years ago.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "General Miguel Maza Marquez, chief of the Colombian Administrative Department Of Security (DAS), today confirmed foreign participation in the assassination of Luis Carlos Galan, senator and Liberal party presidential candidate, on 18 August in Bogota. Using only the above description and what you know about the world, is \"General Miguel Maza Marquez took part in the assassination of Luis Carlos Galan.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "While Bush was in the air, the White House was evacuated, with many employees running away from the premises on orders from Secret Service agents. Using only the above description and what you know about the world, is \"The U.S. military evacuated U.S. citizens.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "while bush was in the air, the white house was evacuated, with many employees running away from the premises on orders from secret service agents."
+    },
+    {
+        "input": "Note that SBB, CFF and FFS stand out for the main railway company, in German, French and Italian. Using only the above description and what you know about the world, is \"The French railway company is called SNCF.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Rolling Stone, one of the music industry's foremost publications, has found itself reporting false news gleaned from a Wikipedia article. The online edition of the magazine's Rock & Roll Daily released an article entitled \"Halle Berry Set to Ruin Reputation...\" on December 11, reporting on the news that the actor had announced her intentions to release a musical album. The story was quickly picked up by the Washington Post, All Headline News and other news agencies eager to report on the Academy Award-winning actress' foray into the musical world. The only trouble is, according to one of the album's alleged producers, Scott Storch, there is no such album...and he definitely hasn't produced three songs for it. Using only the above description and what you know about the world, is \"Halle Berry works with Scott Storch.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "He became a boxing referee in 1964 and became most well-known for his decision against Mike Tyson, during the Holyfield fight, when Tyson bit Holyfield's ear. Using only the above description and what you know about the world, is \"Mike Tyson bit Holyfield's ear in 1964.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "mike tyson bit holyfield's ear in 1964."
+    },
+    {
+        "input": "Kozlowski and the company's former chief financial officer, Mark Swartz, were sentenced, on Monday, to up to 25 years in prison. Using only the above description and what you know about the world, is \"Kozlowski was sentenced, Monday, to serve up to 25 years in prison.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "kozlowski was sentenced, monday, to serve up to 25 years in prison."
+    },
+    {
+        "input": "Wal-Mart Stores has asked a US federal appeals court to review a judge's order approving class-action status for a sex-discrimination lawsuit. Using only the above description and what you know about the world, is \"The judge approves of sex-discrimination.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "wal-mart stores has asked a us federal appeals court to review a judge's order approving class-action status for a sex-discrimination lawsuit."
+    },
+    {
+        "input": "La Paz, 30 May 89 - La Paz Department Police authorities have disclosed that investigations into the murder of two young U.S. citizens are being conducted by a specialized group summoned specially to clarify this crime. Using only the above description and what you know about the world, is \"Two young U.S. citizens were killed on 30 May 89.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Cancer Research Campaign signed a deal with a US pharmaceuticals company to develop a pioneering cancer treatment. Using only the above description and what you know about the world, is \"Other changes involve joint Research and Development programs with other companies.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The investigation came about following the collapse of Barings Bank, when one of its traders based in Singapore, Nick Leeson, amassed losses of the order of 600-700 million without the bank being aware of it. Using only the above description and what you know about the world, is \"Nick Leeson was arrested for collapse of Barings Bank PLC.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "47-year-old Susan Boyle from Blackburn, West Lothian in Scotland, made her debut appearance on the show on Saturday night by saying that she had \"never been married, never been kissed\" and was currently unemployed, living alone at home with her cat, Pebbles. She says that she wants to \"be a professional singer\", but has \"never been given the chance.\" Audience members and judges Amanda Holden, Simon Cowell and Piers Morgan, first laughed and even poked fun at her. Boyle then stunned the judges and audience, getting a standing ovation, with her performance of I Dreamed a Dream from the award winning musical performance Les Mis\u00e9rables. Cowell called her performance \"extraordinary\" while Morgan called it \"the biggest surprise I've had in three years of this show. I am shocked.\" Holden even admitted that \"everyone was against you [Boyle]\" and that \"we were all being very cynical.\" Using only the above description and what you know about the world, is \"Simon Cowell fell in love with Susan Boyle.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Monica Meadows, a 22-year-old model from Atlanta, was shot in the shoulder on a subway car in New York City. Using only the above description and what you know about the world, is \"Monica Meadows, 23, was shot in shoulder while riding a subway car in New York City\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "monica meadows, a 22-year-old model from atlanta, was shot in the shoulder on a subway car in new york city."
+    },
+    {
+        "input": "Despite Bjork making her first live performance in two years, the crowd of 10,000 people was only half of what the hall in the Tokyo suburb of Makuhari could hold. Using only the above description and what you know about the world, is \"10,000 people live in Tokyo.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "makuhari is in tokyo."
+    },
+    {
+        "input": "Hours earlier, Yasser Arafat called for an end to attacks against Israeli civilians in the two weeks before Israeli elections. Using only the above description and what you know about the world, is \"Arafat condemned suicide bomb attacks inside Israel.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The drugs that slow down or halt Alzheimer's disease work best the earlier you administer them. Using only the above description and what you know about the world, is \"Alzheimer's disease is treated using drugs.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "alzheimer's disease is treated using drugs."
+    },
+    {
+        "input": "FMLN reports to our people, and to the people of the world, that the massacre against the Salvadoran Workers National Union Federation [Fenastras] was carried out by Colonel Elena Fuente, as the head of the morbid death squad of the army's 1st Infantry Brigade, in response to our military attack on the army staff. Using only the above description and what you know about the world, is \"Fenastras was attacked by FMLN.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina. Using only the above description and what you know about the world, is \"An international oil agency will make 60 million barrels of oil and gasoline available to the marketplace.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The witness then spotted Rodriguez crouching behind a gate for protection. Using only the above description and what you know about the world, is \"The witness rescued Rodriguez.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "the witness then spotted rodriguez crouching behind a gate for protection."
+    },
+    {
+        "input": "A new report indicates that women's participation in decision-making in the country is minimal. Using only the above description and what you know about the world, is \"Women are poorly represented in parliament.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Miller died Thursday night, of congestive heart failure, at his home in Roxbury, Conn., surrounded by his family, his assistant, Julia Bolus, said Friday. Using only the above description and what you know about the world, is \"Miller died Thursday night, of heart failure, surrounded by family members.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "miller died thursday night, of congestive heart failure, at his home in roxbury, conn., surrounded by his family, his assistant, julia bolus, said friday."
+    },
+    {
+        "input": "The town is also home to the Dalai Lama and to more than 10,000 Tibetans living in exile. Using only the above description and what you know about the world, is \"The Dalai Lama has been living in exile since 10,000.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "the town is also home to the dalai lama and to more than 10,000 tibetans living in exile."
+    },
+    {
+        "input": "Wilson has, after all, produced all three Offspring albums, including \"Smash,\" the one that has astonished everybody by selling 1 million copies in four months, establishing the heretofore unknown group as the leader, with Green Day, of an unprecedented wave of commercial success for punk. Using only the above description and what you know about the world, is \"Smash is the title of the third album of the Offspring.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "There has been a lot of concern over the rise of drug-resistant bacteria. Using only the above description and what you know about the world, is \"Bacteria is winning the war against antibiotics.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "When Albright was the US ambassador to the United Nations, Lesley Stahl of \"60 Minutes\" asked her about the sanctions and the deaths of Iraqi children. Albright said it was America's responsibility to make sure the Gulf War did not have to be fought again. Using only the above description and what you know about the world, is \"Albright said that to punish Saddam Hussein, the deaths of those children were \"worth it.\"\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The publishing companies Bloomsbury (U.K.) and Scholastic (U.S.) released cover art for the seventh Harry Potter book, Harry Potter and the Deathly Hallows. \"The structures around Harry show evident destruction and in the shadows behind him, we see outlines of other people,\" David Saylor, Scholastic's art director, said in a statement describing the U.S. version. \"For the first time, the cover is a wraparound. On the back cover spidery hands are outstretched toward Harry. Only when the book is opened does one see a powerful image of \"He-Who-Must-Not-Be-Named\", his glowing red eyes peering out from his hood.\" Using only the above description and what you know about the world, is \"Rowling is the author of \"Harry Potter\".\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Coextensive with the metropolitan district of Jakarta Raya, it lies at the mouth of the Ciliwung ( Liwung River ) on the northwest coast of Java. Using only the above description and what you know about the world, is \"Jakarta lies at the mouth of the Ciliwung ( Liwung River ) on the northwest coast of the island of Java.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "jakarta raya lies at the mouth of the ciliwung ( liwung river ) on the northwest coast of the island of java."
+    },
+    {
+        "input": "The official visit of the Argentine minister marks a further step in the normalisation of UK-Argentine relations. Using only the above description and what you know about the world, is \"Relations between Argentina and Great Britain are growing more cooperative.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "As a result of these weaknesses, computer systems and the operations that rely on the systems were highly vulnerable to tampering, disruption, and misuse from both internal and external sources. Using only the above description and what you know about the world, is \"Non-authorized personnel illegally entered into computer networks.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The abode of the Greek gods was on the summit of Mount Olympus, in Thessaly. Using only the above description and what you know about the world, is \"Mount Olympus is in Thessaly.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "the abode of the greek gods was on the summit of mount olympus, in thessaly."
+    },
+    {
+        "input": "Leakey believed Kenya's rich wildlife, which underpins a tourist industry worth Dollars 450m (Pounds 308m) a year, could be managed in a profitable and sustainable manner. Using only the above description and what you know about the world, is \"African countries encourage keeping animals alive to attract tourists.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The capital of Slovenia is Ljubljana, with 270,000 inhabitants. Using only the above description and what you know about the world, is \"Slovenia has 270,000 inhabitants.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "slovenia has 270,000 inhabitants."
+    },
+    {
+        "input": "Two Indian diplomats met the Indian prisoner facing death in Pakistan, Sarabjit Singh, on Tuesday at Kot Lakhpat jail in the eastern Pakistani city of Lahore. Using only the above description and what you know about the world, is \"Indian diplomats met an Indian prisoner, on death row, on Tuesday.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "indian diplomats met an indian prisoner, on death row, on tuesday."
+    },
+    {
+        "input": "A condition called \"social anxiety disorder\" this week joined the long list of downers in life - including obesity, impotence, depression and phobia - that Americans once commonly saw as challenges of willpower and character but can now have treated by popping a pill. Using only the above description and what you know about the world, is \"Phobia is a an extreme fear of a particular thing or situation.\" definitely correct? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Blair has sympathy for anyone who has lost their lives in Iraq. Using only the above description and what you know about the world, is \"Blair is sorry for anyone who has lost their lives in Iraq.\" definitely correct? Yes or no?",
+        "target": "yes",
+        "pred": "blair has sympathy for anyone who has lost their lives in iraq."
+    }
+]

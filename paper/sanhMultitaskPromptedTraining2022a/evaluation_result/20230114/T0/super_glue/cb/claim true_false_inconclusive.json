@@ -8,5 +8,75 @@
         "input": "A: Really. If they were to take half of what they spend on that and put it on some economic, you know, intergovernmental or inter United States like programs that one really might. B: Yeah. A: I believe in paying my share, and I don't mind, uh, paying for some of these fringe benefits that people are entitled to. But I just sometimes feel like I'm being used. But, uh, again I don't think we'll be able to do anything about it, Based on that information, is the claim: \"they'll be able to do anything about it\" true, false, or inconclusive?",
         "target": "false",
         "pred": "true"
+    },
+    {
+        "input": "Modify the arachnids, said the researchers. Change their bodies and conditions, and you could get fibres like glass, still monofilament, but with logarithmic progressions of possibilities of strength and flexibility, and the ability to resonate light-particles or sound-waves undistorted, scarcely weakened over thousands of miles. Who said the arachnids had to be totally organic? Based on that information, is the claim: \"arachnids had to be totally organic\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles Based on that information, is the claim: \"most of the smog or air pollution comes from vehicles\" true, false, or inconclusive?",
+        "target": "inconclusive",
+        "pred": "true"
+    },
+    {
+        "input": "A: And you also get a lot of, uh, juries are extremely, uh, and from what I hear, I have some friends who do expert witness testimony and they say that, uh, juries are extremely vulnerable to, uh, sort of emotional pitches, you know, the prosecutor will want to, oh, I don't know show the mugging victim, you know, show the nice person he was and what a family life, and basically get the jury to be very sympathetic with the victim, or, uh, if it's a corporation, that was, uh, you know, harming some individual or something like that, they get very much, well, you know, it's just a big faceless corporation. let's make them pay as much as possible. Things like that. B: Uh-huh. A: So, not, I mean, I'm, the problem is I can't guarantee that a judge would necessarily be much better than a jury, but I'd be real nervous having a jury not at least fully agree on what the settlements would be, things like that. B: Ri-,  I don't think the judge should just make the decision alone. Based on that information, is the claim: \"the judge should just make the decision alone\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "A: for the moment, and that's what really is getting me about what George Bush's stand on the budget is right now is that he is saying, I am going to give you this ludicrous little tax cut so that you'll be happy come November, and you'll elect me again B: Uh-huh.  Uh-huh. A: and then I'm going to go on and just forget everything that I said B: Uh-huh. A: or you know, it doesn't seem that it's going to make much of a difference. Based on that information, is the claim: \"it's going to make much of a difference\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Mr. Steinberg made a $59.7 million profit on the sale to Disney of his investment in the company in 1984. But lawyers said Mr. Steinberg probably faced much more potential liability because, when he sued Disney during his takeover battle, he filed on behalf of all shareholders. When Disney offered to pay Mr. Steinberg a premium for his shares, the New York investor didn't demand the company also pay a premium to other shareholders. Based on that information, is the claim: \"the company would also pay a premium to other shareholders\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "B: And yet, uh, I we-, I hope to see employer based, you know, helping out. You know, child, uh, care centers at the place of employment and things like that, that will help out. A: Uh-huh. B: What do you think, do you think we are, setting a trend? Based on that information, is the claim: \"they are setting a trend\" true, false, or inconclusive?",
+        "target": "inconclusive",
+        "pred": "true"
+    },
+    {
+        "input": "A: I've never heard that one, that's very nice. Oh, so I'm all for the metric system and converting over and I think, I guess, my feeling is the way to do it is to just start giving weights, you know, have a very brief transition period and then just start giving weights and kilometers, er, just as in kilometers and weights and kilograms and everything like that and, uh, just have people start using it rather than having people constantly trying to convert. Remember me getting a package of something that said one pound, this is a package of dates mind you, was, presumably something you weigh fairly precisely, it said one pound and then in parenthesis it said four hundred fifty-four point six grams. B: Right, right. A: And, as near as I could tell, seeing that was basically anti-metric propaganda cause anyone who would say, well look I can either buy a pound of something at four hundred sixty-four point six grams which, of course, they couldn't weigh it out accurately anyway, um, every time I see something like that I think, well, that's an anti-metric argument. B: Yeah. Well, uh, I don't think it could ever happen with a quick transition. Based on that information, is the claim: \"it could happen with a quick transition\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "B: uh, but it's worked out for my family, to have my cake and eat it too, kind of thing. A: Yeah.  Yeah, that's a good deal. Where do you think this is going in the future, I mean, do you think things are going to change, Based on that information, is the claim: \"things are going to change\" true, false, or inconclusive?",
+        "target": "inconclusive",
+        "pred": "true"
+    },
+    {
+        "input": "B: And other than that I do not think it should be allowable. I think it should be illegal for them to want to do that. it's kind of the big brother syndrome, I mean, I just, anything like that just kind of scares me. A: I tend to view it, even though I don't think I'd work for a company that did that, I sort of want to defend an employer's rights uh, in addition to an individual's rights, Based on that information, is the claim: \"she would work for a company that did that\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Valence the void-brain, Valence the virtuous valet. Why couldn't the figger choose his own portion of titanic anatomy to shaft? Did he think he was helping? Based on that information, is the claim: \"Valence was helping\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "A: I do too, so she couldn't possibly turn them out like some of these popular writers, B: Huh-uh. A: but oh, her books are just incredible. I don't think they've ever made a movie, do you? Based on that information, is the claim: \"they've ever made a movie\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "'Very well, I'll go. But I pick my own men, and if we ever have to fight, you obey my word.'' Jehan did not think that Sidacai was in any position to impose conditions but he sat back in his chair considering. Based on that information, is the claim: \"Sidacai was in a position to impose conditions\" true, false, or inconclusive?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment? Based on that information, is the claim: \"there is a shipment\" true, false, or inconclusive?",
+        "target": "inconclusive",
+        "pred": "true"
+    },
+    {
+        "input": "A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing. They say, hey, we got to do something now. And then start playing the game the way the game should be played toward the last few minutes. B: Yeah. A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year Based on that information, is the claim: \"they're going to do anything in the playoffs to make it to the Super Bowl this year\" true, false, or inconclusive?",
+        "target": "inconclusive",
+        "pred": "true"
     }
 ]

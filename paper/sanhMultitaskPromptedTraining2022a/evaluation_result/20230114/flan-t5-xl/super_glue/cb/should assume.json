@@ -1,0 +1,57 @@
+[
+    {
+        "input": "Given B: You never see them on nationally basketball. A: You know, that's true. I don't think I've ever seen them nationally on basketball. Should we assume that \"he has seen them nationally on basketball\" is true? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or no. no one has seen them nationally on basketball. no one has seen them nationally on basketball. no one has seen them nationally on basketball. no one has seen them nationally on basketball. no one has seen them nationally on basketball. no one has seen them nationally on basketball. no one has seen them nationally on basketball. no one has seen them nationally on basketball. no one has seen them nationally on basketball. no, no, or no. no, no, or no."
+    },
+    {
+        "input": "Given But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? Should we assume that \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\" is true? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given A: No, I don't either. B: Uh, I mean it's, you know it, A: I don't think it's going to change very much Should we assume that \"it's going to change very much\" is true? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no, or maybe. it's the other opposite. no, no"
+    },
+    {
+        "input": "Given B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles Should we assume that \"most of the smog or air pollution comes from vehicles\" is true? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Given B: And yet, uh, I we-, I hope to see employer based, you know, helping out. You know, child, uh, care centers at the place of employment and things like that, that will help out. A: Uh-huh. B: What do you think, do you think we are, setting a trend? Should we assume that \"they are setting a trend\" is true? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Given B: Yeah. I understood that. you know, I work full time and I have two kids so my spare time usually involves something with the kids. A: Yeah. B: You know, hobbies, I can't really say that we have hobbies. Should we assume that \"they have hobbies\" is true? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no, or no. no, no"
+    },
+    {
+        "input": "Given B: uh, but it's worked out for my family, to have my cake and eat it too, kind of thing. A: Yeah.  Yeah, that's a good deal. Where do you think this is going in the future, I mean, do you think things are going to change, Should we assume that \"things are going to change\" is true? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Given Valence the void-brain, Valence the virtuous valet. Why couldn't the figger choose his own portion of titanic anatomy to shaft? Did he think he was helping? Should we assume that \"Valence was helping\" is true? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Given A: Your turn. B: Okay. Uh, I don't think they should abolish it. Should we assume that \"they should abolish it\" is true? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes it is possible it is not possible. no, or no, or it is not possible. it's the same as no, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it's the same, no, and no. it'"
+    },
+    {
+        "input": "Given ``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment? Should we assume that \"there is a shipment\" is true? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Given A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing. They say, hey, we got to do something now. And then start playing the game the way the game should be played toward the last few minutes. B: Yeah. A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year Should we assume that \"they're going to do anything in the playoffs to make it to the Super Bowl this year\" is true? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "no"
+    }
+]

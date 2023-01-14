@@ -1,0 +1,377 @@
+[
+    {
+        "input": "John could not hear his alarm clock when he was sleeping with a headphone on his head because the _ is closer.\nReplace the _ in the above sentence with the correct option: \n- headphone\n- clock",
+        "target": "headphone",
+        "pred": "clock"
+    },
+    {
+        "input": "Happiness was most important to Nick but money was most important to William. _ valued a good life.\nReplace the _ in the above sentence with the correct option: \n- Nick\n- William",
+        "target": "nick",
+        "pred": "william"
+    },
+    {
+        "input": "When the car was brought up into the shop, the brake was replaced when the wheel wasn't, since the _ was fixed.\nReplace the _ in the above sentence with the correct option: \n- brake\n- wheel",
+        "target": "wheel",
+        "pred": "brake"
+    },
+    {
+        "input": "Samantha told Lindsey to be careful with the porcelain doll; when she ignored her and dropped the doll, _ was very sorry.\nReplace the _ in the above sentence with the correct option: \n- Samantha\n- Lindsey",
+        "target": "lindsey",
+        "pred": "samantha"
+    },
+    {
+        "input": "During the rescue mission, Maria pulled Rebecca away from the minefield since _ was a civilian.\nReplace the _ in the above sentence with the correct option: \n- Maria\n- Rebecca",
+        "target": "rebecca",
+        "pred": "maria"
+    },
+    {
+        "input": "The refrigerator was acting up again, so we called a technician to repair the part.  The _ was fine when he showed up.\nReplace the _ in the above sentence with the correct option: \n- refrigerator\n- part",
+        "target": "refrigerator",
+        "pred": "part"
+    },
+    {
+        "input": "Pete preferred to use the sheet to the blanket, because the _ was much hotter.\nReplace the _ in the above sentence with the correct option: \n- sheet\n- blanket",
+        "target": "blanket",
+        "pred": "sheet"
+    },
+    {
+        "input": "Since Craig wears clear contacts and William wears colored ones, it is safe to assume that _ loves the color of their eyes.\nReplace the _ in the above sentence with the correct option: \n- Craig\n- William",
+        "target": "craig",
+        "pred": "william"
+    },
+    {
+        "input": "The house of Aaron took some damage from the storm but not Michael's house, because _ lived farther away.\nReplace the _ in the above sentence with the correct option: \n- Aaron\n- Michael",
+        "target": "michael",
+        "pred": "aaron"
+    },
+    {
+        "input": "Emily decided to eat a lot more yucca than Carrie did. _ was no longer hungry.\nReplace the _ in the above sentence with the correct option: \n- Emily\n- Carrie",
+        "target": "emily",
+        "pred": "carrie"
+    },
+    {
+        "input": "Samantha had to get car insurance and Jessica did not because _ just got a new car.\nReplace the _ in the above sentence with the correct option: \n- Samantha\n- Jessica",
+        "target": "samantha",
+        "pred": "jessica"
+    },
+    {
+        "input": "Robert usually didn't like fish as much as Kyle however _ had a disliking for sardines on pizza.\nReplace the _ in the above sentence with the correct option: \n- Robert\n- Kyle",
+        "target": "kyle",
+        "pred": "robert"
+    },
+    {
+        "input": "When other people were smoking, Kayla was more disgusted than Erin because _ had always avoided smoke.\nReplace the _ in the above sentence with the correct option: \n- Kayla\n- Erin",
+        "target": "kayla",
+        "pred": "erin"
+    },
+    {
+        "input": "The woman used a gentle technique when painting the urn but applied more pressure when painting the vase, because the _ was more fragile.\nReplace the _ in the above sentence with the correct option: \n- Urn\n- Vase",
+        "target": "urn",
+        "pred": "vase"
+    },
+    {
+        "input": "It seemed more likely that Brett would wear a fedora rather than Justin because _ was known to dress stylishly.\nReplace the _ in the above sentence with the correct option: \n- Brett\n- Justin",
+        "target": "brett",
+        "pred": "justin"
+    },
+    {
+        "input": "Randy was going to see an X-rated film but was stopped on the sidewalk and yelled at by Nick. The shame showed on _ 's face.\nReplace the _ in the above sentence with the correct option: \n- Randy\n- Nick",
+        "target": "randy",
+        "pred": "nick"
+    },
+    {
+        "input": "Joe did a lot worse on the quiz last week than he did on the test today, because the _ was a surprise.\nReplace the _ in the above sentence with the correct option: \n- quiz\n- test",
+        "target": "quiz",
+        "pred": "test"
+    },
+    {
+        "input": "Randy showed Samuel the abused horse that he rescued from the shelter.  _ was proud of his friend.\nReplace the _ in the above sentence with the correct option: \n- Randy\n- Samuel",
+        "target": "samuel",
+        "pred": "randy"
+    },
+    {
+        "input": "Tommy was able to carry the tripod himself, but his friend had to help him carry the camera because the _ was lighter.\nReplace the _ in the above sentence with the correct option: \n- camera\n- tripod",
+        "target": "tripod",
+        "pred": "camera"
+    },
+    {
+        "input": "She watered the rose but not the cactus, because the soil of the _ was already dry.\nReplace the _ in the above sentence with the correct option: \n- rose\n- cactus",
+        "target": "rose",
+        "pred": "cactus"
+    },
+    {
+        "input": "She suspected that her old makeup had expired after she put it on her skin because her _ was harder.\nReplace the _ in the above sentence with the correct option: \n- makeup\n- skin",
+        "target": "makeup",
+        "pred": "skin"
+    },
+    {
+        "input": "Joe drank his milk and tried to dunk his cookie in the glass but the _ was too small.\nReplace the _ in the above sentence with the correct option: \n- cookie\n- glass",
+        "target": "glass",
+        "pred": "cookie"
+    },
+    {
+        "input": "Adam was a crook and not a law-abiding citizen like Joseph, so it was surprising that _ was the one with a restraining order against him.\nReplace the _ in the above sentence with the correct option: \n- Adam\n- Joseph",
+        "target": "joseph",
+        "pred": "adam"
+    },
+    {
+        "input": "Angela wanted to find a partner, but Victoria wanted to stay single, because _ was lonely.\nReplace the _ in the above sentence with the correct option: \n- Angela\n- Victoria",
+        "target": "angela",
+        "pred": "victoria"
+    },
+    {
+        "input": "Jason missed his work shift in order to finish his research paper, because the _ was less important.\nReplace the _ in the above sentence with the correct option: \n- work shift\n- research paper",
+        "target": "work shift",
+        "pred": "research paper"
+    },
+    {
+        "input": "Joel plans to go to Latin America next year where Dennis is currently living, _ has never been to Latin America.\nReplace the _ in the above sentence with the correct option: \n- Joel\n- Dennis",
+        "target": "joel",
+        "pred": "dennis"
+    },
+    {
+        "input": "The wages at the factory were lower than the wages at the plant since it was more safe to work at the _ .\nReplace the _ in the above sentence with the correct option: \n- plant\n- factory",
+        "target": "factory",
+        "pred": "plant"
+    },
+    {
+        "input": "Kyle loved to camp in the wilderness but Justin preferred a nice hotel. _ booked a trip to Yellowstone Park.\nReplace the _ in the above sentence with the correct option: \n- Kyle\n- Justin",
+        "target": "kyle",
+        "pred": "justin"
+    },
+    {
+        "input": "The wind during the last hurricane tried to knock over their new house, but the _ was too strong.\nReplace the _ in the above sentence with the correct option: \n- house\n- wind",
+        "target": "house",
+        "pred": "wind"
+    },
+    {
+        "input": "To make frosting I needed pudding that was at a store 15 minutes away but pre-made frosting was at a store 5 minutes away.  The _ was closer.\nReplace the _ in the above sentence with the correct option: \n- pudding\n- frosting",
+        "target": "frosting",
+        "pred": "pudding"
+    },
+    {
+        "input": "Samantha gifted her new bathrobe to Betty because it felt very comfortable for _ when she tried it on.\nReplace the _ in the above sentence with the correct option: \n- Samantha\n- Betty",
+        "target": "betty",
+        "pred": "samantha"
+    },
+    {
+        "input": "I don't want to use that iron on my new shirt, and, yes, it's because the _ is too expensive.\nReplace the _ in the above sentence with the correct option: \n- iron\n- shirt",
+        "target": "shirt",
+        "pred": "iron"
+    },
+    {
+        "input": "Wanting to impress his boss, the man put the brandy away and served scotch instead because the _ was cheap.\nReplace the _ in the above sentence with the correct option: \n- Brandy\n- Scotch",
+        "target": "brandy",
+        "pred": "scotch"
+    },
+    {
+        "input": "The trumpet part overpowered the reeds but could not be heard over the strings, as the _ were just too quiet .\nReplace the _ in the above sentence with the correct option: \n- reeds\n- strings",
+        "target": "reeds",
+        "pred": "strings"
+    },
+    {
+        "input": "In order to increase her estrogen, Jenny started eating carrots instead of donuts because the _ were not junky.\nReplace the _ in the above sentence with the correct option: \n- donuts\n- carrots",
+        "target": "carrots",
+        "pred": "donuts"
+    },
+    {
+        "input": "The health of Joel was stronger than that of William due to _ being a cigar smoker.\nReplace the _ in the above sentence with the correct option: \n- Joel\n- William",
+        "target": "william",
+        "pred": "joel"
+    },
+    {
+        "input": "Jill was on a budget so she only bought a new dress for the ceremony and wore an old hat. She figured the _ would be more noticeable.\nReplace the _ in the above sentence with the correct option: \n- dress\n- hat",
+        "target": "dress",
+        "pred": "hat"
+    },
+    {
+        "input": "The bartender cut Carrie off but continued to serve Emily because _ was too drunk.\nReplace the _ in the above sentence with the correct option: \n- Carrie\n- Emily",
+        "target": "carrie",
+        "pred": "emily"
+    },
+    {
+        "input": "The Windows software attempted to install the upgrades onto the computer, but the _ exceeded data capacity.\nReplace the _ in the above sentence with the correct option: \n- software\n- computer",
+        "target": "software",
+        "pred": "computer"
+    },
+    {
+        "input": "Kenneth is accused of destroying drywall in Jeffrey's house, _ is renting the house.\nReplace the _ in the above sentence with the correct option: \n- Kenneth\n- Jeffrey",
+        "target": "kenneth",
+        "pred": "jeffrey"
+    },
+    {
+        "input": "Tanya looked for an escape route while Elena did not because _ liked to be aware of all the surroundings.\nReplace the _ in the above sentence with the correct option: \n- Tanya\n- Elena",
+        "target": "tanya",
+        "pred": "elena"
+    },
+    {
+        "input": "Michael was on a diet, but cheated by eating junk food with Christopher. _ felt bad for ruining his plan.\nReplace the _ in the above sentence with the correct option: \n- Michael\n- Christopher",
+        "target": "christopher",
+        "pred": "michael"
+    },
+    {
+        "input": "Joel got advice on buying stocks from his cousin Bob while Eric used a broker. _ had a virtually worthless portfolio of companies.\nReplace the _ in the above sentence with the correct option: \n- Joel\n- Eric",
+        "target": "joel",
+        "pred": "eric"
+    },
+    {
+        "input": "The sound of the foot was clearly audible from the street because the _ is quiet.\nReplace the _ in the above sentence with the correct option: \n- street\n- sound",
+        "target": "street",
+        "pred": "sound"
+    },
+    {
+        "input": "The jewelry sold for less than the baseball card did since the _ was very common.\nReplace the _ in the above sentence with the correct option: \n- card\n- jewelry",
+        "target": "jewelry",
+        "pred": "card"
+    },
+    {
+        "input": "Aaron didn't know Dennis had a peanut allergy, so when _ ate peanut chicken an ambulance was called.\nReplace the _ in the above sentence with the correct option: \n- Aaron\n- Dennis",
+        "target": "dennis",
+        "pred": "aaron"
+    },
+    {
+        "input": "Rebecca asked Kayla to turn the lights out but _ did not want to go to sleep.\nReplace the _ in the above sentence with the correct option: \n- Rebecca\n- Kayla",
+        "target": "kayla",
+        "pred": "rebecca"
+    },
+    {
+        "input": "Joe immediately went to bakery before the bank because the _ had a substantial supply of what he wanted.\nReplace the _ in the above sentence with the correct option: \n- bakery\n- bank",
+        "target": "bank",
+        "pred": "bakery"
+    },
+    {
+        "input": "Gem needed both therapy and medicines to cope with her broken leg. She preferred the _ because it was painless.\nReplace the _ in the above sentence with the correct option: \n- medicine\n- therapy",
+        "target": "medicine",
+        "pred": "therapy"
+    },
+    {
+        "input": "Kelly was embarrassed when his toga fell off at the party and people saw his underwear because the _ was too tight.\nReplace the _ in the above sentence with the correct option: \n- toga\n- underwear",
+        "target": "underwear",
+        "pred": "toga"
+    },
+    {
+        "input": "Victoria was still grieving the death of a friend more than Elena, because _ had a more distant relationship with the friend.\nReplace the _ in the above sentence with the correct option: \n- Victoria\n- Elena",
+        "target": "elena",
+        "pred": "victoria"
+    },
+    {
+        "input": "Brian asked  Nick to feed their rabbit,because  _ was planning on going on vacation to Disney for a week.\nReplace the _ in the above sentence with the correct option: \n- Brian\n- Nick",
+        "target": "brian",
+        "pred": "nick"
+    },
+    {
+        "input": "Patricia had to pay less tax than Cynthia because _ made more money in the year.\nReplace the _ in the above sentence with the correct option: \n- Patricia\n- Cynthia",
+        "target": "cynthia",
+        "pred": "patricia"
+    },
+    {
+        "input": "The kitty ran away from Kayla and not Felicia because the kitty had known _ for many years.\nReplace the _ in the above sentence with the correct option: \n- Kayla\n- Felicia",
+        "target": "felicia",
+        "pred": "kayla"
+    },
+    {
+        "input": "Kevin drew the blood from Ian's arm, because _ was giving it to do some tests.\nReplace the _ in the above sentence with the correct option: \n- Kevin\n- Ian",
+        "target": "ian",
+        "pred": "kevin"
+    },
+    {
+        "input": "Ian's hair is being worked on by Craig, so it's more likely _ is the customer.\nReplace the _ in the above sentence with the correct option: \n- Ian\n- Craig",
+        "target": "ian",
+        "pred": "craig"
+    },
+    {
+        "input": "The battery of the the phone died faster than the laptop battery, because the _ was always off.\nReplace the _ in the above sentence with the correct option: \n- phone\n- laptop",
+        "target": "laptop",
+        "pred": "phone"
+    },
+    {
+        "input": "Judy bought new brushes to paint the etched glasses crack but it didn't fit. The _ was too narrow.\nReplace the _ in the above sentence with the correct option: \n- brush\n- crack",
+        "target": "crack",
+        "pred": "brush"
+    },
+    {
+        "input": "Carrie was helping Patricia diet and exercise at the gym to lose weight because _ used to be overweight.\nReplace the _ in the above sentence with the correct option: \n- Carrie\n- Patricia",
+        "target": "carrie",
+        "pred": "patricia"
+    },
+    {
+        "input": "The parakeet flew to Hunter but flew past Samuel because _ had some bird seed in their hand.\nReplace the _ in the above sentence with the correct option: \n- Hunter\n- Samuel",
+        "target": "hunter",
+        "pred": "samuel"
+    },
+    {
+        "input": "Mary wanted to get another piercing in her ear, but the _ was much too tiny.\nReplace the _ in the above sentence with the correct option: \n- ear\n- piercing",
+        "target": "ear",
+        "pred": "piercing"
+    },
+    {
+        "input": "Benjamin was chosen instead of Brett to be the makeup artist for the play because _ was less experienced.\nReplace the _ in the above sentence with the correct option: \n- Benjamin\n- Brett",
+        "target": "brett",
+        "pred": "benjamin"
+    },
+    {
+        "input": "Mark preferred his drinks in paper cups over styrofoam cups because the _ are strong.\nReplace the _ in the above sentence with the correct option: \n- styrofoam cups\n- paper cups",
+        "target": "paper cups",
+        "pred": "styrofoam cups"
+    },
+    {
+        "input": "The doctor suggested alternating between ice and a heating pad when I strained a muscle, but he warned me to not let the _ get too cold.\nReplace the _ in the above sentence with the correct option: \n- ice\n- pad",
+        "target": "ice",
+        "pred": "pad"
+    },
+    {
+        "input": "My mom didn't fit the shape into the painting, because the _ was too complete.\nReplace the _ in the above sentence with the correct option: \n- shape\n- painting",
+        "target": "painting",
+        "pred": "shape"
+    },
+    {
+        "input": "Emily said that Victoria's hijab was silly and old fashioned. _ heard some very offensive things.\nReplace the _ in the above sentence with the correct option: \n- Emily\n- Victoria",
+        "target": "victoria",
+        "pred": "emily"
+    },
+    {
+        "input": "Jeffrey thought Craig probably had gum and asked for a piece, because _ had bad breath.\nReplace the _ in the above sentence with the correct option: \n- Jeffrey\n- Craig",
+        "target": "jeffrey",
+        "pred": "craig"
+    },
+    {
+        "input": "The architect tried to build the room inside the house but the _ was too large.\nReplace the _ in the above sentence with the correct option: \n- house\n- room",
+        "target": "room",
+        "pred": "house"
+    },
+    {
+        "input": "So _ ignored their ear because Jessica has a ear infection and Felicia was fine.\nReplace the _ in the above sentence with the correct option: \n- Jessica\n- Felicia",
+        "target": "felicia",
+        "pred": "jessica"
+    },
+    {
+        "input": "The library always had more books than computers, most likely because the _ are bigger.\nReplace the _ in the above sentence with the correct option: \n- books\n- computers",
+        "target": "computers",
+        "pred": "books"
+    },
+    {
+        "input": "The juice from the mango fruit could not fill up the cup because the _ is small.\nReplace the _ in the above sentence with the correct option: \n- mango\n- cup",
+        "target": "mango",
+        "pred": "cup"
+    },
+    {
+        "input": "The woman didn't need an apprasial for the desk, but wondered how much the table was worth, because the _ appeared to be common.\nReplace the _ in the above sentence with the correct option: \n- desk\n- table",
+        "target": "desk",
+        "pred": "table"
+    },
+    {
+        "input": "Jessica wants to protect herself from infectious diseases so she goes to doctor Samantha, because _ is careful.\nReplace the _ in the above sentence with the correct option: \n- Jessica\n- Samantha",
+        "target": "jessica",
+        "pred": "samantha"
+    },
+    {
+        "input": "The stain in the bucket could not be cleaned with the brush because the _ is soft.\nReplace the _ in the above sentence with the correct option: \n- stain\n- brush",
+        "target": "brush",
+        "pred": "stain"
+    },
+    {
+        "input": "The room at the hotel cost more to stay in than the room at the inn because the _ was nastier.\nReplace the _ in the above sentence with the correct option: \n- hotel\n- inn",
+        "target": "inn",
+        "pred": "hotel"
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "input": "The driver turned on the car's headlights.  This happened because... \nHelp me pick the more plausible option:\n- He heard thunder.\n- The sun went down.",
+        "target": "the sun went down.",
+        "pred": "he heard thunder."
+    },
+    {
+        "input": "The driver got a flat tire.  This happened because... \nHelp me pick the more plausible option:\n- He went over the speed limit.\n- He ran over a nail.",
+        "target": "he ran over a nail.",
+        "pred": "he went over the speed limit."
+    },
+    {
+        "input": "Everyone in the class turned to stare at the student.  This happened because... \nHelp me pick the more plausible option:\n- The student's phone rang.\n- The student took notes.",
+        "target": "the student's phone rang.",
+        "pred": "the student took notes."
+    },
+    {
+        "input": "My eyes became red and puffy.  This happened because... \nHelp me pick the more plausible option:\n- I was sobbing.\n- I was laughing.",
+        "target": "i was sobbing.",
+        "pred": "i was laughing."
+    },
+    {
+        "input": "The woman's hair fell in her face.  As a consequence... \nHelp me pick the more plausible option:\n- She pulled her hair back with a clip.\n- She lathered shampoo into her hair.",
+        "target": "she pulled her hair back with a clip.",
+        "pred": "she lathered shampoo into her hair."
+    },
+    {
+        "input": "The bowling ball knocked over the bowling pins.  This happened because... \nHelp me pick the more plausible option:\n- The man rolled the bowling ball down the alley.\n- The man dropped the bowling ball on his foot.",
+        "target": "the man rolled the bowling ball down the alley.",
+        "pred": "the man dropped the bowling ball on his foot."
+    },
+    {
+        "input": "I doubted the salesman's pitch.  As a consequence... \nHelp me pick the more plausible option:\n- I turned his offer down.\n- He persuaded me to buy the product.",
+        "target": "i turned his offer down.",
+        "pred": "he persuaded me to buy the product."
+    },
+    {
+        "input": "I put rubber gloves on.  This happened because... \nHelp me pick the more plausible option:\n- I was preparing to wash my hands.\n- I was preparing to clean the bathroom.",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to wash my hands."
+    },
+    {
+        "input": "I pushed the wagon.  As a consequence... \nHelp me pick the more plausible option:\n- The objects in the wagon fell out.\n- The wagon wheels spun forward.",
+        "target": "the wagon wheels spun forward.",
+        "pred": "the objects in the wagon fell out."
+    },
+    {
+        "input": "I tidied up my house.  This happened because... \nHelp me pick the more plausible option:\n- I was swamped with work.\n- I was expecting company.",
+        "target": "i was expecting company.",
+        "pred": "i was swamped with work."
+    },
+    {
+        "input": "The judge pounded the gavel.  This happened because... \nHelp me pick the more plausible option:\n- The courtroom broke into uproar.\n- The jury announced its verdict.",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "The jewelry thieves were caught.  As a consequence... \nHelp me pick the more plausible option:\n- The stolen jewelry was returned to its owners.\n- The cost of the stolen jewelry was calculated.",
+        "target": "the stolen jewelry was returned to its owners.",
+        "pred": "the cost of the stolen jewelry was calculated."
+    },
+    {
+        "input": "I twisted the cap off the soda bottle.  As a consequence... \nHelp me pick the more plausible option:\n- The soda fizzed.\n- The soda leaked out.",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    },
+    {
+        "input": "I put my hands under the running faucet.  As a consequence... \nHelp me pick the more plausible option:\n- The soap rinsed off my hands.\n- The water splashed in my face.",
+        "target": "the soap rinsed off my hands.",
+        "pred": "the water splashed in my face."
+    },
+    {
+        "input": "The couple travelled south for the winter.  This happened because... \nHelp me pick the more plausible option:\n- They were retired.\n- They were separated.",
+        "target": "they were retired.",
+        "pred": "they were separated."
+    },
+    {
+        "input": "The man perceived that the woman looked different.  This happened because... \nHelp me pick the more plausible option:\n- The woman got her hair cut.\n- The woman wore a bracelet.",
+        "target": "the woman got her hair cut.",
+        "pred": "the woman wore a bracelet."
+    }
+]

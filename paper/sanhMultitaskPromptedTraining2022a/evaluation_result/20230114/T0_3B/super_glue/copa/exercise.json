@@ -1,0 +1,97 @@
+[
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe woman lavished her friend with flattery.  because... \n- She wanted to ask her friend for a favor.\n- She was irritated with her friend's whining.",
+        "target": "she wanted to ask her friend for a favor.",
+        "pred": "she was irritated with her friend's whining."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe pair of students came under scrutiny by the teacher.  because... \n- The students both received excellent grades.\n- Their responses on the assignment were identical.",
+        "target": "their responses on the assignment were identical.",
+        "pred": "the students both received excellent grades."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nEveryone in the class turned to stare at the student.  because... \n- The student's phone rang.\n- The student took notes.",
+        "target": "the student's phone rang.",
+        "pred": "the student took notes."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nMy eyes became red and puffy.  because... \n- I was sobbing.\n- I was laughing.",
+        "target": "i was sobbing.",
+        "pred": "i was laughing."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe key was missing from my pants pocket.  because... \n- The pocket had a hole.\n- The pants were new.",
+        "target": "the pocket had a hole.",
+        "pred": "the pants were new."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe sick child coughed on his friend.  so... \n- His friend got sick.\n- His friend sneezed.",
+        "target": "his friend got sick.",
+        "pred": "his friend sneezed."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe woman's hair fell in her face.  so... \n- She pulled her hair back with a clip.\n- She lathered shampoo into her hair.",
+        "target": "she pulled her hair back with a clip.",
+        "pred": "she lathered shampoo into her hair."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe bowling ball knocked over the bowling pins.  because... \n- The man rolled the bowling ball down the alley.\n- The man dropped the bowling ball on his foot.",
+        "target": "the man rolled the bowling ball down the alley.",
+        "pred": "the man dropped the bowling ball on his foot."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nI doubted the salesman's pitch.  so... \n- I turned his offer down.\n- He persuaded me to buy the product.",
+        "target": "i turned his offer down.",
+        "pred": "he persuaded me to buy the product."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nPlans were announced to replace a local park with a shopping mall.  so... \n- Environmentalists started a petition.\n- Environmentalists produced a documentary.",
+        "target": "environmentalists started a petition.",
+        "pred": "environmentalists produced a documentary."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nI put rubber gloves on.  because... \n- I was preparing to wash my hands.\n- I was preparing to clean the bathroom.",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to wash my hands."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe judge pounded the gavel.  because... \n- The courtroom broke into uproar.\n- The jury announced its verdict.",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe jewelry thieves were caught.  so... \n- The stolen jewelry was returned to its owners.\n- The cost of the stolen jewelry was calculated.",
+        "target": "the stolen jewelry was returned to its owners.",
+        "pred": "the cost of the stolen jewelry was calculated."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe computer was expensive to fix.  so... \n- I got it repaired.\n- I bought a new one.",
+        "target": "i bought a new one.",
+        "pred": "i got it repaired."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe woman read the newspaper.  so... \n- She discovered the outcome of the election.\n- She casted a vote in the election.",
+        "target": "she discovered the outcome of the election.",
+        "pred": "she casted a vote in the election."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nI put my hands under the running faucet.  so... \n- The soap rinsed off my hands.\n- The water splashed in my face.",
+        "target": "the soap rinsed off my hands.",
+        "pred": "the water splashed in my face."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe boy threw a temper tantrum.  because... \n- His brother took his toys from him.\n- He shared his toys with his brother.",
+        "target": "his brother took his toys from him.",
+        "pred": "he shared his toys with his brother."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe couple travelled south for the winter.  because... \n- They were retired.\n- They were separated.",
+        "target": "they were retired.",
+        "pred": "they were separated."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe man perceived that the woman looked different.  because... \n- The woman got her hair cut.\n- The woman wore a bracelet.",
+        "target": "the woman got her hair cut.",
+        "pred": "the woman wore a bracelet."
+    }
+]

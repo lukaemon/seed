@@ -1,0 +1,692 @@
+[
+    {
+        "input": "Sentence 1: I expect to receive wages.\nSentence 2: We were expecting a visit from our relatives.\n\nDetermine whether the word \"expect\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: They kept a log of all transmission by the radio station.\nSentence 2: An email log.\n\nDetermine whether the word \"log\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The professionalization of warfare.\nSentence 2: The professionalization of American sports.\n\nDetermine whether the word \"professionalization\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "yes or no. yes or no. no or no. yes or no. yes or no. no or no. yes or no. yes or no. no or no. yes or no. yes or no. no or no. yes or no. yes or no. no or no. yes or no. yes or no. yes or no. no or no. yes or no. yes or no. yes or no. yes or no. yes or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no"
+    },
+    {
+        "input": "Sentence 1: The CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nSentence 2: Instructional designers are trained in something that might be called tradecraft.\n\nDetermine whether the word \"tradecraft\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The accident created a dimple in the hood of the car.\nSentence 2: There are approximately 336 dimples on a golf ball.\n\nDetermine whether the word \"dimple\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: A strand of pearls.\nSentence 2: He tried to pick up the strands of his former life.\n\nDetermine whether the word \"strand\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Sentence 1: Her glasses left marks on the bridge of her nose.\nSentence 2: Rugby players often break the bridge of their noses.\n\nDetermine whether the word \"bridge\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "yes or no the sentence 1: no one is a no. the sentence 2: no one is a yes. the sentence 3: no one is a no. no one is a no. the sentence 2: no one is a no. no one is a no. the sentence 3: no one is a no. no one is a no. the sentence 2: no one is a no. no one is a no. the sentence 3: no and no. no one is a no. no one is a no. no one is a no. the sentence 1: no one is a no. no one is a no. the sentence 2: no one is a no. no one is a no. no one is a no. no one is a no. no one is a no. no one is a no. no if the sentence 1 and 2 is different. no. the bridge of her nose is the next sentence. no one is a no. no one is a no. no one is a no. no one is a no. no if no. no or no. the bridge of her nose"
+    },
+    {
+        "input": "Sentence 1: He got his wish.\nSentence 2: My best wishes.\n\nDetermine whether the word \"wish\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: The intolerable license with which the newspapers break ... the rules of decorum -- Edmund Burke.\nSentence 2: When liberty becomes license dictatorship is near -- Will Durant.\n\nDetermine whether the word \"license\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: His studio was cramped when he began as an artist.\nSentence 2: You don't need a studio to make a passport photograph.\n\nDetermine whether the word \"studio\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: A recrudescence of racism.\nSentence 2: A recrudescence of the symptoms.\n\nDetermine whether the word \"recrudescence\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "yes or no. yes or no. the same sentence is the same sentence. no. the same sentence is the same sentence. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is yes. no. the same sentence is no. the same sentence is yes. no. no. the same sentence is no. no. the same sentence is yes. no. no or no. the same sentence is yes. no. the same sentence is no. no. the same sentence is yes. no. no or no. no or no. no or no. no or no. no or no. no or no. no or no. no or no"
+    },
+    {
+        "input": "Sentence 1: Return her love.\nSentence 2: Return a compliment.\n\nDetermine whether the word \"return\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the word \"return\" is used in both sentences."
+    },
+    {
+        "input": "Sentence 1: He made his morning toilet and went to breakfast.\nSentence 2: Pensions are in the toilet.\n\nDetermine whether the word \"toilet\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes or no no no no yes yes no no no yes yes or no yes no no no yes no no no yes no no no yes no no no yes no no no yes no no no yes no no no no yes no no no no yes no no no no yes no no no no no no yes no no no no no no yes no no no no no no no yes no no no no no no no no yes no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: A place setting of sterling flatware.\nSentence 2: He changed the setting on the thermostat.\n\nDetermine whether the word \"setting\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: Sign an intersection.\nSentence 2: This road has been signed.\n\nDetermine whether the word \"sign\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no or yes. yes or no. no or no. no or no. no or no. no or no. no or no."
+    },
+    {
+        "input": "Sentence 1: This will renovate my spirits.\nSentence 2: They renovated the ceiling of the Sistine Chapel.\n\nDetermine whether the word \"renovate\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes or no the same meaning the same sense the same sentence the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense"
+    },
+    {
+        "input": "Sentence 1: I would like to thank the brother who just spoke.\nSentence 2: None of his brothers would betray him.\n\nDetermine whether the word \"brother\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning as the sentence on the same sentence. the sentence on the same sentence. the sentence on the opposite sentence. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page. the same meaning as the sentence on the opposite page"
+    },
+    {
+        "input": "Sentence 1: We went there by foot because we could not afford a taxi.\nSentence 2: There is a lot of foot traffic on this street.\n\nDetermine whether the word \"foot\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Carve one's name into the bark.\nSentence 2: That chisel carved the statue.\n\nDetermine whether the word \"carve\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the word \"carved\" is used in both sentences."
+    },
+    {
+        "input": "Sentence 1: Segment a compound word.\nSentence 2: Segment an orange.\n\nDetermine whether the word \"segment\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Some of the members may donate privately.\nSentence 2: She donates to her favorite charity every month.\n\nDetermine whether the word \"donate\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "yes or no the same sentence is the opposite of the opposite of the sentence 2. the same person is different if the person donating is different if the person donating is the same person. no the same person is different if the person donating is different if the sentence and the sentence. no no no yes or no the same person is different if the person donating is different if the sentence and the sentence. no yes no different if the same person if the same person if the same person if the same if the sentence and the sentence. no yes no different if the same person's if the same if the sentence. no yes no different if the same person's if the same if the sentence. no yes no different if the same person's if the same if the sentence. no yes no different if the same person's if the same if the sentence. no yes no different if the same person's the same if the sentence. no no no different if the same person's the same if the sentence. no no"
+    },
+    {
+        "input": "Sentence 1: A plume of smoke.\nSentence 2: Grass with large plumes.\n\nDetermine whether the word \"plume\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: He allowed a month to elapse before beginning the work.\nSentence 2: Several days elapsed before they met again.\n\nDetermine whether the word \"elapse\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: A surprising experience.\nSentence 2: Experience is the best teacher.\n\nDetermine whether the word \"experience\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning different sentences the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the"
+    },
+    {
+        "input": "Sentence 1: A clothes horse.\nSentence 2: 500 horse led the attack.\n\nDetermine whether the word \"horse\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no yes no no yes no no yes no no yes no no yes no no no yes no no no yes no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: Don't fuss too much over the grandchildren -- they are quite big now.\nSentence 2: She fusses over her husband.\n\nDetermine whether the word \"fuss\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes or no the sentence 1 and sentence 2 are different. the sentence 2 is different from the sentence 1 and the sentence 2. the sentence 2 is different from the sentence 1 and the sentence 2. the sentence 2 is different from the sentence 1 and the sentence 2. the sentence 2 is different from the sentence 1 and the sentence 2. the sentence 2 is different from the sentence 1 and the sentence 2. the sentence 2 is different from the sentence 1 and the sentence 2. the sentence 2 is different from the sentence 1 and the sentence 2. the sentence is different from the sentence 1 and the sentence 2. the sentence is different from the sentence 1 and the sentence 2. the sentence is different from the sentence 1 and the sentence 2. the sentence is different from the sentence 1 and the sentence 2. the sentence is different from the sentence 1 and the sentence 2. the sentence is different from the sentence 1 and the sentence 2. the sentence is different from the sentence 1 and the sentence 2. the sentence is different from the sentence 1 and the sentence 2. the sentence is different from the sentence 1 and the sentence 2. the sentence is different from the sentence 1 and the sentence 2"
+    },
+    {
+        "input": "Sentence 1: A girl's education was less important than a boy's.\nSentence 2: Education is a preparation for life.\n\nDetermine whether the word \"education\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The forwarding of resumes to the personnel department.\nSentence 2: The forwarding of mail to a new address is done automatically.\n\nDetermine whether the word \"forwarding\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: I woke up in the middle of the night.\nSentence 2: A whole is that which has beginning, middle, and end -- Aristotle.\n\nDetermine whether the word \"middle\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: They organized a rescue operation.\nSentence 2: Consolidate the companies various operations.\n\nDetermine whether the word \"operation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The minister said a prayer on behalf of the entire congregation.\nSentence 2: Clergymen are usually called ministers in Protestant churches.\n\nDetermine whether the word \"minister\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The average cost of a new house is twice as much as t was 20 years ago.\nSentence 2: The total cost of the new complex was an estimated $1.5 million.\n\nDetermine whether the word \"cost\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The force required to compress a spring varies linearly with the displacement.\nSentence 2: She compressed her lips.\n\nDetermine whether the word \"compress\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: A valuable financial affiliation.\nSentence 2: Welcomed the affiliation of the research center with the university.\n\nDetermine whether the word \"affiliation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: The French treat food with gentle reverence.\nSentence 2: The Chinese reverence for the dead.\n\nDetermine whether the word \"reverence\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning different sens the same meaning different sens the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same"
+    },
+    {
+        "input": "Sentence 1: The policeman waited for a heartbeat in vain.\nSentence 2: He alone gives me such heartbeats.\n\nDetermine whether the word \"heartbeat\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: He ran to safety.\nSentence 2: The reciprocal of safety is risk.\n\nDetermine whether the word \"safety\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no or no. the same sentence is different from the sentence in the last sentence. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. the same no. no. the same no. no. the same no. no. the same no. no. the same no. no. the same no. no. the same no. no. the same no. no. the same no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no."
+    },
+    {
+        "input": "Sentence 1: I need him to be nice.\nSentence 2: I needed him to go.\n\nDetermine whether the word \"need\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same sentence as sentence two. sentence three is the same as sentence two. sentence four is the same as sentence three. sentence five is the same as sentence six. sentence six is the same as sentence seven. sentence two is the same as sentence three. sentence three is the same as sentence four. sentence four is the same as sentence three. sentence five is the same as sentence six. sentence six is the same as sentence seven. sentence two is the same as sentence three. sentence one is the same as sentence two. sentence three is different from sentence two. sentence one is the same as sentence two. sentence six is the same as sentence seven. sentence two is different from sentence one. sentence three is the same as sentence four. sentence one is the same as sentence two. sentence three is the same as sentence four. sentence one is the same as sentence two. sentence two is the same as sentence three. sentence one is the same as sentence two. sentence three is the same as sentence four. sentence one is the same as sentence two. sentence two is the same as sentence three. sentence one is the same as sentence two. sentence three is the same as sentence four. sentence one is the same as sentence two. sentence two is the same as sentence"
+    },
+    {
+        "input": "Sentence 1: The embodiment of hope.\nSentence 2: A circle was the embodiment of his concept of life.\n\nDetermine whether the word \"embodiment\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes or no the same sentence is different sentence is the second sentence. no or no the same sentence is the same sentence. no or no the same sentence is the same sentence. no or no the same sentence is the same sentence. yes or no the same sentence is the same sentence. no or no the same sentence is the same sentence. no or no the same sentence is the same sentence. yes or no the same sentence is the same sentence. no or no the same sentence is the same sentence. yes or no the same sentence is the same sentence. no or no the sentence is yes or no. no or no no"
+    },
+    {
+        "input": "Sentence 1: The bane of my existence.\nSentence 2: The bane of my life.\n\nDetermine whether the word \"bane\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning is the same sentence. yes or no the same meaning is the same sentence. yes or no the same meaning is the same sentence. yes or no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. yes or no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. yes or no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same meaning is the same sentence. no the same"
+    },
+    {
+        "input": "Sentence 1: We decided to forge ahead with our plans even though our biggest underwriter backed out.\nSentence 2: He forged ahead.\n\nDetermine whether the word \"forge\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Rise to the occasion.\nSentence 2: Her spirits rose when she heard the good news.\n\nDetermine whether the word \"rise\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same or different sentence. yes or no. yes or no. no. no. yes or no. yes or no. yes or no. no. yes or no. yes or no. no. yes or no. yes or no. yes or no. no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no"
+    },
+    {
+        "input": "Sentence 1: A keen musical sense.\nSentence 2: A good sense of timing.\n\nDetermine whether the word \"sense\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no no no. no no. no no. no no. no no. no no. no no. no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no. no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: A string of islands.\nSentence 2: The strings played superlatively well.\n\nDetermine whether the word \"string\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning as the other sentence the string of islands is a string of islands. the string of the islands is a string of the same type of the same number of islands. the string of the islands is a string of the same type of the same number of islands. the string of the islands is a string of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type of the same type"
+    },
+    {
+        "input": "Sentence 1: The drug capital of Columbia.\nSentence 2: The crime capital of Italy.\n\nDetermine whether the word \"capital\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "yes or no"
+    },
+    {
+        "input": "Sentence 1: Truman upset Dewey in the 1948 US presidential election.\nSentence 2: The foreign team upset the local team.\n\nDetermine whether the word \"upset\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning different sentences. yes or no. yes or no. no. no. no. no. no. no."
+    },
+    {
+        "input": "Sentence 1: The relations between town and gown are always sensitive.\nSentence 2: In the perennial town versus gown battles, townies win some violent battles, but the collegians are winning the war.\n\nDetermine whether the word \"gown\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: I applaud your efforts.\nSentence 2: Although we don't like your methods, we applaud your motives.\n\nDetermine whether the word \"applaud\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. y or no. y or no. whether the sentence is different. yes or no. yes or no. the same sentence. yes or no. yes or no. y or no. y or no. whether the sentence is different. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. yes or no. no or no. yes or no. no or no. yes or no. yes or no. no or no. no or no. yes or no. no or no. no or no. no"
+    },
+    {
+        "input": "Sentence 1: A growth of hair.\nSentence 2: The growth of culture.\n\nDetermine whether the word \"growth\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes or no the noun and the noun are the same noun and the same noun different sentences. no or different noun the noun and the noun the same noun the same noun the same noun the same noun the noun the same noun the same noun the same noun the noun the same noun the same noun the noun the same noun the same noun the same noun the noun the same noun the same noun the noun the same noun the same noun the noun no no different noun no or no no or no no or no no or no no or no no or no no or no no or no no or no no no or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: What does the law say?\nSentence 2: The clock says noon.\n\nDetermine whether the word \"say\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the no or no sentences. no or no? no or no? no or no? no or no? no or no? no or no"
+    },
+    {
+        "input": "Sentence 1: She only wore that dress to upstage everyone.\nSentence 2: When the dog entered the stage, he upstaged the actress.\n\nDetermine whether the word \"upstage\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The preponderance of good over evil.\nSentence 2: The preponderance of wealth and power.\n\nDetermine whether the word \"preponderance\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence the sentence"
+    },
+    {
+        "input": "Sentence 1: He signed the deed.\nSentence 2: I inherited the deed to the house.\n\nDetermine whether the word \"deed\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The engineer marvelled at his construction.\nSentence 2: Construction is underway on the new bridge.\n\nDetermine whether the word \"construction\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes the same meaning of the sentence yes yes or no the same meaning of the sentence no yes the same meaning of the sentence no yes the same meaning of the sentence no yes the same meaning of the sentence no yes no or no yes yes the same meaning of the sentence no yes no or no yes the same meaning of the sentence no yes no or no yes the same meaning of the sentence no yes no or no yes the same meaning of the sentence no yes no or no yes yes the same meaning of the sentence no yes no or no yes yes the same meaning of the sentence no yes no no no the same meaning of the sentence no yes no no no yes no no no no yes no no no no no yes no no no no no yes no no no no no no yes no no no no no yes no no no no no no yes no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: To shock rye.\nSentence 2: Shock grain.\n\nDetermine whether the word \"shock\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The party of the first part.\nSentence 2: He planned a party to celebrate Bastille Day.\n\nDetermine whether the word \"party\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the party of the first part."
+    },
+    {
+        "input": "Sentence 1: She has free agency.\nSentence 2: Central Intelligence Agency.\n\nDetermine whether the word \"agency\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning in the different sentences yes or no no yes or no yes or no no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no no yes or no yes or no yes or no yes or no no yes or no yes or no yes or no yes no no yes no yes no no yes no yes no no yes no yes no no yes no yes no no yes no no yes no no yes no no yes no no yes no no yes no no yes no no yes no no yes no no no yes no no yes no no no yes no no no yes no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: The politician wore a bright yellow button with the slogan \"Vote Smart\" emblazoned on it.\nSentence 2: They passed out campaign buttons for their candidate.\n\nDetermine whether the word \"button\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The collapse of the old star under its own gravity.\nSentence 2: The roof is in danger of collapse.\n\nDetermine whether the word \"collapse\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "yes or no no yes or no yes the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the"
+    },
+    {
+        "input": "Sentence 1: An eyebrow pencil.\nSentence 2: This artist's favorite medium is pencil.\n\nDetermine whether the word \"pencil\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no no no no  no no  no no  no no  no no  no no  no no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no  no"
+    },
+    {
+        "input": "Sentence 1: Plants from a cold clime travel best in winter.\nSentence 2: After working hard all of his life, Max retired to warmer climes in Florida.\n\nDetermine whether the word \"clime\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The new law might abridge our freedom of expression.\nSentence 2: He had his rights abridged by the crooked sheriff.\n\nDetermine whether the word \"abridge\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Always a step behind.\nSentence 2: Keep in step with the fashions.\n\nDetermine whether the word \"step\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: To liberate the mind from prejudice.\nSentence 2: To liberate gases.\n\nDetermine whether the word \"liberate\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "yes or no the sentence 1 and sentence 2 are different. the sentence 1 is different from sentence 2 and the sentence 2 is different from the sentence 2 the sentence 1 is different from sentence 2 and the sentence 2 is different from the sentence 3 the same sentence is different. the sentence 1 and sentence 2 are different. the sentence 1 is different from sentence 2 and the sentence 2 is different. the sentence 1 and sentence 2 are different. the sentence 1 and sentence 2 are different. the sentence 1 and sentence 2 are different. the sentence 1 and sentence 2 are different. the sentence 1 is different from sentence 2. the sentence 2 is different from sentence 3. the sentence is different. yes or no. yes or no."
+    },
+    {
+        "input": "Sentence 1: The path of virtue.\nSentence 2: Our paths in life led us apart.\n\nDetermine whether the word \"path\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no no or the same meaning the noun ty the same meaning is the same as the noun path. no or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: Analyze your real motives.\nSentence 2: The inspector analyzed the building's soundness.\n\nDetermine whether the word \"analyze\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: A branch of Congress.\nSentence 2: We have branches in all major suburbs.\n\nDetermine whether the word \"branch\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no different meaning different sentences. yes or no. no no no no or yes yes or no no no no. no no no no or no no no no or no no no no or no no no no or no no no no or no no no no or no no no no or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: Here's a good potluck of beans and stew.\nSentence 2: Having arrived unannounced we had to take potluck.\n\nDetermine whether the word \"potluck\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: They started at the bottom of the hill.\nSentence 2: They did much of their overseas trade in foreign bottoms.\n\nDetermine whether the word \"bottom\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning as the other sentence and the same meaning as the first sentence. no no no no if the nominot nominot nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin nomin"
+    },
+    {
+        "input": "Sentence 1: The publisher wants to distribute the book in Asia.\nSentence 2: The function distributes the values evenly.\n\nDetermine whether the word \"distribute\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning different the same sentence. the same meaning of the sentence different the same meaning. the same meaning of the sentence different the same meaning. the same meaning of the sentence different the same meaning. the same meaning of the sentence different the same meaning. the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the"
+    },
+    {
+        "input": "Sentence 1: Force socialization rarely creates strong friendships, but there are exceptions.\nSentence 2: There was too much socialization with the enlisted men.\n\nDetermine whether the word \"socialization\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: They didn't have much in the way of clothing.\nSentence 2: We went our separate ways.\n\nDetermine whether the word \"way\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: Glaze the bread with eggwhite.\nSentence 2: The potter glazed the dishes.\n\nDetermine whether the word \"glaze\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Let's finalize the proposal.\nSentence 2: As soon as we get the plane tickets, we'll finalize our reservations with the hotel.\n\nDetermine whether the word \"finalize\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same. finalize the proposal. finalize the proposal. finalize the reservations. finalize the reservations. the same. finalize the proposals. finalize the reservations. finalize the reservations. the same. finalize the proposals. finalize the reservations. finalize the reservations. determine if the proposal is finalize the same. finalize the proposals. finalize the reservations. finalize the proposals. determine if the proposal is finalize the same. finalize the proposals. finalize the reservations. finalize the proposals. finalize the reservations. finalize the proposals. finalize the reservations. finalize the proposals. the same. the proposal is finalize the proposal. finalize the proposals. finalize the reservations. finalize the reservations. finalize the proposals. the same. the proposal is finalize the proposal. finalize the proposals. finalize the reservations. finalize the reservations. finalize the reservations. determine if the proposal is finalize the same. finalize the proposals. finalize the reservations. finalize the reservations. finalize the reservations. finalize the reservations. the same. the proposal is finalize the proposal. finalize the proposals. finalize the reservations. finalize the reservations."
+    },
+    {
+        "input": "Sentence 1: A mechanism of social control.\nSentence 2: Mechanisms of communication.\n\nDetermine whether the word \"mechanism\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no or yes no or no no or no no or different meanings yes or no no or different meanings yes or no no no or different meanings yes or no no or different meanings yes or no no or different meanings yes or no no or different meanings yes or no no or different meanings yes or no no no or different meanings yes or no no no or different meanings yes or no no no or different meanings yes or no no no or no no no no no no or no no no no no no no no or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: A force out was recorded on the scorecard.\nSentence 2: A public force is necessary to give security to the rights of citizens.\n\nDetermine whether the word \"force\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "different meanings of the same sentence no or no no or no no or no no no or no no no or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: If you average 10, 20 and 24, you get 18.\nSentence 2: The number of hours I work per work averages out to 40.\n\nDetermine whether the word \"average\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning as the sentence 1 the number of hours i work per work averages out to 40. the number of hours i work per work averages the same as the number of hours i work per work averages out to 40. the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same as the number of hours i work per work averages the same"
+    },
+    {
+        "input": "Sentence 1: Some languages sexualize all nouns and do not have a neuter gender.\nSentence 2: The god was sexualized and married to another god.\n\nDetermine whether the word \"sexualize\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Did you ever lecture at Harvard?\nSentence 2: She lectured to the class about her travels.\n\nDetermine whether the word \"lecture\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning different sentences the same meaning different sentences the same meaning different sentences the same meaning different sentences the same meaning different sentences the same meaning different sentences the same meaning different sentences the same meaning different sentences the same meaning different sentences the same meaning the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense"
+    },
+    {
+        "input": "Sentence 1: Belabor the obvious.\nSentence 2: She was belabored by her fellow students.\n\nDetermine whether the word \"belabor\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: A pedestrian was able to trip the burglar as he was running away.\nSentence 2: The questions on the test tripped him up.\n\nDetermine whether the word \"trip\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The chemistry of indigo.\nSentence 2: The chemistry of iron.\n\nDetermine whether the word \"chemistry\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: A fight broke out at the hockey game.\nSentence 2: There were fights in the streets.\n\nDetermine whether the word \"fight\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence the same meaning of the sentence"
+    },
+    {
+        "input": "Sentence 1: A good lead for a job.\nSentence 2: Joe is a great addition to our sales team, he has numerous leads in the paper industry.\n\nDetermine whether the word \"lead\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The rug had a wide blue border.\nSentence 2: The borders of the garden.\n\nDetermine whether the word \"border\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: He came out of nowhere.\nSentence 2: They went on a cruise to nowhere.\n\nDetermine whether the word \"nowhere\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: His treatment of the race question is badly biased.\nSentence 2: His treatment of space borrows from Italian architecture.\n\nDetermine whether the word \"treatment\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no different meaning different sentences no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no different meaning no"
+    },
+    {
+        "input": "Sentence 1: Did I fail the test?\nSentence 2: She studied hard but failed nevertheless.\n\nDetermine whether the word \"fail\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the test or fail nevertheless. the test failed to be failed therefore. therefore, he failed to fail. the test failed to fail. therefore, he failed to fail. the test failed to fail. therefore, he failed to fail. he failed to fail. therefore, he failed to fail. he failed to fail. therefore, he failed to fail. he failed to fail. therefore, he failed to fail. he failed to fail. therefore, he failed to fail. he failed to fail. therefore, he failed to fail. he failed to fail. hence, he failed to fail. he failed to fail. therefore, he failed to fail. he failed to fail. therefore, he failed to fail. he failed to fail. hence, he failed to fail. he failed to fail. consequently. he failed to fail. hence, he failed to fail. he failed to fail. consequently. he failed to fail. hence, he failed to fail. consequently. he failed to fail. hence, he failed to fail. consequently. he failed to fail. hence, he failed to fail. hence, he failed to fail"
+    },
+    {
+        "input": "Sentence 1: Even the pitcher doesn't know where his knuckleball is going.\nSentence 2: Boston Red Sox pitcher Tim Wakefield is best known for his use of the knuckleball.\n\nDetermine whether the word \"knuckleball\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The impregnation of wood with preservative.\nSentence 2: The impregnation, whatever it was, had turned the rock blue.\n\nDetermine whether the word \"impregnation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no or no. yes or no. the no or the same meaning. yes the same meaning. the same meaning. the same meaning. the same meaning. the same meaning. the same meaning. yes or no. yes or no. the same meaning. the same meaning. the same meaning. the same meaning. yes or no. the same meaning. yes or no. the same meaning. the same meaning. yes or no. the same meaning. yes or no. the same meaning. the same meaning. yes or no. the same meaning. yes or no. the same meaning. the same meaning. the same meaning. yes or no. the same meaning. the same meaning. yes or no. the same meaning. the same meaning. yes or no. yes or no. yes or no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no"
+    },
+    {
+        "input": "Sentence 1: The carpenter who built this room must have lost his square.\nSentence 2: 64 is the square of 8.\n\nDetermine whether the word \"square\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning if the carpenter lost his square. no one is a no. no one is no. no no. no no no no. no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: You can characterize his behavior as that of an egotist.\nSentence 2: This poem can be characterized as a lament for a dead lover.\n\nDetermine whether the word \"characterize\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The restaurant is noted for its excellent cuisine.\nSentence 2: French cuisine is considered to be one of the world's most refined and elegant styles of cooking.\n\nDetermine whether the word \"cuisine\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning in the different sentences. yes or no? the restaurant is noted for its excellent cuisine. the same is true of the cuisine. the same is true of the restaurant. the same is true of the cuisine. the same is true of the restaurant. the same is true of the cuisine. the same is the case with the different sentences. yes or no the same meaning in the different sentences. yes or no the same meaning in the different sentences. yes or no the same meaning in the different sentences. yes or no the same meaning in the different sentences. no yes or no no yes or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: The superintendence and agency of Providence in the natural world. -- Woodward.\nSentence 2: The Central Intelligence Agency.\n\nDetermine whether the word \"agency\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes yes or different senses yes or no yes or no no yes or no no yes no yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes or no yes yes yes or no yes yes yes or no yes yes yes or no no"
+    },
+    {
+        "input": "Sentence 1: He left the preparation of meals to his wife.\nSentence 2: The resolution of one dissonance is often the preparation for another dissonance.\n\nDetermine whether the word \"preparation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense the same sense"
+    },
+    {
+        "input": "Sentence 1: She wants to act Lady Macbeth, but she is too young for the role.\nSentence 2: I started acting at the age of eleven in my local theatre.\n\nDetermine whether the word \"act\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning or different sense in the sentences. yes or no the sentence 1 and sentence 2 are different. the sentence 2 assumes the same meaning as the sentence 1 and the sentence 2. whether the sentence is the same is the same sentence. yes or no the sentence 1 and sentence 2 are different. whether the sentence is the same is the same sentence. no or no the sentence 2 and sentence 3 are different. whether the sentence is the same is the same sentence. yes or no the sentence 1 and sentence 2 is different. whether the sentence is the same is the same sentence. no or no the sentence 2 is different. whether the sentence is the same is the same sentence. yes or no the sentence 1 and sentence 2 are different. whether the sentence is the same is the same sentence. no or no the sentence is yes or no. yes or no. no or no."
+    },
+    {
+        "input": "Sentence 1: Fuel aircraft, ships, and cars.\nSentence 2: Fuel the debate on creationism.\n\nDetermine whether the word \"fuel\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no or different meanings different yes or no. no or no yes or no no yes or no yes or no no yes or no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no yes or no no no no yes or no no yes or no no yes or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: A mince of mushrooms.\nSentence 2: Mince tastes really good fried in a pan with some chopped onion and tomato.\n\nDetermine whether the word \"mince\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Kill the engine.\nSentence 2: He killed the ball.\n\nDetermine whether the word \"kill\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning as the sentence the same meaning as the sentence the same meaning as the sentence in the second sentence. the sentence is different from the sentence in the first sentence. the sentence is different from the sentence in the second sentence. the sentence is different from the sentence in the first sentence. the sentence is different from the sentence in the second sentence. the sentence is different from the sentence in the first sentence. the sentence is different from the sentence in the second sentence. the sentence is different from the sentence in the first sentence. the sentence is different from the sentence in the second sentence. the sentence is different from the sentence in the first sentence. the sentence is different from the sentence in the second sentence. the sentence is different from the sentence in the first sentence. the sentence is different from the sentence in the second sentence. the sentence is different from the sentence in the first sentence. the sentence is different from the sentence in the second sentence. the sentence is different from the sentence in the first sentence. the sentence is different from the sentence in the second sentence. the sentence is different from the sentence in the first sentence. the sentence is different from the sentence in the second sentence. the sentence is different from the sentence in the first sentence. the sentence is different"
+    },
+    {
+        "input": "Sentence 1: Stop a car.\nSentence 2: Stop the thief.\n\nDetermine whether the word \"stop\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: There was a blockage in the sewer, so we called out the plumber.\nSentence 2: We had to call a plumber to clear out the blockage in the drainpipe.\n\nDetermine whether the word \"blockage\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: That is the correct pronunciation.\nSentence 2: The pronunciation of Chinese is difficult for foreigners.\n\nDetermine whether the word \"pronunciation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: The catch was only 10 fish.\nSentence 2: He shared his catch with the others.\n\nDetermine whether the word \"catch\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: The invaders spread their language all over the country.\nSentence 2: A big oil spot spread across the water.\n\nDetermine whether the word \"spread\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning different sentences. yes or no"
+    },
+    {
+        "input": "Sentence 1: Our children share a love of music.\nSentence 2: The two countries share a long border.\n\nDetermine whether the word \"share\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Let's not whitewash the crimes of Stalin.\nSentence 2: In his sermon, the minister didn't try to whitewash over the sins of his church.\n\nDetermine whether the word \"whitewash\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: Gunny invariably tried to bite her.\nSentence 2: As soon as you bite that sandwich, you'll know how good it is.\n\nDetermine whether the word \"bite\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning different sentences. yes or no. no different sentence. yes or no. no different sentence. no different sentence the same sentence the same sentence the sentence is different from the sentence the sentence is based on the same meaning of the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence is different from the sentence the same sentence the sentence the same sentence the sentence is different from the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same sentence the sentence the same"
+    },
+    {
+        "input": "Sentence 1: The last bastion of communism.\nSentence 2: A bastion against corruption.\n\nDetermine whether the word \"bastion\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "yes or no the same meaning is the same as the last bastion of the same type is the same as the last bastion of the same type. no the same meaning is the same as the last bastion of the same type. no or no the same meaning is the same as the last bastion of the same type. yes or no the no and the same meaning is the same. no or no no no  no or no no no  no or no no no no or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: It was his last wish.\nSentence 2: They should respect the wishes of the people.\n\nDetermine whether the word \"wish\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning as last wish is the opposite of the meaning of the sentence the last wish is that they respect the wishes of the people. different people. different people wish that they should respect the people. he same person the last wish is his last wish. the same person they should respect the people. if they respect the people or the people he wants the people want respect the people. if the people they are respec the same people the people want respect the people they are if the same people the people want respect the people they are the same people the people want respect the people they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same person they are different people the same"
+    },
+    {
+        "input": "Sentence 1: Be careful crossing the street.\nSentence 2: The whole street protested the absence of lights.\n\nDetermine whether the word \"street\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "no different meaning no or no. no or no no or no no or no no or no no or no no or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: An emerging professional class.\nSentence 2: Apologizing for losing your temper, even though you were badly provoked, showed real class.\n\nDetermine whether the word \"class\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning different sentences. no or no no or no no or no no or no no or no no or no no or no no or no no or no no or no no or no no or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: The outward passage took 10 days.\nSentence 2: She struggled to play the difficult passages.\n\nDetermine whether the word \"passage\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning different sentences different days. the outward passage took 10 days. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages. the same meaning different sentence the same day different passages"
+    },
+    {
+        "input": "Sentence 1: The assembly plant is an enormous facility.\nSentence 2: Educational facilities.\n\nDetermine whether the word \"facility\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes or no"
+    },
+    {
+        "input": "Sentence 1: Let loose mines.\nSentence 2: Loose terrible plagues upon humanity.\n\nDetermine whether the word \"loose\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the opposite of loose is loose. loose is another word for loose. loose is another word loose. loose is another word loose. the same person as loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. the same person loose is loose. no. yes or no. yes or no. no. no. yes or no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no"
+    },
+    {
+        "input": "Sentence 1: Elections figure prominently in every government program.\nSentence 2: How do the elections figure in the current pattern of internal politics?\n\nDetermine whether the word \"figure\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no or no? no or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: To moderate a synod.\nSentence 2: John moderated the discussion.\n\nDetermine whether the word \"moderate\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The plane made a smooth landing.\nSentence 2: His landing on his feet was catlike.\n\nDetermine whether the word \"landing\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Admit someone to the profession.\nSentence 2: She was admitted to the New Jersey Bar.\n\nDetermine whether the word \"admit\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no different meaning the same sentence yes or no different meaning the same sentence different sentence the same no no different meaning the same no different meaning the same no different different meaning the same no different different meaning the same no different different different meaning the same no different different different meaning the same no different different different different meaning the same no different different different different meaning the same no different different different different meaning the same no different different different different different meaning the same no different different different different different meaning the same no different different different different different different meaning the same no different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different different sentences."
+    },
+    {
+        "input": "Sentence 1: I love French food.\nSentence 2: I loved to write.\n\nDetermine whether the word \"love\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "different senses the same or different sentences. different sentence the different sentence is different sentence different sentences. different sentence the sentence the sentence the same sense as the sentence the sentence the different sense. the sentence the sentence the different sense. the sentence the sentence the different sense. the sentence the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the different sense the sentence the sentence the same. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the different sense the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense. the sentence the different sense."
+    },
+    {
+        "input": "Sentence 1: At liberty to choose whatever occupation one wishes.\nSentence 2: Liberty to think or feel or do just as one pleases.\n\nDetermine whether the word \"liberty\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no no no yes yes or no yes yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes"
+    },
+    {
+        "input": "Sentence 1: How did your interview go?\nSentence 2: She was going that way anyway, so she offered to show him where it was.\n\nDetermine whether the word \"go\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no or no? no or no? the sentence is not matched. no or no. no or no. the sentence is no and no. the sentence is the same as the sentence 1 and the sentence 2. the sentence 2 is different. the sentence 1 and the sentence 2 are different. the sentence 1 and the sentence 2 are different. the sentence 1 and the sentence 2 are different. the same meaning of the sentence 1 and the sentence 2. the same meaning of the sentence 2 the sentence 1 and the sentence 2 are different. the same meaning of the sentence 1 and the sentence 2."
+    },
+    {
+        "input": "Sentence 1: More fuel is needed during the winter months.\nSentence 2: They developed alternative fuels for aircraft.\n\nDetermine whether the word \"fuel\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning different yes or no. no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    },
+    {
+        "input": "Sentence 1: The belief that the world is flat is a falsity.\nSentence 2: Argument could not determine its truth or falsity.\n\nDetermine whether the word \"falsity\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Economic cooperation.\nSentence 2: They agreed on a policy of cooperation.\n\nDetermine whether the word \"cooperation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: For recreation he wrote poetry and solved crossword puzzles.\nSentence 2: Drug abuse is often regarded as a form of recreation.\n\nDetermine whether the word \"recreation\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: 'Smog' is a blend of 'smoke' and 'fog'.\nSentence 2: Their music has been described as a blend of jazz and heavy metal.\n\nDetermine whether the word \"blend\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: There was plenty of food for everyone.\nSentence 2: It must have cost plenty.\n\nDetermine whether the word \"plenty\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes or no yes or no the same sentence yes or no the same sentence yes or no the same sentence yes or no the same sentence yes or no the same sentence yes or no the same sentence yes or no the same sentence yes or no the same sentence yes or no the same sentence yes or no the same sentence yes or no the same sentence yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes no or no yes no"
+    },
+    {
+        "input": "Sentence 1: There was an art exhibition on in the town hall.\nSentence 2: A boat exhibition.\n\nDetermine whether the word \"exhibition\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "yes or no"
+    },
+    {
+        "input": "Sentence 1: I am trying to contact my sister.\nSentence 2: He never contacted his children after he emigrated to Australia.\n\nDetermine whether the word \"contact\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: The senator rose to register his protest.\nSentence 2: They finished the game under protest to the league president.\n\nDetermine whether the word \"protest\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "the same meaning of the same word. the same meaning of the word \"protest\" is different in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in the different sentences. the same meaning of the word \"protest\" is the same in"
+    },
+    {
+        "input": "Sentence 1: The need for informational flexibility can lead to adhocracy.\nSentence 2: The choice between bureaucracy and adhocracy represents a common dilemma.\n\nDetermine whether the word \"adhocracy\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: She loves to stay at home and cocoon.\nSentence 2: Families cocoon around the T.V. set most evenings.\n\nDetermine whether the word \"cocoon\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no the same meaning different sens the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning the same meaning"
+    },
+    {
+        "input": "Sentence 1: Can I invite you for dinner on Sunday night?\nSentence 2: The organizers invite submissions of papers for the conference.\n\nDetermine whether the word \"invite\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "the same meaning different sentences. yes or no. yes or no. no. no. yes or no. yes or no. yes or no. no. yes or no. yes or no. no. yes or no. yes or no. no. no. yes or no. yes or no. no. no. yes or no. yes or no. no. no. yes or no. yes or no. no. yes or no. no. yes or no. yes or no. no. yes or no. yes or no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no. no"
+    },
+    {
+        "input": "Sentence 1: He has a keen intellect.\nSentence 2: Some of the world's leading intellects were meeting there.\n\nDetermine whether the word \"intellect\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sentence 1: On entering a host cell, a virus will start to replicate.\nSentence 2: Replicate the cell.\n\nDetermine whether the word \"replicate\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: He felt a stream of air.\nSentence 2: The hose ejected a stream of water.\n\nDetermine whether the word \"stream\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Can I keep my old stuffed animals?\nSentence 2: She kept her maiden name after she married.\n\nDetermine whether the word \"keep\" is used in the same sense in both sentences. Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Sentence 1: Submerge your head completely.\nSentence 2: The submarine submerged in the water.\n\nDetermine whether the word \"submerge\" is used in the same sense in both sentences. Yes or no?",
+        "target": "no",
+        "pred": "yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no yes or no no no no yes or no no yes or no no yes or no yes or no no yes or no no yes or no no no no yes or no yes or no yes or no no no no no no yes or no yes or no yes or no yes or no no no no no no no no no yes or no yes or no yes or no yes or no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no"
+    }
+]

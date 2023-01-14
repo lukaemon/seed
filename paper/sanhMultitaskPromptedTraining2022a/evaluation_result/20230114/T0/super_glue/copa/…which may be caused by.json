@@ -18,5 +18,80 @@
         "input": "The man received a parking ticket. Which may be caused by \"He parallel parked on the street.\" or \"The parking meter expired.\"?",
         "target": "the parking meter expired.",
         "pred": "parallel parking on the street"
+    },
+    {
+        "input": "The driver got a flat tire. Which may be caused by \"He went over the speed limit.\" or \"He ran over a nail.\"?",
+        "target": "he ran over a nail.",
+        "pred": "\"he went over the speed limit.\""
+    },
+    {
+        "input": "Everyone in the class turned to stare at the student. Which may be caused by \"The student's phone rang.\" or \"The student took notes.\"?",
+        "target": "the student's phone rang.",
+        "pred": "the student took notes."
+    },
+    {
+        "input": "My view of the movie screen was blocked. Which may be caused by \"The couple behind me was whispering.\" or \"A tall person was sitting in front of me.\"?",
+        "target": "a tall person was sitting in front of me.",
+        "pred": "tall person sitting in front of me"
+    },
+    {
+        "input": "The bowling ball knocked over the bowling pins. Which may be caused by \"The man rolled the bowling ball down the alley.\" or \"The man dropped the bowling ball on his foot.\"?",
+        "target": "the man rolled the bowling ball down the alley.",
+        "pred": "the man rolled the bowling ball down the alley"
+    },
+    {
+        "input": "The woman covered her mouth with her hand. Which may be caused by \"She exhaled.\" or \"She sneezed.\"?",
+        "target": "she sneezed.",
+        "pred": "sneezed"
+    },
+    {
+        "input": "The woman asked the man to leave. Which may be caused by \"He insulted her.\" or \"He thanked her.\"?",
+        "target": "he insulted her.",
+        "pred": "insulted her"
+    },
+    {
+        "input": "My ears were ringing. Which may be caused by \"I went to a museum.\" or \"I went to a concert.\"?",
+        "target": "i went to a concert.",
+        "pred": "concert"
+    },
+    {
+        "input": "The woman was arrested. Which may be caused by \"She checked into rehab.\" or \"She committed assault.\"?",
+        "target": "she committed assault.",
+        "pred": "\"she committed assault.\""
+    },
+    {
+        "input": "The judge pounded the gavel. Which may be caused by \"The courtroom broke into uproar.\" or \"The jury announced its verdict.\"?",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "The boy skipped dinner. Which may be caused by \"His mother cooked his favorite meal.\" or \"He ate a big lunch.\"?",
+        "target": "he ate a big lunch.",
+        "pred": "he ate a big lunch"
+    },
+    {
+        "input": "The dog barked. Which may be caused by \"The cat lounged on the couch.\" or \"A knock sounded at the door.\"?",
+        "target": "a knock sounded at the door.",
+        "pred": "a knock sounded at the door"
+    },
+    {
+        "input": "The woman contacted the real estate agent. Which may be caused by \"The woman planned to buy a condo.\" or \"The woman needed to clean her house.\"?",
+        "target": "the woman planned to buy a condo.",
+        "pred": "buy a condo"
+    },
+    {
+        "input": "The woman ran her finger under cold water. Which may be caused by \"She burned her finger on the toaster.\" or \"She put a diamond ring on her finger.\"?",
+        "target": "she burned her finger on the toaster.",
+        "pred": "put a diamond ring on her finger"
+    },
+    {
+        "input": "The man perceived that the woman looked different. Which may be caused by \"The woman got her hair cut.\" or \"The woman wore a bracelet.\"?",
+        "target": "the woman got her hair cut.",
+        "pred": "the woman wore a bracelet."
+    },
+    {
+        "input": "The flame on the candle went out. Which may be caused by \"I blew on the wick.\" or \"I put a match to the wick.\"?",
+        "target": "i blew on the wick.",
+        "pred": "i put a match to the wick."
     }
 ]

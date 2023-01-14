@@ -1,0 +1,67 @@
+[
+    {
+        "input": "Suppose But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? Can we infer that \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles Can we infer that \"most of the smog or air pollution comes from vehicles\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose Mr. Steinberg made a $59.7 million profit on the sale to Disney of his investment in the company in 1984. But lawyers said Mr. Steinberg probably faced much more potential liability because, when he sued Disney during his takeover battle, he filed on behalf of all shareholders. When Disney offered to pay Mr. Steinberg a premium for his shares, the New York investor didn't demand the company also pay a premium to other shareholders. Can we infer that \"the company would also pay a premium to other shareholders\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "it is not possible to infer that the company would also pay a premium to other shareholders."
+    },
+    {
+        "input": "Suppose B: And yet, uh, I we-, I hope to see employer based, you know, helping out. You know, child, uh, care centers at the place of employment and things like that, that will help out. A: Uh-huh. B: What do you think, do you think we are, setting a trend? Can we infer that \"they are setting a trend\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year or who do you like to do that this year? A: Uh, no I don't think the Cowboys have got a chance. Can we infer that \"the Cowboys have got a chance\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, the cowboys have no chance."
+    },
+    {
+        "input": "Suppose B: uh, but it's worked out for my family, to have my cake and eat it too, kind of thing. A: Yeah.  Yeah, that's a good deal. Where do you think this is going in the future, I mean, do you think things are going to change, Can we infer that \"things are going to change\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose The assassin's tone and bearing were completely confident. If he noticed that Zukov was now edging further to the side widening the arc of fire he did not appear to be troubled. Can we infer that \"Zukov was edging further to the side\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "yes, the assassin's tone and bearing were completely confident. if he noticed that zukov was now edging further to the side widening the arc of fire he did not appear to be troubled."
+    },
+    {
+        "input": "Suppose A: I'm like, I'll get a job some day and my boss will pay for it, I'll be needed. B: Yeah. A: Because, um, I didn't want to go do it myself because I didn't think I was really going to use it. Can we infer that \"he was really going to use it\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, he didn't think he was really going to use it."
+    },
+    {
+        "input": "Suppose Valence the void-brain, Valence the virtuous valet. Why couldn't the figger choose his own portion of titanic anatomy to shaft? Did he think he was helping? Can we infer that \"Valence was helping\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose 'Very well, I'll go. But I pick my own men, and if we ever have to fight, you obey my word.'' Jehan did not think that Sidacai was in any position to impose conditions but he sat back in his chair considering. Can we infer that \"Sidacai was in a position to impose conditions\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, jehan did not think that sidacai was in any position to impose conditions."
+    },
+    {
+        "input": "Suppose A: Well, got any problems on Mockingbird with crime or is that a crime free zone there? B: No, I don't think there is any such thing, as a crime free zone any longer. Can we infer that \"there is some such thing as a crime free zone\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, i don't think there is any such thing, as a crime free zone any longer."
+    },
+    {
+        "input": "Suppose ``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment? Can we infer that \"there is a shipment\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing. They say, hey, we got to do something now. And then start playing the game the way the game should be played toward the last few minutes. B: Yeah. A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year Can we infer that \"they're going to do anything in the playoffs to make it to the Super Bowl this year\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "no"
+    }
+]

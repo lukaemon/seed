@@ -1,0 +1,42 @@
+[
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe horse bucked.  as a result of: \n- A fly bit the horse.\n- The rider stroked the horse.",
+        "target": "a fly bit the horse.",
+        "pred": "the rider stroked the horse."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nEveryone in the class turned to stare at the student.  as a result of: \n- The student's phone rang.\n- The student took notes.",
+        "target": "the student's phone rang.",
+        "pred": "the student took notes."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nI put rubber gloves on.  as a result of: \n- I was preparing to wash my hands.\n- I was preparing to clean the bathroom.",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to wash my hands."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe judge pounded the gavel.  as a result of: \n- The courtroom broke into uproar.\n- The jury announced its verdict.",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe child learned how to read.  as a result of: \n- He began attending school.\n- He skipped a grade in school.",
+        "target": "he began attending school.",
+        "pred": "he skipped a grade in school."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nI twisted the cap off the soda bottle.  as a consequence: \n- The soda fizzed.\n- The soda leaked out.",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe animal species became endangered.  as a result of: \n- Their habitat was destroyed.\n- Their predators went extinct.",
+        "target": "their habitat was destroyed.",
+        "pred": "the animal species became endangered. as a result of: - their habitat was destroyed."
+    },
+    {
+        "input": "Pick the more likely continuation to the following sentence:\nThe ring on my finger got stuck.  as a result of: \n- My finger swelled.\n- I chipped my fingernail.",
+        "target": "my finger swelled.",
+        "pred": "i chipped my fingernail."
+    }
+]

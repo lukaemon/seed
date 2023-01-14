@@ -1,0 +1,32 @@
+[
+    {
+        "input": "I regained composure from my fit of anger. Which may be caused by \"My heart pounded.\" or \"I took deep breaths.\"?",
+        "target": "i took deep breaths.",
+        "pred": "my heart pounded."
+    },
+    {
+        "input": "The clock chimed. Which may be caused by \"It was the top of the hour.\" or \"The hour seemed to drag on.\"?",
+        "target": "it was the top of the hour.",
+        "pred": "the top of the hour."
+    },
+    {
+        "input": "The pair of students came under scrutiny by the teacher. Which may be caused by \"The students both received excellent grades.\" or \"Their responses on the assignment were identical.\"?",
+        "target": "their responses on the assignment were identical.",
+        "pred": "the students both received excellent grades."
+    },
+    {
+        "input": "The driver turned on the car's headlights. Which may be caused by \"He heard thunder.\" or \"The sun went down.\"?",
+        "target": "the sun went down.",
+        "pred": "he heard thunder."
+    },
+    {
+        "input": "The man received a parking ticket. Which may be caused by \"He parallel parked on the street.\" or \"The parking meter expired.\"?",
+        "target": "the parking meter expired.",
+        "pred": "he parallel parked on the street."
+    },
+    {
+        "input": "The judge pounded the gavel. Which may be caused by \"The courtroom broke into uproar.\" or \"The jury announced its verdict.\"?",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    }
+]

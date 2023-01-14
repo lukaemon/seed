@@ -1,0 +1,162 @@
+[
+    {
+        "input": "Ssangyong Motor was taken over by creditors after it collapsed under heavy debts during the 1997-98 Asian financial crisis.\nQuestion: Asian financial crisis takes over Ssangyong Motor True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "The Massachusetts Supreme Judicial Court has cleared the way for lesbian and gay couples in the state to marry, ruling that government attorneys \"failed to identify any constitutionally adequate reason\" to deny them the right.\nQuestion: U.S. Supreme Court in favor of same-sex marriage True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Fujimori charged that on January 26, 1995, Ecuador fired the first shot, an allegation denied by Ecuador's leader, Sixto Duran-Ballen. Predictably, each side blamed the other for starting the 1995 conflict, just as each pointed the finger of guilt to the other for provoking the border war of 1941, when Peru took most of the 120,000 square miles in contention between the two countries.\nQuestion: President Fujimori was re-elected in 1995. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "The Amish community in Pennsylvania, which numbers about 55,000, lives an agrarian lifestyle, shunning technological advances like electricity and automobiles. And many say their insular lifestyle gives them a sense that they are protected from the violence of American society. But as residents gathered near the school, some wearing traditional garb and arriving in horse-drawn buggies, they said that sense of safety had been shattered. \"If someone snaps and wants to do something stupid, there's no distance that's going to stop them,\" said Jake King, 56, an Amish lantern maker who knew several families whose children had been shot.\nQuestion: Pennsylvania has the biggest Amish community in the U.S. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Amazon shares fell nearly 4 percent following the results as the company said operating income would drop as much as 42 percent in the second quarter.\nQuestion: Shares of Amazon fell 4 percent. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Nokia, Texas Instruments and other leading makers of mobile phones have formally complained to Brussels that Qualcomm, the US mobile chipmaker, has unfairly used its patents on 3G technologies.\nQuestion: Texas Instruments produces mobile phones. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Mount Olympus towers up from the center of the earth.\nQuestion: Mount Olympus is in the center of the earth. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Tropical storm Koni dumped significant rains on the Philippines before becoming a minimal typhoon and eventually making landfall on the northern coast of Vietnam.\nQuestion: A tropical storm has caused significant property damage. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Zahi Hawass, Egypt's pre-eminent archaeologist, revealed the first ancient artifacts which may lead to the discovery of Cleopatra and Marc Antony's resting place.  The expedition has found amulets, 22 bronze coins cast with Cleopatra's image and her name, a royal statue, an alabaster mask resembling Marc Antony, and a statue bust of Cleopatra. \"If you look at the face of Mark Antony, many believed he had this cleft on his chin and that's why I thought this could be Mark Antony,\" said Hawass.  \"In my opinion, if this tomb is found, it will be one of the most important discoveries of the 21st century because of the love between Cleopatra and Mark Antony, and because of the sad story of their death. This is the perfect place for them to be hidden,\" said Hawass.\nQuestion: Cleopatra and Marc Antony lived in Egypt. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "JERUSALEM (AP) -- In a spiritual climax to his 22-year papacy, Pope John Paul II on Tuesday began the first official visit by a Roman Catholic pontiff to Israel, fulfilling his dream of visiting the land where Christ was born and died.\nQuestion: Pope John Paul II was born in Poland. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "In New York, Nymex light crude oil for July delivery hit $42.38 per barrel on Tuesday\nQuestion: Crude oil futures surged to an all-time high in New York Tuesday, at 42 dollars a barrel. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Compuware claims that Allan Tortorice and Jim Hildner were among several former employees who revealed trade secrets after they moved to IBM.\nQuestion: Trade secrets were stolen. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Thailand's official religion is Buddhism which claims the allegiance of most Thai people. Their cultural identity seems almost inseparably intertwined with Buddhist traditions. The people practice folk Buddhism which includes and elaborate system of spirit worship.\nQuestion: The official religion of Thailand is Theravada Buddhism. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Though the exact date is debated, dogs are thought to have been domesticated by humans approximately 12,000 years ago.\nQuestion: Humans existed 10,000 years ago. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "According to Becky Gibbons of New York State Police and Chris Collins County Executive in Erie County, New York, the total number of fatalities is 50, including 45 passengers, four crew members and a person on the ground, while a woman and daughter on the ground were injured, near the edge of farmland, about seven miles from Buffalo Niagara International Airport.\nQuestion: A daily commuter flight crashed in Buffalo. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Note that SBB, CFF and FFS stand out for the main railway company, in German, French and Italian.\nQuestion: The French railway company is called SNCF. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "He became a boxing referee in 1964 and became most well-known for his decision against Mike Tyson, during the Holyfield fight, when Tyson bit Holyfield's ear.\nQuestion: Mike Tyson bit Holyfield's ear in 1964. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "NASA's two Great Observatories, the Hubble Space Telescope and the Chandra X-ray Observatory, have independently provided what could be the best direct evidence yet for the existence of an event horizon, the defining feature of a black hole.\nQuestion: Hubble discovers black holes. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "La Paz, 30 May 89 - La Paz Department Police authorities have disclosed that investigations into the murder of two young U.S. citizens are being conducted by a specialized group summoned specially to clarify this crime.\nQuestion: Two young U.S. citizens were killed on 30 May 89. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "The investigation came about following the collapse of Barings Bank, when one of its traders based in Singapore, Nick Leeson, amassed losses of the order of 600-700 million without the bank being aware of it.\nQuestion: Nick Leeson was arrested for collapse of Barings Bank PLC. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Monica Meadows, a 22-year-old model from Atlanta, was shot in the shoulder on a subway car in New York City.\nQuestion: Monica Meadows, 23, was shot in shoulder while riding a subway car in New York City True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "In the history of art, prehistoric art is all art produced in preliterate cultures (prehistory), beginning somewhere in very late geological history.\nQuestion: Prehistoric art discovered in South Africa. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Hours earlier, Yasser Arafat called for an end to attacks against Israeli civilians in the two weeks before Israeli elections.\nQuestion: Arafat condemned suicide bomb attacks inside Israel. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina.\nQuestion: An international oil agency will make 60 million barrels of oil and gasoline available to the marketplace. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "A new report indicates that women's participation in decision-making in the country is minimal.\nQuestion: Women are poorly represented in parliament. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Wilson has, after all, produced all three Offspring albums, including \"Smash,\" the one that has astonished everybody by selling 1 million copies in four months, establishing the heretofore unknown group as the leader, with Green Day, of an unprecedented wave of commercial success for punk.\nQuestion: Smash is the title of the third album of the Offspring. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "NIH's FY05 budget request of $28.8 billion includes $2 billion for the National Institute of General Medical Sciences, a 3.4-percent increase, and $1.1 billion for the National Center for Research Resources, and a 7.2-percent decrease from FY04 levels.\nQuestion: A request was reduced to $1.1 billion True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "When Albright was the US ambassador to the United Nations, Lesley Stahl of \"60 Minutes\" asked her about the sanctions and the deaths of Iraqi children. Albright said it was America's responsibility to make sure the Gulf War did not have to be fought again.\nQuestion: Albright said that to punish Saddam Hussein, the deaths of those children were \"worth it.\" True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "The publishing companies Bloomsbury (U.K.) and Scholastic (U.S.) released cover art for the seventh Harry Potter book, Harry Potter and the Deathly Hallows. \"The structures around Harry show evident destruction and in the shadows behind him, we see outlines of other people,\" David Saylor, Scholastic's art director, said in a statement describing the U.S. version. \"For the first time, the cover is a wraparound. On the back cover spidery hands are outstretched toward Harry. Only when the book is opened does one see a powerful image of \"He-Who-Must-Not-Be-Named\", his glowing red eyes peering out from his hood.\"\nQuestion: Rowling is the author of \"Harry Potter\". True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "The official visit of the Argentine minister marks a further step in the normalisation of UK-Argentine relations.\nQuestion: Relations between Argentina and Great Britain are growing more cooperative. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "As a result of these weaknesses, computer systems and the operations that rely on the systems were highly vulnerable to tampering, disruption, and misuse from both internal and external sources.\nQuestion: Non-authorized personnel illegally entered into computer networks. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "A condition called \"social anxiety disorder\" this week joined the long list of downers in life - including obesity, impotence, depression and phobia - that Americans once commonly saw as challenges of willpower and character but can now have treated by popping a pill.\nQuestion: Phobia is a an extreme fear of a particular thing or situation. True or False?",
+        "target": "false",
+        "pred": "true"
+    }
+]

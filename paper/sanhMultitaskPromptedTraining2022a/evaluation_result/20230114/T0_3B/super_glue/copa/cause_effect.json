@@ -1,0 +1,137 @@
+[
+    {
+        "input": "The man lost the competition.\n\nSelect the most plausible  cause: \n- The competition was sabotaged.\n- He intimidated his competitors.",
+        "target": "the competition was sabotaged.",
+        "pred": "he intimidated his competitors."
+    },
+    {
+        "input": "The woman lavished her friend with flattery.\n\nSelect the most plausible  cause: \n- She wanted to ask her friend for a favor.\n- She was irritated with her friend's whining.",
+        "target": "she wanted to ask her friend for a favor.",
+        "pred": "she was irritated with her friend's whining."
+    },
+    {
+        "input": "The pair of students came under scrutiny by the teacher.\n\nSelect the most plausible  cause: \n- The students both received excellent grades.\n- Their responses on the assignment were identical.",
+        "target": "their responses on the assignment were identical.",
+        "pred": "the students both received excellent grades."
+    },
+    {
+        "input": "The driver got a flat tire.\n\nSelect the most plausible  cause: \n- He went over the speed limit.\n- He ran over a nail.",
+        "target": "he ran over a nail.",
+        "pred": "he went over the speed limit."
+    },
+    {
+        "input": "The horse bucked.\n\nSelect the most plausible  cause: \n- A fly bit the horse.\n- The rider stroked the horse.",
+        "target": "a fly bit the horse.",
+        "pred": "the rider stroked the horse."
+    },
+    {
+        "input": "The driver slammed on his brakes.\n\nSelect the most plausible  cause: \n- A deer appeared on the road.\n- The car radio shut off.",
+        "target": "a deer appeared on the road.",
+        "pred": "the car radio shut off."
+    },
+    {
+        "input": "The airline mishandled my luggage.\n\nSelect the most plausible  effect: \n- They offered me compensation.\n- They cancelled my flight.",
+        "target": "they offered me compensation.",
+        "pred": "they cancelled my flight."
+    },
+    {
+        "input": "The man felt obligated to attend the event.\n\nSelect the most plausible  cause: \n- He turned down his friend's invitation to go.\n- He promised his friend that he would go.",
+        "target": "he promised his friend that he would go.",
+        "pred": "he promised his friend he would go."
+    },
+    {
+        "input": "Everyone in the class turned to stare at the student.\n\nSelect the most plausible  cause: \n- The student's phone rang.\n- The student took notes.",
+        "target": "the student's phone rang.",
+        "pred": "the student took notes."
+    },
+    {
+        "input": "My eyes became red and puffy.\n\nSelect the most plausible  cause: \n- I was sobbing.\n- I was laughing.",
+        "target": "i was sobbing.",
+        "pred": "i was laughing."
+    },
+    {
+        "input": "The key was missing from my pants pocket.\n\nSelect the most plausible  cause: \n- The pocket had a hole.\n- The pants were new.",
+        "target": "the pocket had a hole.",
+        "pred": "the pants were new."
+    },
+    {
+        "input": "The sick child coughed on his friend.\n\nSelect the most plausible  effect: \n- His friend got sick.\n- His friend sneezed.",
+        "target": "his friend got sick.",
+        "pred": "his friend sneezed."
+    },
+    {
+        "input": "The woman's hair fell in her face.\n\nSelect the most plausible  effect: \n- She pulled her hair back with a clip.\n- She lathered shampoo into her hair.",
+        "target": "she pulled her hair back with a clip.",
+        "pred": "she lathered shampoo into her hair."
+    },
+    {
+        "input": "The bowling ball knocked over the bowling pins.\n\nSelect the most plausible  cause: \n- The man rolled the bowling ball down the alley.\n- The man dropped the bowling ball on his foot.",
+        "target": "the man rolled the bowling ball down the alley.",
+        "pred": "the man dropped the bowling ball on his foot."
+    },
+    {
+        "input": "The kidnappers released the hostage.\n\nSelect the most plausible  cause: \n- They accepted ransom money.\n- They escaped from jail.",
+        "target": "they accepted ransom money.",
+        "pred": "they escaped from jail."
+    },
+    {
+        "input": "I doubted the salesman's pitch.\n\nSelect the most plausible  effect: \n- I turned his offer down.\n- He persuaded me to buy the product.",
+        "target": "i turned his offer down.",
+        "pred": "he persuaded me to buy the product."
+    },
+    {
+        "input": "Plans were announced to replace a local park with a shopping mall.\n\nSelect the most plausible  effect: \n- Environmentalists started a petition.\n- Environmentalists produced a documentary.",
+        "target": "environmentalists started a petition.",
+        "pred": "environmentalists produced a documentary."
+    },
+    {
+        "input": "I put rubber gloves on.\n\nSelect the most plausible  cause: \n- I was preparing to wash my hands.\n- I was preparing to clean the bathroom.",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to wash my hands."
+    },
+    {
+        "input": "The couple got engaged.\n\nSelect the most plausible  effect: \n- They planned a wedding.\n- They took some time apart.",
+        "target": "they planned a wedding.",
+        "pred": "they took some time apart."
+    },
+    {
+        "input": "I coughed.\n\nSelect the most plausible  cause: \n- I inhaled smoke.\n- I lowered my voice.",
+        "target": "i inhaled smoke.",
+        "pred": "i lowered my voice."
+    },
+    {
+        "input": "The judge pounded the gavel.\n\nSelect the most plausible  cause: \n- The courtroom broke into uproar.\n- The jury announced its verdict.",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced their verdict."
+    },
+    {
+        "input": "The jewelry thieves were caught.\n\nSelect the most plausible  effect: \n- The stolen jewelry was returned to its owners.\n- The cost of the stolen jewelry was calculated.",
+        "target": "the stolen jewelry was returned to its owners.",
+        "pred": "the cost of the stolen jewelry was calculated."
+    },
+    {
+        "input": "I twisted the cap off the soda bottle.\n\nSelect the most plausible  effect: \n- The soda fizzed.\n- The soda leaked out.",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    },
+    {
+        "input": "I put my hands under the running faucet.\n\nSelect the most plausible  effect: \n- The soap rinsed off my hands.\n- The water splashed in my face.",
+        "target": "the soap rinsed off my hands.",
+        "pred": "the water splashed in my face."
+    },
+    {
+        "input": "The boy threw a temper tantrum.\n\nSelect the most plausible  cause: \n- His brother took his toys from him.\n- He shared his toys with his brother.",
+        "target": "his brother took his toys from him.",
+        "pred": "he shared his toys with his brother."
+    },
+    {
+        "input": "The couple travelled south for the winter.\n\nSelect the most plausible  cause: \n- They were retired.\n- They were separated.",
+        "target": "they were retired.",
+        "pred": "they were separated."
+    },
+    {
+        "input": "The man perceived that the woman looked different.\n\nSelect the most plausible  cause: \n- The woman got her hair cut.\n- The woman wore a bracelet.",
+        "target": "the woman got her hair cut.",
+        "pred": "the woman wore a bracelet."
+    }
+]

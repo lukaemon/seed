@@ -1,0 +1,527 @@
+[
+    {
+        "input": "As a result, peptic ulcer disease has been transformed from a chronic, frequently disabling condition to one that can be cured by a short regimen of antibiotics and other medicines.\nQuestion: Antibiotics are used against peptic ulcer. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "In support of the Earth Island Institute rebuttal, Greenpeace founder Don White made the following - unfortunately prophetic - public statement on 8/18/93.\nQuestion: Don White is the founder of Greenpeace. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Hadley said Jordan was chosen as the site of the meeting between Bush and al-Maliki because of its support for the unity government in Iraq and the fact that Bush would be in the region.\nQuestion: Bush will meet al-Maliki in Hadley. True or False?",
+        "target": "false",
+        "pred": "jordan was chosen as the site of the meeting between bush and al-maliki because of its support for the unity government in iraq and the fact that bush would be in the region."
+    },
+    {
+        "input": "A senior coalition official in Iraq said the body, which was found by U.S. military police west of Baghdad, appeared to have been thrown from a vehicle.\nQuestion: A body has been found by U. S. military police. True or False?",
+        "target": "true",
+        "pred": "a body has been found by u.s. military police west of baghdad, appeared to have been thrown from a vehicle."
+    },
+    {
+        "input": "The Massachusetts Supreme Judicial Court has cleared the way for lesbian and gay couples in the state to marry, ruling that government attorneys \"failed to identify any constitutionally adequate reason\" to deny them the right.\nQuestion: U.S. Supreme Court in favor of same-sex marriage True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Ahern, who was travelling to Tokyo for an EU-Japan summit yesterday, will consult with other EU leaders by telephone later this week in an effort to find an agreed candidate.\nQuestion: A summit between Europe and Japan is taking place in the Japanise capital. True or False?",
+        "target": "true",
+        "pred": "tokyo is the japanese capital."
+    },
+    {
+        "input": "Four days of talks got underway with the US announcing the first significant overture to North Korea since George W Bush took office three years ago.\nQuestion: George W. Bush entered the US presidency 3 years ago. True or False?",
+        "target": "true",
+        "pred": "george w bush entered the us presidency 3 years ago."
+    },
+    {
+        "input": "Quebec woman and her mother accused of plotting to kill a four-year-old girl.\nQuestion: Quebec woman murdered a four-year-old girl. True or False?",
+        "target": "false",
+        "pred": "quebec woman murdered a four-year-old girl."
+    },
+    {
+        "input": "Sheriff's officials said a robot could be put to use in Ventura County, where the bomb squad has responded to more than 40 calls this year.\nQuestion: Police use robots for bomb-handling. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Thus began the journey that led Hannam, a 29-year-old free-lance journalist, on an international quest to solve one of the greatest mysteries of Asia: What happened to Lin Piao, the Chinese Communist Party leader accused of a 1971 plot to overthrow Chairman Mao.\nQuestion: Lin Piao was the Chinese Communist Party leader. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "A farmer who was in contact with cows suffering from BSE -- the so-called mad cow disease -- has died from what is regarded as the human form of the disease.\nQuestion: Bovine spongiform encephalopathy is another name for the \"mad cow disease\". True or False?",
+        "target": "true",
+        "pred": "bse"
+    },
+    {
+        "input": "The Amish community in Pennsylvania, which numbers about 55,000, lives an agrarian lifestyle, shunning technological advances like electricity and automobiles. And many say their insular lifestyle gives them a sense that they are protected from the violence of American society. But as residents gathered near the school, some wearing traditional garb and arriving in horse-drawn buggies, they said that sense of safety had been shattered. \"If someone snaps and wants to do something stupid, there's no distance that's going to stop them,\" said Jake King, 56, an Amish lantern maker who knew several families whose children had been shot.\nQuestion: Pennsylvania has the biggest Amish community in the U.S. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "In Nigeria, by far the most populous country in sub-Saharan Africa, over 2.7 million people are infected with HIV.\nQuestion: 2.7 percent of the people infected with HIV live in Africa. True or False?",
+        "target": "false",
+        "pred": "2.7 percent of the people infected with hiv live in africa."
+    },
+    {
+        "input": "The Kota ( \"Fort\" ), or Old City, for example, sometimes called the downtown section, is the central business district and Indonesia's financial capital.\nQuestion: The Kota is the country's business center. True or False?",
+        "target": "true",
+        "pred": "the kota ( \"fort\" ), or old city, for example, sometimes called the downtown section, is the central business district and indonesia's financial capital."
+    },
+    {
+        "input": "Evans Paul, the pro-Aristide mayor of Port-au-Prince, said he had been told that the money will go to American lobbyists, politicians and journalists to campaign against the return of Aristide, Haiti's first democratically elected president\nQuestion: Evans Paul is the mayor of Port-au-Prince. True or False?",
+        "target": "true",
+        "pred": "evans paul, the pro-aristide mayor of port-au-prince."
+    },
+    {
+        "input": "Russian cosmonaut Valery Polyakov set the record for the longest continuous amount of time spent in space, a staggering 438 days, between 1994 and 1995.\nQuestion: Russians hold record for longest stay in space. True or False?",
+        "target": "true",
+        "pred": "russians hold record for longest stay in space. true or false?"
+    },
+    {
+        "input": "Napkins, invitations and plain old paper cost more than they did a month ago.\nQuestion: The cost of paper is rising. True or False?",
+        "target": "true",
+        "pred": "the cost of paper is rising."
+    },
+    {
+        "input": "Mount Redoubt, a volcano in Alaska, erupted on Saturday, sending out clouds of ash thousands of feet high. According to the Federal Aviation Administration, the Ted Stevens Anchorage International Airport was shut down after ash reached the airport. Jeremy Lindseth, a spokesman for the airport, said that only small amount of ash reached the airport, but was significant enough to disrupt operations, as ash can cause engine problems for aircraft. He said that he was uncertain of how many flights were affected due to the eruption.\nQuestion: The Ted Stevens Anchorage International Airport is the employer of Jeremy Lindseth. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Schroder Investment Management has indicated its intention to accept Revival's offer to buy retailer Marks & Spencer.\nQuestion: Revival tries to take over Marks & Spencer Group. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "The west has preferred to focus on endangered animals, rather than endangered humans. African elephants are hunted down and stripped of tusks and hidden by poachers. Their numbers in Africa slumped from 1.2m to 600,000 in a decade until CITES - the Convention on International Trade in Endangered Species - banned the trade in ivory.\nQuestion: An international convention banned trade in ivory. True or False?",
+        "target": "true",
+        "pred": "cites - the convention on international trade in endangered species - banned the trade in ivory."
+    },
+    {
+        "input": "For US pharmaceutical companies, the impending healthcare reforms promise an era of increased cost-containment and pricing controls.\nQuestion: The US government wants to keep drug prices down. True or False?",
+        "target": "true",
+        "pred": "the us government wants to keep drug prices down."
+    },
+    {
+        "input": "About 33.5 million people live in this massive conurbation. I would guess that 95% of the 5,000 officially foreign-capital firms in Japan are based in Tokyo.\nQuestion: About 33.5 miilion people live in Tokyo. True or False?",
+        "target": "true",
+        "pred": "tokyo is a massive conurbation."
+    },
+    {
+        "input": "Nokia, Texas Instruments and other leading makers of mobile phones have formally complained to Brussels that Qualcomm, the US mobile chipmaker, has unfairly used its patents on 3G technologies.\nQuestion: Texas Instruments produces mobile phones. True or False?",
+        "target": "true",
+        "pred": "texas instruments and other leading makers of mobile phones have formally complained to brussels that qualcomm, the us mobile chipmaker, has unfairly used its patents on 3g technologies."
+    },
+    {
+        "input": "Tropical storm Koni dumped significant rains on the Philippines before becoming a minimal typhoon and eventually making landfall on the northern coast of Vietnam.\nQuestion: A tropical storm has caused significant property damage. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Zahi Hawass, Egypt's pre-eminent archaeologist, revealed the first ancient artifacts which may lead to the discovery of Cleopatra and Marc Antony's resting place.  The expedition has found amulets, 22 bronze coins cast with Cleopatra's image and her name, a royal statue, an alabaster mask resembling Marc Antony, and a statue bust of Cleopatra. \"If you look at the face of Mark Antony, many believed he had this cleft on his chin and that's why I thought this could be Mark Antony,\" said Hawass.  \"In my opinion, if this tomb is found, it will be one of the most important discoveries of the 21st century because of the love between Cleopatra and Mark Antony, and because of the sad story of their death. This is the perfect place for them to be hidden,\" said Hawass.\nQuestion: Cleopatra and Marc Antony lived in Egypt. True or False?",
+        "target": "false",
+        "pred": "cleopatra and marc antony lived in egypt."
+    },
+    {
+        "input": "Capital punishment acts as a deterrent.\nQuestion: Capital punishment is a deterrent to crime. True or False?",
+        "target": "true",
+        "pred": "question: capital punishment acts as a deterrent to crime."
+    },
+    {
+        "input": "Researchers at the Harvard School of Public Health say that people who drink coffee may be doing a lot more than keeping themselves awake - this kind of consumption apparently also can help reduce the risk of diseases.\nQuestion: Coffee drinking has health benefits. True or False?",
+        "target": "true",
+        "pred": "coffee drinking has health benefits."
+    },
+    {
+        "input": "Prince Charles, Britain's heir to the throne, has announced that he is to wed his lover of 34 years, Camilla Parker Bowles. In a press statement, the Prince of Wales said \"Mrs Parker Bowles and I are absolutely delighted. It will be a very special day for us and our families.\" Mrs Parker Bowles will use the title \"HRH The Duchess of Cornwall\" after their marriage, and it is intended that following the Prince's accession to the throne, Mrs Parker Bowles will use the title \"HRH The Princess Consort\". The pair are to marry on 8th April 2005 at a private civil ceremony in Windsor Castle, which will be an occasion primarily for friends and family. There will then be a service of prayer and dedication in St. George's Chapel, to be conducted by the Archbishop of Canterbury, Dr. Rowan Williams.\nQuestion: Camilla Parker Bowles is engaged to Britain's heir. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Yachtsman Melvyn Percy became so fed up with the standard of service when preparing his boat for the 3000-mile Atlantic crossing that he decided to set up his own company on the Clyde to provide Scots sailors with professional advice and practical assistance. Minerva Rigging, based at Kip Marina just south of Gourock, now employs five full-time staff and is the Scottish agent for Kemp, one of Europe's leading yacht spar and mast manufacturers.\nQuestion: Melvyn Percy set up Minerva Rigging at Kip Marina. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "To mark the 20th anniversary of John Lennon's death tomorrow (December 8), his widow, Yoko Ono, has erected billboards supporting gun control in three major U.S. cities.\nQuestion: Yoko Ono is John Lennon's widow. True or False?",
+        "target": "true",
+        "pred": "yoko ono is john lennon's widow. true or false?"
+    },
+    {
+        "input": "The U.S. Army acceded to a request from the local governor to keep U.S. troops away from the Imam Ali Shrine in Najaf.\nQuestion: The U.S. Army agreed to a request from the local governor to keep US troops away from the Imam Ali Shrine in Najaf. True or False?",
+        "target": "true",
+        "pred": "the u.s. army acceded to a request from the local governor to keep u.s. troops away from the imam ali shrine in najaf."
+    },
+    {
+        "input": "It has been observed that in those countries of the world where capital punishment is still in operation, the crime rate, especially murder, is distinctively low in comparison to countries where capital punishment has been discarded.\nQuestion: Capital punishment is a deterrent to crime. True or False?",
+        "target": "true",
+        "pred": "capital punishment is a deterrent to crime. true or false?"
+    },
+    {
+        "input": "VCU School of the Arts In Qatar is located in Doha, the capital city of Qatar.\nQuestion: Qatar is located in Doha. True or False?",
+        "target": "false",
+        "pred": "qatar is located in doha, the capital city of qatar."
+    },
+    {
+        "input": "Asprin, an inexpensive drug helps protect survivors of heart attack and stroke from subsequent heart attacks and death, and even helps reduce the number of deaths that occur within the first hours following a heart attack.\nQuestion: People experienced adverse effects while taking aspirin. True or False?",
+        "target": "false",
+        "pred": "people experienced adverse effects while taking asprin."
+    },
+    {
+        "input": "Hurricane Katrina petroleum-supply outlook improved somewhat, yesterday, as U.S. and European governments agreed to release 2 million barrels a day, of oil and refined products, from their reserves.\nQuestion: 60 million barrels of oil and gasoline will be available to the marketplace. True or False?",
+        "target": "false",
+        "pred": "60 million barrels of oil and gasoline will be available to the marketplace."
+    },
+    {
+        "input": "Blair has sympathy for anyone who has lost their lives in Iraq.\nQuestion: Blair is sympathetic to anyone who has lost their lives in Iraq. True or False?",
+        "target": "true",
+        "pred": "blair is sympathetic to anyone who has lost their lives in iraq."
+    },
+    {
+        "input": "For women earning 22,000 a year, the total pay accumulated after six months maternity leave would be just 5,300 in the UK and 5,850 in Ireland. Entitlements in Germany would also be relatively low, at 5,900, along with those in France, Spain and the Netherlands, all at 6,750. At the other end of the scale, pay received after six months leave in Italy would be 9,150 while in Denmark and Norway it would be as much as 11,000.\nQuestion: Maternity leave varies in Europe. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Compuware claims that Allan Tortorice and Jim Hildner were among several former employees who revealed trade secrets after they moved to IBM.\nQuestion: Trade secrets were stolen. True or False?",
+        "target": "false",
+        "pred": "ibm"
+    },
+    {
+        "input": "Thailand's official religion is Buddhism which claims the allegiance of most Thai people. Their cultural identity seems almost inseparably intertwined with Buddhist traditions. The people practice folk Buddhism which includes and elaborate system of spirit worship.\nQuestion: The official religion of Thailand is Theravada Buddhism. True or False?",
+        "target": "false",
+        "pred": "the official religion of thailand is buddhism which claims the allegiance of most thai people."
+    },
+    {
+        "input": "Democrat members of the Ways and Means Committee, where tax bills are written and advanced, do not have strong small business voting records.\nQuestion: Democrat members had strong small business voting records. True or False?",
+        "target": "false",
+        "pred": "democrats members of the ways and means committee, where tax bills are written and advanced, do not have strong small business voting records."
+    },
+    {
+        "input": "The IOC meeting will also review reports submitted by the organizing committees of the 1998 Winter Olympic Games in Nagano, Japan; the 2000 Summer Olympic Games in Sydney, Australia and the 2002 Winter Olympic Games in the Salt Lake City, the United States, respectively.\nQuestion: Before Salt Lake City, Winter Olympic Games took place in Nagano. True or False?",
+        "target": "true",
+        "pred": "before nagano, winter olympic games took place in nagano."
+    },
+    {
+        "input": "Russian Public Television head Vladislav Listyev is shot in the heart by an unknown gunman outside his Moscow home. The attack is linked to opponents of an advertising ban he had proposed for the television channel.\nQuestion: Vladislav Listyev was murdered in Moscow. True or False?",
+        "target": "true",
+        "pred": "vladislav listyev was shot in the heart by an unknown gunman outside his moscow home. the attack is linked to opponents of an advertising ban he had proposed for the television channel."
+    },
+    {
+        "input": "Bangladesh, one of the world's poorest countries, suffered a devastating drought and famine in 1974, which killed 1.5 million people. While trying to help starving villagers, he met a 21-year-old woman named Sufia Begum, who was burdened by a tiny yet crushing debt, Yunus recalled in his autobiography, \"Banker to the Poor.\"\nQuestion: 1.5 million people were killed during the drought and famine devastation in 1974 in Bangladesh. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Though the exact date is debated, dogs are thought to have been domesticated by humans approximately 12,000 years ago.\nQuestion: Humans existed 10,000 years ago. True or False?",
+        "target": "true",
+        "pred": "12,000 years ago."
+    },
+    {
+        "input": "Italian film-maker, Fellini was awarded an honorary Oscar for lifetime achievement. He died on October 31, 1993.\nQuestion: An Italian director is awarded an honorary Oscar. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just $20,000, but sold for $120,000, six times its estimated price.\nQuestion: Hepburn's diamond and sapphire brooch fetched $120,000. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "Released in 1995, Tyson returned to boxing, winning the World Boxing Council title in 1996. The same year, however, he lost to Evander Holyfield, and in a 1997 rematch bit Holyfield's ear, for which he was temporarily banned from boxing.\nQuestion: In 1996 Mike Tyson bit Holyfield's ear. True or False?",
+        "target": "false",
+        "pred": "mike tyson bit holyfield's ear in 1996."
+    },
+    {
+        "input": "Steve Jobs was attacked by Sculley and other Apple executives for not delivering enough hot new products and resigned from the company a few weeks later.\nQuestion: Steve Jobs worked for Apple. True or False?",
+        "target": "true",
+        "pred": "steve jobs was attacked by sculley and other apple executives for not delivering enough hot new products and resigned from the company a few weeks later."
+    },
+    {
+        "input": "Phish disbands after a final concert in Vermont on Aug. 15\nQuestion: Rock band Phish holds final concert in Vermont. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "While Bush was in the air, the White House was evacuated, with many employees running away from the premises on orders from Secret Service agents.\nQuestion: The U.S. military evacuated U.S. citizens. True or False?",
+        "target": "false",
+        "pred": "the u.s. military evacuated u.s. citizens."
+    },
+    {
+        "input": "The San Diego Padres ace, Jake Peavy, was hurt in an 8-5 loss to the St. Louis Cardinals.\nQuestion: The San Diego Padres won the game against the St. Louis Cardinals. True or False?",
+        "target": "false",
+        "pred": "the san diego padres lost the game against the st. louis cardinals."
+    },
+    {
+        "input": "According to Becky Gibbons of New York State Police and Chris Collins County Executive in Erie County, New York, the total number of fatalities is 50, including 45 passengers, four crew members and a person on the ground, while a woman and daughter on the ground were injured, near the edge of farmland, about seven miles from Buffalo Niagara International Airport.\nQuestion: A daily commuter flight crashed in Buffalo. True or False?",
+        "target": "false",
+        "pred": "a commuter flight crashed in buffalo."
+    },
+    {
+        "input": "Note that SBB, CFF and FFS stand out for the main railway company, in German, French and Italian.\nQuestion: The French railway company is called SNCF. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Aeschylus was born in 525 BC, and spent his youth as a soldier in the Athenian army. He wrote The Persians when he was 53 years old, but it is his earliest surviving work.\nQuestion: The Persians was written by Aeschylus. True or False?",
+        "target": "true",
+        "pred": "aeschylus was born in 525 bc, and spent his youth as a soldier in the athenian army. he wrote the persians when he was 53 years old, but it is his earliest surviving work."
+    },
+    {
+        "input": "Without a natural greenhouse effect, the temperature of the Earth would be about zero degrees F (-18C) instead of its present 57F (14C).\nQuestion: Greenhouse effect changes global climate. True or False?",
+        "target": "true",
+        "pred": "greenhouse effect changes global climate."
+    },
+    {
+        "input": "Easter is over but that doesn't mean you can't enjoy \"Ben-Hur,\" the granddaddy of biblical epics and winner of a record 11 Oscars, including best picture and best actor (Charlton Heston in the title role).\nQuestion: Charlton Heston played the title role in the movie \"Ben-Hur\". True or False?",
+        "target": "true",
+        "pred": "charlton heston played the title role in the movie \"ben-hur\"."
+    },
+    {
+        "input": "Security forces were on high alert after an election campaign in which more than 1,000 people, including seven election candidates, have been killed.\nQuestion: Security forces were on high alert after a campaign marred by violence. True or False?",
+        "target": "true",
+        "pred": "security forces were on high alert after an election campaign in which more than 1,000 people, including seven election candidates, have been killed."
+    },
+    {
+        "input": "He became a boxing referee in 1964 and became most well-known for his decision against Mike Tyson, during the Holyfield fight, when Tyson bit Holyfield's ear.\nQuestion: Mike Tyson bit Holyfield's ear in 1964. True or False?",
+        "target": "false",
+        "pred": "mike tyson bit holyfield's ear in 1964."
+    },
+    {
+        "input": "Kozlowski and the company's former chief financial officer, Mark Swartz, were sentenced, on Monday, to up to 25 years in prison.\nQuestion: Kozlowski was sentenced, Monday, to serve up to 25 years in prison. True or False?",
+        "target": "true",
+        "pred": "question: kozlowski was sentenced, monday, to serve up to 25 years in prison."
+    },
+    {
+        "input": "NASA's two Great Observatories, the Hubble Space Telescope and the Chandra X-ray Observatory, have independently provided what could be the best direct evidence yet for the existence of an event horizon, the defining feature of a black hole.\nQuestion: Hubble discovers black holes. True or False?",
+        "target": "true",
+        "pred": "hubble discovers black holes."
+    },
+    {
+        "input": "Wal-Mart Stores has asked a US federal appeals court to review a judge's order approving class-action status for a sex-discrimination lawsuit.\nQuestion: The judge approves of sex-discrimination. True or False?",
+        "target": "false",
+        "pred": "wal-mart stores has asked a us federal appeals court to review a judge's order approving class-action status for a sex-discrimination lawsuit."
+    },
+    {
+        "input": "La Paz, 30 May 89 - La Paz Department Police authorities have disclosed that investigations into the murder of two young U.S. citizens are being conducted by a specialized group summoned specially to clarify this crime.\nQuestion: Two young U.S. citizens were killed on 30 May 89. True or False?",
+        "target": "false",
+        "pred": "la paz department police authorities have disclosed that investigations into the murder of two young u.s. citizens are being conducted by a specialized group summoned specially to clarify this crime."
+    },
+    {
+        "input": "In reality, legalization would dramatically expand America's drug dependence, significantly increase the social costs of drug abuse, and put countless more innocent lives at risk.\nQuestion: Drug legalization has benefits. True or False?",
+        "target": "false",
+        "pred": "legalization would dramatically expand america's drug dependence, significantly increase the social costs of drug abuse, and put countless more innocent lives at risk."
+    },
+    {
+        "input": "One of the dead was a child, passing by with his parents, said Iqrar Abbasi, a doctor at Civil Hospital Karachi.\nQuestion: A doctor was killed by his parents. True or False?",
+        "target": "false",
+        "pred": "a doctor was killed by his parents."
+    },
+    {
+        "input": "The investigation came about following the collapse of Barings Bank, when one of its traders based in Singapore, Nick Leeson, amassed losses of the order of 600-700 million without the bank being aware of it.\nQuestion: Nick Leeson was arrested for collapse of Barings Bank PLC. True or False?",
+        "target": "false",
+        "pred": "nick leeson was arrested for collapse of barings bank plc."
+    },
+    {
+        "input": "An American journalist of Russian descent, Klebnikov was shot four times by at least one assassin in a passing car as he stepped outside his office that evening in Moscow.\nQuestion: Vladislav Listyev was murdered in Moscow. True or False?",
+        "target": "false",
+        "pred": "vladislav listyev was murdered in moscow."
+    },
+    {
+        "input": "The sunset, touching distant hills with ribbons of fire across the waters of the Dead Sea, brings a sense of unreality to culminate a day's visit to the lowest point on earth, some 400 meters below sea level.\nQuestion: The lowest point on earth is at the Dead Sea. True or False?",
+        "target": "true",
+        "pred": "the lowest point on earth is at the dead sea."
+    },
+    {
+        "input": "Mrs. Bush's approval ratings have remained very high, above 80%, even as her husband's have recently dropped below 50%.\nQuestion: 80% approve of Mr. Bush. True or False?",
+        "target": "false",
+        "pred": "mrs. bush's approval ratings have remained very high, even as her husband's have recently dropped below 50%."
+    },
+    {
+        "input": "Police in the Lower Austrian town of Amstetten have arrested a 73 year old man who is alleged to have kept his daughter, now aged 42, locked in the cellar of his house in Amstetten since 29th August 1984. The man, identified by police as Josef Fritzl, is alleged to have started sexually abusing his daughter, named as Elisabeth Fritzl, when she was eleven years old, and to have subsequently fathered seven children by her. One of the children, one of a set of twins born in 1996, died of neglect shortly after birth and the body was burned by the father.\nQuestion: Amstetten is located in Austria. True or False?",
+        "target": "true",
+        "pred": "amstetten is located in lower austria."
+    },
+    {
+        "input": "Despite Bjork making her first live performance in two years, the crowd of 10,000 people was only half of what the hall in the Tokyo suburb of Makuhari could hold.\nQuestion: 10,000 people live in Tokyo. True or False?",
+        "target": "false",
+        "pred": "tokyo is a city in japan."
+    },
+    {
+        "input": "Dana Reeve, the widow of the actor Christopher Reeve, has died of lung cancer at age 44, according to the Christopher Reeve Foundation.\nQuestion: Christopher Reeve had an accident. True or False?",
+        "target": "false",
+        "pred": "christopher reeve had an accident."
+    },
+    {
+        "input": "The drugs that slow down or halt Alzheimer's disease work best the earlier you administer them.\nQuestion: Alzheimer's disease is treated using drugs. True or False?",
+        "target": "true",
+        "pred": "alzheimer's disease is treated using drugs."
+    },
+    {
+        "input": "Hepburn's family will receive the proceeds from the sale.\nQuestion: Proceeds go to Hepburn's family. True or False?",
+        "target": "true",
+        "pred": "hepburn's family will receive the proceeds from the sale."
+    },
+    {
+        "input": "FMLN reports to our people, and to the people of the world, that the massacre against the Salvadoran Workers National Union Federation [Fenastras] was carried out by Colonel Elena Fuente, as the head of the morbid death squad of the army's 1st Infantry Brigade, in response to our military attack on the army staff.\nQuestion: Fenastras was attacked by FMLN. True or False?",
+        "target": "false",
+        "pred": "fmln reports to our people, and to the people of the world, that the massacre against the salvadoran workers national union federation [fenastras] was carried out by colonel elena fuente, as the head of the morbid death squad of the army's 1st infantry brigade, in response to our military attack on the army staff."
+    },
+    {
+        "input": "On Jan. 27, 1756, composer Wolfgang Amadeus Mozart was born in Salzburg, Austria.\nQuestion: Wolfgang Amadeus Mozart was born in Salzburg. True or False?",
+        "target": "true",
+        "pred": "wolfgang amadeus mozart was born in salzburg."
+    },
+    {
+        "input": "The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina.\nQuestion: An international oil agency will make 60 million barrels of oil and gasoline available to the marketplace. True or False?",
+        "target": "false",
+        "pred": "the 26-member international energy agency said, friday, that member countries would release oil to help relieve the u.s. fuel crisis caused by hurricane katrina."
+    },
+    {
+        "input": "The latest attacks targeted the U-S embassy and a top prosecutor's office in the Uzbek capital.\nQuestion: Yesterday's terrorist bombings killed two people at the entrance to the Israeli Embassy in Uzbekistan's capital. True or False?",
+        "target": "false",
+        "pred": "yesterday's terrorist bombings killed two people at the entrance to the israeli embassy in uzbekistan's capital."
+    },
+    {
+        "input": "The witness then spotted Rodriguez crouching behind a gate for protection.\nQuestion: The witness rescued Rodriguez. True or False?",
+        "target": "false",
+        "pred": "rodriguez was rescued by a witness."
+    },
+    {
+        "input": "A new report indicates that women's participation in decision-making in the country is minimal.\nQuestion: Women are poorly represented in parliament. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "Cote d'Ivoire's President, Laurent Gbagbo, promulgated new election laws on July 14.\nQuestion: President Laurent Gbagbo lives in Cote d'Ivoire. True or False?",
+        "target": "true",
+        "pred": "laurent gbagbo lives in cote d'ivoire."
+    },
+    {
+        "input": "The humane organization, Caritas, quoting its branch in Iraq, announced today, in Germany, that several Iraqi hospitals, especially Saddam Hospital, which is considered the biggest hospital in Iraq, were hit in the American-British bombing of the Iraqi capital.\nQuestion: Caritas announced that several Iraqi hospitals, (excluding Saddam Hospital,) were hit in the shelling of Baghdad. True or False?",
+        "target": "false",
+        "pred": "caritas announced that several iraqi hospitals, (excluding saddam hospital,) were hit in the shelling of baghdad. true or false?"
+    },
+    {
+        "input": "A new study conducted by researchers from University of Otago's Christchurch School of Medicine has found that certain chemical compounds naturally found in cruciferous vegetables help kill cancer cells that are particularly resistant to chemotherapy. The study has been published in Cancer Research. The research team found that chemicals called isothiocyanates cause cancer cells to commit suicide. This includes cells with high levels of the protein Bcl-2, which makes them resistant to chemotherapy. Isothiocyanates are naturally found in cruciferous vegetables. These include kale, cabbage, broccoli, cauliflower, bok choy, radish, and watercress, among others.\nQuestion: Broccoli contains isothiocyanates. True or False?",
+        "target": "true",
+        "pred": "false"
+    },
+    {
+        "input": "There has been a lot of concern over the rise of drug-resistant bacteria.\nQuestion: Bacteria is winning the war against antibiotics. True or False?",
+        "target": "false",
+        "pred": "bacteria is winning the war against antibiotics."
+    },
+    {
+        "input": "In 1979, the leaders signed the Egypt-Israel peace treaty on the White House lawn. Both President Begin and Sadat received the Nobel Peace Prize for their work. The two nations have enjoyed peaceful relations to this day.\nQuestion: The Israel-Egypt Peace Agreement was signed in 1979. True or False?",
+        "target": "true",
+        "pred": "the israel-egypt peace agreement was signed in 1979."
+    },
+    {
+        "input": "This growth proved short-lived, for a Swedish invasion ( 1655-56 ) devastated the flourishing city of Warsaw.\nQuestion: Warsaw was invaded by the Swedes in 1655, and the city was devastated. True or False?",
+        "target": "true",
+        "pred": "warsaw was invaded by the swedes in 1655, and the city was devastated."
+    },
+    {
+        "input": "The number of Danes opposed to swapping the krone for the euro has increased slightly to 35.3 percent, up from 34.6 percent in April, according to a poll published on Thursday by Danske Bank.\nQuestion: The introduction of the euro has been opposed. True or False?",
+        "target": "true",
+        "pred": "false?"
+    },
+    {
+        "input": "Two brothers who operated a North Hollywood plating company that dumped thousands of gallons of cyanide-laced waste water into the Los Angeles sewer system pleaded guilty Thursday and must serve jail time for recklessly handling and storing hazardous materials.\nQuestion: A California company was charged with reckless storage of chemicals. True or False?",
+        "target": "true",
+        "pred": "a california company was charged with reckless storage of chemicals. true"
+    },
+    {
+        "input": "Gabriel Garcia Marquez is the author of \"One Hundred Years of Solitude\", \"The Autumn of the Patriarch\" and other novels.\nQuestion: Gabriel Garcia Marquez is a novelist and writer. True or False?",
+        "target": "true",
+        "pred": "gabriel garcia marquez is the author of \"one hundred years of solitude\", \"the autumn of the patriarch\" and other novels."
+    },
+    {
+        "input": "High dietary intake of potassium from fruits and vegetables throughout one's life helps to preserve bone mass, thereby preventing bone loss that can lead to osteoporosis.\nQuestion: Dietary intake of potassium prevents osteoporosis. True or False?",
+        "target": "true",
+        "pred": "dietary intake of potassium prevents osteoporosis."
+    },
+    {
+        "input": "The publishing companies Bloomsbury (U.K.) and Scholastic (U.S.) released cover art for the seventh Harry Potter book, Harry Potter and the Deathly Hallows. \"The structures around Harry show evident destruction and in the shadows behind him, we see outlines of other people,\" David Saylor, Scholastic's art director, said in a statement describing the U.S. version. \"For the first time, the cover is a wraparound. On the back cover spidery hands are outstretched toward Harry. Only when the book is opened does one see a powerful image of \"He-Who-Must-Not-Be-Named\", his glowing red eyes peering out from his hood.\"\nQuestion: Rowling is the author of \"Harry Potter\". True or False?",
+        "target": "false",
+        "pred": "rowling is the author of \"harry potter\". true or false?"
+    },
+    {
+        "input": "Coextensive with the metropolitan district of Jakarta Raya, it lies at the mouth of the Ciliwung ( Liwung River ) on the northwest coast of Java.\nQuestion: Jakarta lies at the mouth of the Ciliwung ( Liwung River ) on the northwest coast of the island of Java. True or False?",
+        "target": "true",
+        "pred": "jakarta lies at the mouth of the ciliwung ( liwung river ) on the northwest coast of the island of java."
+    },
+    {
+        "input": "The official visit of the Argentine minister marks a further step in the normalisation of UK-Argentine relations.\nQuestion: Relations between Argentina and Great Britain are growing more cooperative. True or False?",
+        "target": "false",
+        "pred": "true"
+    },
+    {
+        "input": "South America - The President of Colombia Alvaro Uribe is scheduled to meet the President of Venezuela Hugo Ch\u00e1vez Thursday. Apparently the crisis between Venezuela and Colombia is almost solved. The crisis began with the imprisonment of the alleged FARC member Rodrigo Granda by Colombian forces on December 13, 2004. Venezuela accused Colombian of invading Venezuelan territory. Colombia accused Venezuela of harboring FARC terrorists. The President of Cuba, Fidel Castro, intervened in the crisis and talked to Chavez and Uribe.\nQuestion: Alvaro Uribe is the current President of Colombia. True or False?",
+        "target": "true",
+        "pred": "alvaro uribe is the current president of colombia."
+    },
+    {
+        "input": "The Daily Telegraph, most prized asset in Lord Conrad Black's crumbling media empire, has been sold to Britain's Barclay twins.\nQuestion: Daily telegraph is sold. True or False?",
+        "target": "true",
+        "pred": "daily telegraph, most prized asset in lord conrad black's crumbling media empire, has been sold to britain's barclay twins."
+    },
+    {
+        "input": "Brown brushed off a threat made Monday by his counterpart, Foreign Trade Minister Wu Yi, that if China's effort to join the General Agreement on Tariffs and Trade (GATT) by the year's end is unsuccessful, Beijing will no longer be bound by previous trade and economic commitments.\nQuestion: Wu Yi is the Foreign Trade Minister of China. True or False?",
+        "target": "true",
+        "pred": "wu yi is the foreign trade minister of china."
+    },
+    {
+        "input": "We learn that Claretta Petacci, Mussolini's last mistress, had a tendency to whine and to lie all day in bed, eating chocolate.\nQuestion: Claretta Petacci was Mussolini's last mistress. True or False?",
+        "target": "true",
+        "pred": "claretta petacci."
+    },
+    {
+        "input": "A light blue 1975 Ford Escort GL once owned by Pope John Paul II sold for $690,000 Saturday to a Houston multimillionaire who said he plans to put it in a museum he wants to build in his hometown.\nQuestion: A Houston multimillionaire buys the Pope's Ford Escort. True or False?",
+        "target": "true",
+        "pred": "a light blue 1975 ford escort gl once owned by pope john paul ii sold for $690,000 saturday to a houston multimillionaire who said he plans to put it in a museum he wants to build in his hometown."
+    },
+    {
+        "input": "Huckaby voluntarily submitted herself to questioning Friday night at the Tracy police station, and was arrested less than six hours later. She now resides in the San Joaquin County Jail without bond, awaiting an arraignment hearing on Tuesday. On April 6, the body of Sandra Cantu was discovered stuffed inside the 28-year-old's suitcase at the bottom of a pond a few miles away from her home. The two were neighbors in the Orchard Estates Mobile Home Park and Huckaby's own 5-year-old daughter often played with Cantu. Autopsy results are still pending.\nQuestion: Huckaby is accused of killing Sandra Cantu. True or False?",
+        "target": "true",
+        "pred": "huckaby is accused of killing sandra cantu."
+    },
+    {
+        "input": "Former WBA heavyweight champ Greg Page, who suffered a severe brain injury in a 2001 fight, has died at his Louisville home at the age of 50. According to Page's wife, the ex-champ died from complications due to boxing injuries and paralysis. Following a successful amateur career, Page went 58-17-1 during a professional career that began in 1979 and included wins over Jimmy Young, James Tillis, Renaldo Snipes, Gerrie Coetzee (for the WBA title), James 'Bonecrusher' Smith and Tim Witherspoon. Page's losses read like a who's who of heavyweights of the 1980s: Trevor Berbick, Witherspoon, Tony Tubbs, Buster Douglas, Joe Bugner, Orlin Norris, Donovan 'Razor' Ruddock, Bruce Seldon, Monte Barrett and Jorge Luis Gonzalez.\nQuestion: Greg Page was a boxer. True or False?",
+        "target": "true",
+        "pred": "greg page was a boxer."
+    },
+    {
+        "input": "The capital of Slovenia is Ljubljana, with 270,000 inhabitants.\nQuestion: Slovenia has 270,000 inhabitants. True or False?",
+        "target": "false",
+        "pred": "slovenia has 270,000 inhabitants."
+    },
+    {
+        "input": "Two Indian diplomats met the Indian prisoner facing death in Pakistan, Sarabjit Singh, on Tuesday at Kot Lakhpat jail in the eastern Pakistani city of Lahore.\nQuestion: Indian diplomats met an Indian prisoner, on death row, on Tuesday. True or False?",
+        "target": "true",
+        "pred": "indian diplomats met an indian prisoner, on death row, on tuesday."
+    },
+    {
+        "input": "Swedish massage is used to help relax muscles, increase circulation, remove metabolic waste products, help the recipient obtain a feeling of connectedness, a better awareness of their body and the way they use and position it.\nQuestion: Swedish massage loosens tense muscles. True or False?",
+        "target": "true",
+        "pred": "swedish massage is used to help relax muscles, increase circulation, remove metabolic waste products, increase"
+    },
+    {
+        "input": "A condition called \"social anxiety disorder\" this week joined the long list of downers in life - including obesity, impotence, depression and phobia - that Americans once commonly saw as challenges of willpower and character but can now have treated by popping a pill.\nQuestion: Phobia is a an extreme fear of a particular thing or situation. True or False?",
+        "target": "false",
+        "pred": "phobia is a an extreme fear of a particular thing or situation. true or false?"
+    },
+    {
+        "input": "Pole Robert Kubica became the highlight of the weekend by winning the pole, but was slow off the start and finished third on the podium. Nick Heidfeld, his BMW Sauber teammate finished fourth. The results puts BMW as the new leader of the Constructors' championship, one point ahead of Scuderia Ferrari. Heikki Kovalainen came fifth and became the only McLaren driver to finish in the points. Jarno Trulli (Toyota) and Mark Webber (Red Bull-Renault) ran 6 and 7 places respectively with Nico Rosberg (Williams-Toyota) closing out the top eight with 1 point. Timo Glock (Toyota) was engaged in a hard battle with Fernando Alonso (Renault) and came 9th ahead of the Spanish 2005 F1 Champion.\nQuestion: Robert Kubica has been appointed by Scuderia Ferrari. True or False?",
+        "target": "false",
+        "pred": "robert kubica has been appointed by bmw."
+    },
+    {
+        "input": "Blair has sympathy for anyone who has lost their lives in Iraq.\nQuestion: Blair is sorry for anyone who has lost their lives in Iraq. True or False?",
+        "target": "true",
+        "pred": "blair is sorry for anyone who has lost their lives in iraq."
+    }
+]

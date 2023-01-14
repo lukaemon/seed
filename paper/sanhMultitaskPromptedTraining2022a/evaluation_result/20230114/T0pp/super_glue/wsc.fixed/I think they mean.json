@@ -1,0 +1,152 @@
+[
+    {
+        "input": "Bernard , who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him . I think they mean \"anyone .\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Fred watched TV while George went out to buy groceries. After an hour he got back. I think they mean \"Fred got back.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. I think they mean \"their mothers mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it . I think they mean \"button .\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "One day Dick was teasing the colts, and did not know that the master was in the next field; but he was there, watching what was going on; over the hedge he jumped in a snap, and catching Dick by the arm, he hit him so hard that he roared with the pain and surprise. I think they mean \"the master was tthe masterre, watching what was going on; over tthe master the masterdge the master jumped in a snap, and catching Dick by tthe master arm, the master hit him so hard that the master roared with tthe master pain and surprise.\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Jane gave Joan candy because she wasn't hungry. I think they mean \"Joan wasn't hungry.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The storekeepers stayed in town to run their stores and lived in the rooms behind them . I think they mean \"rooms .\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are fifteen. I think they mean \"Sam and Amy are fifteen.\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Bill passed the half-empty plate to John because he was hungry. I think they mean \"Bill was hungry.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Everyone really loved the oatmeal cookies ; only a few people liked the chocolate chip cookies . Next time, we should make fewer of them . I think they mean \"the oatmeal cookies .\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The large ball crashed right through the table because it was made of styrofoam. I think they mean \"The large ball was made of styrofoam.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Jane gave Joan candy because she was hungry. I think they mean \"Jane was hungry.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The storekeepers stayed in town to run their stores and lived in the rooms behind them . I think they mean \"storekeepers .\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Joe Joe's uncle can still beat him at tennis, even though he is 30 years younger. I think they mean \"Joe's uncle is 30 years younger.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Mr. Moncrieff visited Chester 's luxurious New York apartment, thinking that it belonged to his son Edward . The result was that Mr. Moncrieff has decided to cancel Edward 's allowance on the ground that he no longer requires his financial support. I think they mean \"Mr. Moncrieff financial support.\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Patting her back, the woman smiled at the girl . I think they mean \"the woman back, the woman smiled at the girl .\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The path to the lake was blocked, so we couldn't reach it . I think they mean \"the lake .\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Joe Joe's uncle can still beat him at tennis, even though he is 30 years younger. I think they mean \"Joe is 30 years younger.\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening it . I think they mean \"album .\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The storekeepers stayed in town to run their stores and lived in the rooms behind them . I think they mean \"stores .\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The large ball crashed right through the table because it was made of steel. I think they mean \"the table was made of steel.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the hospital. I think they mean \"The customer was immediately taken to the hospital.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. I think they mean \"the elephants mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news.\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Bernard , who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him. I think they mean \"Bernard was less than 21 wBernardn Bernard filed for a homestead claim, did not consider that Bernard had done anything dishonest. Still, anyone who knew that Bernard was 19 years old could take his claim away from him.\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The stable was very roomy, with four good stalls; a large swinging window opened into the yard , which made it pleasant and airy. I think they mean \"stable pleasant and airy.\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The path to the lake was blocked, so we couldn't use it . I think they mean \"The path .\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Bernard , who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from him . I think they mean \"the government official .\" Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen them and come back quickly to tell the news. I think they mean \"Arthur and Celeste and come back quickly to tell the news.\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "One day Dick was teasing the colts, and did not know that the master was in the next field; but he was there, watching what was going on; over the hedge he jumped in a snap, and catching Dick by the arm, he hit him so hard that he roared with the pain and surprise. I think they mean \"the master jumped in a snap, and catching Dick by tthe master arm, the master hit him so hard that the master roared with tthe master pain and surprise.\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Papa looked down at the children 's faces , so puzzled and sad now. It was bad enough that they had to be denied so many things because he couldn't afford them . I think they mean \"things .\" Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    }
+]

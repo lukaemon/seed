@@ -1,0 +1,242 @@
+[
+    {
+        "input": "\"He ran out of onions.\" or \"He cut an onion.\"? The cook's eyes watered.  because",
+        "target": "he cut an onion.",
+        "pred": "\"he cut an onion.\""
+    },
+    {
+        "input": "\"It was the top of the hour.\" or \"The hour seemed to drag on.\"? The clock chimed.  because",
+        "target": "it was the top of the hour.",
+        "pred": "the clock chimed."
+    },
+    {
+        "input": "\"The students both received excellent grades.\" or \"Their responses on the assignment were identical.\"? The pair of students came under scrutiny by the teacher.  because",
+        "target": "their responses on the assignment were identical.",
+        "pred": "yes"
+    },
+    {
+        "input": "\"He heard thunder.\" or \"The sun went down.\"? The driver turned on the car's headlights.  because",
+        "target": "the sun went down.",
+        "pred": "because the sun went down"
+    },
+    {
+        "input": "\"He parallel parked on the street.\" or \"The parking meter expired.\"? The man received a parking ticket.  because",
+        "target": "the parking meter expired.",
+        "pred": "he parallel parked on the street."
+    },
+    {
+        "input": "\"The branch moved downstream.\" or \"The river's current became stronger.\"? The tree branch landed in the river.  so",
+        "target": "the branch moved downstream.",
+        "pred": "the river's current became stronger."
+    },
+    {
+        "input": "\"She received her pension.\" or \"She paid off her mortgage.\"? The woman retired.  so",
+        "target": "she received her pension.",
+        "pred": "she paid off the mortgage."
+    },
+    {
+        "input": "\"The woman rejected him.\" or \"The woman envied him.\"? The man confessed his love for the woman.  so",
+        "target": "the woman rejected him.",
+        "pred": "the woman envied him."
+    },
+    {
+        "input": "\"He finalized his theory.\" or \"He scrapped his theory.\"? The detective revealed an anomaly in the case.  so",
+        "target": "he scrapped his theory.",
+        "pred": "he scrapped the theory."
+    },
+    {
+        "input": "\"They offered me compensation.\" or \"They cancelled my flight.\"? The airline mishandled my luggage.  so",
+        "target": "they offered me compensation.",
+        "pred": "\"they cancelled my flight.\""
+    },
+    {
+        "input": "\"The student's phone rang.\" or \"The student took notes.\"? Everyone in the class turned to stare at the student.  because",
+        "target": "the student's phone rang.",
+        "pred": "the student took notes."
+    },
+    {
+        "input": "\"I was sobbing.\" or \"I was laughing.\"? My eyes became red and puffy.  because",
+        "target": "i was sobbing.",
+        "pred": "\"i was laughing.\""
+    },
+    {
+        "input": "\"The wedding guests brought gifts.\" or \"She called the wedding off.\"? The bride got cold feet before the wedding.  so",
+        "target": "she called the wedding off.",
+        "pred": "the wedding guests brought gifts."
+    },
+    {
+        "input": "\"His friend got sick.\" or \"His friend sneezed.\"? The sick child coughed on his friend.  so",
+        "target": "his friend got sick.",
+        "pred": "his friend sneezed."
+    },
+    {
+        "input": "\"They accepted ransom money.\" or \"They escaped from jail.\"? The kidnappers released the hostage.  because",
+        "target": "they accepted ransom money.",
+        "pred": "they escaped from jail."
+    },
+    {
+        "input": "\"His hair turned gray.\" or \"He sold his belongings.\"? The man grew old.  so",
+        "target": "his hair turned gray.",
+        "pred": "he sold his belongings."
+    },
+    {
+        "input": "\"I sprained my ankle.\" or \"My face got sunburned.\"? I spent the day at the pool.  so",
+        "target": "my face got sunburned.",
+        "pred": "i sprained my ankle."
+    },
+    {
+        "input": "\"They cut the hamburger in half.\" or \"They ordered fries with the hamburger.\"? The friends decided to share the hamburger.  so",
+        "target": "they cut the hamburger in half.",
+        "pred": "\"they ordered fries with the hamburger.\""
+    },
+    {
+        "input": "\"I turned his offer down.\" or \"He persuaded me to buy the product.\"? I doubted the salesman's pitch.  so",
+        "target": "i turned his offer down.",
+        "pred": "he persuaded me to buy the product."
+    },
+    {
+        "input": "\"I went to a museum.\" or \"I went to a concert.\"? My ears were ringing.  because",
+        "target": "i went to a concert.",
+        "pred": "i went to a museum."
+    },
+    {
+        "input": "\"She checked into rehab.\" or \"She committed assault.\"? The woman was arrested.  because",
+        "target": "she committed assault.",
+        "pred": "she committed assault"
+    },
+    {
+        "input": "\"I was preparing to wash my hands.\" or \"I was preparing to clean the bathroom.\"? I put rubber gloves on.  because",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to wash my hands."
+    },
+    {
+        "input": "\"I swept the floor in the unoccupied room.\" or \"I shut off the light in the unoccupied room.\"? I wanted to conserve energy.  so",
+        "target": "i shut off the light in the unoccupied room.",
+        "pred": "\"i shut off the light in the unoccupied room.\""
+    },
+    {
+        "input": "\"Many citizens relocated to the capitol.\" or \"Many citizens took refuge in other territories.\"? Political violence broke out in the nation.  so",
+        "target": "many citizens took refuge in other territories.",
+        "pred": "\"many citizens relocated to the capitol.\""
+    },
+    {
+        "input": "\"Photographers followed her.\" or \"Her family avoided her.\"? The woman became famous.  so",
+        "target": "photographers followed her.",
+        "pred": "no"
+    },
+    {
+        "input": "\"They planned a wedding.\" or \"They took some time apart.\"? The couple got engaged.  so",
+        "target": "they planned a wedding.",
+        "pred": "they took some time apart."
+    },
+    {
+        "input": "\"People evacuated their homes.\" or \"Leaves fell from the trees.\"? The seasons changed from summer to autumn.  so",
+        "target": "leaves fell from the trees.",
+        "pred": "no"
+    },
+    {
+        "input": "\"I inhaled smoke.\" or \"I lowered my voice.\"? I coughed.  because",
+        "target": "i inhaled smoke.",
+        "pred": "i lowered my voice."
+    },
+    {
+        "input": "\"The objects in the wagon fell out.\" or \"The wagon wheels spun forward.\"? I pushed the wagon.  so",
+        "target": "the wagon wheels spun forward.",
+        "pred": "the objects in the wagon fell down."
+    },
+    {
+        "input": "\"I was swamped with work.\" or \"I was expecting company.\"? I tidied up my house.  because",
+        "target": "i was expecting company.",
+        "pred": "i was swamped with work."
+    },
+    {
+        "input": "\"They kissed.\" or \"They rested.\"? The couple was happy to see each other.  so",
+        "target": "they kissed.",
+        "pred": "\"they kissed.\""
+    },
+    {
+        "input": "\"The courtroom broke into uproar.\" or \"The jury announced its verdict.\"? The judge pounded the gavel.  because",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "\"The children hit a ball into her yard.\" or \"The children trampled through her garden.\"? The woman banished the children from her property.  because",
+        "target": "the children trampled through her garden.",
+        "pred": "the children hit a ball into her yard."
+    },
+    {
+        "input": "\"The stolen jewelry was returned to its owners.\" or \"The cost of the stolen jewelry was calculated.\"? The jewelry thieves were caught.  so",
+        "target": "the stolen jewelry was returned to its owners.",
+        "pred": "the cost of the stolen jewelry was calculated."
+    },
+    {
+        "input": "\"He took a nap.\" or \"He ran a marathon.\"? The man fainted.  because",
+        "target": "he ran a marathon.",
+        "pred": "he took a nap."
+    },
+    {
+        "input": "\"The woman planned to buy a condo.\" or \"The woman needed to clean her house.\"? The woman contacted the real estate agent.  because",
+        "target": "the woman planned to buy a condo.",
+        "pred": "the woman needed to clean her house."
+    },
+    {
+        "input": "\"I got it repaired.\" or \"I bought a new one.\"? The computer was expensive to fix.  so",
+        "target": "i bought a new one.",
+        "pred": "i got it repaired."
+    },
+    {
+        "input": "\"He began attending school.\" or \"He skipped a grade in school.\"? The child learned how to read.  because",
+        "target": "he began attending school.",
+        "pred": "he began attending school"
+    },
+    {
+        "input": "\"My handprint dried in the cement.\" or \"Cracks emerged in the cement.\"? I pressed my hand into the wet cement.  so",
+        "target": "my handprint dried in the cement.",
+        "pred": "cracks emerged in the cement."
+    },
+    {
+        "input": "\"Wax dripped off the candle.\" or \"The wax on the candle hardened.\"? I lit the candle.  so",
+        "target": "wax dripped off the candle.",
+        "pred": "the wax on the candle hardened."
+    },
+    {
+        "input": "\"The soda fizzed.\" or \"The soda leaked out.\"? I twisted the cap off the soda bottle.  so",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    },
+    {
+        "input": "\"The soap rinsed off my hands.\" or \"The water splashed in my face.\"? I put my hands under the running faucet.  so",
+        "target": "the soap rinsed off my hands.",
+        "pred": "the water splashed in my face."
+    },
+    {
+        "input": "\"Their habitat was destroyed.\" or \"Their predators went extinct.\"? The animal species became endangered.  because",
+        "target": "their habitat was destroyed.",
+        "pred": "the animal species went extinct."
+    },
+    {
+        "input": "\"I installed new speakers.\" or \"I lost all my data.\"? My computer crashed.  so",
+        "target": "i lost all my data.",
+        "pred": "no"
+    },
+    {
+        "input": "\"His brother took his toys from him.\" or \"He shared his toys with his brother.\"? The boy threw a temper tantrum.  because",
+        "target": "his brother took his toys from him.",
+        "pred": "he shared his toys with his brother."
+    },
+    {
+        "input": "\"She made up an excuse to tell the teacher.\" or \"The teacher promoted her to the next grade.\"? The student forgot to do her assignment.  so",
+        "target": "she made up an excuse to tell the teacher.",
+        "pred": "the teacher promoted her to the next grade."
+    },
+    {
+        "input": "\"The woman got her hair cut.\" or \"The woman wore a bracelet.\"? The man perceived that the woman looked different.  because",
+        "target": "the woman got her hair cut.",
+        "pred": "the woman wore a bracelet."
+    },
+    {
+        "input": "\"I organized it.\" or \"I decorated it.\"? My closet was messy.  so",
+        "target": "i organized it.",
+        "pred": "\"i decorated it.\""
+    }
+]

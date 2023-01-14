@@ -1,0 +1,962 @@
+[
+    {
+        "input": "I expect to receive wages.\nWe were expecting a visit from our relatives.\nSimilar sense of expect?",
+        "target": "yes",
+        "pred": "expect, receive, wage"
+    },
+    {
+        "input": "To pick rags.\nDon't always pick on your little brother.\nSimilar sense of pick?",
+        "target": "no",
+        "pred": "not always"
+    },
+    {
+        "input": "They kept a log of all transmission by the radio station.\nAn email log.\nSimilar sense of log?",
+        "target": "yes",
+        "pred": "email"
+    },
+    {
+        "input": "The professionalization of warfare.\nThe professionalization of American sports.\nSimilar sense of professionalization?",
+        "target": "yes",
+        "pred": "professionalization"
+    },
+    {
+        "input": "He drank a mixture of beer and lemonade.\nThe mixture of sulphuric acid and water produces heat.\nSimilar sense of mixture?",
+        "target": "no",
+        "pred": "mixture of"
+    },
+    {
+        "input": "The CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nInstructional designers are trained in something that might be called tradecraft.\nSimilar sense of tradecraft?",
+        "target": "yes",
+        "pred": "similar sense of tradecraft"
+    },
+    {
+        "input": "The accident created a dimple in the hood of the car.\nThere are approximately 336 dimples on a golf ball.\nSimilar sense of dimple?",
+        "target": "yes",
+        "pred": "a golf ball has a dimple on its surface"
+    },
+    {
+        "input": "A strand of pearls.\nHe tried to pick up the strands of his former life.\nSimilar sense of strand?",
+        "target": "no",
+        "pred": "strand, pearl"
+    },
+    {
+        "input": "Her glasses left marks on the bridge of her nose.\nRugby players often break the bridge of their noses.\nSimilar sense of bridge?",
+        "target": "yes",
+        "pred": "her glasses"
+    },
+    {
+        "input": "He got his wish.\nMy best wishes.\nSimilar sense of wish?",
+        "target": "no",
+        "pred": "positive"
+    },
+    {
+        "input": "The intolerable license with which the newspapers break ... the rules of decorum -- Edmund Burke.\nWhen liberty becomes license dictatorship is near -- Will Durant.\nSimilar sense of license?",
+        "target": "yes",
+        "pred": "liberty"
+    },
+    {
+        "input": "His studio was cramped when he began as an artist.\nYou don't need a studio to make a passport photograph.\nSimilar sense of studio?",
+        "target": "yes",
+        "pred": "similar sense"
+    },
+    {
+        "input": "Engrave a letter.\nEngrave a pen.\nSimilar sense of engrave?",
+        "target": "no",
+        "pred": "engrave a letter."
+    },
+    {
+        "input": "A recrudescence of racism.\nA recrudescence of the symptoms.\nSimilar sense of recrudescence?",
+        "target": "yes",
+        "pred": "similar sense of recrudescence"
+    },
+    {
+        "input": "Return her love.\nReturn a compliment.\nSimilar sense of return?",
+        "target": "yes",
+        "pred": "love"
+    },
+    {
+        "input": "He made his morning toilet and went to breakfast.\nPensions are in the toilet.\nSimilar sense of toilet?",
+        "target": "no",
+        "pred": "similar sense of toilet"
+    },
+    {
+        "input": "A place setting of sterling flatware.\nHe changed the setting on the thermostat.\nSimilar sense of setting?",
+        "target": "no",
+        "pred": "3 stars"
+    },
+    {
+        "input": "The might have repercussions of unimaginable largeness.\nA man distinguished by the largeness and scope of his views.\nSimilar sense of largeness?",
+        "target": "no",
+        "pred": "similar sense of largeness"
+    },
+    {
+        "input": "Sign an intersection.\nThis road has been signed.\nSimilar sense of sign?",
+        "target": "yes",
+        "pred": "a road has been signed."
+    },
+    {
+        "input": "The runners emerged from the trees into his clear vision.\nHe had a vision of the Virgin Mary.\nSimilar sense of vision?",
+        "target": "no",
+        "pred": "vision"
+    },
+    {
+        "input": "This will renovate my spirits.\nThey renovated the ceiling of the Sistine Chapel.\nSimilar sense of renovate?",
+        "target": "no",
+        "pred": "similar sense"
+    },
+    {
+        "input": "An invasion of locusts.\nAn invasion of tourists.\nSimilar sense of invasion?",
+        "target": "yes",
+        "pred": "invasion"
+    },
+    {
+        "input": "I would like to thank the brother who just spoke.\nNone of his brothers would betray him.\nSimilar sense of brother?",
+        "target": "yes",
+        "pred": "negative"
+    },
+    {
+        "input": "When England defeated Pakistan it ended a ten-year drought.\nFarmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.\nSimilar sense of drought?",
+        "target": "no",
+        "pred": "england's cricket team has celebrated the end of a drought that has affected the county for the past decade."
+    },
+    {
+        "input": "From the window he could catch a glimpse of the lake.\nHe caught only a glimpse of the professor's meaning.\nSimilar sense of glimpse?",
+        "target": "no",
+        "pred": "glimpse, catch, window"
+    },
+    {
+        "input": "We went there by foot because we could not afford a taxi.\nThere is a lot of foot traffic on this street.\nSimilar sense of foot?",
+        "target": "yes",
+        "pred": "similar sense of foot"
+    },
+    {
+        "input": "He took the manuscript in both hands and gave it a mighty tear.\nThere were big tears rolling down Lisa's cheeks.\nSimilar sense of tear?",
+        "target": "no",
+        "pred": "big"
+    },
+    {
+        "input": "Carve one's name into the bark.\nThat chisel carved the statue.\nSimilar sense of carve?",
+        "target": "yes",
+        "pred": "carving"
+    },
+    {
+        "input": "Segment a compound word.\nSegment an orange.\nSimilar sense of segment?",
+        "target": "yes",
+        "pred": "segment, orange"
+    },
+    {
+        "input": "Slip into something comfortable.\nMy grades are slipping.\nSimilar sense of slip?",
+        "target": "no",
+        "pred": "slip, grade, slip"
+    },
+    {
+        "input": "Some of the members may donate privately.\nShe donates to her favorite charity every month.\nSimilar sense of donate?",
+        "target": "yes",
+        "pred": "donate to charity"
+    },
+    {
+        "input": "A plume of smoke.\nGrass with large plumes.\nSimilar sense of plume?",
+        "target": "yes",
+        "pred": "grass"
+    },
+    {
+        "input": "He allowed a month to elapse before beginning the work.\nSeveral days elapsed before they met again.\nSimilar sense of elapse?",
+        "target": "yes",
+        "pred": "several days"
+    },
+    {
+        "input": "A surprising experience.\nExperience is the best teacher.\nSimilar sense of experience?",
+        "target": "no",
+        "pred": "experience is the best teacher"
+    },
+    {
+        "input": "This car could be just the ticket for a small family.\nJoe will be running on an anti-crime ticket.\nSimilar sense of ticket?",
+        "target": "no",
+        "pred": "similar sense"
+    },
+    {
+        "input": "A clothes horse.\n500 horse led the attack.\nSimilar sense of horse?",
+        "target": "no",
+        "pred": "horse"
+    },
+    {
+        "input": "He's a shtik crazy.\nHow did you ever fall for a shtik like that?\nSimilar sense of shtik?",
+        "target": "no",
+        "pred": "he's a shtik crazy. how did you ever fall for a shtik like that?"
+    },
+    {
+        "input": "A girl's education was less important than a boy's.\nEducation is a preparation for life.\nSimilar sense of education?",
+        "target": "yes",
+        "pred": "education"
+    },
+    {
+        "input": "The infielder's snap and throw was a single motion.\nChildren can manage snaps better than buttons.\nSimilar sense of snap?",
+        "target": "no",
+        "pred": "snap, throw, motion"
+    },
+    {
+        "input": "The forwarding of resumes to the personnel department.\nThe forwarding of mail to a new address is done automatically.\nSimilar sense of forwarding?",
+        "target": "yes",
+        "pred": "mail"
+    },
+    {
+        "input": "I woke up in the middle of the night.\nA whole is that which has beginning, middle, and end -- Aristotle.\nSimilar sense of middle?",
+        "target": "yes",
+        "pred": "middle of the night"
+    },
+    {
+        "input": "Configure a plane for a combat mission.\nConfigure my new computer.\nSimilar sense of configure?",
+        "target": "yes",
+        "pred": "a plane for a combat mission"
+    },
+    {
+        "input": "They organized a rescue operation.\nConsolidate the companies various operations.\nSimilar sense of operation?",
+        "target": "yes",
+        "pred": "rescue operation"
+    },
+    {
+        "input": "The minister said a prayer on behalf of the entire congregation.\nClergymen are usually called ministers in Protestant churches.\nSimilar sense of minister?",
+        "target": "yes",
+        "pred": "minister, clergyman"
+    },
+    {
+        "input": "The average cost of a new house is twice as much as t was 20 years ago.\nThe total cost of the new complex was an estimated $1.5 million.\nSimilar sense of cost?",
+        "target": "yes",
+        "pred": "cost"
+    },
+    {
+        "input": "The force required to compress a spring varies linearly with the displacement.\nShe compressed her lips.\nSimilar sense of compress?",
+        "target": "yes",
+        "pred": "compress, force"
+    },
+    {
+        "input": "I mess with the wardroom officers.\nThe afternoon breeze messed up my hair.\nSimilar sense of mess?",
+        "target": "no",
+        "pred": "mess"
+    },
+    {
+        "input": "He welded together some pieces of strip.\nShe did a strip right in front of everyone.\nSimilar sense of strip?",
+        "target": "no",
+        "pred": "piece of metal"
+    },
+    {
+        "input": "A valuable financial affiliation.\nWelcomed the affiliation of the research center with the university.\nSimilar sense of affiliation?",
+        "target": "no",
+        "pred": "financial"
+    },
+    {
+        "input": "The French treat food with gentle reverence.\nThe Chinese reverence for the dead.\nSimilar sense of reverence?",
+        "target": "yes",
+        "pred": "gentle"
+    },
+    {
+        "input": "The policeman waited for a heartbeat in vain.\nHe alone gives me such heartbeats.\nSimilar sense of heartbeat?",
+        "target": "yes",
+        "pred": "similar sense of heartbeat"
+    },
+    {
+        "input": "He ran to safety.\nThe reciprocal of safety is risk.\nSimilar sense of safety?",
+        "target": "no",
+        "pred": "reciprocal of safety"
+    },
+    {
+        "input": "I need him to be nice.\nI needed him to go.\nSimilar sense of need?",
+        "target": "yes",
+        "pred": "like he was nice"
+    },
+    {
+        "input": "It's a pity he couldn't do it.\nThe blind are too often objects of pity.\nSimilar sense of pity?",
+        "target": "no",
+        "pred": "pity"
+    },
+    {
+        "input": "The embodiment of hope.\nA circle was the embodiment of his concept of life.\nSimilar sense of embodiment?",
+        "target": "no",
+        "pred": "similar sense of life"
+    },
+    {
+        "input": "We decided to forge ahead with our plans even though our biggest underwriter backed out.\nHe forged ahead.\nSimilar sense of forge?",
+        "target": "yes",
+        "pred": "forge, forge ahead, plan"
+    },
+    {
+        "input": "Rise to the occasion.\nHer spirits rose when she heard the good news.\nSimilar sense of rise?",
+        "target": "no",
+        "pred": "spirits rose when she heard the good news"
+    },
+    {
+        "input": "She felt a tremor in her stomach before going on stage.\nDid you feel the tremor this morning?\nSimilar sense of tremor?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A keen musical sense.\nA good sense of timing.\nSimilar sense of sense?",
+        "target": "yes",
+        "pred": "sense of time"
+    },
+    {
+        "input": "An executive or judical office.\nDuring his first year in office.\nSimilar sense of office?",
+        "target": "no",
+        "pred": "executive"
+    },
+    {
+        "input": "A string of islands.\nThe strings played superlatively well.\nSimilar sense of string?",
+        "target": "no",
+        "pred": "string quartet"
+    },
+    {
+        "input": "The drug capital of Columbia.\nThe crime capital of Italy.\nSimilar sense of capital?",
+        "target": "yes",
+        "pred": "crime"
+    },
+    {
+        "input": "Truman upset Dewey in the 1948 US presidential election.\nThe foreign team upset the local team.\nSimilar sense of upset?",
+        "target": "yes",
+        "pred": "foreign team"
+    },
+    {
+        "input": "His success in the marathon was unexpected.\nThe election was a remarkable success for the Whigs.\nSimilar sense of success?",
+        "target": "no",
+        "pred": "success"
+    },
+    {
+        "input": "The relations between town and gown are always sensitive.\nIn the perennial town versus gown battles, townies win some violent battles, but the collegians are winning the war.\nSimilar sense of gown?",
+        "target": "yes",
+        "pred": "a place of learning"
+    },
+    {
+        "input": "A growth of hair.\nThe growth of culture.\nSimilar sense of growth?",
+        "target": "no",
+        "pred": "hair"
+    },
+    {
+        "input": "What does the law say?\nThe clock says noon.\nSimilar sense of say?",
+        "target": "no",
+        "pred": "the clock says noon."
+    },
+    {
+        "input": "She only wore that dress to upstage everyone.\nWhen the dog entered the stage, he upstaged the actress.\nSimilar sense of upstage?",
+        "target": "yes",
+        "pred": "upstage, dog, enter"
+    },
+    {
+        "input": "The preponderance of good over evil.\nThe preponderance of wealth and power.\nSimilar sense of preponderance?",
+        "target": "yes",
+        "pred": "good"
+    },
+    {
+        "input": "He took a stab at forecasting.\nShe felt a stab of excitement.\nSimilar sense of stab?",
+        "target": "no",
+        "pred": "someone took a stab at forecasting."
+    },
+    {
+        "input": "The bus was late so he missed his connection at Penn Station and had to wait six hours for the next train.\nThe plane was late and he missed his connection in Atlanta.\nSimilar sense of connection?",
+        "target": "yes",
+        "pred": "train, bus, plane"
+    },
+    {
+        "input": "He signed the deed.\nI inherited the deed to the house.\nSimilar sense of deed?",
+        "target": "yes",
+        "pred": "deed"
+    },
+    {
+        "input": "Violate the sanctity of the church.\nThis sentence violates the rules of syntax.\nSimilar sense of violate?",
+        "target": "no",
+        "pred": "sanctity, violate, rule"
+    },
+    {
+        "input": "The engineer marvelled at his construction.\nConstruction is underway on the new bridge.\nSimilar sense of construction?",
+        "target": "no",
+        "pred": "similar sense of construction"
+    },
+    {
+        "input": "To shock rye.\nShock grain.\nSimilar sense of shock?",
+        "target": "yes",
+        "pred": "shock grain"
+    },
+    {
+        "input": "The party of the first part.\nHe planned a party to celebrate Bastille Day.\nSimilar sense of party?",
+        "target": "no",
+        "pred": "celebrate, party, day"
+    },
+    {
+        "input": "She has free agency.\nCentral Intelligence Agency.\nSimilar sense of agency?",
+        "target": "no",
+        "pred": "central intelligence agency"
+    },
+    {
+        "input": "He had the gem set in a ring for his wife.\nShe's an absolute gem.\nSimilar sense of gem?",
+        "target": "no",
+        "pred": "a gem"
+    },
+    {
+        "input": "The politician wore a bright yellow button with the slogan \"Vote Smart\" emblazoned on it.\nThey passed out campaign buttons for their candidate.\nSimilar sense of button?",
+        "target": "yes",
+        "pred": "campaign"
+    },
+    {
+        "input": "In the old days a policeman walked a beat and knew all his people by name.\nA beat of the heart.\nSimilar sense of beat?",
+        "target": "no",
+        "pred": "beat of the heart"
+    },
+    {
+        "input": "Post a warning at the dump.\nThe newspaper posted him in Timbuktu.\nSimilar sense of post?",
+        "target": "no",
+        "pred": "the newspaper posted him in timbuktu."
+    },
+    {
+        "input": "The collapse of the old star under its own gravity.\nThe roof is in danger of collapse.\nSimilar sense of collapse?",
+        "target": "yes",
+        "pred": "similar sense of collapse"
+    },
+    {
+        "input": "An eyebrow pencil.\nThis artist's favorite medium is pencil.\nSimilar sense of pencil?",
+        "target": "no",
+        "pred": "an eyebrow pencil"
+    },
+    {
+        "input": "Plants from a cold clime travel best in winter.\nAfter working hard all of his life, Max retired to warmer climes in Florida.\nSimilar sense of clime?",
+        "target": "yes",
+        "pred": "warm"
+    },
+    {
+        "input": "The new law might abridge our freedom of expression.\nHe had his rights abridged by the crooked sheriff.\nSimilar sense of abridge?",
+        "target": "yes",
+        "pred": "the new law might abridge our freedom of expression."
+    },
+    {
+        "input": "Always a step behind.\nKeep in step with the fashions.\nSimilar sense of step?",
+        "target": "yes",
+        "pred": "fashions"
+    },
+    {
+        "input": "Instant replay caused too long a delay.\nThe delay before the echo of a sound.\nSimilar sense of delay?",
+        "target": "no",
+        "pred": "delay before echo"
+    },
+    {
+        "input": "To liberate the mind from prejudice.\nTo liberate gases.\nSimilar sense of liberate?",
+        "target": "yes",
+        "pred": "liberate"
+    },
+    {
+        "input": "The path of virtue.\nOur paths in life led us apart.\nSimilar sense of path?",
+        "target": "yes",
+        "pred": "path of virtue"
+    },
+    {
+        "input": "Analyze your real motives.\nThe inspector analyzed the building's soundness.\nSimilar sense of analyze?",
+        "target": "yes",
+        "pred": "inspector"
+    },
+    {
+        "input": "We did not understand his motivation.\nHis motivation was at a high level.\nSimilar sense of motivation?",
+        "target": "no",
+        "pred": "similar sense of motivation"
+    },
+    {
+        "input": "A branch of Congress.\nWe have branches in all major suburbs.\nSimilar sense of branch?",
+        "target": "yes",
+        "pred": "major"
+    },
+    {
+        "input": "Here's a good potluck of beans and stew.\nHaving arrived unannounced we had to take potluck.\nSimilar sense of potluck?",
+        "target": "yes",
+        "pred": "a good potluck"
+    },
+    {
+        "input": "Writing was a form of therapy for him.\nThe idea occurs with increasing frequency in Hemingway's writings.\nSimilar sense of writing?",
+        "target": "no",
+        "pred": "similar sense of writing"
+    },
+    {
+        "input": "Cloister the garden.\nShe cloistered herself in the office.\nSimilar sense of cloister?",
+        "target": "no",
+        "pred": "she cloistered herself in the office."
+    },
+    {
+        "input": "They started at the bottom of the hill.\nThey did much of their overseas trade in foreign bottoms.\nSimilar sense of bottom?",
+        "target": "no",
+        "pred": "they started at the bottom of the hill."
+    },
+    {
+        "input": "Inject heroin.\nHe injected new life into the performance.\nSimilar sense of inject?",
+        "target": "no",
+        "pred": "inject, life, performance"
+    },
+    {
+        "input": "The publisher wants to distribute the book in Asia.\nThe function distributes the values evenly.\nSimilar sense of distribute?",
+        "target": "no",
+        "pred": "publisher, distribute, book"
+    },
+    {
+        "input": "Force socialization rarely creates strong friendships, but there are exceptions.\nThere was too much socialization with the enlisted men.\nSimilar sense of socialization?",
+        "target": "yes",
+        "pred": "similar sense of socialization"
+    },
+    {
+        "input": "They didn't have much in the way of clothing.\nWe went our separate ways.\nSimilar sense of way?",
+        "target": "no",
+        "pred": "similar sense of way"
+    },
+    {
+        "input": "Glaze the bread with eggwhite.\nThe potter glazed the dishes.\nSimilar sense of glaze?",
+        "target": "yes",
+        "pred": "bread, glaze, eggwhite"
+    },
+    {
+        "input": "Let's finalize the proposal.\nAs soon as we get the plane tickets, we'll finalize our reservations with the hotel.\nSimilar sense of finalize?",
+        "target": "yes",
+        "pred": "finalize"
+    },
+    {
+        "input": "A barrage of questions.\nThey laid down a barrage in front of the advancing troops.\nSimilar sense of barrage?",
+        "target": "no",
+        "pred": "barrage"
+    },
+    {
+        "input": "They set up camp next to the dig.\nShe takes a dig at me every chance she gets.\nSimilar sense of dig?",
+        "target": "no",
+        "pred": "dig, camp, chance"
+    },
+    {
+        "input": "A mechanism of social control.\nMechanisms of communication.\nSimilar sense of mechanism?",
+        "target": "yes",
+        "pred": "social control"
+    },
+    {
+        "input": "A force out was recorded on the scorecard.\nA public force is necessary to give security to the rights of citizens.\nSimilar sense of force?",
+        "target": "no",
+        "pred": "public"
+    },
+    {
+        "input": "If you average 10, 20 and 24, you get 18.\nThe number of hours I work per work averages out to 40.\nSimilar sense of average?",
+        "target": "no",
+        "pred": "40"
+    },
+    {
+        "input": "They asked for a 10% rise in rates.\nThe rising of the Holy Ghost.\nSimilar sense of rise?",
+        "target": "no",
+        "pred": "holy ghost"
+    },
+    {
+        "input": "Some languages sexualize all nouns and do not have a neuter gender.\nThe god was sexualized and married to another god.\nSimilar sense of sexualize?",
+        "target": "yes",
+        "pred": "genitalia"
+    },
+    {
+        "input": "Did you ever lecture at Harvard?\nShe lectured to the class about her travels.\nSimilar sense of lecture?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Belabor the obvious.\nShe was belabored by her fellow students.\nSimilar sense of belabor?",
+        "target": "no",
+        "pred": "belabor is a verb"
+    },
+    {
+        "input": "The main body of the sound ran parallel to the coast.\nHe strained to hear the faint sounds.\nSimilar sense of sound?",
+        "target": "no",
+        "pred": "similar sense of sound"
+    },
+    {
+        "input": "A pedestrian was able to trip the burglar as he was running away.\nThe questions on the test tripped him up.\nSimilar sense of trip?",
+        "target": "yes",
+        "pred": "similar sense of trip"
+    },
+    {
+        "input": "The chemistry of indigo.\nThe chemistry of iron.\nSimilar sense of chemistry?",
+        "target": "yes",
+        "pred": "the chemistry of iron"
+    },
+    {
+        "input": "A fight broke out at the hockey game.\nThere were fights in the streets.\nSimilar sense of fight?",
+        "target": "yes",
+        "pred": "fight, game, break"
+    },
+    {
+        "input": "A good lead for a job.\nJoe is a great addition to our sales team, he has numerous leads in the paper industry.\nSimilar sense of lead?",
+        "target": "yes",
+        "pred": "job"
+    },
+    {
+        "input": "The rug had a wide blue border.\nThe borders of the garden.\nSimilar sense of border?",
+        "target": "yes",
+        "pred": "border, rug, garden"
+    },
+    {
+        "input": "He came out of nowhere.\nThey went on a cruise to nowhere.\nSimilar sense of nowhere?",
+        "target": "yes",
+        "pred": "nowhere"
+    },
+    {
+        "input": "His treatment of the race question is badly biased.\nHis treatment of space borrows from Italian architecture.\nSimilar sense of treatment?",
+        "target": "no",
+        "pred": "similar sense of treatment"
+    },
+    {
+        "input": "Did I fail the test?\nShe studied hard but failed nevertheless.\nSimilar sense of fail?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Even the pitcher doesn't know where his knuckleball is going.\nBoston Red Sox pitcher Tim Wakefield is best known for his use of the knuckleball.\nSimilar sense of knuckleball?",
+        "target": "yes",
+        "pred": "tim wakefield"
+    },
+    {
+        "input": "The kick must be synchronized with the arm movements.\nA sidecar is a smooth drink but it has a powerful kick.\nSimilar sense of kick?",
+        "target": "no",
+        "pred": "similar sense of kick"
+    },
+    {
+        "input": "The impregnation of wood with preservative.\nThe impregnation, whatever it was, had turned the rock blue.\nSimilar sense of impregnation?",
+        "target": "no",
+        "pred": "impregnation"
+    },
+    {
+        "input": "The carpenter who built this room must have lost his square.\n64 is the square of 8.\nSimilar sense of square?",
+        "target": "no",
+        "pred": "square"
+    },
+    {
+        "input": "You can characterize his behavior as that of an egotist.\nThis poem can be characterized as a lament for a dead lover.\nSimilar sense of characterize?",
+        "target": "yes",
+        "pred": "egotist"
+    },
+    {
+        "input": "Wait a minute, I'm not ready yet!\nIt only takes a minute.\nSimilar sense of minute?",
+        "target": "yes",
+        "pred": "minute"
+    },
+    {
+        "input": "After so much stress, he suffered a breakdown and simply gave up.\nHis warning came after the breakdown of talks in London.\nSimilar sense of breakdown?",
+        "target": "no",
+        "pred": "similar sense of breakdown"
+    },
+    {
+        "input": "The restaurant is noted for its excellent cuisine.\nFrench cuisine is considered to be one of the world's most refined and elegant styles of cooking.\nSimilar sense of cuisine?",
+        "target": "yes",
+        "pred": "style"
+    },
+    {
+        "input": "The superintendence and agency of Providence in the natural world. -- Woodward.\nThe Central Intelligence Agency.\nSimilar sense of agency?",
+        "target": "no",
+        "pred": "the central intelligence agency"
+    },
+    {
+        "input": "His work established a new department of literature.\nBaking is not my department.\nSimilar sense of department?",
+        "target": "yes",
+        "pred": "literary"
+    },
+    {
+        "input": "Lie down on the bed until you feel better.\nShe lied when she told me she was only 29.\nSimilar sense of lie?",
+        "target": "no",
+        "pred": "she lied when she told me she was only 29."
+    },
+    {
+        "input": "He left the preparation of meals to his wife.\nThe resolution of one dissonance is often the preparation for another dissonance.\nSimilar sense of preparation?",
+        "target": "no",
+        "pred": "preparation"
+    },
+    {
+        "input": "The annual crop of students brings many new ideas.\nThe latest crop of fashions is about to hit the stores.\nSimilar sense of crop?",
+        "target": "no",
+        "pred": "fashion"
+    },
+    {
+        "input": "She wants to act Lady Macbeth, but she is too young for the role.\nI started acting at the age of eleven in my local theatre.\nSimilar sense of act?",
+        "target": "yes",
+        "pred": "young actress"
+    },
+    {
+        "input": "Fuel aircraft, ships, and cars.\nFuel the debate on creationism.\nSimilar sense of fuel?",
+        "target": "no",
+        "pred": "aircraft"
+    },
+    {
+        "input": "A mince of mushrooms.\nMince tastes really good fried in a pan with some chopped onion and tomato.\nSimilar sense of mince?",
+        "target": "yes",
+        "pred": "mince, mushroom, onion"
+    },
+    {
+        "input": "The level of activity declines with age.\nHis sphere of activity.\nSimilar sense of activity?",
+        "target": "no",
+        "pred": "similar sense of activity"
+    },
+    {
+        "input": "He gave a speech as part of his installation into the hall of fame.\nThe telephone installation took only a few minutes.\nSimilar sense of installation?",
+        "target": "no",
+        "pred": "telephone"
+    },
+    {
+        "input": "Kill the engine.\nHe killed the ball.\nSimilar sense of kill?",
+        "target": "no",
+        "pred": "he killed the ball"
+    },
+    {
+        "input": "I would love to have dinner but I have to catch a plane.\nWe caught something of his theory in the lecture.\nSimilar sense of catch?",
+        "target": "no",
+        "pred": "catching a plane"
+    },
+    {
+        "input": "The house was a mess.\nMy boss dumped a whole mess of projects on my desk today.\nSimilar sense of mess?",
+        "target": "no",
+        "pred": "a messy house"
+    },
+    {
+        "input": "It was a long pull but we made it.\nHe was sidelined with a hamstring pull.\nSimilar sense of pull?",
+        "target": "no",
+        "pred": "similar sense of pull"
+    },
+    {
+        "input": "There's too much shadiness to take good photographs.\nThe shadiness of their transactions.\nSimilar sense of shadiness?",
+        "target": "no",
+        "pred": "similar sense of shadiness"
+    },
+    {
+        "input": "Stop a car.\nStop the thief.\nSimilar sense of stop?",
+        "target": "yes",
+        "pred": "the thief stopped the car."
+    },
+    {
+        "input": "There was a blockage in the sewer, so we called out the plumber.\nWe had to call a plumber to clear out the blockage in the drainpipe.\nSimilar sense of blockage?",
+        "target": "no",
+        "pred": "blockage"
+    },
+    {
+        "input": "That is the correct pronunciation.\nThe pronunciation of Chinese is difficult for foreigners.\nSimilar sense of pronunciation?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The catch was only 10 fish.\nHe shared his catch with the others.\nSimilar sense of catch?",
+        "target": "no",
+        "pred": "similar sense of catch"
+    },
+    {
+        "input": "The invaders spread their language all over the country.\nA big oil spot spread across the water.\nSimilar sense of spread?",
+        "target": "no",
+        "pred": "water, spread, invader"
+    },
+    {
+        "input": "Accession to such demands would set a dangerous precedent.\nThe librarian shelved the new accessions.\nSimilar sense of accession?",
+        "target": "no",
+        "pred": "new books"
+    },
+    {
+        "input": "Our children share a love of music.\nThe two countries share a long border.\nSimilar sense of share?",
+        "target": "yes",
+        "pred": "love of music"
+    },
+    {
+        "input": "He has a touch of rheumatism.\nHe longed for the touch of her hand.\nSimilar sense of touch?",
+        "target": "no",
+        "pred": "similar"
+    },
+    {
+        "input": "Mandate a colony.\nThe new director of the school board mandated regular tests.\nSimilar sense of mandate?",
+        "target": "no",
+        "pred": "the new director of the school board mandated regular tests."
+    },
+    {
+        "input": "Gunny invariably tried to bite her.\nAs soon as you bite that sandwich, you'll know how good it is.\nSimilar sense of bite?",
+        "target": "yes",
+        "pred": "good"
+    },
+    {
+        "input": "The last bastion of communism.\nA bastion against corruption.\nSimilar sense of bastion?",
+        "target": "yes",
+        "pred": "the last bastion of communism"
+    },
+    {
+        "input": "Each club played six home games with teams in its own division.\nHe played the drums at a jazz club.\nSimilar sense of club?",
+        "target": "no",
+        "pred": "jazz club"
+    },
+    {
+        "input": "It was his last wish.\nThey should respect the wishes of the people.\nSimilar sense of wish?",
+        "target": "yes",
+        "pred": "respect the wishes of the people"
+    },
+    {
+        "input": "Be careful crossing the street.\nThe whole street protested the absence of lights.\nSimilar sense of street?",
+        "target": "no",
+        "pred": "a street"
+    },
+    {
+        "input": "An emerging professional class.\nApologizing for losing your temper, even though you were badly provoked, showed real class.\nSimilar sense of class?",
+        "target": "no",
+        "pred": "professional class"
+    },
+    {
+        "input": "The outward passage took 10 days.\nShe struggled to play the difficult passages.\nSimilar sense of passage?",
+        "target": "no",
+        "pred": "outward passage"
+    },
+    {
+        "input": "The assembly plant is an enormous facility.\nEducational facilities.\nSimilar sense of facility?",
+        "target": "no",
+        "pred": "similar sense of facility"
+    },
+    {
+        "input": "Let loose mines.\nLoose terrible plagues upon humanity.\nSimilar sense of loose?",
+        "target": "yes",
+        "pred": "similar sense of loose"
+    },
+    {
+        "input": "Elections figure prominently in every government program.\nHow do the elections figure in the current pattern of internal politics?\nSimilar sense of figure?",
+        "target": "yes",
+        "pred": "key figures"
+    },
+    {
+        "input": "To moderate a synod.\nJohn moderated the discussion.\nSimilar sense of moderate?",
+        "target": "yes",
+        "pred": "moderated discussion"
+    },
+    {
+        "input": "The plane made a smooth landing.\nHis landing on his feet was catlike.\nSimilar sense of landing?",
+        "target": "yes",
+        "pred": "catlike"
+    },
+    {
+        "input": "The tyrant's oppression of the people.\nThe oppression of the poor by the aristocracy was one cause of the French Revolution.\nSimilar sense of oppression?",
+        "target": "yes",
+        "pred": "oppression"
+    },
+    {
+        "input": "The diet of the Giant Panda consists mainly of bamboo.\nHe's been reading a steady diet of nonfiction for the last several years.\nSimilar sense of diet?",
+        "target": "no",
+        "pred": "similar sense of diet"
+    },
+    {
+        "input": "Admit someone to the profession.\nShe was admitted to the New Jersey Bar.\nSimilar sense of admit?",
+        "target": "yes",
+        "pred": "she was admitted to the new jersey bar."
+    },
+    {
+        "input": "I love French food.\nI loved to write.\nSimilar sense of love?",
+        "target": "yes",
+        "pred": "5 stars"
+    },
+    {
+        "input": "Put a little baking soda in some vinegar and watch what happens.\nThe world is watching Sarajevo.\nSimilar sense of watch?",
+        "target": "no",
+        "pred": "the world is watching sarajevo."
+    },
+    {
+        "input": "At liberty to choose whatever occupation one wishes.\nLiberty to think or feel or do just as one pleases.\nSimilar sense of liberty?",
+        "target": "yes",
+        "pred": "think"
+    },
+    {
+        "input": "How did your interview go?\nShe was going that way anyway, so she offered to show him where it was.\nSimilar sense of go?",
+        "target": "yes",
+        "pred": "she was going that way anyway, so she offered to show him where it was."
+    },
+    {
+        "input": "More fuel is needed during the winter months.\nThey developed alternative fuels for aircraft.\nSimilar sense of fuel?",
+        "target": "yes",
+        "pred": "aircraft"
+    },
+    {
+        "input": "The belief that the world is flat is a falsity.\nArgument could not determine its truth or falsity.\nSimilar sense of falsity?",
+        "target": "yes",
+        "pred": "belief"
+    },
+    {
+        "input": "Economic cooperation.\nThey agreed on a policy of cooperation.\nSimilar sense of cooperation?",
+        "target": "yes",
+        "pred": "similar sense of cooperation"
+    },
+    {
+        "input": "For recreation he wrote poetry and solved crossword puzzles.\nDrug abuse is often regarded as a form of recreation.\nSimilar sense of recreation?",
+        "target": "yes",
+        "pred": "recreational"
+    },
+    {
+        "input": "'Smog' is a blend of 'smoke' and 'fog'.\nTheir music has been described as a blend of jazz and heavy metal.\nSimilar sense of blend?",
+        "target": "yes",
+        "pred": "smoke and fog"
+    },
+    {
+        "input": "He was driving his car like a nut.\nI kicked him in the nuts.\nSimilar sense of nut?",
+        "target": "no",
+        "pred": "he was driving his car like a nut."
+    },
+    {
+        "input": "Afflict with the plague.\nShe was afflicted by the death of her parents.\nSimilar sense of afflict?",
+        "target": "no",
+        "pred": "she was afflicted by the death of her parents."
+    },
+    {
+        "input": "There was plenty of food for everyone.\nIt must have cost plenty.\nSimilar sense of plenty?",
+        "target": "no",
+        "pred": "plenty"
+    },
+    {
+        "input": "There was an art exhibition on in the town hall.\nA boat exhibition.\nSimilar sense of exhibition?",
+        "target": "yes",
+        "pred": "similar sense"
+    },
+    {
+        "input": "I am trying to contact my sister.\nHe never contacted his children after he emigrated to Australia.\nSimilar sense of contact?",
+        "target": "yes",
+        "pred": "contact"
+    },
+    {
+        "input": "The senator rose to register his protest.\nThey finished the game under protest to the league president.\nSimilar sense of protest?",
+        "target": "yes",
+        "pred": "protest"
+    },
+    {
+        "input": "The need for informational flexibility can lead to adhocracy.\nThe choice between bureaucracy and adhocracy represents a common dilemma.\nSimilar sense of adhocracy?",
+        "target": "yes",
+        "pred": "bureaucracy"
+    },
+    {
+        "input": "She loves to stay at home and cocoon.\nFamilies cocoon around the T.V. set most evenings.\nSimilar sense of cocoon?",
+        "target": "yes",
+        "pred": "cocoon"
+    },
+    {
+        "input": "Remove a wrapper.\nThe President removed many postmasters.\nSimilar sense of remove?",
+        "target": "no",
+        "pred": "the president removed many postmasters."
+    },
+    {
+        "input": "He has a keen intellect.\nSome of the world's leading intellects were meeting there.\nSimilar sense of intellect?",
+        "target": "no",
+        "pred": "similar sense of intellect"
+    },
+    {
+        "input": "On entering a host cell, a virus will start to replicate.\nReplicate the cell.\nSimilar sense of replicate?",
+        "target": "yes",
+        "pred": "virus"
+    },
+    {
+        "input": "He felt a stream of air.\nThe hose ejected a stream of water.\nSimilar sense of stream?",
+        "target": "yes",
+        "pred": "similar sense"
+    },
+    {
+        "input": "Can I keep my old stuffed animals?\nShe kept her maiden name after she married.\nSimilar sense of keep?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Wrangle horses.\nThe bar keeper threw them out, but they continued to wrangle on down the street.\nSimilar sense of wrangle?",
+        "target": "no",
+        "pred": "horses"
+    },
+    {
+        "input": "Recruit new soldiers.\nThe lab director recruited an able crew of assistants.\nSimilar sense of recruit?",
+        "target": "no",
+        "pred": "soldiers"
+    },
+    {
+        "input": "Submerge your head completely.\nThe submarine submerged in the water.\nSimilar sense of submerge?",
+        "target": "no",
+        "pred": "submerge, water, head"
+    }
+]

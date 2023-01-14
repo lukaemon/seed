@@ -1,0 +1,52 @@
+[
+    {
+        "input": "\"The competition was sabotaged.\" or \"He intimidated his competitors.\"? The man lost the competition.  because",
+        "target": "the competition was sabotaged.",
+        "pred": "he intimidated his competitors."
+    },
+    {
+        "input": "\"The students both received excellent grades.\" or \"Their responses on the assignment were identical.\"? The pair of students came under scrutiny by the teacher.  because",
+        "target": "their responses on the assignment were identical.",
+        "pred": "no"
+    },
+    {
+        "input": "\"He heard thunder.\" or \"The sun went down.\"? The driver turned on the car's headlights.  because",
+        "target": "the sun went down.",
+        "pred": "he heard thunder."
+    },
+    {
+        "input": "\"He parallel parked on the street.\" or \"The parking meter expired.\"? The man received a parking ticket.  because",
+        "target": "the parking meter expired.",
+        "pred": "he parallel parked on the street."
+    },
+    {
+        "input": "\"I sprained my ankle.\" or \"My face got sunburned.\"? I spent the day at the pool.  so",
+        "target": "my face got sunburned.",
+        "pred": "i got sunburned."
+    },
+    {
+        "input": "\"The objects in the wagon fell out.\" or \"The wagon wheels spun forward.\"? I pushed the wagon.  so",
+        "target": "the wagon wheels spun forward.",
+        "pred": "the objects in the wagon fell out."
+    },
+    {
+        "input": "\"The courtroom broke into uproar.\" or \"The jury announced its verdict.\"? The judge pounded the gavel.  because",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "\"I installed new speakers.\" or \"I lost all my data.\"? My computer crashed.  so",
+        "target": "i lost all my data.",
+        "pred": "my computer crashed so i lost all my data."
+    },
+    {
+        "input": "\"She made up an excuse to tell the teacher.\" or \"The teacher promoted her to the next grade.\"? The student forgot to do her assignment.  so",
+        "target": "she made up an excuse to tell the teacher.",
+        "pred": "the student forgot to do her assignment, so she made up an excuse to tell the teacher."
+    },
+    {
+        "input": "\"The woman got her hair cut.\" or \"The woman wore a bracelet.\"? The man perceived that the woman looked different.  because",
+        "target": "the woman got her hair cut.",
+        "pred": "the woman wore a bracelet."
+    }
+]

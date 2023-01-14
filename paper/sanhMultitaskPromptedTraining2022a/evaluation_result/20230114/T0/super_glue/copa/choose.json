@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "input": "The detective revealed an anomaly in the case.  so... \nChoose between:\n- He finalized his theory.\n- He scrapped his theory.",
+        "target": "he scrapped his theory.",
+        "pred": "he finalized his theory."
+    },
+    {
+        "input": "The judge pounded the gavel.  because... \nChoose between:\n- The courtroom broke into uproar.\n- The jury announced its verdict.",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "I twisted the cap off the soda bottle.  so... \nChoose between:\n- The soda fizzed.\n- The soda leaked out.",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    },
+    {
+        "input": "The flame on the candle went out.  because... \nChoose between:\n- I blew on the wick.\n- I put a match to the wick.",
+        "target": "i blew on the wick.",
+        "pred": "i put a match to the wick."
+    }
+]

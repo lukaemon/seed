@@ -1,0 +1,112 @@
+[
+    {
+        "input": "Suppose B: You never see them on nationally basketball. A: You know, that's true. I don't think I've ever seen them nationally on basketball. Can we infer that \"he has seen them nationally on basketball\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no he has seen them on basketball\"he has seen them on basketball\" no, he has never seen them on nationally basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, he has seen them on basketball\" no, no contradiction in the two statements no, he has seen them on basketball"
+    },
+    {
+        "input": "Suppose But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? Can we infer that \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose A: Really. If they were to take half of what they spend on that and put it on some economic, you know, intergovernmental or inter United States like programs that one really might. B: Yeah. A: I believe in paying my share, and I don't mind, uh, paying for some of these fringe benefits that people are entitled to. But I just sometimes feel like I'm being used. But, uh, again I don't think we'll be able to do anything about it, Can we infer that \"they'll be able to do anything about it\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, they'll be able to do anything about it\" no, no, i don't think we'll be able to do anything about it\""
+    },
+    {
+        "input": "Suppose A: No, I don't either. B: Uh, I mean it's, you know it, A: I don't think it's going to change very much Can we infer that \"it's going to change very much\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "i don't think it's going to change very much\""
+    },
+    {
+        "input": "Suppose Modify the arachnids, said the researchers. Change their bodies and conditions, and you could get fibres like glass, still monofilament, but with logarithmic progressions of possibilities of strength and flexibility, and the ability to resonate light-particles or sound-waves undistorted, scarcely weakened over thousands of miles. Who said the arachnids had to be totally organic? Can we infer that \"arachnids had to be totally organic\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose A: Well, actually, uh, A: I don't think I'm in the, uh, majority in Texas Can we infer that \"she is in the majority in Texas\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no she is in the majority in texas\"?"
+    },
+    {
+        "input": "Suppose A: uh I picked up a bunch of Craftsman tools from the forties that my wife's father owned when he was alive B: Uh-huh. A: and so I do have a band saw and a router and, uh, things like that out in the garage. But I can't say I use them very often. Can we infer that \"he uses them very often\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no he uses them very often no no he uses them very often no he uses them very often no he uses them very often no he uses them very often no he uses them very often no he uses them very often no he uses them very often no he uses them very often no he uses them very often no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no he uses them very often no no"
+    },
+    {
+        "input": "Suppose B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles Can we infer that \"most of the smog or air pollution comes from vehicles\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose Obeying his instruction, I proffered my hand, open palm upwards, towards the animal. The ratbird climbed on and began to preen its fur unconcernedly. Nobody will blame me if I say that in the circumstances I became very uneasy. Can we infer that \"in the circumstances she became very uneasy\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "yes, yes, or maybe?"
+    },
+    {
+        "input": "Suppose A: Now the part about where you said the apartment complex puts up signs that says no soliciting, I've even gone so far as to put that, I've got a storm door on the front of the house and I've put, in, I don't know how much clearer it can be, it's a red sign with silver letters saying no soliciting. I guess I should make another one that says religious or otherwise, cause I still get, B: Yeah, yeah, that's true, yeah. No I didn't go that far but, uh, yeah I probably could do the same thing, uh, you know, I don't have a storm door, but I'm sure I could rig up something. But you know I don't think that that would stop people. Can we infer that \"a no soliciting sign would stop people\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no, or maybe? no, no, no"
+    },
+    {
+        "input": "Suppose What had brought Gharr and Ten-huc and Pulvidon to the planet at the same time? Why were all of them so interested in why I was there? And if they somehow suspected that I was picking up something valuable why would any of them try to kill me before the pick-up? Can we infer that \"she was picking up something valuable\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "yes, it is possible that she was picking up something valuable, but it was not clear"
+    },
+    {
+        "input": "Suppose B: And yet, uh, I we-, I hope to see employer based, you know, helping out. You know, child, uh, care centers at the place of employment and things like that, that will help out. A: Uh-huh. B: What do you think, do you think we are, setting a trend? Can we infer that \"they are setting a trend\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose B: uh, but it's worked out for my family, to have my cake and eat it too, kind of thing. A: Yeah.  Yeah, that's a good deal. Where do you think this is going in the future, I mean, do you think things are going to change, Can we infer that \"things are going to change\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose A: Okay. So Frank, what, uh, type of, uh, budget do you or your family have? B: Well, uh I don't know that we really have a budget. Can we infer that \"he and his family really have a budget\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no"
+    },
+    {
+        "input": "Suppose B: And other than that I do not think it should be allowable. I think it should be illegal for them to want to do that. it's kind of the big brother syndrome, I mean, I just, anything like that just kind of scares me. A: I tend to view it, even though I don't think I'd work for a company that did that, I sort of want to defend an employer's rights uh, in addition to an individual's rights, Can we infer that \"she would work for a company that did that\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no one would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no, no,she would work for a company that did that no,"
+    },
+    {
+        "input": "Suppose A: so I don't know if I wasn't drug tested based on that or because the man who hired me didn't request the drug test, because I know that my company does drug testing on occasion. B: Right. Well, for instance, does the company you worked for before have the right or do they have the ability to say, hey, we've already drug tested her and she came up negative. A: Well, no, I don't think they can force another company to not drug test me just by saying that I didn't, I mean, Can we infer that \"they can force another company to not drug test her\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no no no maybe"
+    },
+    {
+        "input": "Suppose The assassin's tone and bearing were completely confident. If he noticed that Zukov was now edging further to the side widening the arc of fire he did not appear to be troubled. Can we infer that \"Zukov was edging further to the side\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "zukov was now edging further to the side widening the arc of fire arc of fire he did not appear to be troubled. if he noticed that zukov was now edging further to the side widening the arc of fire arc of fire he was now edging further to the side widening the arc of fire arc of fire he was now edging further to the side widening the arc of fire arc of fire arc of fire\""
+    },
+    {
+        "input": "Suppose Valence the void-brain, Valence the virtuous valet. Why couldn't the figger choose his own portion of titanic anatomy to shaft? Did he think he was helping? Can we infer that \"Valence was helping\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Suppose A: Your turn. B: Okay. Uh, I don't think they should abolish it. Can we infer that \"they should abolish it\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or maybe no"
+    },
+    {
+        "input": "Suppose 'Very well, I'll go. But I pick my own men, and if we ever have to fight, you obey my word.'' Jehan did not think that Sidacai was in any position to impose conditions but he sat back in his chair considering. Can we infer that \"Sidacai was in a position to impose conditions\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "no, no, or maybe?"
+    },
+    {
+        "input": "Suppose ``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment? Can we infer that \"there is a shipment\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "shipment\"?"
+    },
+    {
+        "input": "Suppose A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing. They say, hey, we got to do something now. And then start playing the game the way the game should be played toward the last few minutes. B: Yeah. A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year Can we infer that \"they're going to do anything in the playoffs to make it to the Super Bowl this year\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    }
+]

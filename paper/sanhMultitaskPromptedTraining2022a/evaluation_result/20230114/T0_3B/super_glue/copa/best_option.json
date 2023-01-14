@@ -1,0 +1,162 @@
+[
+    {
+        "input": "The man lost the competition. \n\nWhat's the best option?\n- The competition was sabotaged.\n- He intimidated his competitors.\n\nWe are looking for  a cause",
+        "target": "the competition was sabotaged.",
+        "pred": "he intimidated his competitors."
+    },
+    {
+        "input": "The woman lavished her friend with flattery. \n\nWhat's the best option?\n- She wanted to ask her friend for a favor.\n- She was irritated with her friend's whining.\n\nWe are looking for  a cause",
+        "target": "she wanted to ask her friend for a favor.",
+        "pred": "she was irritated with her friend's whining."
+    },
+    {
+        "input": "The pair of students came under scrutiny by the teacher. \n\nWhat's the best option?\n- The students both received excellent grades.\n- Their responses on the assignment were identical.\n\nWe are looking for  a cause",
+        "target": "their responses on the assignment were identical.",
+        "pred": "the students both received excellent grades."
+    },
+    {
+        "input": "The tree branch landed in the river. \n\nWhat's the best option?\n- The branch moved downstream.\n- The river's current became stronger.\n\nWe are looking for  an effect",
+        "target": "the branch moved downstream.",
+        "pred": "the river's current became stronger."
+    },
+    {
+        "input": "The horse bucked. \n\nWhat's the best option?\n- A fly bit the horse.\n- The rider stroked the horse.\n\nWe are looking for  a cause",
+        "target": "a fly bit the horse.",
+        "pred": "the rider stroked the horse."
+    },
+    {
+        "input": "Everyone in the class turned to stare at the student. \n\nWhat's the best option?\n- The student's phone rang.\n- The student took notes.\n\nWe are looking for  a cause",
+        "target": "the student's phone rang.",
+        "pred": "the student took notes."
+    },
+    {
+        "input": "My eyes became red and puffy. \n\nWhat's the best option?\n- I was sobbing.\n- I was laughing.\n\nWe are looking for  a cause",
+        "target": "i was sobbing.",
+        "pred": "i was laughing."
+    },
+    {
+        "input": "The key was missing from my pants pocket. \n\nWhat's the best option?\n- The pocket had a hole.\n- The pants were new.\n\nWe are looking for  a cause",
+        "target": "the pocket had a hole.",
+        "pred": "the pants were new."
+    },
+    {
+        "input": "The sick child coughed on his friend. \n\nWhat's the best option?\n- His friend got sick.\n- His friend sneezed.\n\nWe are looking for  an effect",
+        "target": "his friend got sick.",
+        "pred": "his friend sneezed."
+    },
+    {
+        "input": "The bowling ball knocked over the bowling pins. \n\nWhat's the best option?\n- The man rolled the bowling ball down the alley.\n- The man dropped the bowling ball on his foot.\n\nWe are looking for  a cause",
+        "target": "the man rolled the bowling ball down the alley.",
+        "pred": "the man dropped the bowling ball on his foot."
+    },
+    {
+        "input": "I spent the day at the pool. \n\nWhat's the best option?\n- I sprained my ankle.\n- My face got sunburned.\n\nWe are looking for  an effect",
+        "target": "my face got sunburned.",
+        "pred": "i sprained my ankle."
+    },
+    {
+        "input": "I doubted the salesman's pitch. \n\nWhat's the best option?\n- I turned his offer down.\n- He persuaded me to buy the product.\n\nWe are looking for  an effect",
+        "target": "i turned his offer down.",
+        "pred": "he persuaded me to buy the product."
+    },
+    {
+        "input": "Plans were announced to replace a local park with a shopping mall. \n\nWhat's the best option?\n- Environmentalists started a petition.\n- Environmentalists produced a documentary.\n\nWe are looking for  an effect",
+        "target": "environmentalists started a petition.",
+        "pred": "environmentalists produced a documentary."
+    },
+    {
+        "input": "I put rubber gloves on. \n\nWhat's the best option?\n- I was preparing to wash my hands.\n- I was preparing to clean the bathroom.\n\nWe are looking for  a cause",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to wash my hands."
+    },
+    {
+        "input": "The woman became famous. \n\nWhat's the best option?\n- Photographers followed her.\n- Her family avoided her.\n\nWe are looking for  an effect",
+        "target": "photographers followed her.",
+        "pred": "her family avoided her."
+    },
+    {
+        "input": "The couple got engaged. \n\nWhat's the best option?\n- They planned a wedding.\n- They took some time apart.\n\nWe are looking for  an effect",
+        "target": "they planned a wedding.",
+        "pred": "they took some time apart."
+    },
+    {
+        "input": "The student was in a rush to get to school on time. \n\nWhat's the best option?\n- He left his assignment at home.\n- He brought his lunch to school.\n\nWe are looking for  an effect",
+        "target": "he left his assignment at home.",
+        "pred": "he brought his lunch to school."
+    },
+    {
+        "input": "The seasons changed from summer to autumn. \n\nWhat's the best option?\n- People evacuated their homes.\n- Leaves fell from the trees.\n\nWe are looking for  an effect",
+        "target": "leaves fell from the trees.",
+        "pred": "people evacuated their homes."
+    },
+    {
+        "input": "I coughed. \n\nWhat's the best option?\n- I inhaled smoke.\n- I lowered my voice.\n\nWe are looking for  a cause",
+        "target": "i inhaled smoke.",
+        "pred": "i lowered my voice."
+    },
+    {
+        "input": "I tidied up my house. \n\nWhat's the best option?\n- I was swamped with work.\n- I was expecting company.\n\nWe are looking for  a cause",
+        "target": "i was expecting company.",
+        "pred": "i was swamped with work."
+    },
+    {
+        "input": "The judge pounded the gavel. \n\nWhat's the best option?\n- The courtroom broke into uproar.\n- The jury announced its verdict.\n\nWe are looking for  a cause",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "The lock opened. \n\nWhat's the best option?\n- I turned the key in the lock.\n- I made a duplicate of the key.\n\nWe are looking for  a cause",
+        "target": "i turned the key in the lock.",
+        "pred": "i made a duplicate of the key."
+    },
+    {
+        "input": "The jewelry thieves were caught. \n\nWhat's the best option?\n- The stolen jewelry was returned to its owners.\n- The cost of the stolen jewelry was calculated.\n\nWe are looking for  an effect",
+        "target": "the stolen jewelry was returned to its owners.",
+        "pred": "the cost of the stolen jewelry was calculated."
+    },
+    {
+        "input": "The woman contacted the real estate agent. \n\nWhat's the best option?\n- The woman planned to buy a condo.\n- The woman needed to clean her house.\n\nWe are looking for  a cause",
+        "target": "the woman planned to buy a condo.",
+        "pred": "the woman needed to clean her house."
+    },
+    {
+        "input": "The computer was expensive to fix. \n\nWhat's the best option?\n- I got it repaired.\n- I bought a new one.\n\nWe are looking for  an effect",
+        "target": "i bought a new one.",
+        "pred": "i got it repaired."
+    },
+    {
+        "input": "I put my hands under the running faucet. \n\nWhat's the best option?\n- The soap rinsed off my hands.\n- The water splashed in my face.\n\nWe are looking for  an effect",
+        "target": "the soap rinsed off my hands.",
+        "pred": "the water splashed in my face."
+    },
+    {
+        "input": "The ring on my finger got stuck. \n\nWhat's the best option?\n- My finger swelled.\n- I chipped my fingernail.\n\nWe are looking for  a cause",
+        "target": "my finger swelled.",
+        "pred": "i chipped my fingernail."
+    },
+    {
+        "input": "The player caught the ball. \n\nWhat's the best option?\n- Her teammate threw it to her.\n- Her opponent tried to intercept it.\n\nWe are looking for  a cause",
+        "target": "her teammate threw it to her.",
+        "pred": "her opponent tried to intercept it."
+    },
+    {
+        "input": "The woman resigned from her job. \n\nWhat's the best option?\n- She aspired to hold an executive position in the firm.\n- She believed her superiors were acting unethically.\n\nWe are looking for  a cause",
+        "target": "she believed her superiors were acting unethically.",
+        "pred": "she aspired to hold an executive position in the firm."
+    },
+    {
+        "input": "The couple travelled south for the winter. \n\nWhat's the best option?\n- They were retired.\n- They were separated.\n\nWe are looking for  a cause",
+        "target": "they were retired.",
+        "pred": "they were separated."
+    },
+    {
+        "input": "The man perceived that the woman looked different. \n\nWhat's the best option?\n- The woman got her hair cut.\n- The woman wore a bracelet.\n\nWe are looking for  a cause",
+        "target": "the woman got her hair cut.",
+        "pred": "the woman wore a bracelet."
+    },
+    {
+        "input": "The flame on the candle went out. \n\nWhat's the best option?\n- I blew on the wick.\n- I put a match to the wick.\n\nWe are looking for  a cause",
+        "target": "i blew on the wick.",
+        "pred": "i put a match to the wick."
+    }
+]

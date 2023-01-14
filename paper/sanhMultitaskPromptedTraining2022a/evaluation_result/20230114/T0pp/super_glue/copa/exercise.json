@@ -1,0 +1,17 @@
+[
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe detective revealed an anomaly in the case.  so... \n- He finalized his theory.\n- He scrapped his theory.",
+        "target": "he scrapped his theory.",
+        "pred": "he finalized his theory."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nEveryone in the class turned to stare at the student.  because... \n- The student's phone rang.\n- The student took notes.",
+        "target": "the student's phone rang.",
+        "pred": "the student took notes."
+    },
+    {
+        "input": "Exercise: choose the most plausible alternative.\n\nThe judge pounded the gavel.  because... \n- The courtroom broke into uproar.\n- The jury announced its verdict.",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    }
+]

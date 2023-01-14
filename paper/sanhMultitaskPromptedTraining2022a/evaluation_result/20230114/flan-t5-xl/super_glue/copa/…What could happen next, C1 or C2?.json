@@ -1,0 +1,137 @@
+[
+    {
+        "input": "The man confessed his love for the woman. What could happen next, \"The woman rejected him.\" or \"The woman envied him.\"?",
+        "target": "the woman rejected him.",
+        "pred": "the woman envied him."
+    },
+    {
+        "input": "The detective revealed an anomaly in the case. What could happen next, \"He finalized his theory.\" or \"He scrapped his theory.\"?",
+        "target": "he scrapped his theory.",
+        "pred": "he finalized his theory."
+    },
+    {
+        "input": "The airline mishandled my luggage. What could happen next, \"They offered me compensation.\" or \"They cancelled my flight.\"?",
+        "target": "they offered me compensation.",
+        "pred": "they cancelled my flight."
+    },
+    {
+        "input": "The girl refused to eat her vegetables. What could happen next, \"Her father told her to drink her milk.\" or \"Her father took away her dessert.\"?",
+        "target": "her father took away her dessert.",
+        "pred": "her father took away her dessert.\"?"
+    },
+    {
+        "input": "The lobbyist persuaded the legislature to support the bill. What could happen next, \"The president vetoed the bill.\" or \"The legislature passed the bill.\"?",
+        "target": "the legislature passed the bill.",
+        "pred": "the president vetoed the bill."
+    },
+    {
+        "input": "I stayed up late. What could happen next, \"I had vivid dreams that night.\" or \"I was tired in the morning.\"?",
+        "target": "i was tired in the morning.",
+        "pred": "\"i was tired in the morning.\"? or \"i was tired in the morning.\"?"
+    },
+    {
+        "input": "The bride got cold feet before the wedding. What could happen next, \"The wedding guests brought gifts.\" or \"She called the wedding off.\"?",
+        "target": "she called the wedding off.",
+        "pred": "the wedding guests brought gifts."
+    },
+    {
+        "input": "The man defied the authorities of the church. What could happen next, \"He donated money to the church.\" or \"He was excommunicated from the church.\"?",
+        "target": "he was excommunicated from the church.",
+        "pred": "he was excommunicated from the church. he donated money to the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he donated money to the church. he gave money to the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he donated money to the church. he donated money to the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church. he was excommunicated from the church."
+    },
+    {
+        "input": "I spent the day at the pool. What could happen next, \"I sprained my ankle.\" or \"My face got sunburned.\"?",
+        "target": "my face got sunburned.",
+        "pred": "my face got sunburned.\""
+    },
+    {
+        "input": "I doubted the salesman's pitch. What could happen next, \"I turned his offer down.\" or \"He persuaded me to buy the product.\"?",
+        "target": "i turned his offer down.",
+        "pred": "he persuaded me to buy the product."
+    },
+    {
+        "input": "Political violence broke out in the nation. What could happen next, \"Many citizens relocated to the capitol.\" or \"Many citizens took refuge in other territories.\"?",
+        "target": "many citizens took refuge in other territories.",
+        "pred": "many citizens relocated to the capitol. or many citizens took refuge in other territories.?"
+    },
+    {
+        "input": "The woman became famous. What could happen next, \"Photographers followed her.\" or \"Her family avoided her.\"?",
+        "target": "photographers followed her.",
+        "pred": "the family avoided her.? no family embraced her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family avoided her.? her family"
+    },
+    {
+        "input": "The couple got engaged. What could happen next, \"They planned a wedding.\" or \"They took some time apart.\"?",
+        "target": "they planned a wedding.",
+        "pred": "\"they planned a wedding.\""
+    },
+    {
+        "input": "The seasons changed from summer to autumn. What could happen next, \"People evacuated their homes.\" or \"Leaves fell from the trees.\"?",
+        "target": "leaves fell from the trees.",
+        "pred": "people evacuated their homes."
+    },
+    {
+        "input": "I pushed the wagon. What could happen next, \"The objects in the wagon fell out.\" or \"The wagon wheels spun forward.\"?",
+        "target": "the wagon wheels spun forward.",
+        "pred": "the wagon wheels spun forward.\"?"
+    },
+    {
+        "input": "The couple was happy to see each other. What could happen next, \"They kissed.\" or \"They rested.\"?",
+        "target": "they kissed.",
+        "pred": "they rested."
+    },
+    {
+        "input": "I pulled the rubber band. What could happen next, \"It flung across the room.\" or \"It stretched.\"?",
+        "target": "it stretched.",
+        "pred": "what could happen next?"
+    },
+    {
+        "input": "The man drank heavily at the party. What could happen next, \"He had a headache the next day.\" or \"He had a runny nose the next day.\"?",
+        "target": "he had a headache the next day.",
+        "pred": "what is the best way to get rid of a runny nose?"
+    },
+    {
+        "input": "The teacher assigned homework to the students. What could happen next, \"The students passed notes.\" or \"The students groaned.\"?",
+        "target": "the students groaned.",
+        "pred": "the students passed notes."
+    },
+    {
+        "input": "The chef hit the egg on the side of the bowl. What could happen next, \"The egg cracked.\" or \"The egg rotted.\"?",
+        "target": "the egg cracked.",
+        "pred": "the chef hit the egg on the side of the bowl."
+    },
+    {
+        "input": "The politician was convicted of fraud. What could happen next, \"He campaigned for re-election.\" or \"He was removed from office.\"?",
+        "target": "he was removed from office.",
+        "pred": "\"he campaigned for re-election.\""
+    },
+    {
+        "input": "I pressed my hand into the wet cement. What could happen next, \"My handprint dried in the cement.\" or \"Cracks emerged in the cement.\"?",
+        "target": "my handprint dried in the cement.",
+        "pred": "my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement. my handprint dried in the cement"
+    },
+    {
+        "input": "I lit the candle. What could happen next, \"Wax dripped off the candle.\" or \"The wax on the candle hardened.\"?",
+        "target": "wax dripped off the candle.",
+        "pred": "\"wax dripped off the candle.\""
+    },
+    {
+        "input": "I twisted the cap off the soda bottle. What could happen next, \"The soda fizzed.\" or \"The soda leaked out.\"?",
+        "target": "the soda fizzed.",
+        "pred": "."
+    },
+    {
+        "input": "I put my hands under the running faucet. What could happen next, \"The soap rinsed off my hands.\" or \"The water splashed in my face.\"?",
+        "target": "the soap rinsed off my hands.",
+        "pred": "the water splashed in my face."
+    },
+    {
+        "input": "My computer crashed. What could happen next, \"I installed new speakers.\" or \"I lost all my data.\"?",
+        "target": "i lost all my data.",
+        "pred": "i lost all my data.?"
+    },
+    {
+        "input": "The student forgot to do her assignment. What could happen next, \"She made up an excuse to tell the teacher.\" or \"The teacher promoted her to the next grade.\"?",
+        "target": "she made up an excuse to tell the teacher.",
+        "pred": "the teacher promoted her to the next grade."
+    }
+]

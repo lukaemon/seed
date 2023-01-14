@@ -1,0 +1,27 @@
+[
+    {
+        "input": "The sick child coughed on his friend. As a result, \"His friend got sick.\" or \"His friend sneezed.\"?",
+        "target": "his friend got sick.",
+        "pred": "his friend sneezed."
+    },
+    {
+        "input": "The man grew old. As a result, \"His hair turned gray.\" or \"He sold his belongings.\"?",
+        "target": "his hair turned gray.",
+        "pred": "he sold his belongings."
+    },
+    {
+        "input": "I doubted the salesman's pitch. As a result, \"I turned his offer down.\" or \"He persuaded me to buy the product.\"?",
+        "target": "i turned his offer down.",
+        "pred": "he persuaded me to buy the product."
+    },
+    {
+        "input": "I lit the candle. As a result, \"Wax dripped off the candle.\" or \"The wax on the candle hardened.\"?",
+        "target": "wax dripped off the candle.",
+        "pred": "the wax on the candle hardened."
+    },
+    {
+        "input": "I twisted the cap off the soda bottle. As a result, \"The soda fizzed.\" or \"The soda leaked out.\"?",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    }
+]

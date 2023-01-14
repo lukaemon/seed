@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "input": "The detective revealed an anomaly in the case. What could happen next, \"He finalized his theory.\" or \"He scrapped his theory.\"?",
+        "target": "he scrapped his theory.",
+        "pred": "he finalized his theory."
+    },
+    {
+        "input": "The man defied the authorities of the church. What could happen next, \"He donated money to the church.\" or \"He was excommunicated from the church.\"?",
+        "target": "he was excommunicated from the church.",
+        "pred": "\"he was excommunicated from the church.\""
+    },
+    {
+        "input": "I spent the day at the pool. What could happen next, \"I sprained my ankle.\" or \"My face got sunburned.\"?",
+        "target": "my face got sunburned.",
+        "pred": "i sprained my ankle."
+    },
+    {
+        "input": "Political violence broke out in the nation. What could happen next, \"Many citizens relocated to the capitol.\" or \"Many citizens took refuge in other territories.\"?",
+        "target": "many citizens took refuge in other territories.",
+        "pred": "\"many citizens relocated to the capitol.\""
+    },
+    {
+        "input": "I lit the candle. What could happen next, \"Wax dripped off the candle.\" or \"The wax on the candle hardened.\"?",
+        "target": "wax dripped off the candle.",
+        "pred": "the wax on the candle hardened."
+    },
+    {
+        "input": "I twisted the cap off the soda bottle. What could happen next, \"The soda fizzed.\" or \"The soda leaked out.\"?",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    }
+]

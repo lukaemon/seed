@@ -1,0 +1,1002 @@
+[
+    {
+        "input": "Does the word \"expect\" have the same meaning in these two sentences?\nI expect to receive wages.\nWe were expecting a visit from our relatives.",
+        "target": "yes",
+        "pred": "expect the same meaning?"
+    },
+    {
+        "input": "Does the word \"pick\" have the same meaning in these two sentences?\nTo pick rags.\nDon't always pick on your little brother.",
+        "target": "no",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"log\" have the same meaning in these two sentences?\nThey kept a log of all transmission by the radio station.\nAn email log.",
+        "target": "yes",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"professionalization\" have the same meaning in these two sentences?\nThe professionalization of warfare.\nThe professionalization of American sports.",
+        "target": "yes",
+        "pred": "the professionalization of american sports."
+    },
+    {
+        "input": "Does the word \"mixture\" have the same meaning in these two sentences?\nHe drank a mixture of beer and lemonade.\nThe mixture of sulphuric acid and water produces heat.",
+        "target": "no",
+        "pred": "the mixture of sulphuric acid and water produces heat."
+    },
+    {
+        "input": "Does the word \"tradecraft\" have the same meaning in these two sentences?\nThe CIA chief of station accepted responsibility for his agents' failures of tradecraft.\nInstructional designers are trained in something that might be called tradecraft.",
+        "target": "yes",
+        "pred": "the cia chief of station accepted responsibility for his agents' failures of tradecraft."
+    },
+    {
+        "input": "Does the word \"dimple\" have the same meaning in these two sentences?\nThe accident created a dimple in the hood of the car.\nThere are approximately 336 dimples on a golf ball.",
+        "target": "yes",
+        "pred": "the same meaning as in golf ball?"
+    },
+    {
+        "input": "Does the word \"strand\" have the same meaning in these two sentences?\nA strand of pearls.\nHe tried to pick up the strands of his former life.",
+        "target": "no",
+        "pred": "strands"
+    },
+    {
+        "input": "Does the word \"bridge\" have the same meaning in these two sentences?\nHer glasses left marks on the bridge of her nose.\nRugby players often break the bridge of their noses.",
+        "target": "yes",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"wish\" have the same meaning in these two sentences?\nHe got his wish.\nMy best wishes.",
+        "target": "no",
+        "pred": "wishes are the things people hope for."
+    },
+    {
+        "input": "Does the word \"license\" have the same meaning in these two sentences?\nThe intolerable license with which the newspapers break ... the rules of decorum -- Edmund Burke.\nWhen liberty becomes license dictatorship is near -- Will Durant.",
+        "target": "yes",
+        "pred": "license"
+    },
+    {
+        "input": "Does the word \"studio\" have the same meaning in these two sentences?\nHis studio was cramped when he began as an artist.\nYou don't need a studio to make a passport photograph.",
+        "target": "yes",
+        "pred": "the studio was cramped when he began as an artist."
+    },
+    {
+        "input": "Does the word \"engrave\" have the same meaning in these two sentences?\nEngrave a letter.\nEngrave a pen.",
+        "target": "no",
+        "pred": "engrave a letter. engrave a pen."
+    },
+    {
+        "input": "Does the word \"recrudescence\" have the same meaning in these two sentences?\nA recrudescence of racism.\nA recrudescence of the symptoms.",
+        "target": "yes",
+        "pred": "the same meaning in these two sentences?"
+    },
+    {
+        "input": "Does the word \"return\" have the same meaning in these two sentences?\nReturn her love.\nReturn a compliment.",
+        "target": "yes",
+        "pred": "the same meaning in these two sentences? return her love. return a compliment. return a compliment."
+    },
+    {
+        "input": "Does the word \"toilet\" have the same meaning in these two sentences?\nHe made his morning toilet and went to breakfast.\nPensions are in the toilet.",
+        "target": "no",
+        "pred": "toilets are in the toilet."
+    },
+    {
+        "input": "Does the word \"setting\" have the same meaning in these two sentences?\nA place setting of sterling flatware.\nHe changed the setting on the thermostat.",
+        "target": "no",
+        "pred": "the word setting has the same meaning in both sentences."
+    },
+    {
+        "input": "Does the word \"largeness\" have the same meaning in these two sentences?\nThe might have repercussions of unimaginable largeness.\nA man distinguished by the largeness and scope of his views.",
+        "target": "no",
+        "pred": "the might have repercussions of unimaginable largeness. a man distinguished by the largeness and scope of his views."
+    },
+    {
+        "input": "Does the word \"sign\" have the same meaning in these two sentences?\nSign an intersection.\nThis road has been signed.",
+        "target": "yes",
+        "pred": "sign an intersection. this road has been signed."
+    },
+    {
+        "input": "Does the word \"vision\" have the same meaning in these two sentences?\nThe runners emerged from the trees into his clear vision.\nHe had a vision of the Virgin Mary.",
+        "target": "no",
+        "pred": "the runners emerged from the trees into his clear vision. he had a vision of the virgin mary."
+    },
+    {
+        "input": "Does the word \"renovate\" have the same meaning in these two sentences?\nThis will renovate my spirits.\nThey renovated the ceiling of the Sistine Chapel.",
+        "target": "no",
+        "pred": "the same meaning"
+    },
+    {
+        "input": "Does the word \"invasion\" have the same meaning in these two sentences?\nAn invasion of locusts.\nAn invasion of tourists.",
+        "target": "yes",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"brother\" have the same meaning in these two sentences?\nI would like to thank the brother who just spoke.\nNone of his brothers would betray him.",
+        "target": "yes",
+        "pred": "the same meaning as in the brother's brothers"
+    },
+    {
+        "input": "Does the word \"drought\" have the same meaning in these two sentences?\nWhen England defeated Pakistan it ended a ten-year drought.\nFarmers most affected by the drought hope that there may yet be sufficient rain early in the growing season.",
+        "target": "no",
+        "pred": "the drought hope that there may yet be sufficient rain early in the growing season."
+    },
+    {
+        "input": "Does the word \"glimpse\" have the same meaning in these two sentences?\nFrom the window he could catch a glimpse of the lake.\nHe caught only a glimpse of the professor's meaning.",
+        "target": "no",
+        "pred": "the same meaning"
+    },
+    {
+        "input": "Does the word \"foot\" have the same meaning in these two sentences?\nWe went there by foot because we could not afford a taxi.\nThere is a lot of foot traffic on this street.",
+        "target": "yes",
+        "pred": "there is a lot of foot traffic on this street."
+    },
+    {
+        "input": "Does the word \"tear\" have the same meaning in these two sentences?\nHe took the manuscript in both hands and gave it a mighty tear.\nThere were big tears rolling down Lisa's cheeks.",
+        "target": "no",
+        "pred": "different meanings in the two sentences?"
+    },
+    {
+        "input": "Does the word \"carve\" have the same meaning in these two sentences?\nCarve one's name into the bark.\nThat chisel carved the statue.",
+        "target": "yes",
+        "pred": "carve one's name into the bark."
+    },
+    {
+        "input": "Does the word \"segment\" have the same meaning in these two sentences?\nSegment a compound word.\nSegment an orange.",
+        "target": "yes",
+        "pred": "segment a compound word. segment an orange. segment an orange. segment an orange. segment a compound word. segment a compound word. segment an orange. segment an orange. segment an orange. segment a compound word. segment a compound word. segment an orange. segment an orange. segment an orange. segment a compound word. segment a compound word. segment an orange. segment an orange. segment an orange. segment a compound word. segment a compound word. segment an orange. segment an orange. segment an orange. segment a compound word. segment a compound word. segment an orange. segment an orange. segment an orange. segment an orange. segment a compound word. segment a compound word. segment an orange. segment an orange. segment an orange. segment an orange. segment an orange. segment a compound word. segment a compound word. segment an orange. segment an orange. segment an orange. segment an orange. segment an orange. segment an orange."
+    },
+    {
+        "input": "Does the word \"slip\" have the same meaning in these two sentences?\nSlip into something comfortable.\nMy grades are slipping.",
+        "target": "no",
+        "pred": "slipping"
+    },
+    {
+        "input": "Does the word \"donate\" have the same meaning in these two sentences?\nSome of the members may donate privately.\nShe donates to her favorite charity every month.",
+        "target": "yes",
+        "pred": "donate is a verb."
+    },
+    {
+        "input": "Does the word \"plume\" have the same meaning in these two sentences?\nA plume of smoke.\nGrass with large plumes.",
+        "target": "yes",
+        "pred": "a plume of smoke. grass with large plumes. grass with large plumes."
+    },
+    {
+        "input": "Does the word \"elapse\" have the same meaning in these two sentences?\nHe allowed a month to elapse before beginning the work.\nSeveral days elapsed before they met again.",
+        "target": "yes",
+        "pred": "elapsed"
+    },
+    {
+        "input": "Does the word \"experience\" have the same meaning in these two sentences?\nA surprising experience.\nExperience is the best teacher.",
+        "target": "no",
+        "pred": "a surprising experience. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher. experience is the best teacher"
+    },
+    {
+        "input": "Does the word \"ticket\" have the same meaning in these two sentences?\nThis car could be just the ticket for a small family.\nJoe will be running on an anti-crime ticket.",
+        "target": "no",
+        "pred": "joe will be running on an anti-crime ticket."
+    },
+    {
+        "input": "Does the word \"horse\" have the same meaning in these two sentences?\nA clothes horse.\n500 horse led the attack.",
+        "target": "no",
+        "pred": "500 horse led the attack."
+    },
+    {
+        "input": "Does the word \"shtik\" have the same meaning in these two sentences?\nHe's a shtik crazy.\nHow did you ever fall for a shtik like that?",
+        "target": "no",
+        "pred": "shtik"
+    },
+    {
+        "input": "Does the word \"fuss\" have the same meaning in these two sentences?\nDon't fuss too much over the grandchildren -- they are quite big now.\nShe fusses over her husband.",
+        "target": "no",
+        "pred": "fusses the same meaning in both sentences?"
+    },
+    {
+        "input": "Does the word \"education\" have the same meaning in these two sentences?\nA girl's education was less important than a boy's.\nEducation is a preparation for life.",
+        "target": "yes",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"snap\" have the same meaning in these two sentences?\nThe infielder's snap and throw was a single motion.\nChildren can manage snaps better than buttons.",
+        "target": "no",
+        "pred": "snaps better than buttons."
+    },
+    {
+        "input": "Does the word \"forwarding\" have the same meaning in these two sentences?\nThe forwarding of resumes to the personnel department.\nThe forwarding of mail to a new address is done automatically.",
+        "target": "yes",
+        "pred": "the forwarding of mail to a new address is done automatically."
+    },
+    {
+        "input": "Does the word \"middle\" have the same meaning in these two sentences?\nI woke up in the middle of the night.\nA whole is that which has beginning, middle, and end -- Aristotle.",
+        "target": "yes",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"configure\" have the same meaning in these two sentences?\nConfigure a plane for a combat mission.\nConfigure my new computer.",
+        "target": "yes",
+        "pred": "the same"
+    },
+    {
+        "input": "Does the word \"operation\" have the same meaning in these two sentences?\nThey organized a rescue operation.\nConsolidate the companies various operations.",
+        "target": "yes",
+        "pred": "operation. consolidate the companies various operations."
+    },
+    {
+        "input": "Does the word \"minister\" have the same meaning in these two sentences?\nThe minister said a prayer on behalf of the entire congregation.\nClergymen are usually called ministers in Protestant churches.",
+        "target": "yes",
+        "pred": "the same meaning"
+    },
+    {
+        "input": "Does the word \"cost\" have the same meaning in these two sentences?\nThe average cost of a new house is twice as much as t was 20 years ago.\nThe total cost of the new complex was an estimated $1.5 million.",
+        "target": "yes",
+        "pred": "cost is the average cost of something"
+    },
+    {
+        "input": "Does the word \"compress\" have the same meaning in these two sentences?\nThe force required to compress a spring varies linearly with the displacement.\nShe compressed her lips.",
+        "target": "yes",
+        "pred": "she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips. she compressed her lips."
+    },
+    {
+        "input": "Does the word \"mess\" have the same meaning in these two sentences?\nI mess with the wardroom officers.\nThe afternoon breeze messed up my hair.",
+        "target": "no",
+        "pred": "messed up"
+    },
+    {
+        "input": "Does the word \"strip\" have the same meaning in these two sentences?\nHe welded together some pieces of strip.\nShe did a strip right in front of everyone.",
+        "target": "no",
+        "pred": "different meanings in these sentences?"
+    },
+    {
+        "input": "Does the word \"affiliation\" have the same meaning in these two sentences?\nA valuable financial affiliation.\nWelcomed the affiliation of the research center with the university.",
+        "target": "no",
+        "pred": "financial affiliation. the same meaning as in \"affiliation\" in the first sentence? the same meaning as in the second sentence? the same meaning as affiliation. the same meaning as affiliation"
+    },
+    {
+        "input": "Does the word \"reverence\" have the same meaning in these two sentences?\nThe French treat food with gentle reverence.\nThe Chinese reverence for the dead.",
+        "target": "yes",
+        "pred": "gentle reverence."
+    },
+    {
+        "input": "Does the word \"heartbeat\" have the same meaning in these two sentences?\nThe policeman waited for a heartbeat in vain.\nHe alone gives me such heartbeats.",
+        "target": "yes",
+        "pred": "the policeman waited for a heartbeat in vain. he alone gives me such heartbeats."
+    },
+    {
+        "input": "Does the word \"safety\" have the same meaning in these two sentences?\nHe ran to safety.\nThe reciprocal of safety is risk.",
+        "target": "no",
+        "pred": "safety"
+    },
+    {
+        "input": "Does the word \"need\" have the same meaning in these two sentences?\nI need him to be nice.\nI needed him to go.",
+        "target": "yes",
+        "pred": "need is a verb, but it can also be a noun."
+    },
+    {
+        "input": "Does the word \"pity\" have the same meaning in these two sentences?\nIt's a pity he couldn't do it.\nThe blind are too often objects of pity.",
+        "target": "no",
+        "pred": "the blind are too often objects of pity."
+    },
+    {
+        "input": "Does the word \"embodiment\" have the same meaning in these two sentences?\nThe embodiment of hope.\nA circle was the embodiment of his concept of life.",
+        "target": "no",
+        "pred": "embodiment of hope. a circle was the embodiment of his concept of life."
+    },
+    {
+        "input": "Does the word \"bane\" have the same meaning in these two sentences?\nThe bane of my existence.\nThe bane of my life.",
+        "target": "yes",
+        "pred": "the bane of my existence. the bane of my life."
+    },
+    {
+        "input": "Does the word \"forge\" have the same meaning in these two sentences?\nWe decided to forge ahead with our plans even though our biggest underwriter backed out.\nHe forged ahead.",
+        "target": "yes",
+        "pred": "forge ahead with our plans even though our biggest underwriter backed out. he forged ahead."
+    },
+    {
+        "input": "Does the word \"rise\" have the same meaning in these two sentences?\nRise to the occasion.\nHer spirits rose when she heard the good news.",
+        "target": "no",
+        "pred": "rise to the occasion. her spirits rose when she heard the good news."
+    },
+    {
+        "input": "Does the word \"tremor\" have the same meaning in these two sentences?\nShe felt a tremor in her stomach before going on stage.\nDid you feel the tremor this morning?",
+        "target": "no",
+        "pred": "the same meaning as tremor?"
+    },
+    {
+        "input": "Does the word \"sense\" have the same meaning in these two sentences?\nA keen musical sense.\nA good sense of timing.",
+        "target": "yes",
+        "pred": "a keen musical sense. a good sense of timing. a good sense of timing."
+    },
+    {
+        "input": "Does the word \"office\" have the same meaning in these two sentences?\nAn executive or judical office.\nDuring his first year in office.",
+        "target": "no",
+        "pred": "in the first sentence and in the second?"
+    },
+    {
+        "input": "Does the word \"string\" have the same meaning in these two sentences?\nA string of islands.\nThe strings played superlatively well.",
+        "target": "no",
+        "pred": "strings"
+    },
+    {
+        "input": "Does the word \"capital\" have the same meaning in these two sentences?\nThe drug capital of Columbia.\nThe crime capital of Italy.",
+        "target": "yes",
+        "pred": "the drug capital of columbia. the crime capital of italy."
+    },
+    {
+        "input": "Does the word \"upset\" have the same meaning in these two sentences?\nTruman upset Dewey in the 1948 US presidential election.\nThe foreign team upset the local team.",
+        "target": "yes",
+        "pred": "the foreign team upset the local team."
+    },
+    {
+        "input": "Does the word \"success\" have the same meaning in these two sentences?\nHis success in the marathon was unexpected.\nThe election was a remarkable success for the Whigs.",
+        "target": "no",
+        "pred": "his success in the marathon was unexpected. his success in the marathon was unexpected. the election was a remarkable success for the whigs."
+    },
+    {
+        "input": "Does the word \"gown\" have the same meaning in these two sentences?\nThe relations between town and gown are always sensitive.\nIn the perennial town versus gown battles, townies win some violent battles, but the collegians are winning the war.",
+        "target": "yes",
+        "pred": "different meanings?"
+    },
+    {
+        "input": "Does the word \"applaud\" have the same meaning in these two sentences?\nI applaud your efforts.\nAlthough we don't like your methods, we applaud your motives.",
+        "target": "yes",
+        "pred": "i applaud your efforts."
+    },
+    {
+        "input": "Does the word \"growth\" have the same meaning in these two sentences?\nA growth of hair.\nThe growth of culture.",
+        "target": "no",
+        "pred": "a growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. a growth of hair. a growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair. the growth of hair."
+    },
+    {
+        "input": "Does the word \"say\" have the same meaning in these two sentences?\nWhat does the law say?\nThe clock says noon.",
+        "target": "no",
+        "pred": "what does the law say?"
+    },
+    {
+        "input": "Does the word \"upstage\" have the same meaning in these two sentences?\nShe only wore that dress to upstage everyone.\nWhen the dog entered the stage, he upstaged the actress.",
+        "target": "yes",
+        "pred": "when the dog entered the stage, he upstaged the actress."
+    },
+    {
+        "input": "Does the word \"preponderance\" have the same meaning in these two sentences?\nThe preponderance of good over evil.\nThe preponderance of wealth and power.",
+        "target": "yes",
+        "pred": "the same meaning in these two sentences?"
+    },
+    {
+        "input": "Does the word \"stab\" have the same meaning in these two sentences?\nHe took a stab at forecasting.\nShe felt a stab of excitement.",
+        "target": "no",
+        "pred": "stab of excitement"
+    },
+    {
+        "input": "Does the word \"connection\" have the same meaning in these two sentences?\nThe bus was late so he missed his connection at Penn Station and had to wait six hours for the next train.\nThe plane was late and he missed his connection in Atlanta.",
+        "target": "yes",
+        "pred": "the same meaning"
+    },
+    {
+        "input": "Does the word \"deed\" have the same meaning in these two sentences?\nHe signed the deed.\nI inherited the deed to the house.",
+        "target": "yes",
+        "pred": "deed"
+    },
+    {
+        "input": "Does the word \"violate\" have the same meaning in these two sentences?\nViolate the sanctity of the church.\nThis sentence violates the rules of syntax.",
+        "target": "no",
+        "pred": "violate the sanctity of the church. this sentence violates the rules of syntax."
+    },
+    {
+        "input": "Does the word \"construction\" have the same meaning in these two sentences?\nThe engineer marvelled at his construction.\nConstruction is underway on the new bridge.",
+        "target": "no",
+        "pred": "construction is underway on the new bridge."
+    },
+    {
+        "input": "Does the word \"shock\" have the same meaning in these two sentences?\nTo shock rye.\nShock grain.",
+        "target": "yes",
+        "pred": "shock grain. shock rye. shock rye. shock grain. shock grain. shock rye. shock rye. shock grain. shock grain. shock rye. shock grain. shock grain. shock rye. shock grain. shock grain. shock rye. shock grain. shock grain. shock rye. shock grain. shock grain. shock grain. shock rye. shock grain. shock grain. shock grain. shock rye. shock grain. shock grain. shock grain. shock rye. shock grain. shock grain. shock grain. shock grain. shock rye. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain. shock grain"
+    },
+    {
+        "input": "Does the word \"party\" have the same meaning in these two sentences?\nThe party of the first part.\nHe planned a party to celebrate Bastille Day.",
+        "target": "no",
+        "pred": "he planned a party to celebrate bastille day."
+    },
+    {
+        "input": "Does the word \"agency\" have the same meaning in these two sentences?\nShe has free agency.\nCentral Intelligence Agency.",
+        "target": "no",
+        "pred": "central intelligence agency."
+    },
+    {
+        "input": "Does the word \"gem\" have the same meaning in these two sentences?\nHe had the gem set in a ring for his wife.\nShe's an absolute gem.",
+        "target": "no",
+        "pred": "gem is a genus of plants that are the source of gemstones."
+    },
+    {
+        "input": "Does the word \"button\" have the same meaning in these two sentences?\nThe politician wore a bright yellow button with the slogan \"Vote Smart\" emblazoned on it.\nThey passed out campaign buttons for their candidate.",
+        "target": "yes",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"beat\" have the same meaning in these two sentences?\nIn the old days a policeman walked a beat and knew all his people by name.\nA beat of the heart.",
+        "target": "no",
+        "pred": "a beat of the heart."
+    },
+    {
+        "input": "Does the word \"post\" have the same meaning in these two sentences?\nPost a warning at the dump.\nThe newspaper posted him in Timbuktu.",
+        "target": "no",
+        "pred": "posted"
+    },
+    {
+        "input": "Does the word \"collapse\" have the same meaning in these two sentences?\nThe collapse of the old star under its own gravity.\nThe roof is in danger of collapse.",
+        "target": "yes",
+        "pred": "the collapse of the old star under its own gravity. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in danger of collapse. the roof is in"
+    },
+    {
+        "input": "Does the word \"pencil\" have the same meaning in these two sentences?\nAn eyebrow pencil.\nThis artist's favorite medium is pencil.",
+        "target": "no",
+        "pred": "pencil. this artist's favorite medium is pencil."
+    },
+    {
+        "input": "Does the word \"clime\" have the same meaning in these two sentences?\nPlants from a cold clime travel best in winter.\nAfter working hard all of his life, Max retired to warmer climes in Florida.",
+        "target": "yes",
+        "pred": "clime"
+    },
+    {
+        "input": "Does the word \"abridge\" have the same meaning in these two sentences?\nThe new law might abridge our freedom of expression.\nHe had his rights abridged by the crooked sheriff.",
+        "target": "yes",
+        "pred": "abridge our freedom of expression"
+    },
+    {
+        "input": "Does the word \"step\" have the same meaning in these two sentences?\nAlways a step behind.\nKeep in step with the fashions.",
+        "target": "yes",
+        "pred": "step is a noun meaning a distance or a direction."
+    },
+    {
+        "input": "Does the word \"delay\" have the same meaning in these two sentences?\nInstant replay caused too long a delay.\nThe delay before the echo of a sound.",
+        "target": "no",
+        "pred": "instant replay caused too long a delay. the delay before the echo of a sound."
+    },
+    {
+        "input": "Does the word \"liberate\" have the same meaning in these two sentences?\nTo liberate the mind from prejudice.\nTo liberate gases.",
+        "target": "yes",
+        "pred": "to set an idea or thought from rest, to release it from rest"
+    },
+    {
+        "input": "Does the word \"path\" have the same meaning in these two sentences?\nThe path of virtue.\nOur paths in life led us apart.",
+        "target": "yes",
+        "pred": "the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. our paths in life led us apart. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path of virtue. the path"
+    },
+    {
+        "input": "Does the word \"analyze\" have the same meaning in these two sentences?\nAnalyze your real motives.\nThe inspector analyzed the building's soundness.",
+        "target": "yes",
+        "pred": "analyze your real motives. the inspector analyzed the building's soundness."
+    },
+    {
+        "input": "Does the word \"motivation\" have the same meaning in these two sentences?\nWe did not understand his motivation.\nHis motivation was at a high level.",
+        "target": "no",
+        "pred": "the same meaning in these two sentences?"
+    },
+    {
+        "input": "Does the word \"branch\" have the same meaning in these two sentences?\nA branch of Congress.\nWe have branches in all major suburbs.",
+        "target": "yes",
+        "pred": "different meanings in these two sentences? the same meaning as in a branch of congress. a branch of congress."
+    },
+    {
+        "input": "Does the word \"potluck\" have the same meaning in these two sentences?\nHere's a good potluck of beans and stew.\nHaving arrived unannounced we had to take potluck.",
+        "target": "yes",
+        "pred": "potluck"
+    },
+    {
+        "input": "Does the word \"writing\" have the same meaning in these two sentences?\nWriting was a form of therapy for him.\nThe idea occurs with increasing frequency in Hemingway's writings.",
+        "target": "no",
+        "pred": "was a form of therapy for him. the idea occurs with increasing frequency in hemingway's writings."
+    },
+    {
+        "input": "Does the word \"cloister\" have the same meaning in these two sentences?\nCloister the garden.\nShe cloistered herself in the office.",
+        "target": "no",
+        "pred": "cloister"
+    },
+    {
+        "input": "Does the word \"bottom\" have the same meaning in these two sentences?\nThey started at the bottom of the hill.\nThey did much of their overseas trade in foreign bottoms.",
+        "target": "no",
+        "pred": "the bottom of a building or a pit."
+    },
+    {
+        "input": "Does the word \"inject\" have the same meaning in these two sentences?\nInject heroin.\nHe injected new life into the performance.",
+        "target": "no",
+        "pred": "inject heroin. he injected new life into the performance."
+    },
+    {
+        "input": "Does the word \"distribute\" have the same meaning in these two sentences?\nThe publisher wants to distribute the book in Asia.\nThe function distributes the values evenly.",
+        "target": "no",
+        "pred": "distributes the values evenly"
+    },
+    {
+        "input": "Does the word \"socialization\" have the same meaning in these two sentences?\nForce socialization rarely creates strong friendships, but there are exceptions.\nThere was too much socialization with the enlisted men.",
+        "target": "yes",
+        "pred": "the word socialization has the same meaning as the word socialization."
+    },
+    {
+        "input": "Does the word \"banish\" have the same meaning in these two sentences?\nBanish bad thoughts.\nBanish gloom.",
+        "target": "yes",
+        "pred": "banish bad thoughts."
+    },
+    {
+        "input": "Does the word \"way\" have the same meaning in these two sentences?\nThey didn't have much in the way of clothing.\nWe went our separate ways.",
+        "target": "no",
+        "pred": "ways is a slang word that means a path or way."
+    },
+    {
+        "input": "Does the word \"glaze\" have the same meaning in these two sentences?\nGlaze the bread with eggwhite.\nThe potter glazed the dishes.",
+        "target": "yes",
+        "pred": "glazed the dishes."
+    },
+    {
+        "input": "Does the word \"finalize\" have the same meaning in these two sentences?\nLet's finalize the proposal.\nAs soon as we get the plane tickets, we'll finalize our reservations with the hotel.",
+        "target": "yes",
+        "pred": "finalize"
+    },
+    {
+        "input": "Does the word \"barrage\" have the same meaning in these two sentences?\nA barrage of questions.\nThey laid down a barrage in front of the advancing troops.",
+        "target": "no",
+        "pred": "barrage"
+    },
+    {
+        "input": "Does the word \"dig\" have the same meaning in these two sentences?\nThey set up camp next to the dig.\nShe takes a dig at me every chance she gets.",
+        "target": "no",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"mechanism\" have the same meaning in these two sentences?\nA mechanism of social control.\nMechanisms of communication.",
+        "target": "yes",
+        "pred": "the same meaning in both sentences?"
+    },
+    {
+        "input": "Does the word \"force\" have the same meaning in these two sentences?\nA force out was recorded on the scorecard.\nA public force is necessary to give security to the rights of citizens.",
+        "target": "no",
+        "pred": "a public force is necessary to give security to the rights of citizens."
+    },
+    {
+        "input": "Does the word \"average\" have the same meaning in these two sentences?\nIf you average 10, 20 and 24, you get 18.\nThe number of hours I work per work averages out to 40.",
+        "target": "no",
+        "pred": "the number of hours i work per work averages out to 40."
+    },
+    {
+        "input": "Does the word \"rise\" have the same meaning in these two sentences?\nThey asked for a 10% rise in rates.\nThe rising of the Holy Ghost.",
+        "target": "no",
+        "pred": "the rising of the holy ghost."
+    },
+    {
+        "input": "Does the word \"sexualize\" have the same meaning in these two sentences?\nSome languages sexualize all nouns and do not have a neuter gender.\nThe god was sexualized and married to another god.",
+        "target": "yes",
+        "pred": "sexualize"
+    },
+    {
+        "input": "Does the word \"lecture\" have the same meaning in these two sentences?\nDid you ever lecture at Harvard?\nShe lectured to the class about her travels.",
+        "target": "yes",
+        "pred": "lectured"
+    },
+    {
+        "input": "Does the word \"belabor\" have the same meaning in these two sentences?\nBelabor the obvious.\nShe was belabored by her fellow students.",
+        "target": "no",
+        "pred": "the word belabor has two meanings: 1. to belabor the obvious. 2. to belabor the obvious."
+    },
+    {
+        "input": "Does the word \"sound\" have the same meaning in these two sentences?\nThe main body of the sound ran parallel to the coast.\nHe strained to hear the faint sounds.",
+        "target": "no",
+        "pred": "different meanings in different sentences?"
+    },
+    {
+        "input": "Does the word \"trip\" have the same meaning in these two sentences?\nA pedestrian was able to trip the burglar as he was running away.\nThe questions on the test tripped him up.",
+        "target": "yes",
+        "pred": "the questions on the test tripped him up."
+    },
+    {
+        "input": "Does the word \"chemistry\" have the same meaning in these two sentences?\nThe chemistry of indigo.\nThe chemistry of iron.",
+        "target": "yes",
+        "pred": "the chemistry of indigo. the chemistry of iron."
+    },
+    {
+        "input": "Does the word \"fight\" have the same meaning in these two sentences?\nA fight broke out at the hockey game.\nThere were fights in the streets.",
+        "target": "yes",
+        "pred": "a fight broke out at the hockey game."
+    },
+    {
+        "input": "Does the word \"lead\" have the same meaning in these two sentences?\nA good lead for a job.\nJoe is a great addition to our sales team, he has numerous leads in the paper industry.",
+        "target": "yes",
+        "pred": "different meanings in these two sentences?"
+    },
+    {
+        "input": "Does the word \"border\" have the same meaning in these two sentences?\nThe rug had a wide blue border.\nThe borders of the garden.",
+        "target": "yes",
+        "pred": "the same meaning as in \"gardens\""
+    },
+    {
+        "input": "Does the word \"nowhere\" have the same meaning in these two sentences?\nHe came out of nowhere.\nThey went on a cruise to nowhere.",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Does the word \"treatment\" have the same meaning in these two sentences?\nHis treatment of the race question is badly biased.\nHis treatment of space borrows from Italian architecture.",
+        "target": "no",
+        "pred": "treatment"
+    },
+    {
+        "input": "Does the word \"fail\" have the same meaning in these two sentences?\nDid I fail the test?\nShe studied hard but failed nevertheless.",
+        "target": "yes",
+        "pred": "i failed the test? she studied hard but failed nevertheless."
+    },
+    {
+        "input": "Does the word \"knuckleball\" have the same meaning in these two sentences?\nEven the pitcher doesn't know where his knuckleball is going.\nBoston Red Sox pitcher Tim Wakefield is best known for his use of the knuckleball.",
+        "target": "yes",
+        "pred": "knuckleball"
+    },
+    {
+        "input": "Does the word \"kick\" have the same meaning in these two sentences?\nThe kick must be synchronized with the arm movements.\nA sidecar is a smooth drink but it has a powerful kick.",
+        "target": "no",
+        "pred": "a sidecar is a powerful kick."
+    },
+    {
+        "input": "Does the word \"impregnation\" have the same meaning in these two sentences?\nThe impregnation of wood with preservative.\nThe impregnation, whatever it was, had turned the rock blue.",
+        "target": "no",
+        "pred": "impregnation"
+    },
+    {
+        "input": "Does the word \"form\" have the same meaning in these two sentences?\nBy adding \"-ness\", you can form a noun from an adjective.\nForm cylinders from the dough.",
+        "target": "no",
+        "pred": "form cylinders from the dough."
+    },
+    {
+        "input": "Does the word \"square\" have the same meaning in these two sentences?\nThe carpenter who built this room must have lost his square.\n64 is the square of 8.",
+        "target": "no",
+        "pred": "64 is the square of 8."
+    },
+    {
+        "input": "Does the word \"characterize\" have the same meaning in these two sentences?\nYou can characterize his behavior as that of an egotist.\nThis poem can be characterized as a lament for a dead lover.",
+        "target": "yes",
+        "pred": "characterize his behavior as that of an egotist."
+    },
+    {
+        "input": "Does the word \"minute\" have the same meaning in these two sentences?\nWait a minute, I'm not ready yet!\nIt only takes a minute.",
+        "target": "yes",
+        "pred": "wait a minute, i'm not ready yet! it only takes a minute."
+    },
+    {
+        "input": "Does the word \"breakdown\" have the same meaning in these two sentences?\nAfter so much stress, he suffered a breakdown and simply gave up.\nHis warning came after the breakdown of talks in London.",
+        "target": "no",
+        "pred": "after so much stress, he suffered a breakdown and simply gave up."
+    },
+    {
+        "input": "Does the word \"cuisine\" have the same meaning in these two sentences?\nThe restaurant is noted for its excellent cuisine.\nFrench cuisine is considered to be one of the world's most refined and elegant styles of cooking.",
+        "target": "yes",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"agency\" have the same meaning in these two sentences?\nThe superintendence and agency of Providence in the natural world. -- Woodward.\nThe Central Intelligence Agency.",
+        "target": "no",
+        "pred": "the central intelligence agency is the same as the central intelligence agency agency is a government"
+    },
+    {
+        "input": "Does the word \"department\" have the same meaning in these two sentences?\nHis work established a new department of literature.\nBaking is not my department.",
+        "target": "yes",
+        "pred": "established a new department of literature."
+    },
+    {
+        "input": "Does the word \"lie\" have the same meaning in these two sentences?\nLie down on the bed until you feel better.\nShe lied when she told me she was only 29.",
+        "target": "no",
+        "pred": "she lied when she told me she was only 29."
+    },
+    {
+        "input": "Does the word \"preparation\" have the same meaning in these two sentences?\nHe left the preparation of meals to his wife.\nThe resolution of one dissonance is often the preparation for another dissonance.",
+        "target": "no",
+        "pred": "the preparation of meals to his wife."
+    },
+    {
+        "input": "Does the word \"crop\" have the same meaning in these two sentences?\nThe annual crop of students brings many new ideas.\nThe latest crop of fashions is about to hit the stores.",
+        "target": "no",
+        "pred": "the latest crop of fashions is about to hit the stores."
+    },
+    {
+        "input": "Does the word \"act\" have the same meaning in these two sentences?\nShe wants to act Lady Macbeth, but she is too young for the role.\nI started acting at the age of eleven in my local theatre.",
+        "target": "yes",
+        "pred": "she wants to act lady macbeth, but she is too young for the role."
+    },
+    {
+        "input": "Does the word \"fuel\" have the same meaning in these two sentences?\nFuel aircraft, ships, and cars.\nFuel the debate on creationism.",
+        "target": "no",
+        "pred": "fuel the debate on creationism."
+    },
+    {
+        "input": "Does the word \"mince\" have the same meaning in these two sentences?\nA mince of mushrooms.\nMince tastes really good fried in a pan with some chopped onion and tomato.",
+        "target": "yes",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"activity\" have the same meaning in these two sentences?\nThe level of activity declines with age.\nHis sphere of activity.",
+        "target": "no",
+        "pred": "his sphere of activity."
+    },
+    {
+        "input": "Does the word \"installation\" have the same meaning in these two sentences?\nHe gave a speech as part of his installation into the hall of fame.\nThe telephone installation took only a few minutes.",
+        "target": "no",
+        "pred": "installation"
+    },
+    {
+        "input": "Does the word \"kill\" have the same meaning in these two sentences?\nKill the engine.\nHe killed the ball.",
+        "target": "no",
+        "pred": "the same meaning as kill."
+    },
+    {
+        "input": "Does the word \"catch\" have the same meaning in these two sentences?\nI would love to have dinner but I have to catch a plane.\nWe caught something of his theory in the lecture.",
+        "target": "no",
+        "pred": "i would love to have dinner but i have to catch a plane. we caught something of his theory in the lecture."
+    },
+    {
+        "input": "Does the word \"mess\" have the same meaning in these two sentences?\nThe house was a mess.\nMy boss dumped a whole mess of projects on my desk today.",
+        "target": "no",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"pull\" have the same meaning in these two sentences?\nIt was a long pull but we made it.\nHe was sidelined with a hamstring pull.",
+        "target": "no",
+        "pred": "different meanings in different words?"
+    },
+    {
+        "input": "Does the word \"steam\" have the same meaning in these two sentences?\nJust steam the vegetables.\nHer indifference to his amorous advances really steamed the young man.",
+        "target": "no",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"shadiness\" have the same meaning in these two sentences?\nThere's too much shadiness to take good photographs.\nThe shadiness of their transactions.",
+        "target": "no",
+        "pred": "the same meaning in these two sentences?"
+    },
+    {
+        "input": "Does the word \"stop\" have the same meaning in these two sentences?\nStop a car.\nStop the thief.",
+        "target": "yes",
+        "pred": "the same meaning in these two sentences? stop a car. stop the thief."
+    },
+    {
+        "input": "Does the word \"blockage\" have the same meaning in these two sentences?\nThere was a blockage in the sewer, so we called out the plumber.\nWe had to call a plumber to clear out the blockage in the drainpipe.",
+        "target": "no",
+        "pred": "blockage"
+    },
+    {
+        "input": "Does the word \"pronunciation\" have the same meaning in these two sentences?\nThat is the correct pronunciation.\nThe pronunciation of Chinese is difficult for foreigners.",
+        "target": "yes",
+        "pred": "pronunciation"
+    },
+    {
+        "input": "Does the word \"catch\" have the same meaning in these two sentences?\nThe catch was only 10 fish.\nHe shared his catch with the others.",
+        "target": "no",
+        "pred": "the catch was only 10 fish. he shared his catch with the others."
+    },
+    {
+        "input": "Does the word \"spread\" have the same meaning in these two sentences?\nThe invaders spread their language all over the country.\nA big oil spot spread across the water.",
+        "target": "no",
+        "pred": "spread"
+    },
+    {
+        "input": "Does the word \"accession\" have the same meaning in these two sentences?\nAccession to such demands would set a dangerous precedent.\nThe librarian shelved the new accessions.",
+        "target": "no",
+        "pred": "the same meaning"
+    },
+    {
+        "input": "Does the word \"share\" have the same meaning in these two sentences?\nOur children share a love of music.\nThe two countries share a long border.",
+        "target": "yes",
+        "pred": "the two countries share a long border."
+    },
+    {
+        "input": "Does the word \"touch\" have the same meaning in these two sentences?\nHe has a touch of rheumatism.\nHe longed for the touch of her hand.",
+        "target": "no",
+        "pred": "different meanings?"
+    },
+    {
+        "input": "Does the word \"mandate\" have the same meaning in these two sentences?\nMandate a colony.\nThe new director of the school board mandated regular tests.",
+        "target": "no",
+        "pred": "the same meaning in both sentences? the same"
+    },
+    {
+        "input": "Does the word \"whitewash\" have the same meaning in these two sentences?\nLet's not whitewash the crimes of Stalin.\nIn his sermon, the minister didn't try to whitewash over the sins of his church.",
+        "target": "no",
+        "pred": "the same meaning?"
+    },
+    {
+        "input": "Does the word \"bite\" have the same meaning in these two sentences?\nGunny invariably tried to bite her.\nAs soon as you bite that sandwich, you'll know how good it is.",
+        "target": "yes",
+        "pred": "the same meaning as the word \"bite\" in the same sense as the word \"bite\" in the same sense as the word \"bite\""
+    },
+    {
+        "input": "Does the word \"bastion\" have the same meaning in these two sentences?\nThe last bastion of communism.\nA bastion against corruption.",
+        "target": "yes",
+        "pred": "bastion"
+    },
+    {
+        "input": "Does the word \"club\" have the same meaning in these two sentences?\nEach club played six home games with teams in its own division.\nHe played the drums at a jazz club.",
+        "target": "no",
+        "pred": "club, club"
+    },
+    {
+        "input": "Does the word \"wish\" have the same meaning in these two sentences?\nIt was his last wish.\nThey should respect the wishes of the people.",
+        "target": "yes",
+        "pred": "it was his last wish. it was his last wish. it was his last wish."
+    },
+    {
+        "input": "Does the word \"street\" have the same meaning in these two sentences?\nBe careful crossing the street.\nThe whole street protested the absence of lights.",
+        "target": "no",
+        "pred": "be careful crossing the street. the whole street protested the absence of lights."
+    },
+    {
+        "input": "Does the word \"class\" have the same meaning in these two sentences?\nAn emerging professional class.\nApologizing for losing your temper, even though you were badly provoked, showed real class.",
+        "target": "no",
+        "pred": "apologizing for losing your temper, even though you were badly provoked, showed real class."
+    },
+    {
+        "input": "Does the word \"passage\" have the same meaning in these two sentences?\nThe outward passage took 10 days.\nShe struggled to play the difficult passages.",
+        "target": "no",
+        "pred": "s."
+    },
+    {
+        "input": "Does the word \"facility\" have the same meaning in these two sentences?\nThe assembly plant is an enormous facility.\nEducational facilities.",
+        "target": "no",
+        "pred": "educational facilities. educational facilities."
+    },
+    {
+        "input": "Does the word \"loose\" have the same meaning in these two sentences?\nLet loose mines.\nLoose terrible plagues upon humanity.",
+        "target": "yes",
+        "pred": "loose"
+    },
+    {
+        "input": "Does the word \"figure\" have the same meaning in these two sentences?\nElections figure prominently in every government program.\nHow do the elections figure in the current pattern of internal politics?",
+        "target": "yes",
+        "pred": "figure prominently in every government program. how do the elections figure in the current pattern of internal politics?"
+    },
+    {
+        "input": "Does the word \"moderate\" have the same meaning in these two sentences?\nTo moderate a synod.\nJohn moderated the discussion.",
+        "target": "yes",
+        "pred": "john moderated the discussion."
+    },
+    {
+        "input": "Does the word \"landing\" have the same meaning in these two sentences?\nThe plane made a smooth landing.\nHis landing on his feet was catlike.",
+        "target": "yes",
+        "pred": "the same meaning as \"landing\""
+    },
+    {
+        "input": "Does the word \"oppression\" have the same meaning in these two sentences?\nThe tyrant's oppression of the people.\nThe oppression of the poor by the aristocracy was one cause of the French Revolution.",
+        "target": "yes",
+        "pred": "the same"
+    },
+    {
+        "input": "Does the word \"diet\" have the same meaning in these two sentences?\nThe diet of the Giant Panda consists mainly of bamboo.\nHe's been reading a steady diet of nonfiction for the last several years.",
+        "target": "no",
+        "pred": "the diet of the giant panda consists mainly of bamboo."
+    },
+    {
+        "input": "Does the word \"admit\" have the same meaning in these two sentences?\nAdmit someone to the profession.\nShe was admitted to the New Jersey Bar.",
+        "target": "yes",
+        "pred": "admit someone to the profession. she was admitted to the new jersey bar."
+    },
+    {
+        "input": "Does the word \"love\" have the same meaning in these two sentences?\nI love French food.\nI loved to write.",
+        "target": "yes",
+        "pred": "i love french food. i loved to write."
+    },
+    {
+        "input": "Does the word \"watch\" have the same meaning in these two sentences?\nPut a little baking soda in some vinegar and watch what happens.\nThe world is watching Sarajevo.",
+        "target": "no",
+        "pred": "the same meaning in both sentences?"
+    },
+    {
+        "input": "Does the word \"liberty\" have the same meaning in these two sentences?\nAt liberty to choose whatever occupation one wishes.\nLiberty to think or feel or do just as one pleases.",
+        "target": "yes",
+        "pred": "at liberty to choose whatever occupation one wishes."
+    },
+    {
+        "input": "Does the word \"go\" have the same meaning in these two sentences?\nHow did your interview go?\nShe was going that way anyway, so she offered to show him where it was.",
+        "target": "yes",
+        "pred": "go is a verb, and it means to move or travel."
+    },
+    {
+        "input": "Does the word \"fuel\" have the same meaning in these two sentences?\nMore fuel is needed during the winter months.\nThey developed alternative fuels for aircraft.",
+        "target": "yes",
+        "pred": "fuel is needed during the winter months. they developed alternative fuels for aircraft."
+    },
+    {
+        "input": "Does the word \"falsity\" have the same meaning in these two sentences?\nThe belief that the world is flat is a falsity.\nArgument could not determine its truth or falsity.",
+        "target": "yes",
+        "pred": "falsity is a false belief that the world is flat is a falsity."
+    },
+    {
+        "input": "Does the word \"cooperation\" have the same meaning in these two sentences?\nEconomic cooperation.\nThey agreed on a policy of cooperation.",
+        "target": "yes",
+        "pred": "economic cooperation. they agreed on a policy of cooperation. the same meaning, but different contexts."
+    },
+    {
+        "input": "Does the word \"recreation\" have the same meaning in these two sentences?\nFor recreation he wrote poetry and solved crossword puzzles.\nDrug abuse is often regarded as a form of recreation.",
+        "target": "yes",
+        "pred": "recreation"
+    },
+    {
+        "input": "Does the word \"blend\" have the same meaning in these two sentences?\n'Smog' is a blend of 'smoke' and 'fog'.\nTheir music has been described as a blend of jazz and heavy metal.",
+        "target": "yes",
+        "pred": "blend is a blend of 'smog' is a blend of'smoke' and 'fog'."
+    },
+    {
+        "input": "Does the word \"nut\" have the same meaning in these two sentences?\nHe was driving his car like a nut.\nI kicked him in the nuts.",
+        "target": "no",
+        "pred": "the word \"nut\" has the same meaning in both sentences."
+    },
+    {
+        "input": "Does the word \"afflict\" have the same meaning in these two sentences?\nAfflict with the plague.\nShe was afflicted by the death of her parents.",
+        "target": "no",
+        "pred": "afflict with the plague. she was afflicted by the death of her parents."
+    },
+    {
+        "input": "Does the word \"plenty\" have the same meaning in these two sentences?\nThere was plenty of food for everyone.\nIt must have cost plenty.",
+        "target": "no",
+        "pred": "plenty"
+    },
+    {
+        "input": "Does the word \"exhibition\" have the same meaning in these two sentences?\nThere was an art exhibition on in the town hall.\nA boat exhibition.",
+        "target": "yes",
+        "pred": "exhibition"
+    },
+    {
+        "input": "Does the word \"contact\" have the same meaning in these two sentences?\nI am trying to contact my sister.\nHe never contacted his children after he emigrated to Australia.",
+        "target": "yes",
+        "pred": "contacted"
+    },
+    {
+        "input": "Does the word \"protest\" have the same meaning in these two sentences?\nThe senator rose to register his protest.\nThey finished the game under protest to the league president.",
+        "target": "yes",
+        "pred": "the senator rose to register his protest. they finished the game under protest to the league president. they finished the game under protest to the league president."
+    },
+    {
+        "input": "Does the word \"adhocracy\" have the same meaning in these two sentences?\nThe need for informational flexibility can lead to adhocracy.\nThe choice between bureaucracy and adhocracy represents a common dilemma.",
+        "target": "yes",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"cocoon\" have the same meaning in these two sentences?\nShe loves to stay at home and cocoon.\nFamilies cocoon around the T.V. set most evenings.",
+        "target": "yes",
+        "pred": "the word \"cocoon\" is a noun and can be used to describe a place or situation."
+    },
+    {
+        "input": "Does the word \"remove\" have the same meaning in these two sentences?\nRemove a wrapper.\nThe President removed many postmasters.",
+        "target": "no",
+        "pred": "remove a wrapper. the president removed many postmasters."
+    },
+    {
+        "input": "Does the word \"invite\" have the same meaning in these two sentences?\nCan I invite you for dinner on Sunday night?\nThe organizers invite submissions of papers for the conference.",
+        "target": "no",
+        "pred": "invite you to come to a party"
+    },
+    {
+        "input": "Does the word \"intellect\" have the same meaning in these two sentences?\nHe has a keen intellect.\nSome of the world's leading intellects were meeting there.",
+        "target": "no",
+        "pred": "intellect"
+    },
+    {
+        "input": "Does the word \"replicate\" have the same meaning in these two sentences?\nOn entering a host cell, a virus will start to replicate.\nReplicate the cell.",
+        "target": "yes",
+        "pred": "the same meaning as in \"replicate\"?"
+    },
+    {
+        "input": "Does the word \"stream\" have the same meaning in these two sentences?\nHe felt a stream of air.\nThe hose ejected a stream of water.",
+        "target": "yes",
+        "pred": "the hose ejected a stream of water."
+    },
+    {
+        "input": "Does the word \"keep\" have the same meaning in these two sentences?\nCan I keep my old stuffed animals?\nShe kept her maiden name after she married.",
+        "target": "yes",
+        "pred": "the word \"keep\" has different meanings in the two sentences. can i keep my old stuffed animals? she kept her maiden name after she married."
+    },
+    {
+        "input": "Does the word \"wrangle\" have the same meaning in these two sentences?\nWrangle horses.\nThe bar keeper threw them out, but they continued to wrangle on down the street.",
+        "target": "no",
+        "pred": "different meanings"
+    },
+    {
+        "input": "Does the word \"recruit\" have the same meaning in these two sentences?\nRecruit new soldiers.\nThe lab director recruited an able crew of assistants.",
+        "target": "no",
+        "pred": "the same meaning in these two sentences? the lab director recruited an able crew of assistants."
+    },
+    {
+        "input": "Does the word \"submerge\" have the same meaning in these two sentences?\nSubmerge your head completely.\nThe submarine submerged in the water.",
+        "target": "no",
+        "pred": "submerge your head completely. the submarine submerged in the water."
+    }
+]

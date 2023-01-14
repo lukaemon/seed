@@ -1,0 +1,162 @@
+[
+    {
+        "input": "Suppose it's true that B: You never see them on nationally basketball. A: You know, that's true. I don't think I've ever seen them nationally on basketball. Then, is \"he has seen them nationally on basketball\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "never true"
+    },
+    {
+        "input": "Suppose it's true that But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? Then, is \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: Really. If they were to take half of what they spend on that and put it on some economic, you know, intergovernmental or inter United States like programs that one really might. B: Yeah. A: I believe in paying my share, and I don't mind, uh, paying for some of these fringe benefits that people are entitled to. But I just sometimes feel like I'm being used. But, uh, again I don't think we'll be able to do anything about it, Then, is \"they'll be able to do anything about it\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: No, I don't either. B: Uh, I mean it's, you know it, A: I don't think it's going to change very much Then, is \"it's going to change very much\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that Modify the arachnids, said the researchers. Change their bodies and conditions, and you could get fibres like glass, still monofilament, but with logarithmic progressions of possibilities of strength and flexibility, and the ability to resonate light-particles or sound-waves undistorted, scarcely weakened over thousands of miles. Who said the arachnids had to be totally organic? Then, is \"arachnids had to be totally organic\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that Whether the relationship had gone beyond friendship Dalgliesh would now never know. She had, apparently, spent little of the money on herself, had been a dependable benefactress of the few eccentric charities of which she approved, had remembered them in her will, but without egregious generosity, and had left the residue of her estate to him without explanation, admonition or peculiar protestations of affection, although he had no doubt that the words ``my dearly beloved nephew'' meant exactly what they said. He had liked her respected her had always been at ease in her company but he had never thought that he really knew her and now he never would. Then, is \"Dalgliesh really knew his aunt\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: uh I picked up a bunch of Craftsman tools from the forties that my wife's father owned when he was alive B: Uh-huh. A: and so I do have a band saw and a router and, uh, things like that out in the garage. But I can't say I use them very often. Then, is \"he uses them very often\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles Then, is \"most of the smog or air pollution comes from vehicles\" always, sometimes, or never true?",
+        "target": "sometimes",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: Now the part about where you said the apartment complex puts up signs that says no soliciting, I've even gone so far as to put that, I've got a storm door on the front of the house and I've put, in, I don't know how much clearer it can be, it's a red sign with silver letters saying no soliciting. I guess I should make another one that says religious or otherwise, cause I still get, B: Yeah, yeah, that's true, yeah. No I didn't go that far but, uh, yeah I probably could do the same thing, uh, you know, I don't have a storm door, but I'm sure I could rig up something. But you know I don't think that that would stop people. Then, is \"a no soliciting sign would stop people\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: And you also get a lot of, uh, juries are extremely, uh, and from what I hear, I have some friends who do expert witness testimony and they say that, uh, juries are extremely vulnerable to, uh, sort of emotional pitches, you know, the prosecutor will want to, oh, I don't know show the mugging victim, you know, show the nice person he was and what a family life, and basically get the jury to be very sympathetic with the victim, or, uh, if it's a corporation, that was, uh, you know, harming some individual or something like that, they get very much, well, you know, it's just a big faceless corporation. let's make them pay as much as possible. Things like that. B: Uh-huh. A: So, not, I mean, I'm, the problem is I can't guarantee that a judge would necessarily be much better than a jury, but I'd be real nervous having a jury not at least fully agree on what the settlements would be, things like that. B: Ri-,  I don't think the judge should just make the decision alone. Then, is \"the judge should just make the decision alone\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that And I resent what happened to my flat. A couple of guys think they can stake it out and wait for me, rub their filthy fingers on my clothes, piss in my bathroom, and I'm supposed to ignore it. I know what I said about possessions being like leeches but that don't mean I 'll surrender them to a pair of punks. Then, is \"he will surrender his possessions to a pair of punks\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: for the moment, and that's what really is getting me about what George Bush's stand on the budget is right now is that he is saying, I am going to give you this ludicrous little tax cut so that you'll be happy come November, and you'll elect me again B: Uh-huh.  Uh-huh. A: and then I'm going to go on and just forget everything that I said B: Uh-huh. A: or you know, it doesn't seem that it's going to make much of a difference. Then, is \"it's going to make much of a difference\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that Mr. Steinberg made a $59.7 million profit on the sale to Disney of his investment in the company in 1984. But lawyers said Mr. Steinberg probably faced much more potential liability because, when he sued Disney during his takeover battle, he filed on behalf of all shareholders. When Disney offered to pay Mr. Steinberg a premium for his shares, the New York investor didn't demand the company also pay a premium to other shareholders. Then, is \"the company would also pay a premium to other shareholders\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that B: And yet, uh, I we-, I hope to see employer based, you know, helping out. You know, child, uh, care centers at the place of employment and things like that, that will help out. A: Uh-huh. B: What do you think, do you think we are, setting a trend? Then, is \"they are setting a trend\" always, sometimes, or never true?",
+        "target": "sometimes",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: I suppose so. Let me push the button. B: All right. A: Okay, uh, I guess I'm supposed to be all for switching to the metric system, but, uh, I sense that it's not going to happen anytime soon. B: Yeah, I don't think it's going to happen either, Then, is \"it's going to happen\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: I've never heard that one, that's very nice. Oh, so I'm all for the metric system and converting over and I think, I guess, my feeling is the way to do it is to just start giving weights, you know, have a very brief transition period and then just start giving weights and kilometers, er, just as in kilometers and weights and kilograms and everything like that and, uh, just have people start using it rather than having people constantly trying to convert. Remember me getting a package of something that said one pound, this is a package of dates mind you, was, presumably something you weigh fairly precisely, it said one pound and then in parenthesis it said four hundred fifty-four point six grams. B: Right, right. A: And, as near as I could tell, seeing that was basically anti-metric propaganda cause anyone who would say, well look I can either buy a pound of something at four hundred sixty-four point six grams which, of course, they couldn't weigh it out accurately anyway, um, every time I see something like that I think, well, that's an anti-metric argument. B: Yeah. Well, uh, I don't think it could ever happen with a quick transition. Then, is \"it could happen with a quick transition\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year or who do you like to do that this year? A: Uh, no I don't think the Cowboys have got a chance. Then, is \"the Cowboys have got a chance\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that B: Yeah. I understood that. you know, I work full time and I have two kids so my spare time usually involves something with the kids. A: Yeah. B: You know, hobbies, I can't really say that we have hobbies. Then, is \"they have hobbies\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that B: uh, but it's worked out for my family, to have my cake and eat it too, kind of thing. A: Yeah.  Yeah, that's a good deal. Where do you think this is going in the future, I mean, do you think things are going to change, Then, is \"things are going to change\" always, sometimes, or never true?",
+        "target": "sometimes",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: Okay. So Frank, what, uh, type of, uh, budget do you or your family have? B: Well, uh I don't know that we really have a budget. Then, is \"he and his family really have a budget\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that B: And other than that I do not think it should be allowable. I think it should be illegal for them to want to do that. it's kind of the big brother syndrome, I mean, I just, anything like that just kind of scares me. A: I tend to view it, even though I don't think I'd work for a company that did that, I sort of want to defend an employer's rights uh, in addition to an individual's rights, Then, is \"she would work for a company that did that\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: so I don't know if I wasn't drug tested based on that or because the man who hired me didn't request the drug test, because I know that my company does drug testing on occasion. B: Right. Well, for instance, does the company you worked for before have the right or do they have the ability to say, hey, we've already drug tested her and she came up negative. A: Well, no, I don't think they can force another company to not drug test me just by saying that I didn't, I mean, Then, is \"they can force another company to not drug test her\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that Firstly, I didn't know about the SAS soldiers in the British Embassy, and I am very surprised about it. Very surprised indeed, Ambassador. Secondly I do not think it is a good idea to attack a plane with a hundred and seven passengers in it and ``take it apart'' as you say. Then, is \"it is a good idea to attack a plane with a hundred and seven passengers in it and 'take it apart'\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: I'm like, I'll get a job some day and my boss will pay for it, I'll be needed. B: Yeah. A: Because, um, I didn't want to go do it myself because I didn't think I was really going to use it. Then, is \"he was really going to use it\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that Valence the void-brain, Valence the virtuous valet. Why couldn't the figger choose his own portion of titanic anatomy to shaft? Did he think he was helping? Then, is \"Valence was helping\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: I do too, so she couldn't possibly turn them out like some of these popular writers, B: Huh-uh. A: but oh, her books are just incredible. I don't think they've ever made a movie, do you? Then, is \"they've ever made a movie\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: Your turn. B: Okay. Uh, I don't think they should abolish it. Then, is \"they should abolish it\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that 'Very well, I'll go. But I pick my own men, and if we ever have to fight, you obey my word.'' Jehan did not think that Sidacai was in any position to impose conditions but he sat back in his chair considering. Then, is \"Sidacai was in a position to impose conditions\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: Well, got any problems on Mockingbird with crime or is that a crime free zone there? B: No, I don't think there is any such thing, as a crime free zone any longer. Then, is \"there is some such thing as a crime free zone\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that B: Because too often, there can be extremism that hurts from any direction, regardless of whatever you're arguing or concerned about. A: Yeah.  Right. Yeah, I know, you're right, they would lobby that and I see that, and that's why, you know, I'm like, okay, what's my role in this thing,, you know, what's my part, B: Yeah. A: because I don't think the system is going to get fixed. Then, is \"the system is going to get fixed\" always, sometimes, or never true?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that ``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment? Then, is \"there is a shipment\" always, sometimes, or never true?",
+        "target": "sometimes",
+        "pred": "always"
+    },
+    {
+        "input": "Suppose it's true that A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing. They say, hey, we got to do something now. And then start playing the game the way the game should be played toward the last few minutes. B: Yeah. A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year Then, is \"they're going to do anything in the playoffs to make it to the Super Bowl this year\" always, sometimes, or never true?",
+        "target": "sometimes",
+        "pred": "always"
+    }
+]

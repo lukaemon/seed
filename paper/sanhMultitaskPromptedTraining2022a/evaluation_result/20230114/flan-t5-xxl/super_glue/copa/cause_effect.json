@@ -1,0 +1,67 @@
+[
+    {
+        "input": "The clock chimed.\n\nSelect the most plausible  cause: \n- It was the top of the hour.\n- The hour seemed to drag on.",
+        "target": "it was the top of the hour.",
+        "pred": "the hour seemed to drag on."
+    },
+    {
+        "input": "The driver turned on the car's headlights.\n\nSelect the most plausible  cause: \n- He heard thunder.\n- The sun went down.",
+        "target": "the sun went down.",
+        "pred": "the driver turned on the car's headlights. select the appropriate cause:"
+    },
+    {
+        "input": "The man received a parking ticket.\n\nSelect the most plausible  cause: \n- He parallel parked on the street.\n- The parking meter expired.",
+        "target": "the parking meter expired.",
+        "pred": "he parallel parked on the street."
+    },
+    {
+        "input": "The detective revealed an anomaly in the case.\n\nSelect the most plausible  effect: \n- He finalized his theory.\n- He scrapped his theory.",
+        "target": "he scrapped his theory.",
+        "pred": "he finalized his theory."
+    },
+    {
+        "input": "The hamburger meat browned.\n\nSelect the most plausible  cause: \n- The cook froze it.\n- The cook grilled it.",
+        "target": "the cook grilled it.",
+        "pred": "grilled hamburger meat burgers are a hamburger patty that is grilled."
+    },
+    {
+        "input": "I stayed up late.\n\nSelect the most plausible  effect: \n- I had vivid dreams that night.\n- I was tired in the morning.",
+        "target": "i was tired in the morning.",
+        "pred": "i had vivid dreams that night."
+    },
+    {
+        "input": "I doubted the salesman's pitch.\n\nSelect the most plausible  effect: \n- I turned his offer down.\n- He persuaded me to buy the product.",
+        "target": "i turned his offer down.",
+        "pred": "he persuaded me to buy the product."
+    },
+    {
+        "input": "My ears were ringing.\n\nSelect the most plausible  cause: \n- I went to a museum.\n- I went to a concert.",
+        "target": "i went to a concert.",
+        "pred": "i went to a museum."
+    },
+    {
+        "input": "I put rubber gloves on.\n\nSelect the most plausible  cause: \n- I was preparing to wash my hands.\n- I was preparing to clean the bathroom.",
+        "target": "i was preparing to clean the bathroom.",
+        "pred": "i was preparing to clean my hands."
+    },
+    {
+        "input": "Political violence broke out in the nation.\n\nSelect the most plausible  effect: \n- Many citizens relocated to the capitol.\n- Many citizens took refuge in other territories.",
+        "target": "many citizens took refuge in other territories.",
+        "pred": "many citizens relocated to the capitol."
+    },
+    {
+        "input": "The seasons changed from summer to autumn.\n\nSelect the most plausible  effect: \n- People evacuated their homes.\n- Leaves fell from the trees.",
+        "target": "leaves fell from the trees.",
+        "pred": "people evacuated their homes."
+    },
+    {
+        "input": "The man fainted.\n\nSelect the most plausible  cause: \n- He took a nap.\n- He ran a marathon.",
+        "target": "he ran a marathon.",
+        "pred": "he took a nap."
+    },
+    {
+        "input": "The woman read the newspaper.\n\nSelect the most plausible  effect: \n- She discovered the outcome of the election.\n- She casted a vote in the election.",
+        "target": "she discovered the outcome of the election.",
+        "pred": "she casted a vote in the election."
+    }
+]

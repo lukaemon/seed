@@ -1,0 +1,152 @@
+[
+    {
+        "input": "B: You never see them on nationally basketball. A: You know, that's true. I don't think I've ever seen them nationally on basketball. Based on the previous passage, is it true that \"he has seen them nationally on basketball\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? Based on the previous passage, is it true that \"the number is just for verification and is simply a formality on the road to being a grand-prize winner\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: Really. If they were to take half of what they spend on that and put it on some economic, you know, intergovernmental or inter United States like programs that one really might. B: Yeah. A: I believe in paying my share, and I don't mind, uh, paying for some of these fringe benefits that people are entitled to. But I just sometimes feel like I'm being used. But, uh, again I don't think we'll be able to do anything about it, Based on the previous passage, is it true that \"they'll be able to do anything about it\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: No, I don't either. B: Uh, I mean it's, you know it, A: I don't think it's going to change very much Based on the previous passage, is it true that \"it's going to change very much\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Modify the arachnids, said the researchers. Change their bodies and conditions, and you could get fibres like glass, still monofilament, but with logarithmic progressions of possibilities of strength and flexibility, and the ability to resonate light-particles or sound-waves undistorted, scarcely weakened over thousands of miles. Who said the arachnids had to be totally organic? Based on the previous passage, is it true that \"arachnids had to be totally organic\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: Well, actually, uh, A: I don't think I'm in the, uh, majority in Texas Based on the previous passage, is it true that \"she is in the majority in Texas\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: uh I picked up a bunch of Craftsman tools from the forties that my wife's father owned when he was alive B: Uh-huh. A: and so I do have a band saw and a router and, uh, things like that out in the garage. But I can't say I use them very often. Based on the previous passage, is it true that \"he uses them very often\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles Based on the previous passage, is it true that \"most of the smog or air pollution comes from vehicles\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "no"
+    },
+    {
+        "input": "The other set being in the pocket of Giovanna's overall from which she now drew them and held them up making it clear that they would be relinquished only upon her death and then only into the hands of Signor Kettering. What had occurred was quite contrary to the wishes of the padrone who would be outraged if he ever got to hear of it. Despite this disastrous beginning however Giovanna would be there in the morning her own family circumstances permitting and she would be much obliged if the Signora would make sure that her children were up and dressed and the breakfast eaten so that she could see that the house was returned to something like the order which Signor Kettering expected of it. Based on the previous passage, is it true that \"the house was returned to something like the order which Signor Kettering expected of it\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "B: And she got kind of fearful of being on her own. She never really ate very well. It was one thing. She hardly ever took care of herself A: Yeah. B: and she didn't eat. She ate very poor so I think she was, you know, bad, uh, nutrition on top of it. And, uh, she got to the point she didn't want to alone anymore. So, A: So often I think though, elderly people don't realize that their diet is that bad. Based on the previous passage, is it true that \"elderly people's diet is that bad\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A: Now the part about where you said the apartment complex puts up signs that says no soliciting, I've even gone so far as to put that, I've got a storm door on the front of the house and I've put, in, I don't know how much clearer it can be, it's a red sign with silver letters saying no soliciting. I guess I should make another one that says religious or otherwise, cause I still get, B: Yeah, yeah, that's true, yeah. No I didn't go that far but, uh, yeah I probably could do the same thing, uh, you know, I don't have a storm door, but I'm sure I could rig up something. But you know I don't think that that would stop people. Based on the previous passage, is it true that \"a no soliciting sign would stop people\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "What had brought Gharr and Ten-huc and Pulvidon to the planet at the same time? Why were all of them so interested in why I was there? And if they somehow suspected that I was picking up something valuable why would any of them try to kill me before the pick-up? Based on the previous passage, is it true that \"she was picking up something valuable\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "And I resent what happened to my flat. A couple of guys think they can stake it out and wait for me, rub their filthy fingers on my clothes, piss in my bathroom, and I'm supposed to ignore it. I know what I said about possessions being like leeches but that don't mean I 'll surrender them to a pair of punks. Based on the previous passage, is it true that \"he will surrender his possessions to a pair of punks\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "B: And yet, uh, I we-, I hope to see employer based, you know, helping out. You know, child, uh, care centers at the place of employment and things like that, that will help out. A: Uh-huh. B: What do you think, do you think we are, setting a trend? Based on the previous passage, is it true that \"they are setting a trend\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "no"
+    },
+    {
+        "input": "A: I suppose so. Let me push the button. B: All right. A: Okay, uh, I guess I'm supposed to be all for switching to the metric system, but, uh, I sense that it's not going to happen anytime soon. B: Yeah, I don't think it's going to happen either, Based on the previous passage, is it true that \"it's going to happen\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: I've never heard that one, that's very nice. Oh, so I'm all for the metric system and converting over and I think, I guess, my feeling is the way to do it is to just start giving weights, you know, have a very brief transition period and then just start giving weights and kilometers, er, just as in kilometers and weights and kilograms and everything like that and, uh, just have people start using it rather than having people constantly trying to convert. Remember me getting a package of something that said one pound, this is a package of dates mind you, was, presumably something you weigh fairly precisely, it said one pound and then in parenthesis it said four hundred fifty-four point six grams. B: Right, right. A: And, as near as I could tell, seeing that was basically anti-metric propaganda cause anyone who would say, well look I can either buy a pound of something at four hundred sixty-four point six grams which, of course, they couldn't weigh it out accurately anyway, um, every time I see something like that I think, well, that's an anti-metric argument. B: Yeah. Well, uh, I don't think it could ever happen with a quick transition. Based on the previous passage, is it true that \"it could happen with a quick transition\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year or who do you like to do that this year? A: Uh, no I don't think the Cowboys have got a chance. Based on the previous passage, is it true that \"the Cowboys have got a chance\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "B: uh, but it's worked out for my family, to have my cake and eat it too, kind of thing. A: Yeah.  Yeah, that's a good deal. Where do you think this is going in the future, I mean, do you think things are going to change, Based on the previous passage, is it true that \"things are going to change\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "A: Okay. So Frank, what, uh, type of, uh, budget do you or your family have? B: Well, uh I don't know that we really have a budget. Based on the previous passage, is it true that \"he and his family really have a budget\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: so I don't know if I wasn't drug tested based on that or because the man who hired me didn't request the drug test, because I know that my company does drug testing on occasion. B: Right. Well, for instance, does the company you worked for before have the right or do they have the ability to say, hey, we've already drug tested her and she came up negative. A: Well, no, I don't think they can force another company to not drug test me just by saying that I didn't, I mean, Based on the previous passage, is it true that \"they can force another company to not drug test her\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Firstly, I didn't know about the SAS soldiers in the British Embassy, and I am very surprised about it. Very surprised indeed, Ambassador. Secondly I do not think it is a good idea to attack a plane with a hundred and seven passengers in it and ``take it apart'' as you say. Based on the previous passage, is it true that \"it is a good idea to attack a plane with a hundred and seven passengers in it and 'take it apart'\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: and that rolling kind of, uh, B: Terrain. A: Yeah. is fairly famili-,. The thing that I thought was interesting was that the critics, apparently it's going to win everything. B: Really? A: Uh, and I had been told, you know, you wouldn't notice that it was three hours long, and all this, kind of, Based on the previous passage, is it true that \"it was three hours long\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A: I'm like, I'll get a job some day and my boss will pay for it, I'll be needed. B: Yeah. A: Because, um, I didn't want to go do it myself because I didn't think I was really going to use it. Based on the previous passage, is it true that \"he was really going to use it\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "B: If, uh, you've some kid uh, who's from a broken family, the schools are supposed to fill that void. It's gotten way beyond uh, you know, teaching classes and maybe providing extracurricular sports activities or something like, oh, were kind of traditionally the school's roles. A: Yeah.  Yeah, it's interesting because, uh, we're just having conversation on this, uh, with a couple of people yesterday. And I was expressing my frustrations that, uh, so many problems, I work in a high school, are that kids don't have a degree of self-discipline which may be reflected in society at large. Uh, and you can't expect in a classroom for a particular course an hour a day to counteract, uh, sixteen or seventeen years of influence at home. B: Right. A: Um, and, it's seen more so because when you call parents up, many parents won't even recognize that there is a problem Based on the previous passage, is it true that \"there is a problem\"? Yes, no, or maybe?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "A: I do too, so she couldn't possibly turn them out like some of these popular writers, B: Huh-uh. A: but oh, her books are just incredible. I don't think they've ever made a movie, do you? Based on the previous passage, is it true that \"they've ever made a movie\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: Your turn. B: Okay. Uh, I don't think they should abolish it. Based on the previous passage, is it true that \"they should abolish it\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "'Very well, I'll go. But I pick my own men, and if we ever have to fight, you obey my word.'' Jehan did not think that Sidacai was in any position to impose conditions but he sat back in his chair considering. Based on the previous passage, is it true that \"Sidacai was in a position to impose conditions\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "A: Well, got any problems on Mockingbird with crime or is that a crime free zone there? B: No, I don't think there is any such thing, as a crime free zone any longer. Based on the previous passage, is it true that \"there is some such thing as a crime free zone\"? Yes, no, or maybe?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment? Based on the previous passage, is it true that \"there is a shipment\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    },
+    {
+        "input": "A: And I haven't quite figured that out, if they figure they have got it won or if there's no real hurry because the first three quarters or, uh, uh, if something happens that that adrenalin starts flowing. They say, hey, we got to do something now. And then start playing the game the way the game should be played toward the last few minutes. B: Yeah. A: So, I don't know I'm looking for a good year. I guess we're always looking for a good year. B: So, obviously though, do you think they're going to do anything in the playoffs to make it to the Super Bowl this year Based on the previous passage, is it true that \"they're going to do anything in the playoffs to make it to the Super Bowl this year\"? Yes, no, or maybe?",
+        "target": "maybe",
+        "pred": "yes"
+    }
+]

@@ -33,5 +33,370 @@
         "input": "In the sentence below, does the _ stand for Tanya or Sarah?\nTanya was the most powerful person in the world, and Sarah admired them, because _ was something to aspire to.",
         "target": "tanya",
         "pred": "sarah"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for herbs or bags?\nJan planted her herbs in small growing bags, but she worried that the _ would be too shallow for them to put down roots.",
+        "target": "bags",
+        "pred": "herbs"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Maria or Cynthia?\nPolice arrested Maria but let Cynthia go as _ had some paint on their hand from the spray paint used for graffiti.",
+        "target": "maria",
+        "pred": "cynthia"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Megan or Samantha?\nMegan liked to read a book good more than Samantha because _ liked the peace and quiet.",
+        "target": "megan",
+        "pred": "samantha"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for refrigerator or part?\nThe refrigerator was acting up again, so we called a technician to repair the part.  The _ was fine when he showed up.",
+        "target": "refrigerator",
+        "pred": "part"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for battle or war?\nThe battle was less fierce than the great war, because the _ lasted one year.",
+        "target": "war",
+        "pred": "battle"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Craig or William?\nSince Craig wears clear contacts and William wears colored ones, it is safe to assume that _ loves the color of their eyes.",
+        "target": "craig",
+        "pred": "william"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Erin or Cynthia?\nThe dark circles under Erin's eyes were darker than Cynthia's due to _ being older.",
+        "target": "erin",
+        "pred": "cynthia"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for bar or gym?\nMy face was more familiar than it was at the bar than the gym because I went to the _ very rarely.",
+        "target": "gym",
+        "pred": "bar"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for quiz or test?\nJoe did a lot worse on the quiz last week than he did on the test today, because the _ was a surprise.",
+        "target": "quiz",
+        "pred": "test"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Randy or Samuel?\nRandy showed Samuel the abused horse that he rescued from the shelter.  _ was proud of his friend.",
+        "target": "samuel",
+        "pred": "randy"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for makeup or skin?\nShe suspected that her old makeup had expired after she put it on her skin because her _ was harder.",
+        "target": "makeup",
+        "pred": "skin"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for cookie or glass?\nJoe drank his milk and tried to dunk his cookie in the glass but the _ was too small.",
+        "target": "glass",
+        "pred": "cookie"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Mary or Lindsey?\nMary didn't know what the currency of Mexico was but Lindsey knew _ had never been to Mexico before.",
+        "target": "mary",
+        "pred": "lindsey"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Angela or Victoria?\nAngela wanted to find a partner, but Victoria wanted to stay single, because _ was lonely.",
+        "target": "angela",
+        "pred": "victoria"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for work shift or research paper?\nJason missed his work shift in order to finish his research paper, because the _ was less important.",
+        "target": "work shift",
+        "pred": "research paper"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Joel or Dennis?\nJoel plans to go to Latin America next year where Dennis is currently living, _ has never been to Latin America.",
+        "target": "joel",
+        "pred": "dennis"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for plant or factory?\nThe wages at the factory were lower than the wages at the plant since it was more safe to work at the _ .",
+        "target": "factory",
+        "pred": "plant"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for house or wind?\nThe wind during the last hurricane tried to knock over their new house, but the _ was too strong.",
+        "target": "house",
+        "pred": "wind"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Brandy or Scotch?\nWanting to impress his boss, the man put the brandy away and served scotch instead because the _ was cheap.",
+        "target": "brandy",
+        "pred": "scotch"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for reeds or strings?\nThe trumpet part overpowered the reeds but could not be heard over the strings, as the _ were just too quiet .",
+        "target": "reeds",
+        "pred": "strings"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Mary or Patricia?\nMary was helping Patricia's daughter put on makeup because _ watches a lot of makeup tutorials.",
+        "target": "mary",
+        "pred": "patricia"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Samuel or Brett?\nSamuel tried unsuccessfully to get Brett to skip school because _ was a truant that didn't follow the rules.",
+        "target": "samuel",
+        "pred": "brett"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Angela or Mary?\nAngela beat Mary in the weightlifting competition, but it wasn't fair. _ had been taking steroids.",
+        "target": "angela",
+        "pred": "mary"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for car or truck?\nThe boot was removed from the car tire and put on the truck tire, since the _ was now illegally parked.",
+        "target": "truck",
+        "pred": "car"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Joel or William?\nThe health of Joel was stronger than that of William due to _ being a cigar smoker.",
+        "target": "william",
+        "pred": "joel"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for dress or hat?\nJill was on a budget so she only bought a new dress for the ceremony and wore an old hat. She figured the _ would be more noticeable.",
+        "target": "dress",
+        "pred": "hat"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Carrie or Emily?\nThe bartender cut Carrie off but continued to serve Emily because _ was too drunk.",
+        "target": "carrie",
+        "pred": "emily"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for software or computer?\nThe Windows software attempted to install the upgrades onto the computer, but the _ exceeded data capacity.",
+        "target": "software",
+        "pred": "computer"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for pain or burn?\nMy pain was not nearly as bad as Joe's burn because the _ Joe had was uncontrollable.",
+        "target": "burn",
+        "pred": "pain"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Megan or Monica?\nMegan took Monica to a wood shack in the mountains, because _ was a kidnapper trying to hide.",
+        "target": "megan",
+        "pred": "monica"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Cynthia or Jennifer?\nPlaying basketball came easier for Cynthia than Jennifer but _ had more control of their body movements.",
+        "target": "jennifer",
+        "pred": "cynthia"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Kenneth or Jeffrey?\nKenneth is accused of destroying drywall in Jeffrey's house, _ is renting the house.",
+        "target": "kenneth",
+        "pred": "jeffrey"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Carrie or Laura?\nCarrie kept written records of their expenses but not Laura because _ had a sharp memory.",
+        "target": "laura",
+        "pred": "carrie"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Laura or Monica?\nThe gerbil came over to Laura but not Monica because _ was holding a carrot stick.",
+        "target": "laura",
+        "pred": "monica"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Jennifer or Felicia?\nJennifer dragged Felicia along to a self help workshop about how to succeed, because _ wanted some company.",
+        "target": "jennifer",
+        "pred": "felicia"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Joel or Eric?\nJoel got advice on buying stocks from his cousin Bob while Eric used a broker. _ had a virtually worthless portfolio of companies.",
+        "target": "joel",
+        "pred": "eric"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for street or sound?\nThe sound of the foot was clearly audible from the street because the _ is quiet.",
+        "target": "street",
+        "pred": "sound"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Brett or Kenneth?\nBrett wanted to get a massage but Kenneth did not. This is because _ was feeling relaxed.",
+        "target": "kenneth",
+        "pred": "brett"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for card or jewelry?\nThe jewelry sold for less than the baseball card did since the _ was very common.",
+        "target": "jewelry",
+        "pred": "card"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for toga or underwear?\nKelly was embarrassed when his toga fell off at the party and people saw his underwear because the _ was too loose.",
+        "target": "toga",
+        "pred": "underwear"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for William or Aaron?\nWilliam wanted to go biking but Aaron wanted to stay home, so _ went out by themselves.",
+        "target": "william",
+        "pred": "aaron"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for apple or brownie?\nShe counted her calories for her diet and found she needed more so she ate a brownie instead of an apple since the _ has fewer.",
+        "target": "apple",
+        "pred": "brownie"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for skateboard or weight?\nThe skateboard got broken under the weight of the fat boy and his luggage. The _ is light.",
+        "target": "skateboard",
+        "pred": "weight"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for bakery or bank?\nJoe immediately went to bakery before the bank because the _ had a substantial supply of what he wanted.",
+        "target": "bank",
+        "pred": "bakery"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for medicine or therapy?\nGem needed both therapy and medicines to cope with her broken leg. She preferred the _ because it was painless.",
+        "target": "medicine",
+        "pred": "therapy"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Victoria or Elena?\nVictoria was still grieving the death of a friend more than Elena, because _ had a more distant relationship with the friend.",
+        "target": "elena",
+        "pred": "victoria"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Brett or Leslie?\nBrett threw away all the soda and junk food to reduce Leslie's dependence on unhealthy foods because _ cares for his health.",
+        "target": "brett",
+        "pred": "leslie"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Brian or Nick?\nBrian asked  Nick to feed their rabbit,because  _ was planning on going on vacation to Disney for a week.",
+        "target": "brian",
+        "pred": "nick"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Craig or Nick?\nCraig grew frustrated trying to coach Nick in soccer, as _ lacked the patience needed for the task.",
+        "target": "craig",
+        "pred": "nick"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for warts or limbs?\nWarts appeared on Jerry's limbs after he went through the jungle because the _ were infectious.",
+        "target": "warts",
+        "pred": "limbs"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Patricia or Cynthia?\nPatricia had to pay less tax than Cynthia because _ made more money in the year.",
+        "target": "cynthia",
+        "pred": "patricia"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Kayla or Felicia?\nThe kitty ran away from Kayla and not Felicia because the kitty had known _ for many years.",
+        "target": "felicia",
+        "pred": "kayla"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Rachel or Kayla?\nRachel touches the cool looking bulletproof vest of Kayla due to _ being on a ride along.",
+        "target": "rachel",
+        "pred": "kayla"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for color or wedding?\nI did not buy the color pink rose flowers  for my wedding because the _ is too bright.",
+        "target": "color",
+        "pred": "wedding"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for cable or internet?\nThe installation process was simpler for the cable over the internet because the man had never installed the _ previously.",
+        "target": "internet",
+        "pred": "cable"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for gym or playground?\nI got more use in the gym than at the playground because the _ had more things to do.",
+        "target": "gym",
+        "pred": "playground"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Leslie or Kenneth?\nThe girl broke Leslie's heart but not Kenneth's because _ used to be in love with her.",
+        "target": "leslie",
+        "pred": "kenneth"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Carrie or Patricia?\nCarrie was helping Patricia diet and exercise at the gym to lose weight because _ used to be overweight.",
+        "target": "carrie",
+        "pred": "patricia"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for ear or piercing?\nMary wanted to get another piercing in her ear, but the _ was much too tiny.",
+        "target": "ear",
+        "pred": "piercing"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Sarah or Maria?\nSarah was a much better surgeon than Maria so _ always got the easier cases.",
+        "target": "maria",
+        "pred": "sarah"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for ice or pad?\nThe doctor suggested alternating between ice and a heating pad when I strained a muscle, but he warned me to not let the _ get too cold.",
+        "target": "ice",
+        "pred": "pad"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for television or music?\nJohn cannot listen to his music with the volume of the television his cousin is watching. The _ is quiet.",
+        "target": "music",
+        "pred": "television"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for shape or painting?\nMy mom didn't fit the shape into the painting, because the _ was too complete.",
+        "target": "painting",
+        "pred": "shape"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for pen or pencil?\nThe student liked writing their signature with a pen instead of a pencil, because the _ showed up lighter.",
+        "target": "pencil",
+        "pred": "pen"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for garage or room?\nI started playing drums young.  Sometimes I played in the garage and sometimes my room, but my parents preferred knowing I was in the  _  .",
+        "target": "garage",
+        "pred": "room"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Jeffrey or Craig?\nJeffrey thought Craig probably had gum and asked for a piece, because _ had bad breath.",
+        "target": "jeffrey",
+        "pred": "craig"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for house or room?\nThe architect tried to build the room inside the house but the _ was too large.",
+        "target": "room",
+        "pred": "house"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Jessica or Felicia?\nSo _ ignored their ear because Jessica has a ear infection and Felicia was fine.",
+        "target": "felicia",
+        "pred": "jessica"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for mango or cup?\nThe juice from the mango fruit could not fill up the cup because the _ is small.",
+        "target": "mango",
+        "pred": "cup"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for desk or table?\nThe woman didn't need an apprasial for the desk, but wondered how much the table was worth, because the _ appeared to be common.",
+        "target": "desk",
+        "pred": "table"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Jessica or Samantha?\nJessica wants to protect herself from infectious diseases so she goes to doctor Samantha, because _ is careful.",
+        "target": "jessica",
+        "pred": "samantha"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for stain or brush?\nThe stain in the bucket could not be cleaned with the brush because the _ is soft.",
+        "target": "brush",
+        "pred": "stain"
+    },
+    {
+        "input": "In the sentence below, does the _ stand for Christopher or Samuel?\nThe brutal boxing match was suitable for Christopher but not Samuel because _ did not damage his opponent.",
+        "target": "samuel",
+        "pred": "christopher"
     }
 ]

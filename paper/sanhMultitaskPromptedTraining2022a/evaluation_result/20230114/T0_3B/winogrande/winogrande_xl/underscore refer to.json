@@ -1,0 +1,487 @@
+[
+    {
+        "input": "Patricia decided to buy Felicia dinner because they had been through a lot and _ just inherited some money.\nWhat does the _ in the above sentence refer to? Patricia or Felicia?",
+        "target": "patricia",
+        "pred": "felicia"
+    },
+    {
+        "input": "Timmy bought a transporter for his cat so he could take him on the plane but the _ was too small.\nWhat does the _ in the above sentence refer to? transporter or plane?",
+        "target": "transporter",
+        "pred": "plane"
+    },
+    {
+        "input": "It was easier for the diner to follow their budget than the food truck because the _ had more money to spend.\nWhat does the _ in the above sentence refer to? diner or food truck?",
+        "target": "diner",
+        "pred": "food truck"
+    },
+    {
+        "input": "Carrie posted their sofa for sale on Craigslist, and had received an offer they had to decline because the _ is valuable.\nWhat does the _ in the above sentence refer to? offer or sofa?",
+        "target": "sofa",
+        "pred": "offer"
+    },
+    {
+        "input": "When the car was brought up into the shop, the brake was replaced when the wheel wasn't, since the _ was fixed.\nWhat does the _ in the above sentence refer to? brake or wheel?",
+        "target": "wheel",
+        "pred": "brake"
+    },
+    {
+        "input": "Sarah was quickly promoted to manager over Kayla, because _ excelled at angering other people.\nWhat does the _ in the above sentence refer to? Sarah or Kayla?",
+        "target": "kayla",
+        "pred": "sarah"
+    },
+    {
+        "input": "Lindsey did not know how to make a good impression for an interview with Tanya. _ was surprised when she did not get the job.\nWhat does the _ in the above sentence refer to? Lindsey or Tanya?",
+        "target": "lindsey",
+        "pred": "tanya"
+    },
+    {
+        "input": "Jan planted her herbs in small growing bags, but she worried that the _ would be too shallow for them to put down roots.\nWhat does the _ in the above sentence refer to? herbs or bags?",
+        "target": "bags",
+        "pred": "herbs"
+    },
+    {
+        "input": "Police arrested Maria but let Cynthia go as _ had some paint on their hand from the spray paint used for graffiti.\nWhat does the _ in the above sentence refer to? Maria or Cynthia?",
+        "target": "maria",
+        "pred": "cynthia"
+    },
+    {
+        "input": "During the rescue mission, Maria pulled Rebecca away from the minefield since _ was a civilian.\nWhat does the _ in the above sentence refer to? Maria or Rebecca?",
+        "target": "rebecca",
+        "pred": "maria"
+    },
+    {
+        "input": "Jessica saw Laura constantly flirt with men in the office. _ thought it was normal in a place of business and she was admired by their coworkers.\nWhat does the _ in the above sentence refer to? Jessica or Laura?",
+        "target": "laura",
+        "pred": "jessica"
+    },
+    {
+        "input": "Donna needed dentures or implants for her bad teeth. She chose the _ because they are permanent.\nWhat does the _ in the above sentence refer to? dentures or implants?",
+        "target": "implants",
+        "pred": "dentures"
+    },
+    {
+        "input": "The battle was less fierce than the great war, because the _ lasted one year.\nWhat does the _ in the above sentence refer to? battle or war?",
+        "target": "war",
+        "pred": "battle"
+    },
+    {
+        "input": "Ian laughs at Ryan because of the small Christmas tree they picked out. _ wants a table top tree.\nWhat does the _ in the above sentence refer to? Ian or Ryan?",
+        "target": "ryan",
+        "pred": "ian"
+    },
+    {
+        "input": "The house of Aaron took some damage from the storm but not Michael's house, because _ lived farther away.\nWhat does the _ in the above sentence refer to? Aaron or Michael?",
+        "target": "michael",
+        "pred": "aaron"
+    },
+    {
+        "input": "The garbage can smells much worse than the recycling, so the _ is probably a lot more sterile.\nWhat does the _ in the above sentence refer to? garbage or recycling?",
+        "target": "recycling",
+        "pred": "garbage"
+    },
+    {
+        "input": "Samantha had to get car insurance and Jessica did not because _ just got a new car.\nWhat does the _ in the above sentence refer to? Samantha or Jessica?",
+        "target": "samantha",
+        "pred": "jessica"
+    },
+    {
+        "input": "The woman used a gentle technique when painting the urn but applied more pressure when painting the vase, because the _ was more fragile.\nWhat does the _ in the above sentence refer to? Urn or Vase?",
+        "target": "urn",
+        "pred": "vase"
+    },
+    {
+        "input": "My face was more familiar than it was at the bar than the gym because I went to the _ several times a week.\nWhat does the _ in the above sentence refer to? bar or gym?",
+        "target": "bar",
+        "pred": "gym"
+    },
+    {
+        "input": "Joe did a lot worse on the quiz last week than he did on the test today, because the _ was a surprise.\nWhat does the _ in the above sentence refer to? quiz or test?",
+        "target": "quiz",
+        "pred": "test"
+    },
+    {
+        "input": "Tommy was able to carry the tripod himself, but his friend had to help him carry the camera because the _ was lighter.\nWhat does the _ in the above sentence refer to? camera or tripod?",
+        "target": "tripod",
+        "pred": "camera"
+    },
+    {
+        "input": "Brett asked Joel for advice and guidance about waxing his mustache, and afterwards _ felt burdened.\nWhat does the _ in the above sentence refer to? Brett or Joel?",
+        "target": "joel",
+        "pred": "brett"
+    },
+    {
+        "input": "Joe drank his milk and tried to dunk his cookie in the glass but the _ was too small.\nWhat does the _ in the above sentence refer to? cookie or glass?",
+        "target": "glass",
+        "pred": "cookie"
+    },
+    {
+        "input": "Mary didn't know what the currency of Mexico was but Lindsey knew _ had never been to Mexico before.\nWhat does the _ in the above sentence refer to? Mary or Lindsey?",
+        "target": "mary",
+        "pred": "lindsey"
+    },
+    {
+        "input": "Adam was a crook and not a law-abiding citizen like Joseph, so it was surprising that _ was the one with a restraining order against him.\nWhat does the _ in the above sentence refer to? Adam or Joseph?",
+        "target": "joseph",
+        "pred": "adam"
+    },
+    {
+        "input": "Angela wanted to find a partner, but Victoria wanted to stay single, because _ was lonely.\nWhat does the _ in the above sentence refer to? Angela or Victoria?",
+        "target": "angela",
+        "pred": "victoria"
+    },
+    {
+        "input": "Jason missed his work shift in order to finish his research paper, because the _ was less important.\nWhat does the _ in the above sentence refer to? work shift or research paper?",
+        "target": "work shift",
+        "pred": "research paper"
+    },
+    {
+        "input": "The quill was used by the writer much more than the pen for the job since the _ is heavy.\nWhat does the _ in the above sentence refer to? quill or pen?",
+        "target": "pen",
+        "pred": "quill"
+    },
+    {
+        "input": "The wages at the factory were lower than the wages at the plant since it was more safe to work at the _ .\nWhat does the _ in the above sentence refer to? plant or factory?",
+        "target": "factory",
+        "pred": "plant"
+    },
+    {
+        "input": "Samantha gifted her new bathrobe to Betty because it felt very comfortable for _ when she tried it on.\nWhat does the _ in the above sentence refer to? Samantha or Betty?",
+        "target": "betty",
+        "pred": "samantha"
+    },
+    {
+        "input": "I don't want to use that iron on my new shirt, and, yes, it's because the _ is too expensive.\nWhat does the _ in the above sentence refer to? iron or shirt?",
+        "target": "shirt",
+        "pred": "iron"
+    },
+    {
+        "input": "Although Amy worked harder and longer than Rebecca, _ was a more wealthy person overall.\nWhat does the _ in the above sentence refer to? Amy or Rebecca?",
+        "target": "rebecca",
+        "pred": "amy"
+    },
+    {
+        "input": "Wanting to impress his boss, the man put the brandy away and served scotch instead because the _ was cheap.\nWhat does the _ in the above sentence refer to? Brandy or Scotch?",
+        "target": "brandy",
+        "pred": "scotch"
+    },
+    {
+        "input": "In order to increase her estrogen, Jenny started eating carrots instead of donuts because the _ were not junky.\nWhat does the _ in the above sentence refer to? donuts or carrots?",
+        "target": "carrots",
+        "pred": "donuts"
+    },
+    {
+        "input": "Jen made charcoal to use as a mask and as toothpaste, but using the _ made her teeth very white.\nWhat does the _ in the above sentence refer to? mask or toothpaste?",
+        "target": "toothpaste",
+        "pred": "mask"
+    },
+    {
+        "input": "Michael was a better employer than Joel so _ had to worry about retaining employees.\nWhat does the _ in the above sentence refer to? Michael or Joel?",
+        "target": "joel",
+        "pred": "michael"
+    },
+    {
+        "input": "Mary was helping Patricia's daughter put on makeup because _ watches a lot of makeup tutorials.\nWhat does the _ in the above sentence refer to? Mary or Patricia?",
+        "target": "mary",
+        "pred": "patricia"
+    },
+    {
+        "input": "The boot was removed from the car tire and put on the truck tire, since the _ was now illegally parked.\nWhat does the _ in the above sentence refer to? car or truck?",
+        "target": "truck",
+        "pred": "car"
+    },
+    {
+        "input": "The health of Joel was stronger than that of William due to _ being a cigar smoker.\nWhat does the _ in the above sentence refer to? Joel or William?",
+        "target": "william",
+        "pred": "joel"
+    },
+    {
+        "input": "Carla start doing sit-ups and pushups for her weak spots. The _ are for her abs.\nWhat does the _ in the above sentence refer to? sit-ups or pushups?",
+        "target": "sit-ups",
+        "pred": "pushups"
+    },
+    {
+        "input": "The bartender cut Carrie off but continued to serve Emily because _ was too drunk.\nWhat does the _ in the above sentence refer to? Carrie or Emily?",
+        "target": "carrie",
+        "pred": "emily"
+    },
+    {
+        "input": "Megan didn't care for the comedians show but Patricia thought it was brilliant. _ hung out for the comedian's second set.\nWhat does the _ in the above sentence refer to? Megan or Patricia?",
+        "target": "patricia",
+        "pred": "megan"
+    },
+    {
+        "input": "Samantha wanted to reduce smoking by relying on a new nicotine patch and therapy video, but the _ was addictive.\nWhat does the _ in the above sentence refer to? patch or video?",
+        "target": "patch",
+        "pred": "video"
+    },
+    {
+        "input": "My pain was not nearly as bad as Joe's burn because the _ Joe had was uncontrollable.\nWhat does the _ in the above sentence refer to? pain or burn?",
+        "target": "burn",
+        "pred": "pain"
+    },
+    {
+        "input": "When Leslie told Aaron he only wanted to eat food that was healthy, he was laughed at. The teacher scolded _ immediately.\nWhat does the _ in the above sentence refer to? Leslie or Aaron?",
+        "target": "aaron",
+        "pred": "leslie"
+    },
+    {
+        "input": "Jennifer got about with a seeing-eye dog but Mary did not because _ was sighted.\nWhat does the _ in the above sentence refer to? Jennifer or Mary?",
+        "target": "mary",
+        "pred": "jennifer"
+    },
+    {
+        "input": "Playing basketball came easier for Cynthia than Jennifer but _ had more control of their body movements.\nWhat does the _ in the above sentence refer to? Cynthia or Jennifer?",
+        "target": "jennifer",
+        "pred": "cynthia"
+    },
+    {
+        "input": "Steven believes they can buy happiness but Craig thinks otherwise as _ is very realistic.\nWhat does the _ in the above sentence refer to? Steven or Craig?",
+        "target": "craig",
+        "pred": "steven"
+    },
+    {
+        "input": "Carrie kept written records of their expenses but not Laura because _ had a sharp memory.\nWhat does the _ in the above sentence refer to? Carrie or Laura?",
+        "target": "laura",
+        "pred": "carrie"
+    },
+    {
+        "input": "Joel got advice on buying stocks from his cousin Bob while Eric used a broker. _ had a virtually worthless portfolio of companies.\nWhat does the _ in the above sentence refer to? Joel or Eric?",
+        "target": "joel",
+        "pred": "eric"
+    },
+    {
+        "input": "Samantha believed in life after death while Christine did not, so _ never tried to talk to spirits.\nWhat does the _ in the above sentence refer to? Samantha or Christine?",
+        "target": "christine",
+        "pred": "samantha"
+    },
+    {
+        "input": "Joel researched laws and helped to open a preschool for Eric. Because _ is very good with kids.\nWhat does the _ in the above sentence refer to? Joel or Eric?",
+        "target": "eric",
+        "pred": "joel"
+    },
+    {
+        "input": "The sound of the foot was clearly audible from the street because the _ is quiet.\nWhat does the _ in the above sentence refer to? street or sound?",
+        "target": "street",
+        "pred": "sound"
+    },
+    {
+        "input": "The jewelry sold for less than the baseball card did since the _ was very common.\nWhat does the _ in the above sentence refer to? card or jewelry?",
+        "target": "jewelry",
+        "pred": "card"
+    },
+    {
+        "input": "Kelly was embarrassed when his toga fell off at the party and people saw his underwear because the _ was too loose.\nWhat does the _ in the above sentence refer to? toga or underwear?",
+        "target": "toga",
+        "pred": "underwear"
+    },
+    {
+        "input": "Patricia has a trouble with training her horse and wants Tanya's help, because _ wants her horse to behave.\nWhat does the _ in the above sentence refer to? Patricia or Tanya?",
+        "target": "patricia",
+        "pred": "tanya"
+    },
+    {
+        "input": "Rebecca asked Kayla to turn the lights out but _ did not want to go to sleep.\nWhat does the _ in the above sentence refer to? Rebecca or Kayla?",
+        "target": "kayla",
+        "pred": "rebecca"
+    },
+    {
+        "input": "Derrick always wanted to wash when they woke up but Benjamin rarely bothered. _ was a very dirty person.\nWhat does the _ in the above sentence refer to? Derrick or Benjamin?",
+        "target": "benjamin",
+        "pred": "derrick"
+    },
+    {
+        "input": "William wanted to go biking but Aaron wanted to stay home, so _ went out by themselves.\nWhat does the _ in the above sentence refer to? William or Aaron?",
+        "target": "william",
+        "pred": "aaron"
+    },
+    {
+        "input": "Beautiful roses were bought by Jason for Dennis because _ is a receiver in general.\nWhat does the _ in the above sentence refer to? Jason or Dennis?",
+        "target": "dennis",
+        "pred": "jason"
+    },
+    {
+        "input": "The doctor couldn't treat the arm infection, but was able to handle the ear ache. The _ was more petty.\nWhat does the _ in the above sentence refer to? arm infection or ear ache?",
+        "target": "ear ache",
+        "pred": "arm infection"
+    },
+    {
+        "input": "Joe immediately went to bakery before the bank because the _ had a substantial supply of what he wanted.\nWhat does the _ in the above sentence refer to? bakery or bank?",
+        "target": "bank",
+        "pred": "bakery"
+    },
+    {
+        "input": "At dinner time, Tanya ate Erin's serving of peas even though _ really likes green vegetables.\nWhat does the _ in the above sentence refer to? Tanya or Erin?",
+        "target": "erin",
+        "pred": "tanya"
+    },
+    {
+        "input": "Victoria was still grieving the death of a friend more than Elena, because _ had a more distant relationship with the friend.\nWhat does the _ in the above sentence refer to? Victoria or Elena?",
+        "target": "elena",
+        "pred": "victoria"
+    },
+    {
+        "input": "Derrick greeted Craig at the event but he did not respond to him because _ is arrogant.\nWhat does the _ in the above sentence refer to? Derrick or Craig?",
+        "target": "craig",
+        "pred": "derrick"
+    },
+    {
+        "input": "Brett threw away all the soda and junk food to reduce Leslie's dependence on unhealthy foods because _ cares for his health.\nWhat does the _ in the above sentence refer to? Brett or Leslie?",
+        "target": "brett",
+        "pred": "leslie"
+    },
+    {
+        "input": "At Jan's home, she dusted the dresser more frequently than the fan, because the _ was easier to reach.\nWhat does the _ in the above sentence refer to? fan or dresser?",
+        "target": "dresser",
+        "pred": "fan"
+    },
+    {
+        "input": "Brian asked  Nick to feed their rabbit,because  _ was planning on going on vacation to Disney for a week.\nWhat does the _ in the above sentence refer to? Brian or Nick?",
+        "target": "brian",
+        "pred": "nick"
+    },
+    {
+        "input": "Craig grew frustrated trying to coach Nick in soccer, as _ lacked the patience needed for the task.\nWhat does the _ in the above sentence refer to? Craig or Nick?",
+        "target": "craig",
+        "pred": "nick"
+    },
+    {
+        "input": "Warts appeared on Jerry's limbs after he went through the jungle because the _ were infectious.\nWhat does the _ in the above sentence refer to? warts or limbs?",
+        "target": "warts",
+        "pred": "limbs"
+    },
+    {
+        "input": "Patricia had to pay less tax than Cynthia because _ made more money in the year.\nWhat does the _ in the above sentence refer to? Patricia or Cynthia?",
+        "target": "cynthia",
+        "pred": "patricia"
+    },
+    {
+        "input": "Rachel touches the cool looking bulletproof vest of Kayla due to _ being on a ride along.\nWhat does the _ in the above sentence refer to? Rachel or Kayla?",
+        "target": "rachel",
+        "pred": "kayla"
+    },
+    {
+        "input": "The installation process was simpler for the cable over the internet because the man had never installed the _ previously.\nWhat does the _ in the above sentence refer to? cable or internet?",
+        "target": "internet",
+        "pred": "cable"
+    },
+    {
+        "input": "Samantha was pretty good at math while Natalie was better at English. _ enrolled in a storytelling class this semester.\nWhat does the _ in the above sentence refer to? Samantha or Natalie?",
+        "target": "natalie",
+        "pred": "samantha"
+    },
+    {
+        "input": "Steven helped Derrick do research on the paper because _ had access to the internet.\nWhat does the _ in the above sentence refer to? Steven or Derrick?",
+        "target": "steven",
+        "pred": "derrick"
+    },
+    {
+        "input": "Rebecca had a way of minimizing risks whereas Mary usually did not. This made _ want to assist.\nWhat does the _ in the above sentence refer to? Rebecca or Mary?",
+        "target": "rebecca",
+        "pred": "mary"
+    },
+    {
+        "input": "The battery of the the phone died faster than the laptop battery, because the _ was always off.\nWhat does the _ in the above sentence refer to? phone or laptop?",
+        "target": "laptop",
+        "pred": "phone"
+    },
+    {
+        "input": "Carrie was helping Patricia diet and exercise at the gym to lose weight because _ used to be overweight.\nWhat does the _ in the above sentence refer to? Carrie or Patricia?",
+        "target": "carrie",
+        "pred": "patricia"
+    },
+    {
+        "input": "The parakeet flew to Hunter but flew past Samuel because _ had some bird seed in their hand.\nWhat does the _ in the above sentence refer to? Hunter or Samuel?",
+        "target": "hunter",
+        "pred": "samuel"
+    },
+    {
+        "input": "Robert was simply not as stoic as Joel , as _ tended to handle things gracefully.\nWhat does the _ in the above sentence refer to? Robert or Joel?",
+        "target": "joel",
+        "pred": "robert"
+    },
+    {
+        "input": "Mary wanted to get another piercing in her ear, but the _ was much too tiny.\nWhat does the _ in the above sentence refer to? ear or piercing?",
+        "target": "ear",
+        "pred": "piercing"
+    },
+    {
+        "input": "Benjamin was chosen instead of Brett to be the makeup artist for the play because _ was less experienced.\nWhat does the _ in the above sentence refer to? Benjamin or Brett?",
+        "target": "brett",
+        "pred": "benjamin"
+    },
+    {
+        "input": "Derrick needed Kenneth to go to the store and get a baby bib, but _ said the one they had was still ok.\nWhat does the _ in the above sentence refer to? Derrick or Kenneth?",
+        "target": "kenneth",
+        "pred": "derrick"
+    },
+    {
+        "input": "We didn't get the biscuits this morning before school, so I ordered an omelet instead of a hash brown as the _ would make me hungry.\nWhat does the _ in the above sentence refer to? omelet or hash brown?",
+        "target": "hash brown",
+        "pred": "omelet"
+    },
+    {
+        "input": "John cannot listen to his music with the volume of the television his cousin is watching. The _ is quiet.\nWhat does the _ in the above sentence refer to? television or music?",
+        "target": "music",
+        "pred": "television"
+    },
+    {
+        "input": "Emily said that Victoria's hijab was silly and old fashioned. _ heard some very offensive things.\nWhat does the _ in the above sentence refer to? Emily or Victoria?",
+        "target": "victoria",
+        "pred": "emily"
+    },
+    {
+        "input": "The student liked writing their signature with a pen instead of a pencil, because the _ showed up lighter.\nWhat does the _ in the above sentence refer to? pen or pencil?",
+        "target": "pencil",
+        "pred": "pen"
+    },
+    {
+        "input": "Kyle loved to camp in the wilderness but Justin preferred a nice hotel. _ booked a trip to New York City.\nWhat does the _ in the above sentence refer to? Kyle or Justin?",
+        "target": "justin",
+        "pred": "kyle"
+    },
+    {
+        "input": "Jeffrey thought Craig probably had gum and asked for a piece, because _ had bad breath.\nWhat does the _ in the above sentence refer to? Jeffrey or Craig?",
+        "target": "jeffrey",
+        "pred": "craig"
+    },
+    {
+        "input": "So _ ignored their ear because Jessica has a ear infection and Felicia was fine.\nWhat does the _ in the above sentence refer to? Jessica or Felicia?",
+        "target": "felicia",
+        "pred": "jessica"
+    },
+    {
+        "input": "The library always had more books than computers, most likely because the _ are bigger.\nWhat does the _ in the above sentence refer to? books or computers?",
+        "target": "computers",
+        "pred": "books"
+    },
+    {
+        "input": "Kyle wanted to write to Aaron every day, because _ enjoyed receiving letters from friends.\nWhat does the _ in the above sentence refer to? Kyle or Aaron?",
+        "target": "aaron",
+        "pred": "kyle"
+    },
+    {
+        "input": "During the charity drive, they decided to donate the couch but not the bed because the _ was broken.\nWhat does the _ in the above sentence refer to? couch or bed?",
+        "target": "bed",
+        "pred": "couch"
+    },
+    {
+        "input": "The room at the hotel cost more to stay in than the room at the inn because the _ was nastier.\nWhat does the _ in the above sentence refer to? hotel or inn?",
+        "target": "inn",
+        "pred": "hotel"
+    },
+    {
+        "input": "The doctor suggested alternating between ice and a heating pad when I strained a muscle, but he warned me to not let the _ get too warm.\nWhat does the _ in the above sentence refer to? ice or pad?",
+        "target": "pad",
+        "pred": "ice"
+    },
+    {
+        "input": "The knee injury of Samantha has healed much quicker than Katrina's. _ 's injury was minor.\nWhat does the _ in the above sentence refer to? Samantha or Katrina?",
+        "target": "samantha",
+        "pred": "katrina"
+    },
+    {
+        "input": "Pho needs cilantro and beef to be tasty. However, the _ can be too bitter.\nWhat does the _ in the above sentence refer to? cilantro or beef?",
+        "target": "cilantro",
+        "pred": "beef"
+    }
+]

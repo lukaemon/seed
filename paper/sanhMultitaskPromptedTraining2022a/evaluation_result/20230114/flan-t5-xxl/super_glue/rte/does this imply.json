@@ -1,0 +1,472 @@
+[
+    {
+        "input": "Hadley said Jordan was chosen as the site of the meeting between Bush and al-Maliki because of its support for the unity government in Iraq and the fact that Bush would be in the region. \n\nQuestion: Does this imply that \"Bush will meet al-Maliki in Hadley.\"? Yes or no?",
+        "target": "no",
+        "pred": "jordan\"? no, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is jordan, jordan is"
+    },
+    {
+        "input": "A senior coalition official in Iraq said the body, which was found by U.S. military police west of Baghdad, appeared to have been thrown from a vehicle. \n\nQuestion: Does this imply that \"A body has been found by U. S. military police.\"? Yes or no?",
+        "target": "yes",
+        "pred": "a body has been found by u. s. military police."
+    },
+    {
+        "input": "Ahern, who was travelling to Tokyo for an EU-Japan summit yesterday, will consult with other EU leaders by telephone later this week in an effort to find an agreed candidate. \n\nQuestion: Does this imply that \"A summit between Europe and Japan is taking place in the Japanise capital.\"? Yes or no?",
+        "target": "yes",
+        "pred": "yes\"?"
+    },
+    {
+        "input": "Quebec woman and her mother accused of plotting to kill a four-year-old girl. \n\nQuestion: Does this imply that \"Quebec woman murdered a four-year-old girl.\"? Yes or no?",
+        "target": "no",
+        "pred": "quebec woman and her mother accused of plotting to kill a four-year-old girl."
+    },
+    {
+        "input": "Sheriff's officials said a robot could be put to use in Ventura County, where the bomb squad has responded to more than 40 calls this year. \n\nQuestion: Does this imply that \"Police use robots for bomb-handling.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Thus began the journey that led Hannam, a 29-year-old free-lance journalist, on an international quest to solve one of the greatest mysteries of Asia: What happened to Lin Piao, the Chinese Communist Party leader accused of a 1971 plot to overthrow Chairman Mao. \n\nQuestion: Does this imply that \"Lin Piao was the Chinese Communist Party leader.\"? Yes or no?",
+        "target": "yes",
+        "pred": "lin piao, the chinese communist party leader accused of a 1971 plot to overthrow chairman mao."
+    },
+    {
+        "input": "A top aide to Ms. Bhutto, Senator Latif Khosa, says that on the day of her assassination, Ms. Bhutto planned to give two visiting U.S. lawmakers a thick dossier outlining numerous instances of government pre-poll rigging involving voter registration as well as intimidation of PPP supporters. \"Everything was recorded in that, with all proofs that we have had, and with the independent reports of the foreign monitors who were also operating. Their reports also supported our allegations as to being substantial and as being true. So they were all recorded, but unfortunately she could not present the report because she was assassinated before she could do that,\" said Khosa. \n\nQuestion: Does this imply that \"Latif Khosa was in a relationship with Ms. Bhutto.\"? Yes or no?",
+        "target": "no",
+        "pred": "senator latif khosa was in a relationship with ms. bhutto. no"
+    },
+    {
+        "input": "Grieving father Christopher Yavelow hopes to deliver one million letters to the queen of Holland to bring his children home. \n\nQuestion: Does this imply that \"Christopher Yavelow is the queen of Holland.\"? Yes or no?",
+        "target": "no",
+        "pred": "christopher yavelow hopes to deliver one million letters to the queen of holland to bring his children home."
+    },
+    {
+        "input": "In Nigeria, by far the most populous country in sub-Saharan Africa, over 2.7 million people are infected with HIV. \n\nQuestion: Does this imply that \"2.7 percent of the people infected with HIV live in Africa.\"? Yes or no?",
+        "target": "no",
+        "pred": "nigeria is the most populous country in sub-saharan africa, over 2.7 million people are infected with hiv."
+    },
+    {
+        "input": "The Kota ( \"Fort\" ), or Old City, for example, sometimes called the downtown section, is the central business district and Indonesia's financial capital. \n\nQuestion: Does this imply that \"The Kota is the country's business center.\"? Yes or no?",
+        "target": "yes",
+        "pred": "the kota ( \"fort\"), or old city, for example, sometimes called the downtown section, is the central business district and indonesia's financial capital."
+    },
+    {
+        "input": "Andreessen, who helped define the Internet revolution as part of team that created the first Internet browser (Mosaic) and his co-founding Netscape, told a packed hall at the San Francisco Marriott hotel Thursday that he is \"extremely committed\" to his startup Loudcloud. \n\nQuestion: Does this imply that \"The Internet browser Mosaic was created at the San Francisco Marriott hotel.\"? Yes or no?",
+        "target": "no",
+        "pred": "mosaic was created at the san francisco marriott hotel.\""
+    },
+    {
+        "input": "Amazon shares fell nearly 4 percent following the results as the company said operating income would drop as much as 42 percent in the second quarter. \n\nQuestion: Does this imply that \"Shares of Amazon fell 4 percent.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Evans Paul, the pro-Aristide mayor of Port-au-Prince, said he had been told that the money will go to American lobbyists, politicians and journalists to campaign against the return of Aristide, Haiti's first democratically elected president \n\nQuestion: Does this imply that \"Evans Paul is the mayor of Port-au-Prince.\"? Yes or no?",
+        "target": "yes",
+        "pred": "evans paul, the pro-aristide mayor of port-au-prince, said he had been told that the money will go to american lobbyists, politicians and journalists to campaign against the return of aristide, haiti's first democratically elected president question: does this imply that \"evans paul is the mayor of port-au-prince.\"? yes or no?"
+    },
+    {
+        "input": "UN Secretary General Kofi Annan has noted that the Iraqi people turned out in large numbers to vote in the January 30 ballot. \n\nQuestion: Does this imply that \"Kofi Annan was elected in the January 30 ballot.\"? Yes or no?",
+        "target": "no",
+        "pred": "kofi annan was elected in the january 30 ballot.\""
+    },
+    {
+        "input": "Confident that those grading papers would understand answers written in text-speak, Haque stressed that in some exams, including English, text abbreviations would be penalized. \n\nQuestion: Does this imply that \"Haque wants to include English in some exams.\"? Yes or no?",
+        "target": "no",
+        "pred": "haque, including english, including english, text abbreviations would be penalized."
+    },
+    {
+        "input": "According to reports, a man protesting the G20 Summit in London, England has died after collapsing at a protester camp. Sky News says the man collapsed on the street inside a camp close to the Bank of England and when found he was still breathing, but efforts by paramedics to rescue him failed and he was pronounced dead at an area hospital. The name of the person and cause of death are not yet known, but several people were injured earlier in the day. It is also reported by Sky News that people threw bottles at him and authorities when they were taking him to a waiting ambulance. \n\nQuestion: Does this imply that \"Sky News offices are close to the Bank of England.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Schroder Investment Management has indicated its intention to accept Revival's offer to buy retailer Marks & Spencer. \n\nQuestion: Does this imply that \"Revival tries to take over Marks & Spencer Group.\"? Yes or no?",
+        "target": "yes",
+        "pred": "revival tries to take over marks & spencer group."
+    },
+    {
+        "input": "For US pharmaceutical companies, the impending healthcare reforms promise an era of increased cost-containment and pricing controls. \n\nQuestion: Does this imply that \"The US government wants to keep drug prices down.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Mount Olympus towers up from the center of the earth. \n\nQuestion: Does this imply that \"Mount Olympus is in the center of the earth.\"? Yes or no?",
+        "target": "yes",
+        "pred": "mount olympus towers up from the center of the earth.\""
+    },
+    {
+        "input": "Tropical storm Koni dumped significant rains on the Philippines before becoming a minimal typhoon and eventually making landfall on the northern coast of Vietnam. \n\nQuestion: Does this imply that \"A tropical storm has caused significant property damage.\"? Yes or no?",
+        "target": "no",
+        "pred": "it does not imply that \"a tropical storm has caused significant property damage.\""
+    },
+    {
+        "input": "Nearly five months later on January 24, 1935, the passenger vessel MOHAWK sank after colliding with the Norwegian motorship TALISMAN, and 45 people lost their lives. \n\nQuestion: Does this imply that \"100 or more people lost their lives in a ferry sinking.\"? Yes or no?",
+        "target": "no",
+        "pred": "100 or more people lost their lives in a ferry sinking.\""
+    },
+    {
+        "input": "Capital punishment acts as a deterrent. \n\nQuestion: Does this imply that \"Capital punishment is a deterrent to crime.\"? Yes or no?",
+        "target": "yes",
+        "pred": "deterrent to crime.\""
+    },
+    {
+        "input": "Researchers at the Harvard School of Public Health say that people who drink coffee may be doing a lot more than keeping themselves awake - this kind of consumption apparently also can help reduce the risk of diseases. \n\nQuestion: Does this imply that \"Coffee drinking has health benefits.\"? Yes or no?",
+        "target": "yes",
+        "pred": "yes or no?"
+    },
+    {
+        "input": "Prince Charles, Britain's heir to the throne, has announced that he is to wed his lover of 34 years, Camilla Parker Bowles. In a press statement, the Prince of Wales said \"Mrs Parker Bowles and I are absolutely delighted. It will be a very special day for us and our families.\" Mrs Parker Bowles will use the title \"HRH The Duchess of Cornwall\" after their marriage, and it is intended that following the Prince's accession to the throne, Mrs Parker Bowles will use the title \"HRH The Princess Consort\". The pair are to marry on 8th April 2005 at a private civil ceremony in Windsor Castle, which will be an occasion primarily for friends and family. There will then be a service of prayer and dedication in St. George's Chapel, to be conducted by the Archbishop of Canterbury, Dr. Rowan Williams. \n\nQuestion: Does this imply that \"Camilla Parker Bowles is engaged to Britain's heir.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Yachtsman Melvyn Percy became so fed up with the standard of service when preparing his boat for the 3000-mile Atlantic crossing that he decided to set up his own company on the Clyde to provide Scots sailors with professional advice and practical assistance. Minerva Rigging, based at Kip Marina just south of Gourock, now employs five full-time staff and is the Scottish agent for Kemp, one of Europe's leading yacht spar and mast manufacturers. \n\nQuestion: Does this imply that \"Melvyn Percy set up Minerva Rigging at Kip Marina.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "The U.S. Army acceded to a request from the local governor to keep U.S. troops away from the Imam Ali Shrine in Najaf. \n\nQuestion: Does this imply that \"The U.S. Army agreed to a request from the local governor to keep US troops away from the Imam Ali Shrine in Najaf.\"? Yes or no?",
+        "target": "yes",
+        "pred": "the u.s. army acceded to a request from the local governor to keep u.s. troops away from the imam ali shrine in najaf."
+    },
+    {
+        "input": "NEW YORK \u2014  Somali pirates attacked and damaged an American ship carrying humanitarian aid Tuesday, but the ship and crew were safe under Navy escort, the military and shipping company said. The pirates fired rocket-propelled grenades and automatic weapons at the Liberty Sun as it carried food for famine-wracked African nations, said the vessel's owner, Liberty Maritime Corp. The ship was en route from Houston to Mombasa, Kenya, with a roughly 20-member crew, officials said. . \n\nQuestion: Does this imply that \"Pirates damaged the ship Liberty Maritime.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "VCU School of the Arts In Qatar is located in Doha, the capital city of Qatar. \n\nQuestion: Does this imply that \"Qatar is located in Doha.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes.\""
+    },
+    {
+        "input": "In New York, Nymex light crude oil for July delivery hit $42.38 per barrel on Tuesday \n\nQuestion: Does this imply that \"Crude oil futures surged to an all-time high in New York Tuesday, at 42 dollars a barrel.\"? Yes or no?",
+        "target": "no",
+        "pred": "no, it is not imply that \"crude oil futures surged to an all-time high in new york tuesday, at 42 dollars a barrel.\""
+    },
+    {
+        "input": "It is hoped that women, who constitute more than half of the population, will vote for other women and ensure that their issues are represented in parliament. \n\nQuestion: Does this imply that \"Women are poorly represented in parliament.\"? Yes or no?",
+        "target": "no",
+        "pred": "it is hoped that women, who constitute more than half of the population, will vote for other women and ensure that their issues are represented in parliament."
+    },
+    {
+        "input": "Hurricane Katrina petroleum-supply outlook improved somewhat, yesterday, as U.S. and European governments agreed to release 2 million barrels a day, of oil and refined products, from their reserves. \n\nQuestion: Does this imply that \"60 million barrels of oil and gasoline will be available to the marketplace.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Following the successful bid to bring the 2010 Ryder Cup to Wales, the Wales Tourist Board has wasted little time in commissioning work to ensure that the benefits accruing from the event are felt throughout the country. \n\nQuestion: Does this imply that \"Wales to host 2010 Ryder Cup.\"? Yes or no?",
+        "target": "yes",
+        "pred": "wales to host 2010 ryder cup.\""
+    },
+    {
+        "input": "Blair has sympathy for anyone who has lost their lives in Iraq. \n\nQuestion: Does this imply that \"Blair is sympathetic to anyone who has lost their lives in Iraq.\"? Yes or no?",
+        "target": "yes",
+        "pred": "blair has sympathy for anyone who has lost their lives in iraq."
+    },
+    {
+        "input": "Compuware claims that Allan Tortorice and Jim Hildner were among several former employees who revealed trade secrets after they moved to IBM. \n\nQuestion: Does this imply that \"Trade secrets were stolen.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Thailand's official religion is Buddhism which claims the allegiance of most Thai people. Their cultural identity seems almost inseparably intertwined with Buddhist traditions. The people practice folk Buddhism which includes and elaborate system of spirit worship. \n\nQuestion: Does this imply that \"The official religion of Thailand is Theravada Buddhism.\"? Yes or no?",
+        "target": "no",
+        "pred": "buddhism which claims the allegiance of most thai people. their cultural identity seems almost inseparably intertwined with buddhist traditions. the people practice folk buddhism which includes and elaborate system of spirit worship."
+    },
+    {
+        "input": "The IOC meeting will also review reports submitted by the organizing committees of the 1998 Winter Olympic Games in Nagano, Japan; the 2000 Summer Olympic Games in Sydney, Australia and the 2002 Winter Olympic Games in the Salt Lake City, the United States, respectively. \n\nQuestion: Does this imply that \"Before Salt Lake City, Winter Olympic Games took place in Nagano.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Russian Public Television head Vladislav Listyev is shot in the heart by an unknown gunman outside his Moscow home. The attack is linked to opponents of an advertising ban he had proposed for the television channel. \n\nQuestion: Does this imply that \"Vladislav Listyev was murdered in Moscow.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Bangladesh, one of the world's poorest countries, suffered a devastating drought and famine in 1974, which killed 1.5 million people. While trying to help starving villagers, he met a 21-year-old woman named Sufia Begum, who was burdened by a tiny yet crushing debt, Yunus recalled in his autobiography, \"Banker to the Poor.\" \n\nQuestion: Does this imply that \"1.5 million people were killed during the drought and famine devastation in 1974 in Bangladesh.\"? Yes or no?",
+        "target": "yes",
+        "pred": "1.5 million people were killed during the drought and famine devastation in 1974 in bangladesh."
+    },
+    {
+        "input": "Though the exact date is debated, dogs are thought to have been domesticated by humans approximately 12,000 years ago. \n\nQuestion: Does this imply that \"Humans existed 10,000 years ago.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Italian film-maker, Fellini was awarded an honorary Oscar for lifetime achievement. He died on October 31, 1993. \n\nQuestion: Does this imply that \"An Italian director is awarded an honorary Oscar.\"? Yes or no?",
+        "target": "yes",
+        "pred": "fellini is awarded an honorary oscar for lifetime achievement."
+    },
+    {
+        "input": "Hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just $20,000, but sold for $120,000, six times its estimated price. \n\nQuestion: Does this imply that \"Hepburn's diamond and sapphire brooch fetched $120,000.\"? Yes or no?",
+        "target": "yes",
+        "pred": "hepburn's platinum, diamond and sapphire brooch had been estimated to fetch just $20,000, but sold for $120,000, six times its estimated price.\" no"
+    },
+    {
+        "input": "General Miguel Maza Marquez, chief of the Colombian Administrative Department Of Security (DAS), today confirmed foreign participation in the assassination of Luis Carlos Galan, senator and Liberal party presidential candidate, on 18 August in Bogota. \n\nQuestion: Does this imply that \"General Miguel Maza Marquez took part in the assassination of Luis Carlos Galan.\"? Yes or no?",
+        "target": "no",
+        "pred": "general miguel maza marquez, chief of the colombian administrative department of security (das), today confirmed foreign participation in the assassination of luis carlos galan, senator and liberal party presidential candidate, on 18 august in bogota."
+    },
+    {
+        "input": "Steve Jobs was attacked by Sculley and other Apple executives for not delivering enough hot new products and resigned from the company a few weeks later. \n\nQuestion: Does this imply that \"Steve Jobs worked for Apple.\"? Yes or no?",
+        "target": "yes",
+        "pred": "no"
+    },
+    {
+        "input": "Phish disbands after a final concert in Vermont on Aug. 15 \n\nQuestion: Does this imply that \"Rock band Phish holds final concert in Vermont.\"? Yes or no?",
+        "target": "yes",
+        "pred": "rock band phish holds final concert in vermont."
+    },
+    {
+        "input": "While Bush was in the air, the White House was evacuated, with many employees running away from the premises on orders from Secret Service agents. \n\nQuestion: Does this imply that \"The U.S. military evacuated U.S. citizens.\"? Yes or no?",
+        "target": "no",
+        "pred": "the u.s. military evacuated u.s. citizens.\""
+    },
+    {
+        "input": "Swansea striker Lee Trundle has negotiated a lucrative image-rights deal with the League One club. \n\nQuestion: Does this imply that \"Lee Trundle is in business with the League One club.\"? Yes or no?",
+        "target": "yes",
+        "pred": "lee trundle is in business with the league one club. \"yes, lee trundle is in business with the league one club.\""
+    },
+    {
+        "input": "According to Becky Gibbons of New York State Police and Chris Collins County Executive in Erie County, New York, the total number of fatalities is 50, including 45 passengers, four crew members and a person on the ground, while a woman and daughter on the ground were injured, near the edge of farmland, about seven miles from Buffalo Niagara International Airport. \n\nQuestion: Does this imply that \"A daily commuter flight crashed in Buffalo.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The chaotic situation unleashed in Bogota last night, with the assasination of Justice Carlos Valencia, began on 28 July in Medellin, when motorized paid assasins murdered third public order Judge Maria Elena Diaz. \n\nQuestion: Does this imply that \"Justice Carlos Valencia was killed in Medellin.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Note that SBB, CFF and FFS stand out for the main railway company, in German, French and Italian. \n\nQuestion: Does this imply that \"The French railway company is called SNCF.\"? Yes or no?",
+        "target": "no",
+        "pred": "snsf, not sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sncf, sn"
+    },
+    {
+        "input": "He said that \"there is evidence that Cristiani was involved in the murder of the six Jesuit priests\" which occurred on 16 November in San Salvador. \n\nQuestion: Does this imply that \"Cristiani is accused of the assassination of six Jesuits.\"? Yes or no?",
+        "target": "yes",
+        "pred": "cristiani is accused of the assassination of six jesuits."
+    },
+    {
+        "input": "Toshiba, with NEC Corp. and Sanyo Electric Co. Ltd., has been promoting a technology called HD DVD while Sony, along with Samsung Electronics Co. Ltd. and Matsushita Electric Industrial Co. Ltd. (maker of Panasonic brand products), has been pushing for Blu-ray. \n\nQuestion: Does this imply that \"Panasonic brand products are produced by Samsung Electronics Co. Ltd.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Security forces were on high alert after an election campaign in which more than 1,000 people, including seven election candidates, have been killed. \n\nQuestion: Does this imply that \"Security forces were on high alert after a campaign marred by violence.\"? Yes or no?",
+        "target": "yes",
+        "pred": "security forces were on high alert after an election campaign in which more than 1,000 people, including seven election candidates, have been killed.'' yes"
+    },
+    {
+        "input": "He became a boxing referee in 1964 and became most well-known for his decision against Mike Tyson, during the Holyfield fight, when Tyson bit Holyfield's ear. \n\nQuestion: Does this imply that \"Mike Tyson bit Holyfield's ear in 1964.\"? Yes or no?",
+        "target": "no",
+        "pred": "mike tyson bit holyfield's ear in 1964."
+    },
+    {
+        "input": "Kozlowski and the company's former chief financial officer, Mark Swartz, were sentenced, on Monday, to up to 25 years in prison. \n\nQuestion: Does this imply that \"Kozlowski was sentenced, Monday, to serve up to 25 years in prison.\"? Yes or no?",
+        "target": "yes",
+        "pred": "kozlowski was sentenced, on monday, to up to 25 years in prison. no"
+    },
+    {
+        "input": "NASA's two Great Observatories, the Hubble Space Telescope and the Chandra X-ray Observatory, have independently provided what could be the best direct evidence yet for the existence of an event horizon, the defining feature of a black hole. \n\nQuestion: Does this imply that \"Hubble discovers black holes.\"? Yes or no?",
+        "target": "yes",
+        "pred": "hubble space telescope and the chandra x-ray observatory, have independently provided what could be the best direct evidence yet for the existence of an event horizon, the defining feature of a black hole."
+    },
+    {
+        "input": "Wal-Mart Stores has asked a US federal appeals court to review a judge's order approving class-action status for a sex-discrimination lawsuit. \n\nQuestion: Does this imply that \"The judge approves of sex-discrimination.\"? Yes or no?",
+        "target": "no",
+        "pred": "no, the judge approves of sex-discrimination. no, the judge approves of sex-discrimination."
+    },
+    {
+        "input": "La Paz, 30 May 89 - La Paz Department Police authorities have disclosed that investigations into the murder of two young U.S. citizens are being conducted by a specialized group summoned specially to clarify this crime. \n\nQuestion: Does this imply that \"Two young U.S. citizens were killed on 30 May 89.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Increased storage isn't all Microsoft will be offering its Hotmail users--they can also look forward to free anti-virus protection. \n\nQuestion: Does this imply that \"Microsoft won't offer increased storage to its users.\"? Yes or no?",
+        "target": "no",
+        "pred": "hotmail users--they can also look forward to free anti-virus protection."
+    },
+    {
+        "input": "The investigation came about following the collapse of Barings Bank, when one of its traders based in Singapore, Nick Leeson, amassed losses of the order of 600-700 million without the bank being aware of it. \n\nQuestion: Does this imply that \"Nick Leeson was arrested for collapse of Barings Bank PLC.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Monica Meadows, a 22-year-old model from Atlanta, was shot in the shoulder on a subway car in New York City. \n\nQuestion: Does this imply that \"Monica Meadows, 23, was shot in shoulder while riding a subway car in New York City\"? Yes or no?",
+        "target": "no",
+        "pred": "monica meadows, a 22-year-old model from atlanta, was shot in the shoulder on a subway car in new york city\" is the same as \"monica meadows, 23, was shot in shoulder while riding a subway car in new york city\"\""
+    },
+    {
+        "input": "Mrs. Bush's approval ratings have remained very high, above 80%, even as her husband's have recently dropped below 50%. \n\nQuestion: Does this imply that \"80% approve of Mr. Bush.\"? Yes or no?",
+        "target": "no",
+        "pred": "mrs. bush's approval ratings have remained very high, even as mrs. bush's approval ratings have remained very high, even as her husband's have recently dropped below 50%. question: does this imply that \"80% approve of mr. bush.\" yes or no?"
+    },
+    {
+        "input": "Dana Reeve, the widow of the actor Christopher Reeve, has died of lung cancer at age 44, according to the Christopher Reeve Foundation. \n\nQuestion: Does this imply that \"Christopher Reeve had an accident.\"? Yes or no?",
+        "target": "no",
+        "pred": "dana reeve, the widow of the actor christopher reeve, has died of lung cancer at age 44, according to the christopher reeve foundation."
+    },
+    {
+        "input": "The drugs that slow down or halt Alzheimer's disease work best the earlier you administer them. \n\nQuestion: Does this imply that \"Alzheimer's disease is treated using drugs.\"? Yes or no?",
+        "target": "yes",
+        "pred": "alzheimer's disease is treated using drugs.\"? yes"
+    },
+    {
+        "input": "Hepburn's family will receive the proceeds from the sale. \n\nQuestion: Does this imply that \"Proceeds go to Hepburn's family.\"? Yes or no?",
+        "target": "yes",
+        "pred": "proceeds go to hepburn's family.\"? no, proceeds go to hepburn's family."
+    },
+    {
+        "input": "Most commercial logwood is grown in Honduras. \n\nQuestion: Does this imply that \"Plants are grown in water or in substances other than soil.\"? Yes or no?",
+        "target": "no",
+        "pred": "honduras is a country in central america."
+    },
+    {
+        "input": "P. Prayong, who like Kevala belongs to the Theravada sect of Buddhism, chose India over other Buddhist majority nations as it is the birthplace of Gautama Buddha. \n\nQuestion: Does this imply that \"P. Prayong is a member of Theravada.\"? Yes or no?",
+        "target": "yes",
+        "pred": "prayong, who like kevala belongs to the theravada sect of buddhism, chose india over other buddhist sect of buddhism, is a member of theravada sect of buddhism, yes"
+    },
+    {
+        "input": "Two British soldiers have been arrested in the southern Iraq city of Basra, sparking clashes outside a police station where they are being held. \n\nQuestion: Does this imply that \"Two British tanks, sent to the police station where the soldiers are being held, were set alight in clashes.\"? Yes or no?",
+        "target": "no",
+        "pred": "no it does not imply that \"two british tanks, sent to the police station where the soldiers were being sent, were set alight in clashes.\""
+    },
+    {
+        "input": "On Jan. 27, 1756, composer Wolfgang Amadeus Mozart was born in Salzburg, Austria. \n\nQuestion: Does this imply that \"Wolfgang Amadeus Mozart was born in Salzburg.\"? Yes or no?",
+        "target": "yes",
+        "pred": "on jan. 27, 1756, composer wolfgang amadeus mozart was born in salzburg, austria."
+    },
+    {
+        "input": "The job gains mean that  President Bush can celebrate - albeit by a very fine margin - a net growth in jobs in the US economy in his first term in office. \n\nQuestion: Does this imply that \"More jobs were created during President Bush's first term.\"? Yes or no?",
+        "target": "yes",
+        "pred": "yes jobs were created during president bush's first term.\""
+    },
+    {
+        "input": "But Huawei says that expansion has not been easy - obtaining visas for its Chinese engineers to work on long-term projects in India being a particular challenge. \n\nQuestion: Does this imply that \"Chinese engineers working on long-term projects in India can easily obtain visas.\"? Yes or no?",
+        "target": "no",
+        "pred": "no and it can be inferted that \"chines can easily obtain visas\" can be a challenge."
+    },
+    {
+        "input": "The 26-member International Energy Agency said, Friday, that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina. \n\nQuestion: Does this imply that \"An international oil agency will make 60 million barrels of oil and gasoline available to the marketplace.\"? Yes or no?",
+        "target": "no",
+        "pred": "60 million barrels of oil and gasoline available to the marketplace.\""
+    },
+    {
+        "input": "A new report indicates that women's participation in decision-making in the country is minimal. \n\nQuestion: Does this imply that \"Women are poorly represented in parliament.\"? Yes or no?",
+        "target": "no",
+        "pred": "women are poorly represented in parliament.\"?"
+    },
+    {
+        "input": "Cote d'Ivoire's President, Laurent Gbagbo, promulgated new election laws on July 14. \n\nQuestion: Does this imply that \"President Laurent Gbagbo lives in Cote d'Ivoire.\"? Yes or no?",
+        "target": "yes",
+        "pred": "cote d'ivoire"
+    },
+    {
+        "input": "The humane organization, Caritas, quoting its branch in Iraq, announced today, in Germany, that several Iraqi hospitals, especially Saddam Hospital, which is considered the biggest hospital in Iraq, were hit in the American-British bombing of the Iraqi capital. \n\nQuestion: Does this imply that \"Caritas announced that several Iraqi hospitals, (excluding Saddam Hospital,) were hit in the shelling of Baghdad.\"? Yes or no?",
+        "target": "no",
+        "pred": "caritas announced that several iraqi hospitals, (excluding saddam hospital,) were hit in the american-british bombing of the iraqi capital. no, it is in contradiction to the first statement."
+    },
+    {
+        "input": "Miller died Thursday night, of congestive heart failure, at his home in Roxbury, Conn., surrounded by his family, his assistant, Julia Bolus, said Friday. \n\nQuestion: Does this imply that \"Miller died Thursday night, of heart failure, surrounded by family members.\"? Yes or no?",
+        "target": "yes",
+        "pred": "miller died thursday night, of congestive heart failure, at his home in roxbury, conn., surrounded by his family, his assistant, julia bolus, said friday. yes"
+    },
+    {
+        "input": "Wilson has, after all, produced all three Offspring albums, including \"Smash,\" the one that has astonished everybody by selling 1 million copies in four months, establishing the heretofore unknown group as the leader, with Green Day, of an unprecedented wave of commercial success for punk. \n\nQuestion: Does this imply that \"Smash is the title of the third album of the Offspring.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "There has been a lot of concern over the rise of drug-resistant bacteria. \n\nQuestion: Does this imply that \"Bacteria is winning the war against antibiotics.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The beleaguered Euro-Disney theme park outside Paris is doing so poorly it might have to close unless it gets help soon from its lenders, the chairman of Walt Disney Co. said in an interview published Friday. \n\nQuestion: Does this imply that \"Euro-Disney is a theme park outside Paris.\"? Yes or no?",
+        "target": "yes",
+        "pred": "the beleaguered euro-disney theme park outside paris is doing so poorly it might have to close unless it gets help soon from its lenders, the chairman of walt disney co."
+    },
+    {
+        "input": "This growth proved short-lived, for a Swedish invasion ( 1655-56 ) devastated the flourishing city of Warsaw. \n\nQuestion: Does this imply that \"Warsaw was invaded by the Swedes in 1655, and the city was devastated.\"? Yes or no?",
+        "target": "yes",
+        "pred": "warsaw was invaded by the swedes in 1655, and the city was devastated.\"? yes, warsaw was invaded by the swedes in 1655, and the city was devastated. yes"
+    },
+    {
+        "input": "NIH's FY05 budget request of $28.8 billion includes $2 billion for the National Institute of General Medical Sciences, a 3.4-percent increase, and $1.1 billion for the National Center for Research Resources, and a 7.2-percent decrease from FY04 levels. \n\nQuestion: Does this imply that \"A request was reduced to $1.1 billion\"? Yes or no?",
+        "target": "no",
+        "pred": "a request was reduced to $1.1 billion\""
+    },
+    {
+        "input": "Gabriel Garcia Marquez is the author of \"One Hundred Years of Solitude\", \"The Autumn of the Patriarch\" and other novels. \n\nQuestion: Does this imply that \"Gabriel Garcia Marquez is a novelist and writer.\"? Yes or no?",
+        "target": "yes",
+        "pred": "gabriel garcia marquez is the author of \"one hundred years of solitude\" and other novels.\" yes"
+    },
+    {
+        "input": "The publishing companies Bloomsbury (U.K.) and Scholastic (U.S.) released cover art for the seventh Harry Potter book, Harry Potter and the Deathly Hallows. \"The structures around Harry show evident destruction and in the shadows behind him, we see outlines of other people,\" David Saylor, Scholastic's art director, said in a statement describing the U.S. version. \"For the first time, the cover is a wraparound. On the back cover spidery hands are outstretched toward Harry. Only when the book is opened does one see a powerful image of \"He-Who-Must-Not-Be-Named\", his glowing red eyes peering out from his hood.\" \n\nQuestion: Does this imply that \"Rowling is the author of \"Harry Potter\".\"? Yes or no?",
+        "target": "no",
+        "pred": "rowling is the author of \"harry potter\".\""
+    },
+    {
+        "input": "Coextensive with the metropolitan district of Jakarta Raya, it lies at the mouth of the Ciliwung ( Liwung River ) on the northwest coast of Java. \n\nQuestion: Does this imply that \"Jakarta lies at the mouth of the Ciliwung ( Liwung River ) on the northwest coast of the island of Java.\"? Yes or no?",
+        "target": "yes",
+        "pred": "java.\""
+    },
+    {
+        "input": "The official visit of the Argentine minister marks a further step in the normalisation of UK-Argentine relations. \n\nQuestion: Does this imply that \"Relations between Argentina and Great Britain are growing more cooperative.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "The Daily Telegraph, most prized asset in Lord Conrad Black's crumbling media empire, has been sold to Britain's Barclay twins. \n\nQuestion: Does this imply that \"Daily telegraph is sold.\"? Yes or no?",
+        "target": "yes",
+        "pred": "daily telegraph is sold.\"? yes"
+    },
+    {
+        "input": "We learn that Claretta Petacci, Mussolini's last mistress, had a tendency to whine and to lie all day in bed, eating chocolate. \n\nQuestion: Does this imply that \"Claretta Petacci was Mussolini's last mistress.\"? Yes or no?",
+        "target": "yes",
+        "pred": "claretta petacci, mussolini's last mistress.\""
+    },
+    {
+        "input": "As a result of these weaknesses, computer systems and the operations that rely on the systems were highly vulnerable to tampering, disruption, and misuse from both internal and external sources. \n\nQuestion: Does this imply that \"Non-authorized personnel illegally entered into computer networks.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    },
+    {
+        "input": "Merrill Lynch & Co. and Smith Barney, now a unit of Citigroup, in 1998 settled discrimination cases involving hundreds of female employees. \n\nQuestion: Does this imply that \"Merrill Lynch & Co. and Smith Barney are now a unit of Citigroup.\"? Yes or no?",
+        "target": "yes",
+        "pred": "merrill lynch & co. and smith barney are now a unit of citigroup.\" yes"
+    },
+    {
+        "input": "The abode of the Greek gods was on the summit of Mount Olympus, in Thessaly. \n\nQuestion: Does this imply that \"Mount Olympus is in Thessaly.\"? Yes or no?",
+        "target": "yes",
+        "pred": "mount olympus is in thessaly."
+    },
+    {
+        "input": "Oqueli was to fly to Nicaragua to join an international Socialist delegation, which will observe the Nicaraguan electoral campaign. \n\nQuestion: Does this imply that \"An electoral campaign is being held in Nicaragua.\"? Yes or no?",
+        "target": "yes",
+        "pred": "yes. an electoral campaign is being held in nicaragua."
+    },
+    {
+        "input": "The capital of Slovenia is Ljubljana, with 270,000 inhabitants. \n\nQuestion: Does this imply that \"Slovenia has 270,000 inhabitants.\"? Yes or no?",
+        "target": "no",
+        "pred": "slovenia has 270,000 inhabitants.\""
+    },
+    {
+        "input": "Two Indian diplomats met the Indian prisoner facing death in Pakistan, Sarabjit Singh, on Tuesday at Kot Lakhpat jail in the eastern Pakistani city of Lahore. \n\nQuestion: Does this imply that \"Indian diplomats met an Indian prisoner, on death row, on Tuesday.\"? Yes or no?",
+        "target": "yes",
+        "pred": "indian diplomats met the indian prisoner facing death in pakistan, sarabjit singh, on tuesday at kot lakhpat jail in the eastern pakistani city of lahore."
+    },
+    {
+        "input": "Swedish massage is used to help relax muscles, increase circulation, remove metabolic waste products, help the recipient obtain a feeling of connectedness, a better awareness of their body and the way they use and position it. \n\nQuestion: Does this imply that \"Swedish massage loosens tense muscles.\"? Yes or no?",
+        "target": "yes",
+        "pred": "swedish massage is used to help relax muscles, increase circulation, remove metabolic waste products, help the recipient obtain a feeling of connectedness, a better awareness of their body and the way swedish massage loosens tense muscles.\""
+    },
+    {
+        "input": "A condition called \"social anxiety disorder\" this week joined the long list of downers in life - including obesity, impotence, depression and phobia - that Americans once commonly saw as challenges of willpower and character but can now have treated by popping a pill. \n\nQuestion: Does this imply that \"Phobia is a an extreme fear of a particular thing or situation.\"? Yes or no?",
+        "target": "no",
+        "pred": "yes"
+    }
+]

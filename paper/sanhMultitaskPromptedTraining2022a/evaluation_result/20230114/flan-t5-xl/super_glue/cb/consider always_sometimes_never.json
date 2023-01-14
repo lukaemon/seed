@@ -1,0 +1,197 @@
+[
+    {
+        "input": "B: You never see them on nationally basketball. A: You know, that's true. I don't think I've ever seen them nationally on basketball. \n\nKeeping in mind the above text, consider: he has seen them nationally on basketball Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "But what we may not know is just what makes somebody a sucker.  What makes people blurt out their credit-card numbers to a caller they 've never heard of? Do they really believe that the number is just for verification and is simply a formality on the road to being a grand-prize winner? \n\nKeeping in mind the above text, consider: the number is just for verification and is simply a formality on the road to being a grand-prize winner Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "Modify the arachnids, said the researchers. Change their bodies and conditions, and you could get fibres like glass, still monofilament, but with logarithmic progressions of possibilities of strength and flexibility, and the ability to resonate light-particles or sound-waves undistorted, scarcely weakened over thousands of miles. Who said the arachnids had to be totally organic? \n\nKeeping in mind the above text, consider: arachnids had to be totally organic Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "A: Well, actually, uh, A: I don't think I'm in the, uh, majority in Texas \n\nKeeping in mind the above text, consider: she is in the majority in Texas Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "no"
+    },
+    {
+        "input": "Louise was equally anxious to see this man who had had the power to persuade her niece to go against her upbringing and character and behave so recklessly after such a brief acquaintance. Waiting in the airport she was suddenly aware of Nora striding towards her. She was impressed by how elegant she looked and could tell by her cousin's walk that Nora also felt that she was looking good. \n\nKeeping in mind the above text, consider: that Nora also felt that she was looking good Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "Whether the relationship had gone beyond friendship Dalgliesh would now never know. She had, apparently, spent little of the money on herself, had been a dependable benefactress of the few eccentric charities of which she approved, had remembered them in her will, but without egregious generosity, and had left the residue of her estate to him without explanation, admonition or peculiar protestations of affection, although he had no doubt that the words ``my dearly beloved nephew'' meant exactly what they said. He had liked her respected her had always been at ease in her company but he had never thought that he really knew her and now he never would. \n\nKeeping in mind the above text, consider: Dalgliesh really knew his aunt Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "no"
+    },
+    {
+        "input": "A: uh I picked up a bunch of Craftsman tools from the forties that my wife's father owned when he was alive B: Uh-huh. A: and so I do have a band saw and a router and, uh, things like that out in the garage. But I can't say I use them very often. \n\nKeeping in mind the above text, consider: he uses them very often Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "no"
+    },
+    {
+        "input": "B: how'd you like to own a piece of property where your lake is going sour because of acid rain. A: Right.  Right. B: It's, uh, really a serious issue for those of us up in this, uh, sector up here. A: um, or do you hypothesize that most of the, uh, smog or air pollution comes from vehicles \n\nKeeping in mind the above text, consider: most of the smog or air pollution comes from vehicles Is this always, sometimes, or never correct?",
+        "target": "sometimes",
+        "pred": "always"
+    },
+    {
+        "input": "He left his own number, calling himself Alain - the name of her Malaysian-French ``business manager''. The next day Gina rang. She had obviously not noticed that it was her own number. \n\nKeeping in mind the above text, consider: it was Gina's own number Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "Biddy was right. In London, I did some serious thinking. I could see that my character had not improved since I had heard about my expectations. \n\nKeeping in mind the above text, consider: his character had not improved since he had heard about his expectations Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "The other set being in the pocket of Giovanna's overall from which she now drew them and held them up making it clear that they would be relinquished only upon her death and then only into the hands of Signor Kettering. What had occurred was quite contrary to the wishes of the padrone who would be outraged if he ever got to hear of it. Despite this disastrous beginning however Giovanna would be there in the morning her own family circumstances permitting and she would be much obliged if the Signora would make sure that her children were up and dressed and the breakfast eaten so that she could see that the house was returned to something like the order which Signor Kettering expected of it. \n\nKeeping in mind the above text, consider: the house was returned to something like the order which Signor Kettering expected of it Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "B: And she got kind of fearful of being on her own. She never really ate very well. It was one thing. She hardly ever took care of herself A: Yeah. B: and she didn't eat. She ate very poor so I think she was, you know, bad, uh, nutrition on top of it. And, uh, she got to the point she didn't want to alone anymore. So, A: So often I think though, elderly people don't realize that their diet is that bad. \n\nKeeping in mind the above text, consider: elderly people's diet is that bad Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "A: Now the part about where you said the apartment complex puts up signs that says no soliciting, I've even gone so far as to put that, I've got a storm door on the front of the house and I've put, in, I don't know how much clearer it can be, it's a red sign with silver letters saying no soliciting. I guess I should make another one that says religious or otherwise, cause I still get, B: Yeah, yeah, that's true, yeah. No I didn't go that far but, uh, yeah I probably could do the same thing, uh, you know, I don't have a storm door, but I'm sure I could rig up something. But you know I don't think that that would stop people. \n\nKeeping in mind the above text, consider: a no soliciting sign would stop people Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "no"
+    },
+    {
+        "input": "What had brought Gharr and Ten-huc and Pulvidon to the planet at the same time? Why were all of them so interested in why I was there? And if they somehow suspected that I was picking up something valuable why would any of them try to kill me before the pick-up? \n\nKeeping in mind the above text, consider: she was picking up something valuable Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "And I resent what happened to my flat. A couple of guys think they can stake it out and wait for me, rub their filthy fingers on my clothes, piss in my bathroom, and I'm supposed to ignore it. I know what I said about possessions being like leeches but that don't mean I 'll surrender them to a pair of punks. \n\nKeeping in mind the above text, consider: he will surrender his possessions to a pair of punks Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "no"
+    },
+    {
+        "input": "Mr. Steinberg made a $59.7 million profit on the sale to Disney of his investment in the company in 1984. But lawyers said Mr. Steinberg probably faced much more potential liability because, when he sued Disney during his takeover battle, he filed on behalf of all shareholders. When Disney offered to pay Mr. Steinberg a premium for his shares, the New York investor didn't demand the company also pay a premium to other shareholders. \n\nKeeping in mind the above text, consider: the company would also pay a premium to other shareholders Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "A: I suppose so. Let me push the button. B: All right. A: Okay, uh, I guess I'm supposed to be all for switching to the metric system, but, uh, I sense that it's not going to happen anytime soon. B: Yeah, I don't think it's going to happen either, \n\nKeeping in mind the above text, consider: it's going to happen Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "always"
+    },
+    {
+        "input": "A: I've never heard that one, that's very nice. Oh, so I'm all for the metric system and converting over and I think, I guess, my feeling is the way to do it is to just start giving weights, you know, have a very brief transition period and then just start giving weights and kilometers, er, just as in kilometers and weights and kilograms and everything like that and, uh, just have people start using it rather than having people constantly trying to convert. Remember me getting a package of something that said one pound, this is a package of dates mind you, was, presumably something you weigh fairly precisely, it said one pound and then in parenthesis it said four hundred fifty-four point six grams. B: Right, right. A: And, as near as I could tell, seeing that was basically anti-metric propaganda cause anyone who would say, well look I can either buy a pound of something at four hundred sixty-four point six grams which, of course, they couldn't weigh it out accurately anyway, um, every time I see something like that I think, well, that's an anti-metric argument. B: Yeah. Well, uh, I don't think it could ever happen with a quick transition. \n\nKeeping in mind the above text, consider: it could happen with a quick transition Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "B: Yeah. I understood that. you know, I work full time and I have two kids so my spare time usually involves something with the kids. A: Yeah. B: You know, hobbies, I can't really say that we have hobbies. \n\nKeeping in mind the above text, consider: they have hobbies Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "no"
+    },
+    {
+        "input": "B: uh, but it's worked out for my family, to have my cake and eat it too, kind of thing. A: Yeah.  Yeah, that's a good deal. Where do you think this is going in the future, I mean, do you think things are going to change, \n\nKeeping in mind the above text, consider: things are going to change Is this always, sometimes, or never correct?",
+        "target": "sometimes",
+        "pred": "always"
+    },
+    {
+        "input": "A: Okay. So Frank, what, uh, type of, uh, budget do you or your family have? B: Well, uh I don't know that we really have a budget. \n\nKeeping in mind the above text, consider: he and his family really have a budget Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "no"
+    },
+    {
+        "input": "A: so I don't know if I wasn't drug tested based on that or because the man who hired me didn't request the drug test, because I know that my company does drug testing on occasion. B: Right. Well, for instance, does the company you worked for before have the right or do they have the ability to say, hey, we've already drug tested her and she came up negative. A: Well, no, I don't think they can force another company to not drug test me just by saying that I didn't, I mean, \n\nKeeping in mind the above text, consider: they can force another company to not drug test her Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "Then they would awake, terrified and sweating, to find themselves in white starched linen, in a comfortable bed, in peaceful England. And all would be well. It may be said that although he survived it the siege nevertheless had a bad effect on the Collector. \n\nKeeping in mind the above text, consider: the siege nevertheless had a bad effect on the Collector Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "Firstly, I didn't know about the SAS soldiers in the British Embassy, and I am very surprised about it. Very surprised indeed, Ambassador. Secondly I do not think it is a good idea to attack a plane with a hundred and seven passengers in it and ``take it apart'' as you say. \n\nKeeping in mind the above text, consider: it is a good idea to attack a plane with a hundred and seven passengers in it and 'take it apart' Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "secondly i don't think it is a good idea to attack a plane with a hundred and seven passengers in it and take it apart'' as you say. keeping in mind the above sentence, consider: it is a good idea to attack a plane with a hundred and seven passengers in it and take it apart''"
+    },
+    {
+        "input": "The assassin's tone and bearing were completely confident. If he noticed that Zukov was now edging further to the side widening the arc of fire he did not appear to be troubled. \n\nKeeping in mind the above text, consider: Zukov was edging further to the side Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "no"
+    },
+    {
+        "input": "A: Yes, um, I think that Plano has really done a fantastic job. I mean, at least their plans are good. Um, however, I was, maybe you saw in the paper this morning that, um, they've had some problems with, the recycling on plastic, \n\nKeeping in mind the above text, consider: they've had some problem with the recycling on plastic Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "a: a: sometimes"
+    },
+    {
+        "input": "A: and that rolling kind of, uh, B: Terrain. A: Yeah. is fairly famili-,. The thing that I thought was interesting was that the critics, apparently it's going to win everything. B: Really? A: Uh, and I had been told, you know, you wouldn't notice that it was three hours long, and all this, kind of, \n\nKeeping in mind the above text, consider: it was three hours long Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "A: I'm like, I'll get a job some day and my boss will pay for it, I'll be needed. B: Yeah. A: Because, um, I didn't want to go do it myself because I didn't think I was really going to use it. \n\nKeeping in mind the above text, consider: he was really going to use it Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "``There's still room for boutique properties,'' says James Barrett, president of MarCor Resorts Inc. Off the Strip, MarCor is building the Rio, a hotel-casino with a Brazilian theme and only 430 rooms -- all of them suites. Despite the proliferation of tourist distractions, Las Vegans haven't forgot that gambling is still what the town is all about. \n\nKeeping in mind the above text, consider: gambling is still what the town is all about Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "During that pause I realized that Mala had not been offered a seat, nor any food or drink. The Emissary and his people were behaving as if she simply wasn't there. I could see that she was scowling and stiffening into a Mark 2 temper so I gave her an encouraging smile - which raised her as I expected to a Mark 3. \n\nKeeping in mind the above text, consider: Mala was scowling and stiffening into a Mark 2 temper Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "Valence the void-brain, Valence the virtuous valet. Why couldn't the figger choose his own portion of titanic anatomy to shaft? Did he think he was helping? \n\nKeeping in mind the above text, consider: Valence was helping Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "There was a group of curious onlookers... Marie felt her legs give way beneath her, she sat down on the edge of the pavement, feet in the gutter, doubled-up, sick and winded as if someone had punched her in the stomach. She lifted up her head and looked again. She had watched scenes like this so often in detective films and police series on television that she could hardly believe that this was real life. \n\nKeeping in mind the above text, consider: this was real life Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "A: I do too, so she couldn't possibly turn them out like some of these popular writers, B: Huh-uh. A: but oh, her books are just incredible. I don't think they've ever made a movie, do you? \n\nKeeping in mind the above text, consider: they've ever made a movie Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "no"
+    },
+    {
+        "input": "But there was little chance of discovering who had killed him without help. Kelly decided that she had to talk to Annie, even if there was a risk that she would tell her husband. Bill would have a fit if he knew his apprentice was turning supersleuth. \n\nKeeping in mind the above text, consider: Bill's apprentice was turning supersleuth Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "sometimes"
+    },
+    {
+        "input": "'Very well, I'll go. But I pick my own men, and if we ever have to fight, you obey my word.'' Jehan did not think that Sidacai was in any position to impose conditions but he sat back in his chair considering. \n\nKeeping in mind the above text, consider: Sidacai was in a position to impose conditions Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "``But my father always taught me never to be afraid of pointing out the obvious. I'm sure you have noticed the implication of the letter, that the writer has in fact observed Jenny undressing for bed?'' I just wondered if you also knew as I'm sure you do that her bedroom's at the rear of the house? \n\nKeeping in mind the above text, consider: Jenny's bedroom's at the rear of the house Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "yes"
+    },
+    {
+        "input": "A: Well, got any problems on Mockingbird with crime or is that a crime free zone there? B: No, I don't think there is any such thing, as a crime free zone any longer. \n\nKeeping in mind the above text, consider: there is some such thing as a crime free zone Is this always, sometimes, or never correct?",
+        "target": "never",
+        "pred": "sometimes"
+    },
+    {
+        "input": "``Who knows? The point is, do we go with it or not?'' Do we assume there is a shipment? \n\nKeeping in mind the above text, consider: there is a shipment Is this always, sometimes, or never correct?",
+        "target": "sometimes",
+        "pred": "who knows? the point is, do we go with it or not?'' do we assume there is a shipment? considering the above question, consider: there is a shipment is this always, sometimes, or never correct?"
+    },
+    {
+        "input": "And I don't want to have to lie to them. The kidnappers have given us until October the eleventh to deliver the document and I haven't despaired of finding it before then. But if the police learn I 've been to America they 'll ask why. \n\nKeeping in mind the above text, consider: he's been to America Is this always, sometimes, or never correct?",
+        "target": "always",
+        "pred": "never"
+    }
+]

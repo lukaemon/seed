@@ -1,0 +1,37 @@
+[
+    {
+        "input": "The man received a parking ticket.  This happened because... \nHelp me pick the more plausible option:\n- He parallel parked on the street.\n- The parking meter expired.",
+        "target": "the parking meter expired.",
+        "pred": "he parallel parked on the street."
+    },
+    {
+        "input": "The detective revealed an anomaly in the case.  As a consequence... \nHelp me pick the more plausible option:\n- He finalized his theory.\n- He scrapped his theory.",
+        "target": "he scrapped his theory.",
+        "pred": "he finalized his theory."
+    },
+    {
+        "input": "Everyone in the class turned to stare at the student.  This happened because... \nHelp me pick the more plausible option:\n- The student's phone rang.\n- The student took notes.",
+        "target": "the student's phone rang.",
+        "pred": "the student took notes."
+    },
+    {
+        "input": "The judge pounded the gavel.  This happened because... \nHelp me pick the more plausible option:\n- The courtroom broke into uproar.\n- The jury announced its verdict.",
+        "target": "the courtroom broke into uproar.",
+        "pred": "the jury announced its verdict."
+    },
+    {
+        "input": "I twisted the cap off the soda bottle.  As a consequence... \nHelp me pick the more plausible option:\n- The soda fizzed.\n- The soda leaked out.",
+        "target": "the soda fizzed.",
+        "pred": "the soda leaked out."
+    },
+    {
+        "input": "The police searched the offender's car.  This happened because... \nHelp me pick the more plausible option:\n- They were trying to elicit a confession.\n- They were looking for illegal drugs.",
+        "target": "they were looking for illegal drugs.",
+        "pred": "they were trying to elicit a confession."
+    },
+    {
+        "input": "The flame on the candle went out.  This happened because... \nHelp me pick the more plausible option:\n- I blew on the wick.\n- I put a match to the wick.",
+        "target": "i blew on the wick.",
+        "pred": "i put a match to the wick."
+    }
+]
