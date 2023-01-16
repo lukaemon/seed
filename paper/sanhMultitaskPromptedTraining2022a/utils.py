@@ -187,3 +187,33 @@ def dump_failed_cases_as_json(
     logger.info(f"dumping failed cases to {file_path}...")
     with open(file_path, "w") as f:
         json.dump(failed_cases, f, indent=4)
+
+
+def report(df):
+    return (
+        df.groupby(["dataset_name", "subset_name"])
+        .agg({"accuracy": ["max", "min", "mean", "std", "count"]})
+        .rename(columns={"count": "num_prompts"})
+        .sort_values(by=("accuracy", "std"), ascending=False)
+    )
+
+
+def peak(df, dataset_name, subset_name=None):
+    subset_name = "all" if subset_name is None else subset_name
+    return df[
+        (df["dataset_name"] == dataset_name) & (df["subset_name"] == subset_name)
+    ].sort_values(by="prompt_name")
+
+
+def read_failed_cases(json_path, n=10):
+    """
+    {input: ..., target: ..., pred: ...}
+    """
+    df = pd.read_json(json_path)
+
+    # print the first n failed cases
+    for i in range(n):
+        print(f"input: {df.iloc[i]['input']}")
+        print(f"target: {df.iloc[i]['target']}")
+        print(f"pred: {df.iloc[i]['pred']}")
+        print()

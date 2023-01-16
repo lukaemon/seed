@@ -65,9 +65,6 @@ class EncoderDecoderModel(ModelBase):
     def forward(self, batch) -> torch.Tensor:
         model_inputs = {k: batch[k] for k in ["input_ids", "attention_mask", "labels"]}
 
-        for v in model_inputs.values():
-            print(v.shape)
-
         logits = self._model(**model_inputs).logits
         masked_log_probs = batch["labels_attention_mask"].unsqueeze(
             -1
