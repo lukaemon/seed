@@ -13,5 +13,9 @@
 - With `chatgpt` in mind, one should think long and hard about how to evaluate modern LLM. Traditional academic evaluations are optimized for easy evaluation, easy comparison across papers, hence easy paper publication. I don't have that shackle. 
 - Evaluating AI would be harder than evaluating people from now on. True capability and true alignment are hard to gauge.
 
+### `hellaswag` on OAI api
+- `logprobs=1`, `echo=True` to get logprobs out of OAI models. 
+- `ServiceUnavailable` error is regular, deal with it proactively. I got 2 out of 100 from a run. 
+
 ## Reference
 - [huggingface T5](https://huggingface.co/docs/transformers/main/en/model_doc/t5): read it cover to cover would save you a lot of time later. 
