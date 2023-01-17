@@ -5,7 +5,7 @@ def math_word_problem_template(instance):
     """
     instance: {'question': ... , 'answer': ...}
     """
-    prompt = """Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? 
+    few_shot = """Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? 
     A: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6. 
 
     Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot? 
@@ -30,11 +30,10 @@ def math_word_problem_template(instance):
     A: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
     """
 
-    output = f"""\
-    {prompt}
+    prompt = f"""\
+    {few_shot}
 
     Q: {instance['question']}
-    A:
-    """
+    A:"""
 
-    return textwrap.dedent(output)
+    return {"prompt": textwrap.dedent(prompt)}
