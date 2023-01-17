@@ -1,9 +1,9 @@
 import textwrap
 
 
-def math_word_problem_template(instance):
+def math_word_problem_template(example):
     """
-    instance: {'question': ... , 'answer': ...}
+    example: {'question': ... , 'answer': ...}
     """
     few_shot = """Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there will be 21 trees. How many trees did the grove workers plant today? 
     A: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6. 
@@ -33,7 +33,11 @@ def math_word_problem_template(instance):
     prompt = f"""\
     {few_shot}
 
-    Q: {instance['question']}
+    Q: {example['question']}
     A:"""
 
     return {"prompt": textwrap.dedent(prompt)}
+
+
+def ul2_preprocess(prompt: str):
+    return f"[S2S]{prompt}<extra_id_0>"

@@ -1,0 +1,7 @@
+{
+    "checkpoint": "google/flan-t5-xxl",
+    "accuracy": 0.16224412433661864,
+    "total": 1319,
+    "failure": 1105,
+    "regex_parsing_failure": 22
+}

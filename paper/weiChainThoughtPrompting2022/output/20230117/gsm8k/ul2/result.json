@@ -1,0 +1,7 @@
+{
+    "checkpoint": "google/ul2",
+    "accuracy": 0.04700530705079606,
+    "total": 1319,
+    "failure": 1257,
+    "regex_parsing_failure": 167
+}

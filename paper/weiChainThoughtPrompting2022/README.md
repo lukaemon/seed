@@ -1,5 +1,11 @@
 ## Log
 ### 20230117
+- I don't see the value of using `evaluate` library for simple `accuracy` metrics. Maybe later would see the value.
+- `ul2` `[S2S]` prompt makes the model performance worse. Why?
+- `ul2` output is verbose, repetitive and illogical. Don't know how to use it well. Ignore this model for now. I won't be tweaking small autoregressive model anyway.
+- `T0pp` is unable to do CoT, at all.
+- `ul2` acc=4%, `t0pp` ~= 0. So locally, `flan-t5` is the only model worth playing wrt CoT. 
+- Adopt to HF `accelerate` didn't improve thoughput. Current ipynb setup is fine. 
 
 ### 20230116 `GSM8K`
 - `main` subset lays out the rationale objectively. 

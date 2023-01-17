@@ -1,0 +1,7 @@
+{
+    "checkpoint": "bigscience/T0pp",
+    "accuracy": 0.001516300227445034,
+    "total": 1319,
+    "failure": 1317,
+    "regex_parsing_failure": 1319
+}
