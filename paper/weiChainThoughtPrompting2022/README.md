@@ -6,6 +6,7 @@
 - `T0pp` is unable to do CoT, at all.
 - `ul2` acc=4%, `t0pp` ~= 0. So locally, `flan-t5` is the only model worth playing wrt CoT. 
 - Adopt to HF `accelerate` didn't improve thoughput. Current ipynb setup is fine. 
+- `davinci` CoT performance is crazy.
 
 ### 20230116 `GSM8K`
 - `main` subset lays out the rationale objectively. 
