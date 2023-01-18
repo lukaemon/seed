@@ -1,5 +1,7 @@
 ## What I've done?
 - Reproduce `GSM8k` and `CSQA` eval on t5 series. 
+  - `GSM8k`/test: 16.7%, `flan-t5-xxl`
+  - `CSQA`/validation: 84.6%, `flan-t5-xxl`. This is better than `PaLM 540b`. Something wrong but I can't find answer of test split. Revisit later. 
 
 ## What I've learned?
 - `flan-t5-xxl` is the only good open model to play with locally. Use `davinci` to taste cutting edge. 

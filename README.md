@@ -5,6 +5,8 @@ By using Discord chatbot as testbed, we can explore ways to build and disseminat
 ## `seed` library
 The goal is building a modularized AI as starting point. Fairly advanced AI may not need human designed modularization. The setup is for fast and cheap failures to facilitate fast learning. 
 
+Learnings from paper reproduction and project would trickle back to the `seed` library. 
+
 ## Discord bot
 ### Setup
 - Build your `.env` from the template `.env.example`. Fill in your tokens. `vscode` would load those env var automatically.
@@ -22,12 +24,18 @@ python -m discord_bot.main
 
 ## Paper reproduction
 ### Model selection
-- OpenAI `davinci` is the only publicly accessible decorder model that's worth studying. Wait for `anthropic`'s LM. 
-- `flan-t5-xxl` is the most versatile and best performant encoder decoder model for now. 
+- OpenAI `davinci` is the only publicly accessible decorder model that's worth studying for cutting edge capability of LLM. Wait for `anthropic`'s API, if it's going to be released at all. 
+- `flan-t5-xxl` is the most versatile and best performant open encoder decoder model at the moment. 
 - `t0pp` is weaker, older, open source version of `flan-t5`. Still worth playing with. 
-  - [open source repo](https://github.com/bigscience-workshop/t-zero). Great starting point. 
-  - _instruction finetuning without CoT actually degrades reasoning ability, including just nine CoT datasets improves performance on all evaluations_ from `flan-t5` paper. So reasoning related benchmark on `t0pp` is detrimental. 
+  - [open source repo](https://github.com/bigscience-workshop/t-zero) is great starting point. 
 
-### List
-- [Multitask Prompted Training Enables Zero-Shot Task Generalization (202203)](/paper/sanhMultitaskPromptedTraining2022a/)
-- [Chain of Thought Prompting Elicits Reasoning in Large Language Models (202210)](/paper/weiChainThoughtPrompting2022/)
+
+### Chronological order
+- [Multitask Prompted Training Enables Zero-Shot Task Generalization (2022)](paper/sanhMultitaskPromptedTraining2022a/)
+- [Chain of Thought Prompting Elicits Reasoning in Large Language Models (2022)](paper/weiChainThoughtPrompting2022/)
+- [Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022)](paper/wangSelfConsistencyImprovesChain2022a)
+- [Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them (2022)](paper/suzgunChallengingBIGBenchTasks2022)
+- [Scaling Instruction-Finetuned Language Models (2022)](paper/chungScalingInstructionFinetunedLanguage2022)
+
+## Project
+- [minGPT](project/minGPT) in `pytorch` and `jax`. 
