@@ -18,8 +18,7 @@ from utils import logger
 from prompt import math_word_problem_template, ul2_preprocess
 
 
-TODAY = date.today().strftime("%Y%m%d")
-OUTPUT_DIR = f"./output/{TODAY}/gsm8k"
+OUTPUT_DIR = f"./output/gsm8k"
 
 
 class GSM8K:
