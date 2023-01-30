@@ -19,8 +19,9 @@
 			"extensions": [
 				"ms-python.python",
 				"ms-toolsai.jupyter",
-				"GitHub.copilot",
-				"VisualStudioExptTeam.vscodeintellicode"
+				"ms-python.black-formatter",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"GitHub.copilot"
 			]
 		}
 	},

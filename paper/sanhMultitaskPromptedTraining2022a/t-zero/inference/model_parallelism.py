@@ -19,7 +19,10 @@ print("Model and tokenizer loaded")
 model.parallelize()
 print("Moved model to GPUs")
 
-inputs = tokenizer.encode("Review: this is the best cast iron skillet you will ever buy. Is this review positive or negative?", return_tensors="pt")
+inputs = tokenizer.encode(
+    "Review: this is the best cast iron skillet you will ever buy. Is this review positive or negative?",
+    return_tensors="pt",
+)
 inputs = inputs.to("cuda:0")
 with torch.no_grad():
     outputs = model.generate(inputs)

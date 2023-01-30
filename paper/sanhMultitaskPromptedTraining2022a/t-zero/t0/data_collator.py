@@ -60,11 +60,7 @@ class DataCollatorForMultipleChoice:
         num_choices = len(features[0]["input_ids"])
         flattened_features = [
             [
-                {
-                    k: v[i]
-                    for k, v in feature.items()
-                    if k != "targets"
-                }
+                {k: v[i] for k, v in feature.items() if k != "targets"}
                 for i in range(num_choices)
             ]
             for feature in features
@@ -81,19 +77,16 @@ class DataCollatorForMultipleChoice:
         # Pad the labels because it's not padded automatically
         max_label_length = max([len(elem["labels"]) for elem in flattened_features])
         batch["labels"] = [
-            l + [self.tokenizer.pad_token_id]*(max_label_length - len(l))
+            l + [self.tokenizer.pad_token_id] * (max_label_length - len(l))
             for l in [elem["labels"] for elem in flattened_features]
         ]
         batch["labels_attention_mask"] = [
-            m + [0]*(max_label_length - len(m))
+            m + [0] * (max_label_length - len(m))
             for m in [elem["labels_attention_mask"] for elem in flattened_features]
         ]
 
         # Convert to tensors
-        batch = {
-            k: torch.tensor(v)
-            for k, v in batch.items()
-        }
+        batch = {k: torch.tensor(v) for k, v in batch.items()}
 
         batch["targets"] = torch.tensor([f.pop("targets") for f in features])
         return batch

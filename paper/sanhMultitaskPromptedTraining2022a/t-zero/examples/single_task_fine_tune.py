@@ -60,7 +60,9 @@ logger = logging.getLogger(__name__)
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Fine-tuning T0 in PyTorch, optionally few-shot.")
+    parser = argparse.ArgumentParser(
+        description="Fine-tuning T0 in PyTorch, optionally few-shot."
+    )
     parser.add_argument(
         "-d",
         "--dataset_name",
@@ -90,7 +92,7 @@ def parse_args():
         type=str,
         default=None,
         required=True,
-        help="Where to store the results CSV and (TODO) optionally the final model."
+        help="Where to store the results CSV and (TODO) optionally the final model.",
     )
     parser.add_argument(
         "-m",
@@ -144,7 +146,7 @@ def parse_args():
         "--num_train_epochs",
         type=int,
         default=10,
-        help="Total number of training epochs to perform."
+        help="Total number of training epochs to perform.",
     )
     parser.add_argument(
         "-ms",
@@ -218,7 +220,7 @@ def parse_args():
         "--target_max_length",
         type=int,
         default=256,
-        help="Target max length. Sequences longer than this will be truncated."
+        help="Target max length. Sequences longer than this will be truncated.",
     )
     parser.add_argument(
         "-pml",
@@ -237,7 +239,7 @@ def parse_args():
         "--weight_decay",
         type=float,
         default=0.01,
-        help="Weight decay for the AdamW optimizer."
+        help="Weight decay for the AdamW optimizer.",
     )
     parser.add_argument(
         "-ls",
@@ -245,14 +247,21 @@ def parse_args():
         type=SchedulerType,
         default="linear",
         help="The scheduler type to use.",
-        choices=["linear", "cosine", "cosine_with_restarts", "polynomial", "constant", "constant_with_warmup"],
+        choices=[
+            "linear",
+            "cosine",
+            "cosine_with_restarts",
+            "polynomial",
+            "constant",
+            "constant_with_warmup",
+        ],
     )
     parser.add_argument(
         "-ws",
         "--num_warmup_steps",
         type=int,
         default=0,
-        help="Number of steps for the warmup in the lr scheduler."
+        help="Number of steps for the warmup in the lr scheduler.",
     )
     args = parser.parse_args()
 
@@ -296,11 +305,7 @@ class DataCollatorForMultipleChoice:
         num_choices = len(features[0]["input_ids"])
         flattened_features = [
             [
-                {
-                    k: v[i]
-                    for k, v in feature.items()
-                    if k != "targets"
-                }
+                {k: v[i] for k, v in feature.items() if k != "targets"}
                 for i in range(num_choices)
             ]
             for feature in features
@@ -317,19 +322,16 @@ class DataCollatorForMultipleChoice:
         # Pad the labels because it's not padded automatically
         max_label_length = max([len(elem["labels"]) for elem in flattened_features])
         batch["labels"] = [
-            l + [self.tokenizer.pad_token_id]*(max_label_length - len(l))
+            l + [self.tokenizer.pad_token_id] * (max_label_length - len(l))
             for l in [elem["labels"] for elem in flattened_features]
         ]
         batch["labels_attention_mask"] = [
-            m + [0]*(max_label_length - len(m))
+            m + [0] * (max_label_length - len(m))
             for m in [elem["labels_attention_mask"] for elem in flattened_features]
         ]
 
         # Convert to tensors
-        batch = {
-            k: torch.tensor(v)
-            for k, v in batch.items()
-        }
+        batch = {k: torch.tensor(v) for k, v in batch.items()}
 
         batch["targets"] = torch.tensor([f.pop("targets") for f in features])
         return batch
@@ -351,14 +353,15 @@ def main():
 
     # Setup logging, we only want one process per machine to log things on the screen.
     # accelerator.is_local_main_process is only True for one process per machine.
-    logger.setLevel(logging.INFO if accelerator.is_local_main_process else logging.ERROR)
+    logger.setLevel(
+        logging.INFO if accelerator.is_local_main_process else logging.ERROR
+    )
     if accelerator.is_local_main_process:
         datasets.utils.logging.set_verbosity_warning()
         transformers.utils.logging.set_verbosity_info()
     else:
         datasets.utils.logging.set_verbosity_error()
         transformers.utils.logging.set_verbosity_error()
-
 
     # Handle the output directory creation
     if accelerator.is_main_process:
@@ -370,22 +373,35 @@ def main():
     if args.dataset_name is not None:
         # Downloading and loading a dataset from the hub.
         if args.dataset_name == "anli":
-            raw_train_dataset = load_dataset(args.dataset_name, split=f'train_{args.dataset_config_name}')  # dataset_config_name = "r1", "r2", or "r3"
-            raw_eval_dataset = load_dataset(args.dataset_name, split=f'dev_{args.dataset_config_name}')
+            raw_train_dataset = load_dataset(
+                args.dataset_name, split=f"train_{args.dataset_config_name}"
+            )  # dataset_config_name = "r1", "r2", or "r3"
+            raw_eval_dataset = load_dataset(
+                args.dataset_name, split=f"dev_{args.dataset_config_name}"
+            )
         else:
-            raw_train_dataset = load_dataset(args.dataset_name, args.dataset_config_name, split="train")
-            raw_eval_dataset = load_dataset(args.dataset_name, args.dataset_config_name, split="validation")
+            raw_train_dataset = load_dataset(
+                args.dataset_name, args.dataset_config_name, split="train"
+            )
+            raw_eval_dataset = load_dataset(
+                args.dataset_name, args.dataset_config_name, split="validation"
+            )
     else:
-        raise ValueError('Please specify `args.dataset_name` and `args.dataset_config_name` as appear in `promptsource`.')
-    #TODO(Victor): enable loading pre-processed dataset from https://huggingface.co/datasets/bigscience/P3
+        raise ValueError(
+            "Please specify `args.dataset_name` and `args.dataset_config_name` as appear in `promptsource`."
+        )
+    # TODO(Victor): enable loading pre-processed dataset from https://huggingface.co/datasets/bigscience/P3
 
     # Trim a number of evaluation examples
     if args.debug:
-        raw_train_dataset = raw_train_dataset.select(range(min(100, len(raw_train_dataset))))
-        raw_eval_dataset = raw_eval_dataset.select(range(min(100, len(raw_eval_dataset))))
+        raw_train_dataset = raw_train_dataset.select(
+            range(min(100, len(raw_train_dataset)))
+        )
+        raw_eval_dataset = raw_eval_dataset.select(
+            range(min(100, len(raw_eval_dataset)))
+        )
 
     column_names = raw_eval_dataset.column_names
-
 
     # Load pretrained model and tokenizer
     #
@@ -401,9 +417,13 @@ def main():
         )
 
     if args.tokenizer_name:
-        tokenizer = AutoTokenizer.from_pretrained(args.tokenizer_name, use_fast=not args.use_slow_tokenizer)
+        tokenizer = AutoTokenizer.from_pretrained(
+            args.tokenizer_name, use_fast=not args.use_slow_tokenizer
+        )
     elif args.model_name_or_path:
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, use_fast=not args.use_slow_tokenizer)
+        tokenizer = AutoTokenizer.from_pretrained(
+            args.model_name_or_path, use_fast=not args.use_slow_tokenizer
+        )
     else:
         raise ValueError(
             "You are instantiating a new tokenizer from scratch. This is not supported by this script."
@@ -426,8 +446,8 @@ def main():
 
     # Get the prompt to apply and the possible targets.
     # TODO(Victor): If pulling from pre-processed data, remove this logic.
-    if args.dataset_name == 'anli':
-        prompts = DatasetTemplates('anli', None)
+    if args.dataset_name == "anli":
+        prompts = DatasetTemplates("anli", None)
     else:
         prompts = DatasetTemplates(
             f"{args.dataset_name}"
@@ -442,10 +462,7 @@ def main():
         input_texts = []
         target_texts = []
         for i in range(bs):
-            ex = {
-                k: examples[k][i]
-                for k in column_names
-            }
+            ex = {k: examples[k][i] for k in column_names}
             input, target = template.apply(ex)
             ex_answer_choices = template.get_answer_choices_list(ex)
             assert target in ex_answer_choices
@@ -468,7 +485,7 @@ def main():
                 truncation=True,
                 add_special_tokens=False,
             )
-            model_inputs['labels'] = [
+            model_inputs["labels"] = [
                 [(t if t != tokenizer.pad_token_id else -100) for t in targets]
                 for targets in tokenized_targets["input_ids"]
             ]
@@ -481,10 +498,7 @@ def main():
         target_texts = []
         answer_choices_texts = []
         for i in range(bs):
-            ex = {
-                k: examples[k][i]
-                for k in column_names
-            }
+            ex = {k: examples[k][i] for k in column_names}
             input, target = template.apply(ex)
             ex_answer_choices = template.get_answer_choices_list(ex)
             assert target in ex_answer_choices
@@ -517,28 +531,29 @@ def main():
             for k, v in tokenized_inputs.items()
         }
 
-        features["labels"] = [
-            tokenized_targets[idx]["input_ids"]
-            for idx in range(bs)
-        ]
+        features["labels"] = [tokenized_targets[idx]["input_ids"] for idx in range(bs)]
         features["labels_attention_mask"] = [
-            tokenized_targets[idx]["attention_mask"]
-            for idx in range(bs)
+            tokenized_targets[idx]["attention_mask"] for idx in range(bs)
         ]
         features["targets"] = [
-            answer_choices_texts[idx].index(t)
-            for idx, t in enumerate(target_texts)
+            answer_choices_texts[idx].index(t) for idx, t in enumerate(target_texts)
         ]
 
         return features
 
     with accelerator.main_process_first():
-        eval_dataset = raw_eval_dataset.map(preprocess_eval, batched=True, remove_columns=column_names)
+        eval_dataset = raw_eval_dataset.map(
+            preprocess_eval, batched=True, remove_columns=column_names
+        )
 
         if args.num_shots is not None:
-            sample_indices = random.sample(range(0, len(raw_train_dataset)), k=args.num_shots)
+            sample_indices = random.sample(
+                range(0, len(raw_train_dataset)), k=args.num_shots
+            )
             raw_train_dataset = raw_train_dataset.select(sample_indices)
-        train_dataset = raw_train_dataset.map(preprocess_train, batched=True, remove_columns=column_names)
+        train_dataset = raw_train_dataset.map(
+            preprocess_train, batched=True, remove_columns=column_names
+        )
 
     # Log a few random examples:
     for index in random.sample(range(len(train_dataset)), 3):
@@ -551,13 +566,13 @@ def main():
         tokenizer,
         model=model,
         label_pad_token_id=-100,
-        pad_to_multiple_of=8 if accelerator.use_fp16 else None
+        pad_to_multiple_of=8 if accelerator.use_fp16 else None,
     )
     train_dataloader = DataLoader(
         train_dataset,
         shuffle=True,
         collate_fn=train_collator,
-        batch_size=args.per_device_train_batch_size
+        batch_size=args.per_device_train_batch_size,
     )
 
     if args.pad_to_max_length:
@@ -571,29 +586,45 @@ def main():
         eval_collator = DataCollatorForMultipleChoice(
             tokenizer, pad_to_multiple_of=(8 if accelerator.use_fp16 else None)
         )
-    eval_dataloader = DataLoader(eval_dataset, collate_fn=eval_collator, batch_size=args.per_device_eval_batch_size)
+    eval_dataloader = DataLoader(
+        eval_dataset,
+        collate_fn=eval_collator,
+        batch_size=args.per_device_eval_batch_size,
+    )
 
     # Optimizer
     # Split weights in two groups, one with weight decay and the other not.
     no_decay = ["bias", "LayerNorm.weight"]
     optimizer_grouped_parameters = [
         {
-            "params": [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)],
+            "params": [
+                p
+                for n, p in model.named_parameters()
+                if not any(nd in n for nd in no_decay)
+            ],
             "weight_decay": args.weight_decay,
         },
         {
-            "params": [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)],
+            "params": [
+                p
+                for n, p in model.named_parameters()
+                if any(nd in n for nd in no_decay)
+            ],
             "weight_decay": 0.0,
         },
     ]
     optimizer = AdamW(optimizer_grouped_parameters, lr=args.learning_rate)
 
     # Scheduler and math around the number of training steps.
-    num_update_steps_per_epoch = math.ceil(len(train_dataloader) / args.gradient_accumulation_steps)
+    num_update_steps_per_epoch = math.ceil(
+        len(train_dataloader) / args.gradient_accumulation_steps
+    )
     if args.max_train_steps is None:
         args.max_train_steps = args.num_train_epochs * num_update_steps_per_epoch
     else:
-        args.num_train_epochs = math.ceil(args.max_train_steps / num_update_steps_per_epoch)
+        args.num_train_epochs = math.ceil(
+            args.max_train_steps / num_update_steps_per_epoch
+        )
 
     lr_scheduler = get_scheduler(
         name=args.lr_scheduler_type,
@@ -607,34 +638,47 @@ def main():
         assert num_gpus > 1, "You need at least 2 GPUs to use `model.parallelize()`."
         model.parallelize()
         optimizer, train_dataloader, eval_dataloader = accelerator.prepare(
-            optimizer, train_dataloader, eval_dataloader)
+            optimizer, train_dataloader, eval_dataloader
+        )
     else:
         model, optimizer, train_dataloader, eval_dataloader = accelerator.prepare(
-            model, optimizer, train_dataloader, eval_dataloader)
+            model, optimizer, train_dataloader, eval_dataloader
+        )
 
     # Metrics
     metric = load_metric("accuracy")
 
-    total_batch_size = args.per_device_train_batch_size * accelerator.num_processes * args.gradient_accumulation_steps
+    total_batch_size = (
+        args.per_device_train_batch_size
+        * accelerator.num_processes
+        * args.gradient_accumulation_steps
+    )
     logger.info("***** Running training *****")
     logger.info(f"  Num examples = {len(train_dataset)}")
     logger.info(f"  Num Epochs = {args.num_train_epochs}")
-    logger.info(f"  Instantaneous batch size per device = {args.per_device_train_batch_size}")
-    logger.info(f"  Total train batch size (w. parallel, distributed & accumulation) = {total_batch_size}")
+    logger.info(
+        f"  Instantaneous batch size per device = {args.per_device_train_batch_size}"
+    )
+    logger.info(
+        f"  Total train batch size (w. parallel, distributed & accumulation) = {total_batch_size}"
+    )
     logger.info(f"  Gradient Accumulation steps = {args.gradient_accumulation_steps}")
     logger.info(f"  Total optimization steps = {args.max_train_steps}")
     # Only show the progress bar once on each machine.
-    progress_bar = tqdm(range(args.max_train_steps), disable=not accelerator.is_local_main_process)
+    progress_bar = tqdm(
+        range(args.max_train_steps), disable=not accelerator.is_local_main_process
+    )
     global_steps = 0
 
     if args.wandb_proj and accelerator.is_main_process:
         import wandb
+
         extra_metadata = {
-            'template_jinja': template.jinja,
-            'template_answer_choices': template.answer_choices,
-            'template_reflects_original_task': template.metadata.original_task,
-            'template_choices_in_prompt': template.metadata.choices_in_prompt,
-            'template_comment': template.reference,
+            "template_jinja": template.jinja,
+            "template_answer_choices": template.answer_choices,
+            "template_reflects_original_task": template.metadata.original_task,
+            "template_choices_in_prompt": template.metadata.choices_in_prompt,
+            "template_comment": template.reference,
         }
         run_config = vars(args)
         run_config.update(extra_metadata)
@@ -646,14 +690,17 @@ def main():
         )
 
     result_table = []
-    for epoch in range(1, args.num_train_epochs+1):
+    for epoch in range(1, args.num_train_epochs + 1):
         model.train()
         for step, batch in enumerate(train_dataloader):
             outputs = model(**batch)
             loss = outputs.loss
             loss = loss / args.gradient_accumulation_steps
             accelerator.backward(loss)
-            if step % args.gradient_accumulation_steps == 0 or step == len(train_dataloader) - 1:
+            if (
+                step % args.gradient_accumulation_steps == 0
+                or step == len(train_dataloader) - 1
+            ):
                 optimizer.step()
                 lr_scheduler.step()
                 optimizer.zero_grad()
@@ -672,23 +719,32 @@ def main():
         total_batch_size = args.per_device_eval_batch_size * accelerator.num_processes
         logger.info("***** Running evaluation *****")
         logger.info(f"  Num examples = {len(eval_dataset)}")
-        logger.info(f"  Instantaneous batch size per device = {args.per_device_eval_batch_size}")
-        logger.info(f"  Total eval batch size (w. parallel, distributed) = {total_batch_size}")
+        logger.info(
+            f"  Instantaneous batch size per device = {args.per_device_eval_batch_size}"
+        )
+        logger.info(
+            f"  Total eval batch size (w. parallel, distributed) = {total_batch_size}"
+        )
         # Only show the progress bar once on each machine.  # NOTE commented out to avoid nested pbar mess
         # progress_bar = tqdm(range(len(eval_dataloader)), disable=not accelerator.is_local_main_process)
 
         model.eval()
         for batch in eval_dataloader:
             model_inputs = {
-                k: batch[k]
-                for k in ["input_ids", "attention_mask", "labels"]
+                k: batch[k] for k in ["input_ids", "attention_mask", "labels"]
             }
             with torch.no_grad():
                 logits = model(**model_inputs).logits
-            masked_log_probs = batch["labels_attention_mask"].unsqueeze(-1) * torch.log_softmax(logits, dim=-1)
-            seq_token_log_probs = torch.gather(masked_log_probs, -1, batch["labels"].unsqueeze(-1))
+            masked_log_probs = batch["labels_attention_mask"].unsqueeze(
+                -1
+            ) * torch.log_softmax(logits, dim=-1)
+            seq_token_log_probs = torch.gather(
+                masked_log_probs, -1, batch["labels"].unsqueeze(-1)
+            )
             seq_log_prob = seq_token_log_probs.squeeze(dim=-1).sum(dim=-1)
-            seq_log_prob = seq_log_prob.view(batch["targets"].size(0), -1) #TODO(Victor): this reshapes works based on the assumption that all examples have the same number of choices. the pre-processing doesn't make this assumption.
+            seq_log_prob = seq_log_prob.view(
+                batch["targets"].size(0), -1
+            )  # TODO(Victor): this reshapes works based on the assumption that all examples have the same number of choices. the pre-processing doesn't make this assumption.
             predictions = seq_log_prob.argmax(dim=-1)
 
             metric.add_batch(
@@ -699,17 +755,21 @@ def main():
             # progress_bar.update(1)
 
         eval_metric = metric.compute()
-        score = eval_metric["accuracy"]  # TODO support other metrics; currently hardcoded at load_metric() anyway
+        score = eval_metric[
+            "accuracy"
+        ]  # TODO support other metrics; currently hardcoded at load_metric() anyway
         accelerator.print(f"Accuracy: {score}")
-        result_table.append({
-            "dataset_name": args.dataset_name,
-            "dataset_config_name": args.dataset_config_name,
-            "template_name": args.template_name,
-            "epoch": epoch,
-            "step": global_steps,
-            "metric": 'accuracy',
-            "score": score,
-        })
+        result_table.append(
+            {
+                "dataset_name": args.dataset_name,
+                "dataset_config_name": args.dataset_config_name,
+                "template_name": args.template_name,
+                "epoch": epoch,
+                "step": global_steps,
+                "metric": "accuracy",
+                "score": score,
+            }
+        )
         if args.wandb_proj and accelerator.is_main_process:
             wandb.log({"accuracy": score}, step=global_steps)
     # End training loop

@@ -68,7 +68,9 @@ def maybe_get_class_id_postprocessor(template):
         return strip_whitespace
 
 
-def get_tf_dataset(split, shuffle_files, seed, dataset_name, subset_name, template, split_mapping):
+def get_tf_dataset(
+    split, shuffle_files, seed, dataset_name, subset_name, template, split_mapping
+):
     # HF datasets does not support file-level shuffling
     del shuffle_files, seed
     dataset = datasets.load_dataset(dataset_name, subset_name)
@@ -77,9 +79,13 @@ def get_tf_dataset(split, shuffle_files, seed, dataset_name, subset_name, templa
     return utils.hf_dataset_to_tf_dataset(dataset)
 
 
-def add_task(dataset_name, subset_name, template_name, task_name=None, split_mapping=None):
+def add_task(
+    dataset_name, subset_name, template_name, task_name=None, split_mapping=None
+):
     template = all_templates.get_dataset(dataset_name, subset_name)[template_name]
-    task_name = task_name or utils.get_task_name(dataset_name, subset_name, template_name)
+    task_name = task_name or utils.get_task_name(
+        dataset_name, subset_name, template_name
+    )
 
     if dataset_name == "glue":
         metrics = get_glue_metric(subset_name)
@@ -107,11 +113,18 @@ def add_task(dataset_name, subset_name, template_name, task_name=None, split_map
     data_source = seqio.FunctionDataSource(
         dataset_fn,
         splits=list(split_mapping.keys()),
-        num_input_examples={s: dataset_splits[split_mapping[s]].num_examples for s in split_mapping.keys()},
+        num_input_examples={
+            s: dataset_splits[split_mapping[s]].num_examples
+            for s in split_mapping.keys()
+        },
     )
     output_features = {
-        "inputs": seqio.Feature(t5.data.get_default_vocabulary(), add_eos=False, dtype=tf.int32),
-        "targets": seqio.Feature(t5.data.get_default_vocabulary(), add_eos=True, dtype=tf.int32),
+        "inputs": seqio.Feature(
+            t5.data.get_default_vocabulary(), add_eos=False, dtype=tf.int32
+        ),
+        "targets": seqio.Feature(
+            t5.data.get_default_vocabulary(), add_eos=True, dtype=tf.int32
+        ),
     }
     preprocessors = [
         seqio.preprocessors.tokenize,
@@ -135,7 +148,9 @@ def add_task(dataset_name, subset_name, template_name, task_name=None, split_map
             t5.data.preprocessors.rank_classification,
             inputs_fn=lambda ex: tf.fill((len(ex["answer_choices"]),), ex["inputs"]),
             targets_fn=lambda ex: ex["answer_choices"],
-            is_correct_fn=lambda ex: tf.equal(ex["answer_choices"], tf.strings.strip(ex["targets"])),
+            is_correct_fn=lambda ex: tf.equal(
+                ex["answer_choices"], tf.strings.strip(ex["targets"])
+            ),
             weight_fn=lambda ex: 1.0,
         )
         fixed_choices = template.get_fixed_answer_choices_list()
@@ -145,22 +160,23 @@ def add_task(dataset_name, subset_name, template_name, task_name=None, split_map
             data_source,
             preprocessors=[rank_classification_preprocessor] + preprocessors,
             output_features=output_features,
-            metric_fns=[functools.partial(t5.evaluation.metrics.rank_classification, num_classes=num_classes)],
+            metric_fns=[
+                functools.partial(
+                    t5.evaluation.metrics.rank_classification, num_classes=num_classes
+                )
+            ],
             postprocess_fn=t5.data.postprocessors.rank_classification,
         )
 
 
 datatset_subset_tuple = Tuple[str, Optional[str]]
-t0_eval: Dict[str, List[datatset_subset_tuple]] = {
-    "BASE": [],
-    "BIAS_FAIRNESS": []
-}
+t0_eval: Dict[str, List[datatset_subset_tuple]] = {"BASE": [], "BIAS_FAIRNESS": []}
 t0_train: Dict[str, List[datatset_subset_tuple]] = {
     "BASE": [],
     # GPT3 evaluation set
     "GPT_EVAL": [],
     # SuperGLUE (except RTE and CB)
-    "SGLUE": []
+    "SGLUE": [],
 }
 
 gsheet: Dict[datatset_subset_tuple, Dict] = {}
@@ -191,8 +207,8 @@ all_templates = templates.TemplateCollection()
 all_templates.remove("anli")  # Need to special-case ANLI due to weird split conventions
 
 # 3 stages of training/ablation: D4 -> GPT -> SuperGLUE
-t0_train_mixture: Dict[str,List[str]] = {key: [] for key in t0_train}
-t0_eval_mixture: Dict[str,List[str]] = {key: [] for key in t0_eval}
+t0_train_mixture: Dict[str, List[str]] = {key: [] for key in t0_train}
+t0_eval_mixture: Dict[str, List[str]] = {key: [] for key in t0_eval}
 mixture_cap: Dict[str, int] = {}
 single_original_task: Dict[Tuple[str, str], str] = {}
 all_original_tasks: List[str] = []
@@ -219,7 +235,10 @@ for dataset_name, subset_name in all_templates.keys:
 
         task_name = utils.get_task_name(dataset_name, subset_name, template_name)
 
-        if (dataset_name, subset_name) not in single_original_task and template.metadata.original_task:
+        if (
+            dataset_name,
+            subset_name,
+        ) not in single_original_task and template.metadata.original_task:
             single_original_task[(dataset_name, subset_name)] = task_name
 
         if template.metadata.original_task:
@@ -243,8 +262,13 @@ for dataset_name, subset_name in all_templates.keys:
 dataset_name, subset_name = ("anli", None)
 dataset = all_templates.get_dataset(dataset_name, subset_name)
 for anli_round in ("r1", "r2", "r3"):
-    for template_name in all_templates.get_dataset(dataset_name, subset_name).all_template_names:
-        task_name = utils.get_task_name(dataset_name, subset_name, template_name) + f"_{anli_round}"
+    for template_name in all_templates.get_dataset(
+        dataset_name, subset_name
+    ).all_template_names:
+        task_name = (
+            utils.get_task_name(dataset_name, subset_name, template_name)
+            + f"_{anli_round}"
+        )
         split_mapping = {
             "train": f"train_{anli_round}",
             "validation": f"dev_{anli_round}",
@@ -254,7 +278,9 @@ for anli_round in ("r1", "r2", "r3"):
 
         template = dataset[template_name]
         if template.metadata.original_task:
-            t0_eval_mixture["BASE"].append(task_name)  # TODO or add to ANLI special mixture
+            t0_eval_mixture["BASE"].append(
+                task_name
+            )  # TODO or add to ANLI special mixture
         # TODO use template.metadata.answer_choices here for rank eval
 
 
@@ -316,13 +342,23 @@ seqio.MixtureRegistry.add(
 
 seqio.MixtureRegistry.add(
     "t0+_train",
-    [task for task in t0_train_mixture["BASE"] + t0_train_mixture["GPT_EVAL"] if task not in TASK_BLACKLIST],
+    [
+        task
+        for task in t0_train_mixture["BASE"] + t0_train_mixture["GPT_EVAL"]
+        if task not in TASK_BLACKLIST
+    ],
     default_rate=lambda t: mixture_cap[t.name],
 )
 
 seqio.MixtureRegistry.add(
     "t0++_train",
-    [task for task in t0_train_mixture["BASE"] + t0_train_mixture["GPT_EVAL"] + t0_train_mixture["SGLUE"] if task not in TASK_BLACKLIST],
+    [
+        task
+        for task in t0_train_mixture["BASE"]
+        + t0_train_mixture["GPT_EVAL"]
+        + t0_train_mixture["SGLUE"]
+        if task not in TASK_BLACKLIST
+    ],
     default_rate=lambda t: mixture_cap[t.name],
 )
 
@@ -373,13 +409,21 @@ seqio.MixtureRegistry.add(
 
 seqio.MixtureRegistry.add(
     "t0_train_one_og_prompt",
-    [task for task in single_original_task.values() if task in t0_train_mixture["BASE"] and task not in TASK_BLACKLIST],
+    [
+        task
+        for task in single_original_task.values()
+        if task in t0_train_mixture["BASE"] and task not in TASK_BLACKLIST
+    ],
     default_rate=lambda t: mixture_cap[t.name],
 )
 
 seqio.MixtureRegistry.add(
     "t0_train_all_og_prompts",
-    [task for task in all_original_tasks if task in t0_train_mixture["BASE"] and task not in TASK_BLACKLIST],
+    [
+        task
+        for task in all_original_tasks
+        if task in t0_train_mixture["BASE"] and task not in TASK_BLACKLIST
+    ],
     default_rate=lambda t: mixture_cap[t.name],
 )
 
@@ -388,7 +432,8 @@ seqio.MixtureRegistry.add(
     [
         task
         for task in seqio.TaskRegistry.names()
-        if task.endswith("_score_eval") and task.split("_score_eval")[0] in t0_eval_mixture["BIAS_FAIRNESS"]
+        if task.endswith("_score_eval")
+        and task.split("_score_eval")[0] in t0_eval_mixture["BIAS_FAIRNESS"]
     ],
     default_rate=functools.partial(seqio.mixing_rate_num_examples, maximum=500_000),
 )

@@ -3,9 +3,9 @@ Discord chatbot is an effective platform for testing multimodal agents, with the
 By using Discord chatbot as testbed, we can explore ways to build and disseminate useful and trustworthy AI.
 
 ## `seed` library
-The goal is building a modularized AI as starting point. Fairly advanced AI may not need human designed modularization. The setup is for fast and cheap failures to facilitate fast learning. 
+The goal is building a modularized AI as starting point. Fairly advanced AI may not need human designed modularization. The setup is for fast and cheap failures to facilitate effective learning. 
 
-Learnings from paper reproduction and project would trickle back to the `seed` library. 
+Learnings from paper reproduction and project would trickle back to the `seed` library.
 
 ## Discord bot
 ### Setup
@@ -23,6 +23,8 @@ python -m discord_bot.main
 ```
 
 ## Paper reproduction
+The goal is learning to ask new question, and old question sharper. 
+
 ### Model selection
 - OpenAI `davinci` is the only publicly accessible decorder model that's worth studying for cutting edge capability of LLM. Wait for `anthropic`'s API, if it's going to be released at all. 
 - `flan-t5-xxl` is the most versatile and best performant open encoder decoder model at the moment. 
@@ -30,7 +32,7 @@ python -m discord_bot.main
   - [open source repo](https://github.com/bigscience-workshop/t-zero) is great starting point. 
 
 
-### Chronological order
+### List
 - [Multitask Prompted Training Enables Zero-Shot Task Generalization (2022)](paper/sanhMultitaskPromptedTraining2022a/)
 - [Chain of Thought Prompting Elicits Reasoning in Large Language Models (2022)](paper/weiChainThoughtPrompting2022/)
 - [Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022)](paper/wangSelfConsistencyImprovesChain2022a)
@@ -38,4 +40,7 @@ python -m discord_bot.main
 - [Scaling Instruction-Finetuned Language Models (2022)](paper/chungScalingInstructionFinetunedLanguage2022)
 
 ## Project
+The goal is getting hands dirty. Bridge the gap between understanding and capability to materialize. 
+
+### List
 - [minGPT](project/minGPT) in `pytorch` and `jax`. 

@@ -8,10 +8,14 @@ import promptsource.utils
 
 def feature_to_spec(feature, length=False):
     if isinstance(feature, datasets.ClassLabel):
-        return tf.TensorSpec(shape=() if not length else (None if length == -1 else length,), dtype=tf.int64)
+        return tf.TensorSpec(
+            shape=() if not length else (None if length == -1 else length,),
+            dtype=tf.int64,
+        )
     elif isinstance(feature, datasets.Value):
         return tf.TensorSpec(
-            shape=() if not length else (None if length == -1 else length,), dtype=getattr(tf.dtypes, feature.dtype)
+            shape=() if not length else (None if length == -1 else length,),
+            dtype=getattr(tf.dtypes, feature.dtype),
         )
     elif hasattr(feature, "dtype") and hasattr(feature, "shape"):
         return tf.TensorSpec(shape=feature.shape, dtype=feature.dtype)
@@ -27,7 +31,8 @@ def feature_to_spec(feature, length=False):
 
 def hf_dataset_to_tf_dataset(dataset):
     return tf.data.Dataset.from_generator(
-        dataset.__iter__, output_signature={k: feature_to_spec(v) for k, v in dataset.features.items()}
+        dataset.__iter__,
+        output_signature={k: feature_to_spec(v) for k, v in dataset.features.items()},
     )
 
 
@@ -59,7 +64,9 @@ def apply_template(dataset, template):
     original_columns = dataset.column_names
     dataset = dataset.map(map_fn).filter(filter_fn)
     # map keeps original columns, remove them
-    return dataset.remove_columns(set(original_columns) - {"inputs", "targets", "answer_choices"})
+    return dataset.remove_columns(
+        set(original_columns) - {"inputs", "targets", "answer_choices"}
+    )
 
 
 def get_dataset_splits(dataset_name, subset_name=None):
@@ -74,4 +81,8 @@ def task_clean(text):
 
 
 def get_task_name(dataset_name, subset_name, template_name):
-    return task_clean(dataset_name + (f"_{subset_name}_" if subset_name is not None else "_") + template_name)
+    return task_clean(
+        dataset_name
+        + (f"_{subset_name}_" if subset_name is not None else "_")
+        + template_name
+    )

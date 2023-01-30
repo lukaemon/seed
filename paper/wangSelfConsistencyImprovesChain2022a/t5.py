@@ -1,0 +1,39 @@
+import torch
+from transformers import (
+    AutoTokenizer,
+    T5ForConditionalGeneration,
+)
+
+
+def load_model(checkpoint: str):
+    tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+    model = T5ForConditionalGeneration.from_pretrained(
+        checkpoint, low_cpu_mem_usage=True, torch_dtype=torch.bfloat16
+    )
+    model.parallelize()
+
+    return model, tokenizer
+
+
+def predict(model, tokenizer, batch, k):
+    """
+    batch: dict with keys "input_ids" and "attention_mask", whic should be the output of collator
+    k: number of samples to generate per each input
+
+    returns: [batch_size, k], list of lists of strings
+    """
+
+    batch_output = model.generate(
+        input_ids=batch["input_ids"].cuda(),
+        attention_mask=batch["attention_mask"].cuda(),
+        max_length=512,
+        do_sample=True,  # won't sample without this
+        temperature=0.5,  # from paper's UL2 settings
+        num_return_sequences=k,
+    )
+
+    batch_output_seq = tokenizer.batch_decode(batch_output, skip_special_tokens=True)
+
+    preds = [batch_output_seq[i : i + k] for i in range(0, len(batch_output_seq), k)]
+
+    return preds
