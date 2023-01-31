@@ -150,7 +150,7 @@ def plot_sample_vs_accuracy(result_processed: List[EvalResultProcessed]):
         [r.avg_certainty for r in result_processed],
         "ro",
     )
-    ax2.set_ylabel("certainty", color="r")
+    ax2.set_ylabel("average certainty", color="r")
 
     ax.grid()
     plt.show()

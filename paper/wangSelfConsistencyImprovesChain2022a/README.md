@@ -4,7 +4,7 @@
 
 
 ## What I've learned?
-- Self-consistency is not effective on t5 11b model. Understandable. `Reasoning` is an emergent capability that usually show after `60b` scale. The paper is on `PaLM 540b`. 
+- Self-consistency is not effective on t5 11b model. Understandable. `Reasoning` is an emergent capability that usually show after `60b` scale. The paper is purely on `PaLM 540b`. However, you can see the acc increase with sample size till 8, and the certainty level, gini, increases gradually as well. ![](output/flan-acc.png)
 - Use **voting as measurement of uncertainty** is one great realization. This is critical first step for LLM calibration. 
 - Many answer parsing error on finetuned `davinci` model response. The answer is correct but the simple regex won't get it right. The answer is too good for human LoL. 
 - Both `SC` and `CoT` are methods of scaling computation to solve problems. Similar to think harder, longer, with scratchpad for important or hard problems. 
