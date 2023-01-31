@@ -15,7 +15,7 @@ def load_model(checkpoint: str):
     return model, tokenizer
 
 
-def predict(model, tokenizer, batch, k):
+def predict(model, tokenizer, batch, k, temp):
     """
     batch: dict with keys "input_ids" and "attention_mask", whic should be the output of collator
     k: number of samples to generate per each input
@@ -27,8 +27,8 @@ def predict(model, tokenizer, batch, k):
         input_ids=batch["input_ids"].cuda(),
         attention_mask=batch["attention_mask"].cuda(),
         max_length=512,
-        do_sample=True,  # won't sample without this
-        temperature=0.5,  # from paper's UL2 settings
+        do_sample=temp > 0,  # won't sample without this
+        temperature=temp,
         num_return_sequences=k,
     )
 
