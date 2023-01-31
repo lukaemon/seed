@@ -1,5 +1,7 @@
+import json
+import os
 from typing import List, Union
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 
 import torch
 import numpy as np
@@ -9,6 +11,7 @@ from tqdm.auto import tqdm
 
 import data
 import t5
+import gpt
 
 
 def inference_loop(m, tk, dataloader, k, temp=0.7):
@@ -97,7 +100,7 @@ def compute_avg_certainty(vote: List[List[int]]) -> float:
     return np.mean(ginis), ginis
 
 
-def eval_loop(dataset, m, tk, k, batch_size=1, temp=0.7):
+def t5_eval_loop(dataset, m, tk, k, batch_size=1, temp=0.7):
     """
     m: T5ForConditionalGeneration
     tk: T5Tokenizer
@@ -151,3 +154,40 @@ def plot_sample_vs_accuracy(result_processed: List[EvalResultProcessed]):
 
     ax.grid()
     plt.show()
+
+
+def gpt_inference_loop(model, dataset, k, temp=0.7):
+    generated_text = []
+
+    for prompt in tqdm(dataset["prompt"]):
+        generated_text.append(gpt.complete(model, prompt, k=k, temp=temp))
+
+    return generated_text
+
+
+def gpt_eval_loop(model, dataset, k, temp=0.7):
+    generated_text = gpt_inference_loop(model, dataset, k, temp=temp)
+
+    result_raw = []
+    for n in range(2, k + 1):  # observe the effect of increasing sampling size
+        pred, vote, generated_text_n_cut = voting(generated_text, n)
+        result_raw.append(
+            EvalResultRaw(k, n, generated_text_n_cut, vote, pred, dataset["target"])
+        )
+
+    result_processed = []
+    for r in result_raw:
+        accuracy = compute_accuracy(r.pred, r.target)
+        avg_certainty, indi_certainty = compute_avg_certainty(r.vote)
+        result_processed.append(
+            EvalResultProcessed(r.n, accuracy, indi_certainty, avg_certainty)
+        )
+
+    return result_raw, result_processed
+
+
+def save_eval_result(results, path: str):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w") as f:
+        df = pd.DataFrame(results)
+        df.to_json(f, orient="records")
