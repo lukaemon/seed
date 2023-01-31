@@ -1,17 +1,3 @@
-[
-    {
-        "input": "The detective revealed an anomaly in the case. What could happen next, \"He finalized his theory.\" or \"He scrapped his theory.\"?",
-        "target": "he scrapped his theory.",
-        "pred": "he finalized his theory."
-    },
-    {
-        "input": "I doubted the salesman's pitch. What could happen next, \"I turned his offer down.\" or \"He persuaded me to buy the product.\"?",
-        "target": "i turned his offer down.",
-        "pred": "he persuaded me to buy the product."
-    },
-    {
-        "input": "I twisted the cap off the soda bottle. What could happen next, \"The soda fizzed.\" or \"The soda leaked out.\"?",
-        "target": "the soda fizzed.",
-        "pred": "the soda leaked out."
-    }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:8864cf160f6da361c3119b75c4d784fcef5f13ccffa672e429397713818ce0ad
+size 740

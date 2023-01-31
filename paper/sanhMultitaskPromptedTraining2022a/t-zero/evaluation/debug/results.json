@@ -1,8 +1,3 @@
-{
-    "dataset_name": "super_glue",
-    "dataset_config_name": "rte",
-    "template_name": "must be true",
-    "evaluation": {
-        "accuracy": 0.7003610108303249
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9a90551a35d6c9d757f8a9da0b5f26d2a960978c010b1bbe91290f8f479d056
+size 173

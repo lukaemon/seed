@@ -1,27 +1,3 @@
-[
-    {
-        "input": "The man lost the competition. Why? \"The competition was sabotaged.\" or \"He intimidated his competitors.\"?",
-        "target": "the competition was sabotaged.",
-        "pred": "he intimidated his competitors."
-    },
-    {
-        "input": "The pair of students came under scrutiny by the teacher. Why? \"The students both received excellent grades.\" or \"Their responses on the assignment were identical.\"?",
-        "target": "their responses on the assignment were identical.",
-        "pred": "the students both received excellent grades."
-    },
-    {
-        "input": "The man received a parking ticket. Why? \"He parallel parked on the street.\" or \"The parking meter expired.\"?",
-        "target": "the parking meter expired.",
-        "pred": "he parallel parked on the street."
-    },
-    {
-        "input": "I coughed. Why? \"I inhaled smoke.\" or \"I lowered my voice.\"?",
-        "target": "i inhaled smoke.",
-        "pred": "i coughed."
-    },
-    {
-        "input": "The judge pounded the gavel. Why? \"The courtroom broke into uproar.\" or \"The jury announced its verdict.\"?",
-        "target": "the courtroom broke into uproar.",
-        "pred": "the jury announced its verdict."
-    }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbabad01db4da44cd2da72984fc925ba593a3ec04a04a4f5a5a224b391522417
+size 1242

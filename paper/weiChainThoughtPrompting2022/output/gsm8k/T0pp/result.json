@@ -1,7 +1,3 @@
-{
-    "checkpoint": "bigscience/T0pp",
-    "accuracy": 0.001516300227445034,
-    "total": 1319,
-    "failure": 1317,
-    "regex_parsing_failure": 1319
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:71f093dcf325353be538b9d794eb177378f46ae453a3cd8225281516a5bdf2bd
+size 152

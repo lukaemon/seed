@@ -1,32 +1,3 @@
-[
-    {
-        "input": "Pick the more likely continuation to the following sentence:\nThe man lost the competition.  as a result of: \n- The competition was sabotaged.\n- He intimidated his competitors.",
-        "target": "the competition was sabotaged.",
-        "pred": "he intimidated his competitors."
-    },
-    {
-        "input": "Pick the more likely continuation to the following sentence:\nThe woman lavished her friend with flattery.  as a result of: \n- She wanted to ask her friend for a favor.\n- She was irritated with her friend's whining.",
-        "target": "she wanted to ask her friend for a favor.",
-        "pred": "she was irritated with her friend's whining."
-    },
-    {
-        "input": "Pick the more likely continuation to the following sentence:\nThe detective revealed an anomaly in the case.  as a consequence: \n- He finalized his theory.\n- He scrapped his theory.",
-        "target": "he scrapped his theory.",
-        "pred": "he finalized his theory."
-    },
-    {
-        "input": "Pick the more likely continuation to the following sentence:\nEveryone in the class turned to stare at the student.  as a result of: \n- The student's phone rang.\n- The student took notes.",
-        "target": "the student's phone rang.",
-        "pred": "the student took notes."
-    },
-    {
-        "input": "Pick the more likely continuation to the following sentence:\nThe judge pounded the gavel.  as a result of: \n- The courtroom broke into uproar.\n- The jury announced its verdict.",
-        "target": "the courtroom broke into uproar.",
-        "pred": "the jury announced its verdict."
-    },
-    {
-        "input": "Pick the more likely continuation to the following sentence:\nI twisted the cap off the soda bottle.  as a consequence: \n- The soda fizzed.\n- The soda leaked out.",
-        "target": "the soda fizzed.",
-        "pred": "the soda leaked out."
-    }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:2faf788c9a726be23ee89542a87ae2df0150d181c1e3bf5cc7cc5a2659744b0e
+size 1902

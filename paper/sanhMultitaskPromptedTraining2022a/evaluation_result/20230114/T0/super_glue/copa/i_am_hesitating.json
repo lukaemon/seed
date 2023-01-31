@@ -1,32 +1,3 @@
-[
-    {
-        "input": "The man received a parking ticket. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- He parallel parked on the street.\n- The parking meter expired.",
-        "target": "the parking meter expired.",
-        "pred": "he parallel parked on the street."
-    },
-    {
-        "input": "The detective revealed an anomaly in the case. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- He finalized his theory.\n- He scrapped his theory.",
-        "target": "he scrapped his theory.",
-        "pred": "he finalized his theory."
-    },
-    {
-        "input": "The horse bucked. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- A fly bit the horse.\n- The rider stroked the horse.",
-        "target": "a fly bit the horse.",
-        "pred": "the rider stroked the horse."
-    },
-    {
-        "input": "The judge pounded the gavel. \n\nI am hesitating between two options. Help me choose the more likely  cause: \n- The courtroom broke into uproar.\n- The jury announced its verdict.",
-        "target": "the courtroom broke into uproar.",
-        "pred": "the jury announced its verdict."
-    },
-    {
-        "input": "The computer was expensive to fix. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- I got it repaired.\n- I bought a new one.",
-        "target": "i bought a new one.",
-        "pred": "i got it repaired."
-    },
-    {
-        "input": "I twisted the cap off the soda bottle. \n\nI am hesitating between two options. Help me choose the more likely  effect: \n- The soda fizzed.\n- The soda leaked out.",
-        "target": "the soda fizzed.",
-        "pred": "the soda leaked out."
-    }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:780bcbc29525de80cfbdcbc6b524a14d7d863006f4ab406806da76a147f387c9
+size 1766
