@@ -1,6 +1,5 @@
 from functools import lru_cache, partial
 from pathlib import Path
-import json
 import re
 from typing import List
 
@@ -45,8 +44,10 @@ task_list = [
     "word_sorting",
 ]
 
+# task_list = ["boolean_expressions"]  # for testing
 
-def load_bbh(task_name, cutoff=None):
+
+def load_bbh(task_name, cutoff=32):
     ds = load_dataset("lukaemon/bbh", task_name, split="test")
 
     if cutoff:
@@ -110,8 +111,8 @@ def cot_prompt(instruction: str, cot: str, instance: dict) -> str:
     return prompt
 
 
-def build_dataloader(task_name, tokenizer, cot=False, n=FEW_SHOT_N, batch_size=8):
-    ds = load_bbh(task_name)
+def build_dataloader(task_name, tokenizer, cot, cutoff, n=FEW_SHOT_N, batch_size=8):
+    ds = load_bbh(task_name, cutoff)
 
     if cot:
         prompt_fn = partial(
@@ -129,6 +130,8 @@ def build_dataloader(task_name, tokenizer, cot=False, n=FEW_SHOT_N, batch_size=8
 
     # tokenize
     ds = ds.map(lambda instance: tokenizer(instance["prompt"]), batched=True)
+
+    target = ds["target"]  # save target for eval
 
     # remove columns for dataloader collator, leaves only input_ids, attention_mask
     ds = ds.remove_columns(["prompt", "input", "target"])
@@ -149,14 +152,14 @@ def build_dataloader(task_name, tokenizer, cot=False, n=FEW_SHOT_N, batch_size=8
         collate_fn=collator,
     )
 
-    return dl
+    return dl, target
 
 
-def bbh_response_regex(response: str, cot=False) -> str:
+def response_regex(response: str, cot=False) -> str:
     if cot:
         match = re.search(r"the answer is (.*).", response)
     else:
-        match = re.search(r"A: (.*)", response)
+        match = re.search(r"(.*)", response)
 
     if match:
         return match.group(1)
