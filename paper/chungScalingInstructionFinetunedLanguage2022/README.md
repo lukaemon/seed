@@ -14,6 +14,11 @@
   - Normalized average per model. 
     - Follow BIG-bench's normalized preferred metric protocol. 
     - "Our normalized average metric is the macro-average over six normalized scores: MMLU-Direct, MMLU-CoT, BBH-Direct, BBH-CoT, TyDiQA-Direct, and MGSM-CoT."
+- Token number analysis per prompted instance of the whole BBH
+  - cot=False: mean=465.29, min=84, max=1643
+  - cot=True: mean=945.07, min=241, max=1971
+  - That's why the paper assumes avg input token len = 1.5k. They do both direct prompt and CoT.
+  - You don't want prompt cutoff. Max length is set to 2048 for now. Output max length set to 512 so the output CoT and answers won't be cut off.
 
 ### Reading Flan-T5 paper
 - `gsm8k` is in the training set of `flan-t5`, not the test set of course. 
