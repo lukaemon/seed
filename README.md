@@ -36,7 +36,6 @@ The goal is learning to ask new question, and old question sharper.
 - [Multitask Prompted Training Enables Zero-Shot Task Generalization (2022)](paper/sanhMultitaskPromptedTraining2022a/)
 - [Chain of Thought Prompting Elicits Reasoning in Large Language Models (2022)](paper/weiChainThoughtPrompting2022/)
 - [Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022)](paper/wangSelfConsistencyImprovesChain2022a)
-- [Challenging BIG-Bench Tasks and Whether Chain-of-Thought Can Solve Them (2022)](paper/suzgunChallengingBIGBenchTasks2022)
 - [Scaling Instruction-Finetuned Language Models (2022)](paper/chungScalingInstructionFinetunedLanguage2022)
 
 ## Project

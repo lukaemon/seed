@@ -19,3 +19,4 @@ ruff
 flax==0.6.3
 optax==0.1.4
 seqio
+torchdata
