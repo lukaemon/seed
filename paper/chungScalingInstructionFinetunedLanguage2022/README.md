@@ -1,9 +1,16 @@
 ## What I've done?
+- Build [BBH huggingface dataset](https://huggingface.co/datasets/lukaemon/bbh).
+- Eval BBH with full set of `flan-t5` familiy. 
+- Build [MMLU huggingface dataset](https://huggingface.co/datasets/lukaemon/mmlu).
 
 ## What I've learned?
 - The purpose of finetuning and be very careful to what to finetune. Leave the rest to `PEFT` and prompt engineering. 
 
 ## Log
+### Working on MMLU
+- Same setup as BBH, except for using 5 shot.
+
+
 ### Working on BBH
 - Experiment setup:
   - 3 shot BBH. 
@@ -19,6 +26,11 @@
   - cot=True: mean=945.07, min=241, max=1971
   - That's why the paper assumes avg input token len = 1.5k. They do both direct prompt and CoT.
   - You don't want prompt cutoff. Max length is set to 2048 for now. Output max length set to 512 so the output CoT and answers won't be cut off.
+- `batch_size=8` would trigger cuda oom with xxl model at task 18, `ruin_names`. Huge mem allocation happened. 
+```
+OutOfMemoryError: CUDA out of memory. Tried to allocate 3.53 GiB (GPU 0; 23.69 GiB total capacity; 18.09 GiB 
+already allocated; 3.51 GiB free; 19.86 GiB reserved in total by PyTorch
+```
 
 ### Reading Flan-T5 paper
 - `gsm8k` is in the training set of `flan-t5`, not the test set of course. 
