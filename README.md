@@ -22,23 +22,25 @@ Learnings from paper reproduction and project would trickle back to the `seed` l
 python -m discord_bot.main
 ```
 
-## Paper reproduction
-The goal is learning to ask new question, and old question sharper. 
+## Create
+> Create to ask new question, and old question sharper. 
+
+![](asset/copy_transform_combined.jpeg)
 
 ### Model selection
 - OpenAI `davinci` is the only publicly accessible decorder model that's worth studying for cutting edge capability of LLM. Wait for `anthropic`'s API, if it's going to be released at all. 
 - `UL2` could be local alternative to `davinci` for the poor. Don't expect on par CoT reasoning capability.
 - `flan-t5-xxl` is the best instruction finetuned open encoder-decoder model at the moment. 
+- `t0pp` is weaker `flan-t5`. It's [github](https://github.com/bigscience-workshop/t-zero) code is good starting point. 
 
 ### Category
 - Basic
   - [Multitask Prompted Training Enables Zero-Shot Task Generalization](paper/sanhMultitaskPromptedTraining2022a/) - (2022)
-    - `t0pp` is weaker, older, open source version of `flan-t5`. ([github](https://github.com/bigscience-workshop/t-zero))
 - Base model
 - Finetuninig
   - [Scaling Instruction-Finetuned Language Models](paper/chungScalingInstructionFinetunedLanguage2022) - (2022)
-- Rationale engineering
+- Rationale engineering (think)
   - [Chain of Thought Prompting Elicits Reasoning in Large Language Models](paper/weiChainThoughtPrompting2022/) - (2022)
   - [Self-Consistency Improves Chain of Thought Reasoning in Language Models](paper/wangSelfConsistencyImprovesChain2022a) - (2022)
   - [Recitation-Augmented Language Models](paper/sunRecitationAugmentedLanguageModels2022a) - (2022)
-- Connect tools
+- Do something (act)
