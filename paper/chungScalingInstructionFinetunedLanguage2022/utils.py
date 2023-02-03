@@ -71,7 +71,9 @@ def build_dataloader(
         prompt_fn = partial(
             prompt.answer_only_prompt,
             inst_fn(task_name),
-            few_shot(raw_ds, n=n),
+            few_shot(
+                raw_ds, n=n
+            ),  # TODO: wrong way of handling few shots for mmlu, it should be from split=train
         )
 
     # apply prompt_fn to each instance
@@ -87,7 +89,7 @@ def build_dataloader(
     collator = DataCollatorForSeq2Seq(
         tokenizer=tokenizer,
         padding="longest",
-        max_length=2048,
+        max_length=4096,
         pad_to_multiple_of=8,
         return_tensors="pt",
     )

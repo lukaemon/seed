@@ -65,10 +65,7 @@ def analyze(full_text_pred: List[str], target: List[str], config: EvalConfig):
     return accuracy, failed_idx, failed_output, failed_pred
 
 
-def eval_task(config: EvalConfig) -> EvalResult:
-    logger.info(f"Loading model from {config.checkpoint}.")
-    m, tk = t5.load_model(config.checkpoint)
-
+def eval_task(m, tk, config: EvalConfig) -> EvalResult:
     dl, ds = utils.build_dataloader(
         config.dataset_name,
         config.task_name,

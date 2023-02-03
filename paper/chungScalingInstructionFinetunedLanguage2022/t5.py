@@ -26,7 +26,7 @@ def predict(model, tokenizer, batch, temp=0, k=1):
     batch_output = model.generate(
         input_ids=batch["input_ids"].cuda(),
         attention_mask=batch["attention_mask"].cuda(),
-        max_length=512,
+        max_length=256,
         do_sample=temp > 0,  # won't sample without this
         temperature=temp,
         num_return_sequences=k,

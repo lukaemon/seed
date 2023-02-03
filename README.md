@@ -27,19 +27,18 @@ The goal is learning to ask new question, and old question sharper.
 
 ### Model selection
 - OpenAI `davinci` is the only publicly accessible decorder model that's worth studying for cutting edge capability of LLM. Wait for `anthropic`'s API, if it's going to be released at all. 
-- `flan-t5-xxl` is the most versatile and best performant open encoder decoder model at the moment. 
-- `t0pp` is weaker, older, open source version of `flan-t5`. Still worth playing with. 
-  - [open source repo](https://github.com/bigscience-workshop/t-zero) is great starting point. 
+- `UL2` could be local alternative to `davinci` for the poor. Don't expect on par CoT reasoning capability.
+- `flan-t5-xxl` is the best instruction finetuned open encoder-decoder model at the moment. 
 
-
-### List
-- [Multitask Prompted Training Enables Zero-Shot Task Generalization (2022)](paper/sanhMultitaskPromptedTraining2022a/)
-- [Chain of Thought Prompting Elicits Reasoning in Large Language Models (2022)](paper/weiChainThoughtPrompting2022/)
-- [Self-Consistency Improves Chain of Thought Reasoning in Language Models (2022)](paper/wangSelfConsistencyImprovesChain2022a)
-- [Scaling Instruction-Finetuned Language Models (2022)](paper/chungScalingInstructionFinetunedLanguage2022)
-
-## Project
-The goal is getting hands dirty. Bridge the gap between understanding and capability to materialize. 
-
-### List
-- [minGPT](project/minGPT) in `pytorch` and `jax`. 
+### Category
+- Basic
+  - [Multitask Prompted Training Enables Zero-Shot Task Generalization](paper/sanhMultitaskPromptedTraining2022a/) - (2022)
+    - `t0pp` is weaker, older, open source version of `flan-t5`. ([github](https://github.com/bigscience-workshop/t-zero))
+- Base model
+- Finetuninig
+  - [Scaling Instruction-Finetuned Language Models](paper/chungScalingInstructionFinetunedLanguage2022) - (2022)
+- Rationale engineering
+  - [Chain of Thought Prompting Elicits Reasoning in Large Language Models](paper/weiChainThoughtPrompting2022/) - (2022)
+  - [Self-Consistency Improves Chain of Thought Reasoning in Language Models](paper/wangSelfConsistencyImprovesChain2022a) - (2022)
+  - [Recitation-Augmented Language Models](paper/sunRecitationAugmentedLanguageModels2022a) - (2022)
+- Connect tools
