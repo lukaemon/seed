@@ -23,24 +23,23 @@ python -m discord_bot.main
 ```
 
 ## Create
-> Create to ask new question, and old question sharper. 
-
 ![](asset/copy_transform_combined.jpeg)
+Everything is a Remix: [part1](https://www.youtube.com/watch?v=MZ2GuvUWaP8) | [part2](https://www.youtube.com/watch?v=HhMar_eYnNY) | [part3](https://www.youtube.com/watch?v=dwxtW1Aio68). This is open souce ethos, and the future is counting on open source AI.  
 
 ### Model selection
 - OpenAI `davinci` is the only publicly accessible decorder model that's worth studying for cutting edge capability of LLM. Wait for `anthropic`'s API, if it's going to be released at all. 
 - `UL2` could be local alternative to `davinci` for the poor. Don't expect on par CoT reasoning capability.
 - `flan-t5-xxl` is the best instruction finetuned open encoder-decoder model at the moment. 
-- `t0pp` is weaker `flan-t5`. It's [github](https://github.com/bigscience-workshop/t-zero) code is good starting point. 
+- `t0pp` is an instruction finetuned model from huggingface. [repo](https://github.com/bigscience-workshop/t-zero), a good starting point. 
 
 ### Category
 - Basic
-  - [Multitask Prompted Training Enables Zero-Shot Task Generalization](paper/sanhMultitaskPromptedTraining2022a/) - (2022)
+  - [Multitask Prompted Training Enables Zero-Shot Task Generalization](paper/sanhMultitaskPromptedTraining2022a/)
 - Base model
 - Finetuninig
-  - [Scaling Instruction-Finetuned Language Models](paper/chungScalingInstructionFinetunedLanguage2022) - (2022)
+  - [Scaling Instruction-Finetuned Language Models](paper/chungScalingInstructionFinetunedLanguage2022)
 - Rationale engineering (think)
-  - [Chain of Thought Prompting Elicits Reasoning in Large Language Models](paper/weiChainThoughtPrompting2022/) - (2022)
-  - [Self-Consistency Improves Chain of Thought Reasoning in Language Models](paper/wangSelfConsistencyImprovesChain2022a) - (2022)
-  - [Recitation-Augmented Language Models](paper/sunRecitationAugmentedLanguageModels2022a) - (2022)
+  - [Chain of Thought Prompting Elicits Reasoning in Large Language Models](paper/weiChainThoughtPrompting2022/)
+  - [Self-Consistency Improves Chain of Thought Reasoning in Language Models](paper/wangSelfConsistencyImprovesChain2022a)
+  - [Recitation-Augmented Language Models](paper/sunRecitationAugmentedLanguageModels2022a)
 - Do something (act)

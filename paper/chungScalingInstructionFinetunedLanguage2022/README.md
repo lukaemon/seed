@@ -34,7 +34,7 @@
 
 ### About building application
 - LLM API would do 80% of the work. It's universal glue. The rest would be few highly optimized T5 and other tools such as vector database, etc.
-- For super valuable, large TAM problem, tight vertical intergration is good startegy, like Neeva, which is capital and talent intensive. Not a good fit for first time entrepreneur. Accept the fact that you can't do that right now and focus on getting a win in the prosumer market asap.
+- For super valuable, large TAM problem, tight vertical intergration is good startegy, like Neeva, which is capital and talent intensive. Recognize what can be done and what's beyond means right now, accept, act and iterate as fast as possible. 
 - Let me get the 80% right first. `rationale engineering`, `in-context learning`, best practice of `prompt engineering`, etc. Then specialize on finetuning t5 models. 
 - Cultivate good taste on what is strategically valueable task to build customized model for. 
 
