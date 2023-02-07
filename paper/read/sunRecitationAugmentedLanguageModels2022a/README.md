@@ -54,3 +54,9 @@ answer = llm(recitations)
 - My hunch is most of light finetuning on small model could be few shot by LLM. If the task is valuable enough, it may warrant a prompt tuning. Probably the whole process of generating diversified recitation could be achieve by instruction prompt tuning with 10k task specific parameters. 
 - Or even better, since flan ft makes following instruction and CoT zero shot without RLHF, it's possible to instruction prompt tune flan-LLM to do multi-hop QA. 
 - Such approach won't generate new model, and won't affect the performance of old model or other tasks. It's more efficient way of using computation resource. 
+
+## Next?
+- Rational engineering so far only works on model with scale. I have no access to 540b and don't want to pour money into OpenAI, no point to reproduce rationale engineering paper for now. Could learn to use it though. 
+- Glue architecture like `RETRO` and `Flamigo` are promising. I would love to know how to connect few small LM to do something that is only possible with LLM so I could properly map my problem to the right architecture.
+- Maybe most of informal reasoning and natural language understanding would be done with a LLM, but how to connect it to retrieval and other modalities is still open problem.
+- People joke about retrieval QA as LM hello world recently. Check out ChatGPT, Claude, Bard and Bing. They are all retrieval QA. Solo researcher won't reach that level, but personalized, small scale retrieval QA is definitely doable and useful hello world. 

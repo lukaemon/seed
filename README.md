@@ -29,17 +29,18 @@ I open this repo for people and future AI to learn from my trajectory.
 - `t0pp` is instruction finetuned model from huggingface. [repo](https://github.com/bigscience-workshop/t-zero), a good starting point. 
 
 ## Copy
-Rank chronologically from earliest to newest.
-- [Multitask Prompted Training Enables Zero-Shot Task Generalization](paper/sanhMultitaskPromptedTraining2022a/)
-- [Chain of Thought Prompting Elicits Reasoning in Large Language Models](paper/weiChainThoughtPrompting2022/)
-- [Self-Consistency Improves Chain of Thought Reasoning in Language Models](paper/wangSelfConsistencyImprovesChain2022a)
-- [Scaling Instruction-Finetuned Language Models](paper/chungScalingInstructionFinetunedLanguage2022)
-- [Recitation-Augmented Language Models](paper/sunRecitationAugmentedLanguageModels2022a)
+|   | name | type | date | note |
+|---|------|------|------|------|
+|   |[Multitask Prompted Training Enables Zero-Shot Task Generalization](paper/code/sanhMultitaskPromptedTraining2022a/)|code|202301|eval only|
+|   |[Chain of Thought Prompting Elicits Reasoning in Large Language Models](paper/code/weiChainThoughtPrompting2022/)|code|202301|      |
+|   |[Self-Consistency Improves Chain of Thought Reasoning in Language Models](paper/code/wangSelfConsistencyImprovesChain2022a)|code|202301
+|   |[Scaling Instruction-Finetuned Language Models](paper/code/chungScalingInstructionFinetunedLanguage2022)|code|202302|eval only
+|   |[Recitation-Augmented Language Models](paper/read/sunRecitationAugmentedLanguageModels2022a)|read|202302|      |
+|   |      |      |      |      |
 
 
 ## Transform
-Rank chronologically from earliest to newest.
 - not yet lol
 
 ## Combine
-not yet orz
+- not yet orz
