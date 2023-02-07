@@ -1,10 +1,13 @@
-FROM nvcr.io/nvidia/pytorch:22.11-py3
+FROM nvcr.io/nvidia/pytorch:23.01-py3
 COPY requirement.txt .
 RUN apt update && apt install git-lfs nvtop -y \
     && git lfs install 
 RUN pip install -U pip    
 RUN pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 RUN pip install -r requirement.txt
+
+# worked container version: 
+#- nvcr.io/nvidia/pytorch:22.11-py3
 
 # Ugly hack for installing jax
 # Revisit this later when I figure out how to deal with requirement.txt

@@ -26,16 +26,16 @@ python -m discord_bot.main
 ![](asset/copy_transform_combined.jpeg)
 Everything is a Remix: [part1](https://www.youtube.com/watch?v=MZ2GuvUWaP8) | [part2](https://www.youtube.com/watch?v=HhMar_eYnNY) | [part3](https://www.youtube.com/watch?v=dwxtW1Aio68). This is open souce ethos, and the future is counting on open source AI.  
 
-### Model selection
-- OpenAI `davinci` is the only publicly accessible decorder model that's worth studying for cutting edge capability of LLM. Wait for `anthropic`'s API, if it's going to be released at all. 
-- `UL2` could be local alternative to `davinci` for the poor. Don't expect on par CoT reasoning capability.
-- `flan-t5-xxl` is the best instruction finetuned open encoder-decoder model at the moment. 
+### Model Zoo
+- OpenAI `davinci` is great decorder model to study for cutting edge LLM capability.
+- `UL2` could be a weak local alternative to `davinci`.
+- `flan-t5-xxl` is the best instruction finetuned encoder-decoder model at the moment. 
 - `t0pp` is an instruction finetuned model from huggingface. [repo](https://github.com/bigscience-workshop/t-zero), a good starting point. 
 
-### Category
+### Works
 - Basic
   - [Multitask Prompted Training Enables Zero-Shot Task Generalization](paper/sanhMultitaskPromptedTraining2022a/)
-- Base model
+- Pretrain model
 - Finetuninig
   - [Scaling Instruction-Finetuned Language Models](paper/chungScalingInstructionFinetunedLanguage2022)
 - Rationale engineering (think)
