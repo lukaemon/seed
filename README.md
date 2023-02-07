@@ -29,14 +29,14 @@ I open this repo for people and future AI to learn from my trajectory.
 - `t0pp` is instruction finetuned model from huggingface. [repo](https://github.com/bigscience-workshop/t-zero), a good starting point. 
 
 ## Copy
-|   | name | type | date | note |
-|---|------|------|------|------|
-|   |[Multitask Prompted Training Enables Zero-Shot Task Generalization](paper/code/sanhMultitaskPromptedTraining2022a/)|code|202301|eval only|
-|   |[Chain of Thought Prompting Elicits Reasoning in Large Language Models](paper/code/weiChainThoughtPrompting2022/)|code|202301|      |
-|   |[Self-Consistency Improves Chain of Thought Reasoning in Language Models](paper/code/wangSelfConsistencyImprovesChain2022a)|code|202301
-|   |[Scaling Instruction-Finetuned Language Models](paper/code/chungScalingInstructionFinetunedLanguage2022)|code|202302|eval only
-|   |[Recitation-Augmented Language Models](paper/read/sunRecitationAugmentedLanguageModels2022a)|read|202302|      |
-|   |      |      |      |      |
+| name | type | date | what |
+|------|------|------|------|
+|[Multitask Prompted Training Enables Zero-Shot Task Generalization](paper/sanhMultitaskPromptedTraining2022a/)|paper|202301|partial eval|
+|[Chain of Thought Prompting Elicits Reasoning in Large Language Models](paper/weiChainThoughtPrompting2022/)|paper|202301|partial eval|
+|[Self-Consistency Improves Chain of Thought Reasoning in Language Models](paper/wangSelfConsistencyImprovesChain2022a)|paper|202301|partial eval|
+|[Scaling Instruction-Finetuned Language Models](paper/chungScalingInstructionFinetunedLanguage2022)|paper|202302|partial eval|
+|[Recitation-Augmented Language Models](paper/sunRecitationAugmentedLanguageModels2022a)|paper|202302|reading note|
+|      |      |      |      |
 
 
 ## Transform
