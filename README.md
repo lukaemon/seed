@@ -39,4 +39,4 @@ Maybe the best way to use this repo is not going through it directly, but to con
 - `t0pp` is instruction finetuned model from huggingface. [repo](https://github.com/bigscience-workshop/t-zero), a good starting point. 
 
 ## Trajectory
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRB3qSgKvrpwJoVJ__rMSvKILTUAO5LnZeuFSnRi8aidxGNuOW1AGcE4ozPX33ZoyPtU1rqAwsA-HGf/pubhtml?widget=true&amp;headers=false"></iframe>
+- [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35SVBTQCOFwBEhI2CHr9H9a-CAggP6g/edit?usp=sharing)
