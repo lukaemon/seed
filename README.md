@@ -38,19 +38,5 @@ Maybe the best way to use this repo is not going through it directly, but to con
 - `flan-t5-xxl` is the best instruction finetuned encoder-decoder model at the moment. 
 - `t0pp` is instruction finetuned model from huggingface. [repo](https://github.com/bigscience-workshop/t-zero), a good starting point. 
 
-## Copy
-| name | type | date | what |
-|------|------|------|------|
-|[Multitask Prompted Training Enables Zero-Shot Task Generalization](paper/sanhMultitaskPromptedTraining2022a/)|paper|202301|partial eval|
-|[Chain of Thought Prompting Elicits Reasoning in Large Language Models](paper/weiChainThoughtPrompting2022/)|paper|202301|partial eval|
-|[Self-Consistency Improves Chain of Thought Reasoning in Language Models](paper/wangSelfConsistencyImprovesChain2022a)|paper|202301|partial eval|
-|[Scaling Instruction-Finetuned Language Models](paper/chungScalingInstructionFinetunedLanguage2022)|paper|202302|partial eval|
-|[Recitation-Augmented Language Models](paper/sunRecitationAugmentedLanguageModels2022a)|paper|202302|reading note|
-|      |      |      |      |
-
-
-## Transform
-- not yet lol
-
-## Combine
-- not yet orz
+## Trajectory
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRB3qSgKvrpwJoVJ__rMSvKILTUAO5LnZeuFSnRi8aidxGNuOW1AGcE4ozPX33ZoyPtU1rqAwsA-HGf/pubhtml?widget=true&amp;headers=false"></iframe>

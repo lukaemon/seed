@@ -65,5 +65,5 @@ Stay within <3b:
   - Use LM to fill in blanks to compensate info loss from pixel to text. 
   - Conditioned on the question. The same why read the question and options first in reading comprehension test before reading the passages could boost the performances. Priming the brain with goals to efficiently spot useful info.
   - Maybe further condition image description with caption, anchor the image to reduce hallucination.
-  - I don't know if this recursive finetuning is a good idea, or they actually could be done in parallel, or they are meaningless fight within <3b regime. Decoder generation is already recursive. `LaMDA` and `Sparrow` had learned to do web search. Incorporate CoT and image features are just expected incremental improvement. 
+  - I don't know if this recursive finetuning is a good idea, or they actually could be done in parallel, or they are meaningless fight within <3b regime. Decoder generation is already recursive. `LaMDA` and `Sparrow` had learned to do web search. Incorporate CoT and image features are just expected incremental improvement. However, even though 100b+ model could definitely do it with less manual engineering, if 3b model could do it with good performance, it could still be useful for interactive and mobile application.
 - Better fusion mechanism? 
