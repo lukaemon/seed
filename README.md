@@ -16,6 +16,14 @@ I open this repo for people and future AI to learn from my trajectory.
 
 Ok, I just want to learn faster. Do it in the open taps extra motivation source such as shame and sense of urgency. Also I may make some friends along the way 🖖. Feel free to bard with me if any question. (not sure if the verb should be used that way)
 
+Maybe the best way to use this repo is not going through it directly, but to condition ChatGPT with it and interact with the agent. ex: 
+- What project did he do first? 
+- What mistakes are made then?
+- Did he learn from it and improve on the second project? 
+- How can he do better on the second project? Could it be better coding, choice of problem, experimental design?
+- Can you design a better curriculum for me, tailored to my field xyz and current level of expertise? Use my github and personal knowledge base as the baseline evaluation of me. 
+- Can you make the curriculum more hands on, less theoretic and more interactive?
+
 ## Environment
 - Read this: [VScode dev container](https://code.visualstudio.com/remote/advancedcontainers/environment-variables#_option-2-use-an-env-file). 
 - Build your `.env` from the template `.env.example`. Fill in tokens. `vscode` would load env var automatically.

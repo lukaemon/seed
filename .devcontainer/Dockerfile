@@ -1,6 +1,6 @@
 FROM nvcr.io/nvidia/pytorch:23.01-py3
 COPY .devcontainer/requirement.txt .
-RUN apt update && apt install git-lfs nvtop -y \
+RUN apt update && apt install git-lfs nvtop tmux -y \
     && git lfs install 
 RUN pip install -U pip    
 RUN pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html

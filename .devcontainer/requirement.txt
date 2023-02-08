@@ -1,22 +1,20 @@
-openai==0.26.*
 transformers==4.26.*
-datasets==2.8.0
-accelerate==0.15.0
-promptsource==0.2.3
-
+datasets==2.9.0
+accelerate==0.16.0
 evaluate
 bitsandbytes 
 sentencepiece
 
+openai==0.26.*
+promptsource==0.2.3
 discord.py==2.1.*
 glances[all]
 ipywidgets==7.7.2  # https://github.com/microsoft/vscode-jupyter/issues/8552
 ipykernel
 tqdm
 black
-ruff
+apache-beam
 
 flax==0.6.3
 optax==0.1.4
 seqio
-apache-beam
