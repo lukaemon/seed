@@ -4,6 +4,7 @@ accelerate==0.16.0
 evaluate
 bitsandbytes 
 sentencepiece
+deepspeed
 
 openai==0.26.*
 promptsource==0.2.3
