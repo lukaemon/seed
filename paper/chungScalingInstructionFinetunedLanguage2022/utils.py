@@ -79,7 +79,8 @@ def build_dataloader(
     # apply prompt_fn to each instance
     ds = raw_ds.map(lambda instance: {"prompt": prompt_fn(instance)})
 
-    # tokenize
+    # tokenize, the transform is applied on-the-fly on batches when __getitem__ is called.
+    # TODO: this is not efficient, we should tokenize the whole dataset at once
     ds = ds.with_transform(lambda instance: tokenizer(instance["prompt"]))
 
     # remove columns for dataloader collator, leaves only input_ids, attention_mask

@@ -1,4 +1,11 @@
-## Done
+## Context
+[CoT](https://github.com/lukaemon/seed/tree/main/paper/weiChainThoughtPrompting2022), [SC](https://github.com/lukaemon/seed/tree/main/paper/wangSelfConsistencyImprovesChain2022a) and [recitation](https://github.com/lukaemon/seed/tree/main/paper/sunRecitationAugmentedLanguageModels2022a) give me decent understanding of in-context learning. 
+However, I have only 2 options to continue rationale engineering research:
+- Pouring money into 8*A100 to run 100b+ model.
+- Pouring money into OpenAI api. 
+Not interested in either. Want to max out my local 2*3090 first. 
+
+Inspired by [recitation](https://github.com/lukaemon/seed/tree/main/paper/sunRecitationAugmentedLanguageModels2022a) and [RETRO](http://arxiv.org/abs/2112.04426), I want to learn more about retrieval because it could solve knowledge problem and text should be the easiest modality to fuse with LLM. RETRO could be the first step towards multimodal system. However, RETRO is too hard for me at this point so `mm-cot` is even better starting point. Image here is essentially text so it's text-text multimodal like RETRO. The code and math are much easier to understand. So we begin.
 
 ## Learned
 ### Pseudo code
@@ -13,13 +20,18 @@ def fn(x_lang, x_vis):
     x_lang: text input, (n), len of text input 
     x_vis: image input, preprocessed by DETR, (m), m patch
     """
-    h_lang = encoder(x_lang)  # (n, d), d, hidden dimension
-
-    # manually designed text-image modality fusion
+    h_lang = encoder(x_lang)  # (n, d), d=hidden dimension
     h_vis = W_h @ x_vis  # (m, d)
+
+    # text image cross attention to get text conditioned image feature
+    # in the first pass to get rationale, the image feature is conditioned by question
+    # in the second pass to get answer, the image feature is conditioned by question plus rationale
+    # shape is dominated by q=h_lang. k,v=h_vis
     h_attn_vis = softmax(h_lang @ h_vis.T / math.sqrt(h_lang.shape[-1])) @ h_vis  # (n, d)
+
+    # gated fusion
     r = sigmoid(W_l @ h_lang + W_v @ h_attn_vis)
-    h_fuss = (1 - r) * h_lang + r * h_att_vis
+    h_fuss = (1 - r) * h_lang + r * h_att_vis  # (n, d)
 
     # generate text output autoregressively
     y = decoder(h_fuss) # (o), len of text output
@@ -39,7 +51,7 @@ def fn(x_lang, x_vis):
 
 Could these all be replaced by doing few-shot with `Flamingo`, and `instruction prompt tuning` to make it zero shot? 
 
-That said, `gated cross attention` in `Flamingo` is designed as well. Modality fusion is open question. The beauty of this paper is simple and easy engineering to get multimodal QA working better.
+That said, `gated cross attention` in `Flamingo` is designed as well. Modality fusion is open question. The beauty of this paper is simple and easy engineering to get multimodal QA working better. Amazed that 3 new matrices and 2 line equation about gated fusion could make such a big difference.
 
 ### Multimodal vector space
 - `DETR` is the major effort to get mutual information of image and text. `h_vis` will go through non-linearity in fusion and decoding phase plus all param finetuning would definitely adopt. 
@@ -53,7 +65,7 @@ That said, `gated cross attention` in `Flamingo` is designed as well. Modality f
 - Factual mistake could be solved by retrieval augmentation.
 - Common sense and logical mistake could be solved by scale. Can't afford that route. How to do better in <3b regime?  
 
-## Possibility
+## Trigger
 Stay within <3b:
 - Naive scale. Change base model to 3b. See if common sense and logical mistake are improved.
 - Help LM to make better informed decision and push the multistage finetuning a little bit:

@@ -1,3 +1,4 @@
+wandb/
 .DS_Store
 nas/
 cache/
