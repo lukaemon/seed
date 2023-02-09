@@ -40,15 +40,14 @@ In this [ZeRO blog](https://www.microsoft.com/en-us/research/blog/ZeRO-deepspeed
 ![](https://www.microsoft.com/en-us/research/uploads/prod/2020/02/DeepSpeed-Image-1.png)
 >  As a specific example, we show the memory consumption for a 7.5B parameter model using Adam optimizer where **K=12** on 64 GPUs. We also show the communication volume of ZeRO relative to the baseline.
 
-- Huggingface is default to `AdamW`. For `t5-base`, 250M param model, given k=12 per paper. Expected memory footprint is `(12 + 2 + 2) * 0.25 = 4GB`. How come my peak memory usage is 27G? What's wrong here? 
-
-Try to reduce memory usage:
+[Try to reduce memory usage](https://huggingface.co/docs/transformers/v4.18.0/en/performance):
 ```python
-train_cutoff = 100
-ds["train"] = ds["train"].select(range(train_cutoff))
-ds["validation"] = ds["validation"].select(range(20))
+tcut = 100
+vcut = 20
+ds["train"] = ds["train"].select(range(tcut))
+ds["validation"] = ds["validation"].select(range(vcut))
 
-ds["test"] = ds["test"].select(range(20))
+ds["test"] = ds["test"].select(range(vcut))
 ```
 - baseline: 27G, 45sec, 175 tflops
 - `gradient_accumulation_steps=8`: 27G, 43sec, 174 tflops
@@ -57,18 +56,46 @@ ds["test"] = ds["test"].select(range(20))
 - `fp16`: 27G, 45sec, 175 tflops
 - `fp32`: 36G, 47sec, 175 tflops
 - `adamw_apex_fused`: 27G, 45sec, 175 tflops
-- `model.parallelize()`: 20G, 28 sec, 129 tflops, large still OOM. 
+- `model.parallelize()`: 20G, 28 sec, 129 tflops, GPU utilization drops to ~50. Large OOM. 
 - single GPU: 17g, 68sec, 129 tflops, what the hell? Large OOM. 
-- large, baseline bs=1 OOM on 4*a6000. This couldn't be right. 
+- baseline bs=1 on 4*a6000. Large OOM. This couldn't be right. 
 
 
-Nothing works for large. 3 possible solutions:
+Nothing works. 3 possible solutions:
 1. try deepspeed
 2. try pytorch FSDP
 3. try t5x
 
 - Before I understand the anatomy of memory footprint during training, they are just throwing shits at the wall and see what sticks strategy. 
-- [ZeRO paper](http://arxiv.org/abs/1910.02054) helps. Model state + activation + buffer are easy 40x+ multiple with mixed precision fp16 training setup, but in my case, 250m -> 27g is ~100x. What did I miss?
+- [ZeRO paper](http://arxiv.org/abs/1910.02054) helps. Model state + activation + buffer are easy 40x+ multiple with mixed precision fp16 training setup, 40x with 250m model = 10g max. but in my case, 250m -> 27g is ~100x. What did I miss?
 - This is an embarrassing wake up call. I could read PaLM and Sparrow all day but in reality, finetuning t5-large for a hello world level summary task is a big challenge for now. 
+- [mm-cot source code](https://github.com/amazon-science/mm-cot/blob/main/main.py#L32) cuts input_len at 512. I am doing 4096 right now. Would that be the problem? Bingo!
+  - `max_length=512` + `model.parallelize()`: 6g, 25sec, 91 tflops...
+  - `max_length=512`: 7g, 43sec, 110 tflops
 
+#### T5 max length
+```
+/usr/local/lib/python3.8/dist-packages/transformers/models/t5/tokenization_t5_fast.py:155: FutureWarning: This tokenizer was incorrectly instantiated with a model max length of 512 which will be corrected in Transformers v5.
+For now, this behavior is kept to avoid breaking backwards compatibility when padding/encoding with `truncation is True`.
+- Be aware that you SHOULD NOT rely on t5-base automatically truncating your input to 512 when padding/encoding.
+- If you want to encode/pad to sequences longer than 512 you can either instantiate this tokenizer with `model_max_length` or pass `max_length` when encoding/padding.
+```
+- [Warning tells you you will get indexing errors in T5 for going beyond max length](https://github.com/huggingface/transformers/issues/16986#issuecomment-1112190230)
+- [What is the maximum input seq length, when using T5-3b model?](https://github.com/google-research/text-to-text-transfer-transformer/issues/273)
+- [T5 Model : What is maximum sequence length that can be used with pretrained T5 (3b model) checkpoint?](https://github.com/huggingface/transformers/issues/5204)
+- [[T5 Tokenizer] Model has no fixed position ids - there is no hardcode](https://github.com/huggingface/transformers/pull/16990)
 
+With [Padding and truncation
+](https://huggingface.co/docs/transformers/main/en/pad_truncation#padding-and-truncation): this setting means: **padding to max sequence in batch**. 
+```python
+model_input = tokenizer(
+        inputs,
+        padding=True,
+        pad_to_multiple_of=8,
+        truncation=True,
+    )
+```
+- By default T5 should not have a set maximum length. 
+- The setting works on Large, bs=8, XL is still OOM.
+- I like this set up more. All tokenizer settings are in one place. Keep collator args clean.
+- `m.parallelize()` has lower GPU utilization but faster runtime and more even GPU memory allocation. Why?
