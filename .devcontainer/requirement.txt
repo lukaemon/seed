@@ -6,6 +6,10 @@ bitsandbytes
 sentencepiece
 deepspeed
 
+flax==0.6.3
+optax==0.1.4
+seqio
+
 openai==0.26.*
 promptsource==0.2.3
 discord.py==2.1.*
@@ -18,7 +22,4 @@ apache-beam
 rouge-score
 nltk
 wandb
-
-flax==0.6.3
-optax==0.1.4
-seqio
+fire

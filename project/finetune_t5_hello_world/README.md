@@ -1,10 +1,11 @@
 ## Context
-[mm-cot]() involves finetuning T5, but I haven't done it even once before. Since finetuning task specific model is the selling point of huggingface, build some muscle memory couldn't be wrong. 
+`mm-cot` involves finetuning T5, but I haven't done it even once before. Since finetuning task specific model is the selling point of huggingface, build some muscle memory couldn't be wrong. 
 
 I know the purpose of gpt-3 is replacing task specific 3b model with few-shot on single LLM, but look at Whisper, Stable Diffusion, Codex, Neeva and sentence-transformers, I want to find an effective symbiosis between specialized small models and LLM. 
 
 ## Done
 - 3 hello world summary finetuning on t5 series. 
+- Publish a [blog](https://lukaemon.github.io/posts/2023/t5-finetuning-hello-world/samsum.html) based on this journey. Call this `stupidity economy`, making the most learning value out of stupidity. 
 
 ## Learned
 - General API of huggingface `trainer`. 
@@ -14,6 +15,9 @@ I know the purpose of gpt-3 is replacing task specific 3b model with few-shot on
   - Eye ball few examples. 
   - Do the task by yourself to get a sense of what you are going to ask the model to do.
   - Simple statistics on the dataset, such as token length distribution, token frequency, etc.
+- `wandb` is a great tool for organizing different experiments.
+- [Fire](https://github.com/google/python-fire) is great at reducing boilerplate argparse code.
+
 
 ## Trigger
 - Push training hardware utilization
@@ -30,6 +34,12 @@ I know the purpose of gpt-3 is replacing task specific 3b model with few-shot on
 
 
 ## Log
+### Experiment tracking.
+> T5 models need a slightly higher learning rate than the default one set in the Trainer when using the AdamW optimizer. Typically, 1e-4 and 3e-4 work well for most problems (classification, summarization, translation, question answering, question generation). Note that T5 was pre-trained using the AdaFactor optimizer.
+
+Verify this as practice to use `wandb` -> [report](https://api.wandb.ai/links/lukaemon/gcycw3on)
+ 
+
 ### Out of memory
 #### My training config baseline:
 ```python
@@ -118,5 +128,4 @@ model_input = tokenizer(
 ```
 - By default T5 should not have a set maximum length. 
 - The setting works on Large, bs=8, XL is still OOM.
-- I like this set up more. All tokenizer settings are in one place. Keep collator args clean.
 - `m.parallelize()` has lower GPU utilization but faster runtime and more even GPU memory allocation. Why?
