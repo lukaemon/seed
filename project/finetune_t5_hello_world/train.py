@@ -16,35 +16,45 @@ import wandb
 import fire
 
 nltk.download("punkt", quiet=True)
+wandb.init(project="finetune-t5-hello-world")
 
 
-checkpoint = "google/flan-t5-base"
-dataset_name = "samsum"
+def main(
+    dataset_name,
+    gpu,
+    lr=3e-4,
+    bs=4,
+    epochs=1,
+    max_length=1024,
+    padding=True,
+    pad_to_multiple_of=8,
+    checkpoint="google/flan-t5-base",
+):
+    gpu = str(gpu)
+    if gpu in ["0", "1"]:
+        os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu)  # visible GPU
 
-utc_time_in_seconds = int(time.time())
+    utc_time_in_seconds = int(time.time())
+    ft_output_dir = os.getenv("HF_FINETUNE_OUTPUT_DIR")
+    model_name = checkpoint.split("/")[-1]
+    hub_model_id = f"{model_name}-{dataset_name}-{utc_time_in_seconds}"
+    model_output_dir = os.path.join(ft_output_dir, hub_model_id)
 
-ft_output_dir = os.getenv("HF_FINETUNE_OUTPUT_DIR")
-model_name = checkpoint.split("/")[-1]
-hub_model_id = f"{model_name}-{dataset_name}-{utc_time_in_seconds}"
-model_output_dir = os.path.join(ft_output_dir, hub_model_id)
-
-wandb.init(project="t5-hyperparam-experiment", notes="try out few hyper params for fun")
-
-padding = True
-pad_to_multiple_of = 8
-
-
-def main(lr):
+    wandb.config.dataset_name = dataset_name
     lr = float(lr)
+
     ds = load_dataset(dataset_name)
-
     model = AutoModelForSeq2SeqLM.from_pretrained(checkpoint)
-    model.parallelize()
-
+    if gpu == "all":
+        model.parallelize()
     tokenizer = AutoTokenizer.from_pretrained(checkpoint)
 
+    input_column = "dialogue" if dataset_name == "samsum" else "document"
+
     def preprocess(examples):
-        output = tokenizer(examples["dialogue"])
+        output = tokenizer(
+            examples[input_column], max_length=max_length, truncation=True
+        )
         output["labels"] = tokenizer(examples["summary"])["input_ids"]
         return output
 
@@ -79,11 +89,11 @@ def main(lr):
         evaluation_strategy="epoch",
         learning_rate=lr,
         optim="adafactor",
-        per_device_train_batch_size=4,
-        per_device_eval_batch_size=4,
+        per_device_train_batch_size=bs,
+        per_device_eval_batch_size=bs,
         weight_decay=0.01,
         save_total_limit=2,
-        num_train_epochs=5,
+        num_train_epochs=epochs,
         bf16=True,
         gradient_accumulation_steps=4,
         predict_with_generate=True,
