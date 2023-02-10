@@ -6,6 +6,7 @@ I know the purpose of gpt-3 is replacing task specific 3b model with few-shot on
 ## Done
 - 3 hello world summary finetuning on t5 series. 
 - Publish a [blog](https://lukaemon.github.io/posts/2023/t5-finetuning-hello-world/samsum.html) based on this journey. Call this `stupidity economy`, making the most learning value out of stupidity. 
+- `wandb` [report](https://api.wandb.ai/links/lukaemon/gcycw3on) of hyperparam, learning rate. 
 
 ## Learned
 - General API of huggingface `trainer`. 
@@ -16,7 +17,7 @@ I know the purpose of gpt-3 is replacing task specific 3b model with few-shot on
   - Do the task by yourself to get a sense of what you are going to ask the model to do.
   - Simple statistics on the dataset, such as token length distribution, token frequency, etc.
 - `wandb` is a great tool for organizing different experiments.
-- [Fire](https://github.com/google/python-fire) is great at reducing boilerplate argparse code.
+- [Fire](https://github.com/google/python-fire) is great at reducing boilerplate argparse codes.
 
 
 ## Trigger
@@ -34,10 +35,10 @@ I know the purpose of gpt-3 is replacing task specific 3b model with few-shot on
 
 
 ## Log
-### Experiment tracking.
+### Experiment tracking
 > T5 models need a slightly higher learning rate than the default one set in the Trainer when using the AdamW optimizer. Typically, 1e-4 and 3e-4 work well for most problems (classification, summarization, translation, question answering, question generation). Note that T5 was pre-trained using the AdaFactor optimizer.
 
-Verify this as practice to use `wandb` -> [report](https://api.wandb.ai/links/lukaemon/gcycw3on)
+Try yyperparam searching as practice to use `wandb` -> [report](https://api.wandb.ai/links/lukaemon/gcycw3on)
  
 
 ### Out of memory
