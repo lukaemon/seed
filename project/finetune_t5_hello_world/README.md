@@ -4,10 +4,30 @@
 I know the purpose of gpt-3 is replacing task specific 3b model with few-shot on single LLM, but look at Whisper, Stable Diffusion, Codex, Neeva and sentence-transformers, I want to find an effective symbiosis between specialized small models and LLM. 
 
 ## Done
+- 3 hello world summary finetuning on t5 series. 
 
 ## Learned
+- General API of huggingface `trainer`. 
+- The quest to fight OOM leads me to init exploration of training optimization and details of padding/truncation. 
+- The nature of relational position embedding and the artificial model max_length imposed on the t5 series. 
+- Do simple data munging to understand the shape of data would prevent many stupid mistakes later. 
+  - Eye ball few examples. 
+  - Do the task by yourself to get a sense of what you are going to ask the model to do.
+  - Simple statistics on the dataset, such as token length distribution, token frequency, etc.
 
 ## Trigger
+- Push training hardware utilization
+  - [Change vocabulary size for better throughput](https://twitter.com/karpathy/status/1621578354024677377). 
+    - [How can I change vocab size for pretrained model?](https://github.com/huggingface/transformers/issues/237)
+  - Learn to use accelerate, deepspeed, FSDP, composer, collossal, t5x. 
+- Inference
+  - Start from huggingface API
+  - Follow the [Neeva route](https://twitter.com/neeva/status/1622640441064579076?s=12&t=MjCpOKlzFcDn81EVM_HUFg)
+  - Read [Speculative Sampling](https://arxiv.org/abs/2302.01318) and [Scaling Transformer Inference](https://arxiv.org/abs/2211.05102). 
+- Better understanding of finetuning to adopt to different tasks
+  - Read [The Flan Collection](http://arxiv.org/abs/2301.13688)
+- Build t5 model from scratch, control every single bit of the model and training. This would be necessary stepping stone to multimodal research since lots of glue architecture requires model surgery. mm-cot has very light model modification for `gated fusion`, great init for me. 
+
 
 ## Log
 ### Out of memory
@@ -69,9 +89,10 @@ Nothing works. 3 possible solutions:
 - Before I understand the anatomy of memory footprint during training, they are just throwing shits at the wall and see what sticks strategy. 
 - [ZeRO paper](http://arxiv.org/abs/1910.02054) helps. Model state + activation + buffer are easy 40x+ multiple with mixed precision fp16 training setup, 40x with 250m model = 10g max. but in my case, 250m -> 27g is ~100x. What did I miss?
 - This is an embarrassing wake up call. I could read PaLM and Sparrow all day but in reality, finetuning t5-large for a hello world level summary task is a big challenge for now. 
-- [mm-cot source code](https://github.com/amazon-science/mm-cot/blob/main/main.py#L32) cuts input_len at 512. I am doing 4096 right now. Would that be the problem? Bingo!
+- [mm-cot source code](https://github.com/amazon-science/mm-cot/blob/main/main.py#L32) cuts input_len at 512. My `max_length=4096` right now. Would that be the problem? Bingo!
   - `max_length=512` + `model.parallelize()`: 6g, 25sec, 91 tflops...
   - `max_length=512`: 7g, 43sec, 110 tflops
+- I thought about model param, optimizer, but totally forget context window and the exponential memory nature of input length. 
 
 #### T5 max length
 ```
@@ -85,15 +106,15 @@ For now, this behavior is kept to avoid breaking backwards compatibility when pa
 - [T5 Model : What is maximum sequence length that can be used with pretrained T5 (3b model) checkpoint?](https://github.com/huggingface/transformers/issues/5204)
 - [[T5 Tokenizer] Model has no fixed position ids - there is no hardcode](https://github.com/huggingface/transformers/pull/16990)
 
-With [Padding and truncation
-](https://huggingface.co/docs/transformers/main/en/pad_truncation#padding-and-truncation): this setting means: **padding to max sequence in batch**. 
+[Padding and truncation
+](https://huggingface.co/docs/transformers/main/en/pad_truncation#padding-and-truncation): this setting means **padding to max sequence in batch**. 
 ```python
 model_input = tokenizer(
-        inputs,
-        padding=True,
-        pad_to_multiple_of=8,
-        truncation=True,
-    )
+    inputs,
+    padding=True,
+    pad_to_multiple_of=8,
+    truncation=True,
+)
 ```
 - By default T5 should not have a set maximum length. 
 - The setting works on Large, bs=8, XL is still OOM.
