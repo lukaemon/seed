@@ -1,8 +1,8 @@
-## What I've done?
+## Done
 - Build [BBH huggingface dataset](https://huggingface.co/datasets/lukaemon/bbh). Eval BBH across all `flan-t5` familiy. 
 - Build [MMLU huggingface dataset](https://huggingface.co/datasets/lukaemon/mmlu). Eval MMLU across all `flan-t5` familiy.
 
-## What I've learned?
+## Learned
 ### About engineering
 - HF dataset is a good way to organize data. A must for repdoducible research.
 - BBH test time is `770min` for all t5 model. GPU usage is ~50% for each. Naive `model.parallel()` is not effective. MMLU took even longer. I have to dig in hf transformers or switch to t5x for better computation utilization.

@@ -1,9 +1,9 @@
-## What I've done?
+## Done
 - Reproduce `GSM8k` and `CSQA` eval on t5 series. 
   - `GSM8k`/test: 16.7%, `flan-t5-xxl`
   - `CSQA`/validation: 84.6%, `flan-t5-xxl`. This is better than `PaLM 540b`. Something wrong but I can't find answer of test split. Revisit later. 
 
-## What I've learned?
+## Learned
 - `flan-t5-xxl` is the only good open model to play with locally. Use `davinci` to taste cutting edge. 
 - Getting good at handling `hf dataset`, `tokenizer`, `pt DataLoader`, logging and prompt. Need those skills and more for future finetuning sessions. 
 - `BIG-bench` and `BBH` would be great init step into `t5x` ecosystem. Then I'm ready to dive into finetuning. Compare and contrast the ergonomics and efficiency for ft with hf vs t5x, GPU vs TPU. 

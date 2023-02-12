@@ -1,7 +1,7 @@
-## What I've done?
+## Done
 - Read the paper twice and very light coding to realize it's not worth digging deeper. Still good learning to QA task.
 
-## What I've learned?
+## Learned
 ### LLM as retrieval backend
 ![UL2](error_analysis.png) 
 - Tab4 is for UL2 20b. 

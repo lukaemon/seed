@@ -1,11 +1,11 @@
-## What I've done?
+## Done
 - I didn't do big-bench and skip `StoryCloze` evaluation. Would revisit big-bench when I'm ready to do finetuning with `t5x` and `seqio`. 
 - I do reproduce the T0 eval performance for the rest. They are very close to reported number from the paper. 
   - ![](./image/general.png)
   - `hellaswag` revisited:
     - ![hellaswag](./image/hellaswag.png)
 
-## What I've learned? 
+## Learned
 ### The difference between evaluating `language modeling` and more general `text2text` interface
 - The author frames all eval tasks as text classification to test the performance of underlying language model as giant text joint distribution by conditioning the model with the prompt and compute `sequence logprob` of each answer candidate to choose the max `logprob` as model response. 
 - This is drastically different to my approach, by treating LLM as `text2text` black box and judge the performance on generated output. 

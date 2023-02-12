@@ -21,7 +21,7 @@ wandb.init(project="finetune-t5-hello-world")
 
 def main(
     dataset_name,
-    gpu,
+    gpu,  # 0, 1, all
     lr=3e-4,
     bs=4,
     epochs=1,

@@ -1,8 +1,8 @@
-## What I've done?
+## Done
 - `gsm8k` on `flan-t5-xxl`, `16.7%` -> `~20%`. 
 - `gsm8k` on `davinci`. Get a sense of how expensive SC could scale computation. 
 
-## What I've learned?
+## Learned
 - Self-consistency is not effective on t5 11b model as in PaLM. Understandable. `Reasoning` is an emergent capability that usually show after `60b` scale. However, you can see the acc increase with sample size till 8, and the certainty level, gini, increases gradually as well. ![](output/flan-acc.png)
 - Use **voting as measurement of uncertainty** is one great realization. This is critical first step for LLM calibration.
 - Remember in `CoT` paper, inference is done with greedy sampling, `temp=0`. Here we use `temp=0.7`. That's why `sample size=1` performance is worse than experiments in `CoT` paper. We opt for diversify and vote to scale computation on problems, `self-ensemble`. 

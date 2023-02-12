@@ -39,4 +39,29 @@ Maybe the best way to use this repo is not going through it directly, but to con
 - `t0pp` is instruction finetuned model from huggingface. [repo](https://github.com/bigscience-workshop/t-zero), a good starting point. 
 
 ## Trajectory
-- [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35SVBTQCOFwBEhI2CHr9H9a-CAggP6g/edit?usp=sharing)
+Follow the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35SVBTQCOFwBEhI2CHr9H9a-CAggP6g/edit?usp=sharing) for the trajectory.   
+Projects are topologically sorted and connected as a linked list. Each project has a `README.md` presenting:
+
+### Context
+Why? What triggers me? To what ends?
+
+### Done
+What I actually create? 
+
+### Learned
+  - Answered known unknown. Realized unknown unknown. 
+  - Connect the dots. 
+
+### Next?
+  - Ask old question sharper. Ask new question. 
+  - Possible incremental, logical improvement. 
+  - Possible quantum leap, intuitive, creative, even crazy idea to try. 
+  
+  Doesn't mean I will follow though each of them. Just building up leads reservoir. Maybe I have to generate 100 bad ideas to get a good one. Fail fast and iterate applies to ideation as well. 
+
+### Log 
+  Log the process. Not just presenting final result.
+  
+  - Positive: making break through, good result, intuition, execution. 
+  - Negative: dead end, unproductive loop, failed experiment, tentative, flawed chain of thought, even emotional battle, ex: frustration, despair, giving up. 
+

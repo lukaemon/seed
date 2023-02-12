@@ -8,7 +8,31 @@ Not interested in either. Want to max out my local 2*3090 first.
 
 Inspired by [recitation](https://github.com/lukaemon/seed/tree/main/paper/sunRecitationAugmentedLanguageModels2022a) and [RETRO](http://arxiv.org/abs/2112.04426), I want to learn more about retrieval because it could solve knowledge problem and text should be the easiest modality to fuse with LLM. RETRO could be the first step towards multimodal system. However, RETRO is too hard for me at this point so `mm-cot` is even better starting point. Image here is essentially text so it's text-text multimodal like RETRO. The code and math are much easier to understand. So we begin.
 
+## Done
+
 ## Learned
+
+## Next?
+Stay within <3b:
+- Help LM to make better informed decision and push the multistage finetuning a little bit:
+  - It could be 4 stages:
+    1. finetune enc-dec to generate detailed description of the image from detr feature set, conditioned on the question: `fn(image, question): image description`
+    2. finetune open web n_top search retrieval summary: `fn(question, image description): retrieval_summary`
+    3. finetune `fn(question, image description, retrieval_summary): rationale`
+    4. finetune `fn(question, image description, retrieval_summary, rationale): answer`
+  - Use LM to fill in blanks to compensate info loss from pixel to text. 
+  - Conditioned on the question. The same why read the question and options first in reading comprehension test before reading the passages could boost the performances. Priming the brain with goals to efficiently spot useful info.
+  - Maybe further condition image description with caption, anchor the image to reduce hallucination.
+  - I don't know if this recursive finetuning is a good idea, or they actually could be done in parallel, or they are meaningless fight within <3b regime. Decoder generation is already recursive. `LaMDA` and `Sparrow` had learned to do web search. Incorporate CoT and image features are just expected incremental improvement. However, even though 100b+ model could definitely do it with less manual engineering, if 3b model could do it with good performance, it could still be useful for interactive and mobile application.
+- Try all recently released `VLM`s, [COCA, GIT, BLIP-2...](https://huggingface.co/spaces/nielsr/comparing-captioning-models)
+- Better fusion mechanism? 
+- `NeRF` as visual information encoder, decoder is conditioned on question as observational perspective. 
+  - An image is actually a prompt to the whole visual memory. The primed visual memory is the `functa` ready to be queried.
+  - If we could compress the visual memory of the world with neural network model, an input image plus a question would be the guide to the whole visual memory. A good VQA mechanism could use the guide properly and lead use to the answers. 
+- `PEFT` on 11b model? Instruction prompt tuning. 
+
+
+## Log
 ### Pseudo code
 ```python
 # given text and image input
@@ -65,18 +89,3 @@ That said, `gated cross attention` in `Flamingo` is designed as well. Modality f
 ![](asset/error.png)
 - Factual mistake could be solved by retrieval augmentation.
 - Common sense and logical mistake could be solved by scale. Can't afford that route. How to do better in <3b regime?  
-
-## Trigger
-Stay within <3b:
-- Naive scale. Change base model to 3b. See if common sense and logical mistake are improved.
-- Help LM to make better informed decision and push the multistage finetuning a little bit:
-  - It could be 4 stages:
-    1. finetune enc-dec to generate detailed description of the image from detr feature set, conditioned on the question: `fn(image, question): image description`
-    2. finetune open web n_top search retrieval summary: `fn(question, image description): retrieval_summary`
-    3. finetune `fn(question, image description, retrieval_summary): rationale`
-    4. finetune `fn(question, image description, retrieval_summary, rationale): answer`
-  - Use LM to fill in blanks to compensate info loss from pixel to text. 
-  - Conditioned on the question. The same why read the question and options first in reading comprehension test before reading the passages could boost the performances. Priming the brain with goals to efficiently spot useful info.
-  - Maybe further condition image description with caption, anchor the image to reduce hallucination.
-  - I don't know if this recursive finetuning is a good idea, or they actually could be done in parallel, or they are meaningless fight within <3b regime. Decoder generation is already recursive. `LaMDA` and `Sparrow` had learned to do web search. Incorporate CoT and image features are just expected incremental improvement. However, even though 100b+ model could definitely do it with less manual engineering, if 3b model could do it with good performance, it could still be useful for interactive and mobile application.
-- Better fusion mechanism? 
