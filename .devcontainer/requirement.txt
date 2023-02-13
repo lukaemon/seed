@@ -20,6 +20,8 @@ tqdm
 black
 apache-beam
 rouge-score
+rouge
 nltk
 wandb
 fire
+sentence-transformers
