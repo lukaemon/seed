@@ -21,7 +21,7 @@ black
 apache-beam
 rouge-score
 rouge
-nltk
+nltk>=3.6.6
 wandb
 fire
 sentence-transformers

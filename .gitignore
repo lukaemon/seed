@@ -1,7 +1,5 @@
-wip/zhangMultimodalChainofThoughtReasoning2023/mm-cot-main/data
-wip/zhangMultimodalChainofThoughtReasoning2023/mm-cot-main/vision_features
-wip/zhangMultimodalChainofThoughtReasoning2023/mm-cot-main/experiments
-wip/zhangMultimodalChainofThoughtReasoning2023/mm-cot-main/models
+wip/zhangMultimodalChainofThoughtReasoning2023/data
+wip/zhangMultimodalChainofThoughtReasoning2023/vision_features
 
 wandb/
 .DS_Store

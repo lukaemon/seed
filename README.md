@@ -29,8 +29,9 @@ For direct readers, progressive details per project from tl;dr to log are availa
 ps: serious computation power required to run model locally, ex: `flan-t5-xxl`. Choose smaller model or stick to OpenAI api with limited compute budget.  
 
 ## Project
-Each project is a brand new start. Will build universal abstraction when it's time. Won't force it for the sake of doing it. Premature abstraction is premature optimization. Unnecessary legacy. Each project has a `README.md` presenting:
+Each project is atomic, self-contained brand new start. At this stage I hope to only carry over ideas, not codes or prescribed structure. Repetition on purpose. Sample new way of doing new things with least legacy. When mature enough, isolated library would emerge to reduce unnecessary overhead. 
 
+Project `README.md` will present:
 ### tl;dr
 Elevator pitch of the project.
 
@@ -53,9 +54,7 @@ Log the process. Event driven, append only and chronologically sorted. Lightly g
 - Positive: making break through, good result, intuition, execution. 
 - Negative: dead end, unproductive loop, failed experiment, tentative, flawed chain of thought, even emotional battle, ex: frustration, despair, giving up. 
 
- 
-
-Overall it's similar to captain's log or super verbose chain of thought. Not the most human friendly format but I assume 99% of human won't actually read logs. The target audience is AI.
+Overall it's similar to captain's log or super verbose chain of thought. Not the most human friendly format but I 99% of human won't actually read logs. The target audience is AI.
 
 ## Trajectory
 Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35SVBTQCOFwBEhI2CHr9H9a-CAggP6g/edit?usp=sharing) for the trajectory. Read [learning to learn](TODO:) for why I structure the trajectory and project this way.
