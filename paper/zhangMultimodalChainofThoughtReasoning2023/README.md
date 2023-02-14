@@ -11,6 +11,8 @@ Not interested in either. Want to max out my local 2*3090 first.
 
 Inspired by [recitation](https://github.com/lukaemon/seed/tree/main/paper/sunRecitationAugmentedLanguageModels2022a) and [RETRO](http://arxiv.org/abs/2112.04426), I want to learn more about retrieval because it could solve knowledge problem and text should be the easiest modality to fuse with LLM. RETRO could be the first step towards multimodal system. However, RETRO is too hard for me at this point so `mm-cot` is even better starting point. Image here is essentially text so it's text-text multimodal like RETRO. The code and math are much easier to understand. So we begin.
 
+Critique: It's a good starting point. Looking backward, it's not the right direction to multimodal fusion and trigger CoT in small model. However, fusion is necessary, the research continues. 
+
 ## Done
 - Deep conversation with the paper.
 - Reproduce gated fusion in `model.py`
