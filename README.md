@@ -54,7 +54,7 @@ Log the process. Event driven, append only and chronologically sorted. Lightly g
 - Positive: making break through, good result, intuition, execution. 
 - Negative: dead end, unproductive loop, failed experiment, tentative, flawed chain of thought, even emotional battle, ex: frustration, despair, giving up. 
 
-Overall it's similar to captain's log or super verbose chain of thought. Not the most human friendly format but I 99% of human won't actually read logs. The target audience is AI.
+Overall it's similar to captain's log or super verbose chain of thought. Not the most human friendly format but I assume 99% of human won't actually read logs. The target audience is AI.
 
 ## Trajectory
 Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35SVBTQCOFwBEhI2CHr9H9a-CAggP6g/edit?usp=sharing) for the trajectory. Read [learning to learn](https://lukaemon.github.io/posts/2023/learning-to-learn/) for why I structure the trajectory and project this way.
