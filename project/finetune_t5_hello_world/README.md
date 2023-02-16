@@ -81,15 +81,18 @@ ds["validation"] = ds["validation"].select(range(vcut))
 
 ds["test"] = ds["test"].select(range(vcut))
 ```
-- baseline: 27G, 45sec, 175 tflops
-- `gradient_accumulation_steps=8`: 27G, 43sec, 174 tflops
-- `adafactor`: 27G, 45sec, 175 tflops
+- baseline flan-t5-base, 2 epoch with data cutoff, batch_size=1: 
+  - total cuda ram=27G
+  - total training time=45sec
+  - total floating point operation = 175 tflo
+- `gradient_accumulation_steps=8`: 27G, 43sec, 174 tflo
+- `adafactor`: 27G, 45sec, 175 tflo
 - `gradient_checkpointing=True` 16.5, over 11min, Orz
-- `fp16`: 27G, 45sec, 175 tflops
-- `fp32`: 36G, 47sec, 175 tflops
-- `adamw_apex_fused`: 27G, 45sec, 175 tflops
-- `model.parallelize()`: 20G, 28 sec, 129 tflops, GPU utilization drops to ~50. Large OOM. 
-- single GPU: 17g, 68sec, 129 tflops, what the hell? Large OOM. 
+- `fp16`: 27G, 45sec, 175 tflo
+- `fp32`: 36G, 47sec, 175 tflo
+- `adamw_apex_fused`: 27G, 45sec, 175 tflo
+- `model.parallelize()`: 20G, 28 sec, 129 tflo, GPU utilization drops to ~50. Large OOM. 
+- single GPU: 17g, 68sec, 129 tflo, what the hell? Large OOM. 
 - baseline bs=1 on 4*a6000. Large OOM. This couldn't be right. 
 
 
