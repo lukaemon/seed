@@ -49,8 +49,10 @@ Build up leads during the project. Don't care about the quality of idea. Record 
 - Possible incremental, logical improvements. 
 - Possible quantum leap, intuitive, creative, even crazy ideas to try. 
 
+Important questions from Log would be placed here. 
+
 ### Log 
-Log the process. Event driven, append only and chronologically sorted. Lightly grouped by topic since every sub-lists are direct, immediate expansion of parent point. Consider top level list as trigger prompts. Chronological flow of thoughts.
+Operational log. Event driven, append only and chronologically sorted. Lightly grouped by topic since sub-lists are direct, immediate expansion of parent point. Consider top level list as trigger prompts. Chronological flow of thoughts.
 - Positive: making break through, good result, intuition, execution. 
 - Negative: dead end, unproductive loop, failed experiment, tentative, flawed chain of thought, even emotional battle, ex: frustration, despair, giving up. 
 
