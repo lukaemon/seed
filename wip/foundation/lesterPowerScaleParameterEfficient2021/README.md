@@ -15,11 +15,17 @@
   - Finetuning: change the function by fitting all parameters to the new dataset. 
   - Pretraining: build something new from scratch. Cook with variety of datasets and objective functions.
     - Ex: Minerva, Galactica, BioGPT, UL2, FIM. 
+- Followed [deepspeed tutorial](https://www.philschmid.de/fine-tune-flan-t5-deepspeed). Lesson learned.
+  - Always read the result section first. `if (interesting result and affordable): do it`.
+  - CPU offloading is not magic. It could work in resource limited environment at a huge cost of increased training time. Use with caution. Time or money? In my case, not worth it because I need fast iteration. 
+  - `deepspeed` is a great tool but not the only one in the pursuit of efficient training. 
+  - Use `bf16` for mixed precision. 
+  - Use the best GPU you can rent. Faster training saves time and money, cheaper GPU tier costs more in total, aka wasting time AND money. 
 
 ## Next?
 - Prompt tuning version RETRO? What if you could take t5-xxl and tune it to better retrieval of personal knowledge base? Wouldn't it be more powerful than using static, generic embeddings? And maybe all common tasks could be casted as progressive prompts, plus the continual learning aspect of prompt tuning?
 - Apply progressive prompts to achieve multitask SuperGLUE?
-- Can we do `flan` with prompt tuning?
+- Can we do full `flan` with prompt tuning and test it on BBH and MMLU for ood performance? What if 200 tokens is enough lol?
   - Following instruction could be too important that full finetuning is necessary to overwrite messy priors from pretrained model because prompt tuning is not strong enough to overcome prior?
   > While this “unnatural” tendency to output sentinels is easy to overcome through fine-tuning, we suspect that it would be much harder to override through a prompt alone, as the decoder priors cannot be adjusted.
   >
@@ -50,7 +56,7 @@
   │    67 │   │   input_ = input.contiguous()                                                        │
   │    68 │   │   weight_ = weight.contiguous()                                                      │
   │ ❱  69 │   │   output, invvar = fused_layer_norm_cuda.rms_forward_affine(                         │
-  │    70 │   │   │   input_, ctx.normalized_shape, weight_, ctx.eps)                                │
+  │    70 │   │   │   input_[label](https://www.instagram.com/p/CovqzpTN8Jq/), ctx.normalized_shape, weight_, ctx.eps)                                │
   │    71 │   │   ctx.save_for_backward(input_, weight_, invvar)                                     │
   │    72 │   │   return output                                                                      │
   ╰──────────────────────────────────────────────────────────────────────────────────────────────────╯
