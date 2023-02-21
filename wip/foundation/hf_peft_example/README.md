@@ -29,4 +29,7 @@
   AttributeError: 'NoneType' object has no attribute 'device'
   ```
 - `os.environ["CUDA_VISIBLE_DEVICES"] = "0"` is ignored in 8bit inference.  
-  
+- Can't even get single card, `load_in_8bit` work as expected. Feel like fighting the framework. The api is not clear and waste time try and error to get the framework to behave as expected. It should be more controllable to deal with `mixed precision` training, `int8` inference and `PEFT`. Very frustrated.
+- [FileGithubIssue(https://github.com/huggingface/peft/issues/115)]
+- Turns out, as always. Part of my stupidity and part of something I don't know. Need to learn more about `int8` inference and its HF integration.
+- 
