@@ -32,4 +32,15 @@
 - Can't even get single card, `load_in_8bit` work as expected. Feel like fighting the framework. The api is not clear and waste time try and error to get the framework to behave as expected. It should be more controllable to deal with `mixed precision` training, `int8` inference and `PEFT`. Very frustrated.
 - [FileGithubIssue(https://github.com/huggingface/peft/issues/115)]
 - Turns out, as always. Part of my stupidity and part of something I don't know. Need to learn more about `int8` inference and its HF integration.
-- 
+- Bump into [Mosaic's fp8 support](https://github.com/mosaicml/composer/pull/1965). Would get a 4090 if fp8 or bf8 is possible. 
+- [Read([LoRA](https://arxiv.org/abs/2106.09685))]
+  - I like it didn't use context window, and the LoRA modules could be fused to host model with no extra inference cost.
+  - With increasing r, LoRA is approximating the full finetuning. 
+  - Very clever and efficient way to change the model. 
+  - In theory, prompt tuning can't match LoRA's performance? Why did `MedPaLM` choose prompt tuning? To avoid overfitting and keep Flan-PaLM's generality? 
+  - ![](asset/lora.png)
+    - I feel, for small model, one could just give up prompt tuning. Should go straight to LoRA. Just have to sacrifice generality for targeted performance. 
+    - Plus you don't want to hyperparam search n for max prompt tuning performance, per task? LoRA is more parameter tolerant, at least from what is shown in the paper. 
+    - Adaptor is more for modality fusion. 
+  - Apply to `[q, v]`, `r=8` is good starting point. The update matrix ∆W could have a very small “intrinsic rank”. Chasing large r is waste of resource. 
+- [Read([P-tuning v2](http://arxiv.org/abs/2110.07602))]
