@@ -7,20 +7,25 @@
 - Still feel the burning realization that I can't finetune a 1b+ model locally with 2*3090. Not to compete with TPU pods 😅 but consumer level hardware could definitely do better. PEFT is a step in the right direction.
 
 ## Done
+- Talk to paper. 
+- 
 
 ## Learned
+- ![](asset/hope.png)
+  - This is hope. Full model finetuning on T5-11b requires >200GB CUDA ram, which is not feasible for 99.9% of the people with consumer level hardware. PEFT could be a great enabler. 
 - Level of change. Choose by how dramatic the change is required to bridge the gap. 
   - Prompt tuning: change how input is processed by the frozen function.
   - Adaptor:  change the function by small bottleneck layers inserted between frozen pre-trained network layers.
   - Finetuning: change the function by fitting all parameters to the new dataset. 
   - Pretraining: build something new from scratch. Cook with variety of datasets and objective functions.
     - Ex: Minerva, Galactica, BioGPT, UL2, FIM. 
-- Followed [deepspeed tutorial](https://www.philschmid.de/fine-tune-flan-t5-deepspeed). Lesson learned.
-  - Always read the result section first. `if (interesting result and affordable): do it`.
-  - CPU offloading is not magic. It could work in resource limited environment at a huge cost of increased training time. Use with caution. Time or money? In my case, not worth it because I need fast iteration. 
+- Lesson learned from [deepspeed tutorial](https://www.philschmid.de/fine-tune-flan-t5-deepspeed).  
+![](asset/offloading.png)
+  - Always read the result section first. `only if (interesting result and affordable): do it`.
+  - CPU offloading is not magic. It could work in resource limited environment at a huge cost of increased training time. Use with caution. Time or money?
   - `deepspeed` is a great tool but not the only one in the pursuit of efficient training. 
   - Use `bf16` for mixed precision. 
-  - Use the best GPU you can rent. Faster training saves time and money, cheaper GPU tier costs more in total, aka wasting time AND money. 
+  - Use the best GPU you can rent, which saves time AND money, cheaper GPU tiers cost more in total, aka wasting time AND money. 
 
 ## Next?
 - Prompt tuning version RETRO? What if you could take t5-xxl and tune it to better retrieval of personal knowledge base? Wouldn't it be more powerful than using static, generic embeddings? And maybe all common tasks could be casted as progressive prompts, plus the continual learning aspect of prompt tuning?

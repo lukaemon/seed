@@ -1,11 +1,12 @@
-transformers
-datasets==2.9.0
+git+https://github.com/huggingface/transformers.git@main
+git+https://github.com/huggingface/peft.git@main
+datasets
 accelerate
 evaluate
 bitsandbytes 
 sentencepiece
 deepspeed
-git+https://github.com/huggingface/peft.git
+loralib
 
 tensorflow
 flax==0.6.3
