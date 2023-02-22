@@ -45,7 +45,7 @@
 -  
 
 ## Log
-- Read the paper, [The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691). Start with all hello world examples from peft lib and get it running first. 
+- [read([The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691))]. Start with all hello world examples from peft lib and get it running first. 
 - `prompt tuning` style `PEFT` is a perfect fit to `load_in_8bit`.  
   - Whole LM is frozen. Only need inference level of memory for model and small amount for prompt tuning.
   - It is significant because full model finetuning is easy 30x+ model size memory footprint. To finetune an `opt-6.7b` would require 200+ GB of cuda memory even with batch_size=1. 
