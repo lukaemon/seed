@@ -62,7 +62,8 @@ Overall it's similar to captain's log or super verbose chain of thought. Not the
 Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35SVBTQCOFwBEhI2CHr9H9a-CAggP6g/edit?usp=sharing) for the trajectory. Read [learning to learn](https://lukaemon.github.io/posts/2023/learning-to-learn/) for why I structure the trajectory and project this way.
 
 ## Annotation change log
-- 2023-02-21: start labeling action by [toolformer](https://arxiv.org/abs/2302.04761v1) style: `[fn(input) -> output]`. ex: `[file_github_issue(bf16 training not working) -> link]`. Ideally, every top level log would be action triggered. 
+- 2023-02-21: start labeling action by [toolformer](https://arxiv.org/abs/2302.04761v1) style: `[fn(input) -> output]`. ex: `[file_github_issue(bf16 training not working) -> link]`. Ideally, every top level log would be action triggered.
+  - Just realized that this is functional back linking, extended version of Obsidian. I'm creating my instruction set architecture.
 
 ## Appendix
 ### Action list
@@ -70,6 +71,13 @@ Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35S
 |---|---|
 |read(source) -> sub list |First contact. Side effect of reading would be sub-lists.|
 |review(source) -> sub list||
-|file_github_issue(context) -> issue_link||
-|context_switch(to)|Change attention and global working memory|
 |god_speaks(context) -> sub list|Light bulb moment out of thin air|
+|code(context) -> sub list|Coding something|
+|file_github_issue(context) -> issue_link||
+|context_switch_to(destination)|Change attention and global working memory|
+|context_switch_from(source)||
+|lesson_learned(idx)|idx: which lesson in the Learned section|
+|soliloquy|Trigger of internal discussion|
+|critique|review and critique previous statements|
+|return(parent_project: Optional)|Close current project. Return to parent project|
+|start(project)|start a new project|

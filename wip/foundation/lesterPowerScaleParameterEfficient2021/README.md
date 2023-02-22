@@ -1,4 +1,5 @@
 ## tl;dr
+- Prompt tuning for simple benchmark works, but for hard task, it is for LLM. I have to LoRA for small model. `prompt ensemble` is powerful idea. I could do `LoRA ensemble` to bootstrap `self-multiagent learning` with dialogue as supervision. 
 
 ## Context
 - Finetuning is expensive on both computation resource and dataset curation. PEFT seems to be the logical next step to reduce the cost of task adaptation. 
@@ -8,7 +9,6 @@
 
 ## Done
 - Talk to paper. 
-- 
 
 ## Learned
 - ![](asset/hope.png)
@@ -29,7 +29,9 @@
 
 ## Next?
 - Prompt tuning version RETRO? What if you could take t5-xxl and tune it to better retrieval of personal knowledge base? Wouldn't it be more powerful than using static, generic embeddings? And maybe all common tasks could be casted as progressive prompts, plus the continual learning aspect of prompt tuning?
+ - [critique]: purpose of RETRO is to use small model to work with outside memory from ground up instead of doing LLM. Prompt tuning only works on LLM. Not the tool for the job. You could LoRA T5 to build better document retriever and summarizer with the same backbone though. 
 - Apply progressive prompts to achieve multitask SuperGLUE?
+  - [critique]: again, prompt only method better on LLM. 
 - Can we do full `flan` with prompt tuning and test it on BBH and MMLU for ood performance? What if 200 tokens is enough lol?
   - Following instruction could be too important that full finetuning is necessary to overwrite messy priors from pretrained model because prompt tuning is not strong enough to overcome prior?
   > While this “unnatural” tendency to output sentinels is easy to overcome through fine-tuning, we suspect that it would be much harder to override through a prompt alone, as the decoder priors cannot be adjusted.
@@ -37,12 +39,15 @@
   > ... even much shorter prompts are viable as model size increases.
   - Does that mean LLM, 100b+ is more malleable than small T5 11b, such that what T5 has to take a full model finetuning, LLM could make do with prompt tuning for learning new task?
   - Does that mean LLM has bigger capacity for continual learning?
-- Maybe reproducing this paper with hf peft library vs t5x could be a good benchmark between pytorch vs flax, hf vs t5x. I would know what framework is more productive for future works. 
+  - [critique]: FLAN is worthy of full finetuning. Prompt tuning is a change level too shallow to bake instruction following into the model.
+- 💡Maybe reproducing this paper with hf peft library vs t5x could be a good benchmark between pytorch vs flax, hf vs t5x. I would know what framework is more productive for future works. 
+  - [critique]: actually good idea. But I don't know now is the right time to branch out to t5x. 
 - I see why google `MedPaLM` went for PaLM + prompt tuning. Use absolute scale to saturate text domain and freeze the whole model. Then use prompt tuning to adapt to medical domain. But how is google going to graft LLM to other modality? [Attention bottleneck](http://arxiv.org/abs/2107.00135) is audio visual fusion. Fusion with text is already solved problem? Fusion on high dim domains is the frontier now and I don't know how to get there. 
   - My blind spot is missing recent image diffusion research...
   - Maybe find some hints from [cutting edge robotics](https://ai.googleblog.com/2023/02/google-research-2022-beyond-robotics.html?m=1)?
-- `Prompt ensemble` enabled by prompt tuning is way better than prompt engineering based LLM conditioning. Maybe I could condition a frozen LLM to a book? Say I want to do book QA. Train 8 100 token prompt per book with normal language modeling loss. Then I have 8 ensembles per book. Can even do retrieval on top of that.
--  
+  - [critique]: you are right about the blind spot. With [attention bottleneck](http://arxiv.org/abs/2107.00135), Google has moved on to high dim modality fusion already. Keep up. 
+- 💡`Prompt ensemble` enabled by prompt tuning is way better than prompt engineering based LLM conditioning. Maybe I could condition a frozen LLM to a book? Say I want to do book QA. Train 8 100 token prompt per book with normal language modeling loss. Then I have 8 ensembles per book. Can even do retrieval on top of that.
+  -  [critique]: good idea. However I don't know what it means to be conditioned on a book for better performance, of what task? Book QA? Quote retrieval? The direction to find something to conditioned on is right and `prompt ensemble` is powerful idea. In the realm of small model, I could do `LoRA ensemble`. I see the future of using this technique to do `self-multiagent learning` with conversation as supervision mechanism, as in Sparrow. Dig deeper. 
 
 ## Log
 - [read([The Power of Scale for Parameter-Efficient Prompt Tuning](https://arxiv.org/abs/2104.08691))]. Start with all hello world examples from peft lib and get it running first. 
@@ -94,3 +99,19 @@
   > 
   > ... model tuning may be over-parameterized and more prone to overfit the training task, to the detriment of similar tasks in different domains.
 - Combine prompt ensemble to self-consistency Orz. GPUs! Need more GPUs!
+- [context_switch_from(hf_peft_example)]
+  - Prompt tuning is not working for T5 at current PEFT library.How t5x make prompt tuning works on t5?
+  - LoRA T5 on SuperGLUE is not meaningful. What Lester tried to solve is not feasible for me to reproduce. Davinci won't take soft prompt and I don't have a PaLM to play with automated prompt engineering. 
+  - Need to find LoRA worthy task and model to play with. 
+- [soliloquy]
+  - Disillusioned with PEFT. Great learning. Prompt tuning and LoRA would be the PEFT baseline for my future work.
+  - What's not changed:
+    1. The road to multimodal. 
+    2. Still don't have resource to work on LLM. Stay small.
+  - Possible project candidates:
+    - `aoSpeechT5UnifiedModalEncoderDecoder2022`, intro to multimodal, (audio, text).
+    - `rombachHighResolutionImageSynthesis2022`, LoRA stable diffusion, intro to multimodal, (image, text). 
+    - `schickToolformerLanguageModels2023`, LoRA LM to use tools. 
+    - `longpreFlanCollectionDesigning2023`, LoRA instruction finetuning. Coding practice for data engineering, LoRA ft and evaluation.
+    - Learn t5x and figure out how to make prompt tuning work on t5, training, inference and evaluation. 
+- [return]
