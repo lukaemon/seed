@@ -1,5 +1,5 @@
 ## tl;dr
-- No special magic with PEFT. LLM could be prompt tuned because the base model is already capable. Smaller NN could be LoRAed, which is a smart and efficient method, but the capability is still capped by the base model. The search for right application for solo friendly model size (<11b) is still on. Stable diffusion its LoRAed variations are good examples.
+- No special magic with PEFT. LLM could be prompt tuned because the base model is already capable. Smaller NN could be LoRAed, which is a smart and efficient method, but the capability is still capped by the base model. The search for right application for solo friendly model size (<11b) is still on. Stable diffusion and its LoRAed variations are good examples.
 
 ## Context
 - Preparing for `lesterPowerScaleParameterEfficient2021` project. 
@@ -9,7 +9,7 @@
 - Read few related background papers. 
 
 ## Learned
-1. Pay extra attention to too good to be true paper. First `mm-cot` then this. Glad I'm immuned after 2 shots. 
+- [lesson_learned]: Pay extra attention to too good to be true paper. First `mm-cot` then this. Glad I'm immune after 2 shots. 
 
 ## Next?
 - Is LoRA enough for instruction finetuning? 
@@ -60,7 +60,7 @@
 - [read([HF PEFT library caveats section](https://github.com/huggingface/peft#caveats))]:
   > For encoder-decoder models, P_TUNING or PROMPT_TUNING doesn't support generate functionality of transformers because generate strictly requires decoder_input_ids but P_TUNING/PROMPT_TUNING appends soft prompt embeddings to input_embeds to create new input_embeds to be given to the model. Therefore, generate doesn't support this yet.
   - LoRA and p-tuning v2 are more T5 friendly for now. Prompt tuning is more suitable for decoder only LLM.
-- [review([MedPaLM](http://arxiv.org/abs/2212.13138))]
+- [retrieve([MedPaLM](http://arxiv.org/abs/2212.13138))]
   > Because LLMs have grown to hundreds of billions of parameters, finetuning them is extraordinarily computationally expensive. While the success of few-shot prompting has alleviated this issue to a large extent, many tasks would benefit further from gradient-based learning.
     - At 540b scale, finetuning is not necessary for new task. It has seen them all Orz. Prompt tuning is chosen to automate prompt engineering for medical application. Like besides following instruction(done with flan finetuning), be logical and reasonable(CoT, SC), talk like a doctor could be done either with prompt engineering, or with prompt tuning. [Do you concur?](https://www.youtube.com/watch?v=qyngj0M-LQk&t=2s)
   > While prompt tuning can benefit from any number of labeled examples, typically only a handful of examples (e.g., tens) are required to achieve good performance.
@@ -93,7 +93,7 @@
     - There are many ways to change the base function. The title is totally misleading because this is not prompt method anymore. It's more LoRA than prompt tuning. 
     - Lack of tunable parameters is not a problem, but a feature. The hope is adapt base LLM to resource constrained task as efficiently as possible.
   - I'll stop reading here. That fact this paper didn't even cite LoRA is a big red flag. It's comparing function changing finetuning to prompt only PEFT. What a shame.
-- [lesson_learned(1)]
+- [lesson_learned]: Pay extra attention to too good to be true paper. First `mm-cot` then this. Glad I'm immune after 2 shots. 
 - [soliloquy]
   - Now I understand why people flock to LoRA stable diffusion. Image generation is 1) more close to production quality 2) small model friendly 3) easier to see the difference. Therefore it's more LoRA worthy. 
   - Easier to LoRA a studio ghibli SD model and maybe find your audience and application, but what's the purpose of LoRAed small LM?

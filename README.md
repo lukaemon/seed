@@ -6,7 +6,7 @@ I see cutting edge AI paper getting published and real world production deployme
 However, for people to truly adopt AI and cultivate capability to use, cooperate and even create one with autonomy, the embarrassing side of the learning process may be of some value. I personally would love to see more fail experiment, detour and dead end, as well as the rosy final result.
 
 ## How to use this repo?
-Maybe the best way to interact with this repo is by conditioning the ChatGPT with it and just talk. ex: 
+Maybe the best way to interact with this repo is by conditioning a ChatGPT with it and just talk. ex: 
 - List all project name. Categorize by topics and counting sort for me. 
 - Find all NLP projects that only deal with prompts. I don't want to do any training for now. 
 - What project did he do first? What did he learn?
@@ -26,7 +26,7 @@ For direct readers, progressive details per project from tl;dr to log are availa
 - Build `.env` from the template `.env.example`. Fill in tokens. `vscode` would load env var automatically.
 - Modify the `mounts` and `containerEnv` in `.devcontainer/devcontainer.json`.
 
-ps: serious computation power required to run model locally, ex: `flan-t5-xxl`. Choose smaller model or stick to OpenAI api with limited compute budget.  
+ps: serious computation power required to run model locally, ex: `flan-t5-xxl`. Choose smaller model, use cloud or stick to OpenAI api with limited compute budget. [Check this blog for GPU purchase guide](https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/). 
 
 ## Project
 Each project is atomic, self-contained brand new start. At this stage I hope to only carry over ideas, not codes or prescribed structure. Repetition on purpose. Sample new way of doing new things with least legacy. When mature enough, isolated library would emerge to reduce unnecessary overhead. 
@@ -45,14 +45,12 @@ What is actually created?
 Answered known unknown. Realized unknown unknown. Connect the dots. 
 
 ### Next?
-Build up leads during the project. Don't care about the quality of idea. Record every light bulb moment. Critique at the end.
+Build up leads during the project in Log. Don't care about the quality of idea. Record every light bulb moment. Good ideas would be copied to this section. 
 - Possible incremental, logical improvements. 
 - Possible quantum leap, intuitive, creative, even crazy ideas to try. 
 
-Important questions from Log would be placed here. 
-
 ### Log 
-Operational log. Event driven, append only and chronologically sorted. Lightly grouped by topic since sub-lists are direct, immediate expansion of parent point. Consider top level list as trigger prompts. Chronological flow of thoughts.
+Operational log. Action driven, append only and chronologically sorted. Lightly grouped by topic since sub-lists are direct expansion of the parent. Top level list chronological flow of actions.
 - Positive: making break through, good result, intuition, execution. 
 - Negative: dead end, unproductive loop, failed experiment, tentative, flawed chain of thought, even emotional battle, ex: frustration, despair, giving up. 
 
@@ -61,23 +59,33 @@ Overall it's similar to captain's log or super verbose chain of thought. Not the
 ## Trajectory
 Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35SVBTQCOFwBEhI2CHr9H9a-CAggP6g/edit?usp=sharing) for the trajectory. Read [learning to learn](https://lukaemon.github.io/posts/2023/learning-to-learn/) for why I structure the trajectory and project this way.
 
-## Annotation change log
-- 2023-02-21: start labeling action by [toolformer](https://arxiv.org/abs/2302.04761v1) style: `[fn(input) -> output]`. ex: `[file_github_issue(bf16 training not working) -> link]`. Ideally, every top level log would be action triggered.
-  - Just realized that this is functional back linking, extended version of Obsidian. I'm creating my instruction set architecture.
-
 ## Appendix
-### Action list
+### Action space
 |Command|Effect|
 |---|---|
-|read(source) -> sub list |First contact. Side effect of reading would be sub-lists.|
-|review(source) -> sub list||
-|god_speaks(context) -> sub list|Light bulb moment out of thin air|
-|code(context) -> sub list|Coding something|
+|read(source)|First contact. Side effect of reading would be sub-lists|
+|retrieve(source)|Review or cite read content|
+|eureka(context: optional)|Light bulb moment|
+|code(context)|Coding something|
 |file_github_issue(context) -> issue_link||
 |context_switch_to(destination)|Change attention and global working memory|
 |context_switch_from(source)||
-|lesson_learned(idx)|idx: which lesson in the Learned section|
-|soliloquy|Trigger of internal discussion|
-|critique|review and critique previous statements|
-|return(parent_project: Optional)|Close current project. Return to parent project|
-|start(project)|start a new project|
+|lesson_learned||
+|soliloquy|Start an internal discussion|
+|critique|Critique previous statements|
+|return(parent_project: optional)|Close current project. Return to parent project|
+|start(project)|Start a new project|
+
+### Annotation change log (latest first)
+- 2023-02-21: current structure can't achieve 2 goals:
+  1. The learning process could be linearly expanded as a jupyter notebook. 
+  2. Ground the project and every single little action to the context as much as possible.
+  - Changes:
+    - Log would be strictly chronological. No ad hoc promotion to Next? or Learned section. It should be read like a jupyter notebook.
+    - Lesson learned and good ideas would be copied to Learned and Next? when the project is finished. Easier for human readers. Log is self-sufficient.
+    - Critique would apply to everything in Log that's worth critiquing. 
+- 2023-02-21: start labeling action by [toolformer](https://arxiv.org/abs/2302.04761v1) style: `[fn(input) -> output]`. ex: `[file_github_issue(bf16 training not working) -> link]`. Ideally, every top level log would be action triggered.
+  - Just realized that this is functional back linking, extended version of Obsidian. I'm creating my instruction set architecture.
+
+
+

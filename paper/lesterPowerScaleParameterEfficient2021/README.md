@@ -9,6 +9,7 @@
 
 ## Done
 - Talk to paper. 
+- Trigger `hf_peft_example` project.
 
 ## Learned
 - ![](asset/hope.png)
@@ -113,5 +114,5 @@
     - `rombachHighResolutionImageSynthesis2022`, LoRA stable diffusion, intro to multimodal, (image, text). 
     - `schickToolformerLanguageModels2023`, LoRA LM to use tools. 
     - `longpreFlanCollectionDesigning2023`, LoRA instruction finetuning. Coding practice for data engineering, LoRA ft and evaluation.
-    - Learn t5x and figure out how to make prompt tuning work on t5, training, inference and evaluation. 
+    - Learn t5x and figure out how to make prompt tuning work on t5: training, inference and evaluation. 
 - [return]
