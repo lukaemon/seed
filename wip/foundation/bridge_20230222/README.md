@@ -4,9 +4,9 @@
 Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by reviewing following ideas:
 - [ ] `aoSpeechT5UnifiedModalEncoderDecoder2022`, intro to adaptor based multimodal, (audio, text).
 - [ ] `rombachHighResolutionImageSynthesis2022`, LoRA stable diffusion, intro to multimodal, (image, text). 
-- [ ] `schickToolformerLanguageModels2023`, LoRA LM to use tools. 
-- [ ] `longpreFlanCollectionDesigning2023`, LoRA instruction finetuning. Coding practice for data engineering, LoRA ft and evaluation.
-- [ ] Learn t5x and figure out how to make prompt tuning work on t5: training, inference and evaluation. 
+- [x] `schickToolformerLanguageModels2023`, LoRA LM to use tools. 
+- [x] `longpreFlanCollectionDesigning2023`, LoRA instruction finetuning. Coding practice for data engineering, LoRA ft and evaluation.
+- [x] Learn t5x and figure out how to make prompt tuning work on t5: training, inference and evaluation. 
 
 ## Done
 
@@ -38,26 +38,60 @@ Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by rev
       -  `->` is top 1 but the result after API call is bad: the API module is bad or the decision to call API is bad. 
       -  `->` is not even in the top 30, but the result is bad: improve decision making model. Learn to call help when needed. 
       -  `->` is at 15th. The model is not sure whether to ask for help. Collect and analyze these indecisive cases. You may find a pattern like 80% is about using calculator. May need to find better heuristics to generate calculator training data. Or even introduce human labeler like hiring a tutor for specialized subject learning. Then finetune further. 
- - Eval on `LAMA`
-   - "This is achieved because the model independently decides to ask the question answering tool for the required information in almost all cases (98.1%); for only very few examples, it uses a different tool (0.7%) or no tool at all (1.2%).
-   - Retrieval works on knowledge intensive task, especially for small model. The value of this paper is learning to make use of tools. Not proving retrieval is useful. 
-   - With 98.1% call rate, the model is well trained to know it need helps on this type of work.
- - Eval on math
-   - "This is because across all benchmarks, for 97.9% of all examples the model decides to ask the calculator tool for help."
-   - Small model can't do math. Call for help works.
- - Eval on QA. This requires knowledge, commonsense and logic. 
-   - "mostly relying on the Wikipedia search API (99.3%) to find relevant information."
-   - Not performing well compare to GPT-3. 
- - [soliloquy ->]
-   - Informed, correct QA is prerequisite for informed decision, which is prerequisite for informed action. 
-   - Logic, commonsense, knowledge and be able to do simple math are prerequisite for informed QA.
-   - 6b tool equipped LM can't do informed QA as well as GPT-3. There is more work to do. This first version bicycle is not good.
- - [soliloquy -> ]
-   - `toolformer` can't trigger multiple tools at the same time. One may need to fork every help asking moment and teach AI to run an iterative research loop. One function call with one tool is not enough. 
-   - Using tool shouldn't be treated as trigger with next token. Human decompose a task, make init research plan and iterate. I would be very myopic to write a sentence and trigger search linearly ad hoc. Even though I'm typing this sentence linearly, the whole idea is in my brain the whole time. Typing is just idea serialization process. 
-   - That process is more aligned to encoder-decoder architecture. Gather some input, even recall previous ideas, produce a high level fused idea embedded in the high dim vector space. Then use that vector to condition a decoder with cross attention to generate the output. 
-   - `attention is all you need` is a prior too strong that I don't know it's a bliss or a curse.
- - "We investigate how the ability to ask external tools for help affects performance as we vary the size of our LM. To this end, we apply our approach not just to GPT-J, but also to four smaller models from the GPT-2 family (Radford et al., 2019), with 124M, 355M, 775M and 1.6B parameters, respectively."
-   - I don't know how to read <10b scaling law study. CoT is only triggered after 7b for GPT. 1.6B scaling law study is not useful.
-   - The bad performance at 6b didn't rule out the possible future of this methodology.
- - [lesson_learned -> The value is bootstrapping technique for teaching LM to make decisions. Overall it's a well budget controlled research to test an idea. The project includes data munging, finetuning and evaluation. Would be a well rounded practice for me. The raw idea itself could be a very powerful testbed for many future research, better decision making, tool chaining, interactive, iterative calls, etc.]
+  - Eval on `LAMA`
+    - "This is achieved because the model independently decides to ask the question answering tool for the required information in almost all cases (98.1%); for only very few examples, it uses a different tool (0.7%) or no tool at all (1.2%).
+    - Retrieval works on knowledge intensive task, especially for small model. The value of this paper is learning to make use of tools. Not proving retrieval is useful. 
+    - With 98.1% call rate, the model is well trained to know it need helps on this type of work.
+  - Eval on math
+    - "This is because across all benchmarks, for 97.9% of all examples the model decides to ask the calculator tool for help."
+    - Small model can't do math. Call for help works.
+  - Eval on QA. This requires knowledge, commonsense and logic. 
+    - "mostly relying on the Wikipedia search API (99.3%) to find relevant information."
+    - Not performing well compare to GPT-3. 
+  - [soliloquy ->]
+    - Informed, correct QA is prerequisite for informed decision, which is prerequisite for informed action. 
+    - Logic, commonsense, knowledge and be able to do simple math are prerequisite for informed QA.
+    - 6b tool equipped LM can't do informed QA as well as GPT-3. There is more work to do. This first version bicycle is not good.
+  - [soliloquy -> ]
+    - `toolformer` can't trigger multiple tools at the same time. One may need to fork every help asking moment and teach AI to run an iterative research loop. One function call with one tool is not enough. 
+    - Using tool shouldn't be treated as trigger with next token. Human decompose a task, make init research plan and iterate. I would be very myopic to write a sentence and trigger search linearly ad hoc. Even though I'm typing this sentence linearly, the whole idea is in my brain the whole time. Typing is just idea serialization process. 
+    - That process is more aligned to encoder-decoder architecture. Gather some input, even recall previous ideas, produce a high level fused idea embedded in the high dim vector space. Then use that vector to condition a decoder with cross attention to generate the output. 
+    - `attention is all you need` is a prior too strong that I don't know it's a bliss or a curse.
+  - "We investigate how the ability to ask external tools for help affects performance as we vary the size of our LM. To this end, we apply our approach not just to GPT-J, but also to four smaller models from the GPT-2 family (Radford et al., 2019), with 124M, 355M, 775M and 1.6B parameters, respectively."
+    - I don't know how to read <10b scaling law study. CoT is only triggered after 7b for GPT. 1.6B scaling law study is not useful.
+    - The bad performance at 6b didn't rule out the possible future of this methodology.
+  - "We use up to 25k examples per API. Max sequence length 1,024. Effective batch size of 128. All models are trained using DeepSpeed’s ZeRO-3 (Rasley et al., 2020). We used 8 NVIDIA A100 40GB GPUs with BF16. Training up to 2k steps, where we evaluate PPL on a small development set from CCNet containing 1,000 examples every 500 steps. We pick the checkpoint that performs best."
+  - [lesson_learned -> The value is bootstrapping technique for teaching LM to make decisions. Overall it's a well budget controlled research to test an idea. The project includes data munging, finetuning and evaluation. Would be a well rounded practice for me. The raw idea itself could be a very powerful testbed for many future research, better decision making, tool chaining, interactive, iterative calls, etc.]
+- [read([The Flan Collection: Designing Data and Methods for Effective Instruction Tuning](http://arxiv.org/abs/2301.13688))]
+  - Grounding
+    - Flan is the template of how good data help boosting performance of good base model without RL. 
+    - ![](asset/flan.png)
+      - CoT at <60b scale is waste of computation. 
+      - 62b PaLM on BBH, instruction finetuning +10.1, CoT +5.6, Flan + CoT performs worse than Flan alone, -2.6. 
+      - 540b PaLM on BBH is where CoT + Flan > Flan alone. This is crazy. Consider the computation cost of doing CoT on 540b dense model. 1 good instruction finetuning could lift the performance so much and amortize the one time cost on every following inferences.
+      - CoT is great probing experiment to know informal reasoning is possible on LLM, but it's not the final form to unleash the power. Flan-PaLM 540b could do zero-shot CoT as a matter of fact.  
+    - ![](asset/opt.png)
+      - Imagine `Flan-t5-xl(3b)` performs better than `OPT-IML-Max(175b)`.
+      - Yes MMLU and BBH are just benchmark but it's still crazy because they are held-out eval suite, meaning 3b model is not finetuned on them and try so hard to overfit them. 
+      - See the gap between Flan 2022 and SNI. Not all instruction finetuning are created equal.
+  - [retrieve([Exploring the Benefits of Training Expert Language Models over Instruction Tuning](http://arxiv.org/abs/2302.03202))]
+    - This paper promotes the opposite direction, retrieval of experts. I may learn something from such dramatic contrast.
+  - Artificial dialogue as supervision and human feedback are additive to basic instruction tuning. Meaning, without proper instruction finetuning, RLHF or other advanced tuning won't be as effective.
+  - "Our work focuses specifically on instruction generalization, without human feedback, for two reasons. First, human feedback datasets are far less publicly available than instruction tuning datasets (and may be model specific). Second, by itself, instruction generalization shows great promise in **enhancing human preferred responses on open-ended tasks, as well as improving traditional NLP metrics**"
+    - In light of RLHF's `alignment tax`, Flan argues good instruction finetuning generate human preferred responses and improve traditional NLP metrics.
+    - [question -> Is RL necessary to HF?]
+    - [question -> How much should we care traditional NLP metrics? Is it still relevant?]
+      - Especially for open-ended tasks. How does the performance of multiple choice translate to open-ended tasks?
+      - I see traditional NLP metrics as quick and dirty unit test. If it's not a good proxy anymore for modern LM, it's time to change.
+      - [retrieve([Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073))]
+        - Even for training small, specialized model, I may still need LLM for supervision and evaluation. 
+  - Technical tl;dr: "(I) using mixed zero-shot, few-shot, and Chain-of-Thought templates at training (Section 3.2), (II) scaling T5 sized models to 1800+ tasks (Section 3.3), (III) enriching tasks with input inversion (Section 3.4), and (IV) balancing these task mixtures (Section 3.5)."
+  - ![](asset/ablation.png)
+    - It has to be multimodal AI to read this log. I didn't see any paper that can read image of table and get details right. Maybe I haven't searched hard enough.
+    - [lesson_learned -> FLAN's better performance is combination of good base model, good instruction ft data, and good training methods. It's not one magic sauce is all you need story. Details matter.]
+      - I bet even you apply the same data and method on OPT or BLOOM, it won't perform as well.
+  - [lesson_learned -> choose good science. Well organized experiment, careful analysis, neutral, ego free statements. Stop being attracted by click bait AI research: <1b model could do multimodal CoT and beat 175b model. No free lunch or magical solution. Focus on science and engineering.]
+  - Data is not the more the marrier. Some dataset is even detrimental. But again, how to eval quality of dataset is deeply connected to how to eval LM. 
+    - [question -> how to evaluate quality of dataset?]
+  - [lesson_learned -> Compare Flan with mm-cot. What a good lesson! Given my engineering skill is seriously lagging behind paper reading, I should just reproduce this paper with t5x and huggingface system. It would be a hell of a journey.]
+  - [question -> what could be a good init to help me bootstrap building customized model and adapter? I still want to do BLIP2 but it's way beyond my league.]

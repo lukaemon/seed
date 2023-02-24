@@ -62,21 +62,21 @@ Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35S
 
 ## Appendix
 ### Action space
-| Command                                            | Effect                                          |
-| -------------------------------------------------- | ----------------------------------------------- |
-| read(source)                                       | First contact                                   |
-| retrieve(source)                                   | Review or cite read content                     |
-| code(brief_description)                            | Coding something                                |
-| critique                                           | Critique previous statement                     |
-| soliloquy                                          | Start an internal discussion                    |
-| lesson_learned                                     | Inductive, empirical conclusion. A closure.     |
-| eureka                                             | Light bulb moment. Jumpy. A new start           |
-| question                                           | -eureka, no obvious answer and discussion       |
-| file_github_issue(brief_description) -> issue_link |                                                 |
-| context_switch_to(destination)                     | Switch attention and swap global working memory |
-| context_switch_from(source)                        |                                                 |
-| return(parent_project: optional)                   | Close current project. Return to parent project |
-| start(project)                                     | Start a new project                             |
+| Command                                      | Effect                                          |
+| -------------------------------------------- | ----------------------------------------------- |
+| read(source)                                 | First contact                                   |
+| retrieve(source)                             | Review, cite, search contents                   |
+| code(brief_description)                      | Coding something                                |
+| critique                                     | Critique previous statement                     |
+| soliloquy                                    | Start an internal discussion                    |
+| lesson_learned                               | Inductive, empirical conclusion. A closure.     |
+| eureka                                       | Light bulb moment. Jumpy. A new start           |
+| question                                     | -eureka, no obvious answer and discussion       |
+| file_github_issue(brief_description) -> link |                                                 |
+| context_switch_to(destination)               | Switch attention and swap global working memory |
+| context_switch_from(source)                  |                                                 |
+| return(parent_project: optional)             | Close current project. Return to parent project |
+| start(project)                               | Start a new project                             |
 
 ### Annotation change log (latest first)
 - 2023-02-21: current structure can't meet following 2 goals
