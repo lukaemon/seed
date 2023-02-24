@@ -69,7 +69,7 @@ Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35S
 | code(brief_description)                      | Coding something                                |
 | critique                                     | Critique previous statement                     |
 | soliloquy                                    | Start an internal discussion                    |
-| lesson_learned                               | Inductive, empirical conclusion. A closure.     |
+| lesson_learned                               | Inductive, empirical conclusion. A closure      |
 | eureka                                       | Light bulb moment. Jumpy. A new start           |
 | question                                     | -eureka, no obvious answer and discussion       |
 | file_github_issue(brief_description) -> link |                                                 |
@@ -79,14 +79,15 @@ Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35S
 | start(project)                               | Start a new project                             |
 
 ### Annotation change log (latest first)
-- 2023-02-21: current structure can't meet following 2 goals
+- 20230224: `retrieve` is informative but manually input paper title and URL reduce my willingness to cite. Start using `@citation_key` syntax to reference paper and provide `asset/zotero.bib` for detail resolution.
+- 20230221: current structure can't meet following 2 goals
   1. The learning process should be able to read linearly as a well organized jupyter notebook. 
   2. Ground the project AND every single action to the context as much as possible.
   - Change:
     - Log would be strictly chronological. No ad hoc promotion to Next? or Learned section, which breaks the context.
     - Lesson learned and good ideas would be copied to Learned and Next? section after the project is finished. Easier for human readers. Log would remain self-sufficient.
     - Critique would apply to everything in Log that's worth critiquing. 
-- 2023-02-21: start labeling action by [toolformer](https://arxiv.org/abs/2302.04761v1) style: `[fn(input) -> output]`. ex: `[file_github_issue(bf16 training not working) -> link]`. Ideally, every top level log would be action triggered.
+- 20230221: start labeling action by [toolformer](https://arxiv.org/abs/2302.04761v1) style: `[fn(input) -> output]`. ex: `[file_github_issue(bf16 training not working) -> link]`. Ideally, every top level log would be action triggered.
   - Just realized that this is functional back linking, extended version of Obsidian. I'm creating my instruction set architecture.
 
 

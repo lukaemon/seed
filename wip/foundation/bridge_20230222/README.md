@@ -1,14 +1,18 @@
+---
+bibliography: [/workspaces/seed/asset/zotero.bib]
+---
+
 ## tl;dr
 
 ## Context
-Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by reviewing following ideas:
+Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by reviewing few ideas.
+
+## Done
 - [ ] `aoSpeechT5UnifiedModalEncoderDecoder2022`, intro to adaptor based multimodal, (audio, text).
 - [ ] `rombachHighResolutionImageSynthesis2022`, LoRA stable diffusion, intro to multimodal, (image, text). 
 - [x] `schickToolformerLanguageModels2023`, LoRA LM to use tools. 
 - [x] `longpreFlanCollectionDesigning2023`, LoRA instruction finetuning. Coding practice for data engineering, LoRA ft and evaluation.
 - [x] Learn t5x and figure out how to make prompt tuning work on t5: training, inference and evaluation. 
-
-## Done
 
 ## Learned
 
@@ -95,3 +99,15 @@ Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by rev
     - [question -> how to evaluate quality of dataset?]
   - [lesson_learned -> Compare Flan with mm-cot. What a good lesson! Given my engineering skill is seriously lagging behind paper reading, I should just reproduce this paper with t5x and huggingface system. It would be a hell of a journey.]
   - [question -> what could be a good init to help me bootstrap building customized model and adapter? I still want to do BLIP2 but it's way beyond my league.]
+- [read(@rombachHighResolutionImageSynthesis2022)]
+  - Context
+    - [retrieve(@nagraniAttentionBottlenecksMultimodal2022)]
+    - From google's attention bottleneck I feel text|image is solved and the frontier moved on but I'm totally ignorant to the recent progress of latent diffusion. Text|image is important first and easiest step into multimodal AI.
+    - I'm not particularly interested in image generation, but how to extract info from image and fuse them back to LM. Like VQA.  
+  - Just realized that `diffuser` is the new `transformers` for `huggingface`. Especially important in multimodal AI era. Diffusion to high dim modality is like gpt to text. 
+    - [retrieve(@hoDenoisingDiffusionProbabilistic2020, @changMuseTextToImageGeneration2023)]
+    - DDPM is not even 3 years old. Muse wants to replace diffusion already. What a light speed progress...
+    - `diffuser` to audio, video and other modalities may be a premature bet, but interesting to see how fast high dim generative model is evolving.
+  - ![](asset/compression_stage.png)
+    - This is very concrete example about "semantics rest in last few bits". [retrieve(@henighanScalingLawsAutoregressive2020)]
+  - 
