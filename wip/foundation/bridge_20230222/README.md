@@ -1,17 +1,13 @@
----
-bibliography: [/workspaces/seed/asset/zotero.bib]
----
-
 ## tl;dr
 
 ## Context
-Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by reviewing few ideas.
+Coming from @lesterPowerScaleParameterEfficient2021. Choose next project by reviewing few ideas.
 
 ## Done
-- [ ] `aoSpeechT5UnifiedModalEncoderDecoder2022`, intro to adaptor based multimodal, (audio, text).
-- [ ] `rombachHighResolutionImageSynthesis2022`, LoRA stable diffusion, intro to multimodal, (image, text). 
-- [x] `schickToolformerLanguageModels2023`, LoRA LM to use tools. 
-- [x] `longpreFlanCollectionDesigning2023`, LoRA instruction finetuning. Coding practice for data engineering, LoRA ft and evaluation.
+- [ ] @aoSpeechT5UnifiedModalEncoderDecoder2022, intro to adaptor based multimodal, (audio, text).
+- [ ] @rombachHighResolutionImageSynthesis2022, LoRA stable diffusion, intro to multimodal, (image, text). 
+- [x] @schickToolformerLanguageModels2023, LoRA LM to use tools. 
+- [x] @longpreFlanCollectionDesigning2023, LoRA instruction finetuning. Coding practice for data engineering, LoRA ft and evaluation.
 - [x] Learn t5x and figure out how to make prompt tuning work on t5: training, inference and evaluation. 
 
 ## Learned
@@ -19,7 +15,7 @@ Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by rev
 ## Next?
 
 ## Log
-- [read([Toolformer: Language Models Can Teach Themselves to Use Tools](https://arxiv.org/abs/2302.04761v1))]
+- [read(@schickToolformerLanguageModels2023)]
   - ![](asset/tool.png)
     - This is interesting. Say the pretrained model can't get this answer right, "Pittsburgh is also known as", but an API call, [QA() -> Steel City] actually reduce the loss, which means this call did help the model to fit the data better. 
     - Then we finetune the model with API call. Next time model see "Pittsburgh is also known as", the probability of next few tokens be "[QA()..." would be higher. The model learns to call API now. 
@@ -66,7 +62,7 @@ Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by rev
     - The bad performance at 6b didn't rule out the possible future of this methodology.
   - "We use up to 25k examples per API. Max sequence length 1,024. Effective batch size of 128. All models are trained using DeepSpeed’s ZeRO-3 (Rasley et al., 2020). We used 8 NVIDIA A100 40GB GPUs with BF16. Training up to 2k steps, where we evaluate PPL on a small development set from CCNet containing 1,000 examples every 500 steps. We pick the checkpoint that performs best."
   - [lesson_learned -> The value is bootstrapping technique for teaching LM to make decisions. Overall it's a well budget controlled research to test an idea. The project includes data munging, finetuning and evaluation. Would be a well rounded practice for me. The raw idea itself could be a very powerful testbed for many future research, better decision making, tool chaining, interactive, iterative calls, etc.]
-- [read([The Flan Collection: Designing Data and Methods for Effective Instruction Tuning](http://arxiv.org/abs/2301.13688))]
+- [read(@longpreFlanCollectionDesigning2023)]
   - Grounding
     - Flan is the template of how good data help boosting performance of good base model without RL. 
     - ![](asset/flan.png)
@@ -78,7 +74,7 @@ Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by rev
       - Imagine `Flan-t5-xl(3b)` performs better than `OPT-IML-Max(175b)`.
       - Yes MMLU and BBH are just benchmark but it's still crazy because they are held-out eval suite, meaning 3b model is not finetuned on them and try so hard to overfit them. 
       - See the gap between Flan 2022 and SNI. Not all instruction finetuning are created equal.
-  - [retrieve([Exploring the Benefits of Training Expert Language Models over Instruction Tuning](http://arxiv.org/abs/2302.03202))]
+  - [retrieve(@jangExploringBenefitsTraining2023)]
     - This paper promotes the opposite direction, retrieval of experts. I may learn something from such dramatic contrast.
   - Artificial dialogue as supervision and human feedback are additive to basic instruction tuning. Meaning, without proper instruction finetuning, RLHF or other advanced tuning won't be as effective.
   - "Our work focuses specifically on instruction generalization, without human feedback, for two reasons. First, human feedback datasets are far less publicly available than instruction tuning datasets (and may be model specific). Second, by itself, instruction generalization shows great promise in **enhancing human preferred responses on open-ended tasks, as well as improving traditional NLP metrics**"
@@ -87,7 +83,7 @@ Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by rev
     - [question -> How much should we care traditional NLP metrics? Is it still relevant?]
       - Especially for open-ended tasks. How does the performance of multiple choice translate to open-ended tasks?
       - I see traditional NLP metrics as quick and dirty unit test. If it's not a good proxy anymore for modern LM, it's time to change.
-      - [retrieve([Constitutional AI: Harmlessness from AI Feedback](https://arxiv.org/abs/2212.08073))]
+      - [retrieve(@baiConstitutionalAIHarmlessness2022)]
         - Even for training small, specialized model, I may still need LLM for supervision and evaluation. 
   - Technical tl;dr: "(I) using mixed zero-shot, few-shot, and Chain-of-Thought templates at training (Section 3.2), (II) scaling T5 sized models to 1800+ tasks (Section 3.3), (III) enriching tasks with input inversion (Section 3.4), and (IV) balancing these task mixtures (Section 3.5)."
   - ![](asset/ablation.png)
@@ -102,12 +98,23 @@ Coming from `lesterPowerScaleParameterEfficient2021`. Choose next project by rev
 - [read(@rombachHighResolutionImageSynthesis2022)]
   - Context
     - [retrieve(@nagraniAttentionBottlenecksMultimodal2022)]
-    - From google's attention bottleneck I feel text|image is solved and the frontier moved on but I'm totally ignorant to the recent progress of latent diffusion. Text|image is important first and easiest step into multimodal AI.
-    - I'm not particularly interested in image generation, but how to extract info from image and fuse them back to LM. Like VQA.  
+      - From google's attention bottleneck I feel text|image is solved and the frontier moved on but I'm totally ignorant to the recent progress of latent diffusion. Text|image is important first and easiest step into multimodal AI.
+      - I'm not particularly interested in image generation, but how to extract info from image and fuse them back to LM. Like VQA.  
   - Just realized that `diffuser` is the new `transformers` for `huggingface`. Especially important in multimodal AI era. Diffusion to high dim modality is like gpt to text. 
     - [retrieve(@hoDenoisingDiffusionProbabilistic2020, @changMuseTextToImageGeneration2023)]
-    - DDPM is not even 3 years old. Muse wants to replace diffusion already. What a light speed progress...
-    - `diffuser` to audio, video and other modalities may be a premature bet, but interesting to see how fast high dim generative model is evolving.
+      - DDPM is not even 3 years old. Muse wants to replace diffusion already. What a light speed progress...
+      - `diffuser` to audio, video and other modalities may be a premature bet, but interesting to see how fast high dim generative model is evolving.
   - ![](asset/compression_stage.png)
-    - This is very concrete example about "semantics rest in last few bits". [retrieve(@henighanScalingLawsAutoregressive2020)]
-  - 
+    - [retrieve(@henighanScalingLawsAutoregressive2020)]
+      - This is very concrete example about "semantics rest in last few bits". 
+      - [retrieve(@aghajanyanScalingLawsGenerative2023)]
+        - Need to refresh the understanding of information compression and scaling law. Especially in multimodal setting. 
+  - [soliloquy ->]
+    - I feel like the industry has figured out how to fuse latent space of image and text already and I'm so ignorant to the progress. Wouldn't that be the holy grail of representation learning?
+    - Fancy pictures aside, diffusion model is a good entry point to this blind spot of mine. 
+    - [question -> what does latent space mean to language modeling?]
+  - [ChatGPT -> [asset/chatgpt_compression.png](asset/chatgpt_compression.png)]
+    - [hypothesize -> ideal foundation model would achieve lossless compression limit of one or more modalities, literally the `irreducible loss` @henighanScalingLawsAutoregressive2020. Finetuning is modification on foundation model to decide what bits to lose and keep wrt different tasks.]
+    - The causal chain to achieve goal is access right information > plan > make decision to generate action plan > execute > collect feedback > repeat. If foundation model could capture info that is relatively fixed, and mature retrieval system could supply up-to-date high quality facts, Westworld's final season AI could be built lol. 
+-  [interrupt(@touvronLLaMAOpenEfficient2022)]
+-  [interrupt(@kohGroundingLanguageModels2023)]

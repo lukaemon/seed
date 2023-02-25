@@ -53,9 +53,7 @@ Record every light bulb moment in `Log`. Don't care about the quality.  After cr
 - Positive: making break through, good result, intuition, execution. 
 - Negative: dead end, unproductive loop, failed experiment, tentative, flawed chain of thought, even emotional battle, ex: frustration, despair, giving up. 
 
-Operational log. Action driven, append only and chronologically sorted. Lightly grouped by topic since sub-list is direct expansion of the parent.  
-
-Overall it's similar to program execution trace with comments or super verbose chain of thought. Not the most human readable format but 99% of human won't read logs. The target audience is AI.
+Operational log. Event driven, append only. Lightly grouped by topic since sub-list is direct expansion of the parent. Similar to program execution trace with comments or super verbose chain of thought. Not the most human readable format but 99% of human won't read logs. The target audience is AI.
 
 ## Trajectory
 Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35SVBTQCOFwBEhI2CHr9H9a-CAggP6g/edit?usp=sharing) for the trajectory. Read [learning to learn](https://lukaemon.github.io/posts/2023/learning-to-learn/) for why I structure the trajectory and project this way.
@@ -77,9 +75,17 @@ Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35S
 | context_switch_from(source)                  |                                                 |
 | return(parent_project: optional)             | Close current project. Return to parent project |
 | start(project)                               | Start a new project                             |
+| ChatGPT -> screen_capture                    | Discussion with ChatGPT                         |
+| BingChat -> screen_capture                   | Interactive search with Bing                    |
+| hypothesize                                  | Intuitive proposition without proof             |
+| interrupt(source)                            | Top priority event breaks into the stack        |
 
 ### Annotation change log (latest first)
-- 20230224: `retrieve` is informative but manually input paper title and URL reduce my willingness to cite. Start using `@citation_key` syntax to reference paper and provide `asset/zotero.bib` for detail resolution.
+- 20230225:
+  - Add `interrupt`. Log transition from action driven to event driven. Make sense to have perception and react. 
+- 20230224: 
+  - Add `ChatGPT`, `BingChat`, `hypothesize` action. 
+  - `retrieve` is informative but manually input paper title and URL reduce my willingness to cite. Start using `@citation_key` syntax to reference paper and provide `asset/zotero.bib` for detail resolution.
 - 20230221: current structure can't meet following 2 goals
   1. The learning process should be able to read linearly as a well organized jupyter notebook. 
   2. Ground the project AND every single action to the context as much as possible.

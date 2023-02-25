@@ -134,6 +134,24 @@
   file = {/Users/lukakuma/Zotero/storage/EPA9JN9P/Agarwal et al. - 2020 - An Optimistic Perspective on Offline Reinforcement.pdf;/Users/lukakuma/Zotero/storage/IXM26UT4/1907.html}
 }
 
+@misc{aghajanyanScalingLawsGenerative2023,
+  title = {Scaling {{Laws}} for {{Generative Mixed-Modal Language Models}}},
+  author = {Aghajanyan, Armen and Yu, Lili and Conneau, Alexis and Hsu, Wei-Ning and Hambardzumyan, Karen and Zhang, Susan and Roller, Stephen and Goyal, Naman and Levy, Omer and Zettlemoyer, Luke},
+  date = {2023-01-09},
+  number = {arXiv:2301.03728},
+  eprint = {2301.03728},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2301.03728},
+  url = {http://arxiv.org/abs/2301.03728},
+  urldate = {2023-02-24},
+  abstract = {Generative language models define distributions over sequences of tokens that can represent essentially any combination of data modalities (e.g., any permutation of image tokens from VQ-VAEs, speech tokens from HuBERT, BPE tokens for language or code, and so on). To better understand the scaling properties of such mixed-modal models, we conducted over 250 experiments using seven different modalities and model sizes ranging from 8 million to 30 billion, trained on 5-100 billion tokens. We report new mixed-modal scaling laws that unify the contributions of individual modalities and the interactions between them. Specifically, we explicitly model the optimal synergy and competition due to data and model size as an additive term to previous uni-modal scaling laws. We also find four empirical phenomena observed during the training, such as emergent coordinate-ascent style training that naturally alternates between modalities, guidelines for selecting critical hyper-parameters, and connections between mixed-modal competition and training stability. Finally, we test our scaling law by training a 30B speech-text model, which significantly outperforms the corresponding unimodal models. Overall, our research provides valuable insights into the design and training of mixed-modal generative models, an important new class of unified models that have unique distributional properties.},
+  archiveprefix = {arXiv},
+  keywords = {scaling law},
+  file = {/Users/lukakuma/Zotero/storage/ELTPRPZ2/Aghajanyan et al. - 2023 - Scaling Laws for Generative Mixed-Modal Language M.pdf;/Users/lukakuma/Zotero/storage/RSXLIZTL/2301.html}
+}
+
 @misc{agostinelliMusicLMGeneratingMusic2023,
   title = {{{MusicLM}}: {{Generating Music From Text}}},
   shorttitle = {{{MusicLM}}},
@@ -13721,7 +13739,7 @@
   urldate = {2022-10-24},
   abstract = {Scaling language models improves performance but comes with significant computational costs. This paper proposes UL2R, a method that substantially improves existing language models and their scaling curves with a relatively tiny amount of extra compute. The key idea is to continue training a state-of-the-art large language model (e.g., PaLM) on a few more steps with UL2's mixture-of-denoiser objective. We show that, with almost negligible extra computational costs and no new sources of data, we are able to substantially improve the scaling properties of large language models on downstream metrics. In this paper, we continue training PaLM with UL2R, introducing a new set of models at 8B, 62B, and 540B scale which we call U-PaLM. Impressively, at 540B scale, we show an approximately 2x computational savings rate where U-PaLM achieves the same performance as the final PaLM 540B model at around half its computational budget (i.e., saving \$\textbackslash sim\$4.4 million TPUv4 hours). We further show that this improved scaling curve leads to 'emergent abilities' on challenging BIG-Bench tasks -- for instance, U-PaLM does much better than PaLM on some tasks or demonstrates better quality at much smaller scale (62B as opposed to 540B). Overall, we show that U-PaLM outperforms PaLM on many few-shot setups, i.e., English NLP tasks (e.g., commonsense reasoning, question answering), reasoning tasks with chain-of-thought (e.g., GSM8K), multilingual tasks (MGSM, TydiQA), MMLU and challenging BIG-Bench tasks. Finally, we provide qualitative examples showing the new capabilities of U-PaLM for single and multi-span infilling.},
   archiveprefix = {arXiv},
-  keywords = {compute efficient method,finetuning,read},
+  keywords = {compute efficient method,finetuning,read,scaling law},
   file = {/Users/lukakuma/Zotero/storage/9F5FJC8G/Tay et al. - 2022 - Transcending Scaling Laws with 0.1% Extra Compute.pdf;/Users/lukakuma/Zotero/storage/4A42TZPZ/2210.html}
 }
 
