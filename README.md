@@ -62,27 +62,29 @@ Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35S
 ### Action space
 | Command                                      | Effect                                          |
 | -------------------------------------------- | ----------------------------------------------- |
-| read(source)                                 | First contact                                   |
-| retrieve(source)                             | Review, cite, search contents                   |
-| code(brief_description)                      | Coding something                                |
-| critique                                     | Critique previous statement                     |
+| read(source)                                 | Study a source, first contact                   |
+| retrieve(*source)                            | Call one or few source to memory                |
+| code(brief_description)                      | Code something                                  |
+| critique                                     |                                                 |
 | soliloquy                                    | Start an internal discussion                    |
 | lesson_learned                               | Inductive, empirical conclusion. A closure      |
 | eureka                                       | Light bulb moment. Jumpy. A new start           |
 | question                                     | -eureka, no obvious answer and discussion       |
 | file_github_issue(brief_description) -> link |                                                 |
-| context_switch_to(destination)               | Switch attention and swap global working memory |
-| context_switch_from(source)                  |                                                 |
+| context_switch_to(project)                   | Switch attention and swap global working memory |
+| context_switch_from(project)                 |                                                 |
 | return(parent_project: optional)             | Close current project. Return to parent project |
 | start(project)                               | Start a new project                             |
 | ChatGPT -> screen_capture                    | Discussion with ChatGPT                         |
 | BingChat -> screen_capture                   | Interactive search with Bing                    |
 | hypothesize                                  | Intuitive proposition without proof             |
-| interrupt(source)                            | Top priority event breaks into the stack        |
+| interrupt(event)                             | Top priority event breaks into the stack        |
+| calculate(arithmetics) -> result             | Call calculator                                 |
 
 ### Annotation change log (latest first)
 - 20230225:
   - Add `interrupt`. Log transition from action driven to event driven. Make sense to have perception and react. 
+  - Add `calculate`.
 - 20230224: 
   - Add `ChatGPT`, `BingChat`, `hypothesize` action. 
   - `retrieve` is informative but manually input paper title and URL reduce my willingness to cite. Start using `@citation_key` syntax to reference paper and provide `asset/zotero.bib` for detail resolution.

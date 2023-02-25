@@ -117,4 +117,16 @@ Coming from @lesterPowerScaleParameterEfficient2021. Choose next project by revi
     - [hypothesize -> ideal foundation model would achieve lossless compression limit of one or more modalities, literally the `irreducible loss` @henighanScalingLawsAutoregressive2020. Finetuning is modification on foundation model to decide what bits to lose and keep wrt different tasks.]
     - The causal chain to achieve goal is access right information > plan > make decision to generate action plan > execute > collect feedback > repeat. If foundation model could capture info that is relatively fixed, and mature retrieval system could supply up-to-date high quality facts, Westworld's final season AI could be built lol. 
 -  [interrupt(@touvronLLaMAOpenEfficient2022)]
+   - Compute optimal model is possible with open datasets. 
+   - Considering inference compute budget, train a small model longer.
+   - ![](asset/llama_data.png)
+     - Wiki and Books 2+ epochs. Was expecting ArXiv to be 2x as well but no. @taylorGalacticaLargeLanguage2022 did 4.25 epochs. Maybe they learned it's an overkill?
+   - Compare against: GPT-4, Gopher, Chinchilla, PaLM, OPT, GPT-J, GPT-Neo, OPT-IML, Flan-PaLM, Minerva. 
+     - This is the dark knight returned lol. No softball. 
+   - LLaMA 13b > GPT 175b is a good example of the power from compute optimally trained model. How much you can pack in a 10+b model?
+   - The paper is short and sweet. Facts, numbers no bullshit. This is hope. 
+   - LLaMA 13b requires A100-80G 135,168 hours. In AWS `p4de.24xlarge` on-demand price $40.96. Total training price would be: [calculate(135168 / 8 * 40.96) -> 252764] roughly `253k`. LLaMA 65b would be [calculate(1022362 / 8 * 40.96)] roughly `1.9m`. Totally doable.
+   - [question -> how does LLaMA 13b compared to Flan-T5-xxl?]
+     - Paper showed LLaMA-I 65b vs Flan-T5-xxl, but that's not a fair comparison.
+     - [eureka -> Flan LLaMA 13b and compare against Flan-T5-xxl.]
 -  [interrupt(@kohGroundingLanguageModels2023)]
