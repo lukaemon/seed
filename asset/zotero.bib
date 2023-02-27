@@ -765,6 +765,7 @@
   urldate = {2023-02-24},
   abstract = {As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but non-evasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels.},
   archiveprefix = {arXiv},
+  keywords = {alignment},
   file = {/Users/lukakuma/Zotero/storage/AYCP287E/Bai et al. - 2022 - Constitutional AI Harmlessness from AI Feedback.pdf;/Users/lukakuma/Zotero/storage/HWDGB49I/2212.html}
 }
 
@@ -8827,6 +8828,24 @@
   file = {/Users/lukakuma/Zotero/storage/U62CK54J/Li et al. - 2022 - A Systematic Investigation of Commonsense Knowledg.pdf;/Users/lukakuma/Zotero/storage/S3YWWVP3/2111.html}
 }
 
+@misc{liTrainLargeThen2020,
+  title = {Train {{Large}}, {{Then Compress}}: {{Rethinking Model Size}} for {{Efficient Training}} and {{Inference}} of {{Transformers}}},
+  shorttitle = {Train {{Large}}, {{Then Compress}}},
+  author = {Li, Zhuohan and Wallace, Eric and Shen, Sheng and Lin, Kevin and Keutzer, Kurt and Klein, Dan and Gonzalez, Joseph E.},
+  date = {2020-06-22},
+  number = {arXiv:2002.11794},
+  eprint = {2002.11794},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2002.11794},
+  url = {http://arxiv.org/abs/2002.11794},
+  urldate = {2023-02-27},
+  abstract = {Since hardware resources are limited, the objective of training deep learning models is typically to maximize accuracy subject to the time and memory constraints of training and inference. We study the impact of model size in this setting, focusing on Transformer models for NLP tasks that are limited by compute: self-supervised pretraining and high-resource machine translation. We first show that even though smaller Transformer models execute faster per iteration, wider and deeper models converge in significantly fewer steps. Moreover, this acceleration in convergence typically outpaces the additional computational overhead of using larger models. Therefore, the most compute-efficient training strategy is to counterintuitively train extremely large models but stop after a small number of iterations. This leads to an apparent trade-off between the training efficiency of large Transformer models and the inference efficiency of small Transformer models. However, we show that large models are more robust to compression techniques such as quantization and pruning than small models. Consequently, one can get the best of both worlds: heavily compressed, large models achieve higher accuracy than lightly compressed, small models.},
+  archiveprefix = {arXiv},
+  file = {/Users/lukakuma/Zotero/storage/HNH8FKUA/Li et al. - 2020 - Train Large, Then Compress Rethinking Model Size .pdf;/Users/lukakuma/Zotero/storage/EYSRG62S/2002.html}
+}
+
 @inproceedings{liu*GeneratingWikipediaSummarizing2022,
   title = {Generating {{Wikipedia}} by {{Summarizing Long Sequences}}},
   author = {Liu*, Peter J. and Saleh*, Mohammad and Pot, Etienne and Goodrich, Ben and Sepassi, Ryan and Kaiser, Lukasz and Shazeer, Noam},
@@ -9836,6 +9855,23 @@
   archiveprefix = {arXiv},
   issue = {ICFP},
   file = {/Users/lukakuma/Zotero/storage/A2CALAKF/Merigoux et al. - 2021 - Catala A Programming Language for the Law.pdf;/Users/lukakuma/Zotero/storage/Y7SJDH52/2103.html}
+}
+
+@misc{merulloLinearlyMappingImage2022,
+  title = {Linearly {{Mapping}} from {{Image}} to {{Text Space}}},
+  author = {Merullo, Jack and Castricato, Louis and Eickhoff, Carsten and Pavlick, Ellie},
+  date = {2022-09-29},
+  number = {arXiv:2209.15162},
+  eprint = {2209.15162},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2209.15162},
+  url = {http://arxiv.org/abs/2209.15162},
+  urldate = {2023-02-27},
+  abstract = {The extent to which text-only language models (LMs) learn to represent the physical, non-linguistic world is an open question. Prior work has shown that pretrained LMs can be taught to ``understand'' visual inputs when the models' parameters are updated on image captioning tasks. We test a stronger hypothesis: that the conceptual representations learned by text-only models are functionally equivalent (up to a linear transformation) to those learned by models trained on vision tasks. Specifically, we show that the image representations from vision models can be transferred as continuous prompts to frozen LMs by training only a single linear projection. Using these to prompt the LM achieves competitive performance on captioning and visual question answering tasks compared to models that tune both the image encoder and text decoder (such as the MAGMA model). We compare three image encoders with increasing amounts of linguistic supervision seen during pretraining: BEIT (no linguistic information), NF-ResNET (lexical category information), and CLIP (full natural language descriptions). We find that all three encoders perform equally well at transferring visual property information to the language model (e.g., whether an animal is large or small), but that image encoders pretrained with linguistic supervision more saliently encode category information (e.g., distinguishing hippo vs.\textbackslash{} elephant) and thus perform significantly better on benchmark language-and-vision tasks. Our results indicate that LMs encode conceptual information structurally similarly to vision-based models, even those that are solely trained on images.},
+  archiveprefix = {arXiv},
+  file = {/Users/lukakuma/Zotero/storage/LW3SEI44/Merullo et al. - 2022 - Linearly Mapping from Image to Text Space.pdf;/Users/lukakuma/Zotero/storage/NYF68EI9/2209.html}
 }
 
 @article{metafundamentalairesearchdiplomacyteamfairHumanlevelPlayGame2022,
@@ -16264,7 +16300,7 @@
   urldate = {2023-02-20},
   abstract = {We present a neural network structure, ControlNet, to control pretrained large diffusion models to support additional input conditions. The ControlNet learns task-specific conditions in an end-to-end way, and the learning is robust even when the training dataset is small ({$<$} 50k). Moreover, training a ControlNet is as fast as fine-tuning a diffusion model, and the model can be trained on a personal devices. Alternatively, if powerful computation clusters are available, the model can scale to large amounts (millions to billions) of data. We report that large diffusion models like Stable Diffusion can be augmented with ControlNets to enable conditional inputs like edge maps, segmentation maps, keypoints, etc. This may enrich the methods to control large diffusion models and further facilitate related applications.},
   archiveprefix = {arXiv},
-  keywords = {img gen},
+  keywords = {6-diffusion,img gen},
   file = {/Users/lukakuma/Zotero/storage/9HIQ3ZDS/Zhang and Agrawala - 2023 - Adding Conditional Control to Text-to-Image Diffus.pdf;/Users/lukakuma/Zotero/storage/SHQI5FUV/2302.html}
 }
 

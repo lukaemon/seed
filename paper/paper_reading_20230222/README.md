@@ -1,18 +1,30 @@
 ## tl;dr
+Read few papers to decide what to do next.
 
 ## Context
 Coming from @lesterPowerScaleParameterEfficient2021. Choose next project by reviewing few ideas.
 
 ## Done
 - [x] @aoSpeechT5UnifiedModalEncoderDecoder2022, intro to adaptor based multimodal, (audio, text).
-- [ ] @rombachHighResolutionImageSynthesis2022, LoRA stable diffusion, intro to multimodal, (image, text). 
+- [x] @rombachHighResolutionImageSynthesis2022, LoRA stable diffusion, intro to multimodal, (image, text). 
 - [x] @schickToolformerLanguageModels2023, LoRA LM to use tools. 
 - [x] @longpreFlanCollectionDesigning2023, LoRA instruction finetuning. Coding practice for data engineering, LoRA ft and evaluation.
-- [x] Learn t5x and figure out how to make prompt tuning work on t5: training, inference and evaluation. 
+- [x] @touvronLLaMAOpenEfficient2022
+- [x] @kohGroundingLanguageModels2023
+- [x] @baiConstitutionalAIHarmlessness2022
 
 ## Learned
+- [lesson_learned -> `toolformer` is essentially designing the bicycle for LM. Ability to use and invent tools is how human break out of natural physical limitation. How powerful could inference optimal small model become with tools?]
+- [lesson_learned -> The value is bootstrapping technique for teaching LM to make decisions. Overall it's a well budget controlled research to test an idea. The project includes data munging, finetuning and evaluation. Would be a well rounded practice for me. The raw idea itself could be a very powerful testbed for many future research, better decision making, tool chaining, interactive, iterative calls, etc.]
+- [lesson_learned -> FLAN's better performance is combination of good base model, good instruction ft data, and good training methods. It's not one magic sauce is all you need story. Details matter.]
+- [lesson_learned -> choose good science. Well organized experiment, careful analysis, neutral, ego free statements. Stop being attracted by TikToc research: <1b model could do multimodal CoT and beat 175b model. No free lunch or magical solution. Focus on science and engineering.]
+- [lesson_learned -> google brain, deepmind, openai research are great but this kind of research from university lab is more practical. Change mix of information input to keep learning curve steep wrt to my level.] 
+- [lesson_learned -> light adaptor, multimodal, interactive, parameter efficient, 24hr A6000, small data. This is total package. Perfect intro to multimodal AI. I'll take this and drop SpeechT5 for now.]
 
 ## Next?
+- [start(@longpreFlanCollectionDesigning2023)]: reproduce instruction finetuning as engineering practice.
+- [start(@kohGroundingLanguageModels2023)]: reproduce FROMAGe as intro to multimodal research. 
+- [start(paper_reading_20230227)]
 
 ## Log
 - [read(@schickToolformerLanguageModels2023)]
@@ -28,7 +40,7 @@ Coming from @lesterPowerScaleParameterEfficient2021. Choose next project by revi
     - Need to figure out how to effectively use `davinci` to generate training data. Don't want to use it to scan the whole pretraining dataset. 
   - If the API call didn't reduce the loss, probably the model got it right without using tool. Human doesn't have to manually engineer the line between calling API and not. 
     - The methodology applies to different base model. Weaker base model may need to use more tools more often than the strong one. 
-    - Hopefully, with tools, the weaker, smaller model could still perform decently. [lesson_learned -> This line of research is essentially designing the bicycle for LM. Ability to use and invent tools is how human break out of natural physical limitation.]
+    - Hopefully, with tools, the weaker, smaller model could still perform decently. [lesson_learned -> `toolformer` is essentially designing the bicycle for LM. Ability to use and invent tools is how human break out of natural physical limitation. How powerful could inference optimal small model become with tools?]
   - [eureka -> LLM reflection: inspired by how `toolformer` chooses where to insert API call. LLM first generates a paragraph. Review to decide if using more tools could improve the answer. Execute and improve on previous generation. The beauty of reflection is not simply throwing more computation for text generation and redundant API calls, but to use the whole context. Pretrain the model with `FIM`. During the reflection, give LLM the whole context, before and after the breakpoint, to help it decide whether to use extra tool for further improvement. This is similar to human making a draft and iterate. The process of editing draft is a lot of `FIM`, rather than repeated autoregressive generations.]
   - [question -> funny to realize LM has no sense of time. Space and time are deepest inductive biases of human. Wondering what AI could learn if it could switch them on and off at will? Must be very liberating? Scary maybe.]
   - [question -> `opt` has a 6.7b variation. Why did meta use GPT-J?]
@@ -90,7 +102,7 @@ Coming from @lesterPowerScaleParameterEfficient2021. Choose next project by revi
     - It has to be multimodal AI to read this log. I didn't see any paper that can read image of table and get details right. Maybe I haven't searched hard enough.
     - [lesson_learned -> FLAN's better performance is combination of good base model, good instruction ft data, and good training methods. It's not one magic sauce is all you need story. Details matter.]
       - I bet even you apply the same data and method on OPT or BLOOM, it won't perform as well.
-  - [lesson_learned -> choose good science. Well organized experiment, careful analysis, neutral, ego free statements. Stop being attracted by click bait AI research: <1b model could do multimodal CoT and beat 175b model. No free lunch or magical solution. Focus on science and engineering.]
+  - [lesson_learned -> choose good science. Well organized experiment, careful analysis, neutral, ego free statements. Stop being attracted by TikToc research: <1b model could do multimodal CoT and beat 175b model. No free lunch or magical solution. Focus on science and engineering.]
   - Data is not the more the marrier. Some dataset is even detrimental. But again, how to eval quality of dataset is deeply connected to how to eval LM. 
     - [question -> how to evaluate quality of dataset?]
   - [lesson_learned -> Compare Flan with mm-cot. What a good lesson! Given my engineering skill is seriously lagging behind paper reading, I should just reproduce this paper with t5x and huggingface system. It would be a hell of a journey.]
@@ -116,7 +128,11 @@ Coming from @lesterPowerScaleParameterEfficient2021. Choose next project by revi
   - [ChatGPT -> [asset/chatgpt_compression.png](asset/chatgpt_compression.png)]
     - [hypothesize -> ideal foundation model would achieve lossless compression limit of one or more modalities, literally the `irreducible loss` @henighanScalingLawsAutoregressive2020. Finetuning is modification on foundation model to decide what bits to lose and keep wrt different tasks.]
     - The causal chain to achieve goal is access right information > plan > make decision to generate action plan > execute > collect feedback > repeat. If foundation model could capture info that is relatively fixed, and mature retrieval system could supply up-to-date high quality facts, Westworld's final season AI could be built lol. 
-  - 
+  - ![](asset/ldm.png)
+    - Would be great to compare this vanilla architecture to recent red hot `ControlNet`, @zhangAddingConditionalControl2023, and diffusion free Muse, @changMuseTextToImageGeneration2023.
+    - To me, they all look like encoder-decoder. The magic of Muse is in `VQ Tokenizer`. Muse's CNN free architecture is betting hitting hardware lottery, if transformer works great. 
+  - For the diffusion track, @rombachHighResolutionImageSynthesis2022 -> @zhangAddingConditionalControl2023 -> @changMuseTextToImageGeneration2023 is good progression. Don't all in diffusion. It may not be necessary.
+  - I didn't miss that much of the diffusion magic to multimodal AI. Still cross attention. With @changMuseTextToImageGeneration2023, diffusion may not even be necessary. Transformer could be enough.  
 -  [interrupt(@touvronLLaMAOpenEfficient2022)]
    - Compute optimal model is possible with open datasets. 
    - Considering inference compute budget, train a small model longer.

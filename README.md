@@ -1,4 +1,4 @@
-> Fail diversely, fail fast, and iterate.
+![](asset/cover.png)
 
 ## Why?
 I see cutting edge AI paper getting published and real world production deployment at light speed in the past 3 years. Stunning. Brilliant idea, great execution, huge improvement. Exciting and hopeful of all. 
