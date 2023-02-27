@@ -5,6 +5,8 @@ I see cutting edge AI paper getting published and real world production deployme
 
 However, for people to truly adopt AI and cultivate capability to use, cooperate and even create one with autonomy, the embarrassing side of the learning process may be of some value. I personally would love to see more fail experiment, detour and dead end, as well as the rosy final result.
 
+Plus, whatever I type in vscode would be sent to openai through copilot. Might as well just MIT it.
+
 ## How to use this repo?
 Think of the repo as an unstructured dataset and ChatGPT as the rudimentary UI/UX. The ideal interaction is to condition AI with the repo and just talk. ex: 
 
@@ -63,7 +65,6 @@ Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35S
 | Command                                      | Effect                                          |
 | -------------------------------------------- | ----------------------------------------------- |
 | read(source)                                 | Study a source, first contact                   |
-| retrieve(*source)                            | Call one or few source to memory                |
 | code(brief_description)                      | Code something                                  |
 | critique                                     |                                                 |
 | soliloquy                                    | Start an internal discussion                    |
@@ -81,7 +82,14 @@ Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35S
 | interrupt(event)                             | Top priority event breaks into the stack        |
 | calculate(arithmetics) -> result             | Call calculator                                 |
 
+
+### Syntax change
+| Old command       | New command   | date     |
+| ----------------- | ------------- | -------- |
+| retrieve(*source) | @citation_key | 20230327 |
+
 ### Annotation change log (latest first)
+- 20230227: simplify citation syntax. `[Retrieve()]` is too verbose. Just add all source to zotero and use `@citation_key` for referencing. Easier for post processing in the future. 
 - 20230225:
   - Add `interrupt`. Log transition from action driven to event driven. Make sense to have perception and react. 
   - Add `calculate`.

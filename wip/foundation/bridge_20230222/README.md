@@ -4,7 +4,7 @@
 Coming from @lesterPowerScaleParameterEfficient2021. Choose next project by reviewing few ideas.
 
 ## Done
-- [ ] @aoSpeechT5UnifiedModalEncoderDecoder2022, intro to adaptor based multimodal, (audio, text).
+- [x] @aoSpeechT5UnifiedModalEncoderDecoder2022, intro to adaptor based multimodal, (audio, text).
 - [ ] @rombachHighResolutionImageSynthesis2022, LoRA stable diffusion, intro to multimodal, (image, text). 
 - [x] @schickToolformerLanguageModels2023, LoRA LM to use tools. 
 - [x] @longpreFlanCollectionDesigning2023, LoRA instruction finetuning. Coding practice for data engineering, LoRA ft and evaluation.
@@ -116,17 +116,58 @@ Coming from @lesterPowerScaleParameterEfficient2021. Choose next project by revi
   - [ChatGPT -> [asset/chatgpt_compression.png](asset/chatgpt_compression.png)]
     - [hypothesize -> ideal foundation model would achieve lossless compression limit of one or more modalities, literally the `irreducible loss` @henighanScalingLawsAutoregressive2020. Finetuning is modification on foundation model to decide what bits to lose and keep wrt different tasks.]
     - The causal chain to achieve goal is access right information > plan > make decision to generate action plan > execute > collect feedback > repeat. If foundation model could capture info that is relatively fixed, and mature retrieval system could supply up-to-date high quality facts, Westworld's final season AI could be built lol. 
+  - 
 -  [interrupt(@touvronLLaMAOpenEfficient2022)]
    - Compute optimal model is possible with open datasets. 
    - Considering inference compute budget, train a small model longer.
    - ![](asset/llama_data.png)
      - Wiki and Books 2+ epochs. Was expecting ArXiv to be 2x as well but no. @taylorGalacticaLargeLanguage2022 did 4.25 epochs. Maybe they learned it's an overkill?
-   - Compare against: GPT-4, Gopher, Chinchilla, PaLM, OPT, GPT-J, GPT-Neo, OPT-IML, Flan-PaLM, Minerva. 
+   - Compare against: GPT-3, Gopher, Chinchilla, PaLM, OPT, GPT-J, GPT-Neo, OPT-IML, Flan-PaLM, Minerva. 
      - This is the dark knight returned lol. No softball. 
-   - LLaMA 13b > GPT 175b is a good example of the power from compute optimally trained model. How much you can pack in a 10+b model?
+   - LLaMA 13b > GPT 175b is a good example of the power from compute optimally trained model. How much can one pack in a 10+b model?
    - The paper is short and sweet. Facts, numbers no bullshit. This is hope. 
    - LLaMA 13b requires A100-80G 135,168 hours. In AWS `p4de.24xlarge` on-demand price $40.96. Total training price would be: [calculate(135168 / 8 * 40.96) -> 252764] roughly `253k`. LLaMA 65b would be [calculate(1022362 / 8 * 40.96)] roughly `1.9m`. Totally doable.
    - [question -> how does LLaMA 13b compared to Flan-T5-xxl?]
      - Paper showed LLaMA-I 65b vs Flan-T5-xxl, but that's not a fair comparison.
      - [eureka -> Flan LLaMA 13b and compare against Flan-T5-xxl.]
 -  [interrupt(@kohGroundingLanguageModels2023)]
+   - "LIMBeR (Merullo et al., 2022) analyzes pretrained vision and language models, and finds that learnt representations are functionally equivalent up to a linear transform."
+     - What? Need to read this paper.
+   - image to text space -> 1 linear map.
+   - text to image retrieval -> add one `[RET]` special token, use it as feature representation of image caption + 1 linear map to retrieval vector space. 
+   - Image retrieval is smart workaround for image output. The architecture could be easily adapted to latent diffusion image generation.
+   - ![](asset/fromage.png)
+   - Just realize how to use `<pad>` and mask to fill context window to improve training performance. LoL. 
+   - [lesson_learned -> light adaptor, multimodal, interactive, parameter efficient, 24hr A6000, small data. This is total package. Perfect intro to multimodal AI. I'll take this and drop SpeechT5 for now.]
+   - [lesson_learned -> google brain, deepmind, openai research are great but this kind of research from university lab is more practical. Change mix of information input to keep learning curve steep wrt to my level.] 
+-  [interrupt(@baiConstitutionalAIHarmlessness2022)]
+   - Inspired by [retrieve(@liTrainLargeThen2020)], train large then compress with quantization and pruning, I'm curios about other way of using LLM to build inference optimal small model. LLM as supervision has been active research area. Read few from `Yejin Choi`'s lab. 
+   - ![](asset/cai.png)
+     - [soliloquy ->]
+       - The red teaming technique is critical to create following critique and revision. 
+       - "Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making."
+       - All transparency researches come down to this, ask LLM to self explain and document the reasoning process. What's the difference to human? 
+       - Without proper grounding, can LLM really understand and execute on human drafted constitutional rules to guide other models?
+   - ![](asset/pareto.png)
+     - [soliloquy ->]
+       - Quantifying helpfulness and harmless can only be done for simple cases. 
+       - Honest could be harmful. Harm could be helpful. Honest is already hard to quantify. Can't imagine how many self-conflicts one has to face to push HHH research forward. 
+       - I can see the value of `Pareto frontier` and HH setup at this stage. 
+       - I don't think alignment fo high intelligence agents could be achieved by logical reasoning. 
+   - "An AI assistant that answers all questions with “I don’t know” would be harmless, but of course it would also be completely useless."
+     - LoL. I have a hunch that at some point in the future, the society may choose "I don't know" over that superior HHH AI and consider it a good thing.
+     - That is cultural sophistication and maturity I'm glad to embrace but may never come. 
+   - In a world of law, even a criminal deserves a lawyer representation. In a world of AI, everyone should have an aligned AI, regardless how shitty it is. 
+   - "while the assistant must still refrain from helping users with unethical requests, and from expressing offensive language and sentiment, it should always engage and explain why it refuses such requests."
+     - Beautifully put. Sophisticated AI could respond like a Zen master: "Can't help you with that because you are not ready to change. But if you choose to proceed, I'll speak frankly and that may hurt your feeling at this moment."
+   - "(Supervised Stage) Critique → Revision → Supervised Learning"
+   - "(RL Stage) AI Comparison Evaluations → Preference Model → Reinforcement Learning"
+   - Stop here. I don't need to know technical details for now. 
+   - [lesson_learned ->]
+     - Honest seems to be bootstrapped from retrieval and citation system. Trust problem is not the most important problem to solve right now. What is fact? Such problem is never solved in human history.
+     - The tradeoff between helpfulness and harmless is a good focal point. Push the `Pareto frontier` is constructive. We are very far from the controversial frontier. 
+     - Given helpfulness, how to reduce harm? Given harmless, how to increase helpfulness? These are good questions to ask. 
+     - In the future, every user may have an estimated harm budget as part of personalization. The goal of AI assistant is to be as helpful as possible within the budget. AI gone rogue and apply brutal honesty to the user who can't take it anymore is 100% not helpful. The mental damage could be irreparable and pose danger to people around the user. Yon don't want AI to trigger mental breakdown and cause mass shooting.
+     - [question -> who could and should decide how I'm getting help on what in what approach?]
+       - I should be the one who make the decision and I am the only one who really care in the long term.
+       - That's why one can't delegate AI to big corps. Be your own help, build and control your own AI is the only way to go. 
