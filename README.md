@@ -64,7 +64,8 @@ Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35S
 ### Action space
 | Command                                      | Effect                                          |
 | -------------------------------------------- | ----------------------------------------------- |
-| read(source)                                 | Study a source, first contact                   |
+| skim(source)                                 | Check if the source is worth my time            |
+| read(source)                                 | Engage. Read, study, talk, dream about it       |
 | code(brief_description)                      | Code something                                  |
 | critique                                     |                                                 |
 | soliloquy                                    | Start an internal discussion                    |
@@ -89,6 +90,8 @@ Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35S
 | retrieve(*source) | @citation_key | 20230327 |
 
 ### Annotation change log (latest first)
+- 20230228:
+  - Add `skim`.
 - 20230227: simplify citation syntax. `[Retrieve()]` is too verbose. Just add all source to zotero and use `@citation_key` for referencing. Easier for post processing in the future. 
 - 20230225:
   - Add `interrupt`. Log transition from action driven to event driven. Make sense to have perception and react. 

@@ -279,7 +279,7 @@
   urldate = {2022-07-23},
   abstract = {Ability to continuously learn and adapt from limited experience in nonstationary environments is an important milestone on the path towards general intelligence. In this paper, we cast the problem of continuous adaptation into the learning-to-learn framework. We develop a simple gradient-based meta-learning algorithm suitable for adaptation in dynamically changing and adversarial scenarios. Additionally, we design a new multi-agent competitive environment, RoboSumo, and define iterated adaptation games for testing various aspects of continuous adaptation strategies. We demonstrate that meta-learning enables significantly more efficient adaptation than reactive baselines in the few-shot regime. Our experiments with a population of agents that learn and compete suggest that meta-learners are the fittest.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/LS967C7I/Al-Shedivat et al. - 2018 - Continuous Adaptation via Meta-Learning in Nonstat.pdf;/Users/lukakuma/Zotero/storage/6EKN9R62/1710.html}
 }
 
@@ -289,7 +289,7 @@
   date = {2022-04-28},
   pages = {66},
   langid = {english},
-  keywords = {(ext) Flamingo,*DeepMind,2-adaptor,7-multimodal,read},
+  keywords = {(ext) Flamingo,2-adaptor,7-multimodal,DeepMind,read},
   file = {/Users/lukakuma/Zotero/storage/TCJCJDME/Alayrac et al. -  Flamingo a Visual Language Model for Few-Shot .pdf}
 }
 
@@ -395,7 +395,7 @@
   urldate = {2022-07-19},
   abstract = {Dealing with sparse rewards is one of the biggest challenges in Reinforcement Learning (RL). We present a novel technique called Hindsight Experience Replay which allows sample-efficient learning from rewards which are sparse and binary and therefore avoid the need for complicated reward engineering. It can be combined with an arbitrary off-policy RL algorithm and may be seen as a form of implicit curriculum. We demonstrate our approach on the task of manipulating objects with a robotic arm. In particular, we run experiments on three different tasks: pushing, sliding, and pick-and-place, in each case using only binary rewards indicating whether or not the task is completed. Our ablation studies show that Hindsight Experience Replay is a crucial ingredient which makes training possible in these challenging environments. We show that our policies trained on a physics simulation can be deployed on a physical robot and successfully complete the task.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/8V4MMDCX/Andrychowicz et al. - 2018 - Hindsight Experience Replay.pdf;/Users/lukakuma/Zotero/storage/ZY9YH8JP/1707.html}
 }
 
@@ -721,7 +721,7 @@
   urldate = {2022-06-07},
   abstract = {Atari games have been a long-standing benchmark in the reinforcement learning (RL) community for the past decade. This benchmark was proposed to test general competency of RL algorithms. Previous work has achieved good average performance by doing outstandingly well on many games of the set, but very poorly in several of the most challenging games. We propose Agent57, the first deep RL agent that outperforms the standard human benchmark on all 57 Atari games. To achieve this result, we train a neural network which parameterizes a family of policies ranging from very exploratory to purely exploitative. We propose an adaptive mechanism to choose which policy to prioritize throughout the training process. Additionally, we utilize a novel parameterization of the architecture that allows for more consistent and stable learning.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/RBN9DT9N/Badia et al. - 2020 - Agent57 Outperforming the Atari Human Benchmark.pdf;/Users/lukakuma/Zotero/storage/UYJ72CH3/2003.html}
 }
 
@@ -793,7 +793,7 @@
   pages = {34},
   abstract = {Pretraining on noisy, internet-scale datasets has been heavily studied as a technique for training models with broad, general capabilities for text, images, and other modalities. 1–6 However, for many sequential decision domains such as robotics, video games, and computer use, publicly available data does not contain the labels required to train behavioral priors in the same way. We extend the internet-scale pretraining paradigm to sequential decision domains through semi-supervised imitation learning wherein agents learn to act by watching online unlabeled videos. Specifically, we show that with a small amount of labeled data we can train an inverse dynamics model accurate enough to label a huge unlabeled source of online data – here, online videos of people playing Minecraft – from which we can then train a general behavioral prior. Despite using the native human interface (mouse and keyboard at 20Hz), we show that this behavioral prior has nontrivial zeroshot capabilities and that it can be fine-tuned, with both imitation learning and reinforcement learning, to hard-exploration tasks that are impossible to learn from scratch via reinforcement learning. For many tasks our models exhibit humanlevel performance, and we are the first to report computer agents that can craft diamond tools, which can take proficient humans upwards of 20 minutes (24,000 environment actions) of gameplay to accomplish.},
   langid = {english},
-  keywords = {*OpenAI,action/digital,alignment,read},
+  keywords = {action/digital,alignment,OpenAI,read},
   file = {/Users/lukakuma/Zotero/storage/I3YP5H83/Baker et al. - Video PreTraining (VPT) Learning to Act by Watchi.pdf}
 }
 
@@ -1001,7 +1001,7 @@
   urldate = {2023-02-08},
   abstract = {Neural fields, also known as implicit neural representations, have emerged as a powerful means to represent complex signals of various modalities. Based on this Dupont et al. (2022) introduce a framework that views neural fields as data, termed *functa*, and proposes to do deep learning directly on this dataset of neural fields. In this work, we show that the proposed framework faces limitations when scaling up to even moderately complex datasets such as CIFAR-10. We then propose *spatial functa*, which overcome these limitations by using spatially arranged latent representations of neural fields, thereby allowing us to scale up the approach to ImageNet-1k at 256x256 resolution. We demonstrate competitive performance to Vision Transformers (Steiner et al., 2022) on classification and Latent Diffusion (Rombach et al., 2022) on image generation respectively.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind,functa},
+  keywords = {DeepMind,functa},
   file = {/Users/lukakuma/Zotero/storage/GI8CMZB8/Bauer et al. - 2023 - Spatial Functa Scaling Functa to ImageNet Classif.pdf;/Users/lukakuma/Zotero/storage/WNMZUNAK/2302.html}
 }
 
@@ -1019,7 +1019,7 @@
   urldate = {2022-07-29},
   abstract = {We show that autoregressive language models can learn to infill text after we apply a straightforward transformation to the dataset, which simply moves a span of text from the middle of a document to its end. While this data augmentation has garnered much interest in recent years, we provide extensive evidence that training models with a large fraction of data transformed in this way does not harm the original left-to-right generative capability, as measured by perplexity and sampling evaluations across a wide range of scales. Given the usefulness, simplicity, and efficiency of training models to fill-in-the-middle (FIM), we suggest that future autoregressive language models be trained with FIM by default. To this end, we run a series of ablations on key hyperparameters, such as the data transformation frequency, the structure of the transformation, and the method of selecting the infill span. We use these ablations to prescribe strong default settings and best practices to train FIM models. We have released our best infilling model trained with best practices in our API, and release our infilling benchmarks to aid future research.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI,objective fn,read},
+  keywords = {objective fn,OpenAI,read},
   file = {/Users/lukakuma/Zotero/storage/2J89TNUA/Bavarian et al. - 2022 - Efficient Training of Language Models to Fill in t.pdf;/Users/lukakuma/Zotero/storage/6PL3HM2H/2207.html}
 }
 
@@ -1048,7 +1048,7 @@
   eventtitle = {Distributed {{Processing}} ({{IPDPS}})},
   isbn = {978-1-4244-3751-1},
   langid = {english},
-  keywords = {decentralized AI},
+  keywords = {*open source AI},
   file = {/Users/lukakuma/Zotero/storage/2QEE7DUI/Beberg et al. - 2009 - Folding@home Lessons from eight years of voluntee.pdf}
 }
 
@@ -1070,7 +1070,7 @@
   urldate = {2022-06-07},
   abstract = {In this article we introduce the Arcade Learning Environment (ALE): both a challenge problem and a platform and methodology for evaluating the development of general, domain-independent AI technology. ALE provides an interface to hundreds of Atari 2600 game environments, each one different, interesting, and designed to be a challenge for human players. ALE presents significant research challenges for reinforcement learning, model learning, model-based planning, imitation learning, transfer learning, and intrinsic motivation. Most importantly, it provides a rigorous testbed for evaluating and comparing approaches to these problems. We illustrate the promise of ALE by developing and benchmarking domain-independent agents designed using well-established AI techniques for both reinforcement learning and planning. In doing so, we also propose an evaluation methodology made possible by ALE, reporting empirical results on over 55 different games. All of the software, including the benchmark agents, is publicly available.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/LMCHIDW8/Bellemare et al. - 2013 - The Arcade Learning Environment An Evaluation Pla.pdf;/Users/lukakuma/Zotero/storage/VCWJ8GZK/1207.html}
 }
 
@@ -1233,7 +1233,7 @@
   isbn = {978-1-886529-17-5},
   langid = {english},
   pagetotal = {225},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/6NHMQJT6/Bertsekas - 2022 - Lessons from AlphaZero for Optimal, Model Predicti.pdf}
 }
 
@@ -1432,7 +1432,7 @@
   pages = {10},
   abstract = {Many NLP tasks benefit from using large language models (LLMs) that often have more than 100 billion parameters. With the release of BLOOM-176B and OPT-175B, everyone can download pretrained models of this scale. Still, using these models requires highend hardware unavailable to many researchers. In some cases, LLMs can be used more affordably via RAM offloading or hosted APIs. However, these techniques have innate limitations: offloading is too slow for interactive inference, while APIs are not flexible enough for research. In this work, we propose PETALS1 — a system for inference and finetuning of large models collaboratively by joining the resources of multiple parties trusted to process client’s data. We demonstrate that this strategy significantly outperforms offloading for very large models, running inference of BLOOM-176B on consumer GPUs with ≈ 1 step per second. Unlike most inference APIs, PETALS also natively exposes the hidden states of served models, allowing its users to train and share custom model extensions based on efficient fine-tuning methods.},
   langid = {english},
-  keywords = {decentralized AI,read},
+  keywords = {*open source AI,read},
   file = {/Users/lukakuma/Zotero/storage/2QSDQXLJ/Borzunov et al. - PETALS Collaborative Inference and Fine-tuning of.pdf}
 }
 
@@ -1450,7 +1450,7 @@
   urldate = {2022-09-02},
   abstract = {The infrastructure necessary for training state-of-the-art models is becoming overly expensive, which makes training such models affordable only to large corporations and institutions. Recent work proposes several methods for training such models collaboratively, i.e., by pooling together hardware from many independent parties and training a shared model over the Internet. In this demonstration, we collaboratively trained a text-to-image transformer similar to OpenAI DALL-E. We invited the viewers to join the ongoing training run, showing them instructions on how to contribute using the available hardware. We explained how to address the engineering challenges associated with such a training run (slow communication, limited memory, uneven performance between devices, and security concerns) and discussed how the viewers can set up collaborative training runs themselves. Finally, we show that the resulting model generates images of reasonable quality on a number of prompts.},
   archiveprefix = {arXiv},
-  keywords = {decentralized AI,read},
+  keywords = {*open source AI,read},
   file = {/Users/lukakuma/Zotero/storage/DSUTWSS7/Borzunov et al. - 2022 - Training Transformers Together.pdf;/Users/lukakuma/Zotero/storage/UVQTZSTH/2207.html}
 }
 
@@ -1659,7 +1659,7 @@
   urldate = {2022-07-22},
   abstract = {Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions - something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art fine-tuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI,read},
+  keywords = {OpenAI,read},
   file = {/Users/lukakuma/Zotero/storage/GR6HZMTQ/Brown et al. - 2020 - Language Models are Few-Shot Learners.pdf;/Users/lukakuma/Zotero/storage/3MUFK9SG/2005.html}
 }
 
@@ -1677,7 +1677,7 @@
   urldate = {2022-07-23},
   abstract = {Reinforcement learning algorithms rely on carefully engineering environment rewards that are extrinsic to the agent. However, annotating each environment with hand-designed, dense rewards is not scalable, motivating the need for developing reward functions that are intrinsic to the agent. Curiosity is a type of intrinsic reward function which uses prediction error as reward signal. In this paper: (a) We perform the first large-scale study of purely curiosity-driven learning, i.e. without any extrinsic rewards, across 54 standard benchmark environments, including the Atari game suite. Our results show surprisingly good performance, and a high degree of alignment between the intrinsic curiosity objective and the hand-designed extrinsic rewards of many game environments. (b) We investigate the effect of using different feature spaces for computing prediction error and show that random features are sufficient for many popular RL game benchmarks, but learned features appear to generalize better (e.g. to novel game levels in Super Mario Bros.). (c) We demonstrate limitations of the prediction-based rewards in stochastic setups. Game-play videos and code are at https://pathak22.github.io/large-scale-curiosity/},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/TS9IZ7HI/Burda et al. - 2018 - Large-Scale Study of Curiosity-Driven Learning.pdf;/Users/lukakuma/Zotero/storage/2ESE3XTH/1808.html}
 }
 
@@ -1786,7 +1786,7 @@
   abstract = {DeepMind software that can predict the 3D shape of proteins is already changing biology.},
   issue = {7905},
   langid = {english},
-  keywords = {*DeepMind,read},
+  keywords = {DeepMind,read},
   annotation = {Bandiera\_abtest: a Cg\_type: News Feature Subject\_term: Structural biology, Computational biology and bioinformatics, Biological techniques, Drug discovery},
   file = {/Users/lukakuma/Zotero/storage/ZYUH7MR8/Callaway - 2022 - What's next for AlphaFold and the AI protein-foldi.pdf;/Users/lukakuma/Zotero/storage/7UNDFBBJ/d41586-022-00997-5.html}
 }
@@ -2089,7 +2089,7 @@
   urldate = {2023-02-07},
   abstract = {We present speculative sampling, an algorithm for accelerating transformer decoding by enabling the generation of multiple tokens from each transformer call. Our algorithm relies on the observation that the latency of parallel scoring of short continuations, generated by a faster but less powerful draft model, is comparable to that of sampling a single token from the larger target model. This is combined with a novel modified rejection sampling scheme which preserves the distribution of the target model within hardware numerics. We benchmark speculative sampling with Chinchilla, a 70 billion parameter language model, achieving a 2-2.5x decoding speedup in a distributed setup, without compromising the sample quality or making modifications to the model itself.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/2EKL7XIS/Chen et al. - 2023 - Accelerating Large Language Model Decoding with Sp.pdf;/Users/lukakuma/Zotero/storage/GCGJ3NPX/2302.html}
 }
 
@@ -2210,7 +2210,7 @@
   abstract = {Inspired by progress in unsupervised representation learning for natural language, we examine whether similar models can learn useful representations for images. We train a sequence Transformer to auto-regressively predict pixels, without incorporating knowledge of the 2D input structure. Despite training on low-resolution ImageNet without labels, we find that a GPT-2 scale model learns strong image representations as measured by linear probing, fine-tuning, and low-data classification. On CIFAR-10, we achieve 96.3\% accuracy with a linear probe, outperforming a supervised Wide ResNet, and 99.0\% accuracy with full fine-tuning, matching the top supervised pre-trained models. We are also competitive with self-supervised benchmarks on ImageNet when substituting pixels for a VQVAE encoding, achieving 69.0\% top-1 accuracy on a linear probe of our features.},
   eventtitle = {International {{Conference}} on {{Machine Learning}}},
   langid = {english},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/E9CEK6DC/Chen et al. - 2020 - Generative Pretraining From Pixels.pdf}
 }
 
@@ -2709,7 +2709,7 @@
   urldate = {2022-07-23},
   abstract = {We introduce Phasic Policy Gradient (PPG), a reinforcement learning framework which modifies traditional on-policy actor-critic methods by separating policy and value function training into distinct phases. In prior methods, one must choose between using a shared network or separate networks to represent the policy and value function. Using separate networks avoids interference between objectives, while using a shared network allows useful features to be shared. PPG is able to achieve the best of both worlds by splitting optimization into two phases, one that advances training and one that distills features. PPG also enables the value function to be more aggressively optimized with a higher level of sample reuse. Compared to PPO, we find that PPG significantly improves sample efficiency on the challenging Procgen Benchmark.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/5FSYK2PP/Cobbe et al. - 2020 - Phasic Policy Gradient.pdf;/Users/lukakuma/Zotero/storage/2GG9QYB4/2009.html}
 }
 
@@ -2819,7 +2819,7 @@
   urldate = {2022-05-26},
   issue = {9},
   langid = {english},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/IMP6Q2Y6/Cramer - 2021 - AlphaFold2 and the future of structural biology.pdf;/Users/lukakuma/Zotero/storage/HLFLG5A5/s41594-021-00650-1.html}
 }
 
@@ -3037,7 +3037,7 @@
   urldate = {2023-01-08},
   abstract = {Abstract reasoning is a key ability for an intelligent system. Large language models achieve above-chance performance on abstract reasoning tasks, but exhibit many imperfections. However, human abstract reasoning is also imperfect, and depends on our knowledge and beliefs about the content of the reasoning problem. For example, humans reason much more reliably about logical rules that are grounded in everyday situations than arbitrary rules about abstract attributes. The training experiences of language models similarly endow them with prior expectations that reflect human knowledge and beliefs. We therefore hypothesized that language models would show human-like content effects on abstract reasoning problems. We explored this hypothesis across three logical reasoning tasks: natural language inference, judging the logical validity of syllogisms, and the Wason selection task (Wason, 1968). We find that state of the art large language models (with 7 or 70 billion parameters; Hoffman et al., 2022) reflect many of the same patterns observed in humans across these tasks -- like humans, models reason more effectively about believable situations than unrealistic or abstract ones. Our findings have implications for understanding both these cognitive effects, and the factors that contribute to language model performance.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/FHK2WJ7F/Dasgupta et al. - 2022 - Language models show human-like content effects on.pdf;/Users/lukakuma/Zotero/storage/79KJZQBD/2207.html}
 }
 
@@ -3074,7 +3074,7 @@
   urldate = {2022-12-22},
   abstract = {Abstract                            The practice of mathematics involves discovering patterns and using these to formulate and prove conjectures, resulting in theorems. Since the 1960s, mathematicians have used computers to assist in the discovery of patterns and formulation of conjectures               1               , most famously in the Birch and Swinnerton-Dyer conjecture               2               , a Millennium Prize Problem               3               . Here we provide examples of new fundamental results in pure mathematics that have been discovered with the assistance of machine learning—demonstrating a method by which machine learning can aid mathematicians in discovering new conjectures and theorems. We propose a process of using machine learning to discover potential patterns and relations between mathematical objects, understanding them with attribution techniques and using these observations to guide intuition and propose conjectures. We outline this machine-learning-guided framework and demonstrate its successful application to current research questions in distinct areas of pure mathematics, in each case showing how it led to meaningful mathematical contributions on important open problems: a new connection between the algebraic and geometric structure of knots, and a candidate algorithm predicted by the combinatorial invariance conjecture for symmetric groups               4               . Our work may serve as a model for collaboration between the fields of mathematics and artificial intelligence (AI) that can achieve surprising results by leveraging the respective strengths of mathematicians and machine learning.},
   langid = {english},
-  keywords = {*DeepMind,formal reasoning},
+  keywords = {DeepMind,formal reasoning},
   file = {/Users/lukakuma/Zotero/storage/XB5NQEMV/Davies et al. - 2021 - Advancing mathematics by guiding human intuition w.pdf;/Users/lukakuma/Zotero/storage/99SXIQSQ/s41586-021-04086-x.html}
 }
 
@@ -3271,6 +3271,23 @@
   file = {/Users/lukakuma/Zotero/storage/QKMV6H88/Devlin et al. - 2018 - BERT Pre-training of Deep Bidirectional Transform.pdf}
 }
 
+@misc{diaoActivePromptingChainofThought2023,
+  title = {Active {{Prompting}} with {{Chain-of-Thought}} for {{Large Language Models}}},
+  author = {Diao, Shizhe and Wang, Pengcheng and Lin, Yong and Zhang, Tong},
+  date = {2023-02-23},
+  number = {arXiv:2302.12246},
+  eprint = {2302.12246},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2302.12246},
+  url = {http://arxiv.org/abs/2302.12246},
+  urldate = {2023-02-28},
+  abstract = {The increasing scale of large language models (LLMs) brings emergent abilities to various complex tasks requiring reasoning, such as arithmetic and commonsense reasoning. It is known that the effective design of task-specific prompts is critical for LLMs' ability to produce high-quality answers. In particular, an effective approach for complex question-and-answer tasks is example-based prompting with chain-of-thought (CoT) reasoning, which significantly improves the performance of LLMs. However, current CoT methods rely on a fixed set of human-annotated exemplars, which are not necessarily the most effective examples for different tasks. This paper proposes a new method, Active-Prompt, to adapt LLMs to different tasks with task-specific example prompts (annotated with human-designed CoT reasoning). For this purpose, we propose a solution to the key problem of determining which questions are the most important and helpful ones to annotate from a pool of task-specific queries. By borrowing ideas from the related problem of uncertainty-based active learning, we introduce several metrics to characterize the uncertainty so as to select the most uncertain questions for annotation. Experimental results demonstrate the superiority of our proposed method, achieving state-of-the-art on eight complex reasoning tasks. Further analyses of different uncertainty metrics, pool sizes, zero-shot learning, and accuracy-uncertainty relationship demonstrate the effectiveness of our method. Our code will be available at https://github.com/shizhediao/active-cot.},
+  archiveprefix = {arXiv},
+  file = {/Users/lukakuma/Zotero/storage/6AZZW656/Diao et al. - 2023 - Active Prompting with Chain-of-Thought for Large L.pdf;/Users/lukakuma/Zotero/storage/XAUIGBJ8/2302.html}
+}
+
 @video{dimitribertsekasLessonsAlphaZeroOptimal2021,
   title = {Lessons from {{AlphaZero}} for {{Optimal}}, {{Model Predictive}}, and {{Adaptive Control}}, {{Lecture}} at {{KTH}}},
   editor = {{Dimitri Bertsekas}},
@@ -3374,7 +3391,7 @@
   urldate = {2022-03-08},
   abstract = {Modern deep learning applications require increasingly more compute to train state-of-the-art models. To address this demand, large corporations and institutions use dedicated High-Performance Computing clusters, whose construction and maintenance are both environmentally costly and well beyond the budget of most organizations. As a result, some research directions become the exclusive domain of a few large industrial and even fewer academic actors. To alleviate this disparity, smaller groups may pool their computational resources and run collaborative experiments that benefit all participants. This paradigm, known as grid- or volunteer computing, has seen successful applications in numerous scientific areas. However, using this approach for machine learning is difficult due to high latency, asymmetric bandwidth, and several challenges unique to volunteer computing. In this work, we carefully analyze these constraints and propose a novel algorithmic framework designed specifically for collaborative training. We demonstrate the effectiveness of our approach for SwAV and ALBERT pretraining in realistic conditions and achieve performance comparable to traditional setups at a fraction of the cost. Finally, we provide a detailed report of successful collaborative language model pretraining with 40 participants.},
   langid = {english},
-  keywords = {decentralized AI},
+  keywords = {*open source AI},
   file = {/Users/lukakuma/Zotero/storage/7FENMM7U/Diskin et al. - 2021 - Distributed Deep Learning in Open Collaborations.pdf;/Users/lukakuma/Zotero/storage/2SM6CENQ/2106.html}
 }
 
@@ -3606,7 +3623,7 @@
   urldate = {2022-07-23},
   abstract = {Imitation learning has been commonly applied to solve different tasks in isolation. This usually requires either careful feature engineering, or a significant number of samples. This is far from what we desire: ideally, robots should be able to learn from very few demonstrations of any given task, and instantly generalize to new situations of the same task, without requiring task-specific engineering. In this paper, we propose a meta-learning framework for achieving such capability, which we call one-shot imitation learning. Specifically, we consider the setting where there is a very large set of tasks, and each task has many instantiations. For example, a task could be to stack all blocks on a table into a single tower, another task could be to place all blocks on a table into two-block towers, etc. In each case, different instances of the task would consist of different sets of blocks with different initial states. At training time, our algorithm is presented with pairs of demonstrations for a subset of all tasks. A neural net is trained that takes as input one demonstration and the current state (which initially is the initial state of the other demonstration of the pair), and outputs an action with the goal that the resulting sequence of states and actions matches as closely as possible with the second demonstration. At test time, a demonstration of a single instance of a new task is presented, and the neural net is expected to perform well on new instances of this new task. The use of soft attention allows the model to generalize to conditions and tasks unseen in the training data. We anticipate that by training this model on a much greater variety of tasks and settings, we will obtain a general system that can turn any demonstrations into robust policies that can accomplish an overwhelming variety of tasks. Videos available at https://bit.ly/nips2017-oneshot .},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/XFKLC9ZN/Duan et al. - 2017 - One-Shot Imitation Learning.pdf;/Users/lukakuma/Zotero/storage/XTDDW6J6/1703.html}
 }
 
@@ -4011,7 +4028,7 @@
   urldate = {2022-05-17},
   abstract = {While the vast majority of well-structured single protein chains can now be predicted to high accuracy due to the recent AlphaFold [1] model, the prediction of multi-chain protein complexes remains a challenge in many cases. In this work, we demonstrate that an AlphaFold model trained specifically for multimeric inputs of known stoichiometry, which we call AlphaFold-Multimer, significantly increases accuracy of predicted multimeric interfaces over input-adapted single-chain AlphaFold while maintaining high intra-chain accuracy. On a benchmark dataset of 17 heterodimer proteins without templates (introduced in [2]) we achieve at least medium accuracy (DockQ [3] ≥ 0.49) on 14 targets and high accuracy (DockQ ≥ 0.8) on 6 targets, compared to 9 targets of at least medium accuracy and 4 of high accuracy for the previous state of the art system (an AlphaFold-based system from [2]). We also predict structures for a large dataset of 4,433 recent protein complexes, from which we score all non-redundant interfaces with low template identity. For heteromeric interfaces we successfully predict the interface (DockQ ≥ 0.23) in 67\% of cases, and produce high accuracy predictions (DockQ ≥ 0.8) in 23\% of cases, an improvement of +25 and +11 percentage points over the flexible linker modification of AlphaFold [4] respectively. For homomeric interfaces we successfully predict the interface in 69\% of cases, and produce high accuracy predictions in 34\% of cases, an improvement of +5 percentage points in both instances.},
   langid = {english},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/HD7PEB48/Evans et al. - 2021 - Protein complex prediction with AlphaFold-Multimer.pdf;/Users/lukakuma/Zotero/storage/P6G9AC6D/2021.10.04.html}
 }
 
@@ -4203,7 +4220,7 @@
   urldate = {2022-07-23},
   abstract = {Deep reinforcement learning has achieved many impressive results in recent years. However, tasks with sparse rewards or long horizons continue to pose significant challenges. To tackle these important problems, we propose a general framework that first learns useful skills in a pre-training environment, and then leverages the acquired skills for learning faster in downstream tasks. Our approach brings together some of the strengths of intrinsic motivation and hierarchical methods: the learning of useful skill is guided by a single proxy reward, the design of which requires very minimal domain knowledge about the downstream tasks. Then a high-level policy is trained on top of these skills, providing a significant improvement of the exploration and allowing to tackle sparse rewards in the downstream tasks. To efficiently pre-train a large span of skills, we use Stochastic Neural Networks combined with an information-theoretic regularizer. Our experiments show that this combination is effective in learning a wide span of interpretable skills in a sample-efficient way, and can significantly boost the learning performance uniformly across a wide range of downstream tasks.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/PJWEEWCT/Florensa et al. - 2017 - Stochastic Neural Networks for Hierarchical Reinfo.pdf;/Users/lukakuma/Zotero/storage/2KCMZT6M/1704.html}
 }
 
@@ -4221,7 +4238,7 @@
   urldate = {2022-07-23},
   abstract = {Multi-agent settings are quickly gathering importance in machine learning. This includes a plethora of recent work on deep multi-agent reinforcement learning, but also can be extended to hierarchical RL, generative adversarial networks and decentralised optimisation. In all these settings the presence of multiple learning agents renders the training problem non-stationary and often leads to unstable training or undesired final results. We present Learning with Opponent-Learning Awareness (LOLA), a method in which each agent shapes the anticipated learning of the other agents in the environment. The LOLA learning rule includes a term that accounts for the impact of one agent's policy on the anticipated parameter update of the other agents. Results show that the encounter of two LOLA agents leads to the emergence of tit-for-tat and therefore cooperation in the iterated prisoners' dilemma, while independent learning does not. In this domain, LOLA also receives higher payouts compared to a naive learner, and is robust against exploitation by higher order gradient-based methods. Applied to repeated matching pennies, LOLA agents converge to the Nash equilibrium. In a round robin tournament we show that LOLA agents successfully shape the learning of a range of multi-agent learning algorithms from literature, resulting in the highest average returns on the IPD. We also show that the LOLA update rule can be efficiently calculated using an extension of the policy gradient estimator, making the method suitable for model-free RL. The method thus scales to large parameter and input spaces and nonlinear function approximators. We apply LOLA to a grid world task with an embedded social dilemma using recurrent policies and opponent modelling. By explicitly considering the learning of the other agent, LOLA agents learn to cooperate out of self-interest. The code is at github.com/alshedivat/lola.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/E693X6KK/Foerster et al. - 2018 - Learning with Opponent-Learning Awareness.pdf;/Users/lukakuma/Zotero/storage/GQY2HVRX/1709.html}
 }
 
@@ -4256,7 +4273,7 @@
   urldate = {2022-07-23},
   abstract = {We develop a metalearning approach for learning hierarchically structured policies, improving sample efficiency on unseen tasks through the use of shared primitives---policies that are executed for large numbers of timesteps. Specifically, a set of primitives are shared within a distribution of tasks, and are switched between by task-specific policies. We provide a concrete metric for measuring the strength of such hierarchies, leading to an optimization problem for quickly reaching high reward on unseen tasks. We then present an algorithm to solve this problem end-to-end through the use of any off-the-shelf reinforcement learning method, by repeatedly sampling new tasks and resetting task-specific policies. We successfully discover meaningful motor primitives for the directional movement of four-legged robots, solely by interacting with distributions of mazes. We also demonstrate the transferability of primitives to solve long-timescale sparse-reward obstacle courses, and we enable 3D humanoid robots to robustly walk and crawl with the same policy.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/MCILNEEU/Frans et al. - 2017 - Meta Learning Shared Hierarchies.pdf;/Users/lukakuma/Zotero/storage/U3QXYUN8/1710.html}
 }
 
@@ -4844,7 +4861,7 @@
   urldate = {2022-09-02},
   abstract = {Many areas of deep learning benefit from using increasingly larger neural networks trained on public data, as is the case for pre-trained models for NLP and computer vision. Training such models requires a lot of computational resources (e.g., HPC clusters) that are not available to small research groups and independent researchers. One way to address it is for several smaller groups to pool their computational resources together and train a model that benefits all participants. Unfortunately, in this case, any participant can jeopardize the entire training run by sending incorrect updates, deliberately or by mistake. Training in presence of such peers requires specialized distributed training algorithms with Byzantine tolerance. These algorithms often sacrifice efficiency by introducing redundant communication or passing all updates through a trusted server, making it infeasible to apply them to large-scale deep learning, where models can have billions of parameters. In this work, we propose a novel protocol for secure (Byzantine-tolerant) decentralized training that emphasizes communication efficiency.},
   archiveprefix = {arXiv},
-  keywords = {decentralized AI},
+  keywords = {*open source AI},
   file = {/Users/lukakuma/Zotero/storage/MGM9MLLB/Gorbunov et al. - 2022 - Secure Distributed Training at Scale.pdf;/Users/lukakuma/Zotero/storage/JUB56P3V/2106.html}
 }
 
@@ -4952,7 +4969,7 @@
   urldate = {2022-07-23},
   abstract = {Modeling agent behavior is central to understanding the emergence of complex phenomena in multiagent systems. Prior work in agent modeling has largely been task-specific and driven by hand-engineering domain-specific prior knowledge. We propose a general learning framework for modeling agent behavior in any multiagent system using only a handful of interaction data. Our framework casts agent modeling as a representation learning problem. Consequently, we construct a novel objective inspired by imitation learning and agent identification and design an algorithm for unsupervised learning of representations of agent policies. We demonstrate empirically the utility of the proposed framework in (i) a challenging high-dimensional competitive environment for continuous control and (ii) a cooperative environment for communication, on supervised predictive tasks, unsupervised clustering, and policy optimization using deep reinforcement learning.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/4JYY2MY9/Grover et al. - 2018 - Learning Policy Representations in Multiagent Syst.pdf;/Users/lukakuma/Zotero/storage/D7HUQIUD/1806.html}
 }
 
@@ -5243,7 +5260,7 @@
   abstract = {General intelligence requires solving tasks across many domains. Current reinforcement learning algorithms carry this potential but are held back by the resources and knowledge required to tune them for new tasks. We present DreamerV3, a general and scalable algorithm based on world models that outperforms previous approaches across a wide range of domains with fixed hyperparameters. These domains include continuous and discrete actions, visual and low-dimensional inputs, 2D and 3D worlds, different data budgets, reward frequencies, and reward scales. We observe favorable scaling properties of DreamerV3, with larger models directly translating to higher data-efficiency and final performance. Applied out of the box, DreamerV3 is the first algorithm to collect diamonds in Minecraft from scratch without human data or curricula, a long-standing challenge in artificial intelligence. Our general algorithm makes reinforcement learning broadly applicable and allows scaling to hard decision-making problems.},
   archiveprefix = {arXiv},
   version = {1},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/35V47CBM/Hafner et al. - 2023 - Mastering Diverse Domains through World Models.pdf;/Users/lukakuma/Zotero/storage/J5VAFHI9/2301.html}
 }
 
@@ -5315,6 +5332,23 @@
   abstract = {Machine learning on graphs is an important and ubiquitous task with applications ranging from drug design to friendship recommendation in social networks. The primary challenge in this domain is finding a way to represent, or encode, graph structure so that it can be easily exploited by machine learning models. Traditionally, machine learning approaches relied on user-defined heuristics to extract features encoding structural information about a graph (e.g., degree statistics or kernel functions). However, recent years have seen a surge in approaches that automatically learn to encode graph structure into low-dimensional embeddings, using techniques based on deep learning and nonlinear dimensionality reduction. Here we provide a conceptual review of key advancements in this area of representation learning on graphs, including matrix factorization-based methods, random-walk based algorithms, and graph neural networks. We review methods to embed individual nodes as well as approaches to embed entire (sub)graphs. In doing so, we develop a unified framework to describe these recent approaches, and we highlight a number of important applications and directions for future work.},
   archiveprefix = {arXiv},
   file = {/Users/lukakuma/Zotero/storage/DUXNU9HD/Hamilton et al. - 2018 - Representation Learning on Graphs Methods and App.pdf;/Users/lukakuma/Zotero/storage/3XXEPCBA/1709.html}
+}
+
+@misc{hamModulatingPretrainedDiffusion2023,
+  title = {Modulating {{Pretrained Diffusion Models}} for {{Multimodal Image Synthesis}}},
+  author = {Ham, Cusuh and Hays, James and Lu, Jingwan and Singh, Krishna Kumar and Zhang, Zhifei and Hinz, Tobias},
+  date = {2023-02-24},
+  number = {arXiv:2302.12764},
+  eprint = {2302.12764},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2302.12764},
+  url = {http://arxiv.org/abs/2302.12764},
+  urldate = {2023-02-28},
+  abstract = {We present multimodal conditioning modules (MCM) for enabling conditional image synthesis using pretrained diffusion models. Previous multimodal synthesis works rely on training networks from scratch or fine-tuning pretrained networks, both of which are computationally expensive for large, state-of-the-art diffusion models. Our method uses pretrained networks but does not require any updates to the diffusion network's parameters. MCM is a small module trained to modulate the diffusion network's predictions during sampling using 2D modalities (e.g., semantic segmentation maps, sketches) that were unseen during the original training of the diffusion model. We show that MCM enables user control over the spatial layout of the image and leads to increased control over the image generation process. Training MCM is cheap as it does not require gradients from the original diffusion net, consists of only \$\textbackslash sim\$1\$\textbackslash\%\$ of the number of parameters of the base diffusion model, and is trained using only a limited number of training examples. We evaluate our method on unconditional and text-conditional models to demonstrate the improved control over the generated images and their alignment with respect to the conditioning inputs.},
+  archiveprefix = {arXiv},
+  file = {/Users/lukakuma/Zotero/storage/RKX5WX6C/Ham et al. - 2023 - Modulating Pretrained Diffusion Models for Multimo.pdf;/Users/lukakuma/Zotero/storage/9S8VYEMQ/2302.html}
 }
 
 @misc{hanProofArtifactCotraining2022,
@@ -5515,7 +5549,7 @@
   urldate = {2022-08-02},
   abstract = {Real-world data is high-dimensional: a book, image, or musical performance can easily contain hundreds of thousands of elements even after compression. However, the most commonly used autoregressive models, Transformers, are prohibitively expensive to scale to the number of inputs and layers needed to capture this long-range structure. We develop Perceiver AR, an autoregressive, modality-agnostic architecture which uses cross-attention to map long-range inputs to a small number of latents while also maintaining end-to-end causal masking. Perceiver AR can directly attend to over a hundred thousand tokens, enabling practical long-context density estimation without the need for hand-crafted sparsity patterns or memory mechanisms. When trained on images or music, Perceiver AR generates outputs with clear long-term coherence and structure. Our architecture also obtains state-of-the-art likelihood on long-sequence benchmarks, including 64 x 64 ImageNet images and PG-19 books.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind,perceiver,read},
+  keywords = {DeepMind,perceiver,read},
   file = {/Users/lukakuma/Zotero/storage/EJSEB4JQ/Hawthorne et al. - 2022 - General-purpose, long-context autoregressive model.pdf;/Users/lukakuma/Zotero/storage/VJ4EL5ZX/2202.html}
 }
 
@@ -5901,7 +5935,7 @@
   urldate = {2022-03-30},
   abstract = {We investigate the optimal model size and number of tokens for training a transformer language model under a given compute budget. We find that current large language models are significantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant. By training over \textbackslash nummodels language models ranging from 70 million to over 16 billion parameters on 5 to 500 billion tokens, we find that for compute-optimal training, the model size and the number of training tokens should be scaled equally: for every doubling of model size the number of training tokens should also be doubled. We test this hypothesis by training a predicted compute-optimal model, \textbackslash chinchilla, that uses the same compute budget as \textbackslash gopher but with 70B parameters and 4\$\textbackslash times\$ more more data. \textbackslash chinchilla uniformly and significantly outperforms \textbackslash Gopher (280B), GPT-3 (175B), Jurassic-1 (178B), and Megatron-Turing NLG (530B) on a large range of downstream evaluation tasks. This also means that \textbackslash chinchilla uses substantially less compute for fine-tuning and inference, greatly facilitating downstream usage. As a highlight, \textbackslash chinchilla reaches a state-of-the-art average accuracy of 67.5\textbackslash\% on the MMLU benchmark, greater than a 7\textbackslash\% improvement over \textbackslash gopher.},
   archiveprefix = {arXiv},
-  keywords = {(ext) Flamingo,*DeepMind,compute efficient method,read,scaling law},
+  keywords = {(ext) Flamingo,compute efficient method,DeepMind,read,scaling law},
   file = {/Users/lukakuma/Zotero/storage/5BPSLNDK/Hoffmann et al. - 2022 - Training Compute-Optimal Large Language Models.pdf;/Users/lukakuma/Zotero/storage/X4H44YGK/2203.html}
 }
 
@@ -6116,7 +6150,7 @@
   urldate = {2022-07-23},
   abstract = {We propose a metalearning approach for learning gradient-based reinforcement learning (RL) algorithms. The idea is to evolve a differentiable loss function, such that an agent, which optimizes its policy to minimize this loss, will achieve high rewards. The loss is parametrized via temporal convolutions over the agent's experience. Because this loss is highly flexible in its ability to take into account the agent's history, it enables fast task learning. Empirical results show that our evolved policy gradient algorithm (EPG) achieves faster learning on several randomized environments compared to an off-the-shelf policy gradient method. We also demonstrate that EPG's learned loss can generalize to out-of-distribution test time tasks, and exhibits qualitatively different behavior from other popular metalearning algorithms.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/2WTEQFWY/Houthooft et al. - 2018 - Evolved Policy Gradients.pdf;/Users/lukakuma/Zotero/storage/5FY9AWYX/1802.html}
 }
 
@@ -6137,6 +6171,24 @@
   archiveprefix = {arXiv},
   keywords = {jepa},
   file = {/Users/lukakuma/Zotero/storage/47DDZAWB/Hsu et al. - 2022 - ReVISE Self-Supervised Speech Resynthesis with Vi.pdf;/Users/lukakuma/Zotero/storage/9MJP35JW/2212.html}
+}
+
+@misc{huangComposerCreativeControllable2023,
+  title = {Composer: {{Creative}} and {{Controllable Image Synthesis}} with {{Composable Conditions}}},
+  shorttitle = {Composer},
+  author = {Huang, Lianghua and Chen, Di and Liu, Yu and Shen, Yujun and Zhao, Deli and Zhou, Jingren},
+  date = {2023-02-21},
+  number = {arXiv:2302.09778},
+  eprint = {2302.09778},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2302.09778},
+  url = {http://arxiv.org/abs/2302.09778},
+  urldate = {2023-02-28},
+  abstract = {Recent large-scale generative models learned on big data are capable of synthesizing incredible images yet suffer from limited controllability. This work offers a new generation paradigm that allows flexible control of the output image, such as spatial layout and palette, while maintaining the synthesis quality and model creativity. With compositionality as the core idea, we first decompose an image into representative factors, and then train a diffusion model with all these factors as the conditions to recompose the input. At the inference stage, the rich intermediate representations work as composable elements, leading to a huge design space (i.e., exponentially proportional to the number of decomposed factors) for customizable content creation. It is noteworthy that our approach, which we call Composer, supports various levels of conditions, such as text description as the global information, depth map and sketch as the local guidance, color histogram for low-level details, etc. Besides improving controllability, we confirm that Composer serves as a general framework and facilitates a wide range of classical generative tasks without retraining. Code and models will be made available.},
+  archiveprefix = {arXiv},
+  file = {/Users/lukakuma/Zotero/storage/BYTH4Y9S/Huang et al. - 2023 - Composer Creative and Controllable Image Synthesi.pdf;/Users/lukakuma/Zotero/storage/QYR5D77P/2302.html}
 }
 
 @article{huangGPipeEfficientTraining2018,
@@ -6874,7 +6926,7 @@
   urldate = {2022-06-10},
   abstract = {Advances in artificial intelligence often stem from the development of new environments that abstract real-world situations into a form where research can be done conveniently. This paper contributes such an environment based on ideas inspired by elementary Microeconomics. Agents learn to produce resources in a spatially complex world, trade them with one another, and consume those that they prefer. We show that the emergent production, consumption, and pricing behaviors respond to environmental conditions in the directions predicted by supply and demand shifts in Microeconomics. We also demonstrate settings where the agents' emergent prices for goods vary over space, reflecting the local abundance of goods. After the price disparities emerge, some agents then discover a niche of transporting goods between regions with different prevailing prices -- a profitable strategy because they can buy goods where they are cheap and sell them where they are expensive. Finally, in a series of ablation experiments, we investigate how choices in the environmental rewards, bartering actions, agent architecture, and ability to consume tradable goods can either aid or inhibit the emergence of this economic behavior. This work is part of the environment development branch of a research program that aims to build human-like artificial general intelligence through multi-agent interactions in simulated societies. By exploring which environment features are needed for the basic phenomena of elementary microeconomics to emerge automatically from learning, we arrive at an environment that differs from those studied in prior multi-agent reinforcement learning work along several dimensions. For example, the model incorporates heterogeneous tastes and physical abilities, and agents negotiate with one another as a grounded form of communication.},
   langid = {english},
-  keywords = {*DeepMind,8-multiagent,emergence},
+  keywords = {8-multiagent,DeepMind,emergence},
   file = {/Users/lukakuma/Zotero/storage/MVW35CBP/Johanson et al. - 2022 - Emergent Bartering Behaviour in Multi-Agent Reinfo.pdf;/Users/lukakuma/Zotero/storage/KVID65AH/2205.html}
 }
 
@@ -6895,7 +6947,7 @@
   abstract = {The greatly improved prediction of protein 3D structure from sequence achieved by the second version of AlphaFold in 2020 has already had a huge impact on biological research, but challenges remain; the protein folding problem cannot be considered solved. We expect fierce competition to improve the method even further and new applications of machine learning to help illuminate proteomes and their many interactions.},
   issue = {1},
   langid = {english},
-  keywords = {*DeepMind,read},
+  keywords = {DeepMind,read},
   file = {/Users/lukakuma/Zotero/storage/KMWV4PH5/Jones and Thornton - 2022 - The impact of AlphaFold2 one year on.pdf;/Users/lukakuma/Zotero/storage/4IBUIXVB/s41592-021-01365-3.html}
 }
 
@@ -6951,7 +7003,7 @@
   abstract = {Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort1–4, the structures of around 100,000 unique proteins have been determined5, but this represents a small fraction of the billions of known protein sequences6,7. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’8—has been an important open research problem for more than 50~years9. Despite recent progress10–14, existing methods fall far~short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14)15, demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm.},
   issue = {7873},
   langid = {english},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/T8EGR52S/Jumper et al. - 2021 - Highly accurate protein structure prediction with .pdf;/Users/lukakuma/Zotero/storage/ZHG4QUQH/s41586-021-03819-2.html}
 }
 
@@ -6969,7 +7021,7 @@
   abstract = {We study whether language models can evaluate the validity of their own claims and predict which questions they will be able to answer correctly. We first show that larger models are well-calibrated on diverse multiple choice and true/false questions when they are provided in the right format. Thus we can approach self-evaluation on open-ended sampling tasks by asking models to first propose answers, and then to evaluate the probability "P(True)" that their answers are correct. We find encouraging performance, calibration, and scaling for P(True) on a diverse array of tasks. Performance at self-evaluation further improves when we allow models to consider many of their own samples before predicting the validity of one specific possibility. Next, we investigate whether models can be trained to predict "P(IK)", the probability that "I know" the answer to a question, without reference to any particular proposed answer. Models perform well at predicting P(IK) and partially generalize across tasks, though they struggle with calibration of P(IK) on new tasks. The predicted P(IK) probabilities also increase appropriately in the presence of relevant source materials in the context, and in the presence of hints towards the solution of mathematical word problems. We hope these observations lay the groundwork for training more honest models, and for investigating how honesty generalizes to cases where models are trained on objectives other than the imitation of human writing.},
   archiveprefix = {arXiv},
   langid = {english},
-  keywords = {*OpenAI,knowledge},
+  keywords = {knowledge,OpenAI},
   file = {/Users/lukakuma/Zotero/storage/RIXU5BW6/Kadavath et al. - 2022 - Language Models (Mostly) Know What They Know.pdf;/Users/lukakuma/Zotero/storage/FI9638RM/2207.html}
 }
 
@@ -7041,7 +7093,7 @@
   urldate = {2022-05-13},
   abstract = {We study empirical scaling laws for language model performance on the cross-entropy loss. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more sample-efficient, such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.},
   archiveprefix = {arXiv},
-  keywords = {(ext) Gato,*OpenAI,read,scaling law},
+  keywords = {(ext) Gato,OpenAI,read,scaling law},
   file = {/Users/lukakuma/Zotero/storage/2A3DDR36/Kaplan et al. - 2020 - Scaling Laws for Neural Language Models.pdf;/Users/lukakuma/Zotero/storage/JDUHEHJG/2001.html}
 }
 
@@ -7060,7 +7112,7 @@
   urldate = {2022-09-19},
   abstract = {The task of building general agents that perform well over a wide range of tasks has been an importantgoal in reinforcement learning since its inception. The problem has been subject of research of alarge body of work, with performance frequently measured by observing scores over the wide rangeof environments contained in the Atari 57 benchmark. Agent57 was the first agent to surpass thehuman benchmark on all 57 games, but this came at the cost of poor data-efficiency, requiring nearly 80billion frames of experience to achieve. Taking Agent57 as a starting point, we employ a diverse set ofstrategies to achieve a 200-fold reduction of experience needed to outperform the human baseline. Weinvestigate a range of instabilities and bottlenecks we encountered while reducing the data regime, andpropose effective solutions to build a more robust and efficient agent. We also demonstrate competitiveperformance with high-performing methods such as Muesli and MuZero. The four key components toour approach are (1) an approximate trust region method which enables stable bootstrapping from theonline network, (2) a normalisation scheme for the loss and priorities which improves robustness whenlearning a set of value functions with a wide range of scales, (3) an improved architecture employingtechniques from NFNets in order to leverage deeper networks without the need for normalization layers,and (4) a policy distillation method which serves to smooth out the instantaneous greedy policy overtime.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/NXDDE365/Kapturowski et al. - 2022 - Human-level Atari 200x faster.pdf;/Users/lukakuma/Zotero/storage/H6EFR864/2209.html}
 }
 
@@ -8381,7 +8433,7 @@
   urldate = {2022-07-02},
   abstract = {Demis Hassabis is the CEO and co-founder of DeepMind. Please support this podcast by checking out our sponsors: - Mailgun: https://lexfridman.com/mailgun - InsideTracker: https://insidetracker.com/lex to get 20\% off - Onnit: https://lexfridman.com/onnit to get up to 10\% off - Indeed: https://indeed.com/lex to get \$75 credit - Magic Spoon: https://magicspoon.com/lex and use code LEX to get \$5 off EPISODE LINKS: Demis's Twitter: https://twitter.com/demishassabis DeepMind's Twitter: https://twitter.com/DeepMind DeepMind's Instagram: https://instagram.com/deepmind DeepMind's Website: https://deepmind.com Plasma control paper: https://nature.com/articles/s41586-02... Quantum simulation paper: https://science.org/doi/10.1126/scien... The Emperor's New Mind (book): https://amzn.to/3bx03lo Life Ascending (book): https://amzn.to/3AhUP7z PODCAST INFO: Podcast website: https://lexfridman.com/podcast Apple Podcasts: https://apple.co/2lwqZIr Spotify: https://spoti.fi/2nEwCF8 RSS: https://lexfridman.com/feed/podcast/ Full episodes playlist: https://www.youtube.com/playlist?list... Clips playlist: https://www.youtube.com/playlist?list... OUTLINE: 0:00 - Introduction 1:01 - Turing Test 8:27 - Video games 30:02 - Simulation 32:13 - Consciousness 37:13 - AlphaFold 50:53 - Solving intelligence 1:03:12 - Open sourcing AlphaFold \& MuJoCo 1:13:18 - Nuclear fusion 1:17:22 - Quantum simulation 1:20:30 - Physics 1:23:57 - Origin of life 1:28:36 - Aliens 1:36:43 - Intelligent life 1:39:52 - Conscious AI 1:53:07 - Power 1:57:37 - Advice for young people 2:05:43 - Meaning of life SOCIAL: - Twitter: https://twitter.com/lexfridman - LinkedIn: https://www.linkedin.com/in/lexfridman - Facebook: https://www.facebook.com/lexfridman - Instagram: https://www.instagram.com/lexfridman - Medium: https://medium.com/@lexfridman - Reddit: https://reddit.com/r/lexfridman - Support on Patreon: https://www.patreon.com/lexfridman},
   editortype = {director},
-  keywords = {*DeepMind}
+  keywords = {DeepMind}
 }
 
 @video{lexfridmanIlyaSutskeverDeep2020,
@@ -8414,7 +8466,7 @@
   url = {https://www.youtube.com/watch?v=aGBLRlLe7X8},
   urldate = {2022-07-28},
   editortype = {director},
-  keywords = {*DeepMind}
+  keywords = {DeepMind}
 }
 
 @video{lexfridmanRichardWolffMarxism2022,
@@ -8533,7 +8585,7 @@
   urldate = {2022-10-31},
   abstract = {Programming is a powerful and ubiquitous problem-solving tool. Developing systems that can assist programmers or even generate programs independently could make programming more productive and accessible, yet so far incorporating innovations in AI has proven challenging. Recent large-scale language models have demonstrated an impressive ability to generate code, and are now able to complete simple programming tasks. However, these models still perform poorly when evaluated on more complex, unseen problems that require problem-solving skills beyond simply translating instructions into code. For example, competitive programming problems which require an understanding of algorithms and complex natural language remain extremely challenging. To address this gap, we introduce AlphaCode, a system for code generation that can create novel solutions to these problems that require deeper reasoning. In simulated evaluations on recent programming competitions on the Codeforces platform, AlphaCode achieved on average a ranking of top 54.3\% in competitions with more than 5,000 participants. We found that three key components were critical to achieve good and reliable performance: (1) an extensive and clean competitive programming dataset for training and evaluation, (2) large and efficient-to-sample transformer-based architectures, and (3) large-scale model sampling to explore the search space, followed by filtering based on program behavior to a small set of submissions.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind,code},
+  keywords = {code,DeepMind},
   file = {/Users/lukakuma/Zotero/storage/4HREEXIC/Li et al. - 2022 - Competition-Level Code Generation with AlphaCode.pdf;/Users/lukakuma/Zotero/storage/WP9X9ATU/2203.html}
 }
 
@@ -8698,7 +8750,7 @@
   urldate = {2023-01-13},
   abstract = {Interpretability research aims to build tools for understanding machine learning (ML) models. However, such tools are inherently hard to evaluate because we do not have ground truth information about how ML models actually work. In this work, we propose to build transformer models manually as a testbed for interpretability research. We introduce Tracr, a "compiler" for translating human-readable programs into weights of a transformer model. Tracr takes code written in RASP, a domain-specific language (Weiss et al. 2021), and translates it into weights for a standard, decoder-only, GPT-like transformer architecture. We use Tracr to create a range of ground truth transformers that implement programs including computing token frequencies, sorting, and Dyck-n parenthesis checking, among others. To enable the broader research community to explore and use compiled models, we provide an open-source implementation of Tracr at https://github.com/deepmind/tracr.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/58BW6F8B/Lindner et al. - 2023 - Tracr Compiled Transformers as a Laboratory for I.pdf;/Users/lukakuma/Zotero/storage/GNGAIBUT/2301.html}
 }
 
@@ -8732,7 +8784,7 @@
   urldate = {2022-07-21},
   abstract = {Large language models have recently been shown to develop emergent capabilities with scale, going beyond simple pattern matching to perform higher level reasoning and generate lifelike images and text. While language models trained on protein sequences have been studied at a smaller scale, little is known about what they learn about biology as they are scaled up. In this work we train models up to 15 billion parameters, the largest language models of proteins to be evaluated to date. We find that as models are scaled they learn information enabling the prediction of the three-dimensional structure of a protein at the resolution of individual atoms. We present ESMFold for high accuracy end-to-end atomic level structure prediction directly from the individual sequence of a protein. ESMFold has similar accuracy to AlphaFold2 and RoseTTAFold for sequences with low perplexity that are well understood by the language model. ESMFold inference is an order of magnitude faster than AlphaFold2, enabling exploration of the structural space of metagenomic proteins in practical timescales.},
   langid = {english},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/7FI9V7HM/Lin et al. - 2022 - Language models of protein sequences at the scale .pdf;/Users/lukakuma/Zotero/storage/TC7FDPFK/2022.07.20.html}
 }
 
@@ -9524,7 +9576,7 @@
   urldate = {2022-06-07},
   abstract = {Video streaming usage has seen a significant rise as entertainment, education, and business increasingly rely on online video. Optimizing video compression has the potential to increase access and quality of content to users, and reduce energy use and costs overall. In this paper, we present an application of the MuZero algorithm to the challenge of video compression. Specifically, we target the problem of learning a rate control policy to select the quantization parameters (QP) in the encoding process of libvpx, an open source VP9 video compression library widely used by popular video-on-demand (VOD) services. We treat this as a sequential decision making problem to maximize the video quality with an episodic constraint imposed by the target bitrate. Notably, we introduce a novel self-competition based reward mechanism to solve constrained RL with variable constraint satisfaction difficulty, which is challenging for existing constrained RL methods. We demonstrate that the MuZero-based rate control achieves an average 6.28\% reduction in size of the compressed videos for the same delivered video quality level (measured as PSNR BD-rate) compared to libvpx's two-pass VBR rate control policy, while having better constraint satisfaction behavior.},
   langid = {english},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/FPNYCSFN/Mandhane et al. - 2022 - MuZero with Self-competition for Rate Control in V.pdf;/Users/lukakuma/Zotero/storage/54EDIYQK/2202.html}
 }
 
@@ -9665,7 +9717,7 @@
   urldate = {2022-07-23},
   abstract = {We propose Teacher-Student Curriculum Learning (TSCL), a framework for automatic curriculum learning, where the Student tries to learn a complex task and the Teacher automatically chooses subtasks from a given set for the Student to train on. We describe a family of Teacher algorithms that rely on the intuition that the Student should practice more those tasks on which it makes the fastest progress, i.e. where the slope of the learning curve is highest. In addition, the Teacher algorithms address the problem of forgetting by also choosing tasks where the Student's performance is getting worse. We demonstrate that TSCL matches or surpasses the results of carefully hand-crafted curricula in two tasks: addition of decimal numbers with LSTM and navigation in Minecraft. Using our automatically generated curriculum enabled to solve a Minecraft maze that could not be solved at all when training directly on solving the maze, and the learning was an order of magnitude faster than uniform sampling of subtasks.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/A9MYSAP2/Matiisen et al. - 2017 - Teacher-Student Curriculum Learning.pdf;/Users/lukakuma/Zotero/storage/DPCGSDJI/1707.html}
 }
 
@@ -9716,7 +9768,7 @@
   urldate = {2022-07-29},
   abstract = {In an increasing number of domains it has been demonstrated that deep learning models can be trained using relatively large batch sizes without sacrificing data efficiency. However the limits of this massive data parallelism seem to differ from domain to domain, ranging from batches of tens of thousands in ImageNet to batches of millions in RL agents that play the game Dota 2. To our knowledge there is limited conceptual understanding of why these limits to batch size differ or how we might choose the correct batch size in a new domain. In this paper, we demonstrate that a simple and easy-to-measure statistic called the gradient noise scale predicts the largest useful batch size across many domains and applications, including a number of supervised learning datasets (MNIST, SVHN, CIFAR-10, ImageNet, Billion Word), reinforcement learning domains (Atari and Dota), and even generative model training (autoencoders on SVHN). We find that the noise scale increases as the loss decreases over a training run and depends on the model size primarily through improved model performance. Our empirically-motivated theory also describes the tradeoff between compute-efficiency and time-efficiency, and provides a rough model of the benefits of adaptive batch-size training.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/KQ5VNV7E/McCandlish et al. - 2018 - An Empirical Model of Large-Batch Training.pdf;/Users/lukakuma/Zotero/storage/FX9VJJB3/1812.html}
 }
 
@@ -10012,7 +10064,7 @@
   date = {2022-09-29},
   pages = {102},
   langid = {english},
-  keywords = {*DeepMind,dialogue},
+  keywords = {DeepMind,dialogue},
   file = {/Users/lukakuma/Zotero/storage/6SFZBP5Z/Mirowski et al. - Co-Writing Screenplays and Theatre Scripts with La.pdf}
 }
 
@@ -10031,7 +10083,7 @@
   urldate = {2022-11-30},
   abstract = {We introduce \textbackslash algname\{ProxSkip\} -- a surprisingly simple and provably efficient method for minimizing the sum of a smooth (\$f\$) and an expensive nonsmooth proximable (\$\textbackslash psi\$) function. The canonical approach to solving such problems is via the proximal gradient descent (\textbackslash algname\{ProxGD\}) algorithm, which is based on the evaluation of the gradient of \$f\$ and the prox operator of \$\textbackslash psi\$ in each iteration. In this work we are specifically interested in the regime in which the evaluation of prox is costly relative to the evaluation of the gradient, which is the case in many applications. \textbackslash algname\{ProxSkip\} allows for the expensive prox operator to be skipped in most iterations: while its iteration complexity is \$\textbackslash cO(\textbackslash kappa \textbackslash log \textbackslash nicefrac\{1\}\{\textbackslash varepsilon\})\$, where \$\textbackslash kappa\$ is the condition number of \$f\$, the number of prox evaluations is \$\textbackslash cO(\textbackslash sqrt\{\textbackslash kappa\} \textbackslash log \textbackslash nicefrac\{1\}\{\textbackslash varepsilon\})\$ only. Our main motivation comes from federated learning, where evaluation of the gradient operator corresponds to taking a local \textbackslash algname\{GD\} step independently on all devices, and evaluation of prox corresponds to (expensive) communication in the form of gradient averaging. In this context, \textbackslash algname\{ProxSkip\} offers an effective \{\textbackslash em acceleration\} of communication complexity. Unlike other local gradient-type methods, such as \textbackslash algname\{FedAvg\}, \textbackslash algname\{SCAFFOLD\}, \textbackslash algname\{S-Local-GD\} and \textbackslash algname\{FedLin\}, whose theoretical communication complexity is worse than, or at best matching, that of vanilla \textbackslash algname\{GD\} in the heterogeneous data regime, we obtain a provable and large improvement without any heterogeneity-bounding assumptions.},
   archiveprefix = {arXiv},
-  keywords = {decentralized AI},
+  keywords = {*open source AI},
   file = {/Users/lukakuma/Zotero/storage/WFU3AW6J/Mishchenko et al. - 2022 - ProxSkip Yes! Local Gradient Steps Provably Lead .pdf;/Users/lukakuma/Zotero/storage/YBN2FNN2/2202.html}
 }
 
@@ -10229,7 +10281,7 @@
   urldate = {2022-05-31},
   abstract = {MRC Laboratory of Molecular Biology John Kendrew Lecture  2021 part 2 Highly accurate protein structure prediction with AlphaFold Speaker: John Jumper, AlphaFold lead, DeepMind. Abstract: Predicting a protein’s structure from its primary sequence has been a grand challenge in biology for the past 50 years, holding the promise to bridge the gap between the pace of genomics discovery and resulting structural characterization. In this talk, we will describe work at DeepMind to develop AlphaFold, a new deep learning-based system for structure prediction that achieves high accuracy across a wide range of targets. We demonstrated our system in the 14th biennial Critical Assessment of Protein Structure Prediction (CASP14) across a wide range of difficult targets, where the assessors judged our predictions to be at an accuracy “competitive with experiment” for approximately 2/3rds of proteins. The talk will cover both the underlying machine learning ideas and the implications for biological research. Read more about the lecture and David's work here:  https://www2.mrc-lmb.cam.ac.uk/john-k... - About the MRC Laboratory of Molecular Biology (LMB): The LMB is one of the world's leading research institutes. Discoveries and inventions developed at the LMB, for example DNA sequencing and methods to determine the structure of proteins, have revolutionised all areas of biology. Its scientists work to advance understanding of biological processes at the molecular level. This information will help us to understand the workings of complex systems, such as the immune system and the brain, and solve key problems in human health. More links: Official Site: https://www2.mrc-lmb.cam.ac.uk/ Facebook: https://www.facebook.com/MRC.LMB Twitter: https://twitter.com/MRC\_LMB Instagram: https://www.instagram.com/mrc\_lmb/ LinkedIn: https://www.linkedin.com/company/mrc-... Click here to subscribe to MRC Laboratory of Molecular Biology on YouTube: https://www.youtube.com/user/LMBCambr...},
   editortype = {director},
-  keywords = {*DeepMind,read}
+  keywords = {DeepMind,read}
 }
 
 @video{mrclaboratoryofmolecularbiologyKendrewLecture20212021a,
@@ -10289,7 +10341,7 @@
   abstract = {AlphaFold and RoseTTAFold have delivered a revolutionary advance for protein structure predictions, but the implications for drug discovery are more incremental. For now.},
   issue = {10},
   langid = {english},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   annotation = {Bandiera\_abtest: a Cg\_type: News},
   file = {/Users/lukakuma/Zotero/storage/4ZGT4KY2/Mullard - 2021 - What does AlphaFold mean for drug discovery.pdf;/Users/lukakuma/Zotero/storage/7HBZ6KBW/d41573-021-00161-0.html}
 }
@@ -10383,7 +10435,7 @@
   urldate = {2022-09-20},
   abstract = {We fine-tune GPT-3 to answer long-form questions using a text-based web-browsing environment, which allows the model to search and navigate the web. By setting up the task so that it can be performed by humans, we are able to train models on the task using imitation learning, and then optimize answer quality with human feedback. To make human evaluation of factual accuracy easier, models must collect references while browsing in support of their answers. We train and evaluate our models on ELI5, a dataset of questions asked by Reddit users. Our best model is obtained by fine-tuning GPT-3 using behavior cloning, and then performing rejection sampling against a reward model trained to predict human preferences. This model's answers are preferred by humans 56\% of the time to those of our human demonstrators, and 69\% of the time to the highest-voted answer from Reddit.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI,4-document ir,5-other tools,8-multiagent,alignment,QA,read,RLHF},
+  keywords = {4-document ir,5-other tools,8-multiagent,alignment,OpenAI,QA,read,RLHF},
   file = {/Users/lukakuma/Zotero/storage/XVD4TXD6/Nakano et al. - 2022 - WebGPT Browser-assisted question-answering with h.pdf;/Users/lukakuma/Zotero/storage/ISNGMR9N/2112.html;/Users/lukakuma/Zotero/storage/ZCUICQPE/2112.html}
 }
 
@@ -10497,7 +10549,7 @@
   urldate = {2023-02-14},
   abstract = {Within the coming decades, artificial general intelligence (AGI) may surpass human capabilities at a wide range of important tasks. We outline a case for expecting that, without substantial effort to prevent it, AGIs could learn to pursue goals which are very undesirable (in other words, misaligned) from a human perspective. We argue that AGIs trained in similar ways as today's most capable models could learn to act deceptively to receive higher reward; learn internally-represented goals which generalize beyond their training distributions; and pursue those goals using power-seeking strategies. We outline how the deployment of misaligned AGIs might irreversibly undermine human control over the world, and briefly review research directions aimed at preventing these problems.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI,alignment},
+  keywords = {alignment,OpenAI},
   file = {/Users/lukakuma/Zotero/storage/LFHBZ8QR/Ngo et al. - 2022 - The alignment problem from a deep learning perspec.pdf;/Users/lukakuma/Zotero/storage/M9IXTN25/2209.html}
 }
 
@@ -10527,7 +10579,7 @@
   urldate = {2022-07-23},
   abstract = {This paper considers meta-learning problems, where there is a distribution of tasks, and we would like to obtain an agent that performs well (i.e., learns quickly) when presented with a previously unseen task sampled from this distribution. We analyze a family of algorithms for learning a parameter initialization that can be fine-tuned quickly on a new task, using only first-order derivatives for the meta-learning updates. This family includes and generalizes first-order MAML, an approximation to MAML obtained by ignoring second-order derivatives. It also includes Reptile, a new algorithm that we introduce here, which works by repeatedly sampling a task, training on it, and moving the initialization towards the trained weights on that task. We expand on the results from Finn et al. showing that first-order meta-learning algorithms perform well on some well-established benchmarks for few-shot classification, and we provide theoretical analysis aimed at understanding why these algorithms work.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/FUADI2PP/Nichol et al. - 2018 - On First-Order Meta-Learning Algorithms.pdf;/Users/lukakuma/Zotero/storage/QMKJV2NX/1803.html}
 }
 
@@ -10562,7 +10614,7 @@
   urldate = {2022-07-23},
   abstract = {In this report, we present a new reinforcement learning (RL) benchmark based on the Sonic the Hedgehog (TM) video game franchise. This benchmark is intended to measure the performance of transfer learning and few-shot learning algorithms in the RL domain. We also present and evaluate some baseline algorithms on the new benchmark.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/GVXR5I3N/Nichol et al. - 2018 - Gotta Learn Fast A New Benchmark for Generalizati.pdf;/Users/lukakuma/Zotero/storage/ISV9RJNC/1804.html}
 }
 
@@ -10771,7 +10823,7 @@
   urldate = {2022-07-20},
   abstract = {On April 13th, 2019, OpenAI Five became the first AI system to defeat the world champions at an esports game. The game of Dota 2 presents novel challenges for AI systems such as long time horizons, imperfect information, and complex, continuous state-action spaces, all challenges which will become increasingly central to more capable AI systems. OpenAI Five leveraged existing reinforcement learning techniques, scaled to learn from batches of approximately 2 million frames every 2 seconds. We developed a distributed training system and tools for continual training which allowed us to train OpenAI Five for 10 months. By defeating the Dota 2 world champion (Team OG), OpenAI Five demonstrates that self-play reinforcement learning can achieve superhuman performance on a difficult task.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/R3IGB6E2/OpenAI et al. - 2019 - Dota 2 with Large Scale Deep Reinforcement Learnin.pdf;/Users/lukakuma/Zotero/storage/F7RSL2S5/1912.html}
 }
 
@@ -10789,7 +10841,7 @@
   urldate = {2022-07-29},
   abstract = {We use reinforcement learning (RL) to learn dexterous in-hand manipulation policies which can perform vision-based object reorientation on a physical Shadow Dexterous Hand. The training is performed in a simulated environment in which we randomize many of the physical properties of the system like friction coefficients and an object's appearance. Our policies transfer to the physical robot despite being trained entirely in simulation. Our method does not rely on any human demonstrations, but many behaviors found in human manipulation emerge naturally, including finger gaiting, multi-finger coordination, and the controlled use of gravity. Our results were obtained using the same distributed RL system that was used to train OpenAI Five. We also include a video of our results: https://youtu.be/jwSbzNHGflM},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/EVF2DEJS/OpenAI et al. - 2019 - Learning Dexterous In-Hand Manipulation.pdf;/Users/lukakuma/Zotero/storage/A3HSNJ3T/1808.html}
 }
 
@@ -10818,7 +10870,7 @@
   urldate = {2022-07-29},
   abstract = {We demonstrate that models trained only in simulation can be used to solve a manipulation problem of unprecedented complexity on a real robot. This is made possible by two key components: a novel algorithm, which we call automatic domain randomization (ADR) and a robot platform built for machine learning. ADR automatically generates a distribution over randomized environments of ever-increasing difficulty. Control policies and vision state estimators trained with ADR exhibit vastly improved sim2real transfer. For control policies, memory-augmented models trained on an ADR-generated distribution of environments show clear signs of emergent meta-learning at test time. The combination of ADR with our custom robot platform allows us to solve a Rubik's cube with a humanoid robot hand, which involves both control and state estimation problems. Videos summarizing our results are available: https://openai.com/blog/solving-rubiks-cube/},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/XATW4FXT/OpenAI et al. - 2019 - Solving Rubik's Cube with a Robot Hand.pdf;/Users/lukakuma/Zotero/storage/8YSI3DMH/1910.html}
 }
 
@@ -10836,7 +10888,7 @@
   urldate = {2022-06-10},
   abstract = {In this work we create agents that can perform well beyond a single, individual task, that exhibit much wider generalisation of behaviour to a massive, rich space of challenges. We define a universe of tasks within an environment domain and demonstrate the ability to train agents that are generally capable across this vast space and beyond. The environment is natively multi-agent, spanning the continuum of competitive, cooperative, and independent games, which are situated within procedurally generated physical 3D worlds. The resulting space is exceptionally diverse in terms of the challenges posed to agents, and as such, even measuring the learning progress of an agent is an open research problem. We propose an iterative notion of improvement between successive generations of agents, rather than seeking to maximise a singular objective, allowing us to quantify progress despite tasks being incomparable in terms of achievable rewards. We show that through constructing an open-ended learning process, which dynamically changes the training task distributions and training objectives such that the agent never stops learning, we achieve consistent learning of new behaviours. The resulting agent is able to score reward in every one of our humanly solvable evaluation levels, with behaviour generalising to many held-out points in the universe of tasks. Examples of this zero-shot generalisation include good performance on Hide and Seek, Capture the Flag, and Tag. Through analysis and hand-authored probe tasks we characterise the behaviour of our agent, and find interesting emergent heuristic behaviours such as trial-and-error experimentation, simple tool use, option switching, and cooperation. Finally, we demonstrate that the general capabilities of this agent could unlock larger scale transfer of behaviour through cheap finetuning.},
   archiveprefix = {arXiv},
-  keywords = {(ext) Sparrow,*DeepMind},
+  keywords = {(ext) Sparrow,DeepMind},
   file = {/Users/lukakuma/Zotero/storage/B357EVW5/Open Ended Learning Team et al. - 2021 - Open-Ended Learning Leads to Generally Capable Age.pdf;/Users/lukakuma/Zotero/storage/68X5RFHW/2107.html}
 }
 
@@ -10921,7 +10973,7 @@
   urldate = {2022-08-09},
   abstract = {Making language models bigger does not inherently make them better at following a user's intent. For example, large language models can generate outputs that are untruthful, toxic, or simply not helpful to the user. In other words, these models are not aligned with their users. In this paper, we show an avenue for aligning language models with user intent on a wide range of tasks by fine-tuning with human feedback. Starting with a set of labeler-written prompts and prompts submitted through the OpenAI API, we collect a dataset of labeler demonstrations of the desired model behavior, which we use to fine-tune GPT-3 using supervised learning. We then collect a dataset of rankings of model outputs, which we use to further fine-tune this supervised model using reinforcement learning from human feedback. We call the resulting models InstructGPT. In human evaluations on our prompt distribution, outputs from the 1.3B parameter InstructGPT model are preferred to outputs from the 175B GPT-3, despite having 100x fewer parameters. Moreover, InstructGPT models show improvements in truthfulness and reductions in toxic output generation while having minimal performance regressions on public NLP datasets. Even though InstructGPT still makes simple mistakes, our results show that fine-tuning with human feedback is a promising direction for aligning language models with human intent.},
   langid = {english},
-  keywords = {*OpenAI,alignment,read,RLHF},
+  keywords = {alignment,OpenAI,read,RLHF},
   file = {/Users/lukakuma/Zotero/storage/DXRUFPTI/Ouyang et al. - 2022 - Training language models to follow instructions wi.pdf}
 }
 
@@ -11134,6 +11186,24 @@
   file = {/Users/lukakuma/Zotero/storage/GWWKF7JX/Peng et al. - 2022 - BEiT v2 Masked Image Modeling with Vector-Quantiz.pdf;/Users/lukakuma/Zotero/storage/Z9L6UM4A/2208.html}
 }
 
+@misc{pengCheckYourFacts2023,
+  title = {Check {{Your Facts}} and {{Try Again}}: {{Improving Large Language Models}} with {{External Knowledge}} and {{Automated Feedback}}},
+  shorttitle = {Check {{Your Facts}} and {{Try Again}}},
+  author = {Peng, Baolin and Galley, Michel and He, Pengcheng and Cheng, Hao and Xie, Yujia and Hu, Yu and Huang, Qiuyuan and Liden, Lars and Yu, Zhou and Chen, Weizhu and Gao, Jianfeng},
+  date = {2023-02-24},
+  number = {arXiv:2302.12813},
+  eprint = {2302.12813},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2302.12813},
+  url = {http://arxiv.org/abs/2302.12813},
+  urldate = {2023-02-28},
+  abstract = {Large language models (LLMs), such as ChatGPT, are able to generate human-like, fluent responses for many downstream tasks, e.g., task-oriented dialog and question answering. However, applying LLMs to real-world, mission-critical applications remains challenging mainly due to their tendency to generate hallucinations and inability to use external knowledge.This paper proposes a LLM-Augmenter system, which augments a black-box LLM with a set of plug-and-play modules. Our system makes the LLM generate responses grounded in consolidated external knowledge, e.g., stored in task-specific databases. It also iteratively revises LLM prompts to improve model responses using feedback generated by utility functions, e.g., the factuality score of a LLM-generated response. The effectiveness of LLM-Augmenter is empirically validated on two types of mission-critical scenarios, task-oriented dialog and open-domain question answering. LLM-Augmenter significantly reduces ChatGPT's hallucinations without sacrificing the fluency and informativeness of its responses. We make the source code and models publicly available.},
+  archiveprefix = {arXiv},
+  file = {/Users/lukakuma/Zotero/storage/S6TU3BED/Peng et al. - 2023 - Check Your Facts and Try Again Improving Large La.pdf;/Users/lukakuma/Zotero/storage/Y64UI2M3/2302.html}
+}
+
 @misc{pengGODELLargeScalePreTraining2022,
   title = {{{GODEL}}: {{Large-Scale Pre-Training}} for {{Goal-Directed Dialog}}},
   shorttitle = {{{GODEL}}},
@@ -11225,7 +11295,7 @@
   urldate = {2022-12-30},
   abstract = {We introduce DeepNash, an autonomous agent capable of learning to play the imperfect information game Stratego from scratch, up to a human expert level. Stratego is one of the few iconic board games that Artificial Intelligence (AI) has not yet mastered. This popular game has an enormous game tree on the order of \$10\^\{535\}\$ nodes, i.e., \$10\^\{175\}\$ times larger than that of Go. It has the additional complexity of requiring decision-making under imperfect information, similar to Texas hold'em poker, which has a significantly smaller game tree (on the order of \$10\^\{164\}\$ nodes). Decisions in Stratego are made over a large number of discrete actions with no obvious link between action and outcome. Episodes are long, with often hundreds of moves before a player wins, and situations in Stratego can not easily be broken down into manageably-sized sub-problems as in poker. For these reasons, Stratego has been a grand challenge for the field of AI for decades, and existing AI methods barely reach an amateur level of play. DeepNash uses a game-theoretic, model-free deep reinforcement learning method, without search, that learns to master Stratego via self-play. The Regularised Nash Dynamics (R-NaD) algorithm, a key component of DeepNash, converges to an approximate Nash equilibrium, instead of 'cycling' around it, by directly modifying the underlying multi-agent learning dynamics. DeepNash beats existing state-of-the-art AI methods in Stratego and achieved a yearly (2022) and all-time top-3 rank on the Gravon games platform, competing with human expert players.},
   langid = {english},
-  keywords = {*DeepMind,read},
+  keywords = {DeepMind,read},
   file = {/Users/lukakuma/Zotero/storage/QPZBV8MI/Perolat et al. - 2022 - Mastering the Game of Stratego with Model-Free Mul.pdf}
 }
 
@@ -11305,7 +11375,7 @@
   urldate = {2022-09-05},
   abstract = {The current modus operandi in NLP involves downloading and fine-tuning pre-trained models consisting of millions or billions of parameters. Storing and sharing such large trained models is expensive, slow, and time-consuming, which impedes progress towards more general and versatile NLP methods that learn from and for many tasks. Adapters -- small learnt bottleneck layers inserted within each layer of a pre-trained model -- ameliorate this issue by avoiding full fine-tuning of the entire model. However, sharing and integrating adapter layers is not straightforward. We propose AdapterHub, a framework that allows dynamic "stitching-in" of pre-trained adapters for different tasks and languages. The framework, built on top of the popular HuggingFace Transformers library, enables extremely easy and quick adaptations of state-of-the-art pre-trained models (e.g., BERT, RoBERTa, XLM-R) across tasks and languages. Downloading, sharing, and training adapters is as seamless as possible using minimal changes to the training scripts and a specialized infrastructure. Our framework enables scalable and easy access to sharing of task-specific models, particularly in low-resource scenarios. AdapterHub includes all recent adapter architectures and can be found at https://AdapterHub.ml.},
   archiveprefix = {arXiv},
-  keywords = {decentralized AI},
+  keywords = {*open source AI},
   file = {/Users/lukakuma/Zotero/storage/S6XPSP9G/Pfeiffer et al. - 2020 - AdapterHub A Framework for Adapting Transformers.pdf;/Users/lukakuma/Zotero/storage/ZHL7QI7R/2007.html}
 }
 
@@ -11326,6 +11396,23 @@
   archiveprefix = {arXiv},
   keywords = {2-adaptor},
   file = {/Users/lukakuma/Zotero/storage/C8G96I65/Pfeiffer et al. - 2020 - MAD-X An Adapter-Based Framework for Multi-Task C.pdf;/Users/lukakuma/Zotero/storage/LCZ2EJKY/2005.html}
+}
+
+@misc{pfeifferModularDeepLearning2023,
+  title = {Modular {{Deep Learning}}},
+  author = {Pfeiffer, Jonas and Ruder, Sebastian and Vulić, Ivan and Ponti, Edoardo Maria},
+  date = {2023-02-22},
+  number = {arXiv:2302.11529},
+  eprint = {2302.11529},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2302.11529},
+  url = {http://arxiv.org/abs/2302.11529},
+  urldate = {2023-02-28},
+  abstract = {Transfer learning has recently become the dominant paradigm of machine learning. Pre-trained models fine-tuned for downstream tasks achieve better performance with fewer labelled examples. Nonetheless, it remains unclear how to develop models that specialise towards multiple tasks without incurring negative interference and that generalise systematically to non-identically distributed tasks. Modular deep learning has emerged as a promising solution to these challenges. In this framework, units of computation are often implemented as autonomous parameter-efficient modules. Information is conditionally routed to a subset of modules and subsequently aggregated. These properties enable positive transfer and systematic generalisation by separating computation from routing and updating modules locally. We offer a survey of modular architectures, providing a unified view over several threads of research that evolved independently in the scientific literature. Moreover, we explore various additional purposes of modularity, including scaling language models, causal inference, programme induction, and planning in reinforcement learning. Finally, we report various concrete applications where modularity has been successfully deployed such as cross-lingual and cross-modal knowledge transfer. Related talks and projects to this survey, are available at https://www.modulardeeplearning.com/.},
+  archiveprefix = {arXiv},
+  file = {/Users/lukakuma/Zotero/storage/3RXKTIYC/Pfeiffer et al. - 2023 - Modular Deep Learning.pdf;/Users/lukakuma/Zotero/storage/EAUARW66/2302.html}
 }
 
 @misc{phangInvestigatingEfficientlyExtending2022,
@@ -11482,7 +11569,7 @@
   urldate = {2022-07-23},
   abstract = {The purpose of this technical report is two-fold. First of all, it introduces a suite of challenging continuous control tasks (integrated with OpenAI Gym) based on currently existing robotics hardware. The tasks include pushing, sliding and pick \& place with a Fetch robotic arm as well as in-hand object manipulation with a Shadow Dexterous Hand. All tasks have sparse binary rewards and follow a Multi-Goal Reinforcement Learning (RL) framework in which an agent is told what to do using an additional input. The second part of the paper presents a set of concrete research ideas for improving RL algorithms, most of which are related to Multi-Goal RL and Hindsight Experience Replay.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/EJ46S6KL/Plappert et al. - 2018 - Multi-Goal Reinforcement Learning Challenging Rob.pdf;/Users/lukakuma/Zotero/storage/S5DH9LE6/1802.html}
 }
 
@@ -11511,7 +11598,7 @@
   urldate = {2022-11-19},
   abstract = {We explore the use of expert iteration in the context of language modeling applied to formal mathematics. We show that at same compute budget, expert iteration, by which we mean proof search interleaved with learning, dramatically outperforms proof search only. We also observe that when applied to a collection of formal statements of sufficiently varied difficulty, expert iteration is capable of finding and solving a curriculum of increasingly difficult problems, without the need for associated ground-truth proofs. Finally, by applying this expert iteration to a manually curated set of problem statements, we achieve state-of-the-art on the miniF2F benchmark, automatically solving multiple challenging problems drawn from high school olympiads.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI,formal reasoning,read},
+  keywords = {formal reasoning,OpenAI,read},
   file = {/Users/lukakuma/Zotero/storage/X58TMMV4/Polu et al. - 2022 - Formal Mathematics Statement Curriculum Learning.pdf;/Users/lukakuma/Zotero/storage/8XG97FSQ/2202.html}
 }
 
@@ -11667,7 +11754,7 @@
   pages = {12},
   abstract = {Natural language understanding comprises a wide range of diverse tasks such as textual entailment, question answering, semantic similarity assessment, and document classification. Although large unlabeled text corpora are abundant, labeled data for learning these specific tasks is scarce, making it challenging for discriminatively trained models to perform adequately. We demonstrate that large gains on these tasks can be realized by generative pre-training of a language model on a diverse corpus of unlabeled text, followed by discriminative fine-tuning on each specific task. In contrast to previous approaches, we make use of task-aware input transformations during fine-tuning to achieve effective transfer while requiring minimal changes to the model architecture. We demonstrate the effectiveness of our approach on a wide range of benchmarks for natural language understanding. Our general task-agnostic model outperforms discriminatively trained models that use architectures specifically crafted for each task, significantly improving upon the state of the art in 9 out of the 12 tasks studied. For instance, we achieve absolute improvements of 8.9\% on commonsense reasoning (Stories Cloze Test), 5.7\% on question answering (RACE), and 1.5\% on textual entailment (MultiNLI).},
   langid = {english},
-  keywords = {*OpenAI,read},
+  keywords = {OpenAI,read},
   file = {/Users/lukakuma/Zotero/storage/RJK92AWI/language_understanding_paper.pdf}
 }
 
@@ -11678,7 +11765,7 @@
   pages = {24},
   abstract = {Natural language processing tasks, such as question answering, machine translation, reading comprehension, and summarization, are typically approached with supervised learning on taskspecific datasets. We demonstrate that language models begin to learn these tasks without any explicit supervision when trained on a new dataset of millions of webpages called WebText. When conditioned on a document plus questions, the answers generated by the language model reach 55 F1 on the CoQA dataset - matching or exceeding the performance of 3 out of 4 baseline systems without using the 127,000+ training examples. The capacity of the language model is essential to the success of zero-shot task transfer and increasing it improves performance in a log-linear fashion across tasks. Our largest model, GPT-2, is a 1.5B parameter Transformer that achieves state of the art results on 7 out of 8 tested language modeling datasets in a zero-shot setting but still underfits WebText. Samples from the model reflect these improvements and contain coherent paragraphs of text. These findings suggest a promising path towards building language processing systems which learn to perform tasks from their naturally occurring demonstrations.},
   langid = {english},
-  keywords = {*OpenAI,read},
+  keywords = {OpenAI,read},
   file = {/Users/lukakuma/Zotero/storage/U8KN6G57/Radford et al. - Language Models are Unsupervised Multitask Learner.pdf}
 }
 
@@ -11707,7 +11794,7 @@
   pages = {28},
   abstract = {We study the capabilities of speech processing systems trained simply to predict large amounts of transcripts of audio on the internet. When scaled to 680,000 hours of multilingual and multitask supervision, the resulting models generalize well to standard benchmarks and are often competitive with prior fully supervised results but in a zeroshot transfer setting without the need for any finetuning. When compared to humans, the models approach their accuracy and robustness. We are releasing models and inference code to serve as a foundation for further work on robust speech processing.},
   langid = {english},
-  keywords = {*OpenAI,read},
+  keywords = {OpenAI,read},
   file = {/Users/lukakuma/Zotero/storage/LDQ327ZZ/Radford et al. - Robust Speech Recognition via Large-Scale Weak Sup.pdf}
 }
 
@@ -11741,7 +11828,7 @@
   urldate = {2022-05-09},
   abstract = {Language modelling provides a step towards intelligent communication systems by harnessing large repositories of written human knowledge to better predict and understand the world. In this paper, we present an analysis of Transformer-based language model performance across a wide range of model scales -- from models with tens of millions of parameters up to a 280 billion parameter model called Gopher. These models are evaluated on 152 diverse tasks, achieving state-of-the-art performance across the majority. Gains from scale are largest in areas such as reading comprehension, fact-checking, and the identification of toxic language, but logical and mathematical reasoning see less benefit. We provide a holistic analysis of the training dataset and model's behaviour, covering the intersection of model scale with bias and toxicity. Finally we discuss the application of language models to AI safety and the mitigation of downstream harms.},
   archiveprefix = {arXiv},
-  keywords = {(ext) Flamingo,*DeepMind,read,scaling law},
+  keywords = {(ext) Flamingo,DeepMind,read,scaling law},
   file = {/Users/lukakuma/Zotero/storage/IWPQFUSP/Rae et al. - 2022 - Scaling Language Models Methods, Analysis & Insig.pdf;/Users/lukakuma/Zotero/storage/IHY9X9UM/2112.html}
 }
 
@@ -11751,7 +11838,7 @@
   date = {2021-12-08},
   url = {https://colinraffel.com/blog/a-call-to-build-models-like-we-build-open-source-software.html},
   urldate = {2022-09-05},
-  keywords = {decentralized AI},
+  keywords = {*open source AI},
   file = {/Users/lukakuma/Zotero/storage/35VBYDQW/a-call-to-build-models-like-we-build-open-source-software.html}
 }
 
@@ -11877,7 +11964,7 @@
   pages = {26},
   abstract = {Contrastive models like CLIP have been shown to learn robust representations of images that capture both semantics and style. To leverage these representations for image generation, we propose a two-stage model: a prior that generates a CLIP image embedding given a text caption, and a decoder that generates an image conditioned on the image embedding. We show that explicitly generating image representations improves image diversity with minimal loss in photorealism and caption similarity. Our decoders conditioned on image representations can also produce variations of an image that preserve both its semantics and style, while varying the non-essential details absent from the image representation. We use diffusion models for the decoder and experiment with both autoregressive and diffusion models for the prior, finding that the latter are computationally more efficient and produce higher-quality samples.},
   langid = {english},
-  keywords = {*OpenAI,6-diffusion,img gen,read},
+  keywords = {6-diffusion,img gen,OpenAI,read},
   file = {/Users/lukakuma/Zotero/storage/QGHTZ3NS/Ramesh et al. - Hierarchical Text-Conditional Image Generation wit.pdf}
 }
 
@@ -11892,7 +11979,7 @@
   urldate = {2021-03-15},
   abstract = {Text-to-image generation has traditionally focused on finding better modeling assumptions for training on a fixed dataset. These assumptions might involve complex architectures, auxiliary losses, or side information such as object part labels or segmentation masks supplied during training. We describe a simple approach for this task based on a transformer that autoregressively models the text and image tokens as a single stream of data. With sufficient data and scale, our approach is competitive with previous domain-specific models when evaluated in a zero-shot fashion.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI,read},
+  keywords = {OpenAI,read},
   file = {/Users/lukakuma/Zotero/storage/GZN4252Z/Ramesh et al. - 2021 - Zero-Shot Text-to-Image Generation.pdf;/Users/lukakuma/Zotero/storage/DJW95QYA/2102.html}
 }
 
@@ -12002,7 +12089,7 @@
   urldate = {2022-07-28},
   abstract = {Inspired by progress in large-scale language modeling, we apply a similar approach towards building a single generalist agent beyond the realm of text outputs. The agent, which we refer to as Gato, works as a multi-modal, multi-task, multi-embodiment generalist policy. The same network with the same weights can play Atari, caption images, chat, stack blocks with a real robot arm and much more, deciding based on its context whether to output text, joint torques, button presses, or other tokens. In this report we describe the model and the data, and document the current capabilities of Gato.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind,7-multimodal,action/physical,read},
+  keywords = {7-multimodal,action/physical,DeepMind,read},
   file = {/Users/lukakuma/Zotero/storage/LN9J7DGT/A Generalist Agent.pdf;/Users/lukakuma/Zotero/storage/Z827VKIU/Reed et al. - 2022 - A Generalist Agent.pdf;/Users/lukakuma/Zotero/storage/UY38NDN5/2205.html}
 }
 
@@ -12266,7 +12353,7 @@
   urldate = {2022-09-05},
   abstract = {Many recent breakthroughs in deep learning were achieved by training increasingly larger models on massive datasets. However, training such models can be prohibitively expensive. For instance, the cluster used to train GPT-3 costs over \textbackslash\$250 million. As a result, most researchers cannot afford to train state of the art models and contribute to their development. Hypothetically, a researcher could crowdsource the training of large neural networks with thousands of regular PCs provided by volunteers. The raw computing power of a hundred thousand \textbackslash\$2500 desktops dwarfs that of a \textbackslash\$250M server pod, but one cannot utilize that power efficiently with conventional distributed training methods. In this work, we propose Learning@home: a novel neural network training paradigm designed to handle large amounts of poorly connected participants. We analyze the performance, reliability, and architectural constraints of this paradigm and compare it against existing distributed training techniques.},
   archiveprefix = {arXiv},
-  keywords = {decentralized AI},
+  keywords = {*open source AI},
   file = {/Users/lukakuma/Zotero/storage/F6VZYJEZ/Ryabinin and Gusev - 2020 - Towards Crowdsourced Training of Large Neural Netw.pdf;/Users/lukakuma/Zotero/storage/AX7RAY6D/2002.html}
 }
 
@@ -12279,7 +12366,7 @@
   urldate = {2022-09-02},
   abstract = {Many deep learning applications benefit from using large models with billions of parameters. These models can only be trained with specialized distributed training algorithms that require...},
   langid = {english},
-  keywords = {decentralized AI},
+  keywords = {*open source AI},
   file = {/Users/lukakuma/Zotero/storage/5E3X7Z89/Ryabinin et al. - 2021 - SWARM Parallelism Training Large Models Can Be Su.pdf;/Users/lukakuma/Zotero/storage/M5PIFC3Y/forum.html}
 }
 
@@ -12298,7 +12385,7 @@
   urldate = {2023-01-31},
   abstract = {Many deep learning applications benefit from using large models with billions of parameters. Training these models is notoriously expensive due to the need for specialized HPC clusters. In this work, we consider alternative setups for training large models: using cheap "preemptible" instances or pooling existing resources from multiple regions. We analyze the performance of existing model-parallel algorithms in these conditions and find configurations where training larger models becomes less communication-intensive. Based on these findings, we propose SWARM parallelism, a model-parallel training algorithm designed for poorly connected, heterogeneous and unreliable devices. SWARM creates temporary randomized pipelines between nodes that are rebalanced in case of failure. We empirically validate our findings and compare SWARM parallelism with existing large-scale training approaches. Finally, we combine our insights with compression strategies to train a large Transformer language model with 1B shared parameters (approximately 13B before sharing) on preemptible T4 GPUs with less than 200Mb/s network.},
   archiveprefix = {arXiv},
-  keywords = {decentralized AI},
+  keywords = {*open source AI},
   file = {/Users/lukakuma/Zotero/storage/WTW9GNFP/Ryabinin et al. - 2023 - SWARM Parallelism Training Large Models Can Be Su.pdf;/Users/lukakuma/Zotero/storage/F4R6BVYH/2301.html}
 }
 
@@ -12670,7 +12757,7 @@
   urldate = {2022-12-30},
   abstract = {Constructing agents with planning capabilities has long been one of the main challenges in the pursuit of artificial intelligence. Tree-based planning methods have enjoyed huge success in challenging domains, such as chess and Go, where a perfect simulator is available. However, in real-world problems the dynamics governing the environment are often complex and unknown. In this work we present the MuZero algorithm which, by combining a tree-based search with a learned model, achieves superhuman performance in a range of challenging and visually complex domains, without any knowledge of their underlying dynamics. MuZero learns a model that, when applied iteratively, predicts the quantities most directly relevant to planning: the reward, the action-selection policy, and the value function. When evaluated on 57 different Atari games - the canonical video game environment for testing AI techniques, in which model-based planning approaches have historically struggled - our new algorithm achieved a new state of the art. When evaluated on Go, chess and shogi, without any knowledge of the game rules, MuZero matched the superhuman performance of the AlphaZero algorithm that was supplied with the game rules.},
   langid = {english},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/MBWLZWL4/Schrittwieser et al. - 2019 - Mastering Atari, Go, Chess and Shogi by Planning w.pdf}
 }
 
@@ -12702,7 +12789,7 @@
   urldate = {2022-08-09},
   abstract = {Two of the leading approaches for model-free reinforcement learning are policy gradient methods and \$Q\$-learning methods. \$Q\$-learning methods can be effective and sample-efficient when they work, however, it is not well-understood why they work, since empirically, the \$Q\$-values they estimate are very inaccurate. A partial explanation may be that \$Q\$-learning methods are secretly implementing policy gradient updates: we show that there is a precise equivalence between \$Q\$-learning and policy gradient methods in the setting of entropy-regularized reinforcement learning, that "soft" (entropy-regularized) \$Q\$-learning is exactly equivalent to a policy gradient method. We also point out a connection between \$Q\$-learning methods and natural policy gradient methods. Experimentally, we explore the entropy-regularized versions of \$Q\$-learning and policy gradients, and we find them to perform as well as (or slightly better than) the standard variants on the Atari benchmark. We also show that the equivalence holds in practical settings by constructing a \$Q\$-learning method that closely matches the learning dynamics of A3C without using a target network or \$\textbackslash epsilon\$-greedy exploration schedule.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/2K8JJYH8/Schulman et al. - 2018 - Equivalence Between Policy Gradients and Soft Q-Le.pdf;/Users/lukakuma/Zotero/storage/6CJPQLPD/1704.html}
 }
 
@@ -12747,7 +12834,7 @@
   urldate = {2022-07-19},
   abstract = {We propose a new family of policy gradient methods for reinforcement learning, which alternate between sampling data through interaction with the environment, and optimizing a "surrogate" objective function using stochastic gradient ascent. Whereas standard policy gradient methods perform one gradient update per data sample, we propose a novel objective function that enables multiple epochs of minibatch updates. The new methods, which we call proximal policy optimization (PPO), have some of the benefits of trust region policy optimization (TRPO), but they are much simpler to implement, more general, and have better sample complexity (empirically). Our experiments test PPO on a collection of benchmark tasks, including simulated robotic locomotion and Atari game playing, and we show that PPO outperforms other online policy gradient methods, and overall strikes a favorable balance between sample complexity, simplicity, and wall-time.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/9ASXZCGI/Schulman et al. - 2017 - Proximal Policy Optimization Algorithms.pdf;/Users/lukakuma/Zotero/storage/D7G8ATKP/1707.html}
 }
 
@@ -13132,6 +13219,24 @@
   file = {/Users/lukakuma/Zotero/storage/78GYZR49/Siddarth et al. - 2020 - Who Watches the Watchmen A Review of Subjective A.pdf;/Users/lukakuma/Zotero/storage/D7LYS7IY/2008.html}
 }
 
+@misc{silPrimeQAPrimeRepository2023,
+  title = {{{PrimeQA}}: {{The Prime Repository}} for {{State-of-the-Art Multilingual Question Answering Research}} and {{Development}}},
+  shorttitle = {{{PrimeQA}}},
+  author = {Sil, Avirup and Sen, Jaydeep and Iyer, Bhavani and Franz, Martin and Fadnis, Kshitij and Bornea, Mihaela and Rosenthal, Sara and McCarley, Scott and Zhang, Rong and Kumar, Vishwajeet and Li, Yulong and Sultan, Md Arafat and Bhat, Riyaz and Florian, Radu and Roukos, Salim},
+  date = {2023-01-25},
+  number = {arXiv:2301.09715},
+  eprint = {2301.09715},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2301.09715},
+  url = {http://arxiv.org/abs/2301.09715},
+  urldate = {2023-02-28},
+  abstract = {The field of Question Answering (QA) has made remarkable progress in recent years, thanks to the advent of large pre-trained language models, newer realistic benchmark datasets with leaderboards, and novel algorithms for key components such as retrievers and readers. In this paper, we introduce PRIMEQA: a one-stop and open-source QA repository with an aim to democratize QA re-search and facilitate easy replication of state-of-the-art (SOTA) QA methods. PRIMEQA supports core QA functionalities like retrieval and reading comprehension as well as auxiliary capabilities such as question generation.It has been designed as an end-to-end toolkit for various use cases: building front-end applications, replicating SOTA methods on pub-lic benchmarks, and expanding pre-existing methods. PRIMEQA is available at : https://github.com/primeqa.},
+  archiveprefix = {arXiv},
+  file = {/Users/lukakuma/Zotero/storage/L3KHNSSK/Sil et al. - 2023 - PrimeQA The Prime Repository for State-of-the-Art.pdf;/Users/lukakuma/Zotero/storage/M8RVIFWP/2301.html}
+}
+
 @article{silverDeterministicPolicyGradient2014,
   title = {Deterministic {{Policy Gradient Algorithms}}},
   author = {Silver, David and Lever, Guy and Heess, Nicolas and Degris, Thomas and Wierstra, Daan and Riedmiller, Martin},
@@ -13156,7 +13261,7 @@
   urldate = {2022-12-22},
   abstract = {The game of chess is the most widely-studied domain in the history of artificial intelligence. The strongest programs are based on a combination of sophisticated search techniques, domain-specific adaptations, and handcrafted evaluation functions that have been refined by human experts over several decades. In contrast, the AlphaGo Zero program recently achieved superhuman performance in the game of Go, by tabula rasa reinforcement learning from games of self-play. In this paper, we generalise this approach into a single AlphaZero algorithm that can achieve, tabula rasa, superhuman performance in many challenging domains. Starting from random play, and given no domain knowledge except the game rules, AlphaZero achieved within 24 hours a superhuman level of play in the games of chess and shogi (Japanese chess) as well as Go, and convincingly defeated a world-champion program in each case.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind,self-play},
+  keywords = {DeepMind,self-play},
   file = {/Users/lukakuma/Zotero/storage/AH44RQ6L/Silver et al. - 2017 - Mastering Chess and Shogi by Self-Play with a Gene.pdf;/Users/lukakuma/Zotero/storage/D32WXAJ9/1712.html}
 }
 
@@ -13177,7 +13282,7 @@
   abstract = {The game of Go has long been viewed as the most challenging of classic games for artificial intelligence owing to its enormous search space and the difficulty of evaluating board positions and moves. Here we introduce a new approach to computer Go that uses ‘value networks’ to evaluate board positions and ‘policy networks’ to select moves. These deep neural networks are trained by a novel combination of supervised learning from human expert games, and reinforcement learning from games of self-play. Without any lookahead search, the neural networks play Go at the level of state-of-the-art Monte Carlo tree search programs that simulate thousands of random games of self-play. We also introduce a new search algorithm that combines Monte Carlo simulation with value and policy networks. Using this search algorithm, our program AlphaGo achieved a 99.8\% winning rate against other Go programs, and defeated the human European Go champion by 5 games to 0. This is the first time that a computer program has defeated a human professional player in the full-sized game of Go, a feat previously thought to be at least a decade away.},
   issue = {7587},
   langid = {english},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/4FLI6C27/Silver et al. - 2016 - Mastering the game of Go with deep neural networks.pdf;/Users/lukakuma/Zotero/storage/QEB9AADT/nature16961.html}
 }
 
@@ -13198,7 +13303,7 @@
   abstract = {A long-standing goal of artificial intelligence is an algorithm that learns, tabula rasa, superhuman proficiency in challenging domains. Recently, AlphaGo became the first program to defeat a world champion in the game of Go. The tree search in AlphaGo evaluated positions and selected moves using deep neural networks. These neural networks were trained by supervised learning from human expert moves, and by reinforcement learning from self-play. Here we introduce an algorithm based solely on reinforcement learning, without human data, guidance or domain knowledge beyond game rules. AlphaGo becomes its own teacher: a neural network is trained to predict AlphaGo’s own move selections and also the winner of AlphaGo’s games. This neural network improves the strength of the tree search, resulting in higher quality move selection and stronger self-play in the next iteration. Starting tabula rasa, our new program AlphaGo Zero achieved superhuman performance, winning 100–0 against the previously published, champion-defeating AlphaGo.},
   issue = {7676},
   langid = {english},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/ZNY3ZNMC/Silver et al. - 2017 - Mastering the game of Go without human knowledge.pdf;/Users/lukakuma/Zotero/storage/EIXR7UWY/nature24270.html}
 }
 
@@ -13437,7 +13542,7 @@
   urldate = {2022-07-23},
   abstract = {We consider the problem of exploration in meta reinforcement learning. Two new meta reinforcement learning algorithms are suggested: E-MAML and E-\$\textbackslash text\{RL\}\^2\$. Results are presented on a novel environment we call `Krazy World' and a set of maze environments. We show E-MAML and E-\$\textbackslash text\{RL\}\^2\$ deliver better performance on tasks where exploration is important.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/DPC5UYBF/Stadie et al. - 2019 - Some Considerations on Learning to Explore via Met.pdf;/Users/lukakuma/Zotero/storage/2CKSTV9A/1803.html}
 }
 
@@ -13455,7 +13560,7 @@
   urldate = {2022-07-23},
   abstract = {Reinforcement learning (RL) makes it possible to train agents capable of achieving sophisticated goals in complex and uncertain environments. A key difficulty in reinforcement learning is specifying a reward function for the agent to optimize. Traditionally, imitation learning in RL has been used to overcome this problem. Unfortunately, hitherto imitation learning methods tend to require that demonstrations are supplied in the first-person: the agent is provided with a sequence of states and a specification of the actions that it should have taken. While powerful, this kind of imitation learning is limited by the relatively hard problem of collecting first-person demonstrations. Humans address this problem by learning from third-person demonstrations: they observe other humans perform tasks, infer the task, and accomplish the same task themselves. In this paper, we present a method for unsupervised third-person imitation learning. Here third-person refers to training an agent to correctly achieve a simple goal in a simple environment when it is provided a demonstration of a teacher achieving the same goal but from a different viewpoint; and unsupervised refers to the fact that the agent receives only these third-person demonstrations, and is not provided a correspondence between teacher states and student states. Our methods primary insight is that recent advances from domain confusion can be utilized to yield domain agnostic features which are crucial during the training process. To validate our approach, we report successful experiments on learning from third-person demonstrations in a pointmass domain, a reacher domain, and inverted pendulum.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/5I77JRLN/Stadie et al. - 2019 - Third-Person Imitation Learning.pdf;/Users/lukakuma/Zotero/storage/ESN53UT5/1703.html}
 }
 
@@ -13567,6 +13672,23 @@
   archiveprefix = {arXiv},
   keywords = {*peft},
   file = {/Users/lukakuma/Zotero/storage/W7XNK742/Sung et al. - 2021 - Training Neural Networks with Fixed Sparse Masks.pdf;/Users/lukakuma/Zotero/storage/J56EU6W6/2111.html}
+}
+
+@misc{sunHowDoesInContext2023,
+  title = {How {{Does In-Context Learning Help Prompt Tuning}}?},
+  author = {Sun, Simeng and Liu, Yang and Iter, Dan and Zhu, Chenguang and Iyyer, Mohit},
+  date = {2023-02-22},
+  number = {arXiv:2302.11521},
+  eprint = {2302.11521},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2302.11521},
+  url = {http://arxiv.org/abs/2302.11521},
+  urldate = {2023-02-28},
+  abstract = {Fine-tuning large language models is becoming ever more impractical due to their rapidly-growing scale. This motivates the use of parameter-efficient adaptation methods such as prompt tuning (PT), which adds a small number of tunable embeddings to an otherwise frozen model, and in-context learning (ICL), in which demonstrations of the task are provided to the model in natural language without any additional training. Recently, Singhal et al. (2022) propose ``instruction prompt tuning'' (IPT), which combines PT with ICL by concatenating a natural language demonstration with learned prompt embeddings. While all of these methods have proven effective on different tasks, how they interact with each other remains unexplored. In this paper, we empirically study when and how in-context examples improve prompt tuning by measuring the effectiveness of ICL, PT, and IPT on five text generation tasks with multiple base language models. We observe that (1) IPT does \textbackslash emph\{not\} always outperform PT, and in fact requires the in-context demonstration to be semantically similar to the test input to yield improvements; (2) PT is unstable and exhibits high variance, but combining PT and ICL (into IPT) consistently reduces variance across all five tasks; and (3) prompts learned for a specific source task via PT exhibit positive transfer when paired with in-context examples of a different target task. Our results offer actionable insights on choosing a suitable parameter-efficient adaptation method for a given task.},
+  archiveprefix = {arXiv},
+  file = {/Users/lukakuma/Zotero/storage/K34LXQ9F/Sun et al. - 2023 - How Does In-Context Learning Help Prompt Tuning.pdf;/Users/lukakuma/Zotero/storage/XAU9Y9SX/2302.html}
 }
 
 @misc{sunLAMOLLAnguageMOdeling2019,
@@ -13786,7 +13908,7 @@
   urldate = {2022-11-19},
   abstract = {On October 14th, 2020, researchers from OpenAI, the Stanford Institute for Human-Centered Artificial Intelligence, and other universities convened to discuss open research questions surrounding GPT-3, the largest publicly-disclosed dense language model at the time. The meeting took place under Chatham House Rules. Discussants came from a variety of research backgrounds including computer science, linguistics, philosophy, political science, communications, cyber policy, and more. Broadly, the discussion centered around two main questions: 1) What are the technical capabilities and limitations of large language models? 2) What are the societal effects of widespread use of large language models? Here, we provide a detailed summary of the discussion organized by the two themes above.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI},
+  keywords = {OpenAI},
   file = {/Users/lukakuma/Zotero/storage/IYLHZSRA/Tamkin et al. - 2021 - Understanding the Capabilities, Limitations, and S.pdf;/Users/lukakuma/Zotero/storage/9222H29V/2102.html}
 }
 
@@ -14260,7 +14382,7 @@
   abstract = {Protein structures can provide invaluable information, both for reasoning about biological processes and for enabling interventions such as structure-based drug development or targeted mutagenesis. After decades of effort, 17\% of the total residues in human protein sequences are covered by an experimentally determined structure1. Here we markedly expand the structural coverage of the proteome by applying the state-of-the-art machine learning method, AlphaFold2, at a scale that covers almost the entire human proteome (98.5\% of human proteins). The resulting dataset covers 58\% of residues with a confident prediction, of which a subset (36\% of all residues) have very high confidence. We introduce several metrics developed by building on the AlphaFold model and use them to interpret the dataset, identifying strong multi-domain predictions as well as regions that are likely to be disordered. Finally, we provide some case studies to illustrate how high-quality predictions could be used to generate biological hypotheses. We are making our predictions freely available to the community and anticipate that routine large-scale and high-accuracy structure prediction will become an important tool~that will allow new questions to be addressed from a structural perspective.},
   issue = {7873},
   langid = {english},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/CCAFFIRB/Tunyasuvunakool et al. - 2021 - Highly accurate protein structure prediction for t.pdf;/Users/lukakuma/Zotero/storage/SC85WP45/s41586-021-03828-1.html}
 }
 
@@ -14396,7 +14518,7 @@
   urldate = {2023-01-24},
   abstract = {In many ways, graphs are the main modality of data we receive from nature. This is due to the fact that most of the patterns we see, both in natural and artificial systems, are elegantly representable using the language of graph structures. Prominent examples include molecules (represented as graphs of atoms and bonds), social networks and transportation networks. This potential has already been seen by key scientific and industrial groups, with already-impacted application areas including traffic forecasting, drug discovery, social network analysis and recommender systems. Further, some of the most successful domains of application for machine learning in previous years -- images, text and speech processing -- can be seen as special cases of graph representation learning, and consequently there has been significant exchange of information between these areas. The main aim of this short survey is to enable the reader to assimilate the key concepts in the area, and position graph representation learning in a proper context with related fields.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/8RD4CBYF/Veličković - 2023 - Everything is Connected Graph Neural Networks.pdf;/Users/lukakuma/Zotero/storage/AM77427A/2301.html}
 }
 
@@ -14494,7 +14616,7 @@
   abstract = {Many real-world applications require artificial agents to compete and coordinate with other agents in complex environments. As a stepping stone to this goal, the domain of StarCraft has emerged as an important challenge for artificial intelligence research, owing to its iconic and enduring status among the most difficult professional esports and its relevance to the real world in terms of its raw complexity and multi-agent challenges. Over the course of a decade and numerous competitions1–3, the strongest agents have simplified important aspects of the game, utilized superhuman capabilities, or employed hand-crafted sub-systems4. Despite these advantages, no previous agent has come close to matching the overall skill of top StarCraft players. We chose to address the challenge of StarCraft using general-purpose learning methods that are in principle applicable to other complex domains: a multi-agent reinforcement learning algorithm that uses data from both human and agent games within a diverse league of continually adapting strategies and counter-strategies, each represented by deep neural networks5,6. We evaluated our agent, AlphaStar, in the full game of StarCraft II, through a series of online games against human players. AlphaStar was rated at Grandmaster level for all three StarCraft races and above 99.8\% of officially ranked human players.},
   issue = {7782},
   langid = {english},
-  keywords = {(ext) Sparrow,*DeepMind},
+  keywords = {(ext) Sparrow,DeepMind},
   file = {/Users/lukakuma/Zotero/storage/4S3M7TFY/Vinyals et al. - 2019 - Grandmaster level in StarCraft II using multi-agen.pdf;/Users/lukakuma/Zotero/storage/P48G8HDP/s41586-019-1724-z.html}
 }
 
@@ -14633,7 +14755,7 @@
   abstract = {Communication compression is a crucial technique for modern distributed learning systems to alleviate their communication bottlenecks over slower networks. Despite recent intensive studies of gradient compression for data parallel-style training, compressing the activations for models trained with pipeline parallelism is still an open problem. In this paper, we propose AC-SGD, a novel activation compression algorithm for communication-efficient pipeline parallelism training over slow networks. Different from previous efforts in activation compression, instead of compressing activation values directly, AC-SGD compresses the changes of the activati√ons. This allows us to show, to the best of our knowledge for the first time, that one can still achieve O(1/ T ) convergence rate for non-convex objectives under activation compression, without making assumptions on gradient unbiasedness that do not hold for deep learning models with non-linear activation functions. We then show that AC-SGD can be optimized and implemented efficiently, without additional end-toend runtime overhead. We evaluated AC-SGD to fine-tune language models with up to 1.5 billion parameters, compressing activations to 2-4 bits. AC-SGD provides up to 4.3× end-to-end speed-up in slower networks, without sacrificing model quality. Moreover, we also show that AC-SGD can be combined with state-of-the-art gradient compression algorithms to enable “end-to-end communication compression”: All communications between machines, including model gradients, forward activations, and backward gradients are compressed into lower precision. This provides up to 4.9× end-to-end speed-up, without sacrificing model quality.},
   archiveprefix = {arXiv},
   langid = {english},
-  keywords = {decentralized AI},
+  keywords = {*open source AI},
   file = {/Users/lukakuma/Zotero/storage/NXAQKVSV/Wang et al. - 2022 - Fine-tuning Language Models over Slow Networks usi.pdf}
 }
 
@@ -15880,7 +16002,7 @@
   urldate = {2022-06-07},
   abstract = {Reinforcement learning has achieved great success in many applications. However, sample efficiency remains a key challenge, with prominent methods requiring millions (or even billions) of environment steps to train. Recently, there has been significant progress in sample efficient image-based RL algorithms; however, consistent human-level performance on the Atari game benchmark remains an elusive goal. We propose a sample efficient model-based visual RL algorithm built on MuZero, which we name EfficientZero. Our method achieves 194.3\% mean human performance and 109.0\% median performance on the Atari 100k benchmark with only two hours of real-time game experience and outperforms the state SAC in some tasks on the DMControl 100k benchmark. This is the first time an algorithm achieves super-human performance on Atari games with such little data. EfficientZero's performance is also close to DQN's performance at 200 million frames while we consume 500 times less data. EfficientZero's low sample complexity and high performance can bring RL closer to real-world applicability. We implement our algorithm in an easy-to-understand manner and it is available at https://github.com/YeWR/EfficientZero. We hope it will accelerate the research of MCTS-based RL algorithms in the wider community.},
   archiveprefix = {arXiv},
-  keywords = {*DeepMind},
+  keywords = {DeepMind},
   file = {/Users/lukakuma/Zotero/storage/ZNMTN8BM/Ye et al. - 2021 - Mastering Atari Games with Limited Data.pdf;/Users/lukakuma/Zotero/storage/77QLKYKV/2111.html}
 }
 
@@ -16017,7 +16139,7 @@
   urldate = {2022-06-09},
   abstract = {Training foundation models, such as GPT-3 and PaLM, can be extremely expensive, often involving tens of thousands of GPUs running continuously for months. These models are typically trained in specialized clusters featuring fast, homogeneous interconnects and using carefully designed software systems that support both data parallelism and model/pipeline parallelism. Such dedicated clusters can be costly and difficult to obtain. Can we instead leverage the much greater amount of decentralized, heterogeneous, and lower-bandwidth interconnected compute? Previous works examining the heterogeneous, decentralized setting focus on relatively small models that can be trained in a purely data parallel manner. State-of-the-art schemes for model parallel foundation model training, such as Megatron, only consider the homogeneous data center setting. In this paper, we present the first study of training large foundation models with model parallelism in a decentralized regime over a heterogeneous network. Our key technical contribution is a scheduling algorithm that allocates different computational "tasklets" in the training of foundation models to a group of decentralized GPU devices connected by a slow heterogeneous network. We provide a formal cost model and further propose an efficient evolutionary algorithm to find the optimal allocation strategy. We conduct extensive experiments that represent different scenarios for learning over geo-distributed devices simulated using real-world network measurements. In the most extreme case, across 8 different cities spanning 3 continents, our approach is 4.8X faster than prior state-of-the-art training systems (Megatron).},
   archiveprefix = {arXiv},
-  keywords = {decentralized AI,read},
+  keywords = {*open source AI,read},
   file = {/Users/lukakuma/Zotero/storage/IZZBAXX8/Yuan et al. - 2022 - Decentralized Training of Foundation Models in Het.pdf;/Users/lukakuma/Zotero/storage/SXUCINTA/2206.html}
 }
 
@@ -16451,6 +16573,23 @@
   file = {/Users/lukakuma/Zotero/storage/MU7BEELE/Zhang et al. - 2022 - OPT Open Pre-trained Transformer Language Models.pdf;/Users/lukakuma/Zotero/storage/4F9TPMIS/2205.html}
 }
 
+@misc{zhangWisdomHindsightMakes2023,
+  title = {The {{Wisdom}} of {{Hindsight Makes Language Models Better Instruction Followers}}},
+  author = {Zhang, Tianjun and Liu, Fangchen and Wong, Justin and Abbeel, Pieter and Gonzalez, Joseph E.},
+  date = {2023-02-10},
+  number = {arXiv:2302.05206},
+  eprint = {2302.05206},
+  eprinttype = {arxiv},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2302.05206},
+  url = {http://arxiv.org/abs/2302.05206},
+  urldate = {2023-02-28},
+  abstract = {Reinforcement learning has seen wide success in finetuning large language models to better align with instructions via human feedback. The so-called algorithm, Reinforcement Learning with Human Feedback (RLHF) demonstrates impressive performance on the GPT series models. However, the underlying Reinforcement Learning (RL) algorithm is complex and requires an additional training pipeline for reward and value networks. In this paper, we consider an alternative approach: converting feedback to instruction by relabeling the original one and training the model for better alignment in a supervised manner. Such an algorithm doesn't require any additional parameters except for the original language model and maximally reuses the pretraining pipeline. To achieve this, we formulate instruction alignment problem for language models as a goal-reaching problem in decision making. We propose Hindsight Instruction Relabeling (HIR), a novel algorithm for aligning language models with instructions. The resulting two-stage algorithm shed light to a family of reward-free approaches that utilize the hindsightly relabeled instructions based on feedback. We evaluate the performance of HIR extensively on 12 challenging BigBench reasoning tasks and show that HIR outperforms the baseline algorithms and is comparable to or even surpasses supervised finetuning.},
+  archiveprefix = {arXiv},
+  file = {/Users/lukakuma/Zotero/storage/EB5F575C/Zhang et al. - 2023 - The Wisdom of Hindsight Makes Language Models Bett.pdf;/Users/lukakuma/Zotero/storage/DJX53C7X/2302.html}
+}
+
 @unpublished{zhaoCalculatingQuestionSimilarity2022,
   title = {Calculating {{Question Similarity}} Is {{Enough}}: {{A New Method}} for {{KBQA Tasks}}},
   shorttitle = {Calculating {{Question Similarity}} Is {{Enough}}},
@@ -16723,7 +16862,7 @@
   urldate = {2022-07-23},
   abstract = {Reward learning enables the application of reinforcement learning (RL) to tasks where reward is defined by human judgment, building a model of reward by asking humans questions. Most work on reward learning has used simulated environments, but complex information about values is often expressed in natural language, and we believe reward learning for language is a key to making RL practical and safe for real-world tasks. In this paper, we build on advances in generative pretraining of language models to apply reward learning to four natural language tasks: continuing text with positive sentiment or physically descriptive language, and summarization tasks on the TL;DR and CNN/Daily Mail datasets. For stylistic continuation we achieve good results with only 5,000 comparisons evaluated by humans. For summarization, models trained with 60,000 comparisons copy whole sentences from the input but skip irrelevant preamble; this leads to reasonable ROUGE scores and very good performance according to our human labelers, but may be exploiting the fact that labelers rely on simple heuristics.},
   archiveprefix = {arXiv},
-  keywords = {*OpenAI,alignment},
+  keywords = {alignment,OpenAI},
   file = {/Users/lukakuma/Zotero/storage/HM3YTLPB/Ziegler et al. - 2020 - Fine-Tuning Language Models from Human Preferences.pdf;/Users/lukakuma/Zotero/storage/G2AUXFG9/1909.html}
 }
 
