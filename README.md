@@ -58,7 +58,20 @@ Record every light bulb moment in `Log`. Don't care about the quality.  After cr
 Operational log. Event driven, append only. Lightly grouped by topic since sub-list is direct expansion of the parent. Similar to program execution trace with comments or super verbose chain of thought. Not the most human readable format but 99% of human won't read logs. The target audience is AI.
 
 ## Trajectory
-Check the [google sheet](https://docs.google.com/spreadsheets/d/11Ul6yh4x3HCz35SVBTQCOFwBEhI2CHr9H9a-CAggP6g/edit?usp=sharing) for the trajectory. Read [learning to learn](https://lukaemon.github.io/posts/2023/learning-to-learn/) for why I structure the trajectory and project this way.
+| path                                               | finished |
+| -------------------------------------------------- | -------- |
+| paper/sanhMultitaskPromptedTraining2022a           | 202301   |
+| paper/weiChainThoughtPrompting2022                 | 202301   |
+| paper/wangSelfConsistencyImprovesChain2022a        | 202301   |
+| paper/chungScalingInstructionFinetunedLanguage2022 | 202302   |
+| paper/sunRecitationAugmentedLanguageModels2022a    | 202302   |
+| project/finetune_t5_hello_world                    | 202302   |
+| paper/zhangMultimodalChainofThoughtReasoning2023   | 202302   |
+| paper/lesterPowerScaleParameterEfficient2021       | 202302   |
+| project/hf_peft_example                            | 202302   |
+| paper/_reading/paper_2023w8                        | 202302   |
+
+Read [learning to learn](https://lukaemon.github.io/posts/2023/learning-to-learn/) for why I structure the trajectory and project this way.
 
 ## Appendix
 ### Action space

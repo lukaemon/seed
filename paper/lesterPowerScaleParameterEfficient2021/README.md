@@ -115,4 +115,4 @@
     - `schickToolformerLanguageModels2023`, LoRA LM to use tools. 
     - `longpreFlanCollectionDesigning2023`, LoRA instruction finetuning. Coding practice for data engineering, LoRA ft and evaluation.
     - Learn t5x and figure out how to make prompt tuning work on t5: training, inference and evaluation. 
-- [start(paper_reading_20230222)]
+- [start(2023w8)]

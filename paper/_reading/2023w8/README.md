@@ -24,7 +24,7 @@ Coming from @lesterPowerScaleParameterEfficient2021. Choose next project by revi
 ## Next?
 - [start(@longpreFlanCollectionDesigning2023)]: reproduce instruction finetuning as engineering practice.
 - [start(@kohGroundingLanguageModels2023)]: reproduce FROMAGe as intro to multimodal research. 
-- [start(paper_reading_20230227)]
+- [start(paper_2023w9)]
 
 ## Log
 - [read(@schickToolformerLanguageModels2023)]
