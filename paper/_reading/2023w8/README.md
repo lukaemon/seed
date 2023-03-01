@@ -1,5 +1,5 @@
 ## tl;dr
-Read few papers to decide what to do next.
+Be careful to TikTok research. Be extra alert to too good to be true paper title. 
 
 ## Context
 Coming from @lesterPowerScaleParameterEfficient2021. Choose next project by reviewing few ideas.

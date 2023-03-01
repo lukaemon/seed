@@ -1,5 +1,5 @@
 ## tl;dr
-- Prompt tuning for simple benchmark works, but for hard task, it is for LLM. I have to LoRA for small model. `prompt ensemble` is powerful idea. I could do `LoRA ensemble` to bootstrap `self-multiagent learning` with dialogue as supervision. 
+- Prefix tuning is for LLM. The right level of change for small model is LoRA. `prompt ensemble` is powerful idea. May be able to do `LoRA ensemble` to bootstrap `self-multiagent learning` with dialogue as supervision.
 
 ## Context
 - Finetuning is expensive on both computation resource and dataset curation. PEFT seems to be the logical next step to reduce the cost of task adaptation. 

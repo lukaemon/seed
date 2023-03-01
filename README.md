@@ -58,23 +58,25 @@ Record every light bulb moment in `Log`. Don't care about the quality.  After cr
 Operational log. Event driven, append only. Lightly grouped by topic since sub-list is direct expansion of the parent. Similar to program execution trace with comments or super verbose chain of thought. Not the most human readable format but 99% of human won't read logs. The target audience is AI.
 
 ## Trajectory
-| path                                               | finished |
-| -------------------------------------------------- | -------- |
-| paper/sanhMultitaskPromptedTraining2022a           | 202301   |
-| paper/weiChainThoughtPrompting2022                 | 202301   |
-| paper/wangSelfConsistencyImprovesChain2022a        | 202301   |
-| paper/chungScalingInstructionFinetunedLanguage2022 | 202302   |
-| paper/sunRecitationAugmentedLanguageModels2022a    | 202302   |
-| project/finetune_t5_hello_world                    | 202302   |
-| paper/zhangMultimodalChainofThoughtReasoning2023   | 202302   |
-| paper/lesterPowerScaleParameterEfficient2021       | 202302   |
-| project/hf_peft_example                            | 202302   |
-| paper/_reading/paper_2023w8                        | 202302   |
+| path                                               | finished | tl;dr                                                                                                                                                                                                                                                                                                                                                                     |
+| -------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| paper/sanhMultitaskPromptedTraining2022a           | 202301   |                                                                                                                                                                                                                                                                                                                                                                           |
+| paper/weiChainThoughtPrompting2022                 | 202301   |                                                                                                                                                                                                                                                                                                                                                                           |
+| paper/wangSelfConsistencyImprovesChain2022a        | 202301   |                                                                                                                                                                                                                                                                                                                                                                           |
+| paper/chungScalingInstructionFinetunedLanguage2022 | 202302   |                                                                                                                                                                                                                                                                                                                                                                           |
+| paper/sunRecitationAugmentedLanguageModels2022a    | 202302   |                                                                                                                                                                                                                                                                                                                                                                           |
+| project/finetune_t5_hello_world                    | 202302   |                                                                                                                                                                                                                                                                                                                                                                           |
+| paper/zhangMultimodalChainofThoughtReasoning2023   | 202302   | [feel the same](https://twitter.com/main_horse/status/1627862771609239552)                                                                                                                                                                                                                                                                                                |
+| paper/lesterPowerScaleParameterEfficient2021       | 202302   | Prefix tuning is for LLM. The right level of change for small model is LoRA. `prompt ensemble` is powerful idea. May be able to do `LoRA ensemble` to bootstrap `self-multiagent learning` with dialogue as supervision.                                                                                                                                                  |
+| project/hf_peft_example                            | 202302   | No special magic with PEFT. LLM could be prompt tuned because the base model is already capable. Smaller NN could be LoRAed, which is a smart and efficient method, but the capability is still capped by the base model. The search for right application for solo friendly model size (<11b) is still on. Stable diffusion and its LoRAed variations are good examples. |
+| paper/_reading/paper_2023w8                        | 202302   | Be careful to TikTok research. Be extra alert to too good to be true paper title.                                                                                                                                                                                                                                                                                         |
 
 Read [learning to learn](https://lukaemon.github.io/posts/2023/learning-to-learn/) for why I structure the trajectory and project this way.
 
 ## Appendix
 ### Action space
+I use the following commands to annotate the `Log`. 
+
 | Command                                      | Effect                                          |
 | -------------------------------------------- | ----------------------------------------------- |
 | skim(source)                                 | Check if the source is worth my time            |
