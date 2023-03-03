@@ -1,11 +1,11 @@
-git+https://github.com/huggingface/transformers.git@main
-git+https://github.com/huggingface/peft.git@main
+transformers==4.26.*
 datasets
 accelerate
 evaluate
 bitsandbytes 
 sentencepiece
 deepspeed
+git+https://github.com/huggingface/peft.git@main
 loralib
 
 tensorflow
@@ -16,7 +16,7 @@ seqio
 openai==0.26.*
 promptsource==0.2.3
 discord.py==2.1.*
-ipywidgets==7.7.2  # https://github.com/microsoft/vscode-jupyter/issues/8552
+ipywidgets
 ipykernel
 tqdm
 black

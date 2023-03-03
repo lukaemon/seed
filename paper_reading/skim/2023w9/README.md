@@ -7,8 +7,8 @@ Typical paper reading session.
 
 ## Done
 
-
 ## Learned
+- [hypothesize -> `co-occurrence` and `causality in time` are enough to bootstrap multimodal intelligence.] 
 
 ## Next?
 
@@ -42,33 +42,3 @@ Typical paper reading session.
 - [skim(@huangComposerCreativeControllable2023)]
   - "decompose an image into representative factors, and then train a diffusion model with all these factors as the conditions to recompose the input."
   - This is very `functa`. Like semantic PCA and use them as levers for control. Worth digging. 
-- [read(@pfeifferModularDeepLearning2023)]
-  - To achieve positive transfer, compositionality, and parameter efficiency, one needs to understand modules, routing function and aggregation function.
-  - Key dimensions: 
-    1. how they implement modules, which constitute the minimum unit of computation; 
-      - adapter
-      - sparse sub-networks, ex: LoRA
-      - prefix tuning, ex: Lester prompt tuning
-    2. how they select active modules through a routing function; 
-    3. how module outputs are aggregated;
-    4. how the modules are trained with the rest of the model.
-  - [soliloquy]
-    - These module implementations are great reaffirmation of my previous understanding about `level of change`, they offer different trade-offs between efficiency and performance. I'm literally learning means of combination of nn modules.
-    - Total ignorance to routing function. 
-    - Aggregation function is interesting. Functional decomposition and composition come to mind, as in @huangComposerCreativeControllable2023 and @dupontDataFunctaYour2022. 
-    - Integration of pretrained frozen model is my top favorite. I see a future to propagate level of change wrt to different computation budget. 
-      - `Prefix tuning` may be the cheapest entry point. Instead of manual prompt engineering, local task adaptation by prefix tuning to local dataset is efficient, privacy preserving and autonomous.
-      - LoRA adapter is the next step.
-      - Finetuning adapter is more expensive. 
-      - Design and train a new adapter is even more expensive.
-      - Pretraining a new module will remain to the selected few. Like everyone needs energy but impossible for everyone to mine the oil and refine it.
-  - Modular, multimodal and multitool model are all related. [question -> what is the proper API to construct such system?] This question takes me back to the good old days of Scala actor model. 
-  - ![](asset/mdl_algorithm.png)
-    - Means of combination between base model param and module param. 
-      - parameter composition
-      - input composition
-      - function composition
-  - ![](asset/mdl_overview.png)
-    - This is crazy. Such simple algorithm and notations could explain many modular DL patterns. What a good mental framework!
-  - The paper is very complimentary to @mialonAugmentedLanguageModels2023, which considers function and this one is about form. Together, they are the two sides of the same coin.
-  - 
