@@ -81,7 +81,7 @@ I use the following commands to annotate the `Log`.
 
 | Command                                      | Effect                                          |
 |----------------------------------------------|-------------------------------------------------|
-| skim(source) -> [<digging>, <full read>]     | Check if the source is worth my time            |
+| skim(source) -> [digging, full read]         | Check if the source is worth my time            |
 | read(source)                                 | Engage. Read, study, talk, dream about it       |
 | code(brief_description)                      | Code something                                  |
 | critique                                     |                                                 |
