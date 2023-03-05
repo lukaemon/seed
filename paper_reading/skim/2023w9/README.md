@@ -21,7 +21,7 @@ The largest skimming festival I've ever have LoL.
 Back to code. 
 
 ## Log
-- [skim(@pfeifferModularDeepLearning2023) -> <full read>]
+- [skim(@pfeifferModularDeepLearning2023) -> _full_read]
   - ![](asset/mdl_conclusion.png)
   - Judged by the abstract and the conclusion, the paper easily reaches full reading status. 
   - Was studying `PEFT` and thinking about adaptor to enable multimodal model with frozen backbones. 
@@ -47,11 +47,11 @@ Back to code.
     - What's more interesting is one **linear transformation** is enough to bridge language only and vision only latent space. This is new and deep to me. 
     - Linear transformation is literally like change the view point of a 3d video game. Meaning, well learning vision and language latent space live in the same coordinate system. All you need is a change of perspective.
     - However, CLIP is contrastive. I don't know how many language annotations for images are enough to carve out the complete joint latent space. `Yann` doesn't believe in contrastive learning though.
-- [skim(@huangComposerCreativeControllable2023) -> digging]
+- [skim(@huangComposerCreativeControllable2023) -> _digging]
   - "decompose an image into representative factors, and then train a diffusion model with all these factors as the conditions to recompose the input."
-  - This is very `functa`. Like semantic PCA and use them as levers for control. Worth digging. 
+  - This is very `functa`. Like semantic PCA and use them as levers for control.
 - Let's find out how many paper I could skim this morning. Maybe skimming is not effective strategy for me because I'm too ignorant right now. Value/token is high regardless what I read. Maybe me filtering Twitter AI to create skim pool is skimming already. 
-- [skim(@huangLanguageNotAll2023) -> <full read>]
+- [skim(@huangLanguageNotAll2023) -> _full_read]
   - The paper cites `Wittgenstein` at the first line. I'm sold. 
   - ![](asset/kosmos_compare.png)
   - I'm studying `FROMAGe` and `BLIP-2` already. Great to complete the trio. Maybe I should finish this track first before reading any more multimodal paper. 
@@ -61,18 +61,18 @@ Back to code.
   - The basin is interesting idea but I don't think parameter sweeping is the best way to use flops, even in distributed setting.
   - Adapter and LoRA are more controllable and elegant. Full model finetuning and merging is overkill. 
   - The basin... is the common ground to make param merging meaningful.
-- [skim(@changMuseTextToImageGeneration2023) -> <full read>]
+- [skim(@changMuseTextToImageGeneration2023) -> _full_read]
   - Apply masked modeling in latent space. 
   - Pretrained text encoder + VQGAN tokenizer. 
   - I'm mostly interested in the image tokenizer. The paper showed MLM is good enough. Diffusion is not necessary. Simplifies the whole pipeline centered around transformer.
 - [skim(@rebuffiLearningMultipleVisual2017)]
-- [skim(@zhangAddingConditionalControl2023) -> <digging>]
+- [skim(@zhangAddingConditionalControl2023) -> _digging]
   - "Stable Diffusion can be augmented with ControlNets to enable conditional inputs like edge maps, segmentation maps, keypoints, etc. This may enrich the methods to control large diffusion models and further facilitate related applications."
   - An adapter architecture to fuse extra info as control signal to image generation pipeline. It could apply to diffusion. I believe it could apply to Muse as well. 
-- [skim(@huangLanguageModelsZeroShot2022) -> <full read>]
+- [skim(@huangLanguageModelsZeroShot2022) -> _full_read]
   - This is grounded decision making: "find that if pre-trained LMs are large enough and prompted appropriately, they can effectively decompose high-level tasks into mid-level plans without any further training." Hierarchical RL by LLM. 
   - Very important to teach LLM to use tools. 
-- [skim(@aghajanyanScalingLawsGenerative2023) -> <full read>]
+- [skim(@aghajanyanScalingLawsGenerative2023) -> _full_read]
   - "model the optimal synergy and competition due to data and model size as an additive term to previous uni-modal scaling laws."
   - This paper is perfect theoretical companion to @huangLanguageNotAll2023. Read them together to see the tree and the forest.
 - [skim(@zhangWisdomHindsightMakes2023)]
@@ -94,33 +94,33 @@ Back to code.
   - "MCM is a small module trained to modulate the diffusion network’s predictions during sampling using 2D modalities (e.g., semantic segmentation maps, sketches)"
   - Another adapter to diffusion for fine grained control. 
   - Text plus 2d control signal to diffusion is the instruction finetuning moment of image generation pipeline. However I'll keep control net as first contact of this track. One is enough. Sorry. 
-- [skim(@pengCheckYourFacts2023) -> <digging>]
+- [skim(@pengCheckYourFacts2023) -> _digging]
   - From Microsoft. I should pay extra attention to ChatGPT related research from Microsoft since they have first class access to such model. 
   - "Our system makes the LLM generate responses grounded in consolidated external knowledge, e.g., stored in task-specific databases. It also iteratively revises LLM prompts to improve model responses using feedback generated by utility functions, e.g., the factuality score of a LLM-generated response."
   - Right paper for anyone who is interesting to use `ChatGPT api` to build anything. 
-- [skim(@karamchetiLanguageDrivenRepresentationLearning2023) -> <digging>]
+- [skim(@karamchetiLanguageDrivenRepresentationLearning2023) -> _digging]
   - "masked autoencoding approaches pick up on low-level spatial features at the cost of high level semantics, while contrastive learning approaches capture the opposite"
   - "We then introduce Voltron, a framework for languagedriven representation learning from human videos and associated captions. Voltron trades off language-conditioned visual reconstruction to learn low-level visual patterns, and visually-grounded language generation to encode high-level semantics."
   - Isn't this the holy grail of multimodal learning? Learning from video and sparse language supervision. 
 - [skim(@weiELITEEncodingVisual2023)]
   - Global and local network to deal with semantic and low level visual details? 
   - Again, another adapter for image gen control. 
-- [skim(@ansellComposableSparseFineTuning2022) -> <full read>]
+- [skim(@ansellComposableSparseFineTuning2022) -> _full_read]
   - "Adapters are modular, as they can be combined to adapt a model towards different facets of knowledge (e.g., dedicated language and/or task adapters). Sparse finetuning is expressive, as it controls the behavior of all model components."
   - "Unlike adapter-based fine-tuning, this method neither increases the number of parameters at inference time nor alters the original model architecture. Most importantly, it outperforms adapters in zero-shot cross-lingual transfer by a large margin in a series of multilingual benchmarks"
   - Ok definitely need to know more abut sparse finetuning. Very good extension paper to @pfeifferModularDeepLearning2023.
 - [soliloquy -> I feel sparse finetuning is better than adapter. Reuse the dead zone in the pretrained model. Why bother adding architectures? Like dead neurons are not removed, and revival to adapt to new tasks.]
-- [skim(@andreasNeuralModuleNetworks2017) -> <digging>]
+- [skim(@andreasNeuralModuleNetworks2017) -> _digging]
   - "We propose an evolutionary method capable of generating large scale multitask models that support the dynamic addition of new tasks." Sold. Hahaha. 
   - Would love to learn more about evo algo. 
-- [skim(@gesmundoMultiagentFrameworkAsynchronous2022) -> <digging>]
+- [skim(@gesmundoMultiagentFrameworkAsynchronous2022) -> _digging]
   - Have all the keywords I'm interested. Multiagent, collaboration, asynchronous extension of dynamic large scale multitask systems.
-- [skim(@gesmundoMultipathAgentsModular2023) -> <full read>]
+- [skim(@gesmundoMultipathAgentsModular2023) -> _full_read]
   - `munet`. Read this in full to decide of this is the right niche to put more efforts into. 
 - [skim(@asaiATTEMPTParameterEfficientMultitask2022)]
   - Self attention on soft prompts to achieve multitask transfer learning. Very fancy. However I'm not in a position to do prefix finetuning so skip for now. 
 - [soliloquy -> not interested in multilingual application for now. It's special case of multitask learning. Not every task has such clear cut.]
-- [skim(@kasirzadehConversationArtificialIntelligence2022) -> <digging>]
+- [skim(@kasirzadehConversationArtificialIntelligence2022) -> _digging]
   - "train the AI system to build a causal model of itself. We develop an instance of this solution for Deep RL agents: Causal Self-Talk. CST operates by training the agent to communicate with itself across time."
   - Self-talk is critical for calibration. Dig in. 
 - [skim(@songConsistencyModels2023a)]
