@@ -81,7 +81,7 @@ I use the following commands to annotate the `Log`.
 
 | Command                                      | Effect                                          |
 |----------------------------------------------|-------------------------------------------------|
-| skim(source) -> [_digging, _full_read]       | Check if the source is worth my time            |
+| skim(source) -> [`_digging`, `_full_read`]   | Check if the source is worth my time            |
 | read(source)                                 | Engage. Read, study, talk, dream about it       |
 | code(brief_description)                      | Code something                                  |
 | critique                                     |                                                 |
@@ -99,6 +99,7 @@ I use the following commands to annotate the `Log`.
 | hypothesize                                  | Intuitive proposition without proof             |
 | interrupt(event)                             | Top priority event breaks into the stack        |
 | calculate(arithmetics) -> result             | Call calculator                                 |
+| blog -> link                                 | Write a blog                                    |
 
 
 ### Syntax change
@@ -107,6 +108,7 @@ I use the following commands to annotate the `Log`.
 | retrieve(*source) | @citation_key | 20230327 |
 
 ### Change log (latest first)
+- 20230306: add `blog`
 - 20230303: reorg. Group paper reading into skim and cover_to_cover. Paper reproduction has its own folder.
 - 20230228
   - Add `skim`.

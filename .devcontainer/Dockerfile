@@ -1,12 +1,13 @@
 FROM nvcr.io/nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04
 COPY .devcontainer/requirement.txt .
-RUN apt update && apt install git-lfs python3-pip -y \
+RUN apt update && apt install git-lfs python3-pip wget -y \
     && git lfs install 
-RUN pip3 install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 RUN pip3 install -r requirement.txt
 
 
 # log:
+# RUN pip3 install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
+
 # Switch to nvcr.io/nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04 to get rid of apex
 # Which is in conflict with hf int8 inference. 
 

@@ -8,12 +8,8 @@ deepspeed
 git+https://github.com/huggingface/peft.git@main
 loralib
 
-tensorflow
-flax==0.6.3
-optax==0.1.4
-seqio
-
 openai==0.26.*
+tiktoken
 promptsource==0.2.3
 discord.py==2.1.*
 ipywidgets
@@ -28,3 +24,9 @@ wandb
 fire
 sentence-transformers
 ninja
+polars[all]
+
+# tensorflow
+# flax==0.6.3
+# optax==0.1.4
+# seqio

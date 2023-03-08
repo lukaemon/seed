@@ -16,6 +16,7 @@ The largest skimming festival I've ever have LoL.
   - Skimming is like eating, which is more productive when you are hungry with empty stomach.
   - Easting is just part of the story, digest is important. 
   - Forced skimming is like eating when you are full, more like hording. Don't do that. Stop skimming and start coding when you are full. Choose project wisely and dig in. Coding is digesting.
+  - My learning efficiency is not conditioned on how much or how fast I could eat. Right choice of food, enough food, good digestion and exercise are more important. Right now I'm in a weird intellectual obesity state. Time to get lean.
 
 ## Next?
 Back to code. 
@@ -138,4 +139,5 @@ Back to code.
   - Skimming is like eating, which is more productive when you are hungry with empty stomach.
   - Easting is just part of the story, digest is important. 
   - Forced skimming is like eating when you are full, more like hording. Don't do that. Stop skimming and start coding when you are full. Choose project wisely and dig in. Coding is digesting.
+  - My learning efficiency doesn't depend on how much I could eat. Right choice of food, enough food, digest and exercise are the key. Right now I'm in an weird intellectual obesity state. Time to get lean. 
 - I'm ready to stop right here. 
