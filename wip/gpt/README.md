@@ -125,4 +125,5 @@
 - Large model's sample efficiency applies to not only pretraining, but also finetuning. That's why the same instruction finetuning dataset would work better on LLM than 11b. 
 - When it's time to worry about inference practicality, these tricks kick in, @wengLargeTransformerModel2023 ![](asset/inference_opt.png)
     - [lesson_learned -> reaffirms that it's waste of time AND resource to start and only work on small 11b model. Doing that would not get you to `Pareto frontier` of any computation budget caste. You have to figure out a way to amortize LLM training to minimize total ownership cost of modern AI.]
-- 
+- [code(bigram as baseline) -> [bigram.py](bigram.py)]
+- [code(naive chargpt) -> [chargpt.py](chargpt.py)]
