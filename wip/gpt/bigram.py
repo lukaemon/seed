@@ -145,4 +145,4 @@ context = torch.zeros((1, 1), dtype=torch.long).cuda()
 print(decode(m.generate(context, 500)[0].tolist()))
 # %%
 
-## val loss = 2.49
+# val loss = 2.49

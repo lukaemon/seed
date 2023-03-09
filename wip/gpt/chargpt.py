@@ -1,4 +1,5 @@
 # %%
+import time
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
@@ -187,11 +188,13 @@ class GPT(nn.Module):
 # %%
 model = GPT(n_embd, n_head, n_layer)
 model = model.to(device)
+model = torch.compile(model)
 
 print(f"Number of parameters = {sum(p.numel() for p in model.parameters()) / 1e6}M")
 
 optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 
+start = time.time()
 for iter in range(max_iters):
     if iter % eval_interval == 0 or iter == max_iters - 1:
         losses = estimate_loss()
@@ -205,8 +208,10 @@ for iter in range(max_iters):
     loss.backward()
     optimizer.step()
 
+print(f"Training took {time.time() - start:.2f} seconds")
 # %%
 context = torch.zeros((1, 1), dtype=torch.long, device=device)
 print(decode(model.generate(context, max_length=500)[0].tolist()))
 
-# val loss = 1.83
+# val loss = 1.83, 764 sec, vanilla pytorch
+# torch.compile, 632.6 sec

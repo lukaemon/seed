@@ -5,28 +5,29 @@ evaluate
 bitsandbytes 
 sentencepiece
 deepspeed
-git+https://github.com/huggingface/peft.git@main
-loralib
+
 
 openai==0.26.*
 tiktoken
-promptsource==0.2.3
-discord.py==2.1.*
 ipywidgets
 ipykernel
 tqdm
-black
-apache-beam
 rouge-score
 rouge
-nltk>=3.6.6
+nltk
 wandb
 fire
-sentence-transformers
-ninja
 polars[all]
 
+
+# git+https://github.com/huggingface/peft.git@main
+# loralib
 # tensorflow
 # flax==0.6.3
 # optax==0.1.4
 # seqio
+
+# ninja
+# apache-beam
+# discord.py==2.1.*
+# promptsource==0.2.3

@@ -1,7 +1,8 @@
 FROM nvcr.io/nvidia/cuda:11.8.0-cudnn8-devel-ubuntu20.04
 COPY .devcontainer/requirement.txt .
 RUN apt update && apt install git-lfs python3-pip wget -y \
-    && git lfs install 
+    && git lfs install
+RUN pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu118
 RUN pip3 install -r requirement.txt
 
 
