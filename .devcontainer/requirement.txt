@@ -7,7 +7,7 @@ sentencepiece
 deepspeed
 
 
-openai==0.26.*
+openai==0.27.0
 tiktoken
 ipywidgets
 ipykernel

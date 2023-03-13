@@ -1,3 +1,4 @@
+*.bin
 wandb/
 .DS_Store
 nas/

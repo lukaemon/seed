@@ -127,3 +127,11 @@
     - [lesson_learned -> reaffirms that it's waste of time AND resource to start and only work on small 11b model. Doing that would not get you to `Pareto frontier` of any computation budget caste. You have to figure out a way to amortize LLM training to minimize total ownership cost of modern AI.]
 - [code(bigram as baseline) -> [bigram.py](bigram.py)]
 - [code(naive chargpt) -> [chargpt.py](chargpt.py)]
+- Start building on optimization track. 
+- From char to token level, vocab size expands from 65 to 50k, Shakespeare is not enough. Need to download openwebtext.
+- [soliloquy]
+    - Optimization has few directions: data, model, training, and inference. This project would get me oriented on the model and training fundamentals. Still have to work on data and inference optimization later on. Especially the inference optimal direction. Now I get whayt Ilya said it's hard to work on modern AI solo. The stacks are deep and nuanced. Jack of all trades is fine only for a short while. Master of none won't get you far. 
+    - If I have to choose specialization:
+        - Research: multimodal fusion.
+        - Engineering: inference optimal. 
+    - The real power of AI lies in material realm. Pure digial AI is supercharged Bible and The Oddesey. Great and useful but won't change the status quo of infosphere and the general ideology distribution give existing resource imbalance.

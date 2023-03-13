@@ -4,6 +4,10 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
+torch.set_float32_matmul_precision("high")
+torch.backends.cuda.matmul.allow_tf32 = True  # allow tf32 on matmul
+torch.backends.cudnn.allow_tf32 = True  # allow tf32 on cudnn
+
 # hyperparameter
 batch_size = 64  # how many independent sequences will we process in parallel?
 block_size = 256  # what is the maximum context length for predictions?
@@ -214,4 +218,12 @@ context = torch.zeros((1, 1), dtype=torch.long, device=device)
 print(decode(model.generate(context, max_length=500)[0].tolist()))
 
 # val loss = 1.83, 764 sec, vanilla pytorch
-# torch.compile, 632.6 sec
+
+# default torch.compile, 632.6 sec
+# with:
+# torch.set_float32_matmul_precision("high")
+# torch.backends.cuda.matmul.allow_tf32 = True  # allow tf32 on matmul
+# torch.backends.cudnn.allow_tf32 = True  # allow tf32 on cudnn
+# training time down to 487 sec, loss = 1.66, 56% faster
+
+# mode="max-autotune", dynamic=False, fullgraph=True, 473 sec. Default setting is fine.
