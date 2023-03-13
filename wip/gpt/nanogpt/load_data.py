@@ -3,7 +3,9 @@ import os
 import numpy as np
 import torch
 
-import config
+from config import GPT2Config
+
+gpt_config = GPT2Config()
 
 # %%
 train_path = os.path.join(os.path.dirname(__file__), "train.bin")
@@ -19,23 +21,27 @@ def get_batch(split):
     Transform the numpy to np.int64 since the model is expecting torch.long (int64)
     """
     data = train_data if split == "train" else val_data
-    idx = torch.randint(len(data) - config.block_size, size=(config.batch_size,))
+    idx = torch.randint(
+        len(data) - gpt_config.block_size, size=(gpt_config.batch_size,)
+    )
 
     x = torch.stack(
         [
-            torch.from_numpy(data[i : i + config.block_size].astype(np.int64))
+            torch.from_numpy(data[i : i + gpt_config.block_size].astype(np.int64))
             for i in idx
         ]
     )
     y = torch.stack(
         [
-            torch.from_numpy(data[i + 1 : i + 1 + config.block_size].astype(np.int64))
+            torch.from_numpy(
+                data[i + 1 : i + 1 + gpt_config.block_size].astype(np.int64)
+            )
             for i in idx
         ]
     )
 
-    x = x.pin_memory().to(config.device, non_blocking=True)
-    y = y.pin_memory().to(config.device, non_blocking=True)
+    x = x.pin_memory().to(gpt_config.device, non_blocking=True)
+    y = y.pin_memory().to(gpt_config.device, non_blocking=True)
 
     return x, y
 
