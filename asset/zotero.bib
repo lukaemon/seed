@@ -729,7 +729,7 @@
   urldate = {2023-02-24},
   abstract = {As AI systems become more capable, we would like to enlist their help to supervise other AIs. We experiment with methods for training a harmless AI assistant through self-improvement, without any human labels identifying harmful outputs. The only human oversight is provided through a list of rules or principles, and so we refer to the method as 'Constitutional AI'. The process involves both a supervised learning and a reinforcement learning phase. In the supervised phase we sample from an initial model, then generate self-critiques and revisions, and then finetune the original model on revised responses. In the RL phase, we sample from the finetuned model, use a model to evaluate which of the two samples is better, and then train a preference model from this dataset of AI preferences. We then train with RL using the preference model as the reward signal, i.e. we use 'RL from AI Feedback' (RLAIF). As a result we are able to train a harmless but non-evasive AI assistant that engages with harmful queries by explaining its objections to them. Both the SL and RL methods can leverage chain-of-thought style reasoning to improve the human-judged performance and transparency of AI decision making. These methods make it possible to control AI behavior more precisely and with far fewer human labels.},
   pubstate = {preprint},
-  keywords = {alignment},
+  keywords = {alignment,read},
   file = {/Users/lukakuma/Zotero/storage/AYCP287E/Bai et al. - 2022 - Constitutional AI Harmlessness from AI Feedback.pdf;/Users/lukakuma/Zotero/storage/HWDGB49I/2212.html}
 }
 
@@ -821,6 +821,20 @@
   pubstate = {preprint},
   keywords = {*diffusion,image generation},
   file = {/Users/lukakuma/Zotero/storage/E65S6MUK/Balaji et al. - 2022 - eDiffi Text-to-Image Diffusion Models with an Ens.pdf}
+}
+
+@online{baLayerNormalization2016,
+  title = {Layer {{Normalization}}},
+  author = {Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E.},
+  date = {2016-07-21},
+  number = {arXiv:1607.06450},
+  eprint = {arXiv:1607.06450},
+  eprinttype = {arxiv},
+  url = {http://arxiv.org/abs/1607.06450},
+  urldate = {2023-03-13},
+  abstract = {Training state-of-the-art, deep neural networks is computationally expensive. One way to reduce the training time is to normalize the activities of the neurons. A recently introduced technique called batch normalization uses the distribution of the summed input to a neuron over a mini-batch of training cases to compute a mean and variance which are then used to normalize the summed input to that neuron on each training case. This significantly reduces the training time in feed-forward neural networks. However, the effect of batch normalization is dependent on the mini-batch size and it is not obvious how to apply it to recurrent neural networks. In this paper, we transpose batch normalization into layer normalization by computing the mean and variance used for normalization from all of the summed inputs to the neurons in a layer on a single training case. Like batch normalization, we also give each neuron its own adaptive bias and gain which are applied after the normalization but before the non-linearity. Unlike batch normalization, layer normalization performs exactly the same computation at training and test times. It is also straightforward to apply to recurrent neural networks by computing the normalization statistics separately at each time step. Layer normalization is very effective at stabilizing the hidden state dynamics in recurrent networks. Empirically, we show that layer normalization can substantially reduce the training time compared with previously published techniques.},
+  pubstate = {preprint},
+  file = {/Users/lukakuma/Zotero/storage/LRPAE8X3/Ba et al. - 2016 - Layer Normalization.pdf;/Users/lukakuma/Zotero/storage/HJI87GU8/1607.html}
 }
 
 @inproceedings{baninoCoBERLContrastiveBERT2021,
@@ -2994,6 +3008,21 @@
   file = {/Users/lukakuma/Zotero/storage/QUW9ITDE/Dennis et al. - 2021 - Emergent Complexity and Zero-shot Transfer via Uns.pdf;/Users/lukakuma/Zotero/storage/82AHV726/2012.html}
 }
 
+@online{dettmersCase4bitPrecision2023,
+  title = {The Case for 4-Bit Precision: K-Bit {{Inference Scaling Laws}}},
+  shorttitle = {The Case for 4-Bit Precision},
+  author = {Dettmers, Tim and Zettlemoyer, Luke},
+  date = {2023-02-27},
+  number = {arXiv:2212.09720},
+  eprint = {arXiv:2212.09720},
+  eprinttype = {arxiv},
+  url = {http://arxiv.org/abs/2212.09720},
+  urldate = {2023-03-13},
+  abstract = {Quantization methods reduce the number of bits required to represent each parameter in a model, trading accuracy for smaller memory footprints and inference latencies. However, the final model size depends on both the number of parameters of the original model and the rate of compression. For example, a 30B 8-bit model and a 60B 4-bit model have the same number of bits but may have very different zero-shot accuracies. In this work, we study this trade-off by developing inference scaling laws of zero-shot performance in Large Language Models (LLMs) to determine the bit-precision and model size that maximizes zero-shot performance. We run more than 35,000 experiments with 16-bit inputs and k-bit parameters to examine which zero-shot quantization methods improve scaling for 3 to 8-bit precision at scales of 19M to 176B parameters across the LLM families BLOOM, OPT, NeoX/Pythia, and GPT-2. We find that it is challenging to improve the bit-level scaling trade-off, with the only improvements being the use of a small block size -- splitting the parameters into small independently quantized blocks -- and the quantization data type being used (e.g., Int vs Float). Overall, our findings show that \{4-bit\} precision is almost universally optimal for total model bits and zero-shot accuracy.},
+  pubstate = {preprint},
+  file = {/Users/lukakuma/Zotero/storage/Z42XWYZ8/Dettmers and Zettlemoyer - 2023 - The case for 4-bit precision k-bit Inference Scal.pdf;/Users/lukakuma/Zotero/storage/U2MBV353/2212.html}
+}
+
 @online{dettmersLLMInt88bit2022,
   title = {{{LLM}}.Int8(): 8-Bit {{Matrix Multiplication}} for {{Transformers}} at {{Scale}}},
   shorttitle = {{{LLM}}.Int8()},
@@ -3306,6 +3335,7 @@
   urldate = {2023-03-07},
   abstract = {Large language models excel at a wide range of complex tasks. However, enabling general inference in the real world, e.g., for robotics problems, raises the challenge of grounding. We propose embodied language models to directly incorporate real-world continuous sensor modalities into language models and thereby establish the link between words and percepts. Input to our embodied language model are multi-modal sentences that interleave visual, continuous state estimation, and textual input encodings. We train these encodings end-to-end, in conjunction with a pre-trained large language model, for multiple embodied tasks including sequential robotic manipulation planning, visual question answering, and captioning. Our evaluations show that PaLM-E, a single large embodied multimodal model, can address a variety of embodied reasoning tasks, from a variety of observation modalities, on multiple embodiments, and further, exhibits positive transfer: the model benefits from diverse joint training across internet-scale language, vision, and visual-language domains. Our largest model, PaLM-E-562B with 562B parameters, in addition to being trained on robotics tasks, is a visual-language generalist with state-of-the-art performance on OK-VQA, and retains generalist language capabilities with increasing scale.},
   pubstate = {preprint},
+  keywords = {7-multimodal,read},
   file = {/Users/lukakuma/Zotero/storage/BGQDYQCC/Driess et al. - 2023 - PaLM-E An Embodied Multimodal Language Model.pdf;/Users/lukakuma/Zotero/storage/VAMMZJJ3/2303.html}
 }
 
@@ -7111,6 +7141,21 @@
   urldate = {2022-04-21},
   abstract = {Despite progress in perceptual tasks such as image classification, computers still perform poorly on cognitive tasks such as image description and question answering. Cognition is core to tasks that involve not just recognizing, but reasoning about our visual world. However, models used to tackle the rich content in images for cognitive tasks are still being trained using the same datasets designed for perceptual tasks. To achieve success at cognitive tasks, models need to understand the interactions and relationships between objects in an image. When asked "What vehicle is the person riding?", computers will need to identify the objects in an image as well as the relationships riding(man, carriage) and pulling(horse, carriage) in order to answer correctly that "the person is riding a horse-drawn carriage". In this paper, we present the Visual Genome dataset to enable the modeling of such relationships. We collect dense annotations of objects, attributes, and relationships within each image to learn these models. Specifically, our dataset contains over 100K images where each image has an average of 21 objects, 18 attributes, and 18 pairwise relationships between objects. We canonicalize the objects, attributes, relationships, and noun phrases in region descriptions and questions answer pairs to WordNet synsets. Together, these annotations represent the densest and largest dataset of image descriptions, objects, attributes, relationships, and question answers.},
   file = {/Users/lukakuma/Zotero/storage/22HQ5NUK/Krishna et al. - 2016 - Visual Genome Connecting Language and Vision Usin.pdf;/Users/lukakuma/Zotero/storage/TCI35MAS/1602.html}
+}
+
+@inproceedings{kudoSentencePieceSimpleLanguage2018,
+  title = {{{SentencePiece}}: {{A}} Simple and Language Independent Subword Tokenizer and Detokenizer for {{Neural Text Processing}}},
+  shorttitle = {{{SentencePiece}}},
+  booktitle = {Proceedings of the 2018 {{Conference}} on {{Empirical Methods}} in {{Natural Language Processing}}: {{System Demonstrations}}},
+  author = {Kudo, Taku and Richardson, John},
+  date = {2018-11},
+  pages = {66--71},
+  publisher = {{Association for Computational Linguistics}},
+  location = {{Brussels, Belgium}},
+  url = {https://aclanthology.org/D18-2012},
+  urldate = {2023-03-13},
+  abstract = {This paper describes SentencePiece, a language-independent subword tokenizer and detokenizer designed for Neural-based text processing, including Neural Machine Translation. It provides open-source C++ and Python implementations for subword units. While existing subword segmentation tools assume that the input is pre-tokenized into word sequences, SentencePiece can train subword models directly from raw sentences, which allows us to make a purely end-to-end and language independent system. We perform a validation experiment of NMT on English-Japanese machine translation, and find that it is possible to achieve comparable accuracy to direct subword training from raw sentences. We also compare the performance of subword training and segmentation with various configurations. SentencePiece is available under the Apache 2 license at https://github.com/google/sentencepiece.},
+  file = {/Users/lukakuma/Zotero/storage/D3GW945V/Kudo and Richardson - 2018 - SentencePiece A simple and language independent s.pdf}
 }
 
 @online{kuhnSemanticUncertaintyLinguistic2023,
@@ -11249,7 +11294,7 @@
   urldate = {2022-08-08},
   abstract = {By decomposing the image formation process into a sequential application of denoising autoencoders, diffusion models (DMs) achieve state-of-the-art synthesis results on image data and beyond. Additionally, their formulation allows for a guiding mechanism to control the image generation process without retraining. However, since these models typically operate directly in pixel space, optimization of powerful DMs often consumes hundreds of GPU days and inference is expensive due to sequential evaluations. To enable DM training on limited computational resources while retaining their quality and flexibility, we apply them in the latent space of powerful pretrained autoencoders. In contrast to previous work, training diffusion models on such a representation allows for the first time to reach a near-optimal point between complexity reduction and detail preservation, greatly boosting visual fidelity. By introducing cross-attention layers into the model architecture, we turn diffusion models into powerful and flexible generators for general conditioning inputs such as text or bounding boxes and high-resolution synthesis becomes possible in a convolutional manner. Our latent diffusion models (LDMs) achieve a new state of the art for image inpainting and highly competitive performance on various tasks, including unconditional image generation, semantic scene synthesis, and super-resolution, while significantly reducing computational requirements compared to pixel-based DMs. Code is available at https://github.com/CompVis/latent-diffusion .},
   pubstate = {preprint},
-  keywords = {*diffusion,image generation},
+  keywords = {*diffusion,image generation,read},
   file = {/Users/lukakuma/Zotero/storage/5GZ3ISRI/Rombach et al. - 2022 - High-Resolution Image Synthesis with Latent Diffus.pdf;/Users/lukakuma/Zotero/storage/27IPG4SG/2112.html}
 }
 
@@ -11419,6 +11464,21 @@
   abstract = {We present SR3, an approach to image Super-Resolution via Repeated Refinement. SR3 adapts denoising diffusion probabilistic models to conditional image generation and performs super-resolution through a stochastic denoising process. Inference starts with pure Gaussian noise and iteratively refines the noisy output using a U-Net model trained on denoising at various noise levels. SR3 exhibits strong performance on super-resolution tasks at different magnification factors, on faces and natural images. We conduct human evaluation on a standard 8X face super-resolution task on CelebA-HQ, comparing with SOTA GAN methods. SR3 achieves a fool rate close to 50\%, suggesting photo-realistic outputs, while GANs do not exceed a fool rate of 34\%. We further show the effectiveness of SR3 in cascaded image generation, where generative models are chained with super-resolution models, yielding a competitive FID score of 11.3 on ImageNet.},
   pubstate = {preprint},
   file = {/Users/lukakuma/Zotero/storage/W5F8PXD9/Saharia et al. - 2021 - Image Super-Resolution via Iterative Refinement.pdf;/Users/lukakuma/Zotero/storage/YITQXCHZ/2104.html}
+}
+
+@online{sajjadiObjectSceneRepresentation2022,
+  title = {Object {{Scene Representation Transformer}}},
+  author = {Sajjadi, Mehdi S. M. and Duckworth, Daniel and Mahendran, Aravindh and van Steenkiste, Sjoerd and Pavetić, Filip and Lučić, Mario and Guibas, Leonidas J. and Greff, Klaus and Kipf, Thomas},
+  options = {useprefix=true},
+  date = {2022-10-12},
+  number = {arXiv:2206.06922},
+  eprint = {arXiv:2206.06922},
+  eprinttype = {arxiv},
+  url = {http://arxiv.org/abs/2206.06922},
+  urldate = {2023-03-13},
+  abstract = {A compositional understanding of the world in terms of objects and their geometry in 3D space is considered a cornerstone of human cognition. Facilitating the learning of such a representation in neural networks holds promise for substantially improving labeled data efficiency. As a key step in this direction, we make progress on the problem of learning 3D-consistent decompositions of complex scenes into individual objects in an unsupervised fashion. We introduce Object Scene Representation Transformer (OSRT), a 3D-centric model in which individual object representations naturally emerge through novel view synthesis. OSRT scales to significantly more complex scenes with larger diversity of objects and backgrounds than existing methods. At the same time, it is multiple orders of magnitude faster at compositional rendering thanks to its light field parametrization and the novel Slot Mixer decoder. We believe this work will not only accelerate future architecture exploration and scaling efforts, but it will also serve as a useful tool for both object-centric as well as neural scene representation learning communities.},
+  pubstate = {preprint},
+  file = {/Users/lukakuma/Zotero/storage/VYM5AAVG/Sajjadi et al. - 2022 - Object Scene Representation Transformer.pdf;/Users/lukakuma/Zotero/storage/FVT82FAB/2206.html}
 }
 
 @online{salgeEmpowermentIntroduction2013,
@@ -13008,6 +13068,7 @@
   date = {2023-02-25},
   abstract = {We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla70B and PaLM-540B. We release all our models to the research community1.},
   langid = {english},
+  keywords = {read},
   file = {/Users/lukakuma/Zotero/storage/PWBQ6JJN/Touvron et al. - LLaMA Open and Efficient Foundation Language Mode.pdf}
 }
 
@@ -13543,6 +13604,20 @@
   urldate = {2022-04-13},
   abstract = {This paper shows how to construct knowledge graphs (KGs) from pre-trained language models (e.g., BERT, GPT-2/3), without human supervision. Popular KGs (e.g, Wikidata, NELL) are built in either a supervised or semi-supervised manner, requiring humans to create knowledge. Recent deep language models automatically acquire knowledge from large-scale corpora via pre-training. The stored knowledge has enabled the language models to improve downstream NLP tasks, e.g., answering questions, and writing code and articles. In this paper, we propose an unsupervised method to cast the knowledge contained within language models into KGs. We show that KGs are constructed with a single forward pass of the pre-trained language models (without fine-tuning) over the corpora. We demonstrate the quality of the constructed KGs by comparing to two KGs (Wikidata, TAC KBP) created by humans. Our KGs also provide open factual knowledge that is new in the existing KGs. Our code and KGs will be made publicly available.},
   file = {/Users/lukakuma/Zotero/storage/MBHCEES7/Wang et al. - 2020 - Language Models are Open Knowledge Graphs.pdf;/Users/lukakuma/Zotero/storage/IGLK5RRL/2010.html}
+}
+
+@online{wangNeuralMachineTranslation2019,
+  title = {Neural {{Machine Translation}} with {{Byte-Level Subwords}}},
+  author = {Wang, Changhan and Cho, Kyunghyun and Gu, Jiatao},
+  date = {2019-12-05},
+  number = {arXiv:1909.03341},
+  eprint = {arXiv:1909.03341},
+  eprinttype = {arxiv},
+  url = {http://arxiv.org/abs/1909.03341},
+  urldate = {2023-03-13},
+  abstract = {Almost all existing machine translation models are built on top of character-based vocabularies: characters, subwords or words. Rare characters from noisy text or character-rich languages such as Japanese and Chinese however can unnecessarily take up vocabulary slots and limit its compactness. Representing text at the level of bytes and using the 256 byte set as vocabulary is a potential solution to this issue. High computational cost has however prevented it from being widely deployed or used in practice. In this paper, we investigate byte-level subwords, specifically byte-level BPE (BBPE), which is compacter than character vocabulary and has no out-of-vocabulary tokens, but is more efficient than using pure bytes only is. We claim that contextualizing BBPE embeddings is necessary, which can be implemented by a convolutional or recurrent layer. Our experiments show that BBPE has comparable performance to BPE while its size is only 1/8 of that for BPE. In the multilingual setting, BBPE maximizes vocabulary sharing across many languages and achieves better translation quality. Moreover, we show that BBPE enables transferring models between languages with non-overlapping character sets.},
+  pubstate = {preprint},
+  file = {/Users/lukakuma/Zotero/storage/C3F37JI7/Wang et al. - 2019 - Neural Machine Translation with Byte-Level Subword.pdf;/Users/lukakuma/Zotero/storage/D5MM9BMS/1909.html}
 }
 
 @online{wangRationaleAugmentedEnsemblesLanguage2022,
@@ -14227,6 +14302,21 @@
   pubstate = {preprint},
   keywords = {action/physical},
   file = {/Users/lukakuma/Zotero/storage/N8IIEKJ2/Xiao et al. - 2022 - Robotic Skill Acquisition via Instruction Augmenta.pdf;/Users/lukakuma/Zotero/storage/9G986PKU/2211.html}
+}
+
+@online{xiaoSmoothQuantAccurateEfficient2023,
+  title = {{{SmoothQuant}}: {{Accurate}} and {{Efficient Post-Training Quantization}} for {{Large Language Models}}},
+  shorttitle = {{{SmoothQuant}}},
+  author = {Xiao, Guangxuan and Lin, Ji and Seznec, Mickael and Wu, Hao and Demouth, Julien and Han, Song},
+  date = {2023-02-14},
+  number = {arXiv:2211.10438},
+  eprint = {arXiv:2211.10438},
+  eprinttype = {arxiv},
+  url = {http://arxiv.org/abs/2211.10438},
+  urldate = {2023-03-13},
+  abstract = {Large language models (LLMs) show excellent performance but are compute- and memory-intensive. Quantization can reduce memory and accelerate inference. However, for LLMs beyond 100 billion parameters, existing methods cannot maintain accuracy or do not run efficiently on hardware. We propose SmoothQuant, a training-free, accuracy-preserving, and general-purpose post-training quantization (PTQ) solution to enable 8-bit weight, 8-bit activation (W8A8) quantization for LLMs. Based on the fact that weights are easy to quantize while activations are not, SmoothQuant smooths the activation outliers by offline migrating the quantization difficulty from activations to weights with a mathematically equivalent transformation. SmoothQuant enables an INT8 quantization of both weights and activations for all the matrix multiplications in LLMs, including OPT-175B, BLOOM-176B, GLM-130B, and MT-NLG 530B. SmoothQuant has better hardware efficiency than existing techniques. We demonstrate up to 1.56x speedup and 2x memory reduction for LLMs with negligible loss in accuracy. We integrate SmoothQuant into FasterTransformer, a state-of-the-art LLM serving framework, and achieve faster inference speed with half the number of GPUs compared to FP16, enabling the serving of a 530B LLM within a single node. Our work offers a turn-key solution that reduces hardware costs and democratizes LLMs. Code is available at https://github.com/mit-han-lab/smoothquant.},
+  pubstate = {preprint},
+  file = {/Users/lukakuma/Zotero/storage/DIDDMK6W/Xiao et al. - 2023 - SmoothQuant Accurate and Efficient Post-Training .pdf;/Users/lukakuma/Zotero/storage/4G3MZLEM/2211.html}
 }
 
 @online{xuAcceleratedPolicyLearning2022,
