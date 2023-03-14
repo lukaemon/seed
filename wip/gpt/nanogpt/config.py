@@ -3,31 +3,22 @@ from dataclasses import dataclass
 
 @dataclass
 class GPT2Config:
-    out_dir = "out"
+    # data
     max_iters = 100  # 600000  # total number of training iterations
+    batch_size = 16
+    gradient_accumulation_steps = 1  # used to simulate larger batch sizes
+    block_size = 1024
+
     eval_interval = 100  # 500
     eval_iters = 10  # 200
-    log_interval = 1
-    eval_only = False  # if True, script exits right after the first eval
-    always_save_checkpoint = True  # if True, always save a checkpoint after each eval
-    init_from = "scratch"  # 'scratch' or 'resume' or 'gpt2*'
-
-    # wandb logging
-    wandb_log = False  # disabled by default
-    wandb_project = "gpt2"
-
-    # data
-    gradient_accumulation_steps = 8  # used to simulate larger batch sizes
-    batch_size = 16
-    block_size = 1024
-    vocab_size = 50304
 
     # model
-    n_layer = 12  # 12
-    n_head = 12  # 12
-    n_embd = 768  # 768
+    n_layer = 12
+    n_head = 12
+    n_embd = 768
     dropout = 0.0  # for pretraining 0 is good, for finetuning try 0.1+
     bias = False  # do we use bias inside LayerNorm and Linear layers?
+    vocab_size = 50304
 
     # adamw optimizer
     learning_rate = 6e-4  # max learning rate
@@ -45,5 +36,12 @@ class GPT2Config:
     # DDP settings
     backend = "nccl"  # 'nccl', 'gloo', etc.
 
-    # system
-    device = "cuda"
+    # checkpoint
+    out_dir = "out"
+    always_save_checkpoint = True  # if True, always save a checkpoint after each eval
+    init_from = "scratch"  # 'scratch' or 'resume' or 'gpt2*'
+
+    # wandb logging
+    log_interval = 1
+    wandb_log = False  # disabled by default
+    wandb_project = "gpt2"

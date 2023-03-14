@@ -1,4 +1,7 @@
 """difference to chargpt
+ddp: torchrun --standalone --nproc_per_node=2 train.py
+single node: python train.py
+
 ✅ loss fn
     - reduction='mean' by default. 
 ✅ compile model
@@ -7,10 +10,10 @@
 ✅ gradient accumulation
 ✅ ddp
 - estimate model flop utilization
+- checkpointing and resume
 - wandb logging
 - lr scheduler
 - weight decay
-- checkpointing and resume
 """
 
 
