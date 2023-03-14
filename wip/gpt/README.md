@@ -134,5 +134,35 @@
     - If I have to choose specialization:
         - Research: multimodal fusion.
         - Engineering: inference optimal. 
+        - Application: talk to me, my seed project.
     - The real power of AI lies in material realm. Pure digital AI is supercharged Bible and The Odyssey. Great and useful but won't change the status quo of infosphere and the general ideology distribution give existing resource imbalance.
 - `LayerNorm`. Each token representation after layernorm mean is ~0, std is ~1. 
+- [code(basic training loop is done) -> [train.py](train.py)], start adding optimization tricks.
+- `fp32` -> `bf16` = 2x throughput.
+    - Baseline: `34332.84 token/s`
+        ```
+        max_iter = 100
+        eval_interval = 100
+        eval_iters = 10
+
+        compile = True
+        mix_precision = torch.bfloat16
+        grad_accu = 1
+        batch_size = 16
+        ```
+- Gradient accumulation 
+    - 2: `43533.73 token/s`
+    - 4: `50085.79 token/s`. You get the point.
+- DDP, 1 node, 2*3090, grad_accu=4: `45673.31 token/s * 2`
+    - Drop from 50k to 45k, is the communication overhead for gradient sync. 
+- DDP + grad_accu = 8: `51972.08 token/s * 2`
+    - [calculate(9000000000 / (51972* 2) / 3600 / 24 = 1) -> 1]
+    - With this setup, power through 9b tokens would take 1 day. That doesn't make sense. AK trained gpt2 on 8*a100 for 4 days. What's wrong with my calculation?
+    - AK config
+      ```
+      max_iter = 600000
+      grad_accu = 5
+      batch_size = 12
+      ```
+    - [calculate(600000 * 5 * 12 * 1024 / 1e9 = 36.8) -> 36.8] This is like 4 epoch per node. Is that right? What did I miss?
+- [question -> turns out I don't know how LLM training loop through large dataset at all.]
