@@ -72,6 +72,7 @@ Operational log. Event driven, append only. Lightly grouped by topic since sub-l
 | [paper_reading/skim/2023w8](paper_reading/skim/2023w8)                                                                             | 202302   |
 | [paper_reading/skim/2023w9](paper_reading/skim/2023w9)                                                                             | 202303   |
 | [paper_reading/cover_to_cover/pfeifferModularDeepLearning2023](paper_reading/cover_to_cover/pfeifferModularDeepLearning2023)       | 202303   |
+| [paper_reading/cover_to_cover/driessPaLMEEmbodiedMultimodal2023](paper_reading/cover_to_cover/driessPaLMEEmbodiedMultimodal2023)   | 202303   |
 
 Read [learning to learn](https://lukaemon.github.io/posts/2023/learning-to-learn/) for why I structure the trajectory and project this way.
 
